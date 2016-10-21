@@ -6,8 +6,8 @@
 	"SSLVerify": false,
 	"DisableIPv6": false,
 	"ForceIPv6": false,
-	"DisableHTTP2": false,
-	"ForceHTTP2": true,
+	"DisableHTTP2": true,
+	"ForceHTTP2": false,
 	"EnableDeadProbe": true,
 	"EnableRemoteDNS": false,
 	"HostMap" : {
