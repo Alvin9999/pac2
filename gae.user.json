@@ -46,7 +46,7 @@
 		"*.gstatic.com": "google_hk",
 		"*.ytimg.com": "google_hk",
 		"upload.youtube.com": "google_hk",
-		// "*.youtube.com": "google_hk",
+		"*.youtube.com": "google_hk",
 	},
 	"ForceGAE": [
 		"business.google.com",
