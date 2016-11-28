@@ -55,6 +55,7 @@
 		"www.google.com/maps",
 		"www.google.com/patents",
 		"plus.google.com/$",
+		"mail.google.com",
 	],
 	"TLSConfig": {
 		"Version": "TLSv1.2",
