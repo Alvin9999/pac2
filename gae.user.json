@@ -61,6 +61,7 @@
 		"tools.google.com",
 		"www.google.com/maps",
 		"www.google.com/patents",
+		"youtube.googleapis.com",
 	],
 	"TLSConfig": {
 		"Version": "TLSv1.2",
