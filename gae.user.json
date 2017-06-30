@@ -8,7 +8,7 @@
 	"ForceIPv6": false,
 	"DisableHTTP2": true,
 	"ForceHTTP2": false,
-	"EnableQuic": true,
+	"EnableQuic": false,
 	"EnableDeadProbe": true,
 	"EnableRemoteDNS": false,
 	"HostMap" : {
