@@ -2,7 +2,7 @@
     "run_type": "client",
     "local_addr": "127.0.0.1",
     "local_port": 1080,
-    "remote_addr": "tr1.free9999.net",
+    "remote_addr": "www.free9999.net",
     "remote_port": 443,
     "password": [
         "dongtaiwang.com"
