@@ -2,16 +2,16 @@
     "run_type": "client",
     "local_addr": "127.0.0.1",
     "local_port": 1080,
-    "remote_addr": "tr21.free99999.com",
+    "remote_addr": "tr22.free99999.com",
     "remote_port": 443,
     "password": [
-        "5bd2b024"
+        "dongtaiwang.com 1ab"
     ],
     "log_level": 1,
     "ssl": {
         "verify": true,
         "verify_hostname": true,
-        "cert": "private.crt",
+        "cert": "",
         "cipher_tls13":"TLS_AES_128_GCM_SHA256:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_256_GCM_SHA384",
 "sni": "",
         "alpn": [
