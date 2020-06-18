@@ -2,10 +2,10 @@
     "run_type": "client",
     "local_addr": "127.0.0.1",
     "local_port": 1080,
-    "remote_addr": "tr23.free99999.com",
+    "remote_addr": "trojan.ifuckgfw.cf",
     "remote_port": 443,
     "password": [
-        "8exat2sMIKR4IzMZ"
+        "AOTPqIkn"
     ],
     "log_level": 1,
     "ssl": {
