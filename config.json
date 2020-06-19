@@ -2,10 +2,10 @@
     "run_type": "client",
     "local_addr": "127.0.0.1",
     "local_port": 1080,
-    "remote_addr": "tr25.free99999.com",
+    "remote_addr": "www.showtime20200229.monster",
     "remote_port": 443,
     "password": [
-        "ntdtv.com 7ac"
+        "9cc32414"
     ],
     "log_level": 1,
     "ssl": {
