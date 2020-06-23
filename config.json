@@ -2,10 +2,10 @@
   "run_type": "client",
   "local_addr": "127.0.0.1",
   "local_port": 1080,
-  "remote_addr": "tr11.free4444.club",
+  "remote_addr": "tr10.free9999.net",
   "remote_port": 443,
   "password": [
-    "b62b4570-bc92-4b10-84dd-f48198ce77c0"
+    "510b0580-aac6-430a-9cd3-f2079fcaa8bb"
   ],
   "log_level": 1,
   "ssl": {
