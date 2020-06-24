@@ -2,10 +2,10 @@
   "run_type": "client",
   "local_addr": "127.0.0.1",
   "local_port": 1080,
-  "remote_addr": "tr10.free9999.net",
+  "remote_addr": "usr8230.wwap1.com",
   "remote_port": 443,
   "password": [
-    "510b0580-aac6-430a-9cd3-f2079fcaa8bb"
+    "3rsnQ5"
   ],
   "log_level": 1,
   "ssl": {
