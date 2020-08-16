@@ -3,29 +3,111 @@
   "local_addr": "127.0.0.1",
   "local_port": 1080,
   "remote_addr": "tr7.freedom103.xyz",
-  "remote_port": 443,
-  "password": [
-    "721260d1-ab00-4148-bb30-25264c983577"
-  ],
+  "remote_port": 19164,
   "log_level": 1,
+  "log_file": "",
+  "password": [
+    "dongtaiwang.com"
+  ],
+  "buffer_size": 32,
+  "dns": [],
+  "disable_http_check": false,
   "ssl": {
     "verify": true,
     "verify_hostname": true,
     "cert": "",
-    "cipher": "ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:RSA-AES128-GCM-SHA256:RSA-AES256-GCM-SHA384:RSA-AES128-SHA:RSA-AES256-SHA:RSA-3DES-EDE-SHA",
+    "key": "",
+    "key_password": "",
+    "cipher": "",
+    "cipher_tls13": "",
+    "curves": "",
+    "prefer_server_cipher": false,
     "sni": "",
     "alpn": [
-      "h2",
       "http/1.1"
     ],
+    "session_ticket": true,
     "reuse_session": true,
-    "session_ticket": false,
-    "curves": ""
+    "plain_http_response": "",
+    "fallback_port": 0,
+    "fingerprint": "firefox",
+    "serve_plain_text": false
   },
   "tcp": {
     "no_delay": true,
     "keep_alive": true,
+    "reuse_port": false,
+    "prefer_ipv4": false,
     "fast_open": false,
     "fast_open_qlen": 20
+  },
+  "mux": {
+    "enabled": false,
+    "concurrency": 8,
+    "idle_timeout": 60
+  },
+  "router": {
+    "enabled": false,
+    "bypass": [],
+    "proxy": [],
+    "block": [],
+    "default_policy": "proxy",
+    "domain_strategy": "as_is",
+    "geoip": "./geoip.dat",
+    "geosite": "./geosite.dat"
+  },
+  "websocket": {
+    "enabled": true,
+    "path": "/trojan",
+    "hostname": "",
+    "obfuscation_password": "",
+    "double_tls": true,
+    "ssl": {
+      "verify": true,
+      "verify_hostname": true,
+      "cert": "",
+      "key": "",
+      "key_password": "",
+      "prefer_server_cipher": false,
+      "sni": "",
+      "session_ticket": true,
+      "reuse_session": true,
+      "plain_http_response": "",
+      "key_log": ""
+    }
+  },
+  "forward_proxy": {
+    "enabled": false,
+    "proxy_addr": "",
+    "proxy_port": 0,
+    "username": "",
+    "password": ""
+  },
+  "mysql": {
+    "enabled": false,
+    "server_addr": "localhost",
+    "server_port": 3306,
+    "database": "",
+    "username": "",
+    "password": "",
+    "check_rate": 60
+  },
+  "redis": {
+    "enabled": false,
+    "server_addr": "localhost",
+    "server_port": 6379,
+    "password": ""
+  },
+  "api": {
+    "enabled": false,
+    "api_addr": "",
+    "api_port": 0,
+    "api_tls": false,
+    "ssl": {
+      "cert": "",
+      "key": "",
+      "key_password": "",
+      "client_cert": []
+    }
   }
 }
