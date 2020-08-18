@@ -3,11 +3,11 @@
   "local_addr": "127.0.0.1",
   "local_port": 1080,
   "remote_addr": "tr7.freedom103.xyz",
-  "remote_port": 19164,
+  "remote_port": 443,
   "log_level": 1,
   "log_file": "",
   "password": [
-    "dongtaiwang.com"
+    "aed00380-a24a-40b1-bf66-8557428dd641"
   ],
   "buffer_size": 32,
   "dns": [],
@@ -58,7 +58,7 @@
   },
   "websocket": {
     "enabled": true,
-    "path": "/trojan",
+    "path": "/4ed1",
     "hostname": "",
     "obfuscation_password": "",
     "double_tls": true,
