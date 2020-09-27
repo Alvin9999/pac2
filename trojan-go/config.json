@@ -2,10 +2,10 @@
   "run_type": "client",
   "local_addr": "127.0.0.1",
   "local_port": 1080,
-  "remote_addr": "tr118.freedom103.xyz",
+  "remote_addr": "tr121.freedom103.xyz",
   "remote_port": 443,
   "password": [
-    "45e3378c-d713-4b84-b6aa-c684c641df9e"
+    "e26c7044-5c64-43cf-af2d-c9f86ca47bd4"
   ],
   "ssl": {
     "cert": "",
@@ -13,6 +13,6 @@
   },
   "websocket": {
     "enabled": true,
-    "path": "/a13f"
+    "path": "/trojan"
   }
 }
