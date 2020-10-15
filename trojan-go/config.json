@@ -2,10 +2,10 @@
   "run_type": "client",
   "local_addr": "127.0.0.1",
   "local_port": 1080,
-  "remote_addr": "tr123.freedom103.xyz",
+  "remote_addr": "tr13.free2222.xyz",
   "remote_port": 443,
   "password": [
-    "fe6ec5ac-e305-4c33-b3d5-bbd1ed5bc55a"
+    "08552594-ea6c-4a9e-a18c-645db4ff584e"
   ],
   "ssl": {
     "cert": "",
@@ -13,6 +13,6 @@
   },
   "websocket": {
     "enabled": true,
-    "path": "/trojan"
+    "path": "/dongtaiwang.com"
   }
 }
