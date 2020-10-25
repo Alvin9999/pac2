@@ -2,17 +2,17 @@
   "run_type": "client",
   "local_addr": "127.0.0.1",
   "local_port": 1080,
-  "remote_addr": "tr13.free2222.xyz",
+  "remote_addr": "tr200.free2222.xyz",
   "remote_port": 443,
   "password": [
-    "08552594-ea6c-4a9e-a18c-645db4ff584e"
+    "fd144a45-a714-412c-99d4-939ec6f8d55a"
   ],
   "ssl": {
     "cert": "",
     "key": ""
   },
   "websocket": {
-    "enabled": true,
-    "path": "/dongtaiwang.com"
+    "enabled": false,
+    "path": ""
   }
 }
