@@ -2,17 +2,17 @@
   "run_type": "client",
   "local_addr": "127.0.0.1",
   "local_port": 1080,
-  "remote_addr": "tr60.free3333.xyz",
+  "remote_addr": "bigsur.tk",
   "remote_port": 443,
   "password": [
-    "57f92872-23c7-48b4-83b5-903ee82d0244"
+    "1d2664a6-5b59-4cb5-856b-0aa89bf76f95"
   ],
   "ssl": {
     "cert": "",
     "key": ""
   },
   "websocket": {
-    "enabled": true,
-    "path": "/trojan"
+    "enabled": false,
+    "path": ""
   }
 }
