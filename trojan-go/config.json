@@ -2,10 +2,10 @@
   "run_type": "client",
   "local_addr": "127.0.0.1",
   "local_port": 1080,
-  "remote_addr": "bigsur.tk",
+  "remote_addr": "kailun.tk",
   "remote_port": 443,
   "password": [
-    "1d2664a6-5b59-4cb5-856b-0aa89bf76f95"
+    "25ba1e73"
   ],
   "ssl": {
     "cert": "",
