@@ -2,17 +2,23 @@
   "run_type": "client",
   "local_addr": "127.0.0.1",
   "local_port": 1080,
-  "remote_addr": "kailun.tk",
+  "remote_addr": "tr6.freedown7.xyz",
   "remote_port": 443,
   "password": [
-    "25ba1e73"
+    "a59e6229-9685-46d1-8e40-4fd99fc09a16"
   ],
+  "disable_http_check": true,
   "ssl": {
     "cert": "",
     "key": ""
   },
   "websocket": {
+    "enabled": true,
+    "path": "/trojan"
+  },
+  "mux": {
     "enabled": false,
-    "path": ""
+    "concurrency": 8,
+    "idle_timeout": 60
   }
 }
