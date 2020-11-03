@@ -2,10 +2,10 @@
   "run_type": "client",
   "local_addr": "127.0.0.1",
   "local_port": 1080,
-  "remote_addr": "tr6.freedown7.xyz",
+  "remote_addr": "tr2.free5555.xyz",
   "remote_port": 443,
   "password": [
-    "a59e6229-9685-46d1-8e40-4fd99fc09a16"
+    "09efdc09-a569-4434-a694-532b23a75dcb"
   ],
   "disable_http_check": true,
   "ssl": {
