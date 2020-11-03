@@ -3,214 +3,198 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇸🇬 新加坡（https://git.io/v9999）, server: 120.232.194.9, port: 106, type: ss, cipher: aes-128-gcm, password: xmr03mg}
-  - {name: 🇺🇲 美国（https://git.io/v9999）, server: 47.242.38.105, port: 443, type: vmess, uuid: 1b065dbc-b963-37b8-b865-4484a15a339e, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s253.snode.xyz}}
-  - {name: 🇺🇲 美国（https://git.io/v9999） 2, server: 172.67.199.187, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
-  - {name: 🇯🇵 日本（https://git.io/v9999）, server: 40.81.210.59, port: 443, type: vmess, uuid: adbece96-40a8-3d29-a05f-fda5e696f67f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp-5.azure.vip5.v2ray.ikuuu.pro}}
-  - {name: 🇺🇲 美国（https://git.io/v9999） 3, server: 74.119.146.131, port: 34762, type: ss, cipher: aes-256-gcm, password: yxGY7A5MczQYg6UqSFx9u78V}
-  - {name: 🇭🇰 香港（https://git.io/v9999）, server: global-transit-01-hk.baipiao.de, port: 110, type: vmess, uuid: cdf5f6df-2c73-3bb8-9a9a-053161876fdd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: global-transit-01-hk.baipiao.de}}
-  - {name: 🇭🇰 香港（https://git.io/v9999） 2, server: 52.175.16.108, port: 63132, type: vmess, uuid: e3b51fd0-f3f5-4c37-a7bd-c8d7d6069ff4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 52.175.16.108}}
-  - {name: 🇸🇬 新加坡（https://git.io/v9999） 2, server: 8.210.202.124, port: 443, type: vmess, uuid: 1b065dbc-b963-37b8-b865-4484a15a339e, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s252.snode.xyz}}
-  - {name: 🇯🇵 日本（https://git.io/v9999） 2, server: 198.13.36.128, port: 45365, type: vmess, uuid: e9b63072-91a1-47f2-ba08-79d2488283e4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾（https://git.io/v9999）, server: global-transit-03-tw.baipiao.de, port: 3101, type: vmess, uuid: cdf5f6df-2c73-3bb8-9a9a-053161876fdd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: global-transit-03-tw.baipiao.de}}
-  - {name: 🇸🇬 新加坡（https://git.io/v9999） 3, server: 8.210.168.51, port: 443, type: vmess, uuid: fe7512ed-1d53-3f6f-9ad0-ea4e391014cc, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s271.snode.xyz}}
-  - {name: 🇺🇲 美国（https://git.io/v9999） 4, server: 47.242.38.85, port: 443, type: vmess, uuid: 1b065dbc-b963-37b8-b865-4484a15a339e, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s250.snode.xyz}}
-  - {name: 欧洲（https://git.io/v9999）, server: 89.46.223.98, port: 34762, type: ss, cipher: aes-256-gcm, password: yxGY7A5MczQYg6UqSFx9u78V}
-  - {name: 🇯🇵 日本（https://git.io/v9999） 3, server: jp-5.azure.v2ray.ikuuu.pro, port: 443, type: vmess, uuid: 65a3f043-6b4e-379e-95a4-fd4c3d8b3cb2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp-5.azure.v2ray.ikuuu.pro}}
-  - {name: 🇸🇬 新加坡（https://git.io/v9999） 4, server: shanghai-cn2-nat.mugun.xyz, port: 25073, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
-  - {name: 🇸🇬 新加坡（https://git.io/v9999） 5, server: 8.210.119.15, port: 443, type: vmess, uuid: 1b065dbc-b963-37b8-b865-4484a15a339e, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s257.snode.xyz}}
-  - {name: 🇸🇬 新加坡（https://git.io/v9999） 6, server: shanghai-cn2-nat.mugun.xyz, port: 25068, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
-  - {name: 🇯🇵 日本（https://git.io/v9999） 4, server: shanghai-cn2-nat.mugun.xyz, port: 25060, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
-  - {name: 🇯🇵 日本（https://git.io/v9999） 5, server: 116.80.41.17, port: 50548, type: vmess, uuid: 39f9a172-f8a0-4819-95e2-8fbbb455fd3c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 116.80.41.17}}
-  - {name: 🇺🇲 美国（https://git.io/v9999） 5, server: 213.59.119.2, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
-  - {name: 🇭🇰 香港（https://git.io/v9999） 3, server: 120.232.194.9, port: 104, type: ss, cipher: aes-128-gcm, password: mC7qrHw3}
+  - {name: 🇭🇰 香港（https://git.io/v9999）, server: 183.232.136.231, port: 102, type: ss, cipher: aes-128-gcm, password: wVu4fp}
+  - {name: 🇭🇰 香港（https://git.io/v9999） 2, server: zh.speednetwork.xyz, port: 50000, type: vmess, uuid: 9e7a51fd-c7af-40e6-90fa-cef6d0e968a2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v1, ws-headers: {Host: v.qq.com}}
+  - {name: 🇳🇱 荷兰（https://git.io/v9999）, server: 185.224.250.105, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
+  - {name: 🇺🇲 美国（https://git.io/v9999）, server: 74.119.146.131, port: 34762, type: ss, cipher: aes-256-gcm, password: yxGY7A5MczQYg6UqSFx9u78V}
+  - {name: 🇺🇲 美国（https://git.io/v9999） 2, server: 184.170.243.197, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇲 美国（https://git.io/v9999） 3, server: 66.115.177.156, port: 34762, type: ss, cipher: aes-256-gcm, password: yxGY7A5MczQYg6UqSFx9u78V}
+  - {name: 🇺🇲 美国（https://git.io/v9999） 4, server: 184.170.243.197, port: 34762, type: ss, cipher: aes-256-gcm, password: yxGY7A5MczQYg6UqSFx9u78V}
+  - {name: 🇳🇱 荷兰（https://git.io/v9999） 2, server: 185.224.250.112, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
+  - {name: 🇳🇱 荷兰（https://git.io/v9999） 3, server: 185.224.250.106, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
+  - {name: 🇯🇵 日本（https://git.io/v9999）, server: 45.87.213.19, port: 34762, type: ss, cipher: aes-256-gcm, password: yxGY7A5MczQYg6UqSFx9u78V}
+  - {name: 🇸🇬 新加坡（https://git.io/v9999）, server: 103.114.163.13, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB}
+  - {name: 🇭🇰 香港（https://git.io/v9999） 3, server: global-transit-01-hk.baipiao.de, port: 110, type: vmess, uuid: cdf5f6df-2c73-3bb8-9a9a-053161876fdd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: global-transit-01-hk.baipiao.de}}
+  - {name: 🇮🇳 印度（https://git.io/v9999）, server: shanghai-cn2-nat.mugun.xyz, port: 25067, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
+  - {name: 🇸🇬 新加坡（https://git.io/v9999） 2, server: 120.232.194.9, port: 106, type: ss, cipher: aes-128-gcm, password: xmr03mg}
+  - {name: 🇯🇵 日本（https://git.io/v9999） 2, server: 40.81.210.59, port: 443, type: vmess, uuid: adbece96-40a8-3d29-a05f-fda5e696f67f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp-5.azure.vip5.v2ray.ikuuu.pro}}
+  - {name: 🇭🇰 香港（https://git.io/v9999） 4, server: 120.232.194.9, port: 104, type: ss, cipher: aes-128-gcm, password: mC7qrHw3}
+  - {name: 🇰🇷 韩国（https://git.io/v9999）, server: littlesur.ml, port: 443, type: vmess, uuid: 72275244-1a41-11eb-b3eb-5600030aa651, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /7NniUhIC/, ws-headers: {Host: littlesur.ml}}
+  - {name: 🇯🇵 日本（https://git.io/v9999） 3, server: shanghai-cn2-nat.mugun.xyz, port: 25060, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
+  - {name: 🇯🇵 日本（https://git.io/v9999） 4, server: shanghai-cn2-nat.mugun.xyz, port: 25062, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 新加坡（https://git.io/v9999）
-      - 🇺🇲 美国（https://git.io/v9999）
-      - 🇺🇲 美国（https://git.io/v9999） 2
-      - 🇯🇵 日本（https://git.io/v9999）
-      - 🇺🇲 美国（https://git.io/v9999） 3
       - 🇭🇰 香港（https://git.io/v9999）
       - 🇭🇰 香港（https://git.io/v9999） 2
+      - 🇳🇱 荷兰（https://git.io/v9999）
+      - 🇺🇲 美国（https://git.io/v9999）
+      - 🇺🇲 美国（https://git.io/v9999） 2
+      - 🇺🇲 美国（https://git.io/v9999） 3
+      - 🇺🇲 美国（https://git.io/v9999） 4
+      - 🇳🇱 荷兰（https://git.io/v9999） 2
+      - 🇳🇱 荷兰（https://git.io/v9999） 3
+      - 🇯🇵 日本（https://git.io/v9999）
+      - 🇸🇬 新加坡（https://git.io/v9999）
+      - 🇭🇰 香港（https://git.io/v9999） 3
+      - 🇮🇳 印度（https://git.io/v9999）
       - 🇸🇬 新加坡（https://git.io/v9999） 2
       - 🇯🇵 日本（https://git.io/v9999） 2
-      - 🇨🇳 台湾（https://git.io/v9999）
-      - 🇸🇬 新加坡（https://git.io/v9999） 3
-      - 🇺🇲 美国（https://git.io/v9999） 4
-      - 欧洲（https://git.io/v9999）
+      - 🇭🇰 香港（https://git.io/v9999） 4
+      - 🇰🇷 韩国（https://git.io/v9999）
       - 🇯🇵 日本（https://git.io/v9999） 3
-      - 🇸🇬 新加坡（https://git.io/v9999） 4
-      - 🇸🇬 新加坡（https://git.io/v9999） 5
-      - 🇸🇬 新加坡（https://git.io/v9999） 6
       - 🇯🇵 日本（https://git.io/v9999） 4
-      - 🇯🇵 日本（https://git.io/v9999） 5
-      - 🇺🇲 美国（https://git.io/v9999） 5
-      - 🇭🇰 香港（https://git.io/v9999） 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 新加坡（https://git.io/v9999）
-      - 🇺🇲 美国（https://git.io/v9999）
-      - 🇺🇲 美国（https://git.io/v9999） 2
-      - 🇯🇵 日本（https://git.io/v9999）
-      - 🇺🇲 美国（https://git.io/v9999） 3
       - 🇭🇰 香港（https://git.io/v9999）
       - 🇭🇰 香港（https://git.io/v9999） 2
+      - 🇳🇱 荷兰（https://git.io/v9999）
+      - 🇺🇲 美国（https://git.io/v9999）
+      - 🇺🇲 美国（https://git.io/v9999） 2
+      - 🇺🇲 美国（https://git.io/v9999） 3
+      - 🇺🇲 美国（https://git.io/v9999） 4
+      - 🇳🇱 荷兰（https://git.io/v9999） 2
+      - 🇳🇱 荷兰（https://git.io/v9999） 3
+      - 🇯🇵 日本（https://git.io/v9999）
+      - 🇸🇬 新加坡（https://git.io/v9999）
+      - 🇭🇰 香港（https://git.io/v9999） 3
+      - 🇮🇳 印度（https://git.io/v9999）
       - 🇸🇬 新加坡（https://git.io/v9999） 2
       - 🇯🇵 日本（https://git.io/v9999） 2
-      - 🇨🇳 台湾（https://git.io/v9999）
-      - 🇸🇬 新加坡（https://git.io/v9999） 3
-      - 🇺🇲 美国（https://git.io/v9999） 4
-      - 欧洲（https://git.io/v9999）
+      - 🇭🇰 香港（https://git.io/v9999） 4
+      - 🇰🇷 韩国（https://git.io/v9999）
       - 🇯🇵 日本（https://git.io/v9999） 3
-      - 🇸🇬 新加坡（https://git.io/v9999） 4
-      - 🇸🇬 新加坡（https://git.io/v9999） 5
-      - 🇸🇬 新加坡（https://git.io/v9999） 6
       - 🇯🇵 日本（https://git.io/v9999） 4
-      - 🇯🇵 日本（https://git.io/v9999） 5
-      - 🇺🇲 美国（https://git.io/v9999） 5
-      - 🇭🇰 香港（https://git.io/v9999） 3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡（https://git.io/v9999）
-      - 🇺🇲 美国（https://git.io/v9999）
-      - 🇺🇲 美国（https://git.io/v9999） 2
-      - 🇯🇵 日本（https://git.io/v9999）
-      - 🇺🇲 美国（https://git.io/v9999） 3
       - 🇭🇰 香港（https://git.io/v9999）
       - 🇭🇰 香港（https://git.io/v9999） 2
+      - 🇳🇱 荷兰（https://git.io/v9999）
+      - 🇺🇲 美国（https://git.io/v9999）
+      - 🇺🇲 美国（https://git.io/v9999） 2
+      - 🇺🇲 美国（https://git.io/v9999） 3
+      - 🇺🇲 美国（https://git.io/v9999） 4
+      - 🇳🇱 荷兰（https://git.io/v9999） 2
+      - 🇳🇱 荷兰（https://git.io/v9999） 3
+      - 🇯🇵 日本（https://git.io/v9999）
+      - 🇸🇬 新加坡（https://git.io/v9999）
+      - 🇭🇰 香港（https://git.io/v9999） 3
+      - 🇮🇳 印度（https://git.io/v9999）
       - 🇸🇬 新加坡（https://git.io/v9999） 2
       - 🇯🇵 日本（https://git.io/v9999） 2
-      - 🇨🇳 台湾（https://git.io/v9999）
-      - 🇸🇬 新加坡（https://git.io/v9999） 3
-      - 🇺🇲 美国（https://git.io/v9999） 4
-      - 欧洲（https://git.io/v9999）
+      - 🇭🇰 香港（https://git.io/v9999） 4
+      - 🇰🇷 韩国（https://git.io/v9999）
       - 🇯🇵 日本（https://git.io/v9999） 3
-      - 🇸🇬 新加坡（https://git.io/v9999） 4
-      - 🇸🇬 新加坡（https://git.io/v9999） 5
-      - 🇸🇬 新加坡（https://git.io/v9999） 6
       - 🇯🇵 日本（https://git.io/v9999） 4
-      - 🇯🇵 日本（https://git.io/v9999） 5
-      - 🇺🇲 美国（https://git.io/v9999） 5
-      - 🇭🇰 香港（https://git.io/v9999） 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡（https://git.io/v9999）
-      - 🇺🇲 美国（https://git.io/v9999）
-      - 🇺🇲 美国（https://git.io/v9999） 2
-      - 🇯🇵 日本（https://git.io/v9999）
-      - 🇺🇲 美国（https://git.io/v9999） 3
       - 🇭🇰 香港（https://git.io/v9999）
       - 🇭🇰 香港（https://git.io/v9999） 2
+      - 🇳🇱 荷兰（https://git.io/v9999）
+      - 🇺🇲 美国（https://git.io/v9999）
+      - 🇺🇲 美国（https://git.io/v9999） 2
+      - 🇺🇲 美国（https://git.io/v9999） 3
+      - 🇺🇲 美国（https://git.io/v9999） 4
+      - 🇳🇱 荷兰（https://git.io/v9999） 2
+      - 🇳🇱 荷兰（https://git.io/v9999） 3
+      - 🇯🇵 日本（https://git.io/v9999）
+      - 🇸🇬 新加坡（https://git.io/v9999）
+      - 🇭🇰 香港（https://git.io/v9999） 3
+      - 🇮🇳 印度（https://git.io/v9999）
       - 🇸🇬 新加坡（https://git.io/v9999） 2
       - 🇯🇵 日本（https://git.io/v9999） 2
-      - 🇨🇳 台湾（https://git.io/v9999）
-      - 🇸🇬 新加坡（https://git.io/v9999） 3
-      - 🇺🇲 美国（https://git.io/v9999） 4
-      - 欧洲（https://git.io/v9999）
+      - 🇭🇰 香港（https://git.io/v9999） 4
+      - 🇰🇷 韩国（https://git.io/v9999）
       - 🇯🇵 日本（https://git.io/v9999） 3
-      - 🇸🇬 新加坡（https://git.io/v9999） 4
-      - 🇸🇬 新加坡（https://git.io/v9999） 5
-      - 🇸🇬 新加坡（https://git.io/v9999） 6
       - 🇯🇵 日本（https://git.io/v9999） 4
-      - 🇯🇵 日本（https://git.io/v9999） 5
-      - 🇺🇲 美国（https://git.io/v9999） 5
-      - 🇭🇰 香港（https://git.io/v9999） 3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬 新加坡（https://git.io/v9999）
-      - 🇺🇲 美国（https://git.io/v9999）
-      - 🇺🇲 美国（https://git.io/v9999） 2
-      - 🇯🇵 日本（https://git.io/v9999）
-      - 🇺🇲 美国（https://git.io/v9999） 3
       - 🇭🇰 香港（https://git.io/v9999）
       - 🇭🇰 香港（https://git.io/v9999） 2
+      - 🇳🇱 荷兰（https://git.io/v9999）
+      - 🇺🇲 美国（https://git.io/v9999）
+      - 🇺🇲 美国（https://git.io/v9999） 2
+      - 🇺🇲 美国（https://git.io/v9999） 3
+      - 🇺🇲 美国（https://git.io/v9999） 4
+      - 🇳🇱 荷兰（https://git.io/v9999） 2
+      - 🇳🇱 荷兰（https://git.io/v9999） 3
+      - 🇯🇵 日本（https://git.io/v9999）
+      - 🇸🇬 新加坡（https://git.io/v9999）
+      - 🇭🇰 香港（https://git.io/v9999） 3
+      - 🇮🇳 印度（https://git.io/v9999）
       - 🇸🇬 新加坡（https://git.io/v9999） 2
       - 🇯🇵 日本（https://git.io/v9999） 2
-      - 🇨🇳 台湾（https://git.io/v9999）
-      - 🇸🇬 新加坡（https://git.io/v9999） 3
-      - 🇺🇲 美国（https://git.io/v9999） 4
-      - 欧洲（https://git.io/v9999）
+      - 🇭🇰 香港（https://git.io/v9999） 4
+      - 🇰🇷 韩国（https://git.io/v9999）
       - 🇯🇵 日本（https://git.io/v9999） 3
-      - 🇸🇬 新加坡（https://git.io/v9999） 4
-      - 🇸🇬 新加坡（https://git.io/v9999） 5
-      - 🇸🇬 新加坡（https://git.io/v9999） 6
       - 🇯🇵 日本（https://git.io/v9999） 4
-      - 🇯🇵 日本（https://git.io/v9999） 5
-      - 🇺🇲 美国（https://git.io/v9999） 5
-      - 🇭🇰 香港（https://git.io/v9999） 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡（https://git.io/v9999）
-      - 🇺🇲 美国（https://git.io/v9999）
-      - 🇺🇲 美国（https://git.io/v9999） 2
-      - 🇯🇵 日本（https://git.io/v9999）
-      - 🇺🇲 美国（https://git.io/v9999） 3
       - 🇭🇰 香港（https://git.io/v9999）
       - 🇭🇰 香港（https://git.io/v9999） 2
+      - 🇳🇱 荷兰（https://git.io/v9999）
+      - 🇺🇲 美国（https://git.io/v9999）
+      - 🇺🇲 美国（https://git.io/v9999） 2
+      - 🇺🇲 美国（https://git.io/v9999） 3
+      - 🇺🇲 美国（https://git.io/v9999） 4
+      - 🇳🇱 荷兰（https://git.io/v9999） 2
+      - 🇳🇱 荷兰（https://git.io/v9999） 3
+      - 🇯🇵 日本（https://git.io/v9999）
+      - 🇸🇬 新加坡（https://git.io/v9999）
+      - 🇭🇰 香港（https://git.io/v9999） 3
+      - 🇮🇳 印度（https://git.io/v9999）
       - 🇸🇬 新加坡（https://git.io/v9999） 2
       - 🇯🇵 日本（https://git.io/v9999） 2
-      - 🇨🇳 台湾（https://git.io/v9999）
-      - 🇸🇬 新加坡（https://git.io/v9999） 3
-      - 🇺🇲 美国（https://git.io/v9999） 4
-      - 欧洲（https://git.io/v9999）
+      - 🇭🇰 香港（https://git.io/v9999） 4
+      - 🇰🇷 韩国（https://git.io/v9999）
       - 🇯🇵 日本（https://git.io/v9999） 3
-      - 🇸🇬 新加坡（https://git.io/v9999） 4
-      - 🇸🇬 新加坡（https://git.io/v9999） 5
-      - 🇸🇬 新加坡（https://git.io/v9999） 6
       - 🇯🇵 日本（https://git.io/v9999） 4
-      - 🇯🇵 日本（https://git.io/v9999） 5
-      - 🇺🇲 美国（https://git.io/v9999） 5
-      - 🇭🇰 香港（https://git.io/v9999） 3
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡（https://git.io/v9999）
-      - 🇺🇲 美国（https://git.io/v9999）
-      - 🇺🇲 美国（https://git.io/v9999） 2
-      - 🇯🇵 日本（https://git.io/v9999）
-      - 🇺🇲 美国（https://git.io/v9999） 3
       - 🇭🇰 香港（https://git.io/v9999）
       - 🇭🇰 香港（https://git.io/v9999） 2
+      - 🇳🇱 荷兰（https://git.io/v9999）
+      - 🇺🇲 美国（https://git.io/v9999）
+      - 🇺🇲 美国（https://git.io/v9999） 2
+      - 🇺🇲 美国（https://git.io/v9999） 3
+      - 🇺🇲 美国（https://git.io/v9999） 4
+      - 🇳🇱 荷兰（https://git.io/v9999） 2
+      - 🇳🇱 荷兰（https://git.io/v9999） 3
+      - 🇯🇵 日本（https://git.io/v9999）
+      - 🇸🇬 新加坡（https://git.io/v9999）
+      - 🇭🇰 香港（https://git.io/v9999） 3
+      - 🇮🇳 印度（https://git.io/v9999）
       - 🇸🇬 新加坡（https://git.io/v9999） 2
       - 🇯🇵 日本（https://git.io/v9999） 2
-      - 🇨🇳 台湾（https://git.io/v9999）
-      - 🇸🇬 新加坡（https://git.io/v9999） 3
-      - 🇺🇲 美国（https://git.io/v9999） 4
-      - 欧洲（https://git.io/v9999）
+      - 🇭🇰 香港（https://git.io/v9999） 4
+      - 🇰🇷 韩国（https://git.io/v9999）
       - 🇯🇵 日本（https://git.io/v9999） 3
-      - 🇸🇬 新加坡（https://git.io/v9999） 4
-      - 🇸🇬 新加坡（https://git.io/v9999） 5
-      - 🇸🇬 新加坡（https://git.io/v9999） 6
       - 🇯🇵 日本（https://git.io/v9999） 4
-      - 🇯🇵 日本（https://git.io/v9999） 5
-      - 🇺🇲 美国（https://git.io/v9999） 5
-      - 🇭🇰 香港（https://git.io/v9999） 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -233,27 +217,25 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡（https://git.io/v9999）
-      - 🇺🇲 美国（https://git.io/v9999）
-      - 🇺🇲 美国（https://git.io/v9999） 2
-      - 🇯🇵 日本（https://git.io/v9999）
-      - 🇺🇲 美国（https://git.io/v9999） 3
       - 🇭🇰 香港（https://git.io/v9999）
       - 🇭🇰 香港（https://git.io/v9999） 2
+      - 🇳🇱 荷兰（https://git.io/v9999）
+      - 🇺🇲 美国（https://git.io/v9999）
+      - 🇺🇲 美国（https://git.io/v9999） 2
+      - 🇺🇲 美国（https://git.io/v9999） 3
+      - 🇺🇲 美国（https://git.io/v9999） 4
+      - 🇳🇱 荷兰（https://git.io/v9999） 2
+      - 🇳🇱 荷兰（https://git.io/v9999） 3
+      - 🇯🇵 日本（https://git.io/v9999）
+      - 🇸🇬 新加坡（https://git.io/v9999）
+      - 🇭🇰 香港（https://git.io/v9999） 3
+      - 🇮🇳 印度（https://git.io/v9999）
       - 🇸🇬 新加坡（https://git.io/v9999） 2
       - 🇯🇵 日本（https://git.io/v9999） 2
-      - 🇨🇳 台湾（https://git.io/v9999）
-      - 🇸🇬 新加坡（https://git.io/v9999） 3
-      - 🇺🇲 美国（https://git.io/v9999） 4
-      - 欧洲（https://git.io/v9999）
+      - 🇭🇰 香港（https://git.io/v9999） 4
+      - 🇰🇷 韩国（https://git.io/v9999）
       - 🇯🇵 日本（https://git.io/v9999） 3
-      - 🇸🇬 新加坡（https://git.io/v9999） 4
-      - 🇸🇬 新加坡（https://git.io/v9999） 5
-      - 🇸🇬 新加坡（https://git.io/v9999） 6
       - 🇯🇵 日本（https://git.io/v9999） 4
-      - 🇯🇵 日本（https://git.io/v9999） 5
-      - 🇺🇲 美国（https://git.io/v9999） 5
-      - 🇭🇰 香港（https://git.io/v9999） 3
 rules:
  - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1912,7 +1894,6 @@ rules:
  - DOMAIN-SUFFIX,e.nexac.com,🍃 应用净化
  - DOMAIN-SUFFIX,eq.10jqka.com.cn,🍃 应用净化
  - DOMAIN-SUFFIX,exp.17wo.cn,🍃 应用净化
- - DOMAIN-SUFFIX,fund.10jqka.com.cn,🍃 应用净化
  - DOMAIN-SUFFIX,game.51yund.com,🍃 应用净化
  - DOMAIN-SUFFIX,ganjituiguang.ganji.com,🍃 应用净化
  - DOMAIN-SUFFIX,grand.ele.me,🍃 应用净化
@@ -2158,6 +2139,9 @@ rules:
  - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
  - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
  - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
+ - DOMAIN, atv-ps.amazon.com,🌍 国外媒体
+ - DOMAIN, fls-na.amazon.com,🌍 国外媒体
+ - DOMAIN-SUFFIX, media-amazon.com,🌍 国外媒体
  - DOMAIN-SUFFIX,aiv-cdn.net,🌍 国外媒体
  - DOMAIN-SUFFIX,amazonaws.co.uk,🌍 国外媒体
  - DOMAIN-SUFFIX,amazonaws.com,🌍 国外媒体
@@ -2766,6 +2750,7 @@ rules:
  - DOMAIN-SUFFIX,423down.com,🎯 全球直连
  - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
  - DOMAIN-SUFFIX,chaipip.com,🎯 全球直连
+ - DOMAIN-SUFFIX,chinaplay.store,🎯 全球直连
  - DOMAIN-SUFFIX,hrtsea.com,🎯 全球直连
  - DOMAIN-SUFFIX,kaikeba.com,🎯 全球直连
  - DOMAIN-SUFFIX,laomo.me,🎯 全球直连
