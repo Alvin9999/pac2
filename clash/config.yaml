@@ -5,81 +5,114 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: https://git.io/v9999 1, server: shanghai-cn2-nat.mugun.xyz, port: 25067, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
-  - {name: https://git.io/v9999 10, server: 185.224.250.105, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
-  - {name: https://git.io/v9999 11, server: 95.174.65.73, port: 34762, type: ss, cipher: aes-256-gcm, password: yxGY7A5MczQYg6UqSFx9u78V}
-  - {name: https://git.io/v9999 12, server: L1-aws-hk-05.baipiao.de, port: 80, type: vmess, uuid: f2bea451-711f-37ee-9646-f8fde83ea921, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: L1-aws-hk-05.baipiao.de}}
-  - {name: https://git.io/v9999 13, server: 185.224.250.134, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
-  - {name: https://git.io/v9999 14, server: shanghai-cn2-nat.baipiao.de, port: 25050, type: vmess, uuid: f2bea451-711f-37ee-9646-f8fde83ea921, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.baipiao.de}}
-  - {name: https://git.io/v9999 15, server: 45.43.14.83, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 16, server: txhk.peopledong.top, port: 21888, type: vmess, uuid: 3ba56e3d-6a7a-42f2-b0db-9a5c95b7e25a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: txhk.peopledong.top}}
-  - {name: https://git.io/v9999 17, server: 40.81.210.59, port: 443, type: vmess, uuid: adbece96-40a8-3d29-a05f-fda5e696f67f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp-5.azure.vip5.v2ray.ikuuu.pro}}
-  - {name: https://git.io/v9999 18, server: xibun.gq, port: 443, type: trojan, password: 5f83fa6c-db2d-4cca-ba2b-5464085eb309, sni: xibun.gq}
-  - {name: https://git.io/v9999 19, server: sgp1.huarenlife.top, port: 80, type: vmess, uuid: 3ba56e3d-6a7a-42f2-b0db-9a5c95b7e25a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: sgp1.huarenlife.top}}
-  - {name: https://git.io/v9999 2, server: 138.68.30.138, port: 80, type: vmess, uuid: 3ba56e3d-6a7a-42f2-b0db-9a5c95b7e25a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 138.68.30.138}}
-  - {name: https://git.io/v9999 20, server: shanghai-cn2-nat.baipiao.de, port: 25047, type: vmess, uuid: f2bea451-711f-37ee-9646-f8fde83ea921, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.baipiao.de}}
-  - {name: https://git.io/v9999 21, server: s2.9kmc.com, port: 11465, type: vmess, uuid: 3ba56e3d-6a7a-42f2-b0db-9a5c95b7e25a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: s2.9kmc.com}}
-  - {name: https://git.io/v9999 22, server: shanghai-cn2-nat.mugun.xyz, port: 25068, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
-  - {name: https://git.io/v9999 23, server: shanghai-cn2-nat.mugun.xyz, port: 25060, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
-  - {name: https://git.io/v9999 24, server: 116.80.41.17, port: 50548, type: vmess, uuid: 39f9a172-f8a0-4819-95e2-8fbbb455fd3c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 116.80.41.17}}
-  - {name: https://git.io/v9999 25, server: shanghai-cn2-nat.mugun.xyz, port: 25062, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
-  - {name: https://git.io/v9999 26, server: shanghai-cn2-nat.mugun.xyz, port: 25073, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
-  - {name: https://git.io/v9999 27, server: sgp2.peopledong.top, port: 80, type: vmess, uuid: 3ba56e3d-6a7a-42f2-b0db-9a5c95b7e25a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: sgp2.peopledong.top}}
-  - {name: https://git.io/v9999 28, server: 141.164.55.114, port: 40330, type: vmess, uuid: 7585acab-b2e6-4810-b8cb-1ddcd148c508, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 141.164.55.114}}
-  - {name: https://git.io/v9999 29, server: bigsur.cf, port: 443, type: vmess, uuid: 9c818b78-1e7d-11eb-824a-5600030ca09e, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /v34S1qph/, ws-headers: {Host: bigsur.cf}}
-  - {name: https://git.io/v9999 3, server: 45.12.206.156, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn}
-  - {name: https://git.io/v9999 30, server: littlesur.ml, port: 443, type: vmess, uuid: 58ff420c-1e7b-11eb-a071-5600030c9ef8, alterId: 45, cipher: auto, tls: true, network: ws, ws-path: /vnFG1ymV/, ws-headers: {Host: littlesur.ml}}
-  - {name: https://git.io/v9999 31, server: chinahr.cf, port: 443, type: vmess, uuid: 58a836f6-1e7b-11eb-a235-5600030c9ec0, alterId: 35, cipher: auto, tls: true, network: ws, ws-path: /tbYweGIO/, ws-headers: {Host: chinahr.cf}}
-  - {name: https://git.io/v9999 32, server: s2.9kmc.com, port: 11466, type: vmess, uuid: 3ba56e3d-6a7a-42f2-b0db-9a5c95b7e25a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: s2.9kmc.com}}
-  - {name: https://git.io/v9999 33, server: 62.216.93.213, port: 80, type: vmess, uuid: 3ba56e3d-6a7a-42f2-b0db-9a5c95b7e25a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 62.216.93.213}}
-  - {name: https://git.io/v9999 34, server: us1.huarenlife.top, port: 80, type: vmess, uuid: 3ba56e3d-6a7a-42f2-b0db-9a5c95b7e25a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us1.huarenlife.top}}
-  - {name: https://git.io/v9999 35, server: l1-aws-jp-01.baipiao.de, port: 80, type: vmess, uuid: f2bea451-711f-37ee-9646-f8fde83ea921, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: l1-aws-jp-01.baipiao.de}}
-  - {name: https://git.io/v9999 36, server: L1-aws-hk-10.baipiao.de, port: 80, type: vmess, uuid: f2bea451-711f-37ee-9646-f8fde83ea921, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: L1-aws-hk-10.baipiao.de}}
-  - {name: https://git.io/v9999 37, server: l1-aws-jp-04.baipiao.de, port: 80, type: vmess, uuid: f2bea451-711f-37ee-9646-f8fde83ea921, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: l1-aws-jp-04.baipiao.de}}
-  - {name: https://git.io/v9999 38, server: L1-aws-hk-08.baipiao.de, port: 80, type: vmess, uuid: f2bea451-711f-37ee-9646-f8fde83ea921, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: L1-aws-hk-08.baipiao.de}}
-  - {name: https://git.io/v9999 39, server: l1-aws-jp-03.baipiao.de, port: 80, type: vmess, uuid: f2bea451-711f-37ee-9646-f8fde83ea921, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: l1-aws-jp-03.baipiao.de}}
-  - {name: https://git.io/v9999 4, server: 172.67.199.187, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
-  - {name: https://git.io/v9999 40, server: L1-aws-hk-03.baipiao.de, port: 443, type: vmess, uuid: f2bea451-711f-37ee-9646-f8fde83ea921, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: L1-aws-hk-03.baipiao.de}}
-  - {name: https://git.io/v9999 41, server: L1-aws-hk-04.baipiao.de, port: 80, type: vmess, uuid: f2bea451-711f-37ee-9646-f8fde83ea921, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: L1-aws-hk-04.baipiao.de}}
-  - {name: https://git.io/v9999 42, server: sgp4.peopledong.top, port: 80, type: vmess, uuid: 3ba56e3d-6a7a-42f2-b0db-9a5c95b7e25a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: sgp4.peopledong.top}}
-  - {name: https://git.io/v9999 43, server: jp1.peopledong.top, port: 80, type: vmess, uuid: 3ba56e3d-6a7a-42f2-b0db-9a5c95b7e25a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jp1.peopledong.top}}
-  - {name: https://git.io/v9999 44, server: cw.loogsom.xyz, port: 443, type: vmess, uuid: eded2552-1901-40a6-ae1f-8f8104589542, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /v, ws-headers: {Host: cw.loogsom.xyz}}
-  - {name: https://git.io/v9999 45, server: 67.21.94.235, port: 4950, type: vmess, uuid: 075cc660-1cd5-11eb-a253-00163c133f3d, alterId: 0, cipher: auto, tls: false}
-  - {name: https://git.io/v9999 46, server: l1-aws-jp-02.baipiao.de, port: 80, type: vmess, uuid: f2bea451-711f-37ee-9646-f8fde83ea921, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: l1-aws-jp-02.baipiao.de}}
-  - {name: https://git.io/v9999 47, server: L1-aws-hk-07.baipiao.de, port: 80, type: vmess, uuid: f2bea451-711f-37ee-9646-f8fde83ea921, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: L1-aws-hk-07.baipiao.de}}
-  - {name: https://git.io/v9999 48, server: L1-aws-hk-06.baipiao.de, port: 80, type: vmess, uuid: f2bea451-711f-37ee-9646-f8fde83ea921, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: L1-aws-hk-06.baipiao.de}}
-  - {name: https://git.io/v9999 49, server: 45.63.123.144, port: 80, type: vmess, uuid: 3ba56e3d-6a7a-42f2-b0db-9a5c95b7e25a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.63.123.144}}
-  - {name: https://git.io/v9999 5, server: 185.195.79.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 50, server: shanghai-cn2-nat.baipiao.de, port: 25048, type: vmess, uuid: f2bea451-711f-37ee-9646-f8fde83ea921, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.baipiao.de}}
-  - {name: https://git.io/v9999 51, server: shanghai-cn2-nat.baipiao.de, port: 25049, type: vmess, uuid: f2bea451-711f-37ee-9646-f8fde83ea921, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.baipiao.de}}
-  - {name: https://git.io/v9999 52, server: 103.114.163.13, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB}
-  - {name: https://git.io/v9999 52 2, server: sgp2.huarenlife.top, port: 80, type: vmess, uuid: 3ba56e3d-6a7a-42f2-b0db-9a5c95b7e25a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: sgp2.huarenlife.top}}
-  - {name: https://git.io/v9999 53, server: 45.66.156.199, port: 49368, type: vmess, uuid: 47505bd6-1aa4-4602-b5fd-9c07a77f251c, alterId: 0, cipher: auto, tls: false}
-  - {name: https://git.io/v9999 54, server: 183.232.136.231, port: 100, type: ss, cipher: aes-128-gcm, password: Ax90rTgp}
-  - {name: https://git.io/v9999 55, server: 183.232.136.231, port: 102, type: ss, cipher: aes-128-gcm, password: wVu4fp}
-  - {name: https://git.io/v9999 56, server: 62.216.72.147, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP}
-  - {name: https://git.io/v9999 57, server: 45.12.206.89, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE}
-  - {name: https://git.io/v9999 58, server: 62.216.72.147, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ}
-  - {name: https://git.io/v9999 59, server: 45.128.153.77, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq}
-  - {name: https://git.io/v9999 6, server: xibun.cf, port: 443, type: vmess, uuid: 68ec6b14-1e7f-11eb-aba4-5600030ca164, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /SEBQFLfg/, ws-headers: {Host: xibun.cf}}
-  - {name: https://git.io/v9999 60, server: 213.59.119.2, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
-  - {name: https://git.io/v9999 61, server: 74.119.146.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 62, server: 184.170.243.197, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 63, server: 98.142.220.35, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 64, server: 172.98.82.229, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 65, server: 185.224.250.112, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
-  - {name: https://git.io/v9999 66, server: 185.224.250.106, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
-  - {name: https://git.io/v9999 67, server: llajv.rebldp.tech, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
-  - {name: https://git.io/v9999 7, server: us3.peopledong.top, port: 80, type: vmess, uuid: 3ba56e3d-6a7a-42f2-b0db-9a5c95b7e25a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us3.peopledong.top}}
-  - {name: https://git.io/v9999 8, server: milkgogo.ga, port: 443, type: trojan, password: 8244922f-9937-46ba-b9fa-17708e376220, sni: milkgogo.ga}
-  - {name: https://git.io/v9999 9, server: shanghai-cn2-nat.baipiao.de, port: 25046, type: vmess, uuid: f2bea451-711f-37ee-9646-f8fde83ea921, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.baipiao.de}}
+  - {name: https://git.io/v9999, server: 172.67.199.187, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
+  - {name: https://git.io/v9999 2, server: 184.170.243.197, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://git.io/v9999 3, server: 45.82.255.18, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM}
+  - {name: https://git.io/v9999 4, server: 172.98.82.229, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://git.io/v9999 5, server: 185.224.250.134, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
+  - {name: https://git.io/v9999 6, server: llajv.rebldp.tech, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
+  - {name: https://git.io/v9999 7, server: shanghai-cn2-nat.mugun.xyz, port: 25073, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
+  - {name: https://git.io/v9999 8, server: 120.232.194.9, port: 106, type: ss, cipher: aes-128-gcm, password: xmr03mg}
+  - {name: https://git.io/v9999 9, server: shanghai-cn2-nat.mugun.xyz, port: 25069, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
+  - {name: https://git.io/v9999 10, server: shanghai-cn2-nat.mugun.xyz, port: 25068, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
+  - {name: https://git.io/v9999 11, server: 103.114.163.13, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB}
+  - {name: https://git.io/v9999 12, server: 183.232.136.231, port: 100, type: ss, cipher: aes-128-gcm, password: Ax90rTgp}
+  - {name: https://git.io/v9999 13, server: 120.232.194.9, port: 104, type: ss, cipher: aes-128-gcm, password: mC7qrHw3}
+  - {name: https://git.io/v9999 14, server: 40.81.210.59, port: 443, type: vmess, uuid: adbece96-40a8-3d29-a05f-fda5e696f67f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp-5.azure.vip5.v2ray.ikuuu.pro}}
+  - {name: https://git.io/v9999 15, server: shanghai-cn2-nat.mugun.xyz, port: 25062, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
+  - {name: https://git.io/v9999 16, server: shanghai-cn2-nat.mugun.xyz, port: 25063, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
+  - {name: https://git.io/v9999 17, server: 116.80.41.17, port: 50548, type: vmess, uuid: 39f9a172-f8a0-4819-95e2-8fbbb455fd3c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 116.80.41.17}}
+  - {name: https://git.io/v9999 18, server: shanghai-cn2-nat.mugun.xyz, port: 25060, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
+  - {name: https://git.io/v9999 19, server: 45.12.206.156, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn}
+  - {name: https://git.io/v9999 20, server: 45.12.206.89, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE}
+  - {name: https://git.io/v9999 21, server: 95.174.65.73, port: 34762, type: ss, cipher: aes-256-gcm, password: yxGY7A5MczQYg6UqSFx9u78V}
+  - {name: https://git.io/v9999 22, server: 45.128.153.77, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq}
+  - {name: https://git.io/v9999 23, server: 62.216.72.147, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP}
+  - {name: https://git.io/v9999 24, server: 98.142.220.35, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://git.io/v9999 25, server: 74.119.146.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://git.io/v9999 26, server: 45.43.14.83, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://git.io/v9999 27, server: 213.59.119.2, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
+  - {name: https://git.io/v9999 28, server: 154.84.1.253, port: 443, type: vmess, uuid: 57e24a59-8af7-4946-bb1f-c6af791ada9e, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.6460649.xyz}}
+  - {name: https://git.io/v9999 29, server: littlesur.ml, port: 443, type: vmess, uuid: 58ff420c-1e7b-11eb-a071-5600030c9ef8, alterId: 45, cipher: auto, tls: true, network: ws, ws-path: /vnFG1ymV/, ws-headers: {Host: littlesur.ml}}
+  - {name: https://git.io/v9999 30, server: shanghai-cn2-nat.mugun.xyz, port: 25069, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
+  - {name: https://git.io/v9999 31, server: L1-aws-hk-01.baipiao.de, port: 80, type: vmess, uuid: 086368f3-a2bb-3cf0-b0f1-348515fa5814, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: L1-aws-hk-01.baipiao.de}}
+  - {name: https://git.io/v9999 32, server: v2-14.ssrsub.one, port: 443, type: vmess, uuid: d0cfd824-8cac-180e-6f78-d4ac2cda6a25, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-14.ssrsub.one}}
+  - {name: https://git.io/v9999 33, server: 23.224.69.4, port: 443, type: vmess, uuid: c73ea85e-757d-4596-860c-3d03046fb191, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.7586616.xyz}}
+  - {name: https://git.io/v9999 34, server: v2-16.ssrsub.one, port: 443, type: vmess, uuid: 47ac927c-36d2-4d42-9f50-34de635f32a5, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-16.ssrsub.one}}
+  - {name: https://git.io/v9999 35, server: xibun.cf, port: 443, type: vmess, uuid: 68ec6b14-1e7f-11eb-aba4-5600030ca164, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /SEBQFLfg/, ws-headers: {Host: xibun.cf}}
+  - {name: https://git.io/v9999 36, server: 23.225.9.253, port: 443, type: vmess, uuid: 5fba5fed-b7a3-48cb-9951-52e0bc632d93, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.5307259.xyz}}
+  - {name: https://git.io/v9999 37, server: 23.224.69.22, port: 443, type: vmess, uuid: 588419e6-78a1-46ed-ab79-c73c00fcd8e2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.7239884.xyz}}
+  - {name: https://git.io/v9999 38, server: 172.247.0.230, port: 443, type: vmess, uuid: 66edfc1f-caee-4a27-8ed6-c4c637550392, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.41171.xyz}}
+  - {name: https://git.io/v9999 39, server: 23.225.57.203, port: 443, type: vmess, uuid: 7e3bc49c-7c05-424d-adba-6458c7e1f492, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.4198659.xyz}}
+  - {name: https://git.io/v9999 40, server: 23.225.178.213, port: 443, type: vmess, uuid: 6f467adb-e8d0-418d-8a57-d01731993268, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.43642.xyz}}
+  - {name: https://git.io/v9999 41, server: 23.225.9.250, port: 443, type: vmess, uuid: 5fba5fed-b7a3-48cb-9951-52e0bc632d93, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.5307259.xyz}}
+  - {name: https://git.io/v9999 42, server: 23.225.178.210, port: 443, type: vmess, uuid: 6f467adb-e8d0-418d-8a57-d01731993268, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.43642.xyz}}
+  - {name: https://git.io/v9999 43, server: 154.84.1.85, port: 443, type: vmess, uuid: 10e582a2-2089-4bde-9a5c-3a57bfa846b4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.40983279.xyz}}
+  - {name: https://git.io/v9999 44, server: 23.225.9.194, port: 443, type: vmess, uuid: 4db97535-cde8-4c7a-bc2d-1141b99889c3, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0970291.xyz}}
+  - {name: https://git.io/v9999 45, server: bigsur.cf, port: 443, type: vmess, uuid: 9c818b78-1e7d-11eb-824a-5600030ca09e, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /v34S1qph/, ws-headers: {Host: bigsur.cf}}
+  - {name: https://git.io/v9999 46, server: cw.loogsom.xyz, port: 443, type: vmess, uuid: eded2552-1901-40a6-ae1f-8f8104589542, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /v, ws-headers: {Host: cw.loogsom.xyz}}
+  - {name: https://git.io/v9999 47, server: 23.224.69.6, port: 443, type: vmess, uuid: c73ea85e-757d-4596-860c-3d03046fb191, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.7586616.xyz}}
+  - {name: https://git.io/v9999 48, server: 154.84.1.79, port: 443, type: vmess, uuid: e33eabe3-1dbd-449d-90a2-636c0f8b6f9a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.28596077.xyz}}
+  - {name: https://git.io/v9999 49, server: 154.84.1.192, port: 443, type: vmess, uuid: 436f1897-6228-45aa-8e2e-8fe031827887, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.13612617.xyz}}
+  - {name: https://git.io/v9999 50, server: 172.247.0.227, port: 443, type: vmess, uuid: 66edfc1f-caee-4a27-8ed6-c4c637550392, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.41171.xyz}}
+  - {name: https://git.io/v9999 51, server: v2-06.ssrsub.one, port: 443, type: vmess, uuid: d0cfd824-8cac-180e-6f78-d4ac2cda6a25, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-06.ssrsub.one}}
+  - {name: https://git.io/v9999 52, server: 23.225.125.84, port: 443, type: vmess, uuid: 8fb921c0-564d-4d5a-9b13-384c01820126, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.56626173.xyz}}
+  - {name: https://git.io/v9999 53, server: 154.84.1.183, port: 443, type: vmess, uuid: 2886122d-02ab-4790-ac94-2bb32818a686, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.49836114.xyz}}
+  - {name: https://git.io/v9999 54, server: 23.225.125.86, port: 443, type: vmess, uuid: 8fb921c0-564d-4d5a-9b13-384c01820126, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.56626173.xyz}}
+  - {name: https://git.io/v9999 55, server: 154.84.1.22, port: 443, type: vmess, uuid: 44ea9c85-ab73-4024-b8f4-0b1ca0d57f71, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.9134162.xyz}}
+  - {name: https://git.io/v9999 56, server: 154.84.1.62, port: 443, type: vmess, uuid: d152e42a-8b12-4542-ba50-8cc683e0efb6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.6089793.xyz}}
+  - {name: https://git.io/v9999 57, server: 3.35.235.242, port: 443, type: vmess, uuid: 8a315a60-1d7f-11eb-a346-02001c801a6c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /z1mq2vpN/, ws-headers: {Host: 3.35.235.242}}
+  - {name: https://git.io/v9999 58, server: 23.225.9.214, port: 443, type: vmess, uuid: 98065ec0-c22d-4109-907b-9768ec851fa1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.3244708.xyz}}
+  - {name: https://git.io/v9999 59, server: 3.112.228.171, port: 443, type: vmess, uuid: 998d8d80-1d7f-11eb-af71-06c28e415120, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /cTxKAC38/, ws-headers: {Host: 3.112.228.171}}
+  - {name: https://git.io/v9999 60, server: 154.84.1.71, port: 443, type: vmess, uuid: 9fe8881c-d03b-4ae8-b4c5-8a48a53ff6c6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.06339405.xyz}}
+  - {name: https://git.io/v9999 61, server: 154.84.1.114, port: 443, type: vmess, uuid: aa2b8e05-af65-4623-9859-5f2086f99603, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.amisxdgq.xyz}}
+  - {name: https://git.io/v9999 62, server: 154.84.1.102, port: 443, type: vmess, uuid: 90afbf7b-dc20-4dc2-bb0c-9fa0ef9d3514, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.1898870.xyz}}
+  - {name: https://git.io/v9999 63, server: v2-04.ssrsub.one, port: 443, type: vmess, uuid: d0cfd824-8cac-180e-6f78-d4ac2cda6a25, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-04.ssrsub.one}}
+  - {name: https://git.io/v9999 64, server: 172.247.198.125, port: 443, type: vmess, uuid: ca5581b9-8af8-42e1-b38d-9d51e5a8b2b6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.00689323.xyz}}
+  - {name: https://git.io/v9999 65, server: 172.247.199.245, port: 443, type: vmess, uuid: fa822afc-170c-412b-a876-cd077812a5b3, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.01902367.xyz}}
+  - {name: https://git.io/v9999 66, server: 154.84.1.143, port: 443, type: vmess, uuid: 2886122d-02ab-4790-ac94-2bb32818a686, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.49836114.xyz}}
+  - {name: https://git.io/v9999 67, server: 154.84.1.144, port: 443, type: vmess, uuid: c2d4db53-83b9-41ab-8b4a-74648635d38e, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.58613279.xyz}}
+  - {name: https://git.io/v9999 68, server: 154.84.1.107, port: 443, type: vmess, uuid: 44b3de3c-b29a-4c2c-8c32-b6a8c55088ce, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0921976354.xyz}}
+  - {name: https://git.io/v9999 69, server: 154.84.1.109, port: 443, type: vmess, uuid: 44b3de3c-b29a-4c2c-8c32-b6a8c55088ce, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0921976354.xyz}}
+  - {name: https://git.io/v9999 70, server: 154.84.1.14, port: 443, type: vmess, uuid: 6a6d70a2-6e5d-4de4-8a8f-745e87d6c143, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.4212507134.xyz}}
+  - {name: https://git.io/v9999 71, server: 13.228.27.82, port: 443, type: vmess, uuid: 859b08e8-1d7f-11eb-bc70-06955fbb225e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /QPCx9jAN/, ws-headers: {Host: 13.228.27.82}}
+  - {name: https://git.io/v9999 72, server: 154.84.1.235, port: 443, type: vmess, uuid: d15111f5-ad92-4175-a238-7266cf665786, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.9142674173.xyz}}
+  - {name: https://git.io/v9999 73, server: 154.84.1.142, port: 443, type: vmess, uuid: 10e582a2-2089-4bde-9a5c-3a57bfa846b4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.40983279.xyz}}
+  - {name: https://git.io/v9999 74, server: shanghai-cn2-nat.mugun.xyz, port: 25063, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
+  - {name: https://git.io/v9999 75, server: 23.224.82.172, port: 443, type: vmess, uuid: c1e149de-0d41-43ce-b357-0e21d1642c03, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0162296.xyz}}
+  - {name: https://git.io/v9999 76, server: 154.84.1.8, port: 443, type: vmess, uuid: cec93317-8bbf-4234-908a-f5504227fa81, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0751432.xyz}}
+  - {name: https://git.io/v9999 77, server: 154.84.1.101, port: 443, type: vmess, uuid: 90afbf7b-dc20-4dc2-bb0c-9fa0ef9d3514, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.1898870.xyz}}
+  - {name: https://git.io/v9999 78, server: 154.84.1.236, port: 443, type: vmess, uuid: 0b2c5769-f81c-4471-a625-c44f6ffd730f, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.9996013755.xyz}}
+  - {name: https://git.io/v9999 79, server: 154.84.1.78, port: 443, type: vmess, uuid: 4842ff94-b7f9-4e44-8680-3275c6318638, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.76043239.xyz}}
+  - {name: https://git.io/v9999 80, server: 154.84.1.224, port: 443, type: vmess, uuid: c7aba2b6-2f7c-4b44-99e3-b083c7a105a7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.44985428.xyz}}
+  - {name: https://git.io/v9999 81, server: 154.84.1.140, port: 54671, type: vmess, uuid: 2a7349d6-994a-434b-9589-c0020685e528, alterId: 64, cipher: auto, tls: false}
+  - {name: https://git.io/v9999 82, server: 154.84.1.180, port: 443, type: vmess, uuid: 0107fdcc-8d47-4b97-9330-3b3d9ab30046, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54331899.xyz}}
+  - {name: https://git.io/v9999 83, server: 154.84.1.161, port: 443, type: vmess, uuid: 8447e618-032e-4981-943d-d3082049656d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.32429678.xyz}}
+  - {name: https://git.io/v9999 84, server: 154.84.1.12, port: 443, type: vmess, uuid: abbe5fec-5667-4c29-a188-35fc8ebc031a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.5189462.xyz}}
+  - {name: https://git.io/v9999 85, server: 23.224.69.18, port: 443, type: vmess, uuid: 588419e6-78a1-46ed-ab79-c73c00fcd8e2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.7239884.xyz}}
+  - {name: https://git.io/v9999 86, server: 154.84.1.70, port: 443, type: vmess, uuid: ddf9e626-8a32-49d2-974b-ac32dd17146a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.64978360.xyz}}
+  - {name: https://git.io/v9999 87, server: 154.84.1.223, port: 443, type: vmess, uuid: d143380c-bac9-48d8-a314-62339045cadb, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.57053041.xyz}}
+  - {name: https://git.io/v9999 88, server: 154.84.1.222, port: 443, type: vmess, uuid: 2a5e1b0f-ed6a-408e-a7cc-8a0ecba580d6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.46352799.xyz}}
+  - {name: https://git.io/v9999 89, server: 154.84.1.75, port: 443, type: vmess, uuid: 8ac091ac-cf62-4a09-903d-1b98109d86a5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.00779979.xyz}}
+  - {name: https://git.io/v9999 90, server: 154.84.1.65, port: 443, type: vmess, uuid: 14505ea6-2314-4a0b-8859-8562bb82a176, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.56726769.xyz}}
+  - {name: https://git.io/v9999 91, server: 154.84.1.74, port: 443, type: vmess, uuid: 54704b97-b7ac-44ba-bf5d-1b35edfa3300, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.20800980.xyz}}
+  - {name: https://git.io/v9999 92, server: v2-03.ssrsub.one, port: 443, type: vmess, uuid: d0cfd824-8cac-180e-6f78-d4ac2cda6a25, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-03.ssrsub.one}}
+  - {name: https://git.io/v9999 93, server: shanghai-cn2-nat.mugun.xyz, port: 25067, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - https://git.io/v9999 1
+      - https://git.io/v9999
+      - https://git.io/v9999 2
+      - https://git.io/v9999 3
+      - https://git.io/v9999 4
+      - https://git.io/v9999 5
+      - https://git.io/v9999 6
+      - https://git.io/v9999 7
+      - https://git.io/v9999 8
+      - https://git.io/v9999 9
       - https://git.io/v9999 10
       - https://git.io/v9999 11
       - https://git.io/v9999 12
@@ -90,7 +123,6 @@ proxy-groups:
       - https://git.io/v9999 17
       - https://git.io/v9999 18
       - https://git.io/v9999 19
-      - https://git.io/v9999 2
       - https://git.io/v9999 20
       - https://git.io/v9999 21
       - https://git.io/v9999 22
@@ -101,7 +133,6 @@ proxy-groups:
       - https://git.io/v9999 27
       - https://git.io/v9999 28
       - https://git.io/v9999 29
-      - https://git.io/v9999 3
       - https://git.io/v9999 30
       - https://git.io/v9999 31
       - https://git.io/v9999 32
@@ -112,7 +143,6 @@ proxy-groups:
       - https://git.io/v9999 37
       - https://git.io/v9999 38
       - https://git.io/v9999 39
-      - https://git.io/v9999 4
       - https://git.io/v9999 40
       - https://git.io/v9999 41
       - https://git.io/v9999 42
@@ -123,11 +153,9 @@ proxy-groups:
       - https://git.io/v9999 47
       - https://git.io/v9999 48
       - https://git.io/v9999 49
-      - https://git.io/v9999 5
       - https://git.io/v9999 50
       - https://git.io/v9999 51
       - https://git.io/v9999 52
-      - https://git.io/v9999 52 2
       - https://git.io/v9999 53
       - https://git.io/v9999 54
       - https://git.io/v9999 55
@@ -135,7 +163,6 @@ proxy-groups:
       - https://git.io/v9999 57
       - https://git.io/v9999 58
       - https://git.io/v9999 59
-      - https://git.io/v9999 6
       - https://git.io/v9999 60
       - https://git.io/v9999 61
       - https://git.io/v9999 62
@@ -144,16 +171,47 @@ proxy-groups:
       - https://git.io/v9999 65
       - https://git.io/v9999 66
       - https://git.io/v9999 67
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
+      - https://git.io/v9999 68
+      - https://git.io/v9999 69
+      - https://git.io/v9999 70
+      - https://git.io/v9999 71
+      - https://git.io/v9999 72
+      - https://git.io/v9999 73
+      - https://git.io/v9999 74
+      - https://git.io/v9999 75
+      - https://git.io/v9999 76
+      - https://git.io/v9999 77
+      - https://git.io/v9999 78
+      - https://git.io/v9999 79
+      - https://git.io/v9999 80
+      - https://git.io/v9999 81
+      - https://git.io/v9999 82
+      - https://git.io/v9999 83
+      - https://git.io/v9999 84
+      - https://git.io/v9999 85
+      - https://git.io/v9999 86
+      - https://git.io/v9999 87
+      - https://git.io/v9999 88
+      - https://git.io/v9999 89
+      - https://git.io/v9999 90
+      - https://git.io/v9999 91
+      - https://git.io/v9999 92
+      - https://git.io/v9999 93
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 0
     proxies:
-      - https://git.io/v9999 1
+      - https://git.io/v9999
+      - https://git.io/v9999 2
+      - https://git.io/v9999 3
+      - https://git.io/v9999 4
+      - https://git.io/v9999 5
+      - https://git.io/v9999 6
+      - https://git.io/v9999 7
+      - https://git.io/v9999 8
+      - https://git.io/v9999 9
       - https://git.io/v9999 10
       - https://git.io/v9999 11
       - https://git.io/v9999 12
@@ -164,7 +222,6 @@ proxy-groups:
       - https://git.io/v9999 17
       - https://git.io/v9999 18
       - https://git.io/v9999 19
-      - https://git.io/v9999 2
       - https://git.io/v9999 20
       - https://git.io/v9999 21
       - https://git.io/v9999 22
@@ -175,7 +232,6 @@ proxy-groups:
       - https://git.io/v9999 27
       - https://git.io/v9999 28
       - https://git.io/v9999 29
-      - https://git.io/v9999 3
       - https://git.io/v9999 30
       - https://git.io/v9999 31
       - https://git.io/v9999 32
@@ -186,7 +242,6 @@ proxy-groups:
       - https://git.io/v9999 37
       - https://git.io/v9999 38
       - https://git.io/v9999 39
-      - https://git.io/v9999 4
       - https://git.io/v9999 40
       - https://git.io/v9999 41
       - https://git.io/v9999 42
@@ -197,11 +252,9 @@ proxy-groups:
       - https://git.io/v9999 47
       - https://git.io/v9999 48
       - https://git.io/v9999 49
-      - https://git.io/v9999 5
       - https://git.io/v9999 50
       - https://git.io/v9999 51
       - https://git.io/v9999 52
-      - https://git.io/v9999 52 2
       - https://git.io/v9999 53
       - https://git.io/v9999 54
       - https://git.io/v9999 55
@@ -209,7 +262,6 @@ proxy-groups:
       - https://git.io/v9999 57
       - https://git.io/v9999 58
       - https://git.io/v9999 59
-      - https://git.io/v9999 6
       - https://git.io/v9999 60
       - https://git.io/v9999 61
       - https://git.io/v9999 62
@@ -218,16 +270,47 @@ proxy-groups:
       - https://git.io/v9999 65
       - https://git.io/v9999 66
       - https://git.io/v9999 67
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
+      - https://git.io/v9999 68
+      - https://git.io/v9999 69
+      - https://git.io/v9999 70
+      - https://git.io/v9999 71
+      - https://git.io/v9999 72
+      - https://git.io/v9999 73
+      - https://git.io/v9999 74
+      - https://git.io/v9999 75
+      - https://git.io/v9999 76
+      - https://git.io/v9999 77
+      - https://git.io/v9999 78
+      - https://git.io/v9999 79
+      - https://git.io/v9999 80
+      - https://git.io/v9999 81
+      - https://git.io/v9999 82
+      - https://git.io/v9999 83
+      - https://git.io/v9999 84
+      - https://git.io/v9999 85
+      - https://git.io/v9999 86
+      - https://git.io/v9999 87
+      - https://git.io/v9999 88
+      - https://git.io/v9999 89
+      - https://git.io/v9999 90
+      - https://git.io/v9999 91
+      - https://git.io/v9999 92
+      - https://git.io/v9999 93
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - https://git.io/v9999 1
+      - https://git.io/v9999
+      - https://git.io/v9999 2
+      - https://git.io/v9999 3
+      - https://git.io/v9999 4
+      - https://git.io/v9999 5
+      - https://git.io/v9999 6
+      - https://git.io/v9999 7
+      - https://git.io/v9999 8
+      - https://git.io/v9999 9
       - https://git.io/v9999 10
       - https://git.io/v9999 11
       - https://git.io/v9999 12
@@ -238,7 +321,6 @@ proxy-groups:
       - https://git.io/v9999 17
       - https://git.io/v9999 18
       - https://git.io/v9999 19
-      - https://git.io/v9999 2
       - https://git.io/v9999 20
       - https://git.io/v9999 21
       - https://git.io/v9999 22
@@ -249,7 +331,6 @@ proxy-groups:
       - https://git.io/v9999 27
       - https://git.io/v9999 28
       - https://git.io/v9999 29
-      - https://git.io/v9999 3
       - https://git.io/v9999 30
       - https://git.io/v9999 31
       - https://git.io/v9999 32
@@ -260,7 +341,6 @@ proxy-groups:
       - https://git.io/v9999 37
       - https://git.io/v9999 38
       - https://git.io/v9999 39
-      - https://git.io/v9999 4
       - https://git.io/v9999 40
       - https://git.io/v9999 41
       - https://git.io/v9999 42
@@ -271,11 +351,9 @@ proxy-groups:
       - https://git.io/v9999 47
       - https://git.io/v9999 48
       - https://git.io/v9999 49
-      - https://git.io/v9999 5
       - https://git.io/v9999 50
       - https://git.io/v9999 51
       - https://git.io/v9999 52
-      - https://git.io/v9999 52 2
       - https://git.io/v9999 53
       - https://git.io/v9999 54
       - https://git.io/v9999 55
@@ -283,7 +361,6 @@ proxy-groups:
       - https://git.io/v9999 57
       - https://git.io/v9999 58
       - https://git.io/v9999 59
-      - https://git.io/v9999 6
       - https://git.io/v9999 60
       - https://git.io/v9999 61
       - https://git.io/v9999 62
@@ -292,9 +369,32 @@ proxy-groups:
       - https://git.io/v9999 65
       - https://git.io/v9999 66
       - https://git.io/v9999 67
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
+      - https://git.io/v9999 68
+      - https://git.io/v9999 69
+      - https://git.io/v9999 70
+      - https://git.io/v9999 71
+      - https://git.io/v9999 72
+      - https://git.io/v9999 73
+      - https://git.io/v9999 74
+      - https://git.io/v9999 75
+      - https://git.io/v9999 76
+      - https://git.io/v9999 77
+      - https://git.io/v9999 78
+      - https://git.io/v9999 79
+      - https://git.io/v9999 80
+      - https://git.io/v9999 81
+      - https://git.io/v9999 82
+      - https://git.io/v9999 83
+      - https://git.io/v9999 84
+      - https://git.io/v9999 85
+      - https://git.io/v9999 86
+      - https://git.io/v9999 87
+      - https://git.io/v9999 88
+      - https://git.io/v9999 89
+      - https://git.io/v9999 90
+      - https://git.io/v9999 91
+      - https://git.io/v9999 92
+      - https://git.io/v9999 93
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -305,7 +405,15 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - https://git.io/v9999 1
+      - https://git.io/v9999
+      - https://git.io/v9999 2
+      - https://git.io/v9999 3
+      - https://git.io/v9999 4
+      - https://git.io/v9999 5
+      - https://git.io/v9999 6
+      - https://git.io/v9999 7
+      - https://git.io/v9999 8
+      - https://git.io/v9999 9
       - https://git.io/v9999 10
       - https://git.io/v9999 11
       - https://git.io/v9999 12
@@ -316,7 +424,6 @@ proxy-groups:
       - https://git.io/v9999 17
       - https://git.io/v9999 18
       - https://git.io/v9999 19
-      - https://git.io/v9999 2
       - https://git.io/v9999 20
       - https://git.io/v9999 21
       - https://git.io/v9999 22
@@ -327,7 +434,6 @@ proxy-groups:
       - https://git.io/v9999 27
       - https://git.io/v9999 28
       - https://git.io/v9999 29
-      - https://git.io/v9999 3
       - https://git.io/v9999 30
       - https://git.io/v9999 31
       - https://git.io/v9999 32
@@ -338,7 +444,6 @@ proxy-groups:
       - https://git.io/v9999 37
       - https://git.io/v9999 38
       - https://git.io/v9999 39
-      - https://git.io/v9999 4
       - https://git.io/v9999 40
       - https://git.io/v9999 41
       - https://git.io/v9999 42
@@ -349,11 +454,9 @@ proxy-groups:
       - https://git.io/v9999 47
       - https://git.io/v9999 48
       - https://git.io/v9999 49
-      - https://git.io/v9999 5
       - https://git.io/v9999 50
       - https://git.io/v9999 51
       - https://git.io/v9999 52
-      - https://git.io/v9999 52 2
       - https://git.io/v9999 53
       - https://git.io/v9999 54
       - https://git.io/v9999 55
@@ -361,7 +464,6 @@ proxy-groups:
       - https://git.io/v9999 57
       - https://git.io/v9999 58
       - https://git.io/v9999 59
-      - https://git.io/v9999 6
       - https://git.io/v9999 60
       - https://git.io/v9999 61
       - https://git.io/v9999 62
@@ -370,15 +472,46 @@ proxy-groups:
       - https://git.io/v9999 65
       - https://git.io/v9999 66
       - https://git.io/v9999 67
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
+      - https://git.io/v9999 68
+      - https://git.io/v9999 69
+      - https://git.io/v9999 70
+      - https://git.io/v9999 71
+      - https://git.io/v9999 72
+      - https://git.io/v9999 73
+      - https://git.io/v9999 74
+      - https://git.io/v9999 75
+      - https://git.io/v9999 76
+      - https://git.io/v9999 77
+      - https://git.io/v9999 78
+      - https://git.io/v9999 79
+      - https://git.io/v9999 80
+      - https://git.io/v9999 81
+      - https://git.io/v9999 82
+      - https://git.io/v9999 83
+      - https://git.io/v9999 84
+      - https://git.io/v9999 85
+      - https://git.io/v9999 86
+      - https://git.io/v9999 87
+      - https://git.io/v9999 88
+      - https://git.io/v9999 89
+      - https://git.io/v9999 90
+      - https://git.io/v9999 91
+      - https://git.io/v9999 92
+      - https://git.io/v9999 93
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - https://git.io/v9999 1
+      - https://git.io/v9999
+      - https://git.io/v9999 2
+      - https://git.io/v9999 3
+      - https://git.io/v9999 4
+      - https://git.io/v9999 5
+      - https://git.io/v9999 6
+      - https://git.io/v9999 7
+      - https://git.io/v9999 8
+      - https://git.io/v9999 9
       - https://git.io/v9999 10
       - https://git.io/v9999 11
       - https://git.io/v9999 12
@@ -389,7 +522,6 @@ proxy-groups:
       - https://git.io/v9999 17
       - https://git.io/v9999 18
       - https://git.io/v9999 19
-      - https://git.io/v9999 2
       - https://git.io/v9999 20
       - https://git.io/v9999 21
       - https://git.io/v9999 22
@@ -400,7 +532,6 @@ proxy-groups:
       - https://git.io/v9999 27
       - https://git.io/v9999 28
       - https://git.io/v9999 29
-      - https://git.io/v9999 3
       - https://git.io/v9999 30
       - https://git.io/v9999 31
       - https://git.io/v9999 32
@@ -411,7 +542,6 @@ proxy-groups:
       - https://git.io/v9999 37
       - https://git.io/v9999 38
       - https://git.io/v9999 39
-      - https://git.io/v9999 4
       - https://git.io/v9999 40
       - https://git.io/v9999 41
       - https://git.io/v9999 42
@@ -422,11 +552,9 @@ proxy-groups:
       - https://git.io/v9999 47
       - https://git.io/v9999 48
       - https://git.io/v9999 49
-      - https://git.io/v9999 5
       - https://git.io/v9999 50
       - https://git.io/v9999 51
       - https://git.io/v9999 52
-      - https://git.io/v9999 52 2
       - https://git.io/v9999 53
       - https://git.io/v9999 54
       - https://git.io/v9999 55
@@ -434,7 +562,6 @@ proxy-groups:
       - https://git.io/v9999 57
       - https://git.io/v9999 58
       - https://git.io/v9999 59
-      - https://git.io/v9999 6
       - https://git.io/v9999 60
       - https://git.io/v9999 61
       - https://git.io/v9999 62
@@ -443,16 +570,47 @@ proxy-groups:
       - https://git.io/v9999 65
       - https://git.io/v9999 66
       - https://git.io/v9999 67
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
+      - https://git.io/v9999 68
+      - https://git.io/v9999 69
+      - https://git.io/v9999 70
+      - https://git.io/v9999 71
+      - https://git.io/v9999 72
+      - https://git.io/v9999 73
+      - https://git.io/v9999 74
+      - https://git.io/v9999 75
+      - https://git.io/v9999 76
+      - https://git.io/v9999 77
+      - https://git.io/v9999 78
+      - https://git.io/v9999 79
+      - https://git.io/v9999 80
+      - https://git.io/v9999 81
+      - https://git.io/v9999 82
+      - https://git.io/v9999 83
+      - https://git.io/v9999 84
+      - https://git.io/v9999 85
+      - https://git.io/v9999 86
+      - https://git.io/v9999 87
+      - https://git.io/v9999 88
+      - https://git.io/v9999 89
+      - https://git.io/v9999 90
+      - https://git.io/v9999 91
+      - https://git.io/v9999 92
+      - https://git.io/v9999 93
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - https://git.io/v9999 1
+      - https://git.io/v9999
+      - https://git.io/v9999 2
+      - https://git.io/v9999 3
+      - https://git.io/v9999 4
+      - https://git.io/v9999 5
+      - https://git.io/v9999 6
+      - https://git.io/v9999 7
+      - https://git.io/v9999 8
+      - https://git.io/v9999 9
       - https://git.io/v9999 10
       - https://git.io/v9999 11
       - https://git.io/v9999 12
@@ -463,7 +621,6 @@ proxy-groups:
       - https://git.io/v9999 17
       - https://git.io/v9999 18
       - https://git.io/v9999 19
-      - https://git.io/v9999 2
       - https://git.io/v9999 20
       - https://git.io/v9999 21
       - https://git.io/v9999 22
@@ -474,7 +631,6 @@ proxy-groups:
       - https://git.io/v9999 27
       - https://git.io/v9999 28
       - https://git.io/v9999 29
-      - https://git.io/v9999 3
       - https://git.io/v9999 30
       - https://git.io/v9999 31
       - https://git.io/v9999 32
@@ -485,7 +641,6 @@ proxy-groups:
       - https://git.io/v9999 37
       - https://git.io/v9999 38
       - https://git.io/v9999 39
-      - https://git.io/v9999 4
       - https://git.io/v9999 40
       - https://git.io/v9999 41
       - https://git.io/v9999 42
@@ -496,11 +651,9 @@ proxy-groups:
       - https://git.io/v9999 47
       - https://git.io/v9999 48
       - https://git.io/v9999 49
-      - https://git.io/v9999 5
       - https://git.io/v9999 50
       - https://git.io/v9999 51
       - https://git.io/v9999 52
-      - https://git.io/v9999 52 2
       - https://git.io/v9999 53
       - https://git.io/v9999 54
       - https://git.io/v9999 55
@@ -508,7 +661,6 @@ proxy-groups:
       - https://git.io/v9999 57
       - https://git.io/v9999 58
       - https://git.io/v9999 59
-      - https://git.io/v9999 6
       - https://git.io/v9999 60
       - https://git.io/v9999 61
       - https://git.io/v9999 62
@@ -517,9 +669,32 @@ proxy-groups:
       - https://git.io/v9999 65
       - https://git.io/v9999 66
       - https://git.io/v9999 67
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
+      - https://git.io/v9999 68
+      - https://git.io/v9999 69
+      - https://git.io/v9999 70
+      - https://git.io/v9999 71
+      - https://git.io/v9999 72
+      - https://git.io/v9999 73
+      - https://git.io/v9999 74
+      - https://git.io/v9999 75
+      - https://git.io/v9999 76
+      - https://git.io/v9999 77
+      - https://git.io/v9999 78
+      - https://git.io/v9999 79
+      - https://git.io/v9999 80
+      - https://git.io/v9999 81
+      - https://git.io/v9999 82
+      - https://git.io/v9999 83
+      - https://git.io/v9999 84
+      - https://git.io/v9999 85
+      - https://git.io/v9999 86
+      - https://git.io/v9999 87
+      - https://git.io/v9999 88
+      - https://git.io/v9999 89
+      - https://git.io/v9999 90
+      - https://git.io/v9999 91
+      - https://git.io/v9999 92
+      - https://git.io/v9999 93
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -535,7 +710,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - https://git.io/v9999 1
+      - https://git.io/v9999
+      - https://git.io/v9999 2
+      - https://git.io/v9999 3
+      - https://git.io/v9999 4
+      - https://git.io/v9999 5
+      - https://git.io/v9999 6
+      - https://git.io/v9999 7
+      - https://git.io/v9999 8
+      - https://git.io/v9999 9
       - https://git.io/v9999 10
       - https://git.io/v9999 11
       - https://git.io/v9999 12
@@ -546,7 +729,6 @@ proxy-groups:
       - https://git.io/v9999 17
       - https://git.io/v9999 18
       - https://git.io/v9999 19
-      - https://git.io/v9999 2
       - https://git.io/v9999 20
       - https://git.io/v9999 21
       - https://git.io/v9999 22
@@ -557,7 +739,6 @@ proxy-groups:
       - https://git.io/v9999 27
       - https://git.io/v9999 28
       - https://git.io/v9999 29
-      - https://git.io/v9999 3
       - https://git.io/v9999 30
       - https://git.io/v9999 31
       - https://git.io/v9999 32
@@ -568,7 +749,6 @@ proxy-groups:
       - https://git.io/v9999 37
       - https://git.io/v9999 38
       - https://git.io/v9999 39
-      - https://git.io/v9999 4
       - https://git.io/v9999 40
       - https://git.io/v9999 41
       - https://git.io/v9999 42
@@ -579,11 +759,9 @@ proxy-groups:
       - https://git.io/v9999 47
       - https://git.io/v9999 48
       - https://git.io/v9999 49
-      - https://git.io/v9999 5
       - https://git.io/v9999 50
       - https://git.io/v9999 51
       - https://git.io/v9999 52
-      - https://git.io/v9999 52 2
       - https://git.io/v9999 53
       - https://git.io/v9999 54
       - https://git.io/v9999 55
@@ -591,7 +769,6 @@ proxy-groups:
       - https://git.io/v9999 57
       - https://git.io/v9999 58
       - https://git.io/v9999 59
-      - https://git.io/v9999 6
       - https://git.io/v9999 60
       - https://git.io/v9999 61
       - https://git.io/v9999 62
@@ -600,9 +777,32 @@ proxy-groups:
       - https://git.io/v9999 65
       - https://git.io/v9999 66
       - https://git.io/v9999 67
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
+      - https://git.io/v9999 68
+      - https://git.io/v9999 69
+      - https://git.io/v9999 70
+      - https://git.io/v9999 71
+      - https://git.io/v9999 72
+      - https://git.io/v9999 73
+      - https://git.io/v9999 74
+      - https://git.io/v9999 75
+      - https://git.io/v9999 76
+      - https://git.io/v9999 77
+      - https://git.io/v9999 78
+      - https://git.io/v9999 79
+      - https://git.io/v9999 80
+      - https://git.io/v9999 81
+      - https://git.io/v9999 82
+      - https://git.io/v9999 83
+      - https://git.io/v9999 84
+      - https://git.io/v9999 85
+      - https://git.io/v9999 86
+      - https://git.io/v9999 87
+      - https://git.io/v9999 88
+      - https://git.io/v9999 89
+      - https://git.io/v9999 90
+      - https://git.io/v9999 91
+      - https://git.io/v9999 92
+      - https://git.io/v9999 93
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
