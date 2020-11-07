@@ -5,608 +5,608 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: https://git.io/v9999, server: 66.115.147.94, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 2, server: 45.43.14.83, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 3, server: 37.120.145.21, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: https://git.io/v9999 4, server: 62.216.92.39, port: 36752, type: vmess, uuid: e6423812-5509-4865-e8c6-da30e0b03d20, alterId: 64, cipher: auto, tls: false}
-  - {name: https://git.io/v9999 5, server: 81.19.209.100, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 6, server: 178.238.231.51, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 7, server: 116.80.41.17, port: 50548, type: vmess, uuid: 39f9a172-f8a0-4819-95e2-8fbbb455fd3c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 116.80.41.17}}
-  - {name: https://git.io/v9999 8, server: 45.128.153.77, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq}
-  - {name: https://git.io/v9999 9, server: 154.84.1.192, port: 443, type: vmess, uuid: 436f1897-6228-45aa-8e2e-8fe031827887, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.13612617.xyz}}
-  - {name: https://git.io/v9999 10, server: 188.92.78.140, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 11, server: 23.224.69.22, port: 443, type: vmess, uuid: 588419e6-78a1-46ed-ab79-c73c00fcd8e2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.7239884.xyz}}
-  - {name: https://git.io/v9999 12, server: 154.84.1.253, port: 443, type: vmess, uuid: 57e24a59-8af7-4946-bb1f-c6af791ada9e, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.6460649.xyz}}
-  - {name: https://git.io/v9999 13, server: 193.108.118.221, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: https://git.io/v9999 14, server: 185.152.64.151, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: https://git.io/v9999 15, server: 23.225.125.84, port: 443, type: vmess, uuid: 8fb921c0-564d-4d5a-9b13-384c01820126, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.56626173.xyz}}
-  - {name: https://git.io/v9999 16, server: shanghai-cn2-nat.mugun.xyz, port: 25064, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
-  - {name: https://git.io/v9999 17, server: 185.108.128.183, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 18, server: 104.19.7.253, port: 443, type: vmess, uuid: eda86376-75b8-4ede-aa9e-365763cb7d8f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /debian, ws-headers: {Host: server1.tmzrmmeh0matamn9.xyz}}
-  - {name: https://git.io/v9999 19, server: milkgogo.ga, port: 443, type: trojan, password: 8244922f-9937-46ba-b9fa-17708e376220, sni: milkgogo.ga}
-  - {name: https://git.io/v9999 20, server: 172.247.0.230, port: 443, type: vmess, uuid: 66edfc1f-caee-4a27-8ed6-c4c637550392, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.41171.xyz}}
-  - {name: https://git.io/v9999 21, server: 37.120.194.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: https://git.io/v9999 22, server: 154.84.1.12, port: 443, type: vmess, uuid: abbe5fec-5667-4c29-a188-35fc8ebc031a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.5189462.xyz}}
-  - {name: https://git.io/v9999 23, server: 195.47.194.42, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 24, server: 66.115.154.133, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 25, server: 194.39.127.240, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 26, server: 154.84.1.142, port: 443, type: vmess, uuid: 10e582a2-2089-4bde-9a5c-3a57bfa846b4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.40983279.xyz}}
-  - {name: https://git.io/v9999 27, server: 37.120.221.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 28, server: 37.120.212.133, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 29, server: 402.v2raya.xyz, port: 80, type: vmess, uuid: c5ca2f35-d5c8-364c-a824-7ab656330641, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 402.v2raya.xyz}}
-  - {name: https://git.io/v9999 30, server: 37.120.194.125, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 31, server: 178.175.128.235, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 32, server: 45.43.14.95, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 33, server: 37.120.144.215, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 34, server: 154.84.1.222, port: 443, type: vmess, uuid: 2a5e1b0f-ed6a-408e-a7cc-8a0ecba580d6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.46352799.xyz}}
-  - {name: https://git.io/v9999 35, server: 23.225.178.210, port: 443, type: vmess, uuid: 6f467adb-e8d0-418d-8a57-d01731993268, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.43642.xyz}}
-  - {name: https://git.io/v9999 36, server: 31.169.121.5, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 37, server: v2-14.ssrsub.one, port: 443, type: vmess, uuid: d0cfd824-8cac-180e-6f78-d4ac2cda6a25, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-14.ssrsub.one}}
-  - {name: https://git.io/v9999 38, server: 176.227.241.26, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 39, server: 103.98.75.71, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 40, server: 172.247.199.245, port: 443, type: vmess, uuid: fa822afc-170c-412b-a876-cd077812a5b3, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.01902367.xyz}}
-  - {name: https://git.io/v9999 41, server: 154.84.1.101, port: 443, type: vmess, uuid: 90afbf7b-dc20-4dc2-bb0c-9fa0ef9d3514, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.1898870.xyz}}
-  - {name: https://git.io/v9999 42, server: 120.232.194.25, port: 104, type: ss, cipher: aes-128-gcm, password: mC7qrHw3}
-  - {name: https://git.io/v9999 43, server: 62.216.92.39, port: 52612, type: vmess, uuid: ff10d8ad-cda0-40b4-880c-3fb441c5a8fd, alterId: 64, cipher: auto, tls: false}
-  - {name: https://git.io/v9999 44, server: losangeles.freev2.online, port: 443, type: vmess, uuid: 910b3c74-54bf-46f3-8a85-2e57f5e78dd2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: losangeles.freev2.online}}
-  - {name: https://git.io/v9999 45, server: 23.225.178.213, port: 443, type: vmess, uuid: 6f467adb-e8d0-418d-8a57-d01731993268, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.43642.xyz}}
-  - {name: https://git.io/v9999 46, server: v2-04.ssrsub.one, port: 443, type: vmess, uuid: d0cfd824-8cac-180e-6f78-d4ac2cda6a25, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-04.ssrsub.one}}
-  - {name: https://git.io/v9999 47, server: 23.225.57.203, port: 443, type: vmess, uuid: 7e3bc49c-7c05-424d-adba-6458c7e1f492, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.4198659.xyz}}
-  - {name: https://git.io/v9999 48, server: 23.224.69.4, port: 443, type: vmess, uuid: c73ea85e-757d-4596-860c-3d03046fb191, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.7586616.xyz}}
-  - {name: https://git.io/v9999 49, server: 23.224.82.172, port: 443, type: vmess, uuid: c1e149de-0d41-43ce-b357-0e21d1642c03, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0162296.xyz}}
-  - {name: https://git.io/v9999 50, server: 120.232.15.44, port: 100, type: ss, cipher: aes-128-gcm, password: Ax90rTgp}
-  - {name: https://git.io/v9999 51, server: 172.247.198.125, port: 443, type: vmess, uuid: ca5581b9-8af8-42e1-b38d-9d51e5a8b2b6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.00689323.xyz}}
-  - {name: https://git.io/v9999 52, server: 154.84.1.161, port: 443, type: vmess, uuid: 8447e618-032e-4981-943d-d3082049656d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.32429678.xyz}}
-  - {name: https://git.io/v9999 53, server: 154.84.1.144, port: 443, type: vmess, uuid: c2d4db53-83b9-41ab-8b4a-74648635d38e, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.58613279.xyz}}
-  - {name: https://git.io/v9999 54, server: 154.84.1.235, port: 443, type: vmess, uuid: d15111f5-ad92-4175-a238-7266cf665786, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.9142674173.xyz}}
-  - {name: https://git.io/v9999 55, server: 154.84.1.180, port: 443, type: vmess, uuid: 0107fdcc-8d47-4b97-9330-3b3d9ab30046, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54331899.xyz}}
-  - {name: https://git.io/v9999 56, server: 40.81.210.59, port: 443, type: vmess, uuid: adbece96-40a8-3d29-a05f-fda5e696f67f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp-5.azure.vip5.v2ray.ikuuu.pro}}
-  - {name: https://git.io/v9999 57, server: 23.225.9.250, port: 443, type: vmess, uuid: 5fba5fed-b7a3-48cb-9951-52e0bc632d93, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.5307259.xyz}}
-  - {name: https://git.io/v9999 58, server: 84.247.51.235, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: https://git.io/v9999 59, server: 185.195.79.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 60, server: shanghai-cn2-nat.mugun.xyz, port: 25060, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
-  - {name: https://git.io/v9999 61, server: 120.232.194.25, port: 106, type: ss, cipher: aes-128-gcm, password: xmr03mg}
-  - {name: https://git.io/v9999 62, server: 183.232.136.231, port: 100, type: ss, cipher: aes-128-gcm, password: Ax90rTgp}
-  - {name: https://git.io/v9999 63, server: 23.225.9.194, port: 443, type: vmess, uuid: 4db97535-cde8-4c7a-bc2d-1141b99889c3, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0970291.xyz}}
-  - {name: https://git.io/v9999 64, server: 195.158.249.42, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 65, server: 37.120.142.181, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 66, server: 183.232.136.231, port: 102, type: ss, cipher: aes-128-gcm, password: wVu4fp}
-  - {name: https://git.io/v9999 67, server: 23.224.69.18, port: 443, type: vmess, uuid: 588419e6-78a1-46ed-ab79-c73c00fcd8e2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.7239884.xyz}}
-  - {name: https://git.io/v9999 68, server: 154.84.1.107, port: 443, type: vmess, uuid: 44b3de3c-b29a-4c2c-8c32-b6a8c55088ce, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0921976354.xyz}}
-  - {name: https://git.io/v9999 69, server: 23.225.125.86, port: 443, type: vmess, uuid: 8fb921c0-564d-4d5a-9b13-384c01820126, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.56626173.xyz}}
-  - {name: https://git.io/v9999 70, server: 23.224.69.6, port: 443, type: vmess, uuid: c73ea85e-757d-4596-860c-3d03046fb191, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.7586616.xyz}}
-  - {name: https://git.io/v9999 71, server: 154.84.1.78, port: 443, type: vmess, uuid: 4842ff94-b7f9-4e44-8680-3275c6318638, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.76043239.xyz}}
-  - {name: https://git.io/v9999 72, server: 154.84.1.85, port: 443, type: vmess, uuid: 10e582a2-2089-4bde-9a5c-3a57bfa846b4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.40983279.xyz}}
-  - {name: https://git.io/v9999 73, server: 154.84.1.71, port: 443, type: vmess, uuid: 9fe8881c-d03b-4ae8-b4c5-8a48a53ff6c6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.06339405.xyz}}
-  - {name: https://git.io/v9999 74, server: 213.59.119.2, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
-  - {name: https://git.io/v9999 75, server: 154.84.1.22, port: 443, type: vmess, uuid: 44ea9c85-ab73-4024-b8f4-0b1ca0d57f71, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.9134162.xyz}}
-  - {name: https://git.io/v9999 76, server: 89.164.99.111, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 77, server: 154.84.1.109, port: 443, type: vmess, uuid: 44b3de3c-b29a-4c2c-8c32-b6a8c55088ce, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0921976354.xyz}}
-  - {name: https://git.io/v9999 78, server: 154.84.1.65, port: 443, type: vmess, uuid: 14505ea6-2314-4a0b-8859-8562bb82a176, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.56726769.xyz}}
-  - {name: https://git.io/v9999 79, server: 185.152.64.151, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 80, server: 23.225.9.253, port: 443, type: vmess, uuid: 5fba5fed-b7a3-48cb-9951-52e0bc632d93, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.5307259.xyz}}
-  - {name: https://git.io/v9999 81, server: 120.232.15.44, port: 103, type: ss, cipher: aes-128-gcm, password: t6YSW1X}
-  - {name: https://git.io/v9999 82, server: 194.150.167.42, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 83, server: 154.84.1.143, port: 443, type: vmess, uuid: 2886122d-02ab-4790-ac94-2bb32818a686, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.49836114.xyz}}
-  - {name: https://git.io/v9999 84, server: shcn2.ynmsl.xyz, port: 30009, type: vmess, uuid: a318e304-730d-4edf-b9a1-5930d2d79cd9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shcn2.ynmsl.xyz}}
-  - {name: https://git.io/v9999 85, server: shanghai-cn2-nat.mugun.xyz, port: 25067, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
-  - {name: https://git.io/v9999 86, server: 91.206.168.19, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 87, server: 194.41.112.5, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 88, server: 185.225.28.91, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 89, server: 154.84.1.8, port: 443, type: vmess, uuid: cec93317-8bbf-4234-908a-f5504227fa81, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0751432.xyz}}
-  - {name: https://git.io/v9999 90, server: 45.129.32.27, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 91, server: 198.13.36.128, port: 53009, type: vmess, uuid: 7df10358-91fb-45a5-a7c6-7c4a656d0fe9, alterId: 0, cipher: auto, tls: false}
-  - {name: https://git.io/v9999 92, server: 154.84.1.102, port: 443, type: vmess, uuid: 90afbf7b-dc20-4dc2-bb0c-9fa0ef9d3514, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.1898870.xyz}}
-  - {name: https://git.io/v9999 93, server: 154.84.1.236, port: 443, type: vmess, uuid: 0b2c5769-f81c-4471-a625-c44f6ffd730f, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.9996013755.xyz}}
-  - {name: https://git.io/v9999 94, server: 154.84.1.114, port: 443, type: vmess, uuid: aa2b8e05-af65-4623-9859-5f2086f99603, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.amisxdgq.xyz}}
-  - {name: https://git.io/v9999 95, server: 154.84.1.70, port: 443, type: vmess, uuid: ddf9e626-8a32-49d2-974b-ac32dd17146a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.64978360.xyz}}
-  - {name: https://git.io/v9999 96, server: 154.84.1.223, port: 443, type: vmess, uuid: d143380c-bac9-48d8-a314-62339045cadb, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.57053041.xyz}}
-  - {name: https://git.io/v9999 97, server: 154.84.1.183, port: 443, type: vmess, uuid: 2886122d-02ab-4790-ac94-2bb32818a686, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.49836114.xyz}}
-  - {name: https://git.io/v9999 98, server: 154.84.1.74, port: 443, type: vmess, uuid: 54704b97-b7ac-44ba-bf5d-1b35edfa3300, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.20800980.xyz}}
-  - {name: https://git.io/v9999 99, server: 217.138.194.246, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: https://git.io/v9999 100, server: 42.0.30.211, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 101, server: 172.67.199.187, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
-  - {name: https://git.io/v9999 102, server: 45.82.255.18, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM}
-  - {name: https://git.io/v9999 103, server: 45.12.206.156, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn}
-  - {name: https://git.io/v9999 104, server: 154.84.1.79, port: 443, type: vmess, uuid: e33eabe3-1dbd-449d-90a2-636c0f8b6f9a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.28596077.xyz}}
-  - {name: https://git.io/v9999 105, server: 154.84.1.140, port: 54671, type: vmess, uuid: 2a7349d6-994a-434b-9589-c0020685e528, alterId: 64, cipher: auto, tls: false}
-  - {name: https://git.io/v9999 106, server: 172.247.0.227, port: 443, type: vmess, uuid: 66edfc1f-caee-4a27-8ed6-c4c637550392, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.41171.xyz}}
-  - {name: https://git.io/v9999 107, server: 23.225.9.214, port: 443, type: vmess, uuid: 98065ec0-c22d-4109-907b-9768ec851fa1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.3244708.xyz}}
-  - {name: https://git.io/v9999 108, server: 154.84.1.14, port: 443, type: vmess, uuid: 6a6d70a2-6e5d-4de4-8a8f-745e87d6c143, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.4212507134.xyz}}
-  - {name: https://git.io/v9999 109, server: 82.221.128.166, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 110, server: 62.216.72.147, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP}
-  - {name: https://git.io/v9999 111, server: 45.12.222.245, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: https://git.io/v9999 112, server: 185.59.222.94, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: https://git.io/v9999 113, server: 154.84.1.75, port: 443, type: vmess, uuid: 8ac091ac-cf62-4a09-903d-1b98109d86a5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.00779979.xyz}}
-  - {name: https://git.io/v9999 114, server: 66.115.175.37, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 115, server: 84.17.53.210, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 116, server: 84.17.43.178, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 117, server: 66.115.177.156, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 118, server: 152.89.160.211, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 119, server: 86.106.137.147, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 120, server: 45.12.206.89, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE}
-  - {name: https://git.io/v9999 121, server: 199.10.64.69, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 122, server: 74.119.146.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 123, server: 185.158.135.38, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 124, server: 217.138.202.21, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 125, server: 185.246.208.182, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 126, server: 192.154.255.54, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 127, server: 98.142.220.35, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 128, server: 66.115.147.82, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 129, server: 154.16.169.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 130, server: 198.147.22.211, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 131, server: 5.226.139.65, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 132, server: 193.176.86.190, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: https://git.io/v9999 133, server: 165.231.163.19, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 134, server: 198.147.22.133, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 135, server: 172.98.82.229, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 136, server: 217.138.216.229, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: https://git.io/v9999 137, server: 185.76.9.44, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 138, server: 63.141.248.179, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 139, server: 185.108.105.57, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 140, server: 184.170.243.197, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 141, server: v2-06.ssrsub.one, port: 443, type: vmess, uuid: d0cfd824-8cac-180e-6f78-d4ac2cda6a25, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-06.ssrsub.one}}
-  - {name: https://git.io/v9999 142, server: 185.153.151.100, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 143, server: 37.120.217.147, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 144, server: 154.84.1.224, port: 443, type: vmess, uuid: c7aba2b6-2f7c-4b44-99e3-b083c7a105a7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.44985428.xyz}}
-  - {name: https://git.io/v9999 145, server: 186.16.32.168, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 146, server: llajv.rebldp.tech, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki, server: 66.115.147.94, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 2, server: 45.43.14.83, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 3, server: 37.120.145.21, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 4, server: 62.216.92.39, port: 36752, type: vmess, uuid: e6423812-5509-4865-e8c6-da30e0b03d20, alterId: 64, cipher: auto, tls: false}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 5, server: 81.19.209.100, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 6, server: 178.238.231.51, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 7, server: 116.80.41.17, port: 50548, type: vmess, uuid: 39f9a172-f8a0-4819-95e2-8fbbb455fd3c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 116.80.41.17}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 8, server: 45.128.153.77, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 9, server: 154.84.1.192, port: 443, type: vmess, uuid: 436f1897-6228-45aa-8e2e-8fe031827887, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.13612617.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 10, server: 188.92.78.140, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 11, server: 23.224.69.22, port: 443, type: vmess, uuid: 588419e6-78a1-46ed-ab79-c73c00fcd8e2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.7239884.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 12, server: 154.84.1.253, port: 443, type: vmess, uuid: 57e24a59-8af7-4946-bb1f-c6af791ada9e, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.6460649.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 13, server: 193.108.118.221, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 14, server: 185.152.64.151, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 15, server: 23.225.125.84, port: 443, type: vmess, uuid: 8fb921c0-564d-4d5a-9b13-384c01820126, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.56626173.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 16, server: shanghai-cn2-nat.mugun.xyz, port: 25064, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 17, server: 185.108.128.183, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 18, server: 104.19.7.253, port: 443, type: vmess, uuid: eda86376-75b8-4ede-aa9e-365763cb7d8f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /debian, ws-headers: {Host: server1.tmzrmmeh0matamn9.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 19, server: milkgogo.ga, port: 443, type: trojan, password: 8244922f-9937-46ba-b9fa-17708e376220, sni: milkgogo.ga}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 20, server: 172.247.0.230, port: 443, type: vmess, uuid: 66edfc1f-caee-4a27-8ed6-c4c637550392, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.41171.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 21, server: 37.120.194.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 22, server: 154.84.1.12, port: 443, type: vmess, uuid: abbe5fec-5667-4c29-a188-35fc8ebc031a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.5189462.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 23, server: 195.47.194.42, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 24, server: 66.115.154.133, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 25, server: 194.39.127.240, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 26, server: 154.84.1.142, port: 443, type: vmess, uuid: 10e582a2-2089-4bde-9a5c-3a57bfa846b4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.40983279.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 27, server: 37.120.221.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 28, server: 37.120.212.133, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 29, server: 402.v2raya.xyz, port: 80, type: vmess, uuid: c5ca2f35-d5c8-364c-a824-7ab656330641, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 402.v2raya.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 30, server: 37.120.194.125, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 31, server: 178.175.128.235, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 32, server: 45.43.14.95, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 33, server: 37.120.144.215, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 34, server: 154.84.1.222, port: 443, type: vmess, uuid: 2a5e1b0f-ed6a-408e-a7cc-8a0ecba580d6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.46352799.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 35, server: 23.225.178.210, port: 443, type: vmess, uuid: 6f467adb-e8d0-418d-8a57-d01731993268, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.43642.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 36, server: 31.169.121.5, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 37, server: v2-14.ssrsub.one, port: 443, type: vmess, uuid: d0cfd824-8cac-180e-6f78-d4ac2cda6a25, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-14.ssrsub.one}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 38, server: 176.227.241.26, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 39, server: 103.98.75.71, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 40, server: 172.247.199.245, port: 443, type: vmess, uuid: fa822afc-170c-412b-a876-cd077812a5b3, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.01902367.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 41, server: 154.84.1.101, port: 443, type: vmess, uuid: 90afbf7b-dc20-4dc2-bb0c-9fa0ef9d3514, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.1898870.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 42, server: 120.232.194.25, port: 104, type: ss, cipher: aes-128-gcm, password: mC7qrHw3}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 43, server: 62.216.92.39, port: 52612, type: vmess, uuid: ff10d8ad-cda0-40b4-880c-3fb441c5a8fd, alterId: 64, cipher: auto, tls: false}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 44, server: losangeles.freev2.online, port: 443, type: vmess, uuid: 910b3c74-54bf-46f3-8a85-2e57f5e78dd2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: losangeles.freev2.online}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 45, server: 23.225.178.213, port: 443, type: vmess, uuid: 6f467adb-e8d0-418d-8a57-d01731993268, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.43642.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 46, server: v2-04.ssrsub.one, port: 443, type: vmess, uuid: d0cfd824-8cac-180e-6f78-d4ac2cda6a25, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-04.ssrsub.one}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 47, server: 23.225.57.203, port: 443, type: vmess, uuid: 7e3bc49c-7c05-424d-adba-6458c7e1f492, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.4198659.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 48, server: 23.224.69.4, port: 443, type: vmess, uuid: c73ea85e-757d-4596-860c-3d03046fb191, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.7586616.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 49, server: 23.224.82.172, port: 443, type: vmess, uuid: c1e149de-0d41-43ce-b357-0e21d1642c03, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0162296.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 50, server: 120.232.15.44, port: 100, type: ss, cipher: aes-128-gcm, password: Ax90rTgp}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 51, server: 172.247.198.125, port: 443, type: vmess, uuid: ca5581b9-8af8-42e1-b38d-9d51e5a8b2b6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.00689323.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 52, server: 154.84.1.161, port: 443, type: vmess, uuid: 8447e618-032e-4981-943d-d3082049656d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.32429678.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 53, server: 154.84.1.144, port: 443, type: vmess, uuid: c2d4db53-83b9-41ab-8b4a-74648635d38e, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.58613279.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 54, server: 154.84.1.235, port: 443, type: vmess, uuid: d15111f5-ad92-4175-a238-7266cf665786, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.9142674173.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 55, server: 154.84.1.180, port: 443, type: vmess, uuid: 0107fdcc-8d47-4b97-9330-3b3d9ab30046, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54331899.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 56, server: 40.81.210.59, port: 443, type: vmess, uuid: adbece96-40a8-3d29-a05f-fda5e696f67f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp-5.azure.vip5.v2ray.ikuuu.pro}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 57, server: 23.225.9.250, port: 443, type: vmess, uuid: 5fba5fed-b7a3-48cb-9951-52e0bc632d93, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.5307259.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 58, server: 84.247.51.235, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 59, server: 185.195.79.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 60, server: shanghai-cn2-nat.mugun.xyz, port: 25060, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 61, server: 120.232.194.25, port: 106, type: ss, cipher: aes-128-gcm, password: xmr03mg}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 62, server: 183.232.136.231, port: 100, type: ss, cipher: aes-128-gcm, password: Ax90rTgp}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 63, server: 23.225.9.194, port: 443, type: vmess, uuid: 4db97535-cde8-4c7a-bc2d-1141b99889c3, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0970291.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 64, server: 195.158.249.42, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 65, server: 37.120.142.181, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 66, server: 183.232.136.231, port: 102, type: ss, cipher: aes-128-gcm, password: wVu4fp}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 67, server: 23.224.69.18, port: 443, type: vmess, uuid: 588419e6-78a1-46ed-ab79-c73c00fcd8e2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.7239884.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 68, server: 154.84.1.107, port: 443, type: vmess, uuid: 44b3de3c-b29a-4c2c-8c32-b6a8c55088ce, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0921976354.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 69, server: 23.225.125.86, port: 443, type: vmess, uuid: 8fb921c0-564d-4d5a-9b13-384c01820126, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.56626173.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 70, server: 23.224.69.6, port: 443, type: vmess, uuid: c73ea85e-757d-4596-860c-3d03046fb191, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.7586616.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 71, server: 154.84.1.78, port: 443, type: vmess, uuid: 4842ff94-b7f9-4e44-8680-3275c6318638, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.76043239.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 72, server: 154.84.1.85, port: 443, type: vmess, uuid: 10e582a2-2089-4bde-9a5c-3a57bfa846b4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.40983279.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 73, server: 154.84.1.71, port: 443, type: vmess, uuid: 9fe8881c-d03b-4ae8-b4c5-8a48a53ff6c6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.06339405.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 74, server: 213.59.119.2, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 75, server: 154.84.1.22, port: 443, type: vmess, uuid: 44ea9c85-ab73-4024-b8f4-0b1ca0d57f71, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.9134162.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 76, server: 89.164.99.111, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 77, server: 154.84.1.109, port: 443, type: vmess, uuid: 44b3de3c-b29a-4c2c-8c32-b6a8c55088ce, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0921976354.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 78, server: 154.84.1.65, port: 443, type: vmess, uuid: 14505ea6-2314-4a0b-8859-8562bb82a176, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.56726769.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 79, server: 185.152.64.151, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 80, server: 23.225.9.253, port: 443, type: vmess, uuid: 5fba5fed-b7a3-48cb-9951-52e0bc632d93, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.5307259.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 81, server: 120.232.15.44, port: 103, type: ss, cipher: aes-128-gcm, password: t6YSW1X}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 82, server: 194.150.167.42, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 83, server: 154.84.1.143, port: 443, type: vmess, uuid: 2886122d-02ab-4790-ac94-2bb32818a686, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.49836114.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 84, server: shcn2.ynmsl.xyz, port: 30009, type: vmess, uuid: a318e304-730d-4edf-b9a1-5930d2d79cd9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shcn2.ynmsl.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 85, server: shanghai-cn2-nat.mugun.xyz, port: 25067, type: vmess, uuid: d388ac06-a595-3802-a8fa-5f22aa27d4ad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: shanghai-cn2-nat.mugun.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 86, server: 91.206.168.19, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 87, server: 194.41.112.5, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 88, server: 185.225.28.91, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 89, server: 154.84.1.8, port: 443, type: vmess, uuid: cec93317-8bbf-4234-908a-f5504227fa81, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0751432.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 90, server: 45.129.32.27, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 91, server: 198.13.36.128, port: 53009, type: vmess, uuid: 7df10358-91fb-45a5-a7c6-7c4a656d0fe9, alterId: 0, cipher: auto, tls: false}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 92, server: 154.84.1.102, port: 443, type: vmess, uuid: 90afbf7b-dc20-4dc2-bb0c-9fa0ef9d3514, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.1898870.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 93, server: 154.84.1.236, port: 443, type: vmess, uuid: 0b2c5769-f81c-4471-a625-c44f6ffd730f, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.9996013755.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 94, server: 154.84.1.114, port: 443, type: vmess, uuid: aa2b8e05-af65-4623-9859-5f2086f99603, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.amisxdgq.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 95, server: 154.84.1.70, port: 443, type: vmess, uuid: ddf9e626-8a32-49d2-974b-ac32dd17146a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.64978360.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 96, server: 154.84.1.223, port: 443, type: vmess, uuid: d143380c-bac9-48d8-a314-62339045cadb, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.57053041.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 97, server: 154.84.1.183, port: 443, type: vmess, uuid: 2886122d-02ab-4790-ac94-2bb32818a686, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.49836114.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 98, server: 154.84.1.74, port: 443, type: vmess, uuid: 54704b97-b7ac-44ba-bf5d-1b35edfa3300, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.20800980.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 99, server: 217.138.194.246, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 100, server: 42.0.30.211, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 101, server: 172.67.199.187, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 102, server: 45.82.255.18, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 103, server: 45.12.206.156, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 104, server: 154.84.1.79, port: 443, type: vmess, uuid: e33eabe3-1dbd-449d-90a2-636c0f8b6f9a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.28596077.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 105, server: 154.84.1.140, port: 54671, type: vmess, uuid: 2a7349d6-994a-434b-9589-c0020685e528, alterId: 64, cipher: auto, tls: false}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 106, server: 172.247.0.227, port: 443, type: vmess, uuid: 66edfc1f-caee-4a27-8ed6-c4c637550392, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.41171.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 107, server: 23.225.9.214, port: 443, type: vmess, uuid: 98065ec0-c22d-4109-907b-9768ec851fa1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.3244708.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 108, server: 154.84.1.14, port: 443, type: vmess, uuid: 6a6d70a2-6e5d-4de4-8a8f-745e87d6c143, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.4212507134.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 109, server: 82.221.128.166, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 110, server: 62.216.72.147, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 111, server: 45.12.222.245, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 112, server: 185.59.222.94, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 113, server: 154.84.1.75, port: 443, type: vmess, uuid: 8ac091ac-cf62-4a09-903d-1b98109d86a5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.00779979.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 114, server: 66.115.175.37, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 115, server: 84.17.53.210, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 116, server: 84.17.43.178, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 117, server: 66.115.177.156, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 118, server: 152.89.160.211, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 119, server: 86.106.137.147, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 120, server: 45.12.206.89, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 121, server: 199.10.64.69, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 122, server: 74.119.146.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 123, server: 185.158.135.38, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 124, server: 217.138.202.21, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 125, server: 185.246.208.182, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 126, server: 192.154.255.54, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 127, server: 98.142.220.35, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 128, server: 66.115.147.82, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 129, server: 154.16.169.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 130, server: 198.147.22.211, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 131, server: 5.226.139.65, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 132, server: 193.176.86.190, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 133, server: 165.231.163.19, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 134, server: 198.147.22.133, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 135, server: 172.98.82.229, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 136, server: 217.138.216.229, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 137, server: 185.76.9.44, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 138, server: 63.141.248.179, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 139, server: 185.108.105.57, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 140, server: 184.170.243.197, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 141, server: v2-06.ssrsub.one, port: 443, type: vmess, uuid: d0cfd824-8cac-180e-6f78-d4ac2cda6a25, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-06.ssrsub.one}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 142, server: 185.153.151.100, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 143, server: 37.120.217.147, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 144, server: 154.84.1.224, port: 443, type: vmess, uuid: c7aba2b6-2f7c-4b44-99e3-b083c7a105a7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.44985428.xyz}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 145, server: 186.16.32.168, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://github.com/Alvin9999/new-pac/wiki 146, server: llajv.rebldp.tech, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - https://git.io/v9999
-      - https://git.io/v9999 2
-      - https://git.io/v9999 3
-      - https://git.io/v9999 4
-      - https://git.io/v9999 5
-      - https://git.io/v9999 6
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
-      - https://git.io/v9999 10
-      - https://git.io/v9999 11
-      - https://git.io/v9999 12
-      - https://git.io/v9999 13
-      - https://git.io/v9999 14
-      - https://git.io/v9999 15
-      - https://git.io/v9999 16
-      - https://git.io/v9999 17
-      - https://git.io/v9999 18
-      - https://git.io/v9999 19
-      - https://git.io/v9999 20
-      - https://git.io/v9999 21
-      - https://git.io/v9999 22
-      - https://git.io/v9999 23
-      - https://git.io/v9999 24
-      - https://git.io/v9999 25
-      - https://git.io/v9999 26
-      - https://git.io/v9999 27
-      - https://git.io/v9999 28
-      - https://git.io/v9999 29
-      - https://git.io/v9999 30
-      - https://git.io/v9999 31
-      - https://git.io/v9999 32
-      - https://git.io/v9999 33
-      - https://git.io/v9999 34
-      - https://git.io/v9999 35
-      - https://git.io/v9999 36
-      - https://git.io/v9999 37
-      - https://git.io/v9999 38
-      - https://git.io/v9999 39
-      - https://git.io/v9999 40
-      - https://git.io/v9999 41
-      - https://git.io/v9999 42
-      - https://git.io/v9999 43
-      - https://git.io/v9999 44
-      - https://git.io/v9999 45
-      - https://git.io/v9999 46
-      - https://git.io/v9999 47
-      - https://git.io/v9999 48
-      - https://git.io/v9999 49
-      - https://git.io/v9999 50
-      - https://git.io/v9999 51
-      - https://git.io/v9999 52
-      - https://git.io/v9999 53
-      - https://git.io/v9999 54
-      - https://git.io/v9999 55
-      - https://git.io/v9999 56
-      - https://git.io/v9999 57
-      - https://git.io/v9999 58
-      - https://git.io/v9999 59
-      - https://git.io/v9999 60
-      - https://git.io/v9999 61
-      - https://git.io/v9999 62
-      - https://git.io/v9999 63
-      - https://git.io/v9999 64
-      - https://git.io/v9999 65
-      - https://git.io/v9999 66
-      - https://git.io/v9999 67
-      - https://git.io/v9999 68
-      - https://git.io/v9999 69
-      - https://git.io/v9999 70
-      - https://git.io/v9999 71
-      - https://git.io/v9999 72
-      - https://git.io/v9999 73
-      - https://git.io/v9999 74
-      - https://git.io/v9999 75
-      - https://git.io/v9999 76
-      - https://git.io/v9999 77
-      - https://git.io/v9999 78
-      - https://git.io/v9999 79
-      - https://git.io/v9999 80
-      - https://git.io/v9999 81
-      - https://git.io/v9999 82
-      - https://git.io/v9999 83
-      - https://git.io/v9999 84
-      - https://git.io/v9999 85
-      - https://git.io/v9999 86
-      - https://git.io/v9999 87
-      - https://git.io/v9999 88
-      - https://git.io/v9999 89
-      - https://git.io/v9999 90
-      - https://git.io/v9999 91
-      - https://git.io/v9999 92
-      - https://git.io/v9999 93
-      - https://git.io/v9999 94
-      - https://git.io/v9999 95
-      - https://git.io/v9999 96
-      - https://git.io/v9999 97
-      - https://git.io/v9999 98
-      - https://git.io/v9999 99
-      - https://git.io/v9999 100
-      - https://git.io/v9999 101
-      - https://git.io/v9999 102
-      - https://git.io/v9999 103
-      - https://git.io/v9999 104
-      - https://git.io/v9999 105
-      - https://git.io/v9999 106
-      - https://git.io/v9999 107
-      - https://git.io/v9999 108
-      - https://git.io/v9999 109
-      - https://git.io/v9999 110
-      - https://git.io/v9999 111
-      - https://git.io/v9999 112
-      - https://git.io/v9999 113
-      - https://git.io/v9999 114
-      - https://git.io/v9999 115
-      - https://git.io/v9999 116
-      - https://git.io/v9999 117
-      - https://git.io/v9999 118
-      - https://git.io/v9999 119
-      - https://git.io/v9999 120
-      - https://git.io/v9999 121
-      - https://git.io/v9999 122
-      - https://git.io/v9999 123
-      - https://git.io/v9999 124
-      - https://git.io/v9999 125
-      - https://git.io/v9999 126
-      - https://git.io/v9999 127
-      - https://git.io/v9999 128
-      - https://git.io/v9999 129
-      - https://git.io/v9999 130
-      - https://git.io/v9999 131
-      - https://git.io/v9999 132
-      - https://git.io/v9999 133
-      - https://git.io/v9999 134
-      - https://git.io/v9999 135
-      - https://git.io/v9999 136
-      - https://git.io/v9999 137
-      - https://git.io/v9999 138
-      - https://git.io/v9999 139
-      - https://git.io/v9999 140
-      - https://git.io/v9999 141
-      - https://git.io/v9999 142
-      - https://git.io/v9999 143
-      - https://git.io/v9999 144
-      - https://git.io/v9999 145
-      - https://git.io/v9999 146
+      - https://github.com/Alvin9999/new-pac/wiki
+      - https://github.com/Alvin9999/new-pac/wiki 2
+      - https://github.com/Alvin9999/new-pac/wiki 3
+      - https://github.com/Alvin9999/new-pac/wiki 4
+      - https://github.com/Alvin9999/new-pac/wiki 5
+      - https://github.com/Alvin9999/new-pac/wiki 6
+      - https://github.com/Alvin9999/new-pac/wiki 7
+      - https://github.com/Alvin9999/new-pac/wiki 8
+      - https://github.com/Alvin9999/new-pac/wiki 9
+      - https://github.com/Alvin9999/new-pac/wiki 10
+      - https://github.com/Alvin9999/new-pac/wiki 11
+      - https://github.com/Alvin9999/new-pac/wiki 12
+      - https://github.com/Alvin9999/new-pac/wiki 13
+      - https://github.com/Alvin9999/new-pac/wiki 14
+      - https://github.com/Alvin9999/new-pac/wiki 15
+      - https://github.com/Alvin9999/new-pac/wiki 16
+      - https://github.com/Alvin9999/new-pac/wiki 17
+      - https://github.com/Alvin9999/new-pac/wiki 18
+      - https://github.com/Alvin9999/new-pac/wiki 19
+      - https://github.com/Alvin9999/new-pac/wiki 20
+      - https://github.com/Alvin9999/new-pac/wiki 21
+      - https://github.com/Alvin9999/new-pac/wiki 22
+      - https://github.com/Alvin9999/new-pac/wiki 23
+      - https://github.com/Alvin9999/new-pac/wiki 24
+      - https://github.com/Alvin9999/new-pac/wiki 25
+      - https://github.com/Alvin9999/new-pac/wiki 26
+      - https://github.com/Alvin9999/new-pac/wiki 27
+      - https://github.com/Alvin9999/new-pac/wiki 28
+      - https://github.com/Alvin9999/new-pac/wiki 29
+      - https://github.com/Alvin9999/new-pac/wiki 30
+      - https://github.com/Alvin9999/new-pac/wiki 31
+      - https://github.com/Alvin9999/new-pac/wiki 32
+      - https://github.com/Alvin9999/new-pac/wiki 33
+      - https://github.com/Alvin9999/new-pac/wiki 34
+      - https://github.com/Alvin9999/new-pac/wiki 35
+      - https://github.com/Alvin9999/new-pac/wiki 36
+      - https://github.com/Alvin9999/new-pac/wiki 37
+      - https://github.com/Alvin9999/new-pac/wiki 38
+      - https://github.com/Alvin9999/new-pac/wiki 39
+      - https://github.com/Alvin9999/new-pac/wiki 40
+      - https://github.com/Alvin9999/new-pac/wiki 41
+      - https://github.com/Alvin9999/new-pac/wiki 42
+      - https://github.com/Alvin9999/new-pac/wiki 43
+      - https://github.com/Alvin9999/new-pac/wiki 44
+      - https://github.com/Alvin9999/new-pac/wiki 45
+      - https://github.com/Alvin9999/new-pac/wiki 46
+      - https://github.com/Alvin9999/new-pac/wiki 47
+      - https://github.com/Alvin9999/new-pac/wiki 48
+      - https://github.com/Alvin9999/new-pac/wiki 49
+      - https://github.com/Alvin9999/new-pac/wiki 50
+      - https://github.com/Alvin9999/new-pac/wiki 51
+      - https://github.com/Alvin9999/new-pac/wiki 52
+      - https://github.com/Alvin9999/new-pac/wiki 53
+      - https://github.com/Alvin9999/new-pac/wiki 54
+      - https://github.com/Alvin9999/new-pac/wiki 55
+      - https://github.com/Alvin9999/new-pac/wiki 56
+      - https://github.com/Alvin9999/new-pac/wiki 57
+      - https://github.com/Alvin9999/new-pac/wiki 58
+      - https://github.com/Alvin9999/new-pac/wiki 59
+      - https://github.com/Alvin9999/new-pac/wiki 60
+      - https://github.com/Alvin9999/new-pac/wiki 61
+      - https://github.com/Alvin9999/new-pac/wiki 62
+      - https://github.com/Alvin9999/new-pac/wiki 63
+      - https://github.com/Alvin9999/new-pac/wiki 64
+      - https://github.com/Alvin9999/new-pac/wiki 65
+      - https://github.com/Alvin9999/new-pac/wiki 66
+      - https://github.com/Alvin9999/new-pac/wiki 67
+      - https://github.com/Alvin9999/new-pac/wiki 68
+      - https://github.com/Alvin9999/new-pac/wiki 69
+      - https://github.com/Alvin9999/new-pac/wiki 70
+      - https://github.com/Alvin9999/new-pac/wiki 71
+      - https://github.com/Alvin9999/new-pac/wiki 72
+      - https://github.com/Alvin9999/new-pac/wiki 73
+      - https://github.com/Alvin9999/new-pac/wiki 74
+      - https://github.com/Alvin9999/new-pac/wiki 75
+      - https://github.com/Alvin9999/new-pac/wiki 76
+      - https://github.com/Alvin9999/new-pac/wiki 77
+      - https://github.com/Alvin9999/new-pac/wiki 78
+      - https://github.com/Alvin9999/new-pac/wiki 79
+      - https://github.com/Alvin9999/new-pac/wiki 80
+      - https://github.com/Alvin9999/new-pac/wiki 81
+      - https://github.com/Alvin9999/new-pac/wiki 82
+      - https://github.com/Alvin9999/new-pac/wiki 83
+      - https://github.com/Alvin9999/new-pac/wiki 84
+      - https://github.com/Alvin9999/new-pac/wiki 85
+      - https://github.com/Alvin9999/new-pac/wiki 86
+      - https://github.com/Alvin9999/new-pac/wiki 87
+      - https://github.com/Alvin9999/new-pac/wiki 88
+      - https://github.com/Alvin9999/new-pac/wiki 89
+      - https://github.com/Alvin9999/new-pac/wiki 90
+      - https://github.com/Alvin9999/new-pac/wiki 91
+      - https://github.com/Alvin9999/new-pac/wiki 92
+      - https://github.com/Alvin9999/new-pac/wiki 93
+      - https://github.com/Alvin9999/new-pac/wiki 94
+      - https://github.com/Alvin9999/new-pac/wiki 95
+      - https://github.com/Alvin9999/new-pac/wiki 96
+      - https://github.com/Alvin9999/new-pac/wiki 97
+      - https://github.com/Alvin9999/new-pac/wiki 98
+      - https://github.com/Alvin9999/new-pac/wiki 99
+      - https://github.com/Alvin9999/new-pac/wiki 100
+      - https://github.com/Alvin9999/new-pac/wiki 101
+      - https://github.com/Alvin9999/new-pac/wiki 102
+      - https://github.com/Alvin9999/new-pac/wiki 103
+      - https://github.com/Alvin9999/new-pac/wiki 104
+      - https://github.com/Alvin9999/new-pac/wiki 105
+      - https://github.com/Alvin9999/new-pac/wiki 106
+      - https://github.com/Alvin9999/new-pac/wiki 107
+      - https://github.com/Alvin9999/new-pac/wiki 108
+      - https://github.com/Alvin9999/new-pac/wiki 109
+      - https://github.com/Alvin9999/new-pac/wiki 110
+      - https://github.com/Alvin9999/new-pac/wiki 111
+      - https://github.com/Alvin9999/new-pac/wiki 112
+      - https://github.com/Alvin9999/new-pac/wiki 113
+      - https://github.com/Alvin9999/new-pac/wiki 114
+      - https://github.com/Alvin9999/new-pac/wiki 115
+      - https://github.com/Alvin9999/new-pac/wiki 116
+      - https://github.com/Alvin9999/new-pac/wiki 117
+      - https://github.com/Alvin9999/new-pac/wiki 118
+      - https://github.com/Alvin9999/new-pac/wiki 119
+      - https://github.com/Alvin9999/new-pac/wiki 120
+      - https://github.com/Alvin9999/new-pac/wiki 121
+      - https://github.com/Alvin9999/new-pac/wiki 122
+      - https://github.com/Alvin9999/new-pac/wiki 123
+      - https://github.com/Alvin9999/new-pac/wiki 124
+      - https://github.com/Alvin9999/new-pac/wiki 125
+      - https://github.com/Alvin9999/new-pac/wiki 126
+      - https://github.com/Alvin9999/new-pac/wiki 127
+      - https://github.com/Alvin9999/new-pac/wiki 128
+      - https://github.com/Alvin9999/new-pac/wiki 129
+      - https://github.com/Alvin9999/new-pac/wiki 130
+      - https://github.com/Alvin9999/new-pac/wiki 131
+      - https://github.com/Alvin9999/new-pac/wiki 132
+      - https://github.com/Alvin9999/new-pac/wiki 133
+      - https://github.com/Alvin9999/new-pac/wiki 134
+      - https://github.com/Alvin9999/new-pac/wiki 135
+      - https://github.com/Alvin9999/new-pac/wiki 136
+      - https://github.com/Alvin9999/new-pac/wiki 137
+      - https://github.com/Alvin9999/new-pac/wiki 138
+      - https://github.com/Alvin9999/new-pac/wiki 139
+      - https://github.com/Alvin9999/new-pac/wiki 140
+      - https://github.com/Alvin9999/new-pac/wiki 141
+      - https://github.com/Alvin9999/new-pac/wiki 142
+      - https://github.com/Alvin9999/new-pac/wiki 143
+      - https://github.com/Alvin9999/new-pac/wiki 144
+      - https://github.com/Alvin9999/new-pac/wiki 145
+      - https://github.com/Alvin9999/new-pac/wiki 146
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 0
     proxies:
-      - https://git.io/v9999
-      - https://git.io/v9999 2
-      - https://git.io/v9999 3
-      - https://git.io/v9999 4
-      - https://git.io/v9999 5
-      - https://git.io/v9999 6
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
-      - https://git.io/v9999 10
-      - https://git.io/v9999 11
-      - https://git.io/v9999 12
-      - https://git.io/v9999 13
-      - https://git.io/v9999 14
-      - https://git.io/v9999 15
-      - https://git.io/v9999 16
-      - https://git.io/v9999 17
-      - https://git.io/v9999 18
-      - https://git.io/v9999 19
-      - https://git.io/v9999 20
-      - https://git.io/v9999 21
-      - https://git.io/v9999 22
-      - https://git.io/v9999 23
-      - https://git.io/v9999 24
-      - https://git.io/v9999 25
-      - https://git.io/v9999 26
-      - https://git.io/v9999 27
-      - https://git.io/v9999 28
-      - https://git.io/v9999 29
-      - https://git.io/v9999 30
-      - https://git.io/v9999 31
-      - https://git.io/v9999 32
-      - https://git.io/v9999 33
-      - https://git.io/v9999 34
-      - https://git.io/v9999 35
-      - https://git.io/v9999 36
-      - https://git.io/v9999 37
-      - https://git.io/v9999 38
-      - https://git.io/v9999 39
-      - https://git.io/v9999 40
-      - https://git.io/v9999 41
-      - https://git.io/v9999 42
-      - https://git.io/v9999 43
-      - https://git.io/v9999 44
-      - https://git.io/v9999 45
-      - https://git.io/v9999 46
-      - https://git.io/v9999 47
-      - https://git.io/v9999 48
-      - https://git.io/v9999 49
-      - https://git.io/v9999 50
-      - https://git.io/v9999 51
-      - https://git.io/v9999 52
-      - https://git.io/v9999 53
-      - https://git.io/v9999 54
-      - https://git.io/v9999 55
-      - https://git.io/v9999 56
-      - https://git.io/v9999 57
-      - https://git.io/v9999 58
-      - https://git.io/v9999 59
-      - https://git.io/v9999 60
-      - https://git.io/v9999 61
-      - https://git.io/v9999 62
-      - https://git.io/v9999 63
-      - https://git.io/v9999 64
-      - https://git.io/v9999 65
-      - https://git.io/v9999 66
-      - https://git.io/v9999 67
-      - https://git.io/v9999 68
-      - https://git.io/v9999 69
-      - https://git.io/v9999 70
-      - https://git.io/v9999 71
-      - https://git.io/v9999 72
-      - https://git.io/v9999 73
-      - https://git.io/v9999 74
-      - https://git.io/v9999 75
-      - https://git.io/v9999 76
-      - https://git.io/v9999 77
-      - https://git.io/v9999 78
-      - https://git.io/v9999 79
-      - https://git.io/v9999 80
-      - https://git.io/v9999 81
-      - https://git.io/v9999 82
-      - https://git.io/v9999 83
-      - https://git.io/v9999 84
-      - https://git.io/v9999 85
-      - https://git.io/v9999 86
-      - https://git.io/v9999 87
-      - https://git.io/v9999 88
-      - https://git.io/v9999 89
-      - https://git.io/v9999 90
-      - https://git.io/v9999 91
-      - https://git.io/v9999 92
-      - https://git.io/v9999 93
-      - https://git.io/v9999 94
-      - https://git.io/v9999 95
-      - https://git.io/v9999 96
-      - https://git.io/v9999 97
-      - https://git.io/v9999 98
-      - https://git.io/v9999 99
-      - https://git.io/v9999 100
-      - https://git.io/v9999 101
-      - https://git.io/v9999 102
-      - https://git.io/v9999 103
-      - https://git.io/v9999 104
-      - https://git.io/v9999 105
-      - https://git.io/v9999 106
-      - https://git.io/v9999 107
-      - https://git.io/v9999 108
-      - https://git.io/v9999 109
-      - https://git.io/v9999 110
-      - https://git.io/v9999 111
-      - https://git.io/v9999 112
-      - https://git.io/v9999 113
-      - https://git.io/v9999 114
-      - https://git.io/v9999 115
-      - https://git.io/v9999 116
-      - https://git.io/v9999 117
-      - https://git.io/v9999 118
-      - https://git.io/v9999 119
-      - https://git.io/v9999 120
-      - https://git.io/v9999 121
-      - https://git.io/v9999 122
-      - https://git.io/v9999 123
-      - https://git.io/v9999 124
-      - https://git.io/v9999 125
-      - https://git.io/v9999 126
-      - https://git.io/v9999 127
-      - https://git.io/v9999 128
-      - https://git.io/v9999 129
-      - https://git.io/v9999 130
-      - https://git.io/v9999 131
-      - https://git.io/v9999 132
-      - https://git.io/v9999 133
-      - https://git.io/v9999 134
-      - https://git.io/v9999 135
-      - https://git.io/v9999 136
-      - https://git.io/v9999 137
-      - https://git.io/v9999 138
-      - https://git.io/v9999 139
-      - https://git.io/v9999 140
-      - https://git.io/v9999 141
-      - https://git.io/v9999 142
-      - https://git.io/v9999 143
-      - https://git.io/v9999 144
-      - https://git.io/v9999 145
-      - https://git.io/v9999 146
+      - https://github.com/Alvin9999/new-pac/wiki
+      - https://github.com/Alvin9999/new-pac/wiki 2
+      - https://github.com/Alvin9999/new-pac/wiki 3
+      - https://github.com/Alvin9999/new-pac/wiki 4
+      - https://github.com/Alvin9999/new-pac/wiki 5
+      - https://github.com/Alvin9999/new-pac/wiki 6
+      - https://github.com/Alvin9999/new-pac/wiki 7
+      - https://github.com/Alvin9999/new-pac/wiki 8
+      - https://github.com/Alvin9999/new-pac/wiki 9
+      - https://github.com/Alvin9999/new-pac/wiki 10
+      - https://github.com/Alvin9999/new-pac/wiki 11
+      - https://github.com/Alvin9999/new-pac/wiki 12
+      - https://github.com/Alvin9999/new-pac/wiki 13
+      - https://github.com/Alvin9999/new-pac/wiki 14
+      - https://github.com/Alvin9999/new-pac/wiki 15
+      - https://github.com/Alvin9999/new-pac/wiki 16
+      - https://github.com/Alvin9999/new-pac/wiki 17
+      - https://github.com/Alvin9999/new-pac/wiki 18
+      - https://github.com/Alvin9999/new-pac/wiki 19
+      - https://github.com/Alvin9999/new-pac/wiki 20
+      - https://github.com/Alvin9999/new-pac/wiki 21
+      - https://github.com/Alvin9999/new-pac/wiki 22
+      - https://github.com/Alvin9999/new-pac/wiki 23
+      - https://github.com/Alvin9999/new-pac/wiki 24
+      - https://github.com/Alvin9999/new-pac/wiki 25
+      - https://github.com/Alvin9999/new-pac/wiki 26
+      - https://github.com/Alvin9999/new-pac/wiki 27
+      - https://github.com/Alvin9999/new-pac/wiki 28
+      - https://github.com/Alvin9999/new-pac/wiki 29
+      - https://github.com/Alvin9999/new-pac/wiki 30
+      - https://github.com/Alvin9999/new-pac/wiki 31
+      - https://github.com/Alvin9999/new-pac/wiki 32
+      - https://github.com/Alvin9999/new-pac/wiki 33
+      - https://github.com/Alvin9999/new-pac/wiki 34
+      - https://github.com/Alvin9999/new-pac/wiki 35
+      - https://github.com/Alvin9999/new-pac/wiki 36
+      - https://github.com/Alvin9999/new-pac/wiki 37
+      - https://github.com/Alvin9999/new-pac/wiki 38
+      - https://github.com/Alvin9999/new-pac/wiki 39
+      - https://github.com/Alvin9999/new-pac/wiki 40
+      - https://github.com/Alvin9999/new-pac/wiki 41
+      - https://github.com/Alvin9999/new-pac/wiki 42
+      - https://github.com/Alvin9999/new-pac/wiki 43
+      - https://github.com/Alvin9999/new-pac/wiki 44
+      - https://github.com/Alvin9999/new-pac/wiki 45
+      - https://github.com/Alvin9999/new-pac/wiki 46
+      - https://github.com/Alvin9999/new-pac/wiki 47
+      - https://github.com/Alvin9999/new-pac/wiki 48
+      - https://github.com/Alvin9999/new-pac/wiki 49
+      - https://github.com/Alvin9999/new-pac/wiki 50
+      - https://github.com/Alvin9999/new-pac/wiki 51
+      - https://github.com/Alvin9999/new-pac/wiki 52
+      - https://github.com/Alvin9999/new-pac/wiki 53
+      - https://github.com/Alvin9999/new-pac/wiki 54
+      - https://github.com/Alvin9999/new-pac/wiki 55
+      - https://github.com/Alvin9999/new-pac/wiki 56
+      - https://github.com/Alvin9999/new-pac/wiki 57
+      - https://github.com/Alvin9999/new-pac/wiki 58
+      - https://github.com/Alvin9999/new-pac/wiki 59
+      - https://github.com/Alvin9999/new-pac/wiki 60
+      - https://github.com/Alvin9999/new-pac/wiki 61
+      - https://github.com/Alvin9999/new-pac/wiki 62
+      - https://github.com/Alvin9999/new-pac/wiki 63
+      - https://github.com/Alvin9999/new-pac/wiki 64
+      - https://github.com/Alvin9999/new-pac/wiki 65
+      - https://github.com/Alvin9999/new-pac/wiki 66
+      - https://github.com/Alvin9999/new-pac/wiki 67
+      - https://github.com/Alvin9999/new-pac/wiki 68
+      - https://github.com/Alvin9999/new-pac/wiki 69
+      - https://github.com/Alvin9999/new-pac/wiki 70
+      - https://github.com/Alvin9999/new-pac/wiki 71
+      - https://github.com/Alvin9999/new-pac/wiki 72
+      - https://github.com/Alvin9999/new-pac/wiki 73
+      - https://github.com/Alvin9999/new-pac/wiki 74
+      - https://github.com/Alvin9999/new-pac/wiki 75
+      - https://github.com/Alvin9999/new-pac/wiki 76
+      - https://github.com/Alvin9999/new-pac/wiki 77
+      - https://github.com/Alvin9999/new-pac/wiki 78
+      - https://github.com/Alvin9999/new-pac/wiki 79
+      - https://github.com/Alvin9999/new-pac/wiki 80
+      - https://github.com/Alvin9999/new-pac/wiki 81
+      - https://github.com/Alvin9999/new-pac/wiki 82
+      - https://github.com/Alvin9999/new-pac/wiki 83
+      - https://github.com/Alvin9999/new-pac/wiki 84
+      - https://github.com/Alvin9999/new-pac/wiki 85
+      - https://github.com/Alvin9999/new-pac/wiki 86
+      - https://github.com/Alvin9999/new-pac/wiki 87
+      - https://github.com/Alvin9999/new-pac/wiki 88
+      - https://github.com/Alvin9999/new-pac/wiki 89
+      - https://github.com/Alvin9999/new-pac/wiki 90
+      - https://github.com/Alvin9999/new-pac/wiki 91
+      - https://github.com/Alvin9999/new-pac/wiki 92
+      - https://github.com/Alvin9999/new-pac/wiki 93
+      - https://github.com/Alvin9999/new-pac/wiki 94
+      - https://github.com/Alvin9999/new-pac/wiki 95
+      - https://github.com/Alvin9999/new-pac/wiki 96
+      - https://github.com/Alvin9999/new-pac/wiki 97
+      - https://github.com/Alvin9999/new-pac/wiki 98
+      - https://github.com/Alvin9999/new-pac/wiki 99
+      - https://github.com/Alvin9999/new-pac/wiki 100
+      - https://github.com/Alvin9999/new-pac/wiki 101
+      - https://github.com/Alvin9999/new-pac/wiki 102
+      - https://github.com/Alvin9999/new-pac/wiki 103
+      - https://github.com/Alvin9999/new-pac/wiki 104
+      - https://github.com/Alvin9999/new-pac/wiki 105
+      - https://github.com/Alvin9999/new-pac/wiki 106
+      - https://github.com/Alvin9999/new-pac/wiki 107
+      - https://github.com/Alvin9999/new-pac/wiki 108
+      - https://github.com/Alvin9999/new-pac/wiki 109
+      - https://github.com/Alvin9999/new-pac/wiki 110
+      - https://github.com/Alvin9999/new-pac/wiki 111
+      - https://github.com/Alvin9999/new-pac/wiki 112
+      - https://github.com/Alvin9999/new-pac/wiki 113
+      - https://github.com/Alvin9999/new-pac/wiki 114
+      - https://github.com/Alvin9999/new-pac/wiki 115
+      - https://github.com/Alvin9999/new-pac/wiki 116
+      - https://github.com/Alvin9999/new-pac/wiki 117
+      - https://github.com/Alvin9999/new-pac/wiki 118
+      - https://github.com/Alvin9999/new-pac/wiki 119
+      - https://github.com/Alvin9999/new-pac/wiki 120
+      - https://github.com/Alvin9999/new-pac/wiki 121
+      - https://github.com/Alvin9999/new-pac/wiki 122
+      - https://github.com/Alvin9999/new-pac/wiki 123
+      - https://github.com/Alvin9999/new-pac/wiki 124
+      - https://github.com/Alvin9999/new-pac/wiki 125
+      - https://github.com/Alvin9999/new-pac/wiki 126
+      - https://github.com/Alvin9999/new-pac/wiki 127
+      - https://github.com/Alvin9999/new-pac/wiki 128
+      - https://github.com/Alvin9999/new-pac/wiki 129
+      - https://github.com/Alvin9999/new-pac/wiki 130
+      - https://github.com/Alvin9999/new-pac/wiki 131
+      - https://github.com/Alvin9999/new-pac/wiki 132
+      - https://github.com/Alvin9999/new-pac/wiki 133
+      - https://github.com/Alvin9999/new-pac/wiki 134
+      - https://github.com/Alvin9999/new-pac/wiki 135
+      - https://github.com/Alvin9999/new-pac/wiki 136
+      - https://github.com/Alvin9999/new-pac/wiki 137
+      - https://github.com/Alvin9999/new-pac/wiki 138
+      - https://github.com/Alvin9999/new-pac/wiki 139
+      - https://github.com/Alvin9999/new-pac/wiki 140
+      - https://github.com/Alvin9999/new-pac/wiki 141
+      - https://github.com/Alvin9999/new-pac/wiki 142
+      - https://github.com/Alvin9999/new-pac/wiki 143
+      - https://github.com/Alvin9999/new-pac/wiki 144
+      - https://github.com/Alvin9999/new-pac/wiki 145
+      - https://github.com/Alvin9999/new-pac/wiki 146
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - https://git.io/v9999
-      - https://git.io/v9999 2
-      - https://git.io/v9999 3
-      - https://git.io/v9999 4
-      - https://git.io/v9999 5
-      - https://git.io/v9999 6
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
-      - https://git.io/v9999 10
-      - https://git.io/v9999 11
-      - https://git.io/v9999 12
-      - https://git.io/v9999 13
-      - https://git.io/v9999 14
-      - https://git.io/v9999 15
-      - https://git.io/v9999 16
-      - https://git.io/v9999 17
-      - https://git.io/v9999 18
-      - https://git.io/v9999 19
-      - https://git.io/v9999 20
-      - https://git.io/v9999 21
-      - https://git.io/v9999 22
-      - https://git.io/v9999 23
-      - https://git.io/v9999 24
-      - https://git.io/v9999 25
-      - https://git.io/v9999 26
-      - https://git.io/v9999 27
-      - https://git.io/v9999 28
-      - https://git.io/v9999 29
-      - https://git.io/v9999 30
-      - https://git.io/v9999 31
-      - https://git.io/v9999 32
-      - https://git.io/v9999 33
-      - https://git.io/v9999 34
-      - https://git.io/v9999 35
-      - https://git.io/v9999 36
-      - https://git.io/v9999 37
-      - https://git.io/v9999 38
-      - https://git.io/v9999 39
-      - https://git.io/v9999 40
-      - https://git.io/v9999 41
-      - https://git.io/v9999 42
-      - https://git.io/v9999 43
-      - https://git.io/v9999 44
-      - https://git.io/v9999 45
-      - https://git.io/v9999 46
-      - https://git.io/v9999 47
-      - https://git.io/v9999 48
-      - https://git.io/v9999 49
-      - https://git.io/v9999 50
-      - https://git.io/v9999 51
-      - https://git.io/v9999 52
-      - https://git.io/v9999 53
-      - https://git.io/v9999 54
-      - https://git.io/v9999 55
-      - https://git.io/v9999 56
-      - https://git.io/v9999 57
-      - https://git.io/v9999 58
-      - https://git.io/v9999 59
-      - https://git.io/v9999 60
-      - https://git.io/v9999 61
-      - https://git.io/v9999 62
-      - https://git.io/v9999 63
-      - https://git.io/v9999 64
-      - https://git.io/v9999 65
-      - https://git.io/v9999 66
-      - https://git.io/v9999 67
-      - https://git.io/v9999 68
-      - https://git.io/v9999 69
-      - https://git.io/v9999 70
-      - https://git.io/v9999 71
-      - https://git.io/v9999 72
-      - https://git.io/v9999 73
-      - https://git.io/v9999 74
-      - https://git.io/v9999 75
-      - https://git.io/v9999 76
-      - https://git.io/v9999 77
-      - https://git.io/v9999 78
-      - https://git.io/v9999 79
-      - https://git.io/v9999 80
-      - https://git.io/v9999 81
-      - https://git.io/v9999 82
-      - https://git.io/v9999 83
-      - https://git.io/v9999 84
-      - https://git.io/v9999 85
-      - https://git.io/v9999 86
-      - https://git.io/v9999 87
-      - https://git.io/v9999 88
-      - https://git.io/v9999 89
-      - https://git.io/v9999 90
-      - https://git.io/v9999 91
-      - https://git.io/v9999 92
-      - https://git.io/v9999 93
-      - https://git.io/v9999 94
-      - https://git.io/v9999 95
-      - https://git.io/v9999 96
-      - https://git.io/v9999 97
-      - https://git.io/v9999 98
-      - https://git.io/v9999 99
-      - https://git.io/v9999 100
-      - https://git.io/v9999 101
-      - https://git.io/v9999 102
-      - https://git.io/v9999 103
-      - https://git.io/v9999 104
-      - https://git.io/v9999 105
-      - https://git.io/v9999 106
-      - https://git.io/v9999 107
-      - https://git.io/v9999 108
-      - https://git.io/v9999 109
-      - https://git.io/v9999 110
-      - https://git.io/v9999 111
-      - https://git.io/v9999 112
-      - https://git.io/v9999 113
-      - https://git.io/v9999 114
-      - https://git.io/v9999 115
-      - https://git.io/v9999 116
-      - https://git.io/v9999 117
-      - https://git.io/v9999 118
-      - https://git.io/v9999 119
-      - https://git.io/v9999 120
-      - https://git.io/v9999 121
-      - https://git.io/v9999 122
-      - https://git.io/v9999 123
-      - https://git.io/v9999 124
-      - https://git.io/v9999 125
-      - https://git.io/v9999 126
-      - https://git.io/v9999 127
-      - https://git.io/v9999 128
-      - https://git.io/v9999 129
-      - https://git.io/v9999 130
-      - https://git.io/v9999 131
-      - https://git.io/v9999 132
-      - https://git.io/v9999 133
-      - https://git.io/v9999 134
-      - https://git.io/v9999 135
-      - https://git.io/v9999 136
-      - https://git.io/v9999 137
-      - https://git.io/v9999 138
-      - https://git.io/v9999 139
-      - https://git.io/v9999 140
-      - https://git.io/v9999 141
-      - https://git.io/v9999 142
-      - https://git.io/v9999 143
-      - https://git.io/v9999 144
-      - https://git.io/v9999 145
-      - https://git.io/v9999 146
+      - https://github.com/Alvin9999/new-pac/wiki
+      - https://github.com/Alvin9999/new-pac/wiki 2
+      - https://github.com/Alvin9999/new-pac/wiki 3
+      - https://github.com/Alvin9999/new-pac/wiki 4
+      - https://github.com/Alvin9999/new-pac/wiki 5
+      - https://github.com/Alvin9999/new-pac/wiki 6
+      - https://github.com/Alvin9999/new-pac/wiki 7
+      - https://github.com/Alvin9999/new-pac/wiki 8
+      - https://github.com/Alvin9999/new-pac/wiki 9
+      - https://github.com/Alvin9999/new-pac/wiki 10
+      - https://github.com/Alvin9999/new-pac/wiki 11
+      - https://github.com/Alvin9999/new-pac/wiki 12
+      - https://github.com/Alvin9999/new-pac/wiki 13
+      - https://github.com/Alvin9999/new-pac/wiki 14
+      - https://github.com/Alvin9999/new-pac/wiki 15
+      - https://github.com/Alvin9999/new-pac/wiki 16
+      - https://github.com/Alvin9999/new-pac/wiki 17
+      - https://github.com/Alvin9999/new-pac/wiki 18
+      - https://github.com/Alvin9999/new-pac/wiki 19
+      - https://github.com/Alvin9999/new-pac/wiki 20
+      - https://github.com/Alvin9999/new-pac/wiki 21
+      - https://github.com/Alvin9999/new-pac/wiki 22
+      - https://github.com/Alvin9999/new-pac/wiki 23
+      - https://github.com/Alvin9999/new-pac/wiki 24
+      - https://github.com/Alvin9999/new-pac/wiki 25
+      - https://github.com/Alvin9999/new-pac/wiki 26
+      - https://github.com/Alvin9999/new-pac/wiki 27
+      - https://github.com/Alvin9999/new-pac/wiki 28
+      - https://github.com/Alvin9999/new-pac/wiki 29
+      - https://github.com/Alvin9999/new-pac/wiki 30
+      - https://github.com/Alvin9999/new-pac/wiki 31
+      - https://github.com/Alvin9999/new-pac/wiki 32
+      - https://github.com/Alvin9999/new-pac/wiki 33
+      - https://github.com/Alvin9999/new-pac/wiki 34
+      - https://github.com/Alvin9999/new-pac/wiki 35
+      - https://github.com/Alvin9999/new-pac/wiki 36
+      - https://github.com/Alvin9999/new-pac/wiki 37
+      - https://github.com/Alvin9999/new-pac/wiki 38
+      - https://github.com/Alvin9999/new-pac/wiki 39
+      - https://github.com/Alvin9999/new-pac/wiki 40
+      - https://github.com/Alvin9999/new-pac/wiki 41
+      - https://github.com/Alvin9999/new-pac/wiki 42
+      - https://github.com/Alvin9999/new-pac/wiki 43
+      - https://github.com/Alvin9999/new-pac/wiki 44
+      - https://github.com/Alvin9999/new-pac/wiki 45
+      - https://github.com/Alvin9999/new-pac/wiki 46
+      - https://github.com/Alvin9999/new-pac/wiki 47
+      - https://github.com/Alvin9999/new-pac/wiki 48
+      - https://github.com/Alvin9999/new-pac/wiki 49
+      - https://github.com/Alvin9999/new-pac/wiki 50
+      - https://github.com/Alvin9999/new-pac/wiki 51
+      - https://github.com/Alvin9999/new-pac/wiki 52
+      - https://github.com/Alvin9999/new-pac/wiki 53
+      - https://github.com/Alvin9999/new-pac/wiki 54
+      - https://github.com/Alvin9999/new-pac/wiki 55
+      - https://github.com/Alvin9999/new-pac/wiki 56
+      - https://github.com/Alvin9999/new-pac/wiki 57
+      - https://github.com/Alvin9999/new-pac/wiki 58
+      - https://github.com/Alvin9999/new-pac/wiki 59
+      - https://github.com/Alvin9999/new-pac/wiki 60
+      - https://github.com/Alvin9999/new-pac/wiki 61
+      - https://github.com/Alvin9999/new-pac/wiki 62
+      - https://github.com/Alvin9999/new-pac/wiki 63
+      - https://github.com/Alvin9999/new-pac/wiki 64
+      - https://github.com/Alvin9999/new-pac/wiki 65
+      - https://github.com/Alvin9999/new-pac/wiki 66
+      - https://github.com/Alvin9999/new-pac/wiki 67
+      - https://github.com/Alvin9999/new-pac/wiki 68
+      - https://github.com/Alvin9999/new-pac/wiki 69
+      - https://github.com/Alvin9999/new-pac/wiki 70
+      - https://github.com/Alvin9999/new-pac/wiki 71
+      - https://github.com/Alvin9999/new-pac/wiki 72
+      - https://github.com/Alvin9999/new-pac/wiki 73
+      - https://github.com/Alvin9999/new-pac/wiki 74
+      - https://github.com/Alvin9999/new-pac/wiki 75
+      - https://github.com/Alvin9999/new-pac/wiki 76
+      - https://github.com/Alvin9999/new-pac/wiki 77
+      - https://github.com/Alvin9999/new-pac/wiki 78
+      - https://github.com/Alvin9999/new-pac/wiki 79
+      - https://github.com/Alvin9999/new-pac/wiki 80
+      - https://github.com/Alvin9999/new-pac/wiki 81
+      - https://github.com/Alvin9999/new-pac/wiki 82
+      - https://github.com/Alvin9999/new-pac/wiki 83
+      - https://github.com/Alvin9999/new-pac/wiki 84
+      - https://github.com/Alvin9999/new-pac/wiki 85
+      - https://github.com/Alvin9999/new-pac/wiki 86
+      - https://github.com/Alvin9999/new-pac/wiki 87
+      - https://github.com/Alvin9999/new-pac/wiki 88
+      - https://github.com/Alvin9999/new-pac/wiki 89
+      - https://github.com/Alvin9999/new-pac/wiki 90
+      - https://github.com/Alvin9999/new-pac/wiki 91
+      - https://github.com/Alvin9999/new-pac/wiki 92
+      - https://github.com/Alvin9999/new-pac/wiki 93
+      - https://github.com/Alvin9999/new-pac/wiki 94
+      - https://github.com/Alvin9999/new-pac/wiki 95
+      - https://github.com/Alvin9999/new-pac/wiki 96
+      - https://github.com/Alvin9999/new-pac/wiki 97
+      - https://github.com/Alvin9999/new-pac/wiki 98
+      - https://github.com/Alvin9999/new-pac/wiki 99
+      - https://github.com/Alvin9999/new-pac/wiki 100
+      - https://github.com/Alvin9999/new-pac/wiki 101
+      - https://github.com/Alvin9999/new-pac/wiki 102
+      - https://github.com/Alvin9999/new-pac/wiki 103
+      - https://github.com/Alvin9999/new-pac/wiki 104
+      - https://github.com/Alvin9999/new-pac/wiki 105
+      - https://github.com/Alvin9999/new-pac/wiki 106
+      - https://github.com/Alvin9999/new-pac/wiki 107
+      - https://github.com/Alvin9999/new-pac/wiki 108
+      - https://github.com/Alvin9999/new-pac/wiki 109
+      - https://github.com/Alvin9999/new-pac/wiki 110
+      - https://github.com/Alvin9999/new-pac/wiki 111
+      - https://github.com/Alvin9999/new-pac/wiki 112
+      - https://github.com/Alvin9999/new-pac/wiki 113
+      - https://github.com/Alvin9999/new-pac/wiki 114
+      - https://github.com/Alvin9999/new-pac/wiki 115
+      - https://github.com/Alvin9999/new-pac/wiki 116
+      - https://github.com/Alvin9999/new-pac/wiki 117
+      - https://github.com/Alvin9999/new-pac/wiki 118
+      - https://github.com/Alvin9999/new-pac/wiki 119
+      - https://github.com/Alvin9999/new-pac/wiki 120
+      - https://github.com/Alvin9999/new-pac/wiki 121
+      - https://github.com/Alvin9999/new-pac/wiki 122
+      - https://github.com/Alvin9999/new-pac/wiki 123
+      - https://github.com/Alvin9999/new-pac/wiki 124
+      - https://github.com/Alvin9999/new-pac/wiki 125
+      - https://github.com/Alvin9999/new-pac/wiki 126
+      - https://github.com/Alvin9999/new-pac/wiki 127
+      - https://github.com/Alvin9999/new-pac/wiki 128
+      - https://github.com/Alvin9999/new-pac/wiki 129
+      - https://github.com/Alvin9999/new-pac/wiki 130
+      - https://github.com/Alvin9999/new-pac/wiki 131
+      - https://github.com/Alvin9999/new-pac/wiki 132
+      - https://github.com/Alvin9999/new-pac/wiki 133
+      - https://github.com/Alvin9999/new-pac/wiki 134
+      - https://github.com/Alvin9999/new-pac/wiki 135
+      - https://github.com/Alvin9999/new-pac/wiki 136
+      - https://github.com/Alvin9999/new-pac/wiki 137
+      - https://github.com/Alvin9999/new-pac/wiki 138
+      - https://github.com/Alvin9999/new-pac/wiki 139
+      - https://github.com/Alvin9999/new-pac/wiki 140
+      - https://github.com/Alvin9999/new-pac/wiki 141
+      - https://github.com/Alvin9999/new-pac/wiki 142
+      - https://github.com/Alvin9999/new-pac/wiki 143
+      - https://github.com/Alvin9999/new-pac/wiki 144
+      - https://github.com/Alvin9999/new-pac/wiki 145
+      - https://github.com/Alvin9999/new-pac/wiki 146
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -617,455 +617,455 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - https://git.io/v9999
-      - https://git.io/v9999 2
-      - https://git.io/v9999 3
-      - https://git.io/v9999 4
-      - https://git.io/v9999 5
-      - https://git.io/v9999 6
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
-      - https://git.io/v9999 10
-      - https://git.io/v9999 11
-      - https://git.io/v9999 12
-      - https://git.io/v9999 13
-      - https://git.io/v9999 14
-      - https://git.io/v9999 15
-      - https://git.io/v9999 16
-      - https://git.io/v9999 17
-      - https://git.io/v9999 18
-      - https://git.io/v9999 19
-      - https://git.io/v9999 20
-      - https://git.io/v9999 21
-      - https://git.io/v9999 22
-      - https://git.io/v9999 23
-      - https://git.io/v9999 24
-      - https://git.io/v9999 25
-      - https://git.io/v9999 26
-      - https://git.io/v9999 27
-      - https://git.io/v9999 28
-      - https://git.io/v9999 29
-      - https://git.io/v9999 30
-      - https://git.io/v9999 31
-      - https://git.io/v9999 32
-      - https://git.io/v9999 33
-      - https://git.io/v9999 34
-      - https://git.io/v9999 35
-      - https://git.io/v9999 36
-      - https://git.io/v9999 37
-      - https://git.io/v9999 38
-      - https://git.io/v9999 39
-      - https://git.io/v9999 40
-      - https://git.io/v9999 41
-      - https://git.io/v9999 42
-      - https://git.io/v9999 43
-      - https://git.io/v9999 44
-      - https://git.io/v9999 45
-      - https://git.io/v9999 46
-      - https://git.io/v9999 47
-      - https://git.io/v9999 48
-      - https://git.io/v9999 49
-      - https://git.io/v9999 50
-      - https://git.io/v9999 51
-      - https://git.io/v9999 52
-      - https://git.io/v9999 53
-      - https://git.io/v9999 54
-      - https://git.io/v9999 55
-      - https://git.io/v9999 56
-      - https://git.io/v9999 57
-      - https://git.io/v9999 58
-      - https://git.io/v9999 59
-      - https://git.io/v9999 60
-      - https://git.io/v9999 61
-      - https://git.io/v9999 62
-      - https://git.io/v9999 63
-      - https://git.io/v9999 64
-      - https://git.io/v9999 65
-      - https://git.io/v9999 66
-      - https://git.io/v9999 67
-      - https://git.io/v9999 68
-      - https://git.io/v9999 69
-      - https://git.io/v9999 70
-      - https://git.io/v9999 71
-      - https://git.io/v9999 72
-      - https://git.io/v9999 73
-      - https://git.io/v9999 74
-      - https://git.io/v9999 75
-      - https://git.io/v9999 76
-      - https://git.io/v9999 77
-      - https://git.io/v9999 78
-      - https://git.io/v9999 79
-      - https://git.io/v9999 80
-      - https://git.io/v9999 81
-      - https://git.io/v9999 82
-      - https://git.io/v9999 83
-      - https://git.io/v9999 84
-      - https://git.io/v9999 85
-      - https://git.io/v9999 86
-      - https://git.io/v9999 87
-      - https://git.io/v9999 88
-      - https://git.io/v9999 89
-      - https://git.io/v9999 90
-      - https://git.io/v9999 91
-      - https://git.io/v9999 92
-      - https://git.io/v9999 93
-      - https://git.io/v9999 94
-      - https://git.io/v9999 95
-      - https://git.io/v9999 96
-      - https://git.io/v9999 97
-      - https://git.io/v9999 98
-      - https://git.io/v9999 99
-      - https://git.io/v9999 100
-      - https://git.io/v9999 101
-      - https://git.io/v9999 102
-      - https://git.io/v9999 103
-      - https://git.io/v9999 104
-      - https://git.io/v9999 105
-      - https://git.io/v9999 106
-      - https://git.io/v9999 107
-      - https://git.io/v9999 108
-      - https://git.io/v9999 109
-      - https://git.io/v9999 110
-      - https://git.io/v9999 111
-      - https://git.io/v9999 112
-      - https://git.io/v9999 113
-      - https://git.io/v9999 114
-      - https://git.io/v9999 115
-      - https://git.io/v9999 116
-      - https://git.io/v9999 117
-      - https://git.io/v9999 118
-      - https://git.io/v9999 119
-      - https://git.io/v9999 120
-      - https://git.io/v9999 121
-      - https://git.io/v9999 122
-      - https://git.io/v9999 123
-      - https://git.io/v9999 124
-      - https://git.io/v9999 125
-      - https://git.io/v9999 126
-      - https://git.io/v9999 127
-      - https://git.io/v9999 128
-      - https://git.io/v9999 129
-      - https://git.io/v9999 130
-      - https://git.io/v9999 131
-      - https://git.io/v9999 132
-      - https://git.io/v9999 133
-      - https://git.io/v9999 134
-      - https://git.io/v9999 135
-      - https://git.io/v9999 136
-      - https://git.io/v9999 137
-      - https://git.io/v9999 138
-      - https://git.io/v9999 139
-      - https://git.io/v9999 140
-      - https://git.io/v9999 141
-      - https://git.io/v9999 142
-      - https://git.io/v9999 143
-      - https://git.io/v9999 144
-      - https://git.io/v9999 145
-      - https://git.io/v9999 146
+      - https://github.com/Alvin9999/new-pac/wiki
+      - https://github.com/Alvin9999/new-pac/wiki 2
+      - https://github.com/Alvin9999/new-pac/wiki 3
+      - https://github.com/Alvin9999/new-pac/wiki 4
+      - https://github.com/Alvin9999/new-pac/wiki 5
+      - https://github.com/Alvin9999/new-pac/wiki 6
+      - https://github.com/Alvin9999/new-pac/wiki 7
+      - https://github.com/Alvin9999/new-pac/wiki 8
+      - https://github.com/Alvin9999/new-pac/wiki 9
+      - https://github.com/Alvin9999/new-pac/wiki 10
+      - https://github.com/Alvin9999/new-pac/wiki 11
+      - https://github.com/Alvin9999/new-pac/wiki 12
+      - https://github.com/Alvin9999/new-pac/wiki 13
+      - https://github.com/Alvin9999/new-pac/wiki 14
+      - https://github.com/Alvin9999/new-pac/wiki 15
+      - https://github.com/Alvin9999/new-pac/wiki 16
+      - https://github.com/Alvin9999/new-pac/wiki 17
+      - https://github.com/Alvin9999/new-pac/wiki 18
+      - https://github.com/Alvin9999/new-pac/wiki 19
+      - https://github.com/Alvin9999/new-pac/wiki 20
+      - https://github.com/Alvin9999/new-pac/wiki 21
+      - https://github.com/Alvin9999/new-pac/wiki 22
+      - https://github.com/Alvin9999/new-pac/wiki 23
+      - https://github.com/Alvin9999/new-pac/wiki 24
+      - https://github.com/Alvin9999/new-pac/wiki 25
+      - https://github.com/Alvin9999/new-pac/wiki 26
+      - https://github.com/Alvin9999/new-pac/wiki 27
+      - https://github.com/Alvin9999/new-pac/wiki 28
+      - https://github.com/Alvin9999/new-pac/wiki 29
+      - https://github.com/Alvin9999/new-pac/wiki 30
+      - https://github.com/Alvin9999/new-pac/wiki 31
+      - https://github.com/Alvin9999/new-pac/wiki 32
+      - https://github.com/Alvin9999/new-pac/wiki 33
+      - https://github.com/Alvin9999/new-pac/wiki 34
+      - https://github.com/Alvin9999/new-pac/wiki 35
+      - https://github.com/Alvin9999/new-pac/wiki 36
+      - https://github.com/Alvin9999/new-pac/wiki 37
+      - https://github.com/Alvin9999/new-pac/wiki 38
+      - https://github.com/Alvin9999/new-pac/wiki 39
+      - https://github.com/Alvin9999/new-pac/wiki 40
+      - https://github.com/Alvin9999/new-pac/wiki 41
+      - https://github.com/Alvin9999/new-pac/wiki 42
+      - https://github.com/Alvin9999/new-pac/wiki 43
+      - https://github.com/Alvin9999/new-pac/wiki 44
+      - https://github.com/Alvin9999/new-pac/wiki 45
+      - https://github.com/Alvin9999/new-pac/wiki 46
+      - https://github.com/Alvin9999/new-pac/wiki 47
+      - https://github.com/Alvin9999/new-pac/wiki 48
+      - https://github.com/Alvin9999/new-pac/wiki 49
+      - https://github.com/Alvin9999/new-pac/wiki 50
+      - https://github.com/Alvin9999/new-pac/wiki 51
+      - https://github.com/Alvin9999/new-pac/wiki 52
+      - https://github.com/Alvin9999/new-pac/wiki 53
+      - https://github.com/Alvin9999/new-pac/wiki 54
+      - https://github.com/Alvin9999/new-pac/wiki 55
+      - https://github.com/Alvin9999/new-pac/wiki 56
+      - https://github.com/Alvin9999/new-pac/wiki 57
+      - https://github.com/Alvin9999/new-pac/wiki 58
+      - https://github.com/Alvin9999/new-pac/wiki 59
+      - https://github.com/Alvin9999/new-pac/wiki 60
+      - https://github.com/Alvin9999/new-pac/wiki 61
+      - https://github.com/Alvin9999/new-pac/wiki 62
+      - https://github.com/Alvin9999/new-pac/wiki 63
+      - https://github.com/Alvin9999/new-pac/wiki 64
+      - https://github.com/Alvin9999/new-pac/wiki 65
+      - https://github.com/Alvin9999/new-pac/wiki 66
+      - https://github.com/Alvin9999/new-pac/wiki 67
+      - https://github.com/Alvin9999/new-pac/wiki 68
+      - https://github.com/Alvin9999/new-pac/wiki 69
+      - https://github.com/Alvin9999/new-pac/wiki 70
+      - https://github.com/Alvin9999/new-pac/wiki 71
+      - https://github.com/Alvin9999/new-pac/wiki 72
+      - https://github.com/Alvin9999/new-pac/wiki 73
+      - https://github.com/Alvin9999/new-pac/wiki 74
+      - https://github.com/Alvin9999/new-pac/wiki 75
+      - https://github.com/Alvin9999/new-pac/wiki 76
+      - https://github.com/Alvin9999/new-pac/wiki 77
+      - https://github.com/Alvin9999/new-pac/wiki 78
+      - https://github.com/Alvin9999/new-pac/wiki 79
+      - https://github.com/Alvin9999/new-pac/wiki 80
+      - https://github.com/Alvin9999/new-pac/wiki 81
+      - https://github.com/Alvin9999/new-pac/wiki 82
+      - https://github.com/Alvin9999/new-pac/wiki 83
+      - https://github.com/Alvin9999/new-pac/wiki 84
+      - https://github.com/Alvin9999/new-pac/wiki 85
+      - https://github.com/Alvin9999/new-pac/wiki 86
+      - https://github.com/Alvin9999/new-pac/wiki 87
+      - https://github.com/Alvin9999/new-pac/wiki 88
+      - https://github.com/Alvin9999/new-pac/wiki 89
+      - https://github.com/Alvin9999/new-pac/wiki 90
+      - https://github.com/Alvin9999/new-pac/wiki 91
+      - https://github.com/Alvin9999/new-pac/wiki 92
+      - https://github.com/Alvin9999/new-pac/wiki 93
+      - https://github.com/Alvin9999/new-pac/wiki 94
+      - https://github.com/Alvin9999/new-pac/wiki 95
+      - https://github.com/Alvin9999/new-pac/wiki 96
+      - https://github.com/Alvin9999/new-pac/wiki 97
+      - https://github.com/Alvin9999/new-pac/wiki 98
+      - https://github.com/Alvin9999/new-pac/wiki 99
+      - https://github.com/Alvin9999/new-pac/wiki 100
+      - https://github.com/Alvin9999/new-pac/wiki 101
+      - https://github.com/Alvin9999/new-pac/wiki 102
+      - https://github.com/Alvin9999/new-pac/wiki 103
+      - https://github.com/Alvin9999/new-pac/wiki 104
+      - https://github.com/Alvin9999/new-pac/wiki 105
+      - https://github.com/Alvin9999/new-pac/wiki 106
+      - https://github.com/Alvin9999/new-pac/wiki 107
+      - https://github.com/Alvin9999/new-pac/wiki 108
+      - https://github.com/Alvin9999/new-pac/wiki 109
+      - https://github.com/Alvin9999/new-pac/wiki 110
+      - https://github.com/Alvin9999/new-pac/wiki 111
+      - https://github.com/Alvin9999/new-pac/wiki 112
+      - https://github.com/Alvin9999/new-pac/wiki 113
+      - https://github.com/Alvin9999/new-pac/wiki 114
+      - https://github.com/Alvin9999/new-pac/wiki 115
+      - https://github.com/Alvin9999/new-pac/wiki 116
+      - https://github.com/Alvin9999/new-pac/wiki 117
+      - https://github.com/Alvin9999/new-pac/wiki 118
+      - https://github.com/Alvin9999/new-pac/wiki 119
+      - https://github.com/Alvin9999/new-pac/wiki 120
+      - https://github.com/Alvin9999/new-pac/wiki 121
+      - https://github.com/Alvin9999/new-pac/wiki 122
+      - https://github.com/Alvin9999/new-pac/wiki 123
+      - https://github.com/Alvin9999/new-pac/wiki 124
+      - https://github.com/Alvin9999/new-pac/wiki 125
+      - https://github.com/Alvin9999/new-pac/wiki 126
+      - https://github.com/Alvin9999/new-pac/wiki 127
+      - https://github.com/Alvin9999/new-pac/wiki 128
+      - https://github.com/Alvin9999/new-pac/wiki 129
+      - https://github.com/Alvin9999/new-pac/wiki 130
+      - https://github.com/Alvin9999/new-pac/wiki 131
+      - https://github.com/Alvin9999/new-pac/wiki 132
+      - https://github.com/Alvin9999/new-pac/wiki 133
+      - https://github.com/Alvin9999/new-pac/wiki 134
+      - https://github.com/Alvin9999/new-pac/wiki 135
+      - https://github.com/Alvin9999/new-pac/wiki 136
+      - https://github.com/Alvin9999/new-pac/wiki 137
+      - https://github.com/Alvin9999/new-pac/wiki 138
+      - https://github.com/Alvin9999/new-pac/wiki 139
+      - https://github.com/Alvin9999/new-pac/wiki 140
+      - https://github.com/Alvin9999/new-pac/wiki 141
+      - https://github.com/Alvin9999/new-pac/wiki 142
+      - https://github.com/Alvin9999/new-pac/wiki 143
+      - https://github.com/Alvin9999/new-pac/wiki 144
+      - https://github.com/Alvin9999/new-pac/wiki 145
+      - https://github.com/Alvin9999/new-pac/wiki 146
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - https://git.io/v9999
-      - https://git.io/v9999 2
-      - https://git.io/v9999 3
-      - https://git.io/v9999 4
-      - https://git.io/v9999 5
-      - https://git.io/v9999 6
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
-      - https://git.io/v9999 10
-      - https://git.io/v9999 11
-      - https://git.io/v9999 12
-      - https://git.io/v9999 13
-      - https://git.io/v9999 14
-      - https://git.io/v9999 15
-      - https://git.io/v9999 16
-      - https://git.io/v9999 17
-      - https://git.io/v9999 18
-      - https://git.io/v9999 19
-      - https://git.io/v9999 20
-      - https://git.io/v9999 21
-      - https://git.io/v9999 22
-      - https://git.io/v9999 23
-      - https://git.io/v9999 24
-      - https://git.io/v9999 25
-      - https://git.io/v9999 26
-      - https://git.io/v9999 27
-      - https://git.io/v9999 28
-      - https://git.io/v9999 29
-      - https://git.io/v9999 30
-      - https://git.io/v9999 31
-      - https://git.io/v9999 32
-      - https://git.io/v9999 33
-      - https://git.io/v9999 34
-      - https://git.io/v9999 35
-      - https://git.io/v9999 36
-      - https://git.io/v9999 37
-      - https://git.io/v9999 38
-      - https://git.io/v9999 39
-      - https://git.io/v9999 40
-      - https://git.io/v9999 41
-      - https://git.io/v9999 42
-      - https://git.io/v9999 43
-      - https://git.io/v9999 44
-      - https://git.io/v9999 45
-      - https://git.io/v9999 46
-      - https://git.io/v9999 47
-      - https://git.io/v9999 48
-      - https://git.io/v9999 49
-      - https://git.io/v9999 50
-      - https://git.io/v9999 51
-      - https://git.io/v9999 52
-      - https://git.io/v9999 53
-      - https://git.io/v9999 54
-      - https://git.io/v9999 55
-      - https://git.io/v9999 56
-      - https://git.io/v9999 57
-      - https://git.io/v9999 58
-      - https://git.io/v9999 59
-      - https://git.io/v9999 60
-      - https://git.io/v9999 61
-      - https://git.io/v9999 62
-      - https://git.io/v9999 63
-      - https://git.io/v9999 64
-      - https://git.io/v9999 65
-      - https://git.io/v9999 66
-      - https://git.io/v9999 67
-      - https://git.io/v9999 68
-      - https://git.io/v9999 69
-      - https://git.io/v9999 70
-      - https://git.io/v9999 71
-      - https://git.io/v9999 72
-      - https://git.io/v9999 73
-      - https://git.io/v9999 74
-      - https://git.io/v9999 75
-      - https://git.io/v9999 76
-      - https://git.io/v9999 77
-      - https://git.io/v9999 78
-      - https://git.io/v9999 79
-      - https://git.io/v9999 80
-      - https://git.io/v9999 81
-      - https://git.io/v9999 82
-      - https://git.io/v9999 83
-      - https://git.io/v9999 84
-      - https://git.io/v9999 85
-      - https://git.io/v9999 86
-      - https://git.io/v9999 87
-      - https://git.io/v9999 88
-      - https://git.io/v9999 89
-      - https://git.io/v9999 90
-      - https://git.io/v9999 91
-      - https://git.io/v9999 92
-      - https://git.io/v9999 93
-      - https://git.io/v9999 94
-      - https://git.io/v9999 95
-      - https://git.io/v9999 96
-      - https://git.io/v9999 97
-      - https://git.io/v9999 98
-      - https://git.io/v9999 99
-      - https://git.io/v9999 100
-      - https://git.io/v9999 101
-      - https://git.io/v9999 102
-      - https://git.io/v9999 103
-      - https://git.io/v9999 104
-      - https://git.io/v9999 105
-      - https://git.io/v9999 106
-      - https://git.io/v9999 107
-      - https://git.io/v9999 108
-      - https://git.io/v9999 109
-      - https://git.io/v9999 110
-      - https://git.io/v9999 111
-      - https://git.io/v9999 112
-      - https://git.io/v9999 113
-      - https://git.io/v9999 114
-      - https://git.io/v9999 115
-      - https://git.io/v9999 116
-      - https://git.io/v9999 117
-      - https://git.io/v9999 118
-      - https://git.io/v9999 119
-      - https://git.io/v9999 120
-      - https://git.io/v9999 121
-      - https://git.io/v9999 122
-      - https://git.io/v9999 123
-      - https://git.io/v9999 124
-      - https://git.io/v9999 125
-      - https://git.io/v9999 126
-      - https://git.io/v9999 127
-      - https://git.io/v9999 128
-      - https://git.io/v9999 129
-      - https://git.io/v9999 130
-      - https://git.io/v9999 131
-      - https://git.io/v9999 132
-      - https://git.io/v9999 133
-      - https://git.io/v9999 134
-      - https://git.io/v9999 135
-      - https://git.io/v9999 136
-      - https://git.io/v9999 137
-      - https://git.io/v9999 138
-      - https://git.io/v9999 139
-      - https://git.io/v9999 140
-      - https://git.io/v9999 141
-      - https://git.io/v9999 142
-      - https://git.io/v9999 143
-      - https://git.io/v9999 144
-      - https://git.io/v9999 145
-      - https://git.io/v9999 146
+      - https://github.com/Alvin9999/new-pac/wiki
+      - https://github.com/Alvin9999/new-pac/wiki 2
+      - https://github.com/Alvin9999/new-pac/wiki 3
+      - https://github.com/Alvin9999/new-pac/wiki 4
+      - https://github.com/Alvin9999/new-pac/wiki 5
+      - https://github.com/Alvin9999/new-pac/wiki 6
+      - https://github.com/Alvin9999/new-pac/wiki 7
+      - https://github.com/Alvin9999/new-pac/wiki 8
+      - https://github.com/Alvin9999/new-pac/wiki 9
+      - https://github.com/Alvin9999/new-pac/wiki 10
+      - https://github.com/Alvin9999/new-pac/wiki 11
+      - https://github.com/Alvin9999/new-pac/wiki 12
+      - https://github.com/Alvin9999/new-pac/wiki 13
+      - https://github.com/Alvin9999/new-pac/wiki 14
+      - https://github.com/Alvin9999/new-pac/wiki 15
+      - https://github.com/Alvin9999/new-pac/wiki 16
+      - https://github.com/Alvin9999/new-pac/wiki 17
+      - https://github.com/Alvin9999/new-pac/wiki 18
+      - https://github.com/Alvin9999/new-pac/wiki 19
+      - https://github.com/Alvin9999/new-pac/wiki 20
+      - https://github.com/Alvin9999/new-pac/wiki 21
+      - https://github.com/Alvin9999/new-pac/wiki 22
+      - https://github.com/Alvin9999/new-pac/wiki 23
+      - https://github.com/Alvin9999/new-pac/wiki 24
+      - https://github.com/Alvin9999/new-pac/wiki 25
+      - https://github.com/Alvin9999/new-pac/wiki 26
+      - https://github.com/Alvin9999/new-pac/wiki 27
+      - https://github.com/Alvin9999/new-pac/wiki 28
+      - https://github.com/Alvin9999/new-pac/wiki 29
+      - https://github.com/Alvin9999/new-pac/wiki 30
+      - https://github.com/Alvin9999/new-pac/wiki 31
+      - https://github.com/Alvin9999/new-pac/wiki 32
+      - https://github.com/Alvin9999/new-pac/wiki 33
+      - https://github.com/Alvin9999/new-pac/wiki 34
+      - https://github.com/Alvin9999/new-pac/wiki 35
+      - https://github.com/Alvin9999/new-pac/wiki 36
+      - https://github.com/Alvin9999/new-pac/wiki 37
+      - https://github.com/Alvin9999/new-pac/wiki 38
+      - https://github.com/Alvin9999/new-pac/wiki 39
+      - https://github.com/Alvin9999/new-pac/wiki 40
+      - https://github.com/Alvin9999/new-pac/wiki 41
+      - https://github.com/Alvin9999/new-pac/wiki 42
+      - https://github.com/Alvin9999/new-pac/wiki 43
+      - https://github.com/Alvin9999/new-pac/wiki 44
+      - https://github.com/Alvin9999/new-pac/wiki 45
+      - https://github.com/Alvin9999/new-pac/wiki 46
+      - https://github.com/Alvin9999/new-pac/wiki 47
+      - https://github.com/Alvin9999/new-pac/wiki 48
+      - https://github.com/Alvin9999/new-pac/wiki 49
+      - https://github.com/Alvin9999/new-pac/wiki 50
+      - https://github.com/Alvin9999/new-pac/wiki 51
+      - https://github.com/Alvin9999/new-pac/wiki 52
+      - https://github.com/Alvin9999/new-pac/wiki 53
+      - https://github.com/Alvin9999/new-pac/wiki 54
+      - https://github.com/Alvin9999/new-pac/wiki 55
+      - https://github.com/Alvin9999/new-pac/wiki 56
+      - https://github.com/Alvin9999/new-pac/wiki 57
+      - https://github.com/Alvin9999/new-pac/wiki 58
+      - https://github.com/Alvin9999/new-pac/wiki 59
+      - https://github.com/Alvin9999/new-pac/wiki 60
+      - https://github.com/Alvin9999/new-pac/wiki 61
+      - https://github.com/Alvin9999/new-pac/wiki 62
+      - https://github.com/Alvin9999/new-pac/wiki 63
+      - https://github.com/Alvin9999/new-pac/wiki 64
+      - https://github.com/Alvin9999/new-pac/wiki 65
+      - https://github.com/Alvin9999/new-pac/wiki 66
+      - https://github.com/Alvin9999/new-pac/wiki 67
+      - https://github.com/Alvin9999/new-pac/wiki 68
+      - https://github.com/Alvin9999/new-pac/wiki 69
+      - https://github.com/Alvin9999/new-pac/wiki 70
+      - https://github.com/Alvin9999/new-pac/wiki 71
+      - https://github.com/Alvin9999/new-pac/wiki 72
+      - https://github.com/Alvin9999/new-pac/wiki 73
+      - https://github.com/Alvin9999/new-pac/wiki 74
+      - https://github.com/Alvin9999/new-pac/wiki 75
+      - https://github.com/Alvin9999/new-pac/wiki 76
+      - https://github.com/Alvin9999/new-pac/wiki 77
+      - https://github.com/Alvin9999/new-pac/wiki 78
+      - https://github.com/Alvin9999/new-pac/wiki 79
+      - https://github.com/Alvin9999/new-pac/wiki 80
+      - https://github.com/Alvin9999/new-pac/wiki 81
+      - https://github.com/Alvin9999/new-pac/wiki 82
+      - https://github.com/Alvin9999/new-pac/wiki 83
+      - https://github.com/Alvin9999/new-pac/wiki 84
+      - https://github.com/Alvin9999/new-pac/wiki 85
+      - https://github.com/Alvin9999/new-pac/wiki 86
+      - https://github.com/Alvin9999/new-pac/wiki 87
+      - https://github.com/Alvin9999/new-pac/wiki 88
+      - https://github.com/Alvin9999/new-pac/wiki 89
+      - https://github.com/Alvin9999/new-pac/wiki 90
+      - https://github.com/Alvin9999/new-pac/wiki 91
+      - https://github.com/Alvin9999/new-pac/wiki 92
+      - https://github.com/Alvin9999/new-pac/wiki 93
+      - https://github.com/Alvin9999/new-pac/wiki 94
+      - https://github.com/Alvin9999/new-pac/wiki 95
+      - https://github.com/Alvin9999/new-pac/wiki 96
+      - https://github.com/Alvin9999/new-pac/wiki 97
+      - https://github.com/Alvin9999/new-pac/wiki 98
+      - https://github.com/Alvin9999/new-pac/wiki 99
+      - https://github.com/Alvin9999/new-pac/wiki 100
+      - https://github.com/Alvin9999/new-pac/wiki 101
+      - https://github.com/Alvin9999/new-pac/wiki 102
+      - https://github.com/Alvin9999/new-pac/wiki 103
+      - https://github.com/Alvin9999/new-pac/wiki 104
+      - https://github.com/Alvin9999/new-pac/wiki 105
+      - https://github.com/Alvin9999/new-pac/wiki 106
+      - https://github.com/Alvin9999/new-pac/wiki 107
+      - https://github.com/Alvin9999/new-pac/wiki 108
+      - https://github.com/Alvin9999/new-pac/wiki 109
+      - https://github.com/Alvin9999/new-pac/wiki 110
+      - https://github.com/Alvin9999/new-pac/wiki 111
+      - https://github.com/Alvin9999/new-pac/wiki 112
+      - https://github.com/Alvin9999/new-pac/wiki 113
+      - https://github.com/Alvin9999/new-pac/wiki 114
+      - https://github.com/Alvin9999/new-pac/wiki 115
+      - https://github.com/Alvin9999/new-pac/wiki 116
+      - https://github.com/Alvin9999/new-pac/wiki 117
+      - https://github.com/Alvin9999/new-pac/wiki 118
+      - https://github.com/Alvin9999/new-pac/wiki 119
+      - https://github.com/Alvin9999/new-pac/wiki 120
+      - https://github.com/Alvin9999/new-pac/wiki 121
+      - https://github.com/Alvin9999/new-pac/wiki 122
+      - https://github.com/Alvin9999/new-pac/wiki 123
+      - https://github.com/Alvin9999/new-pac/wiki 124
+      - https://github.com/Alvin9999/new-pac/wiki 125
+      - https://github.com/Alvin9999/new-pac/wiki 126
+      - https://github.com/Alvin9999/new-pac/wiki 127
+      - https://github.com/Alvin9999/new-pac/wiki 128
+      - https://github.com/Alvin9999/new-pac/wiki 129
+      - https://github.com/Alvin9999/new-pac/wiki 130
+      - https://github.com/Alvin9999/new-pac/wiki 131
+      - https://github.com/Alvin9999/new-pac/wiki 132
+      - https://github.com/Alvin9999/new-pac/wiki 133
+      - https://github.com/Alvin9999/new-pac/wiki 134
+      - https://github.com/Alvin9999/new-pac/wiki 135
+      - https://github.com/Alvin9999/new-pac/wiki 136
+      - https://github.com/Alvin9999/new-pac/wiki 137
+      - https://github.com/Alvin9999/new-pac/wiki 138
+      - https://github.com/Alvin9999/new-pac/wiki 139
+      - https://github.com/Alvin9999/new-pac/wiki 140
+      - https://github.com/Alvin9999/new-pac/wiki 141
+      - https://github.com/Alvin9999/new-pac/wiki 142
+      - https://github.com/Alvin9999/new-pac/wiki 143
+      - https://github.com/Alvin9999/new-pac/wiki 144
+      - https://github.com/Alvin9999/new-pac/wiki 145
+      - https://github.com/Alvin9999/new-pac/wiki 146
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - https://git.io/v9999
-      - https://git.io/v9999 2
-      - https://git.io/v9999 3
-      - https://git.io/v9999 4
-      - https://git.io/v9999 5
-      - https://git.io/v9999 6
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
-      - https://git.io/v9999 10
-      - https://git.io/v9999 11
-      - https://git.io/v9999 12
-      - https://git.io/v9999 13
-      - https://git.io/v9999 14
-      - https://git.io/v9999 15
-      - https://git.io/v9999 16
-      - https://git.io/v9999 17
-      - https://git.io/v9999 18
-      - https://git.io/v9999 19
-      - https://git.io/v9999 20
-      - https://git.io/v9999 21
-      - https://git.io/v9999 22
-      - https://git.io/v9999 23
-      - https://git.io/v9999 24
-      - https://git.io/v9999 25
-      - https://git.io/v9999 26
-      - https://git.io/v9999 27
-      - https://git.io/v9999 28
-      - https://git.io/v9999 29
-      - https://git.io/v9999 30
-      - https://git.io/v9999 31
-      - https://git.io/v9999 32
-      - https://git.io/v9999 33
-      - https://git.io/v9999 34
-      - https://git.io/v9999 35
-      - https://git.io/v9999 36
-      - https://git.io/v9999 37
-      - https://git.io/v9999 38
-      - https://git.io/v9999 39
-      - https://git.io/v9999 40
-      - https://git.io/v9999 41
-      - https://git.io/v9999 42
-      - https://git.io/v9999 43
-      - https://git.io/v9999 44
-      - https://git.io/v9999 45
-      - https://git.io/v9999 46
-      - https://git.io/v9999 47
-      - https://git.io/v9999 48
-      - https://git.io/v9999 49
-      - https://git.io/v9999 50
-      - https://git.io/v9999 51
-      - https://git.io/v9999 52
-      - https://git.io/v9999 53
-      - https://git.io/v9999 54
-      - https://git.io/v9999 55
-      - https://git.io/v9999 56
-      - https://git.io/v9999 57
-      - https://git.io/v9999 58
-      - https://git.io/v9999 59
-      - https://git.io/v9999 60
-      - https://git.io/v9999 61
-      - https://git.io/v9999 62
-      - https://git.io/v9999 63
-      - https://git.io/v9999 64
-      - https://git.io/v9999 65
-      - https://git.io/v9999 66
-      - https://git.io/v9999 67
-      - https://git.io/v9999 68
-      - https://git.io/v9999 69
-      - https://git.io/v9999 70
-      - https://git.io/v9999 71
-      - https://git.io/v9999 72
-      - https://git.io/v9999 73
-      - https://git.io/v9999 74
-      - https://git.io/v9999 75
-      - https://git.io/v9999 76
-      - https://git.io/v9999 77
-      - https://git.io/v9999 78
-      - https://git.io/v9999 79
-      - https://git.io/v9999 80
-      - https://git.io/v9999 81
-      - https://git.io/v9999 82
-      - https://git.io/v9999 83
-      - https://git.io/v9999 84
-      - https://git.io/v9999 85
-      - https://git.io/v9999 86
-      - https://git.io/v9999 87
-      - https://git.io/v9999 88
-      - https://git.io/v9999 89
-      - https://git.io/v9999 90
-      - https://git.io/v9999 91
-      - https://git.io/v9999 92
-      - https://git.io/v9999 93
-      - https://git.io/v9999 94
-      - https://git.io/v9999 95
-      - https://git.io/v9999 96
-      - https://git.io/v9999 97
-      - https://git.io/v9999 98
-      - https://git.io/v9999 99
-      - https://git.io/v9999 100
-      - https://git.io/v9999 101
-      - https://git.io/v9999 102
-      - https://git.io/v9999 103
-      - https://git.io/v9999 104
-      - https://git.io/v9999 105
-      - https://git.io/v9999 106
-      - https://git.io/v9999 107
-      - https://git.io/v9999 108
-      - https://git.io/v9999 109
-      - https://git.io/v9999 110
-      - https://git.io/v9999 111
-      - https://git.io/v9999 112
-      - https://git.io/v9999 113
-      - https://git.io/v9999 114
-      - https://git.io/v9999 115
-      - https://git.io/v9999 116
-      - https://git.io/v9999 117
-      - https://git.io/v9999 118
-      - https://git.io/v9999 119
-      - https://git.io/v9999 120
-      - https://git.io/v9999 121
-      - https://git.io/v9999 122
-      - https://git.io/v9999 123
-      - https://git.io/v9999 124
-      - https://git.io/v9999 125
-      - https://git.io/v9999 126
-      - https://git.io/v9999 127
-      - https://git.io/v9999 128
-      - https://git.io/v9999 129
-      - https://git.io/v9999 130
-      - https://git.io/v9999 131
-      - https://git.io/v9999 132
-      - https://git.io/v9999 133
-      - https://git.io/v9999 134
-      - https://git.io/v9999 135
-      - https://git.io/v9999 136
-      - https://git.io/v9999 137
-      - https://git.io/v9999 138
-      - https://git.io/v9999 139
-      - https://git.io/v9999 140
-      - https://git.io/v9999 141
-      - https://git.io/v9999 142
-      - https://git.io/v9999 143
-      - https://git.io/v9999 144
-      - https://git.io/v9999 145
-      - https://git.io/v9999 146
+      - https://github.com/Alvin9999/new-pac/wiki
+      - https://github.com/Alvin9999/new-pac/wiki 2
+      - https://github.com/Alvin9999/new-pac/wiki 3
+      - https://github.com/Alvin9999/new-pac/wiki 4
+      - https://github.com/Alvin9999/new-pac/wiki 5
+      - https://github.com/Alvin9999/new-pac/wiki 6
+      - https://github.com/Alvin9999/new-pac/wiki 7
+      - https://github.com/Alvin9999/new-pac/wiki 8
+      - https://github.com/Alvin9999/new-pac/wiki 9
+      - https://github.com/Alvin9999/new-pac/wiki 10
+      - https://github.com/Alvin9999/new-pac/wiki 11
+      - https://github.com/Alvin9999/new-pac/wiki 12
+      - https://github.com/Alvin9999/new-pac/wiki 13
+      - https://github.com/Alvin9999/new-pac/wiki 14
+      - https://github.com/Alvin9999/new-pac/wiki 15
+      - https://github.com/Alvin9999/new-pac/wiki 16
+      - https://github.com/Alvin9999/new-pac/wiki 17
+      - https://github.com/Alvin9999/new-pac/wiki 18
+      - https://github.com/Alvin9999/new-pac/wiki 19
+      - https://github.com/Alvin9999/new-pac/wiki 20
+      - https://github.com/Alvin9999/new-pac/wiki 21
+      - https://github.com/Alvin9999/new-pac/wiki 22
+      - https://github.com/Alvin9999/new-pac/wiki 23
+      - https://github.com/Alvin9999/new-pac/wiki 24
+      - https://github.com/Alvin9999/new-pac/wiki 25
+      - https://github.com/Alvin9999/new-pac/wiki 26
+      - https://github.com/Alvin9999/new-pac/wiki 27
+      - https://github.com/Alvin9999/new-pac/wiki 28
+      - https://github.com/Alvin9999/new-pac/wiki 29
+      - https://github.com/Alvin9999/new-pac/wiki 30
+      - https://github.com/Alvin9999/new-pac/wiki 31
+      - https://github.com/Alvin9999/new-pac/wiki 32
+      - https://github.com/Alvin9999/new-pac/wiki 33
+      - https://github.com/Alvin9999/new-pac/wiki 34
+      - https://github.com/Alvin9999/new-pac/wiki 35
+      - https://github.com/Alvin9999/new-pac/wiki 36
+      - https://github.com/Alvin9999/new-pac/wiki 37
+      - https://github.com/Alvin9999/new-pac/wiki 38
+      - https://github.com/Alvin9999/new-pac/wiki 39
+      - https://github.com/Alvin9999/new-pac/wiki 40
+      - https://github.com/Alvin9999/new-pac/wiki 41
+      - https://github.com/Alvin9999/new-pac/wiki 42
+      - https://github.com/Alvin9999/new-pac/wiki 43
+      - https://github.com/Alvin9999/new-pac/wiki 44
+      - https://github.com/Alvin9999/new-pac/wiki 45
+      - https://github.com/Alvin9999/new-pac/wiki 46
+      - https://github.com/Alvin9999/new-pac/wiki 47
+      - https://github.com/Alvin9999/new-pac/wiki 48
+      - https://github.com/Alvin9999/new-pac/wiki 49
+      - https://github.com/Alvin9999/new-pac/wiki 50
+      - https://github.com/Alvin9999/new-pac/wiki 51
+      - https://github.com/Alvin9999/new-pac/wiki 52
+      - https://github.com/Alvin9999/new-pac/wiki 53
+      - https://github.com/Alvin9999/new-pac/wiki 54
+      - https://github.com/Alvin9999/new-pac/wiki 55
+      - https://github.com/Alvin9999/new-pac/wiki 56
+      - https://github.com/Alvin9999/new-pac/wiki 57
+      - https://github.com/Alvin9999/new-pac/wiki 58
+      - https://github.com/Alvin9999/new-pac/wiki 59
+      - https://github.com/Alvin9999/new-pac/wiki 60
+      - https://github.com/Alvin9999/new-pac/wiki 61
+      - https://github.com/Alvin9999/new-pac/wiki 62
+      - https://github.com/Alvin9999/new-pac/wiki 63
+      - https://github.com/Alvin9999/new-pac/wiki 64
+      - https://github.com/Alvin9999/new-pac/wiki 65
+      - https://github.com/Alvin9999/new-pac/wiki 66
+      - https://github.com/Alvin9999/new-pac/wiki 67
+      - https://github.com/Alvin9999/new-pac/wiki 68
+      - https://github.com/Alvin9999/new-pac/wiki 69
+      - https://github.com/Alvin9999/new-pac/wiki 70
+      - https://github.com/Alvin9999/new-pac/wiki 71
+      - https://github.com/Alvin9999/new-pac/wiki 72
+      - https://github.com/Alvin9999/new-pac/wiki 73
+      - https://github.com/Alvin9999/new-pac/wiki 74
+      - https://github.com/Alvin9999/new-pac/wiki 75
+      - https://github.com/Alvin9999/new-pac/wiki 76
+      - https://github.com/Alvin9999/new-pac/wiki 77
+      - https://github.com/Alvin9999/new-pac/wiki 78
+      - https://github.com/Alvin9999/new-pac/wiki 79
+      - https://github.com/Alvin9999/new-pac/wiki 80
+      - https://github.com/Alvin9999/new-pac/wiki 81
+      - https://github.com/Alvin9999/new-pac/wiki 82
+      - https://github.com/Alvin9999/new-pac/wiki 83
+      - https://github.com/Alvin9999/new-pac/wiki 84
+      - https://github.com/Alvin9999/new-pac/wiki 85
+      - https://github.com/Alvin9999/new-pac/wiki 86
+      - https://github.com/Alvin9999/new-pac/wiki 87
+      - https://github.com/Alvin9999/new-pac/wiki 88
+      - https://github.com/Alvin9999/new-pac/wiki 89
+      - https://github.com/Alvin9999/new-pac/wiki 90
+      - https://github.com/Alvin9999/new-pac/wiki 91
+      - https://github.com/Alvin9999/new-pac/wiki 92
+      - https://github.com/Alvin9999/new-pac/wiki 93
+      - https://github.com/Alvin9999/new-pac/wiki 94
+      - https://github.com/Alvin9999/new-pac/wiki 95
+      - https://github.com/Alvin9999/new-pac/wiki 96
+      - https://github.com/Alvin9999/new-pac/wiki 97
+      - https://github.com/Alvin9999/new-pac/wiki 98
+      - https://github.com/Alvin9999/new-pac/wiki 99
+      - https://github.com/Alvin9999/new-pac/wiki 100
+      - https://github.com/Alvin9999/new-pac/wiki 101
+      - https://github.com/Alvin9999/new-pac/wiki 102
+      - https://github.com/Alvin9999/new-pac/wiki 103
+      - https://github.com/Alvin9999/new-pac/wiki 104
+      - https://github.com/Alvin9999/new-pac/wiki 105
+      - https://github.com/Alvin9999/new-pac/wiki 106
+      - https://github.com/Alvin9999/new-pac/wiki 107
+      - https://github.com/Alvin9999/new-pac/wiki 108
+      - https://github.com/Alvin9999/new-pac/wiki 109
+      - https://github.com/Alvin9999/new-pac/wiki 110
+      - https://github.com/Alvin9999/new-pac/wiki 111
+      - https://github.com/Alvin9999/new-pac/wiki 112
+      - https://github.com/Alvin9999/new-pac/wiki 113
+      - https://github.com/Alvin9999/new-pac/wiki 114
+      - https://github.com/Alvin9999/new-pac/wiki 115
+      - https://github.com/Alvin9999/new-pac/wiki 116
+      - https://github.com/Alvin9999/new-pac/wiki 117
+      - https://github.com/Alvin9999/new-pac/wiki 118
+      - https://github.com/Alvin9999/new-pac/wiki 119
+      - https://github.com/Alvin9999/new-pac/wiki 120
+      - https://github.com/Alvin9999/new-pac/wiki 121
+      - https://github.com/Alvin9999/new-pac/wiki 122
+      - https://github.com/Alvin9999/new-pac/wiki 123
+      - https://github.com/Alvin9999/new-pac/wiki 124
+      - https://github.com/Alvin9999/new-pac/wiki 125
+      - https://github.com/Alvin9999/new-pac/wiki 126
+      - https://github.com/Alvin9999/new-pac/wiki 127
+      - https://github.com/Alvin9999/new-pac/wiki 128
+      - https://github.com/Alvin9999/new-pac/wiki 129
+      - https://github.com/Alvin9999/new-pac/wiki 130
+      - https://github.com/Alvin9999/new-pac/wiki 131
+      - https://github.com/Alvin9999/new-pac/wiki 132
+      - https://github.com/Alvin9999/new-pac/wiki 133
+      - https://github.com/Alvin9999/new-pac/wiki 134
+      - https://github.com/Alvin9999/new-pac/wiki 135
+      - https://github.com/Alvin9999/new-pac/wiki 136
+      - https://github.com/Alvin9999/new-pac/wiki 137
+      - https://github.com/Alvin9999/new-pac/wiki 138
+      - https://github.com/Alvin9999/new-pac/wiki 139
+      - https://github.com/Alvin9999/new-pac/wiki 140
+      - https://github.com/Alvin9999/new-pac/wiki 141
+      - https://github.com/Alvin9999/new-pac/wiki 142
+      - https://github.com/Alvin9999/new-pac/wiki 143
+      - https://github.com/Alvin9999/new-pac/wiki 144
+      - https://github.com/Alvin9999/new-pac/wiki 145
+      - https://github.com/Alvin9999/new-pac/wiki 146
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1081,152 +1081,152 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - https://git.io/v9999
-      - https://git.io/v9999 2
-      - https://git.io/v9999 3
-      - https://git.io/v9999 4
-      - https://git.io/v9999 5
-      - https://git.io/v9999 6
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
-      - https://git.io/v9999 10
-      - https://git.io/v9999 11
-      - https://git.io/v9999 12
-      - https://git.io/v9999 13
-      - https://git.io/v9999 14
-      - https://git.io/v9999 15
-      - https://git.io/v9999 16
-      - https://git.io/v9999 17
-      - https://git.io/v9999 18
-      - https://git.io/v9999 19
-      - https://git.io/v9999 20
-      - https://git.io/v9999 21
-      - https://git.io/v9999 22
-      - https://git.io/v9999 23
-      - https://git.io/v9999 24
-      - https://git.io/v9999 25
-      - https://git.io/v9999 26
-      - https://git.io/v9999 27
-      - https://git.io/v9999 28
-      - https://git.io/v9999 29
-      - https://git.io/v9999 30
-      - https://git.io/v9999 31
-      - https://git.io/v9999 32
-      - https://git.io/v9999 33
-      - https://git.io/v9999 34
-      - https://git.io/v9999 35
-      - https://git.io/v9999 36
-      - https://git.io/v9999 37
-      - https://git.io/v9999 38
-      - https://git.io/v9999 39
-      - https://git.io/v9999 40
-      - https://git.io/v9999 41
-      - https://git.io/v9999 42
-      - https://git.io/v9999 43
-      - https://git.io/v9999 44
-      - https://git.io/v9999 45
-      - https://git.io/v9999 46
-      - https://git.io/v9999 47
-      - https://git.io/v9999 48
-      - https://git.io/v9999 49
-      - https://git.io/v9999 50
-      - https://git.io/v9999 51
-      - https://git.io/v9999 52
-      - https://git.io/v9999 53
-      - https://git.io/v9999 54
-      - https://git.io/v9999 55
-      - https://git.io/v9999 56
-      - https://git.io/v9999 57
-      - https://git.io/v9999 58
-      - https://git.io/v9999 59
-      - https://git.io/v9999 60
-      - https://git.io/v9999 61
-      - https://git.io/v9999 62
-      - https://git.io/v9999 63
-      - https://git.io/v9999 64
-      - https://git.io/v9999 65
-      - https://git.io/v9999 66
-      - https://git.io/v9999 67
-      - https://git.io/v9999 68
-      - https://git.io/v9999 69
-      - https://git.io/v9999 70
-      - https://git.io/v9999 71
-      - https://git.io/v9999 72
-      - https://git.io/v9999 73
-      - https://git.io/v9999 74
-      - https://git.io/v9999 75
-      - https://git.io/v9999 76
-      - https://git.io/v9999 77
-      - https://git.io/v9999 78
-      - https://git.io/v9999 79
-      - https://git.io/v9999 80
-      - https://git.io/v9999 81
-      - https://git.io/v9999 82
-      - https://git.io/v9999 83
-      - https://git.io/v9999 84
-      - https://git.io/v9999 85
-      - https://git.io/v9999 86
-      - https://git.io/v9999 87
-      - https://git.io/v9999 88
-      - https://git.io/v9999 89
-      - https://git.io/v9999 90
-      - https://git.io/v9999 91
-      - https://git.io/v9999 92
-      - https://git.io/v9999 93
-      - https://git.io/v9999 94
-      - https://git.io/v9999 95
-      - https://git.io/v9999 96
-      - https://git.io/v9999 97
-      - https://git.io/v9999 98
-      - https://git.io/v9999 99
-      - https://git.io/v9999 100
-      - https://git.io/v9999 101
-      - https://git.io/v9999 102
-      - https://git.io/v9999 103
-      - https://git.io/v9999 104
-      - https://git.io/v9999 105
-      - https://git.io/v9999 106
-      - https://git.io/v9999 107
-      - https://git.io/v9999 108
-      - https://git.io/v9999 109
-      - https://git.io/v9999 110
-      - https://git.io/v9999 111
-      - https://git.io/v9999 112
-      - https://git.io/v9999 113
-      - https://git.io/v9999 114
-      - https://git.io/v9999 115
-      - https://git.io/v9999 116
-      - https://git.io/v9999 117
-      - https://git.io/v9999 118
-      - https://git.io/v9999 119
-      - https://git.io/v9999 120
-      - https://git.io/v9999 121
-      - https://git.io/v9999 122
-      - https://git.io/v9999 123
-      - https://git.io/v9999 124
-      - https://git.io/v9999 125
-      - https://git.io/v9999 126
-      - https://git.io/v9999 127
-      - https://git.io/v9999 128
-      - https://git.io/v9999 129
-      - https://git.io/v9999 130
-      - https://git.io/v9999 131
-      - https://git.io/v9999 132
-      - https://git.io/v9999 133
-      - https://git.io/v9999 134
-      - https://git.io/v9999 135
-      - https://git.io/v9999 136
-      - https://git.io/v9999 137
-      - https://git.io/v9999 138
-      - https://git.io/v9999 139
-      - https://git.io/v9999 140
-      - https://git.io/v9999 141
-      - https://git.io/v9999 142
-      - https://git.io/v9999 143
-      - https://git.io/v9999 144
-      - https://git.io/v9999 145
-      - https://git.io/v9999 146
+      - https://github.com/Alvin9999/new-pac/wiki
+      - https://github.com/Alvin9999/new-pac/wiki 2
+      - https://github.com/Alvin9999/new-pac/wiki 3
+      - https://github.com/Alvin9999/new-pac/wiki 4
+      - https://github.com/Alvin9999/new-pac/wiki 5
+      - https://github.com/Alvin9999/new-pac/wiki 6
+      - https://github.com/Alvin9999/new-pac/wiki 7
+      - https://github.com/Alvin9999/new-pac/wiki 8
+      - https://github.com/Alvin9999/new-pac/wiki 9
+      - https://github.com/Alvin9999/new-pac/wiki 10
+      - https://github.com/Alvin9999/new-pac/wiki 11
+      - https://github.com/Alvin9999/new-pac/wiki 12
+      - https://github.com/Alvin9999/new-pac/wiki 13
+      - https://github.com/Alvin9999/new-pac/wiki 14
+      - https://github.com/Alvin9999/new-pac/wiki 15
+      - https://github.com/Alvin9999/new-pac/wiki 16
+      - https://github.com/Alvin9999/new-pac/wiki 17
+      - https://github.com/Alvin9999/new-pac/wiki 18
+      - https://github.com/Alvin9999/new-pac/wiki 19
+      - https://github.com/Alvin9999/new-pac/wiki 20
+      - https://github.com/Alvin9999/new-pac/wiki 21
+      - https://github.com/Alvin9999/new-pac/wiki 22
+      - https://github.com/Alvin9999/new-pac/wiki 23
+      - https://github.com/Alvin9999/new-pac/wiki 24
+      - https://github.com/Alvin9999/new-pac/wiki 25
+      - https://github.com/Alvin9999/new-pac/wiki 26
+      - https://github.com/Alvin9999/new-pac/wiki 27
+      - https://github.com/Alvin9999/new-pac/wiki 28
+      - https://github.com/Alvin9999/new-pac/wiki 29
+      - https://github.com/Alvin9999/new-pac/wiki 30
+      - https://github.com/Alvin9999/new-pac/wiki 31
+      - https://github.com/Alvin9999/new-pac/wiki 32
+      - https://github.com/Alvin9999/new-pac/wiki 33
+      - https://github.com/Alvin9999/new-pac/wiki 34
+      - https://github.com/Alvin9999/new-pac/wiki 35
+      - https://github.com/Alvin9999/new-pac/wiki 36
+      - https://github.com/Alvin9999/new-pac/wiki 37
+      - https://github.com/Alvin9999/new-pac/wiki 38
+      - https://github.com/Alvin9999/new-pac/wiki 39
+      - https://github.com/Alvin9999/new-pac/wiki 40
+      - https://github.com/Alvin9999/new-pac/wiki 41
+      - https://github.com/Alvin9999/new-pac/wiki 42
+      - https://github.com/Alvin9999/new-pac/wiki 43
+      - https://github.com/Alvin9999/new-pac/wiki 44
+      - https://github.com/Alvin9999/new-pac/wiki 45
+      - https://github.com/Alvin9999/new-pac/wiki 46
+      - https://github.com/Alvin9999/new-pac/wiki 47
+      - https://github.com/Alvin9999/new-pac/wiki 48
+      - https://github.com/Alvin9999/new-pac/wiki 49
+      - https://github.com/Alvin9999/new-pac/wiki 50
+      - https://github.com/Alvin9999/new-pac/wiki 51
+      - https://github.com/Alvin9999/new-pac/wiki 52
+      - https://github.com/Alvin9999/new-pac/wiki 53
+      - https://github.com/Alvin9999/new-pac/wiki 54
+      - https://github.com/Alvin9999/new-pac/wiki 55
+      - https://github.com/Alvin9999/new-pac/wiki 56
+      - https://github.com/Alvin9999/new-pac/wiki 57
+      - https://github.com/Alvin9999/new-pac/wiki 58
+      - https://github.com/Alvin9999/new-pac/wiki 59
+      - https://github.com/Alvin9999/new-pac/wiki 60
+      - https://github.com/Alvin9999/new-pac/wiki 61
+      - https://github.com/Alvin9999/new-pac/wiki 62
+      - https://github.com/Alvin9999/new-pac/wiki 63
+      - https://github.com/Alvin9999/new-pac/wiki 64
+      - https://github.com/Alvin9999/new-pac/wiki 65
+      - https://github.com/Alvin9999/new-pac/wiki 66
+      - https://github.com/Alvin9999/new-pac/wiki 67
+      - https://github.com/Alvin9999/new-pac/wiki 68
+      - https://github.com/Alvin9999/new-pac/wiki 69
+      - https://github.com/Alvin9999/new-pac/wiki 70
+      - https://github.com/Alvin9999/new-pac/wiki 71
+      - https://github.com/Alvin9999/new-pac/wiki 72
+      - https://github.com/Alvin9999/new-pac/wiki 73
+      - https://github.com/Alvin9999/new-pac/wiki 74
+      - https://github.com/Alvin9999/new-pac/wiki 75
+      - https://github.com/Alvin9999/new-pac/wiki 76
+      - https://github.com/Alvin9999/new-pac/wiki 77
+      - https://github.com/Alvin9999/new-pac/wiki 78
+      - https://github.com/Alvin9999/new-pac/wiki 79
+      - https://github.com/Alvin9999/new-pac/wiki 80
+      - https://github.com/Alvin9999/new-pac/wiki 81
+      - https://github.com/Alvin9999/new-pac/wiki 82
+      - https://github.com/Alvin9999/new-pac/wiki 83
+      - https://github.com/Alvin9999/new-pac/wiki 84
+      - https://github.com/Alvin9999/new-pac/wiki 85
+      - https://github.com/Alvin9999/new-pac/wiki 86
+      - https://github.com/Alvin9999/new-pac/wiki 87
+      - https://github.com/Alvin9999/new-pac/wiki 88
+      - https://github.com/Alvin9999/new-pac/wiki 89
+      - https://github.com/Alvin9999/new-pac/wiki 90
+      - https://github.com/Alvin9999/new-pac/wiki 91
+      - https://github.com/Alvin9999/new-pac/wiki 92
+      - https://github.com/Alvin9999/new-pac/wiki 93
+      - https://github.com/Alvin9999/new-pac/wiki 94
+      - https://github.com/Alvin9999/new-pac/wiki 95
+      - https://github.com/Alvin9999/new-pac/wiki 96
+      - https://github.com/Alvin9999/new-pac/wiki 97
+      - https://github.com/Alvin9999/new-pac/wiki 98
+      - https://github.com/Alvin9999/new-pac/wiki 99
+      - https://github.com/Alvin9999/new-pac/wiki 100
+      - https://github.com/Alvin9999/new-pac/wiki 101
+      - https://github.com/Alvin9999/new-pac/wiki 102
+      - https://github.com/Alvin9999/new-pac/wiki 103
+      - https://github.com/Alvin9999/new-pac/wiki 104
+      - https://github.com/Alvin9999/new-pac/wiki 105
+      - https://github.com/Alvin9999/new-pac/wiki 106
+      - https://github.com/Alvin9999/new-pac/wiki 107
+      - https://github.com/Alvin9999/new-pac/wiki 108
+      - https://github.com/Alvin9999/new-pac/wiki 109
+      - https://github.com/Alvin9999/new-pac/wiki 110
+      - https://github.com/Alvin9999/new-pac/wiki 111
+      - https://github.com/Alvin9999/new-pac/wiki 112
+      - https://github.com/Alvin9999/new-pac/wiki 113
+      - https://github.com/Alvin9999/new-pac/wiki 114
+      - https://github.com/Alvin9999/new-pac/wiki 115
+      - https://github.com/Alvin9999/new-pac/wiki 116
+      - https://github.com/Alvin9999/new-pac/wiki 117
+      - https://github.com/Alvin9999/new-pac/wiki 118
+      - https://github.com/Alvin9999/new-pac/wiki 119
+      - https://github.com/Alvin9999/new-pac/wiki 120
+      - https://github.com/Alvin9999/new-pac/wiki 121
+      - https://github.com/Alvin9999/new-pac/wiki 122
+      - https://github.com/Alvin9999/new-pac/wiki 123
+      - https://github.com/Alvin9999/new-pac/wiki 124
+      - https://github.com/Alvin9999/new-pac/wiki 125
+      - https://github.com/Alvin9999/new-pac/wiki 126
+      - https://github.com/Alvin9999/new-pac/wiki 127
+      - https://github.com/Alvin9999/new-pac/wiki 128
+      - https://github.com/Alvin9999/new-pac/wiki 129
+      - https://github.com/Alvin9999/new-pac/wiki 130
+      - https://github.com/Alvin9999/new-pac/wiki 131
+      - https://github.com/Alvin9999/new-pac/wiki 132
+      - https://github.com/Alvin9999/new-pac/wiki 133
+      - https://github.com/Alvin9999/new-pac/wiki 134
+      - https://github.com/Alvin9999/new-pac/wiki 135
+      - https://github.com/Alvin9999/new-pac/wiki 136
+      - https://github.com/Alvin9999/new-pac/wiki 137
+      - https://github.com/Alvin9999/new-pac/wiki 138
+      - https://github.com/Alvin9999/new-pac/wiki 139
+      - https://github.com/Alvin9999/new-pac/wiki 140
+      - https://github.com/Alvin9999/new-pac/wiki 141
+      - https://github.com/Alvin9999/new-pac/wiki 142
+      - https://github.com/Alvin9999/new-pac/wiki 143
+      - https://github.com/Alvin9999/new-pac/wiki 144
+      - https://github.com/Alvin9999/new-pac/wiki 145
+      - https://github.com/Alvin9999/new-pac/wiki 146
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
