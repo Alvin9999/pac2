@@ -5,660 +5,132 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: https://git.io/v9999, server: ssr-08.ssrsub.one, port: 167, type: ss, cipher: aes-256-cfb, password: t.me/SSRSUB}
-  - {name: https://git.io/v9999 2, server: ssr-07.ssrsub.one, port: 8891, type: ss, cipher: aes-256-cfb, password: https://suo.yt/ssrsub}
-  - {name: https://git.io/v9999 3, server: ssr-06.ssrsub.one, port: 167, type: ss, cipher: aes-256-cfb, password: t.me/SSRSUB}
-  - {name: https://git.io/v9999 4, server: ssr-05.ssrsub.one, port: 8891, type: ss, cipher: aes-256-cfb, password: https://suo.yt/ssrsub}
-  - {name: https://git.io/v9999 5, server: ssr-02.ssrsub.one, port: 167, type: ss, cipher: aes-256-cfb, password: t.me/SSRSUB}
-  - {name: https://git.io/v9999 6, server: ssr-01.ssrsub.one, port: 8891, type: ss, cipher: aes-256-cfb, password: https://suo.yt/ssrsub}
-  - {name: https://git.io/v9999 7, server: 23.82.11.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 8, server: 23.105.163.94, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 9, server: 23.105.163.80, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 10, server: 23.105.163.109, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 11, server: 23.105.160.144, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: https://git.io/v9999 12, server: 23.105.160.138, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 13, server: 202.143.111.211, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 14, server: 2.58.242.43, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: https://git.io/v9999 15, server: 2.58.242.157, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 16, server: 2.58.241.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 17, server: 2.58.241.45, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 18, server: 178.175.128.237, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: https://git.io/v9999 19, server: 173.208.202.61, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 20, server: 172.93.153.150, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: https://git.io/v9999 21, server: 172.93.153.150, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 22, server: 172.93.153.146, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 23, server: 172.83.42.7, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 24, server: 172.83.42.138, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 25, server: 107.174.20.132, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 26, server: 107.174.20.130, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 27, server: 107.152.101.163, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 28, server: 104.200.131.249, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: https://git.io/v9999 29, server: 104.200.131.229, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 30, server: 104.200.131.170, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 31, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 32, server: 103.156.50.91, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 33, server: 103.156.50.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 34, server: 103.156.50.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 35, server: 103.156.50.113, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 36, server: 103.152.151.86, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇨🇳 Pool_🇹🇼TW_2931, server: 103.152.151.85, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇳 Pool_🇹🇼TW_2935, server: 103.152.151.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇳 Pool_🇹🇼TW_2938, server: 2.58.241.45, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: Pool_🇺🇦UA_2978, server: 176.107.185.73, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: Pool_🇺🇦UA_2981, server: 176.107.185.73, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 Pool_🇺🇸US_3001, server: 173.208.202.59, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇺🇸 Pool_🇺🇸US_3024, server: 107.175.104.84, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇺🇸 Pool_🇺🇸US_3032, server: 172.98.75.39, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_3045, server: 173.237.207.25, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3050, server: 107.175.104.82, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3051, server: 172.83.42.37, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_3059, server: 172.93.153.148, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3062, server: 173.237.207.42, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3063, server: 107.175.104.86, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇺🇸 Pool_🇺🇸US_3064, server: 23.82.11.49, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 Pool_🇺🇸US_3075, server: 172.83.42.158, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 Pool_🇺🇸US_3081, server: 104.200.131.245, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_3094, server: 173.237.207.32, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3095, server: 107.150.39.43, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 Pool_🇺🇸US_3102, server: 173.237.207.13, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_3111, server: 173.237.207.36, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3112, server: 172.83.42.85, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3113, server: 172.83.42.35, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3116, server: 172.83.42.3, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 Pool_🇺🇸US_3118, server: 172.83.42.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3120, server: 173.208.202.61, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 Pool_🇺🇸US_3129, server: 173.237.207.15, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3131, server: 23.82.11.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3139, server: 104.200.131.229, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 Pool_🇺🇸US_3147, server: 104.200.131.233, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 Pool_🇺🇸US_3149, server: 172.83.42.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3162, server: 172.93.153.146, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3165, server: 173.237.207.15, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_3170, server: 173.237.207.32, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_3176, server: 107.181.164.37, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_3177, server: 173.208.202.61, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3179, server: 172.98.78.229, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3187, server: 107.181.166.83, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 Pool_🇺🇸US_3188, server: 173.237.207.13, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 Pool_🇺🇸US_3189, server: 172.241.114.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3194, server: 107.181.173.163, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 Pool_🇺🇸US_3203, server: 173.208.202.61, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇺🇸 Pool_🇺🇸US_3204, server: 107.175.104.86, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 Pool_🇺🇸US_3209, server: 172.83.42.3, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 Pool_🇺🇸US_3223, server: 172.83.42.23, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3227, server: 23.83.128.233, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3228, server: 172.83.42.19, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 Pool_🇺🇸US_3253, server: 172.83.42.19, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_3257, server: 172.83.42.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3268, server: 23.105.160.144, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇺🇸 Pool_🇺🇸US_3288, server: 107.175.104.82, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_3294, server: 172.83.42.153, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_3308, server: 173.208.202.59, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_3309, server: 172.83.42.3, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇺🇸 Pool_🇺🇸US_3318, server: 173.237.207.21, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3320, server: 172.83.42.85, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 Pool_🇺🇸US_3322, server: 172.83.42.141, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3325, server: 174.128.245.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_3326, server: 173.237.207.23, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3332, server: 172.83.42.19, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3338, server: 98.142.220.37, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3340, server: 172.83.42.156, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3352, server: 172.83.42.37, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3358, server: 173.237.207.15, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 Pool_🇺🇸US_3369, server: 172.83.42.3, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3376, server: 172.83.42.138, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3378, server: 173.237.207.25, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 Pool_🇺🇸US_3390, server: 172.93.153.148, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_3392, server: 107.181.166.83, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 Pool_🇺🇸US_3395, server: 107.181.173.163, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇺🇸 Pool_🇺🇸US_3400, server: 104.200.131.249, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_3410, server: 172.83.42.146, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3413, server: 173.237.207.15, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 Pool_🇺🇸US_3423, server: 173.237.207.44, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3427, server: 172.98.75.37, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3437, server: 172.83.42.7, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3440, server: 173.237.207.25, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇺🇸 Pool_🇺🇸US_3448, server: 173.237.207.21, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 Pool_🇺🇸US_3461, server: 173.237.207.21, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_3463, server: 173.237.207.25, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_3468, server: 172.241.114.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 Pool_🇺🇸US_3476, server: 107.175.104.82, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 Pool_🇺🇸US_3481, server: 173.237.207.25, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 Pool_🇺🇸US_3486, server: 107.150.39.43, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3505, server: 173.208.202.61, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 Pool_🇺🇸US_3508, server: 107.150.39.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3509, server: 173.237.207.11, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3511, server: 107.175.104.84, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3521, server: 172.83.42.148, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3522, server: 172.83.42.158, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3530, server: 107.181.166.55, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_3531, server: 23.105.163.94, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_3549, server: 172.93.153.150, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3550, server: 172.83.42.21, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3554, server: 173.237.207.30, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_3572, server: 23.105.160.144, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 Pool_🇺🇸US_3582, server: 107.175.104.86, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 Pool_🇺🇸US_3589, server: 172.241.114.89, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3603, server: 172.83.42.143, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3607, server: 174.128.245.147, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 Pool_🇺🇸US_3622, server: 107.181.166.39, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_3629, server: 23.105.163.94, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇺🇸 Pool_🇺🇸US_3643, server: 107.152.100.19, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_3653, server: 172.83.42.55, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3662, server: 173.237.207.15, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇺🇸 Pool_🇺🇸US_3664, server: 107.175.104.86, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇺🇸 Pool_🇺🇸US_3666, server: 173.237.207.13, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3667, server: 172.83.42.153, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3672, server: 172.83.42.53, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_3673, server: 107.181.173.163, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇩🇪, server: 178.238.231.53, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇩🇪 2, server: 178.238.231.53, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇪 3, server: 178.238.231.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇪 4, server: 172.104.149.56, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
-  - {name: 🇬🇧, server: 2.58.45.253, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 2, server: 178.239.166.234, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸, server: 173.208.202.59, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 2, server: 172.245.218.162, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇺🇸 3, server: 172.245.218.162, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇺🇸 4, server: 172.245.218.162, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇺🇸 5, server: 172.245.218.162, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇺🇸 6, server: 107.175.104.84, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 US_3028, server: 47.254.36.131, port: 35602, type: ss, cipher: aes-256-cfb, password: !<str> 356356356}
+  - {name: https://git.io/v9999 clash ip1, server: 103.156.50.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip2, server: 27.255.77.195, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 clash ip2 2, server: 45.87.213.213, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip2 3, server: 61.14.210.244, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip2 4, server: 45.87.213.105, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip2 5, server: 61.14.210.244, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 clash ip2 6, server: 61.14.210.244, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: https://git.io/v9999 clash ip2 7, server: 27.255.77.197, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: https://git.io/v9999 clash ip2 8, server: 2.58.241.45, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: https://git.io/v9999 clash ip2 9, server: 103.152.151.85, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip2 10, server: 2.58.241.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip2 11, server: 172.104.36.4, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: https://git.io/v9999 clash ip2 12, server: 172.104.36.4, port: 8097, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: https://git.io/v9999 clash ip2 13, server: 61.222.202.195, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: https://git.io/v9999 clash ip2 14, server: 2.58.242.43, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: https://git.io/v9999 clash ip2 15, server: 103.152.151.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip2 16, server: 2.58.241.45, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 clash ip2 17, server: 2.58.242.157, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 clash ip2 18, server: 103.152.151.86, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: https://git.io/v9999 clash ip2 19, server: 2.58.241.46, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: https://git.io/v9999 clash ip2 20, server: 2.58.241.27, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 clash ip2 21, server: 2.58.241.27, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip2 22, server: 2.58.241.27, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: https://git.io/v9999 clash ip2 23, server: 61.14.210.242, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip2 24, server: 61.14.210.242, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 clash ip2 25, server: 103.156.50.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip2 26, server: 103.156.50.91, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - https://git.io/v9999
-      - https://git.io/v9999 2
-      - https://git.io/v9999 3
-      - https://git.io/v9999 4
-      - https://git.io/v9999 5
-      - https://git.io/v9999 6
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
-      - https://git.io/v9999 10
-      - https://git.io/v9999 11
-      - https://git.io/v9999 12
-      - https://git.io/v9999 13
-      - https://git.io/v9999 14
-      - https://git.io/v9999 15
-      - https://git.io/v9999 16
-      - https://git.io/v9999 17
-      - https://git.io/v9999 18
-      - https://git.io/v9999 19
-      - https://git.io/v9999 20
-      - https://git.io/v9999 21
-      - https://git.io/v9999 22
-      - https://git.io/v9999 23
-      - https://git.io/v9999 24
-      - https://git.io/v9999 25
-      - https://git.io/v9999 26
-      - https://git.io/v9999 27
-      - https://git.io/v9999 28
-      - https://git.io/v9999 29
-      - https://git.io/v9999 30
-      - https://git.io/v9999 31
-      - https://git.io/v9999 32
-      - https://git.io/v9999 33
-      - https://git.io/v9999 34
-      - https://git.io/v9999 35
-      - https://git.io/v9999 36
-      - 🇨🇳 Pool_🇹🇼TW_2931
-      - 🇨🇳 Pool_🇹🇼TW_2935
-      - 🇨🇳 Pool_🇹🇼TW_2938
-      - Pool_🇺🇦UA_2978
-      - Pool_🇺🇦UA_2981
-      - 🇺🇸 Pool_🇺🇸US_3001
-      - 🇺🇸 Pool_🇺🇸US_3024
-      - 🇺🇸 Pool_🇺🇸US_3032
-      - 🇺🇸 Pool_🇺🇸US_3045
-      - 🇺🇸 Pool_🇺🇸US_3050
-      - 🇺🇸 Pool_🇺🇸US_3051
-      - 🇺🇸 Pool_🇺🇸US_3059
-      - 🇺🇸 Pool_🇺🇸US_3062
-      - 🇺🇸 Pool_🇺🇸US_3063
-      - 🇺🇸 Pool_🇺🇸US_3064
-      - 🇺🇸 Pool_🇺🇸US_3075
-      - 🇺🇸 Pool_🇺🇸US_3081
-      - 🇺🇸 Pool_🇺🇸US_3094
-      - 🇺🇸 Pool_🇺🇸US_3095
-      - 🇺🇸 Pool_🇺🇸US_3102
-      - 🇺🇸 Pool_🇺🇸US_3111
-      - 🇺🇸 Pool_🇺🇸US_3112
-      - 🇺🇸 Pool_🇺🇸US_3113
-      - 🇺🇸 Pool_🇺🇸US_3116
-      - 🇺🇸 Pool_🇺🇸US_3118
-      - 🇺🇸 Pool_🇺🇸US_3120
-      - 🇺🇸 Pool_🇺🇸US_3129
-      - 🇺🇸 Pool_🇺🇸US_3131
-      - 🇺🇸 Pool_🇺🇸US_3139
-      - 🇺🇸 Pool_🇺🇸US_3147
-      - 🇺🇸 Pool_🇺🇸US_3149
-      - 🇺🇸 Pool_🇺🇸US_3162
-      - 🇺🇸 Pool_🇺🇸US_3165
-      - 🇺🇸 Pool_🇺🇸US_3170
-      - 🇺🇸 Pool_🇺🇸US_3176
-      - 🇺🇸 Pool_🇺🇸US_3177
-      - 🇺🇸 Pool_🇺🇸US_3179
-      - 🇺🇸 Pool_🇺🇸US_3187
-      - 🇺🇸 Pool_🇺🇸US_3188
-      - 🇺🇸 Pool_🇺🇸US_3189
-      - 🇺🇸 Pool_🇺🇸US_3194
-      - 🇺🇸 Pool_🇺🇸US_3203
-      - 🇺🇸 Pool_🇺🇸US_3204
-      - 🇺🇸 Pool_🇺🇸US_3209
-      - 🇺🇸 Pool_🇺🇸US_3223
-      - 🇺🇸 Pool_🇺🇸US_3227
-      - 🇺🇸 Pool_🇺🇸US_3228
-      - 🇺🇸 Pool_🇺🇸US_3253
-      - 🇺🇸 Pool_🇺🇸US_3257
-      - 🇺🇸 Pool_🇺🇸US_3268
-      - 🇺🇸 Pool_🇺🇸US_3288
-      - 🇺🇸 Pool_🇺🇸US_3294
-      - 🇺🇸 Pool_🇺🇸US_3308
-      - 🇺🇸 Pool_🇺🇸US_3309
-      - 🇺🇸 Pool_🇺🇸US_3318
-      - 🇺🇸 Pool_🇺🇸US_3320
-      - 🇺🇸 Pool_🇺🇸US_3322
-      - 🇺🇸 Pool_🇺🇸US_3325
-      - 🇺🇸 Pool_🇺🇸US_3326
-      - 🇺🇸 Pool_🇺🇸US_3332
-      - 🇺🇸 Pool_🇺🇸US_3338
-      - 🇺🇸 Pool_🇺🇸US_3340
-      - 🇺🇸 Pool_🇺🇸US_3352
-      - 🇺🇸 Pool_🇺🇸US_3358
-      - 🇺🇸 Pool_🇺🇸US_3369
-      - 🇺🇸 Pool_🇺🇸US_3376
-      - 🇺🇸 Pool_🇺🇸US_3378
-      - 🇺🇸 Pool_🇺🇸US_3390
-      - 🇺🇸 Pool_🇺🇸US_3392
-      - 🇺🇸 Pool_🇺🇸US_3395
-      - 🇺🇸 Pool_🇺🇸US_3400
-      - 🇺🇸 Pool_🇺🇸US_3410
-      - 🇺🇸 Pool_🇺🇸US_3413
-      - 🇺🇸 Pool_🇺🇸US_3423
-      - 🇺🇸 Pool_🇺🇸US_3427
-      - 🇺🇸 Pool_🇺🇸US_3437
-      - 🇺🇸 Pool_🇺🇸US_3440
-      - 🇺🇸 Pool_🇺🇸US_3448
-      - 🇺🇸 Pool_🇺🇸US_3461
-      - 🇺🇸 Pool_🇺🇸US_3463
-      - 🇺🇸 Pool_🇺🇸US_3468
-      - 🇺🇸 Pool_🇺🇸US_3476
-      - 🇺🇸 Pool_🇺🇸US_3481
-      - 🇺🇸 Pool_🇺🇸US_3486
-      - 🇺🇸 Pool_🇺🇸US_3505
-      - 🇺🇸 Pool_🇺🇸US_3508
-      - 🇺🇸 Pool_🇺🇸US_3509
-      - 🇺🇸 Pool_🇺🇸US_3511
-      - 🇺🇸 Pool_🇺🇸US_3521
-      - 🇺🇸 Pool_🇺🇸US_3522
-      - 🇺🇸 Pool_🇺🇸US_3530
-      - 🇺🇸 Pool_🇺🇸US_3531
-      - 🇺🇸 Pool_🇺🇸US_3549
-      - 🇺🇸 Pool_🇺🇸US_3550
-      - 🇺🇸 Pool_🇺🇸US_3554
-      - 🇺🇸 Pool_🇺🇸US_3572
-      - 🇺🇸 Pool_🇺🇸US_3582
-      - 🇺🇸 Pool_🇺🇸US_3589
-      - 🇺🇸 Pool_🇺🇸US_3603
-      - 🇺🇸 Pool_🇺🇸US_3607
-      - 🇺🇸 Pool_🇺🇸US_3622
-      - 🇺🇸 Pool_🇺🇸US_3629
-      - 🇺🇸 Pool_🇺🇸US_3643
-      - 🇺🇸 Pool_🇺🇸US_3653
-      - 🇺🇸 Pool_🇺🇸US_3662
-      - 🇺🇸 Pool_🇺🇸US_3664
-      - 🇺🇸 Pool_🇺🇸US_3666
-      - 🇺🇸 Pool_🇺🇸US_3667
-      - 🇺🇸 Pool_🇺🇸US_3672
-      - 🇺🇸 Pool_🇺🇸US_3673
-      - 🇩🇪
-      - 🇩🇪 2
-      - 🇩🇪 3
-      - 🇩🇪 4
-      - 🇬🇧
-      - 🇬🇧 2
-      - 🇺🇸
-      - 🇺🇸 2
-      - 🇺🇸 3
-      - 🇺🇸 4
-      - 🇺🇸 5
-      - 🇺🇸 6
-      - 🇺🇸 US_3028
+      - https://git.io/v9999 clash ip1
+      - https://git.io/v9999 clash ip2
+      - https://git.io/v9999 clash ip2 2
+      - https://git.io/v9999 clash ip2 3
+      - https://git.io/v9999 clash ip2 4
+      - https://git.io/v9999 clash ip2 5
+      - https://git.io/v9999 clash ip2 6
+      - https://git.io/v9999 clash ip2 7
+      - https://git.io/v9999 clash ip2 8
+      - https://git.io/v9999 clash ip2 9
+      - https://git.io/v9999 clash ip2 10
+      - https://git.io/v9999 clash ip2 11
+      - https://git.io/v9999 clash ip2 12
+      - https://git.io/v9999 clash ip2 13
+      - https://git.io/v9999 clash ip2 14
+      - https://git.io/v9999 clash ip2 15
+      - https://git.io/v9999 clash ip2 16
+      - https://git.io/v9999 clash ip2 17
+      - https://git.io/v9999 clash ip2 18
+      - https://git.io/v9999 clash ip2 19
+      - https://git.io/v9999 clash ip2 20
+      - https://git.io/v9999 clash ip2 21
+      - https://git.io/v9999 clash ip2 22
+      - https://git.io/v9999 clash ip2 23
+      - https://git.io/v9999 clash ip2 24
+      - https://git.io/v9999 clash ip2 25
+      - https://git.io/v9999 clash ip2 26
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 0
     proxies:
-      - https://git.io/v9999
-      - https://git.io/v9999 2
-      - https://git.io/v9999 3
-      - https://git.io/v9999 4
-      - https://git.io/v9999 5
-      - https://git.io/v9999 6
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
-      - https://git.io/v9999 10
-      - https://git.io/v9999 11
-      - https://git.io/v9999 12
-      - https://git.io/v9999 13
-      - https://git.io/v9999 14
-      - https://git.io/v9999 15
-      - https://git.io/v9999 16
-      - https://git.io/v9999 17
-      - https://git.io/v9999 18
-      - https://git.io/v9999 19
-      - https://git.io/v9999 20
-      - https://git.io/v9999 21
-      - https://git.io/v9999 22
-      - https://git.io/v9999 23
-      - https://git.io/v9999 24
-      - https://git.io/v9999 25
-      - https://git.io/v9999 26
-      - https://git.io/v9999 27
-      - https://git.io/v9999 28
-      - https://git.io/v9999 29
-      - https://git.io/v9999 30
-      - https://git.io/v9999 31
-      - https://git.io/v9999 32
-      - https://git.io/v9999 33
-      - https://git.io/v9999 34
-      - https://git.io/v9999 35
-      - https://git.io/v9999 36
-      - 🇨🇳 Pool_🇹🇼TW_2931
-      - 🇨🇳 Pool_🇹🇼TW_2935
-      - 🇨🇳 Pool_🇹🇼TW_2938
-      - Pool_🇺🇦UA_2978
-      - Pool_🇺🇦UA_2981
-      - 🇺🇸 Pool_🇺🇸US_3001
-      - 🇺🇸 Pool_🇺🇸US_3024
-      - 🇺🇸 Pool_🇺🇸US_3032
-      - 🇺🇸 Pool_🇺🇸US_3045
-      - 🇺🇸 Pool_🇺🇸US_3050
-      - 🇺🇸 Pool_🇺🇸US_3051
-      - 🇺🇸 Pool_🇺🇸US_3059
-      - 🇺🇸 Pool_🇺🇸US_3062
-      - 🇺🇸 Pool_🇺🇸US_3063
-      - 🇺🇸 Pool_🇺🇸US_3064
-      - 🇺🇸 Pool_🇺🇸US_3075
-      - 🇺🇸 Pool_🇺🇸US_3081
-      - 🇺🇸 Pool_🇺🇸US_3094
-      - 🇺🇸 Pool_🇺🇸US_3095
-      - 🇺🇸 Pool_🇺🇸US_3102
-      - 🇺🇸 Pool_🇺🇸US_3111
-      - 🇺🇸 Pool_🇺🇸US_3112
-      - 🇺🇸 Pool_🇺🇸US_3113
-      - 🇺🇸 Pool_🇺🇸US_3116
-      - 🇺🇸 Pool_🇺🇸US_3118
-      - 🇺🇸 Pool_🇺🇸US_3120
-      - 🇺🇸 Pool_🇺🇸US_3129
-      - 🇺🇸 Pool_🇺🇸US_3131
-      - 🇺🇸 Pool_🇺🇸US_3139
-      - 🇺🇸 Pool_🇺🇸US_3147
-      - 🇺🇸 Pool_🇺🇸US_3149
-      - 🇺🇸 Pool_🇺🇸US_3162
-      - 🇺🇸 Pool_🇺🇸US_3165
-      - 🇺🇸 Pool_🇺🇸US_3170
-      - 🇺🇸 Pool_🇺🇸US_3176
-      - 🇺🇸 Pool_🇺🇸US_3177
-      - 🇺🇸 Pool_🇺🇸US_3179
-      - 🇺🇸 Pool_🇺🇸US_3187
-      - 🇺🇸 Pool_🇺🇸US_3188
-      - 🇺🇸 Pool_🇺🇸US_3189
-      - 🇺🇸 Pool_🇺🇸US_3194
-      - 🇺🇸 Pool_🇺🇸US_3203
-      - 🇺🇸 Pool_🇺🇸US_3204
-      - 🇺🇸 Pool_🇺🇸US_3209
-      - 🇺🇸 Pool_🇺🇸US_3223
-      - 🇺🇸 Pool_🇺🇸US_3227
-      - 🇺🇸 Pool_🇺🇸US_3228
-      - 🇺🇸 Pool_🇺🇸US_3253
-      - 🇺🇸 Pool_🇺🇸US_3257
-      - 🇺🇸 Pool_🇺🇸US_3268
-      - 🇺🇸 Pool_🇺🇸US_3288
-      - 🇺🇸 Pool_🇺🇸US_3294
-      - 🇺🇸 Pool_🇺🇸US_3308
-      - 🇺🇸 Pool_🇺🇸US_3309
-      - 🇺🇸 Pool_🇺🇸US_3318
-      - 🇺🇸 Pool_🇺🇸US_3320
-      - 🇺🇸 Pool_🇺🇸US_3322
-      - 🇺🇸 Pool_🇺🇸US_3325
-      - 🇺🇸 Pool_🇺🇸US_3326
-      - 🇺🇸 Pool_🇺🇸US_3332
-      - 🇺🇸 Pool_🇺🇸US_3338
-      - 🇺🇸 Pool_🇺🇸US_3340
-      - 🇺🇸 Pool_🇺🇸US_3352
-      - 🇺🇸 Pool_🇺🇸US_3358
-      - 🇺🇸 Pool_🇺🇸US_3369
-      - 🇺🇸 Pool_🇺🇸US_3376
-      - 🇺🇸 Pool_🇺🇸US_3378
-      - 🇺🇸 Pool_🇺🇸US_3390
-      - 🇺🇸 Pool_🇺🇸US_3392
-      - 🇺🇸 Pool_🇺🇸US_3395
-      - 🇺🇸 Pool_🇺🇸US_3400
-      - 🇺🇸 Pool_🇺🇸US_3410
-      - 🇺🇸 Pool_🇺🇸US_3413
-      - 🇺🇸 Pool_🇺🇸US_3423
-      - 🇺🇸 Pool_🇺🇸US_3427
-      - 🇺🇸 Pool_🇺🇸US_3437
-      - 🇺🇸 Pool_🇺🇸US_3440
-      - 🇺🇸 Pool_🇺🇸US_3448
-      - 🇺🇸 Pool_🇺🇸US_3461
-      - 🇺🇸 Pool_🇺🇸US_3463
-      - 🇺🇸 Pool_🇺🇸US_3468
-      - 🇺🇸 Pool_🇺🇸US_3476
-      - 🇺🇸 Pool_🇺🇸US_3481
-      - 🇺🇸 Pool_🇺🇸US_3486
-      - 🇺🇸 Pool_🇺🇸US_3505
-      - 🇺🇸 Pool_🇺🇸US_3508
-      - 🇺🇸 Pool_🇺🇸US_3509
-      - 🇺🇸 Pool_🇺🇸US_3511
-      - 🇺🇸 Pool_🇺🇸US_3521
-      - 🇺🇸 Pool_🇺🇸US_3522
-      - 🇺🇸 Pool_🇺🇸US_3530
-      - 🇺🇸 Pool_🇺🇸US_3531
-      - 🇺🇸 Pool_🇺🇸US_3549
-      - 🇺🇸 Pool_🇺🇸US_3550
-      - 🇺🇸 Pool_🇺🇸US_3554
-      - 🇺🇸 Pool_🇺🇸US_3572
-      - 🇺🇸 Pool_🇺🇸US_3582
-      - 🇺🇸 Pool_🇺🇸US_3589
-      - 🇺🇸 Pool_🇺🇸US_3603
-      - 🇺🇸 Pool_🇺🇸US_3607
-      - 🇺🇸 Pool_🇺🇸US_3622
-      - 🇺🇸 Pool_🇺🇸US_3629
-      - 🇺🇸 Pool_🇺🇸US_3643
-      - 🇺🇸 Pool_🇺🇸US_3653
-      - 🇺🇸 Pool_🇺🇸US_3662
-      - 🇺🇸 Pool_🇺🇸US_3664
-      - 🇺🇸 Pool_🇺🇸US_3666
-      - 🇺🇸 Pool_🇺🇸US_3667
-      - 🇺🇸 Pool_🇺🇸US_3672
-      - 🇺🇸 Pool_🇺🇸US_3673
-      - 🇩🇪
-      - 🇩🇪 2
-      - 🇩🇪 3
-      - 🇩🇪 4
-      - 🇬🇧
-      - 🇬🇧 2
-      - 🇺🇸
-      - 🇺🇸 2
-      - 🇺🇸 3
-      - 🇺🇸 4
-      - 🇺🇸 5
-      - 🇺🇸 6
-      - 🇺🇸 US_3028
+      - https://git.io/v9999 clash ip1
+      - https://git.io/v9999 clash ip2
+      - https://git.io/v9999 clash ip2 2
+      - https://git.io/v9999 clash ip2 3
+      - https://git.io/v9999 clash ip2 4
+      - https://git.io/v9999 clash ip2 5
+      - https://git.io/v9999 clash ip2 6
+      - https://git.io/v9999 clash ip2 7
+      - https://git.io/v9999 clash ip2 8
+      - https://git.io/v9999 clash ip2 9
+      - https://git.io/v9999 clash ip2 10
+      - https://git.io/v9999 clash ip2 11
+      - https://git.io/v9999 clash ip2 12
+      - https://git.io/v9999 clash ip2 13
+      - https://git.io/v9999 clash ip2 14
+      - https://git.io/v9999 clash ip2 15
+      - https://git.io/v9999 clash ip2 16
+      - https://git.io/v9999 clash ip2 17
+      - https://git.io/v9999 clash ip2 18
+      - https://git.io/v9999 clash ip2 19
+      - https://git.io/v9999 clash ip2 20
+      - https://git.io/v9999 clash ip2 21
+      - https://git.io/v9999 clash ip2 22
+      - https://git.io/v9999 clash ip2 23
+      - https://git.io/v9999 clash ip2 24
+      - https://git.io/v9999 clash ip2 25
+      - https://git.io/v9999 clash ip2 26
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - https://git.io/v9999
-      - https://git.io/v9999 2
-      - https://git.io/v9999 3
-      - https://git.io/v9999 4
-      - https://git.io/v9999 5
-      - https://git.io/v9999 6
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
-      - https://git.io/v9999 10
-      - https://git.io/v9999 11
-      - https://git.io/v9999 12
-      - https://git.io/v9999 13
-      - https://git.io/v9999 14
-      - https://git.io/v9999 15
-      - https://git.io/v9999 16
-      - https://git.io/v9999 17
-      - https://git.io/v9999 18
-      - https://git.io/v9999 19
-      - https://git.io/v9999 20
-      - https://git.io/v9999 21
-      - https://git.io/v9999 22
-      - https://git.io/v9999 23
-      - https://git.io/v9999 24
-      - https://git.io/v9999 25
-      - https://git.io/v9999 26
-      - https://git.io/v9999 27
-      - https://git.io/v9999 28
-      - https://git.io/v9999 29
-      - https://git.io/v9999 30
-      - https://git.io/v9999 31
-      - https://git.io/v9999 32
-      - https://git.io/v9999 33
-      - https://git.io/v9999 34
-      - https://git.io/v9999 35
-      - https://git.io/v9999 36
-      - 🇨🇳 Pool_🇹🇼TW_2931
-      - 🇨🇳 Pool_🇹🇼TW_2935
-      - 🇨🇳 Pool_🇹🇼TW_2938
-      - Pool_🇺🇦UA_2978
-      - Pool_🇺🇦UA_2981
-      - 🇺🇸 Pool_🇺🇸US_3001
-      - 🇺🇸 Pool_🇺🇸US_3024
-      - 🇺🇸 Pool_🇺🇸US_3032
-      - 🇺🇸 Pool_🇺🇸US_3045
-      - 🇺🇸 Pool_🇺🇸US_3050
-      - 🇺🇸 Pool_🇺🇸US_3051
-      - 🇺🇸 Pool_🇺🇸US_3059
-      - 🇺🇸 Pool_🇺🇸US_3062
-      - 🇺🇸 Pool_🇺🇸US_3063
-      - 🇺🇸 Pool_🇺🇸US_3064
-      - 🇺🇸 Pool_🇺🇸US_3075
-      - 🇺🇸 Pool_🇺🇸US_3081
-      - 🇺🇸 Pool_🇺🇸US_3094
-      - 🇺🇸 Pool_🇺🇸US_3095
-      - 🇺🇸 Pool_🇺🇸US_3102
-      - 🇺🇸 Pool_🇺🇸US_3111
-      - 🇺🇸 Pool_🇺🇸US_3112
-      - 🇺🇸 Pool_🇺🇸US_3113
-      - 🇺🇸 Pool_🇺🇸US_3116
-      - 🇺🇸 Pool_🇺🇸US_3118
-      - 🇺🇸 Pool_🇺🇸US_3120
-      - 🇺🇸 Pool_🇺🇸US_3129
-      - 🇺🇸 Pool_🇺🇸US_3131
-      - 🇺🇸 Pool_🇺🇸US_3139
-      - 🇺🇸 Pool_🇺🇸US_3147
-      - 🇺🇸 Pool_🇺🇸US_3149
-      - 🇺🇸 Pool_🇺🇸US_3162
-      - 🇺🇸 Pool_🇺🇸US_3165
-      - 🇺🇸 Pool_🇺🇸US_3170
-      - 🇺🇸 Pool_🇺🇸US_3176
-      - 🇺🇸 Pool_🇺🇸US_3177
-      - 🇺🇸 Pool_🇺🇸US_3179
-      - 🇺🇸 Pool_🇺🇸US_3187
-      - 🇺🇸 Pool_🇺🇸US_3188
-      - 🇺🇸 Pool_🇺🇸US_3189
-      - 🇺🇸 Pool_🇺🇸US_3194
-      - 🇺🇸 Pool_🇺🇸US_3203
-      - 🇺🇸 Pool_🇺🇸US_3204
-      - 🇺🇸 Pool_🇺🇸US_3209
-      - 🇺🇸 Pool_🇺🇸US_3223
-      - 🇺🇸 Pool_🇺🇸US_3227
-      - 🇺🇸 Pool_🇺🇸US_3228
-      - 🇺🇸 Pool_🇺🇸US_3253
-      - 🇺🇸 Pool_🇺🇸US_3257
-      - 🇺🇸 Pool_🇺🇸US_3268
-      - 🇺🇸 Pool_🇺🇸US_3288
-      - 🇺🇸 Pool_🇺🇸US_3294
-      - 🇺🇸 Pool_🇺🇸US_3308
-      - 🇺🇸 Pool_🇺🇸US_3309
-      - 🇺🇸 Pool_🇺🇸US_3318
-      - 🇺🇸 Pool_🇺🇸US_3320
-      - 🇺🇸 Pool_🇺🇸US_3322
-      - 🇺🇸 Pool_🇺🇸US_3325
-      - 🇺🇸 Pool_🇺🇸US_3326
-      - 🇺🇸 Pool_🇺🇸US_3332
-      - 🇺🇸 Pool_🇺🇸US_3338
-      - 🇺🇸 Pool_🇺🇸US_3340
-      - 🇺🇸 Pool_🇺🇸US_3352
-      - 🇺🇸 Pool_🇺🇸US_3358
-      - 🇺🇸 Pool_🇺🇸US_3369
-      - 🇺🇸 Pool_🇺🇸US_3376
-      - 🇺🇸 Pool_🇺🇸US_3378
-      - 🇺🇸 Pool_🇺🇸US_3390
-      - 🇺🇸 Pool_🇺🇸US_3392
-      - 🇺🇸 Pool_🇺🇸US_3395
-      - 🇺🇸 Pool_🇺🇸US_3400
-      - 🇺🇸 Pool_🇺🇸US_3410
-      - 🇺🇸 Pool_🇺🇸US_3413
-      - 🇺🇸 Pool_🇺🇸US_3423
-      - 🇺🇸 Pool_🇺🇸US_3427
-      - 🇺🇸 Pool_🇺🇸US_3437
-      - 🇺🇸 Pool_🇺🇸US_3440
-      - 🇺🇸 Pool_🇺🇸US_3448
-      - 🇺🇸 Pool_🇺🇸US_3461
-      - 🇺🇸 Pool_🇺🇸US_3463
-      - 🇺🇸 Pool_🇺🇸US_3468
-      - 🇺🇸 Pool_🇺🇸US_3476
-      - 🇺🇸 Pool_🇺🇸US_3481
-      - 🇺🇸 Pool_🇺🇸US_3486
-      - 🇺🇸 Pool_🇺🇸US_3505
-      - 🇺🇸 Pool_🇺🇸US_3508
-      - 🇺🇸 Pool_🇺🇸US_3509
-      - 🇺🇸 Pool_🇺🇸US_3511
-      - 🇺🇸 Pool_🇺🇸US_3521
-      - 🇺🇸 Pool_🇺🇸US_3522
-      - 🇺🇸 Pool_🇺🇸US_3530
-      - 🇺🇸 Pool_🇺🇸US_3531
-      - 🇺🇸 Pool_🇺🇸US_3549
-      - 🇺🇸 Pool_🇺🇸US_3550
-      - 🇺🇸 Pool_🇺🇸US_3554
-      - 🇺🇸 Pool_🇺🇸US_3572
-      - 🇺🇸 Pool_🇺🇸US_3582
-      - 🇺🇸 Pool_🇺🇸US_3589
-      - 🇺🇸 Pool_🇺🇸US_3603
-      - 🇺🇸 Pool_🇺🇸US_3607
-      - 🇺🇸 Pool_🇺🇸US_3622
-      - 🇺🇸 Pool_🇺🇸US_3629
-      - 🇺🇸 Pool_🇺🇸US_3643
-      - 🇺🇸 Pool_🇺🇸US_3653
-      - 🇺🇸 Pool_🇺🇸US_3662
-      - 🇺🇸 Pool_🇺🇸US_3664
-      - 🇺🇸 Pool_🇺🇸US_3666
-      - 🇺🇸 Pool_🇺🇸US_3667
-      - 🇺🇸 Pool_🇺🇸US_3672
-      - 🇺🇸 Pool_🇺🇸US_3673
-      - 🇩🇪
-      - 🇩🇪 2
-      - 🇩🇪 3
-      - 🇩🇪 4
-      - 🇬🇧
-      - 🇬🇧 2
-      - 🇺🇸
-      - 🇺🇸 2
-      - 🇺🇸 3
-      - 🇺🇸 4
-      - 🇺🇸 5
-      - 🇺🇸 6
-      - 🇺🇸 US_3028
+      - https://git.io/v9999 clash ip1
+      - https://git.io/v9999 clash ip2
+      - https://git.io/v9999 clash ip2 2
+      - https://git.io/v9999 clash ip2 3
+      - https://git.io/v9999 clash ip2 4
+      - https://git.io/v9999 clash ip2 5
+      - https://git.io/v9999 clash ip2 6
+      - https://git.io/v9999 clash ip2 7
+      - https://git.io/v9999 clash ip2 8
+      - https://git.io/v9999 clash ip2 9
+      - https://git.io/v9999 clash ip2 10
+      - https://git.io/v9999 clash ip2 11
+      - https://git.io/v9999 clash ip2 12
+      - https://git.io/v9999 clash ip2 13
+      - https://git.io/v9999 clash ip2 14
+      - https://git.io/v9999 clash ip2 15
+      - https://git.io/v9999 clash ip2 16
+      - https://git.io/v9999 clash ip2 17
+      - https://git.io/v9999 clash ip2 18
+      - https://git.io/v9999 clash ip2 19
+      - https://git.io/v9999 clash ip2 20
+      - https://git.io/v9999 clash ip2 21
+      - https://git.io/v9999 clash ip2 22
+      - https://git.io/v9999 clash ip2 23
+      - https://git.io/v9999 clash ip2 24
+      - https://git.io/v9999 clash ip2 25
+      - https://git.io/v9999 clash ip2 26
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -669,494 +141,98 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - https://git.io/v9999
-      - https://git.io/v9999 2
-      - https://git.io/v9999 3
-      - https://git.io/v9999 4
-      - https://git.io/v9999 5
-      - https://git.io/v9999 6
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
-      - https://git.io/v9999 10
-      - https://git.io/v9999 11
-      - https://git.io/v9999 12
-      - https://git.io/v9999 13
-      - https://git.io/v9999 14
-      - https://git.io/v9999 15
-      - https://git.io/v9999 16
-      - https://git.io/v9999 17
-      - https://git.io/v9999 18
-      - https://git.io/v9999 19
-      - https://git.io/v9999 20
-      - https://git.io/v9999 21
-      - https://git.io/v9999 22
-      - https://git.io/v9999 23
-      - https://git.io/v9999 24
-      - https://git.io/v9999 25
-      - https://git.io/v9999 26
-      - https://git.io/v9999 27
-      - https://git.io/v9999 28
-      - https://git.io/v9999 29
-      - https://git.io/v9999 30
-      - https://git.io/v9999 31
-      - https://git.io/v9999 32
-      - https://git.io/v9999 33
-      - https://git.io/v9999 34
-      - https://git.io/v9999 35
-      - https://git.io/v9999 36
-      - 🇨🇳 Pool_🇹🇼TW_2931
-      - 🇨🇳 Pool_🇹🇼TW_2935
-      - 🇨🇳 Pool_🇹🇼TW_2938
-      - Pool_🇺🇦UA_2978
-      - Pool_🇺🇦UA_2981
-      - 🇺🇸 Pool_🇺🇸US_3001
-      - 🇺🇸 Pool_🇺🇸US_3024
-      - 🇺🇸 Pool_🇺🇸US_3032
-      - 🇺🇸 Pool_🇺🇸US_3045
-      - 🇺🇸 Pool_🇺🇸US_3050
-      - 🇺🇸 Pool_🇺🇸US_3051
-      - 🇺🇸 Pool_🇺🇸US_3059
-      - 🇺🇸 Pool_🇺🇸US_3062
-      - 🇺🇸 Pool_🇺🇸US_3063
-      - 🇺🇸 Pool_🇺🇸US_3064
-      - 🇺🇸 Pool_🇺🇸US_3075
-      - 🇺🇸 Pool_🇺🇸US_3081
-      - 🇺🇸 Pool_🇺🇸US_3094
-      - 🇺🇸 Pool_🇺🇸US_3095
-      - 🇺🇸 Pool_🇺🇸US_3102
-      - 🇺🇸 Pool_🇺🇸US_3111
-      - 🇺🇸 Pool_🇺🇸US_3112
-      - 🇺🇸 Pool_🇺🇸US_3113
-      - 🇺🇸 Pool_🇺🇸US_3116
-      - 🇺🇸 Pool_🇺🇸US_3118
-      - 🇺🇸 Pool_🇺🇸US_3120
-      - 🇺🇸 Pool_🇺🇸US_3129
-      - 🇺🇸 Pool_🇺🇸US_3131
-      - 🇺🇸 Pool_🇺🇸US_3139
-      - 🇺🇸 Pool_🇺🇸US_3147
-      - 🇺🇸 Pool_🇺🇸US_3149
-      - 🇺🇸 Pool_🇺🇸US_3162
-      - 🇺🇸 Pool_🇺🇸US_3165
-      - 🇺🇸 Pool_🇺🇸US_3170
-      - 🇺🇸 Pool_🇺🇸US_3176
-      - 🇺🇸 Pool_🇺🇸US_3177
-      - 🇺🇸 Pool_🇺🇸US_3179
-      - 🇺🇸 Pool_🇺🇸US_3187
-      - 🇺🇸 Pool_🇺🇸US_3188
-      - 🇺🇸 Pool_🇺🇸US_3189
-      - 🇺🇸 Pool_🇺🇸US_3194
-      - 🇺🇸 Pool_🇺🇸US_3203
-      - 🇺🇸 Pool_🇺🇸US_3204
-      - 🇺🇸 Pool_🇺🇸US_3209
-      - 🇺🇸 Pool_🇺🇸US_3223
-      - 🇺🇸 Pool_🇺🇸US_3227
-      - 🇺🇸 Pool_🇺🇸US_3228
-      - 🇺🇸 Pool_🇺🇸US_3253
-      - 🇺🇸 Pool_🇺🇸US_3257
-      - 🇺🇸 Pool_🇺🇸US_3268
-      - 🇺🇸 Pool_🇺🇸US_3288
-      - 🇺🇸 Pool_🇺🇸US_3294
-      - 🇺🇸 Pool_🇺🇸US_3308
-      - 🇺🇸 Pool_🇺🇸US_3309
-      - 🇺🇸 Pool_🇺🇸US_3318
-      - 🇺🇸 Pool_🇺🇸US_3320
-      - 🇺🇸 Pool_🇺🇸US_3322
-      - 🇺🇸 Pool_🇺🇸US_3325
-      - 🇺🇸 Pool_🇺🇸US_3326
-      - 🇺🇸 Pool_🇺🇸US_3332
-      - 🇺🇸 Pool_🇺🇸US_3338
-      - 🇺🇸 Pool_🇺🇸US_3340
-      - 🇺🇸 Pool_🇺🇸US_3352
-      - 🇺🇸 Pool_🇺🇸US_3358
-      - 🇺🇸 Pool_🇺🇸US_3369
-      - 🇺🇸 Pool_🇺🇸US_3376
-      - 🇺🇸 Pool_🇺🇸US_3378
-      - 🇺🇸 Pool_🇺🇸US_3390
-      - 🇺🇸 Pool_🇺🇸US_3392
-      - 🇺🇸 Pool_🇺🇸US_3395
-      - 🇺🇸 Pool_🇺🇸US_3400
-      - 🇺🇸 Pool_🇺🇸US_3410
-      - 🇺🇸 Pool_🇺🇸US_3413
-      - 🇺🇸 Pool_🇺🇸US_3423
-      - 🇺🇸 Pool_🇺🇸US_3427
-      - 🇺🇸 Pool_🇺🇸US_3437
-      - 🇺🇸 Pool_🇺🇸US_3440
-      - 🇺🇸 Pool_🇺🇸US_3448
-      - 🇺🇸 Pool_🇺🇸US_3461
-      - 🇺🇸 Pool_🇺🇸US_3463
-      - 🇺🇸 Pool_🇺🇸US_3468
-      - 🇺🇸 Pool_🇺🇸US_3476
-      - 🇺🇸 Pool_🇺🇸US_3481
-      - 🇺🇸 Pool_🇺🇸US_3486
-      - 🇺🇸 Pool_🇺🇸US_3505
-      - 🇺🇸 Pool_🇺🇸US_3508
-      - 🇺🇸 Pool_🇺🇸US_3509
-      - 🇺🇸 Pool_🇺🇸US_3511
-      - 🇺🇸 Pool_🇺🇸US_3521
-      - 🇺🇸 Pool_🇺🇸US_3522
-      - 🇺🇸 Pool_🇺🇸US_3530
-      - 🇺🇸 Pool_🇺🇸US_3531
-      - 🇺🇸 Pool_🇺🇸US_3549
-      - 🇺🇸 Pool_🇺🇸US_3550
-      - 🇺🇸 Pool_🇺🇸US_3554
-      - 🇺🇸 Pool_🇺🇸US_3572
-      - 🇺🇸 Pool_🇺🇸US_3582
-      - 🇺🇸 Pool_🇺🇸US_3589
-      - 🇺🇸 Pool_🇺🇸US_3603
-      - 🇺🇸 Pool_🇺🇸US_3607
-      - 🇺🇸 Pool_🇺🇸US_3622
-      - 🇺🇸 Pool_🇺🇸US_3629
-      - 🇺🇸 Pool_🇺🇸US_3643
-      - 🇺🇸 Pool_🇺🇸US_3653
-      - 🇺🇸 Pool_🇺🇸US_3662
-      - 🇺🇸 Pool_🇺🇸US_3664
-      - 🇺🇸 Pool_🇺🇸US_3666
-      - 🇺🇸 Pool_🇺🇸US_3667
-      - 🇺🇸 Pool_🇺🇸US_3672
-      - 🇺🇸 Pool_🇺🇸US_3673
-      - 🇩🇪
-      - 🇩🇪 2
-      - 🇩🇪 3
-      - 🇩🇪 4
-      - 🇬🇧
-      - 🇬🇧 2
-      - 🇺🇸
-      - 🇺🇸 2
-      - 🇺🇸 3
-      - 🇺🇸 4
-      - 🇺🇸 5
-      - 🇺🇸 6
-      - 🇺🇸 US_3028
+      - https://git.io/v9999 clash ip1
+      - https://git.io/v9999 clash ip2
+      - https://git.io/v9999 clash ip2 2
+      - https://git.io/v9999 clash ip2 3
+      - https://git.io/v9999 clash ip2 4
+      - https://git.io/v9999 clash ip2 5
+      - https://git.io/v9999 clash ip2 6
+      - https://git.io/v9999 clash ip2 7
+      - https://git.io/v9999 clash ip2 8
+      - https://git.io/v9999 clash ip2 9
+      - https://git.io/v9999 clash ip2 10
+      - https://git.io/v9999 clash ip2 11
+      - https://git.io/v9999 clash ip2 12
+      - https://git.io/v9999 clash ip2 13
+      - https://git.io/v9999 clash ip2 14
+      - https://git.io/v9999 clash ip2 15
+      - https://git.io/v9999 clash ip2 16
+      - https://git.io/v9999 clash ip2 17
+      - https://git.io/v9999 clash ip2 18
+      - https://git.io/v9999 clash ip2 19
+      - https://git.io/v9999 clash ip2 20
+      - https://git.io/v9999 clash ip2 21
+      - https://git.io/v9999 clash ip2 22
+      - https://git.io/v9999 clash ip2 23
+      - https://git.io/v9999 clash ip2 24
+      - https://git.io/v9999 clash ip2 25
+      - https://git.io/v9999 clash ip2 26
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - https://git.io/v9999
-      - https://git.io/v9999 2
-      - https://git.io/v9999 3
-      - https://git.io/v9999 4
-      - https://git.io/v9999 5
-      - https://git.io/v9999 6
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
-      - https://git.io/v9999 10
-      - https://git.io/v9999 11
-      - https://git.io/v9999 12
-      - https://git.io/v9999 13
-      - https://git.io/v9999 14
-      - https://git.io/v9999 15
-      - https://git.io/v9999 16
-      - https://git.io/v9999 17
-      - https://git.io/v9999 18
-      - https://git.io/v9999 19
-      - https://git.io/v9999 20
-      - https://git.io/v9999 21
-      - https://git.io/v9999 22
-      - https://git.io/v9999 23
-      - https://git.io/v9999 24
-      - https://git.io/v9999 25
-      - https://git.io/v9999 26
-      - https://git.io/v9999 27
-      - https://git.io/v9999 28
-      - https://git.io/v9999 29
-      - https://git.io/v9999 30
-      - https://git.io/v9999 31
-      - https://git.io/v9999 32
-      - https://git.io/v9999 33
-      - https://git.io/v9999 34
-      - https://git.io/v9999 35
-      - https://git.io/v9999 36
-      - 🇨🇳 Pool_🇹🇼TW_2931
-      - 🇨🇳 Pool_🇹🇼TW_2935
-      - 🇨🇳 Pool_🇹🇼TW_2938
-      - Pool_🇺🇦UA_2978
-      - Pool_🇺🇦UA_2981
-      - 🇺🇸 Pool_🇺🇸US_3001
-      - 🇺🇸 Pool_🇺🇸US_3024
-      - 🇺🇸 Pool_🇺🇸US_3032
-      - 🇺🇸 Pool_🇺🇸US_3045
-      - 🇺🇸 Pool_🇺🇸US_3050
-      - 🇺🇸 Pool_🇺🇸US_3051
-      - 🇺🇸 Pool_🇺🇸US_3059
-      - 🇺🇸 Pool_🇺🇸US_3062
-      - 🇺🇸 Pool_🇺🇸US_3063
-      - 🇺🇸 Pool_🇺🇸US_3064
-      - 🇺🇸 Pool_🇺🇸US_3075
-      - 🇺🇸 Pool_🇺🇸US_3081
-      - 🇺🇸 Pool_🇺🇸US_3094
-      - 🇺🇸 Pool_🇺🇸US_3095
-      - 🇺🇸 Pool_🇺🇸US_3102
-      - 🇺🇸 Pool_🇺🇸US_3111
-      - 🇺🇸 Pool_🇺🇸US_3112
-      - 🇺🇸 Pool_🇺🇸US_3113
-      - 🇺🇸 Pool_🇺🇸US_3116
-      - 🇺🇸 Pool_🇺🇸US_3118
-      - 🇺🇸 Pool_🇺🇸US_3120
-      - 🇺🇸 Pool_🇺🇸US_3129
-      - 🇺🇸 Pool_🇺🇸US_3131
-      - 🇺🇸 Pool_🇺🇸US_3139
-      - 🇺🇸 Pool_🇺🇸US_3147
-      - 🇺🇸 Pool_🇺🇸US_3149
-      - 🇺🇸 Pool_🇺🇸US_3162
-      - 🇺🇸 Pool_🇺🇸US_3165
-      - 🇺🇸 Pool_🇺🇸US_3170
-      - 🇺🇸 Pool_🇺🇸US_3176
-      - 🇺🇸 Pool_🇺🇸US_3177
-      - 🇺🇸 Pool_🇺🇸US_3179
-      - 🇺🇸 Pool_🇺🇸US_3187
-      - 🇺🇸 Pool_🇺🇸US_3188
-      - 🇺🇸 Pool_🇺🇸US_3189
-      - 🇺🇸 Pool_🇺🇸US_3194
-      - 🇺🇸 Pool_🇺🇸US_3203
-      - 🇺🇸 Pool_🇺🇸US_3204
-      - 🇺🇸 Pool_🇺🇸US_3209
-      - 🇺🇸 Pool_🇺🇸US_3223
-      - 🇺🇸 Pool_🇺🇸US_3227
-      - 🇺🇸 Pool_🇺🇸US_3228
-      - 🇺🇸 Pool_🇺🇸US_3253
-      - 🇺🇸 Pool_🇺🇸US_3257
-      - 🇺🇸 Pool_🇺🇸US_3268
-      - 🇺🇸 Pool_🇺🇸US_3288
-      - 🇺🇸 Pool_🇺🇸US_3294
-      - 🇺🇸 Pool_🇺🇸US_3308
-      - 🇺🇸 Pool_🇺🇸US_3309
-      - 🇺🇸 Pool_🇺🇸US_3318
-      - 🇺🇸 Pool_🇺🇸US_3320
-      - 🇺🇸 Pool_🇺🇸US_3322
-      - 🇺🇸 Pool_🇺🇸US_3325
-      - 🇺🇸 Pool_🇺🇸US_3326
-      - 🇺🇸 Pool_🇺🇸US_3332
-      - 🇺🇸 Pool_🇺🇸US_3338
-      - 🇺🇸 Pool_🇺🇸US_3340
-      - 🇺🇸 Pool_🇺🇸US_3352
-      - 🇺🇸 Pool_🇺🇸US_3358
-      - 🇺🇸 Pool_🇺🇸US_3369
-      - 🇺🇸 Pool_🇺🇸US_3376
-      - 🇺🇸 Pool_🇺🇸US_3378
-      - 🇺🇸 Pool_🇺🇸US_3390
-      - 🇺🇸 Pool_🇺🇸US_3392
-      - 🇺🇸 Pool_🇺🇸US_3395
-      - 🇺🇸 Pool_🇺🇸US_3400
-      - 🇺🇸 Pool_🇺🇸US_3410
-      - 🇺🇸 Pool_🇺🇸US_3413
-      - 🇺🇸 Pool_🇺🇸US_3423
-      - 🇺🇸 Pool_🇺🇸US_3427
-      - 🇺🇸 Pool_🇺🇸US_3437
-      - 🇺🇸 Pool_🇺🇸US_3440
-      - 🇺🇸 Pool_🇺🇸US_3448
-      - 🇺🇸 Pool_🇺🇸US_3461
-      - 🇺🇸 Pool_🇺🇸US_3463
-      - 🇺🇸 Pool_🇺🇸US_3468
-      - 🇺🇸 Pool_🇺🇸US_3476
-      - 🇺🇸 Pool_🇺🇸US_3481
-      - 🇺🇸 Pool_🇺🇸US_3486
-      - 🇺🇸 Pool_🇺🇸US_3505
-      - 🇺🇸 Pool_🇺🇸US_3508
-      - 🇺🇸 Pool_🇺🇸US_3509
-      - 🇺🇸 Pool_🇺🇸US_3511
-      - 🇺🇸 Pool_🇺🇸US_3521
-      - 🇺🇸 Pool_🇺🇸US_3522
-      - 🇺🇸 Pool_🇺🇸US_3530
-      - 🇺🇸 Pool_🇺🇸US_3531
-      - 🇺🇸 Pool_🇺🇸US_3549
-      - 🇺🇸 Pool_🇺🇸US_3550
-      - 🇺🇸 Pool_🇺🇸US_3554
-      - 🇺🇸 Pool_🇺🇸US_3572
-      - 🇺🇸 Pool_🇺🇸US_3582
-      - 🇺🇸 Pool_🇺🇸US_3589
-      - 🇺🇸 Pool_🇺🇸US_3603
-      - 🇺🇸 Pool_🇺🇸US_3607
-      - 🇺🇸 Pool_🇺🇸US_3622
-      - 🇺🇸 Pool_🇺🇸US_3629
-      - 🇺🇸 Pool_🇺🇸US_3643
-      - 🇺🇸 Pool_🇺🇸US_3653
-      - 🇺🇸 Pool_🇺🇸US_3662
-      - 🇺🇸 Pool_🇺🇸US_3664
-      - 🇺🇸 Pool_🇺🇸US_3666
-      - 🇺🇸 Pool_🇺🇸US_3667
-      - 🇺🇸 Pool_🇺🇸US_3672
-      - 🇺🇸 Pool_🇺🇸US_3673
-      - 🇩🇪
-      - 🇩🇪 2
-      - 🇩🇪 3
-      - 🇩🇪 4
-      - 🇬🇧
-      - 🇬🇧 2
-      - 🇺🇸
-      - 🇺🇸 2
-      - 🇺🇸 3
-      - 🇺🇸 4
-      - 🇺🇸 5
-      - 🇺🇸 6
-      - 🇺🇸 US_3028
+      - https://git.io/v9999 clash ip1
+      - https://git.io/v9999 clash ip2
+      - https://git.io/v9999 clash ip2 2
+      - https://git.io/v9999 clash ip2 3
+      - https://git.io/v9999 clash ip2 4
+      - https://git.io/v9999 clash ip2 5
+      - https://git.io/v9999 clash ip2 6
+      - https://git.io/v9999 clash ip2 7
+      - https://git.io/v9999 clash ip2 8
+      - https://git.io/v9999 clash ip2 9
+      - https://git.io/v9999 clash ip2 10
+      - https://git.io/v9999 clash ip2 11
+      - https://git.io/v9999 clash ip2 12
+      - https://git.io/v9999 clash ip2 13
+      - https://git.io/v9999 clash ip2 14
+      - https://git.io/v9999 clash ip2 15
+      - https://git.io/v9999 clash ip2 16
+      - https://git.io/v9999 clash ip2 17
+      - https://git.io/v9999 clash ip2 18
+      - https://git.io/v9999 clash ip2 19
+      - https://git.io/v9999 clash ip2 20
+      - https://git.io/v9999 clash ip2 21
+      - https://git.io/v9999 clash ip2 22
+      - https://git.io/v9999 clash ip2 23
+      - https://git.io/v9999 clash ip2 24
+      - https://git.io/v9999 clash ip2 25
+      - https://git.io/v9999 clash ip2 26
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - https://git.io/v9999
-      - https://git.io/v9999 2
-      - https://git.io/v9999 3
-      - https://git.io/v9999 4
-      - https://git.io/v9999 5
-      - https://git.io/v9999 6
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
-      - https://git.io/v9999 10
-      - https://git.io/v9999 11
-      - https://git.io/v9999 12
-      - https://git.io/v9999 13
-      - https://git.io/v9999 14
-      - https://git.io/v9999 15
-      - https://git.io/v9999 16
-      - https://git.io/v9999 17
-      - https://git.io/v9999 18
-      - https://git.io/v9999 19
-      - https://git.io/v9999 20
-      - https://git.io/v9999 21
-      - https://git.io/v9999 22
-      - https://git.io/v9999 23
-      - https://git.io/v9999 24
-      - https://git.io/v9999 25
-      - https://git.io/v9999 26
-      - https://git.io/v9999 27
-      - https://git.io/v9999 28
-      - https://git.io/v9999 29
-      - https://git.io/v9999 30
-      - https://git.io/v9999 31
-      - https://git.io/v9999 32
-      - https://git.io/v9999 33
-      - https://git.io/v9999 34
-      - https://git.io/v9999 35
-      - https://git.io/v9999 36
-      - 🇨🇳 Pool_🇹🇼TW_2931
-      - 🇨🇳 Pool_🇹🇼TW_2935
-      - 🇨🇳 Pool_🇹🇼TW_2938
-      - Pool_🇺🇦UA_2978
-      - Pool_🇺🇦UA_2981
-      - 🇺🇸 Pool_🇺🇸US_3001
-      - 🇺🇸 Pool_🇺🇸US_3024
-      - 🇺🇸 Pool_🇺🇸US_3032
-      - 🇺🇸 Pool_🇺🇸US_3045
-      - 🇺🇸 Pool_🇺🇸US_3050
-      - 🇺🇸 Pool_🇺🇸US_3051
-      - 🇺🇸 Pool_🇺🇸US_3059
-      - 🇺🇸 Pool_🇺🇸US_3062
-      - 🇺🇸 Pool_🇺🇸US_3063
-      - 🇺🇸 Pool_🇺🇸US_3064
-      - 🇺🇸 Pool_🇺🇸US_3075
-      - 🇺🇸 Pool_🇺🇸US_3081
-      - 🇺🇸 Pool_🇺🇸US_3094
-      - 🇺🇸 Pool_🇺🇸US_3095
-      - 🇺🇸 Pool_🇺🇸US_3102
-      - 🇺🇸 Pool_🇺🇸US_3111
-      - 🇺🇸 Pool_🇺🇸US_3112
-      - 🇺🇸 Pool_🇺🇸US_3113
-      - 🇺🇸 Pool_🇺🇸US_3116
-      - 🇺🇸 Pool_🇺🇸US_3118
-      - 🇺🇸 Pool_🇺🇸US_3120
-      - 🇺🇸 Pool_🇺🇸US_3129
-      - 🇺🇸 Pool_🇺🇸US_3131
-      - 🇺🇸 Pool_🇺🇸US_3139
-      - 🇺🇸 Pool_🇺🇸US_3147
-      - 🇺🇸 Pool_🇺🇸US_3149
-      - 🇺🇸 Pool_🇺🇸US_3162
-      - 🇺🇸 Pool_🇺🇸US_3165
-      - 🇺🇸 Pool_🇺🇸US_3170
-      - 🇺🇸 Pool_🇺🇸US_3176
-      - 🇺🇸 Pool_🇺🇸US_3177
-      - 🇺🇸 Pool_🇺🇸US_3179
-      - 🇺🇸 Pool_🇺🇸US_3187
-      - 🇺🇸 Pool_🇺🇸US_3188
-      - 🇺🇸 Pool_🇺🇸US_3189
-      - 🇺🇸 Pool_🇺🇸US_3194
-      - 🇺🇸 Pool_🇺🇸US_3203
-      - 🇺🇸 Pool_🇺🇸US_3204
-      - 🇺🇸 Pool_🇺🇸US_3209
-      - 🇺🇸 Pool_🇺🇸US_3223
-      - 🇺🇸 Pool_🇺🇸US_3227
-      - 🇺🇸 Pool_🇺🇸US_3228
-      - 🇺🇸 Pool_🇺🇸US_3253
-      - 🇺🇸 Pool_🇺🇸US_3257
-      - 🇺🇸 Pool_🇺🇸US_3268
-      - 🇺🇸 Pool_🇺🇸US_3288
-      - 🇺🇸 Pool_🇺🇸US_3294
-      - 🇺🇸 Pool_🇺🇸US_3308
-      - 🇺🇸 Pool_🇺🇸US_3309
-      - 🇺🇸 Pool_🇺🇸US_3318
-      - 🇺🇸 Pool_🇺🇸US_3320
-      - 🇺🇸 Pool_🇺🇸US_3322
-      - 🇺🇸 Pool_🇺🇸US_3325
-      - 🇺🇸 Pool_🇺🇸US_3326
-      - 🇺🇸 Pool_🇺🇸US_3332
-      - 🇺🇸 Pool_🇺🇸US_3338
-      - 🇺🇸 Pool_🇺🇸US_3340
-      - 🇺🇸 Pool_🇺🇸US_3352
-      - 🇺🇸 Pool_🇺🇸US_3358
-      - 🇺🇸 Pool_🇺🇸US_3369
-      - 🇺🇸 Pool_🇺🇸US_3376
-      - 🇺🇸 Pool_🇺🇸US_3378
-      - 🇺🇸 Pool_🇺🇸US_3390
-      - 🇺🇸 Pool_🇺🇸US_3392
-      - 🇺🇸 Pool_🇺🇸US_3395
-      - 🇺🇸 Pool_🇺🇸US_3400
-      - 🇺🇸 Pool_🇺🇸US_3410
-      - 🇺🇸 Pool_🇺🇸US_3413
-      - 🇺🇸 Pool_🇺🇸US_3423
-      - 🇺🇸 Pool_🇺🇸US_3427
-      - 🇺🇸 Pool_🇺🇸US_3437
-      - 🇺🇸 Pool_🇺🇸US_3440
-      - 🇺🇸 Pool_🇺🇸US_3448
-      - 🇺🇸 Pool_🇺🇸US_3461
-      - 🇺🇸 Pool_🇺🇸US_3463
-      - 🇺🇸 Pool_🇺🇸US_3468
-      - 🇺🇸 Pool_🇺🇸US_3476
-      - 🇺🇸 Pool_🇺🇸US_3481
-      - 🇺🇸 Pool_🇺🇸US_3486
-      - 🇺🇸 Pool_🇺🇸US_3505
-      - 🇺🇸 Pool_🇺🇸US_3508
-      - 🇺🇸 Pool_🇺🇸US_3509
-      - 🇺🇸 Pool_🇺🇸US_3511
-      - 🇺🇸 Pool_🇺🇸US_3521
-      - 🇺🇸 Pool_🇺🇸US_3522
-      - 🇺🇸 Pool_🇺🇸US_3530
-      - 🇺🇸 Pool_🇺🇸US_3531
-      - 🇺🇸 Pool_🇺🇸US_3549
-      - 🇺🇸 Pool_🇺🇸US_3550
-      - 🇺🇸 Pool_🇺🇸US_3554
-      - 🇺🇸 Pool_🇺🇸US_3572
-      - 🇺🇸 Pool_🇺🇸US_3582
-      - 🇺🇸 Pool_🇺🇸US_3589
-      - 🇺🇸 Pool_🇺🇸US_3603
-      - 🇺🇸 Pool_🇺🇸US_3607
-      - 🇺🇸 Pool_🇺🇸US_3622
-      - 🇺🇸 Pool_🇺🇸US_3629
-      - 🇺🇸 Pool_🇺🇸US_3643
-      - 🇺🇸 Pool_🇺🇸US_3653
-      - 🇺🇸 Pool_🇺🇸US_3662
-      - 🇺🇸 Pool_🇺🇸US_3664
-      - 🇺🇸 Pool_🇺🇸US_3666
-      - 🇺🇸 Pool_🇺🇸US_3667
-      - 🇺🇸 Pool_🇺🇸US_3672
-      - 🇺🇸 Pool_🇺🇸US_3673
-      - 🇩🇪
-      - 🇩🇪 2
-      - 🇩🇪 3
-      - 🇩🇪 4
-      - 🇬🇧
-      - 🇬🇧 2
-      - 🇺🇸
-      - 🇺🇸 2
-      - 🇺🇸 3
-      - 🇺🇸 4
-      - 🇺🇸 5
-      - 🇺🇸 6
-      - 🇺🇸 US_3028
+      - https://git.io/v9999 clash ip1
+      - https://git.io/v9999 clash ip2
+      - https://git.io/v9999 clash ip2 2
+      - https://git.io/v9999 clash ip2 3
+      - https://git.io/v9999 clash ip2 4
+      - https://git.io/v9999 clash ip2 5
+      - https://git.io/v9999 clash ip2 6
+      - https://git.io/v9999 clash ip2 7
+      - https://git.io/v9999 clash ip2 8
+      - https://git.io/v9999 clash ip2 9
+      - https://git.io/v9999 clash ip2 10
+      - https://git.io/v9999 clash ip2 11
+      - https://git.io/v9999 clash ip2 12
+      - https://git.io/v9999 clash ip2 13
+      - https://git.io/v9999 clash ip2 14
+      - https://git.io/v9999 clash ip2 15
+      - https://git.io/v9999 clash ip2 16
+      - https://git.io/v9999 clash ip2 17
+      - https://git.io/v9999 clash ip2 18
+      - https://git.io/v9999 clash ip2 19
+      - https://git.io/v9999 clash ip2 20
+      - https://git.io/v9999 clash ip2 21
+      - https://git.io/v9999 clash ip2 22
+      - https://git.io/v9999 clash ip2 23
+      - https://git.io/v9999 clash ip2 24
+      - https://git.io/v9999 clash ip2 25
+      - https://git.io/v9999 clash ip2 26
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1172,165 +248,33 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - https://git.io/v9999
-      - https://git.io/v9999 2
-      - https://git.io/v9999 3
-      - https://git.io/v9999 4
-      - https://git.io/v9999 5
-      - https://git.io/v9999 6
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
-      - https://git.io/v9999 10
-      - https://git.io/v9999 11
-      - https://git.io/v9999 12
-      - https://git.io/v9999 13
-      - https://git.io/v9999 14
-      - https://git.io/v9999 15
-      - https://git.io/v9999 16
-      - https://git.io/v9999 17
-      - https://git.io/v9999 18
-      - https://git.io/v9999 19
-      - https://git.io/v9999 20
-      - https://git.io/v9999 21
-      - https://git.io/v9999 22
-      - https://git.io/v9999 23
-      - https://git.io/v9999 24
-      - https://git.io/v9999 25
-      - https://git.io/v9999 26
-      - https://git.io/v9999 27
-      - https://git.io/v9999 28
-      - https://git.io/v9999 29
-      - https://git.io/v9999 30
-      - https://git.io/v9999 31
-      - https://git.io/v9999 32
-      - https://git.io/v9999 33
-      - https://git.io/v9999 34
-      - https://git.io/v9999 35
-      - https://git.io/v9999 36
-      - 🇨🇳 Pool_🇹🇼TW_2931
-      - 🇨🇳 Pool_🇹🇼TW_2935
-      - 🇨🇳 Pool_🇹🇼TW_2938
-      - Pool_🇺🇦UA_2978
-      - Pool_🇺🇦UA_2981
-      - 🇺🇸 Pool_🇺🇸US_3001
-      - 🇺🇸 Pool_🇺🇸US_3024
-      - 🇺🇸 Pool_🇺🇸US_3032
-      - 🇺🇸 Pool_🇺🇸US_3045
-      - 🇺🇸 Pool_🇺🇸US_3050
-      - 🇺🇸 Pool_🇺🇸US_3051
-      - 🇺🇸 Pool_🇺🇸US_3059
-      - 🇺🇸 Pool_🇺🇸US_3062
-      - 🇺🇸 Pool_🇺🇸US_3063
-      - 🇺🇸 Pool_🇺🇸US_3064
-      - 🇺🇸 Pool_🇺🇸US_3075
-      - 🇺🇸 Pool_🇺🇸US_3081
-      - 🇺🇸 Pool_🇺🇸US_3094
-      - 🇺🇸 Pool_🇺🇸US_3095
-      - 🇺🇸 Pool_🇺🇸US_3102
-      - 🇺🇸 Pool_🇺🇸US_3111
-      - 🇺🇸 Pool_🇺🇸US_3112
-      - 🇺🇸 Pool_🇺🇸US_3113
-      - 🇺🇸 Pool_🇺🇸US_3116
-      - 🇺🇸 Pool_🇺🇸US_3118
-      - 🇺🇸 Pool_🇺🇸US_3120
-      - 🇺🇸 Pool_🇺🇸US_3129
-      - 🇺🇸 Pool_🇺🇸US_3131
-      - 🇺🇸 Pool_🇺🇸US_3139
-      - 🇺🇸 Pool_🇺🇸US_3147
-      - 🇺🇸 Pool_🇺🇸US_3149
-      - 🇺🇸 Pool_🇺🇸US_3162
-      - 🇺🇸 Pool_🇺🇸US_3165
-      - 🇺🇸 Pool_🇺🇸US_3170
-      - 🇺🇸 Pool_🇺🇸US_3176
-      - 🇺🇸 Pool_🇺🇸US_3177
-      - 🇺🇸 Pool_🇺🇸US_3179
-      - 🇺🇸 Pool_🇺🇸US_3187
-      - 🇺🇸 Pool_🇺🇸US_3188
-      - 🇺🇸 Pool_🇺🇸US_3189
-      - 🇺🇸 Pool_🇺🇸US_3194
-      - 🇺🇸 Pool_🇺🇸US_3203
-      - 🇺🇸 Pool_🇺🇸US_3204
-      - 🇺🇸 Pool_🇺🇸US_3209
-      - 🇺🇸 Pool_🇺🇸US_3223
-      - 🇺🇸 Pool_🇺🇸US_3227
-      - 🇺🇸 Pool_🇺🇸US_3228
-      - 🇺🇸 Pool_🇺🇸US_3253
-      - 🇺🇸 Pool_🇺🇸US_3257
-      - 🇺🇸 Pool_🇺🇸US_3268
-      - 🇺🇸 Pool_🇺🇸US_3288
-      - 🇺🇸 Pool_🇺🇸US_3294
-      - 🇺🇸 Pool_🇺🇸US_3308
-      - 🇺🇸 Pool_🇺🇸US_3309
-      - 🇺🇸 Pool_🇺🇸US_3318
-      - 🇺🇸 Pool_🇺🇸US_3320
-      - 🇺🇸 Pool_🇺🇸US_3322
-      - 🇺🇸 Pool_🇺🇸US_3325
-      - 🇺🇸 Pool_🇺🇸US_3326
-      - 🇺🇸 Pool_🇺🇸US_3332
-      - 🇺🇸 Pool_🇺🇸US_3338
-      - 🇺🇸 Pool_🇺🇸US_3340
-      - 🇺🇸 Pool_🇺🇸US_3352
-      - 🇺🇸 Pool_🇺🇸US_3358
-      - 🇺🇸 Pool_🇺🇸US_3369
-      - 🇺🇸 Pool_🇺🇸US_3376
-      - 🇺🇸 Pool_🇺🇸US_3378
-      - 🇺🇸 Pool_🇺🇸US_3390
-      - 🇺🇸 Pool_🇺🇸US_3392
-      - 🇺🇸 Pool_🇺🇸US_3395
-      - 🇺🇸 Pool_🇺🇸US_3400
-      - 🇺🇸 Pool_🇺🇸US_3410
-      - 🇺🇸 Pool_🇺🇸US_3413
-      - 🇺🇸 Pool_🇺🇸US_3423
-      - 🇺🇸 Pool_🇺🇸US_3427
-      - 🇺🇸 Pool_🇺🇸US_3437
-      - 🇺🇸 Pool_🇺🇸US_3440
-      - 🇺🇸 Pool_🇺🇸US_3448
-      - 🇺🇸 Pool_🇺🇸US_3461
-      - 🇺🇸 Pool_🇺🇸US_3463
-      - 🇺🇸 Pool_🇺🇸US_3468
-      - 🇺🇸 Pool_🇺🇸US_3476
-      - 🇺🇸 Pool_🇺🇸US_3481
-      - 🇺🇸 Pool_🇺🇸US_3486
-      - 🇺🇸 Pool_🇺🇸US_3505
-      - 🇺🇸 Pool_🇺🇸US_3508
-      - 🇺🇸 Pool_🇺🇸US_3509
-      - 🇺🇸 Pool_🇺🇸US_3511
-      - 🇺🇸 Pool_🇺🇸US_3521
-      - 🇺🇸 Pool_🇺🇸US_3522
-      - 🇺🇸 Pool_🇺🇸US_3530
-      - 🇺🇸 Pool_🇺🇸US_3531
-      - 🇺🇸 Pool_🇺🇸US_3549
-      - 🇺🇸 Pool_🇺🇸US_3550
-      - 🇺🇸 Pool_🇺🇸US_3554
-      - 🇺🇸 Pool_🇺🇸US_3572
-      - 🇺🇸 Pool_🇺🇸US_3582
-      - 🇺🇸 Pool_🇺🇸US_3589
-      - 🇺🇸 Pool_🇺🇸US_3603
-      - 🇺🇸 Pool_🇺🇸US_3607
-      - 🇺🇸 Pool_🇺🇸US_3622
-      - 🇺🇸 Pool_🇺🇸US_3629
-      - 🇺🇸 Pool_🇺🇸US_3643
-      - 🇺🇸 Pool_🇺🇸US_3653
-      - 🇺🇸 Pool_🇺🇸US_3662
-      - 🇺🇸 Pool_🇺🇸US_3664
-      - 🇺🇸 Pool_🇺🇸US_3666
-      - 🇺🇸 Pool_🇺🇸US_3667
-      - 🇺🇸 Pool_🇺🇸US_3672
-      - 🇺🇸 Pool_🇺🇸US_3673
-      - 🇩🇪
-      - 🇩🇪 2
-      - 🇩🇪 3
-      - 🇩🇪 4
-      - 🇬🇧
-      - 🇬🇧 2
-      - 🇺🇸
-      - 🇺🇸 2
-      - 🇺🇸 3
-      - 🇺🇸 4
-      - 🇺🇸 5
-      - 🇺🇸 6
-      - 🇺🇸 US_3028
+      - https://git.io/v9999 clash ip1
+      - https://git.io/v9999 clash ip2
+      - https://git.io/v9999 clash ip2 2
+      - https://git.io/v9999 clash ip2 3
+      - https://git.io/v9999 clash ip2 4
+      - https://git.io/v9999 clash ip2 5
+      - https://git.io/v9999 clash ip2 6
+      - https://git.io/v9999 clash ip2 7
+      - https://git.io/v9999 clash ip2 8
+      - https://git.io/v9999 clash ip2 9
+      - https://git.io/v9999 clash ip2 10
+      - https://git.io/v9999 clash ip2 11
+      - https://git.io/v9999 clash ip2 12
+      - https://git.io/v9999 clash ip2 13
+      - https://git.io/v9999 clash ip2 14
+      - https://git.io/v9999 clash ip2 15
+      - https://git.io/v9999 clash ip2 16
+      - https://git.io/v9999 clash ip2 17
+      - https://git.io/v9999 clash ip2 18
+      - https://git.io/v9999 clash ip2 19
+      - https://git.io/v9999 clash ip2 20
+      - https://git.io/v9999 clash ip2 21
+      - https://git.io/v9999 clash ip2 22
+      - https://git.io/v9999 clash ip2 23
+      - https://git.io/v9999 clash ip2 24
+      - https://git.io/v9999 clash ip2 25
+      - https://git.io/v9999 clash ip2 26
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
