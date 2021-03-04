@@ -5,88 +5,104 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3莫斯科, server: adman01.free2222.xyz, port: 443, type: vmess, uuid: 1564abce-bde7-435a-9ab4-97565eb17734, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: adman01.free2222.xyz}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶, server: us102.free2222.xyz, port: 443, type: vmess, uuid: 113ed49b-85cb-4eb7-a94e-95da956cf4bb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: us102.free2222.xyz}}
-  - {name: 🇩🇪 https://github.com/Alvin9999/new-pac/wiki ip1德国CDN, server: cloudflare.com, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
-  - {name: 🇸🇬 https://git.io/v9999 新加坡, server: 185.128.24.34, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇸🇬 https://git.io/v9999 新加坡 2, server: 185.128.24.34, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇸🇬 https://git.io/v9999 新加坡 3, server: 81.90.189.229, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇸🇬 https://git.io/v9999 新加坡 4, server: 217.197.160.109, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇯🇵 https://git.io/v9999 日本, server: 45.85.3.153, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇯🇵 https://git.io/v9999 日本 2, server: 45.85.3.153, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇺🇸 https://git.io/v9999 洛杉矶, server: us103.free2222.xyz, port: 443, type: vmess, uuid: f2075a98-f9c8-4eae-81dc-7c0d5fc1dfed, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: us103.free2222.xyz}}
-  - {name: https://git.io/v9999 clash ip1, server: 52.221.245.123, port: 30002, type: vmess, uuid: bab942ca-c98c-478a-8b24-0bb292af6c92, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: awsxjp1.qlssvip.xyz}}
-  - {name: https://git.io/v9999 clash ip1 2, server: 54.180.102.230, port: 80, type: vmess, uuid: 6425cbeb-05b5-4761-ff62-837962c40d57, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: acs.m.taobao.com}}
+  - {name: https://git.io/v999 clash ip1, server: 18.163.180.255, port: 8080, type: vmess, uuid: db14be3e-6abe-48e5-a553-b9e2cc7e7a3d, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: itunes.apple.com}}
   - {name: 🇺🇸 https://git.io/v999 美国, server: 198.147.22.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇺🇸 https://git.io/v999 美国 2, server: 107.181.166.55, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇺🇸 https://git.io/v999 美国 3, server: 74.119.146.131, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: https://git.io/v999 clash ip1, server: 18.163.180.255, port: 8080, type: vmess, uuid: db14be3e-6abe-48e5-a553-b9e2cc7e7a3d, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: itunes.apple.com}}
+  - {name: https://git.io/v9999 clash ip1, server: a9848ff772a4788b4.awsglobalaccelerator.com, port: 11010, type: vmess, uuid: fe2ede58-2639-4586-84aa-242aa4d1211c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a9848ff772a4788b4.awsglobalaccelerator.com}}
+  - {name: https://git.io/v9999 clash ip1 2, server: a03853ea81129e1d9.awsglobalaccelerator.com, port: 80, type: vmess, uuid: fe2ede58-2639-4586-84aa-242aa4d1211c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a03853ea81129e1d9.awsglobalaccelerator.com}}
+  - {name: https://git.io/v9999 clash ip1 3, server: v2.linn.ink, port: 22600, type: vmess, uuid: ce272424-fe15-42cd-8903-355dd33b0451, alterId: 100, cipher: auto, tls: false}
+  - {name: https://git.io/v9999 clash ip1 4, server: 139.226.163.144, port: 10001, type: vmess, uuid: 2e6fe034-aeaf-4b7d-9c28-7d5465f58837, alterId: 1, cipher: auto, tls: false}
+  - {name: https://git.io/v9999 clash ip1 5, server: 52.221.245.123, port: 30002, type: vmess, uuid: bab942ca-c98c-478a-8b24-0bb292af6c92, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: awsxjp1.qlssvip.xyz}}
+  - {name: https://git.io/v9999 clash ip1 6, server: 54.180.102.230, port: 80, type: vmess, uuid: 6425cbeb-05b5-4761-ff62-837962c40d57, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: acs.m.taobao.com}}
+  - {name: 🇺🇸 https://git.io/v9999 洛杉矶, server: us103.free2222.xyz, port: 443, type: vmess, uuid: f2075a98-f9c8-4eae-81dc-7c0d5fc1dfed, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: us103.free2222.xyz}}
+  - {name: 🇯🇵 https://git.io/v9999 日本, server: 45.85.3.153, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇯🇵 https://git.io/v9999 日本 2, server: 45.85.3.153, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 https://git.io/v9999 新加坡, server: 185.128.24.34, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 https://git.io/v9999 新加坡 2, server: 217.197.160.109, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 https://git.io/v9999 新加坡 3, server: 185.128.24.34, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 https://git.io/v9999 新加坡 4, server: 81.90.189.229, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 https://github.com/Alvin9999/new-pac/wiki ip1德国CDN, server: cloudflare.com, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶, server: us102.free2222.xyz, port: 443, type: vmess, uuid: 113ed49b-85cb-4eb7-a94e-95da956cf4bb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: us102.free2222.xyz}}
+  - {name: 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3莫斯科, server: adman01.free2222.xyz, port: 443, type: vmess, uuid: 1564abce-bde7-435a-9ab4-97565eb17734, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: adman01.free2222.xyz}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3莫斯科
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶
-      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki ip1德国CDN
+      - https://git.io/v999 clash ip1
+      - 🇺🇸 https://git.io/v999 美国
+      - 🇺🇸 https://git.io/v999 美国 2
+      - 🇺🇸 https://git.io/v999 美国 3
+      - https://git.io/v9999 clash ip1
+      - https://git.io/v9999 clash ip1 2
+      - https://git.io/v9999 clash ip1 3
+      - https://git.io/v9999 clash ip1 4
+      - https://git.io/v9999 clash ip1 5
+      - https://git.io/v9999 clash ip1 6
+      - 🇺🇸 https://git.io/v9999 洛杉矶
+      - 🇯🇵 https://git.io/v9999 日本
+      - 🇯🇵 https://git.io/v9999 日本 2
       - 🇸🇬 https://git.io/v9999 新加坡
       - 🇸🇬 https://git.io/v9999 新加坡 2
       - 🇸🇬 https://git.io/v9999 新加坡 3
       - 🇸🇬 https://git.io/v9999 新加坡 4
-      - 🇯🇵 https://git.io/v9999 日本
-      - 🇯🇵 https://git.io/v9999 日本 2
-      - 🇺🇸 https://git.io/v9999 洛杉矶
-      - https://git.io/v9999 clash ip1
-      - https://git.io/v9999 clash ip1 2
-      - 🇺🇸 https://git.io/v999 美国
-      - 🇺🇸 https://git.io/v999 美国 2
-      - 🇺🇸 https://git.io/v999 美国 3
-      - https://git.io/v999 clash ip1
+      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki ip1德国CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶
+      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3莫斯科
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 0
     proxies:
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3莫斯科
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶
-      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki ip1德国CDN
+      - https://git.io/v999 clash ip1
+      - 🇺🇸 https://git.io/v999 美国
+      - 🇺🇸 https://git.io/v999 美国 2
+      - 🇺🇸 https://git.io/v999 美国 3
+      - https://git.io/v9999 clash ip1
+      - https://git.io/v9999 clash ip1 2
+      - https://git.io/v9999 clash ip1 3
+      - https://git.io/v9999 clash ip1 4
+      - https://git.io/v9999 clash ip1 5
+      - https://git.io/v9999 clash ip1 6
+      - 🇺🇸 https://git.io/v9999 洛杉矶
+      - 🇯🇵 https://git.io/v9999 日本
+      - 🇯🇵 https://git.io/v9999 日本 2
       - 🇸🇬 https://git.io/v9999 新加坡
       - 🇸🇬 https://git.io/v9999 新加坡 2
       - 🇸🇬 https://git.io/v9999 新加坡 3
       - 🇸🇬 https://git.io/v9999 新加坡 4
-      - 🇯🇵 https://git.io/v9999 日本
-      - 🇯🇵 https://git.io/v9999 日本 2
-      - 🇺🇸 https://git.io/v9999 洛杉矶
-      - https://git.io/v9999 clash ip1
-      - https://git.io/v9999 clash ip1 2
-      - 🇺🇸 https://git.io/v999 美国
-      - 🇺🇸 https://git.io/v999 美国 2
-      - 🇺🇸 https://git.io/v999 美国 3
-      - https://git.io/v999 clash ip1
+      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki ip1德国CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶
+      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3莫斯科
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3莫斯科
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶
-      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki ip1德国CDN
+      - https://git.io/v999 clash ip1
+      - 🇺🇸 https://git.io/v999 美国
+      - 🇺🇸 https://git.io/v999 美国 2
+      - 🇺🇸 https://git.io/v999 美国 3
+      - https://git.io/v9999 clash ip1
+      - https://git.io/v9999 clash ip1 2
+      - https://git.io/v9999 clash ip1 3
+      - https://git.io/v9999 clash ip1 4
+      - https://git.io/v9999 clash ip1 5
+      - https://git.io/v9999 clash ip1 6
+      - 🇺🇸 https://git.io/v9999 洛杉矶
+      - 🇯🇵 https://git.io/v9999 日本
+      - 🇯🇵 https://git.io/v9999 日本 2
       - 🇸🇬 https://git.io/v9999 新加坡
       - 🇸🇬 https://git.io/v9999 新加坡 2
       - 🇸🇬 https://git.io/v9999 新加坡 3
       - 🇸🇬 https://git.io/v9999 新加坡 4
-      - 🇯🇵 https://git.io/v9999 日本
-      - 🇯🇵 https://git.io/v9999 日本 2
-      - 🇺🇸 https://git.io/v9999 洛杉矶
-      - https://git.io/v9999 clash ip1
-      - https://git.io/v9999 clash ip1 2
-      - 🇺🇸 https://git.io/v999 美国
-      - 🇺🇸 https://git.io/v999 美国 2
-      - 🇺🇸 https://git.io/v999 美国 3
-      - https://git.io/v999 clash ip1
+      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki ip1德国CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶
+      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3莫斯科
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -97,65 +113,77 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3莫斯科
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶
-      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki ip1德国CDN
+      - https://git.io/v999 clash ip1
+      - 🇺🇸 https://git.io/v999 美国
+      - 🇺🇸 https://git.io/v999 美国 2
+      - 🇺🇸 https://git.io/v999 美国 3
+      - https://git.io/v9999 clash ip1
+      - https://git.io/v9999 clash ip1 2
+      - https://git.io/v9999 clash ip1 3
+      - https://git.io/v9999 clash ip1 4
+      - https://git.io/v9999 clash ip1 5
+      - https://git.io/v9999 clash ip1 6
+      - 🇺🇸 https://git.io/v9999 洛杉矶
+      - 🇯🇵 https://git.io/v9999 日本
+      - 🇯🇵 https://git.io/v9999 日本 2
       - 🇸🇬 https://git.io/v9999 新加坡
       - 🇸🇬 https://git.io/v9999 新加坡 2
       - 🇸🇬 https://git.io/v9999 新加坡 3
       - 🇸🇬 https://git.io/v9999 新加坡 4
-      - 🇯🇵 https://git.io/v9999 日本
-      - 🇯🇵 https://git.io/v9999 日本 2
-      - 🇺🇸 https://git.io/v9999 洛杉矶
-      - https://git.io/v9999 clash ip1
-      - https://git.io/v9999 clash ip1 2
-      - 🇺🇸 https://git.io/v999 美国
-      - 🇺🇸 https://git.io/v999 美国 2
-      - 🇺🇸 https://git.io/v999 美国 3
-      - https://git.io/v999 clash ip1
+      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki ip1德国CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶
+      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3莫斯科
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3莫斯科
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶
-      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki ip1德国CDN
+      - https://git.io/v999 clash ip1
+      - 🇺🇸 https://git.io/v999 美国
+      - 🇺🇸 https://git.io/v999 美国 2
+      - 🇺🇸 https://git.io/v999 美国 3
+      - https://git.io/v9999 clash ip1
+      - https://git.io/v9999 clash ip1 2
+      - https://git.io/v9999 clash ip1 3
+      - https://git.io/v9999 clash ip1 4
+      - https://git.io/v9999 clash ip1 5
+      - https://git.io/v9999 clash ip1 6
+      - 🇺🇸 https://git.io/v9999 洛杉矶
+      - 🇯🇵 https://git.io/v9999 日本
+      - 🇯🇵 https://git.io/v9999 日本 2
       - 🇸🇬 https://git.io/v9999 新加坡
       - 🇸🇬 https://git.io/v9999 新加坡 2
       - 🇸🇬 https://git.io/v9999 新加坡 3
       - 🇸🇬 https://git.io/v9999 新加坡 4
-      - 🇯🇵 https://git.io/v9999 日本
-      - 🇯🇵 https://git.io/v9999 日本 2
-      - 🇺🇸 https://git.io/v9999 洛杉矶
-      - https://git.io/v9999 clash ip1
-      - https://git.io/v9999 clash ip1 2
-      - 🇺🇸 https://git.io/v999 美国
-      - 🇺🇸 https://git.io/v999 美国 2
-      - 🇺🇸 https://git.io/v999 美国 3
-      - https://git.io/v999 clash ip1
+      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki ip1德国CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶
+      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3莫斯科
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3莫斯科
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶
-      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki ip1德国CDN
+      - https://git.io/v999 clash ip1
+      - 🇺🇸 https://git.io/v999 美国
+      - 🇺🇸 https://git.io/v999 美国 2
+      - 🇺🇸 https://git.io/v999 美国 3
+      - https://git.io/v9999 clash ip1
+      - https://git.io/v9999 clash ip1 2
+      - https://git.io/v9999 clash ip1 3
+      - https://git.io/v9999 clash ip1 4
+      - https://git.io/v9999 clash ip1 5
+      - https://git.io/v9999 clash ip1 6
+      - 🇺🇸 https://git.io/v9999 洛杉矶
+      - 🇯🇵 https://git.io/v9999 日本
+      - 🇯🇵 https://git.io/v9999 日本 2
       - 🇸🇬 https://git.io/v9999 新加坡
       - 🇸🇬 https://git.io/v9999 新加坡 2
       - 🇸🇬 https://git.io/v9999 新加坡 3
       - 🇸🇬 https://git.io/v9999 新加坡 4
-      - 🇯🇵 https://git.io/v9999 日本
-      - 🇯🇵 https://git.io/v9999 日本 2
-      - 🇺🇸 https://git.io/v9999 洛杉矶
-      - https://git.io/v9999 clash ip1
-      - https://git.io/v9999 clash ip1 2
-      - 🇺🇸 https://git.io/v999 美国
-      - 🇺🇸 https://git.io/v999 美国 2
-      - 🇺🇸 https://git.io/v999 美国 3
-      - https://git.io/v999 clash ip1
+      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki ip1德国CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶
+      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3莫斯科
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -171,22 +199,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3莫斯科
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶
-      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki ip1德国CDN
+      - https://git.io/v999 clash ip1
+      - 🇺🇸 https://git.io/v999 美国
+      - 🇺🇸 https://git.io/v999 美国 2
+      - 🇺🇸 https://git.io/v999 美国 3
+      - https://git.io/v9999 clash ip1
+      - https://git.io/v9999 clash ip1 2
+      - https://git.io/v9999 clash ip1 3
+      - https://git.io/v9999 clash ip1 4
+      - https://git.io/v9999 clash ip1 5
+      - https://git.io/v9999 clash ip1 6
+      - 🇺🇸 https://git.io/v9999 洛杉矶
+      - 🇯🇵 https://git.io/v9999 日本
+      - 🇯🇵 https://git.io/v9999 日本 2
       - 🇸🇬 https://git.io/v9999 新加坡
       - 🇸🇬 https://git.io/v9999 新加坡 2
       - 🇸🇬 https://git.io/v9999 新加坡 3
       - 🇸🇬 https://git.io/v9999 新加坡 4
-      - 🇯🇵 https://git.io/v9999 日本
-      - 🇯🇵 https://git.io/v9999 日本 2
-      - 🇺🇸 https://git.io/v9999 洛杉矶
-      - https://git.io/v9999 clash ip1
-      - https://git.io/v9999 clash ip1 2
-      - 🇺🇸 https://git.io/v999 美国
-      - 🇺🇸 https://git.io/v999 美国 2
-      - 🇺🇸 https://git.io/v999 美国 3
-      - https://git.io/v999 clash ip1
+      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki ip1德国CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶
+      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3莫斯科
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
