@@ -5,35 +5,35 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇩🇪 https://github.com/Alvin9999/new-pac/wiki ip1德国2, server: ge002.free2222.xyz, port: 443, type: vmess, uuid: acc842f9-1590-404a-804b-e4613162c6a5, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge002.free2222.xyz}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶, server: us102.free2222.xyz, port: 443, type: vmess, uuid: 113ed49b-85cb-4eb7-a94e-95da956cf4bb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: us102.free2222.xyz}}
-  - {name: 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3莫斯科, server: adman01.free2222.xyz, port: 443, type: vmess, uuid: 1564abce-bde7-435a-9ab4-97565eb17734, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: adman01.free2222.xyz}}
+  - {name: 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3&ip4莫斯科, server: adman01.free2222.xyz, port: 443, type: vmess, uuid: 1564abce-bde7-435a-9ab4-97565eb17734, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: adman01.free2222.xyz}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2洛杉矶, server: us104.free2222.xyz, port: 443, type: vmess, uuid: 754ca5b2-045d-4434-8f57-189a0246d318, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: us104.free2222.xyz}}
+  - {name: 🇩🇪 https://git.io/v9999 v2ray德国free, server: gefree002.free2222.xyz, port: 443, type: vmess, uuid: fd6a01ba-e1d8-4088-a540-ae7ebed5de2f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: gefree002.free2222.xyz}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki ip1德国2
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3莫斯科
+      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3&ip4莫斯科
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2洛杉矶
+      - 🇩🇪 https://git.io/v9999 v2ray德国free
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki ip1德国2
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3莫斯科
+      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3&ip4莫斯科
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2洛杉矶
+      - 🇩🇪 https://git.io/v9999 v2ray德国free
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki ip1德国2
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3莫斯科
+      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3&ip4莫斯科
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2洛杉矶
+      - 🇩🇪 https://git.io/v9999 v2ray德国free
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -44,26 +44,26 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki ip1德国2
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3莫斯科
+      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3&ip4莫斯科
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2洛杉矶
+      - 🇩🇪 https://git.io/v9999 v2ray德国free
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki ip1德国2
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3莫斯科
+      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3&ip4莫斯科
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2洛杉矶
+      - 🇩🇪 https://git.io/v9999 v2ray德国free
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki ip1德国2
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3莫斯科
+      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3&ip4莫斯科
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2洛杉矶
+      - 🇩🇪 https://git.io/v9999 v2ray德国free
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -79,9 +79,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki ip1德国2
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2&ip4洛杉矶
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3莫斯科
+      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3&ip4莫斯科
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2洛杉矶
+      - 🇩🇪 https://git.io/v9999 v2ray德国free
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
