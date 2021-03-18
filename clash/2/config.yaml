@@ -5,35 +5,103 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3&ip4莫斯科, server: adman01.free2222.xyz, port: 443, type: vmess, uuid: 1564abce-bde7-435a-9ab4-97565eb17734, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: adman01.free2222.xyz}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2洛杉矶, server: us104.free2222.xyz, port: 443, type: vmess, uuid: 754ca5b2-045d-4434-8f57-189a0246d318, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: us104.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国free, server: gefree002.free2222.xyz, port: 443, type: vmess, uuid: fd6a01ba-e1d8-4088-a540-ae7ebed5de2f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: gefree002.free2222.xyz}}
+  - {name: https://git.io/v9999 v2ray, server: tw04.v2net.top, port: 8300, type: vmess, uuid: A4D23E56-B6DC-86EF-DC94-E28FF7355D1F, alterId: 0, cipher: auto, tls: false}
+  - {name: https://git.io/v9999 v2ray 2, server: 58.177.131.223, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
+  - {name: https://git.io/v9999 v2ray 3, server: 116.192.165.207, port: 52001, type: vmess, uuid: eb862777-237c-4cd3-a278-a2a358f2ea40, alterId: 1, cipher: auto, tls: false}
+  - {name: https://git.io/v9999 v2ray 4, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: https://git.io/v9999 v2ray 5, server: 116.192.165.207, port: 52003, type: vmess, uuid: eb862777-237c-4cd3-a278-a2a358f2ea40, alterId: 1, cipher: auto, tls: false}
+  - {name: https://git.io/v9999 v2ray 6, server: us04.v2net.top, port: 8309, type: vmess, uuid: A4D23E56-B6DC-86EF-DC94-E28FF7355D1F, alterId: 0, cipher: auto, tls: false}
+  - {name: https://git.io/v9999 v2ray 7, server: 116.192.165.207, port: 52005, type: vmess, uuid: eb862777-237c-4cd3-a278-a2a358f2ea40, alterId: 1, cipher: auto, tls: false}
+  - {name: https://git.io/v9999 v2ray 8, server: centos.fuchau.xyz, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
+  - {name: https://git.io/v9999 v2ray 9, server: 116.192.165.207, port: 52009, type: vmess, uuid: eb862777-237c-4cd3-a278-a2a358f2ea40, alterId: 1, cipher: auto, tls: false}
+  - {name: https://git.io/v9999 v2ray 10, server: 116.192.165.207, port: 52006, type: vmess, uuid: eb862777-237c-4cd3-a278-a2a358f2ea40, alterId: 1, cipher: auto, tls: false}
+  - {name: https://git.io/v9999 v2ray 11, server: 116.192.165.207, port: 52011, type: vmess, uuid: eb862777-237c-4cd3-a278-a2a358f2ea40, alterId: 1, cipher: auto, tls: false}
+  - {name: https://git.io/v9999 v2ray 12, server: 116.192.165.207, port: 52002, type: vmess, uuid: eb862777-237c-4cd3-a278-a2a358f2ea40, alterId: 1, cipher: auto, tls: false}
+  - {name: https://git.io/v9999 v2ray 13, server: 116.192.165.207, port: 52000, type: vmess, uuid: eb862777-237c-4cd3-a278-a2a358f2ea40, alterId: 1, cipher: auto, tls: false}
+  - {name: https://git.io/v9999 v2ray 14, server: 116.192.165.207, port: 52004, type: vmess, uuid: eb862777-237c-4cd3-a278-a2a358f2ea40, alterId: 1, cipher: auto, tls: false}
+  - {name: https://git.io/v9999 v2ray 15, server: 173.82.240.245, port: 443, type: vmess, uuid: 219be2f9-573d-4507-9e9b-74b385ba1c9c, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: /0574a110e138dd/, ws-headers: {Host: cc.hciahciphcie.club}}
+  - {name: https://git.io/v9999 v2ray 16, server: tw01.v2net.top, port: 10086, type: vmess, uuid: A4D23E56-B6DC-86EF-DC94-E28FF7355D1F, alterId: 0, cipher: auto, tls: false}
+  - {name: https://git.io/v9999 v2ray 17, server: 172.67.186.204, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-ru2.ooxc.cc}}
+  - {name: https://git.io/v9999 v2ray 18, server: 116.192.165.207, port: 52007, type: vmess, uuid: eb862777-237c-4cd3-a278-a2a358f2ea40, alterId: 1, cipher: auto, tls: false}
+  - {name: https://git.io/v9999 v2ray 19, server: v2-06.ssrsub.one, port: 443, type: vmess, uuid: 9b93f7f3-ddd5-b5bb-e5dc-43493e413a47, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ssrsubvws, ws-headers: {Host: v2-06.ssrsub.one}}
+  - {name: https://git.io/v9999 v2ray 20, server: transite-shcu02.iplc188.com, port: 10003, type: vmess, uuid: 204f41ff-117d-46ae-85cd-4edf7f7bee4d, alterId: 1, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3&ip4莫斯科
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2洛杉矶
-      - 🇩🇪 https://git.io/v9999 v2ray德国free
+      - https://git.io/v9999 v2ray
+      - https://git.io/v9999 v2ray 2
+      - https://git.io/v9999 v2ray 3
+      - https://git.io/v9999 v2ray 4
+      - https://git.io/v9999 v2ray 5
+      - https://git.io/v9999 v2ray 6
+      - https://git.io/v9999 v2ray 7
+      - https://git.io/v9999 v2ray 8
+      - https://git.io/v9999 v2ray 9
+      - https://git.io/v9999 v2ray 10
+      - https://git.io/v9999 v2ray 11
+      - https://git.io/v9999 v2ray 12
+      - https://git.io/v9999 v2ray 13
+      - https://git.io/v9999 v2ray 14
+      - https://git.io/v9999 v2ray 15
+      - https://git.io/v9999 v2ray 16
+      - https://git.io/v9999 v2ray 17
+      - https://git.io/v9999 v2ray 18
+      - https://git.io/v9999 v2ray 19
+      - https://git.io/v9999 v2ray 20
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3&ip4莫斯科
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2洛杉矶
-      - 🇩🇪 https://git.io/v9999 v2ray德国free
+      - https://git.io/v9999 v2ray
+      - https://git.io/v9999 v2ray 2
+      - https://git.io/v9999 v2ray 3
+      - https://git.io/v9999 v2ray 4
+      - https://git.io/v9999 v2ray 5
+      - https://git.io/v9999 v2ray 6
+      - https://git.io/v9999 v2ray 7
+      - https://git.io/v9999 v2ray 8
+      - https://git.io/v9999 v2ray 9
+      - https://git.io/v9999 v2ray 10
+      - https://git.io/v9999 v2ray 11
+      - https://git.io/v9999 v2ray 12
+      - https://git.io/v9999 v2ray 13
+      - https://git.io/v9999 v2ray 14
+      - https://git.io/v9999 v2ray 15
+      - https://git.io/v9999 v2ray 16
+      - https://git.io/v9999 v2ray 17
+      - https://git.io/v9999 v2ray 18
+      - https://git.io/v9999 v2ray 19
+      - https://git.io/v9999 v2ray 20
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3&ip4莫斯科
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2洛杉矶
-      - 🇩🇪 https://git.io/v9999 v2ray德国free
+      - https://git.io/v9999 v2ray
+      - https://git.io/v9999 v2ray 2
+      - https://git.io/v9999 v2ray 3
+      - https://git.io/v9999 v2ray 4
+      - https://git.io/v9999 v2ray 5
+      - https://git.io/v9999 v2ray 6
+      - https://git.io/v9999 v2ray 7
+      - https://git.io/v9999 v2ray 8
+      - https://git.io/v9999 v2ray 9
+      - https://git.io/v9999 v2ray 10
+      - https://git.io/v9999 v2ray 11
+      - https://git.io/v9999 v2ray 12
+      - https://git.io/v9999 v2ray 13
+      - https://git.io/v9999 v2ray 14
+      - https://git.io/v9999 v2ray 15
+      - https://git.io/v9999 v2ray 16
+      - https://git.io/v9999 v2ray 17
+      - https://git.io/v9999 v2ray 18
+      - https://git.io/v9999 v2ray 19
+      - https://git.io/v9999 v2ray 20
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -44,26 +112,77 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3&ip4莫斯科
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2洛杉矶
-      - 🇩🇪 https://git.io/v9999 v2ray德国free
+      - https://git.io/v9999 v2ray
+      - https://git.io/v9999 v2ray 2
+      - https://git.io/v9999 v2ray 3
+      - https://git.io/v9999 v2ray 4
+      - https://git.io/v9999 v2ray 5
+      - https://git.io/v9999 v2ray 6
+      - https://git.io/v9999 v2ray 7
+      - https://git.io/v9999 v2ray 8
+      - https://git.io/v9999 v2ray 9
+      - https://git.io/v9999 v2ray 10
+      - https://git.io/v9999 v2ray 11
+      - https://git.io/v9999 v2ray 12
+      - https://git.io/v9999 v2ray 13
+      - https://git.io/v9999 v2ray 14
+      - https://git.io/v9999 v2ray 15
+      - https://git.io/v9999 v2ray 16
+      - https://git.io/v9999 v2ray 17
+      - https://git.io/v9999 v2ray 18
+      - https://git.io/v9999 v2ray 19
+      - https://git.io/v9999 v2ray 20
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3&ip4莫斯科
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2洛杉矶
-      - 🇩🇪 https://git.io/v9999 v2ray德国free
+      - https://git.io/v9999 v2ray
+      - https://git.io/v9999 v2ray 2
+      - https://git.io/v9999 v2ray 3
+      - https://git.io/v9999 v2ray 4
+      - https://git.io/v9999 v2ray 5
+      - https://git.io/v9999 v2ray 6
+      - https://git.io/v9999 v2ray 7
+      - https://git.io/v9999 v2ray 8
+      - https://git.io/v9999 v2ray 9
+      - https://git.io/v9999 v2ray 10
+      - https://git.io/v9999 v2ray 11
+      - https://git.io/v9999 v2ray 12
+      - https://git.io/v9999 v2ray 13
+      - https://git.io/v9999 v2ray 14
+      - https://git.io/v9999 v2ray 15
+      - https://git.io/v9999 v2ray 16
+      - https://git.io/v9999 v2ray 17
+      - https://git.io/v9999 v2ray 18
+      - https://git.io/v9999 v2ray 19
+      - https://git.io/v9999 v2ray 20
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3&ip4莫斯科
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2洛杉矶
-      - 🇩🇪 https://git.io/v9999 v2ray德国free
+      - https://git.io/v9999 v2ray
+      - https://git.io/v9999 v2ray 2
+      - https://git.io/v9999 v2ray 3
+      - https://git.io/v9999 v2ray 4
+      - https://git.io/v9999 v2ray 5
+      - https://git.io/v9999 v2ray 6
+      - https://git.io/v9999 v2ray 7
+      - https://git.io/v9999 v2ray 8
+      - https://git.io/v9999 v2ray 9
+      - https://git.io/v9999 v2ray 10
+      - https://git.io/v9999 v2ray 11
+      - https://git.io/v9999 v2ray 12
+      - https://git.io/v9999 v2ray 13
+      - https://git.io/v9999 v2ray 14
+      - https://git.io/v9999 v2ray 15
+      - https://git.io/v9999 v2ray 16
+      - https://git.io/v9999 v2ray 17
+      - https://git.io/v9999 v2ray 18
+      - https://git.io/v9999 v2ray 19
+      - https://git.io/v9999 v2ray 20
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -79,9 +198,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip3&ip4莫斯科
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki ip2洛杉矶
-      - 🇩🇪 https://git.io/v9999 v2ray德国free
+      - https://git.io/v9999 v2ray
+      - https://git.io/v9999 v2ray 2
+      - https://git.io/v9999 v2ray 3
+      - https://git.io/v9999 v2ray 4
+      - https://git.io/v9999 v2ray 5
+      - https://git.io/v9999 v2ray 6
+      - https://git.io/v9999 v2ray 7
+      - https://git.io/v9999 v2ray 8
+      - https://git.io/v9999 v2ray 9
+      - https://git.io/v9999 v2ray 10
+      - https://git.io/v9999 v2ray 11
+      - https://git.io/v9999 v2ray 12
+      - https://git.io/v9999 v2ray 13
+      - https://git.io/v9999 v2ray 14
+      - https://git.io/v9999 v2ray 15
+      - https://git.io/v9999 v2ray 16
+      - https://git.io/v9999 v2ray 17
+      - https://git.io/v9999 v2ray 18
+      - https://git.io/v9999 v2ray 19
+      - https://git.io/v9999 v2ray 20
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
