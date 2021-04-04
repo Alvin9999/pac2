@@ -5,57 +5,29 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 https://git.io/v9999 v2rayfree美国洛杉矶, server: c-us5.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-us5.ooxc.cc}}
-  - {name: 🇺🇸 https://git.io/v9999 v2rayfree美国CDN, server: 104.21.19.155, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-ru2.ooxc.cc}}
-  - {name: 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 2, server: 172.67.37.175, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /y284, ws-headers: {Host: cooa.xyz}}
-  - {name: 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 3, server: 141.101.115.3, port: 443, type: vmess, uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /y475, ws-headers: {Host: free.frli.xyz}}
-  - {name: 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 4, server: 172.67.37.166, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /y284, ws-headers: {Host: cooa.xyz}}
-  - {name: 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 5, server: cfip.hey.pw, port: 443, type: vmess, uuid: 62af99c3-0874-40a8-bb0c-15708625d2bf, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /iue/l2vesav, ws-headers: {Host: cf.souji.ga}}
-  - {name: 🇨🇦 https://git.io/v9999 v2rayfree加拿大, server: v2-01.ssrsub.one, port: 443, type: vmess, uuid: e4ebbb52-8e14-11eb-a1b2-0050569b1ae9, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /uCVMAvYp/, ws-headers: {Host: v2-01.ssrsub.one}}
-  - {name: 🇨🇦 https://git.io/v9999 v2rayfree加拿大 2, server: v2-04.ssrsub.one, port: 443, type: vmess, uuid: 62e390de-8e15-11eb-9c3b-0050569bd732, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /grEPa5BQ/, ws-headers: {Host: v2-04.ssrsub.one}}
-  - {name: https://git.io/v9999 v2rayfree国内中转, server: us.199301.xyz, port: 30010, type: vmess, uuid: fd00927a-b0c2-4629-aef7-d9ff15a9d722, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /websocket, ws-headers: {Host: us.199301.xyz}}
-  - {name: 🇷🇺 https://git.io/v9999 v2rayfree俄罗斯莫斯科, server: 91.245.227.135, port: 38166, type: vmess, uuid: 9551d4fd-610e-4bf3-9f93-1df5452c3654, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 91.245.227.135}}
-  - {name: 🇺🇸 https://git.io/v9999 v2rayfree - 美国CloudFlare节点 35, server: v2-10.ssrsub.one, port: 443, type: vmess, uuid: 8ad69a36-8d62-11eb-b89e-0016909b35da, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /Mjb6PY9c/, ws-headers: {Host: v2-10.ssrsub.one}}
-  - {name: 🇺🇸 https://git.io/v9999 v2rayfree - 美国CloudFlare节点 11, server: 172.67.186.204, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-ru2.ooxc.cc}}
-  - {name: 🇨🇦 https://git.io/v9999 v2rayfree - 加拿大  40, server: v2-05.ssrsub.one, port: 443, type: vmess, uuid: 6b70ab92-8e15-11eb-8d09-0050569ba4a7, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /bMcI61z7/, ws-headers: {Host: v2-05.ssrsub.one}}
-  - {name: 🇷🇺 https://git.io/v9999 v2rayfree - 俄罗斯新西部利亚 39, server: v2-07.ssrsub.one, port: 443, type: vmess, uuid: 284219a8-8e17-11eb-bd30-fa86b708c350, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /IG1u60of/, ws-headers: {Host: v2-07.ssrsub.one}}
-  - {name: https://git.io/v9999 clash ip6, server: 66.115.147.89, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 clash ip6 2, server: 66.115.147.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 clash ip6 3, server: 37.120.194.125, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: https://git.io/v9999 clash ip6 4, server: 37.120.194.163, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 clash ip6 5, server: 2.58.242.51, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: https://git.io/v9999 clash ip6 6, server: 13.70.33.84, port: 800, type: vmess, uuid: 1425d9be-aa97-3b73-a6c1-a0ccee4cea23, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls, ws-headers: {Host: t.me/baipiaofuli}}
-  - {name: https://git.io/v9999 clash ip6 7, server: 37.120.221.5, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: https://git.io/v9999 clash ip6 8, server: 37.120.221.5, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: https://git.io/v9999 clash ip6 9, server: 37.120.221.5, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 clash ip6 10, server: 37.120.194.101, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 clash ip6 11, server: 37.120.194.125, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 clash ip6 12, server: 37.120.194.125, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: https://git.io/v9999 clash ip6 13, server: 37.120.194.125, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: https://git.io/v9999 clash ip6 14, server: trojan.internet-cloudflare-accelerate.tk, port: 443, type: trojan, password: 52147717-3969-4dc9-8c18-883c8b3becfe, sni: trojan.internet-cloudflare-accelerate.tk}
-  - {name: https://git.io/v9999 clash ip6 15, server: 212.102.35.201, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 clash ip6 16, server: 37.120.194.125, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 clash ip6 17, server: 37.120.194.125, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 clash ip6, server: t20.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t20.ssrsub.one}
+  - {name: https://git.io/v9999 clash ip6 2, server: t06.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t06.ssrsub.one}
+  - {name: https://git.io/v9999 clash ip6 3, server: v2n10t3.fastjet.info, port: 443, type: trojan, password: xman-123-jjk, sni: v2n10t3.fastjet.info}
+  - {name: https://git.io/v9999 clash ip6 4, server: 37.120.194.101, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip6 5, server: 37.120.194.163, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 clash ip6 6, server: 37.120.194.125, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: https://git.io/v9999 clash ip6 7, server: 37.120.194.125, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip6 8, server: 37.120.194.125, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 clash ip6 9, server: 37.120.194.125, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://git.io/v9999 clash ip6 10, server: 37.120.194.125, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: https://git.io/v9999 clash ip6 11, server: 37.120.194.125, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: https://git.io/v9999 clash ip6 12, server: 212.102.35.201, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip6 13, server: 66.115.147.89, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 clash ip6 14, server: 66.115.147.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip6 15, server: 37.120.221.5, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: https://git.io/v9999 clash ip6 16, server: 37.120.221.5, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 clash ip, server: 37.120.221.5, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国洛杉矶
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 2
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 3
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 4
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 5
-      - 🇨🇦 https://git.io/v9999 v2rayfree加拿大
-      - 🇨🇦 https://git.io/v9999 v2rayfree加拿大 2
-      - https://git.io/v9999 v2rayfree国内中转
-      - 🇷🇺 https://git.io/v9999 v2rayfree俄罗斯莫斯科
-      - 🇺🇸 https://git.io/v9999 v2rayfree - 美国CloudFlare节点 35
-      - 🇺🇸 https://git.io/v9999 v2rayfree - 美国CloudFlare节点 11
-      - 🇨🇦 https://git.io/v9999 v2rayfree - 加拿大  40
-      - 🇷🇺 https://git.io/v9999 v2rayfree - 俄罗斯新西部利亚 39
       - https://git.io/v9999 clash ip6
       - https://git.io/v9999 clash ip6 2
       - https://git.io/v9999 clash ip6 3
@@ -72,26 +44,12 @@ proxy-groups:
       - https://git.io/v9999 clash ip6 14
       - https://git.io/v9999 clash ip6 15
       - https://git.io/v9999 clash ip6 16
-      - https://git.io/v9999 clash ip6 17
+      - https://git.io/v9999 clash ip
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国洛杉矶
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 2
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 3
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 4
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 5
-      - 🇨🇦 https://git.io/v9999 v2rayfree加拿大
-      - 🇨🇦 https://git.io/v9999 v2rayfree加拿大 2
-      - https://git.io/v9999 v2rayfree国内中转
-      - 🇷🇺 https://git.io/v9999 v2rayfree俄罗斯莫斯科
-      - 🇺🇸 https://git.io/v9999 v2rayfree - 美国CloudFlare节点 35
-      - 🇺🇸 https://git.io/v9999 v2rayfree - 美国CloudFlare节点 11
-      - 🇨🇦 https://git.io/v9999 v2rayfree - 加拿大  40
-      - 🇷🇺 https://git.io/v9999 v2rayfree - 俄罗斯新西部利亚 39
       - https://git.io/v9999 clash ip6
       - https://git.io/v9999 clash ip6 2
       - https://git.io/v9999 clash ip6 3
@@ -108,27 +66,13 @@ proxy-groups:
       - https://git.io/v9999 clash ip6 14
       - https://git.io/v9999 clash ip6 15
       - https://git.io/v9999 clash ip6 16
-      - https://git.io/v9999 clash ip6 17
+      - https://git.io/v9999 clash ip
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国洛杉矶
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 2
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 3
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 4
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 5
-      - 🇨🇦 https://git.io/v9999 v2rayfree加拿大
-      - 🇨🇦 https://git.io/v9999 v2rayfree加拿大 2
-      - https://git.io/v9999 v2rayfree国内中转
-      - 🇷🇺 https://git.io/v9999 v2rayfree俄罗斯莫斯科
-      - 🇺🇸 https://git.io/v9999 v2rayfree - 美国CloudFlare节点 35
-      - 🇺🇸 https://git.io/v9999 v2rayfree - 美国CloudFlare节点 11
-      - 🇨🇦 https://git.io/v9999 v2rayfree - 加拿大  40
-      - 🇷🇺 https://git.io/v9999 v2rayfree - 俄罗斯新西部利亚 39
       - https://git.io/v9999 clash ip6
       - https://git.io/v9999 clash ip6 2
       - https://git.io/v9999 clash ip6 3
@@ -145,7 +89,7 @@ proxy-groups:
       - https://git.io/v9999 clash ip6 14
       - https://git.io/v9999 clash ip6 15
       - https://git.io/v9999 clash ip6 16
-      - https://git.io/v9999 clash ip6 17
+      - https://git.io/v9999 clash ip
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -156,20 +100,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国洛杉矶
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 2
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 3
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 4
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 5
-      - 🇨🇦 https://git.io/v9999 v2rayfree加拿大
-      - 🇨🇦 https://git.io/v9999 v2rayfree加拿大 2
-      - https://git.io/v9999 v2rayfree国内中转
-      - 🇷🇺 https://git.io/v9999 v2rayfree俄罗斯莫斯科
-      - 🇺🇸 https://git.io/v9999 v2rayfree - 美国CloudFlare节点 35
-      - 🇺🇸 https://git.io/v9999 v2rayfree - 美国CloudFlare节点 11
-      - 🇨🇦 https://git.io/v9999 v2rayfree - 加拿大  40
-      - 🇷🇺 https://git.io/v9999 v2rayfree - 俄罗斯新西部利亚 39
       - https://git.io/v9999 clash ip6
       - https://git.io/v9999 clash ip6 2
       - https://git.io/v9999 clash ip6 3
@@ -186,26 +116,12 @@ proxy-groups:
       - https://git.io/v9999 clash ip6 14
       - https://git.io/v9999 clash ip6 15
       - https://git.io/v9999 clash ip6 16
-      - https://git.io/v9999 clash ip6 17
+      - https://git.io/v9999 clash ip
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国洛杉矶
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 2
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 3
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 4
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 5
-      - 🇨🇦 https://git.io/v9999 v2rayfree加拿大
-      - 🇨🇦 https://git.io/v9999 v2rayfree加拿大 2
-      - https://git.io/v9999 v2rayfree国内中转
-      - 🇷🇺 https://git.io/v9999 v2rayfree俄罗斯莫斯科
-      - 🇺🇸 https://git.io/v9999 v2rayfree - 美国CloudFlare节点 35
-      - 🇺🇸 https://git.io/v9999 v2rayfree - 美国CloudFlare节点 11
-      - 🇨🇦 https://git.io/v9999 v2rayfree - 加拿大  40
-      - 🇷🇺 https://git.io/v9999 v2rayfree - 俄罗斯新西部利亚 39
       - https://git.io/v9999 clash ip6
       - https://git.io/v9999 clash ip6 2
       - https://git.io/v9999 clash ip6 3
@@ -222,27 +138,13 @@ proxy-groups:
       - https://git.io/v9999 clash ip6 14
       - https://git.io/v9999 clash ip6 15
       - https://git.io/v9999 clash ip6 16
-      - https://git.io/v9999 clash ip6 17
+      - https://git.io/v9999 clash ip
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国洛杉矶
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 2
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 3
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 4
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 5
-      - 🇨🇦 https://git.io/v9999 v2rayfree加拿大
-      - 🇨🇦 https://git.io/v9999 v2rayfree加拿大 2
-      - https://git.io/v9999 v2rayfree国内中转
-      - 🇷🇺 https://git.io/v9999 v2rayfree俄罗斯莫斯科
-      - 🇺🇸 https://git.io/v9999 v2rayfree - 美国CloudFlare节点 35
-      - 🇺🇸 https://git.io/v9999 v2rayfree - 美国CloudFlare节点 11
-      - 🇨🇦 https://git.io/v9999 v2rayfree - 加拿大  40
-      - 🇷🇺 https://git.io/v9999 v2rayfree - 俄罗斯新西部利亚 39
       - https://git.io/v9999 clash ip6
       - https://git.io/v9999 clash ip6 2
       - https://git.io/v9999 clash ip6 3
@@ -259,7 +161,7 @@ proxy-groups:
       - https://git.io/v9999 clash ip6 14
       - https://git.io/v9999 clash ip6 15
       - https://git.io/v9999 clash ip6 16
-      - https://git.io/v9999 clash ip6 17
+      - https://git.io/v9999 clash ip
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -275,20 +177,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国洛杉矶
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 2
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 3
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 4
-      - 🇺🇸 https://git.io/v9999 v2rayfree美国CDN 5
-      - 🇨🇦 https://git.io/v9999 v2rayfree加拿大
-      - 🇨🇦 https://git.io/v9999 v2rayfree加拿大 2
-      - https://git.io/v9999 v2rayfree国内中转
-      - 🇷🇺 https://git.io/v9999 v2rayfree俄罗斯莫斯科
-      - 🇺🇸 https://git.io/v9999 v2rayfree - 美国CloudFlare节点 35
-      - 🇺🇸 https://git.io/v9999 v2rayfree - 美国CloudFlare节点 11
-      - 🇨🇦 https://git.io/v9999 v2rayfree - 加拿大  40
-      - 🇷🇺 https://git.io/v9999 v2rayfree - 俄罗斯新西部利亚 39
       - https://git.io/v9999 clash ip6
       - https://git.io/v9999 clash ip6 2
       - https://git.io/v9999 clash ip6 3
@@ -305,7 +193,7 @@ proxy-groups:
       - https://git.io/v9999 clash ip6 14
       - https://git.io/v9999 clash ip6 15
       - https://git.io/v9999 clash ip6 16
-      - https://git.io/v9999 clash ip6 17
+      - https://git.io/v9999 clash ip
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
