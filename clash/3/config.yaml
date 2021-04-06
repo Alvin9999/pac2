@@ -5,23 +5,22 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: https://git.io/v9999 clash ip6, server: t20.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t20.ssrsub.one}
-  - {name: https://git.io/v9999 clash ip6 2, server: t06.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t06.ssrsub.one}
-  - {name: https://git.io/v9999 clash ip6 3, server: v2n10t3.fastjet.info, port: 443, type: trojan, password: xman-123-jjk, sni: v2n10t3.fastjet.info}
-  - {name: https://git.io/v9999 clash ip6 4, server: 37.120.194.101, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 clash ip6 5, server: 37.120.194.163, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 clash ip6 6, server: 37.120.194.125, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: https://git.io/v9999 clash ip6 7, server: 37.120.194.125, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 clash ip6 8, server: 37.120.194.125, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 clash ip6 9, server: 37.120.194.125, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 clash ip6 10, server: 37.120.194.125, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: https://git.io/v9999 clash ip6 11, server: 37.120.194.125, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: https://git.io/v9999 clash ip6, server: trojan.internet-cloudflare-accelerate.tk, port: 443, type: trojan, password: 52147717-3969-4dc9-8c18-883c8b3becfe, sni: trojan.internet-cloudflare-accelerate.tk}
+  - {name: https://git.io/v9999 clash ip6 2, server: t07.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t07.ssrsub.one}
+  - {name: https://git.io/v9999 clash ip6 3, server: 37.120.194.125, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 clash ip6 4, server: 37.120.194.163, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 clash ip6 5, server: 37.120.194.125, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: https://git.io/v9999 clash ip6 6, server: 37.120.194.125, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://git.io/v9999 clash ip6 7, server: 37.120.194.125, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: https://git.io/v9999 clash ip6 8, server: 37.120.194.101, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip6 9, server: v2n10t3.fastjet.info, port: 443, type: trojan, password: xman-123-jjk, sni: v2n10t3.fastjet.info}
+  - {name: https://git.io/v9999 clash ip6 10, server: t20.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t20.ssrsub.one}
+  - {name: https://git.io/v9999 clash ip6 11, server: 66.115.147.89, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: https://git.io/v9999 clash ip6 12, server: 212.102.35.201, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 clash ip6 13, server: 66.115.147.89, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 clash ip6 14, server: 66.115.147.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 clash ip6 15, server: 37.120.221.5, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: https://git.io/v9999 clash ip6 16, server: 37.120.221.5, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 clash ip, server: 37.120.221.5, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: https://git.io/v9999 clash ip6 13, server: 37.120.221.5, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: https://git.io/v9999 clash ip6 14, server: 37.120.221.5, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: https://git.io/v9999 clash ip6 15, server: 37.120.221.5, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 clash ip, server: t06.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t06.ssrsub.one}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -43,7 +42,6 @@ proxy-groups:
       - https://git.io/v9999 clash ip6 13
       - https://git.io/v9999 clash ip6 14
       - https://git.io/v9999 clash ip6 15
-      - https://git.io/v9999 clash ip6 16
       - https://git.io/v9999 clash ip
   - name: ♻️ 自动选择
     type: url-test
@@ -65,7 +63,6 @@ proxy-groups:
       - https://git.io/v9999 clash ip6 13
       - https://git.io/v9999 clash ip6 14
       - https://git.io/v9999 clash ip6 15
-      - https://git.io/v9999 clash ip6 16
       - https://git.io/v9999 clash ip
   - name: 🌍 国外媒体
     type: select
@@ -88,7 +85,6 @@ proxy-groups:
       - https://git.io/v9999 clash ip6 13
       - https://git.io/v9999 clash ip6 14
       - https://git.io/v9999 clash ip6 15
-      - https://git.io/v9999 clash ip6 16
       - https://git.io/v9999 clash ip
   - name: 🌏 国内媒体
     type: select
@@ -115,7 +111,6 @@ proxy-groups:
       - https://git.io/v9999 clash ip6 13
       - https://git.io/v9999 clash ip6 14
       - https://git.io/v9999 clash ip6 15
-      - https://git.io/v9999 clash ip6 16
       - https://git.io/v9999 clash ip
   - name: 📲 电报信息
     type: select
@@ -137,7 +132,6 @@ proxy-groups:
       - https://git.io/v9999 clash ip6 13
       - https://git.io/v9999 clash ip6 14
       - https://git.io/v9999 clash ip6 15
-      - https://git.io/v9999 clash ip6 16
       - https://git.io/v9999 clash ip
   - name: 🍎 苹果服务
     type: select
@@ -160,7 +154,6 @@ proxy-groups:
       - https://git.io/v9999 clash ip6 13
       - https://git.io/v9999 clash ip6 14
       - https://git.io/v9999 clash ip6 15
-      - https://git.io/v9999 clash ip6 16
       - https://git.io/v9999 clash ip
   - name: 🎯 全球直连
     type: select
@@ -192,7 +185,6 @@ proxy-groups:
       - https://git.io/v9999 clash ip6 13
       - https://git.io/v9999 clash ip6 14
       - https://git.io/v9999 clash ip6 15
-      - https://git.io/v9999 clash ip6 16
       - https://git.io/v9999 clash ip
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
