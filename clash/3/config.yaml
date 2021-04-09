@@ -5,22 +5,79 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: https://git.io/v9999 clash ip6, server: trojan.internet-cloudflare-accelerate.tk, port: 443, type: trojan, password: 52147717-3969-4dc9-8c18-883c8b3becfe, sni: trojan.internet-cloudflare-accelerate.tk}
-  - {name: https://git.io/v9999 clash ip6 2, server: t07.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t07.ssrsub.one}
-  - {name: https://git.io/v9999 clash ip6 3, server: 37.120.194.125, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 clash ip6 4, server: 37.120.194.163, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 clash ip6 5, server: 37.120.194.125, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: https://git.io/v9999 clash ip6 6, server: 37.120.194.125, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 clash ip6 7, server: 37.120.194.125, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: https://git.io/v9999 clash ip6 8, server: 37.120.194.101, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 clash ip6 9, server: v2n10t3.fastjet.info, port: 443, type: trojan, password: xman-123-jjk, sni: v2n10t3.fastjet.info}
-  - {name: https://git.io/v9999 clash ip6 10, server: t20.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t20.ssrsub.one}
-  - {name: https://git.io/v9999 clash ip6 11, server: 66.115.147.89, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 clash ip6 12, server: 212.102.35.201, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 clash ip6 13, server: 37.120.221.5, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: https://git.io/v9999 clash ip6 14, server: 37.120.221.5, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: https://git.io/v9999 clash ip6 15, server: 37.120.221.5, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 clash ip, server: t06.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t06.ssrsub.one}
+  - {name: https://git.io/v9999 clash ip6, server: free.milagropets.tech, port: 80, type: vmess, uuid: fe4b09d6-8af6-33a2-8340-d3539f8c8a4c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /ray, ws-headers: {Host: free.milagropets.tech}}
+  - {name: https://git.io/v9999 clash ip6 2, server: c-ru3.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-ru3.ooxc.cc}}
+  - {name: https://git.io/v9999 clash ip6 3, server: otoha.tk, port: 443, type: vmess, uuid: e48e0efe-d943-44f3-8d42-3e80fb61ef10, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vmessws, ws-headers: {Host: otoha.tk}}
+  - {name: https://git.io/v9999 clash ip6 4, server: ss.us.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: syCiJl3nb8OD}
+  - {name: https://git.io/v9999 clash ip6 5, server: 128.14.153.42, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8633, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: usa2-node.3366test.com}}
+  - {name: https://git.io/v9999 clash ip6 6, server: v2-09.ssrsub.one, port: 153, type: vmess, uuid: 6bb99012-5169-405b-9443-05d8773fc120, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: n46hm52773.laowanxiang.com}}
+  - {name: https://git.io/v9999 clash ip6 7, server: ffrenzy.tk, port: 11443, type: ss, cipher: chacha20-ietf-poly1305, password: 543c3bff-3d9b-41b6-800e-a8ae3eb0712a}
+  - {name: https://git.io/v9999 clash ip6 8, server: free-gcs-twn-001.bujidao.org, port: 6000, type: vmess, uuid: 0b544d05-b85b-36df-85c0-9f0417c5ced8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: free-gcs-twn-001.bujidao.org}}
+  - {name: https://git.io/v9999 clash ip6 9, server: free-gcs-twn-001.bujidao.org, port: 6000, type: vmess, uuid: 7f5c089e-2e07-3c57-82ad-b33b9c45d2a9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: free-gcs-twn-001.bujidao.org}}
+  - {name: https://git.io/v9999 clash ip6 10, server: free-gcs-twn-001.bujidao.org, port: 6000, type: vmess, uuid: e676ca8b-920d-3e16-90bc-41cff4ac59bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: free-gcs-twn-001.bujidao.org}}
+  - {name: https://git.io/v9999 clash ip6 11, server: free-gcs-twn-001.bujidao.org, port: 6000, type: vmess, uuid: 1f4c23ab-e109-3f97-a6af-fb41cd4d31b5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: free-gcs-twn-001.bujidao.org}}
+  - {name: https://git.io/v9999 clash ip6 12, server: free-gcs-twn-003.bujidao.org, port: 6000, type: vmess, uuid: 0b544d05-b85b-36df-85c0-9f0417c5ced8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: free-gcs-twn-003.bujidao.org}}
+  - {name: https://git.io/v9999 clash ip6 13, server: free-gcs-twn-003.bujidao.org, port: 6000, type: vmess, uuid: 7f5c089e-2e07-3c57-82ad-b33b9c45d2a9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: free-gcs-twn-003.bujidao.org}}
+  - {name: https://git.io/v9999 clash ip6 14, server: free-gcs-twn-002.bujidao.org, port: 6000, type: vmess, uuid: 1f4c23ab-e109-3f97-a6af-fb41cd4d31b5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: free-gcs-twn-002.bujidao.org}}
+  - {name: https://git.io/v9999 clash ip6 15, server: free-gcs-twn-002.bujidao.org, port: 6000, type: vmess, uuid: 0b544d05-b85b-36df-85c0-9f0417c5ced8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: free-gcs-twn-002.bujidao.org}}
+  - {name: https://git.io/v9999 clash ip6 16, server: free-gcs-twn-002.bujidao.org, port: 6000, type: vmess, uuid: e676ca8b-920d-3e16-90bc-41cff4ac59bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: free-gcs-twn-002.bujidao.org}}
+  - {name: https://git.io/v9999 clash ip6 17, server: free-gcs-twn-003.bujidao.org, port: 6000, type: vmess, uuid: e676ca8b-920d-3e16-90bc-41cff4ac59bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: free-gcs-twn-003.bujidao.org}}
+  - {name: https://git.io/v9999 clash ip6 18, server: free-gcs-twn-003.bujidao.org, port: 6000, type: vmess, uuid: 1f4c23ab-e109-3f97-a6af-fb41cd4d31b5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: free-gcs-twn-003.bujidao.org}}
+  - {name: https://git.io/v9999 clash ip6 19, server: free-gcs-twn-002.bujidao.org, port: 6000, type: vmess, uuid: 7f5c089e-2e07-3c57-82ad-b33b9c45d2a9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: free-gcs-twn-002.bujidao.org}}
+  - {name: https://git.io/v9999 clash ip6 20, server: v2-hk-003.xiaoxiaobujidao.xyz, port: 80, type: vmess, uuid: 0b544d05-b85b-36df-85c0-9f0417c5ced8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: v2hk003.cccccc.cc}}
+  - {name: https://git.io/v9999 clash ip6 21, server: v2-hk-003.xiaoxiaobujidao.xyz, port: 80, type: vmess, uuid: 1f4c23ab-e109-3f97-a6af-fb41cd4d31b5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: v2hk003.cccccc.cc}}
+  - {name: https://git.io/v9999 clash ip6 22, server: v2-hk-003.xiaoxiaobujidao.xyz, port: 80, type: vmess, uuid: 7f5c089e-2e07-3c57-82ad-b33b9c45d2a9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: v2hk003.cccccc.cc}}
+  - {name: https://git.io/v9999 clash ip6 23, server: v2-hk-003.xiaoxiaobujidao.xyz, port: 80, type: vmess, uuid: e676ca8b-920d-3e16-90bc-41cff4ac59bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: v2hk003.cccccc.cc}}
+  - {name: https://git.io/v9999 clash ip6 24, server: v2-hk-002.xiaoxiaobujidao.xyz, port: 80, type: vmess, uuid: 0b544d05-b85b-36df-85c0-9f0417c5ced8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: v2hk002.cccccc.cc}}
+  - {name: https://git.io/v9999 clash ip6 25, server: v2-hk-002.xiaoxiaobujidao.xyz, port: 23342, type: vmess, uuid: 1f4c23ab-e109-3f97-a6af-fb41cd4d31b5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: v2hk002.cccccc.cc}}
+  - {name: https://git.io/v9999 clash ip6 26, server: v2-hk-002.xiaoxiaobujidao.xyz, port: 23342, type: vmess, uuid: 0b544d05-b85b-36df-85c0-9f0417c5ced8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: v2hk002.cccccc.cc}}
+  - {name: https://git.io/v9999 clash ip6 27, server: v2-hk-002.xiaoxiaobujidao.xyz, port: 23342, type: vmess, uuid: e676ca8b-920d-3e16-90bc-41cff4ac59bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: v2hk002.cccccc.cc}}
+  - {name: https://git.io/v9999 clash ip6 28, server: v2-hk-002.xiaoxiaobujidao.xyz, port: 80, type: vmess, uuid: 1f4c23ab-e109-3f97-a6af-fb41cd4d31b5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: v2hk002.cccccc.cc}}
+  - {name: https://git.io/v9999 clash ip6 29, server: v2-hk-002.xiaoxiaobujidao.xyz, port: 23342, type: vmess, uuid: 7f5c089e-2e07-3c57-82ad-b33b9c45d2a9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: v2hk002.cccccc.cc}}
+  - {name: https://git.io/v9999 clash ip6 30, server: v2-hk-002.xiaoxiaobujidao.xyz, port: 80, type: vmess, uuid: e676ca8b-920d-3e16-90bc-41cff4ac59bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: v2hk002.cccccc.cc}}
+  - {name: https://git.io/v9999 clash ip6 31, server: v2-hk-002.xiaoxiaobujidao.xyz, port: 80, type: vmess, uuid: 7f5c089e-2e07-3c57-82ad-b33b9c45d2a9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: v2hk002.cccccc.cc}}
+  - {name: https://git.io/v9999 clash ip6 32, server: v2-hk-005.xiaoxiaobujidao.xyz, port: 80, type: vmess, uuid: 0b544d05-b85b-36df-85c0-9f0417c5ced8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: v2hk005.cccccc.cc}}
+  - {name: https://git.io/v9999 clash ip6 33, server: v2-hk-005.xiaoxiaobujidao.xyz, port: 80, type: vmess, uuid: 1f4c23ab-e109-3f97-a6af-fb41cd4d31b5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: v2hk005.cccccc.cc}}
+  - {name: https://git.io/v9999 clash ip6 34, server: v2-hk-005.xiaoxiaobujidao.xyz, port: 80, type: vmess, uuid: 7f5c089e-2e07-3c57-82ad-b33b9c45d2a9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: v2hk005.cccccc.cc}}
+  - {name: https://git.io/v9999 clash ip6 35, server: v2-hk-005.xiaoxiaobujidao.xyz, port: 80, type: vmess, uuid: e676ca8b-920d-3e16-90bc-41cff4ac59bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: v2hk005.cccccc.cc}}
+  - {name: https://git.io/v9999 clash ip6 36, server: v2-hk-004.xiaoxiaobujidao.xyz, port: 80, type: vmess, uuid: 7f5c089e-2e07-3c57-82ad-b33b9c45d2a9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: v2hk004.cccccc.cc}}
+  - {name: https://git.io/v9999 clash ip6 37, server: v2-hk-004.xiaoxiaobujidao.xyz, port: 80, type: vmess, uuid: 1f4c23ab-e109-3f97-a6af-fb41cd4d31b5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: v2hk004.cccccc.cc}}
+  - {name: https://git.io/v9999 clash ip6 38, server: v2-hk-004.xiaoxiaobujidao.xyz, port: 23344, type: vmess, uuid: e676ca8b-920d-3e16-90bc-41cff4ac59bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: v2hk004.cccccc.cc}}
+  - {name: https://git.io/v9999 clash ip6 39, server: v2-hk-004.xiaoxiaobujidao.xyz, port: 23344, type: vmess, uuid: 1f4c23ab-e109-3f97-a6af-fb41cd4d31b5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: v2hk004.cccccc.cc}}
+  - {name: https://git.io/v9999 clash ip6 40, server: v2-hk-004.xiaoxiaobujidao.xyz, port: 80, type: vmess, uuid: e676ca8b-920d-3e16-90bc-41cff4ac59bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: v2hk004.cccccc.cc}}
+  - {name: https://git.io/v9999 clash ip6 41, server: v2-hk-004.xiaoxiaobujidao.xyz, port: 23344, type: vmess, uuid: 7f5c089e-2e07-3c57-82ad-b33b9c45d2a9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: v2hk004.cccccc.cc}}
+  - {name: https://git.io/v9999 clash ip6 42, server: v2-hk-004.xiaoxiaobujidao.xyz, port: 80, type: vmess, uuid: 0b544d05-b85b-36df-85c0-9f0417c5ced8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: v2hk004.cccccc.cc}}
+  - {name: https://git.io/v9999 clash ip6 43, server: v2-hk-004.xiaoxiaobujidao.xyz, port: 23344, type: vmess, uuid: 0b544d05-b85b-36df-85c0-9f0417c5ced8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: v2hk004.cccccc.cc}}
+  - {name: https://git.io/v9999 clash ip6 44, server: ali-los-001.bujidao.org, port: 80, type: vmess, uuid: 7f5c089e-2e07-3c57-82ad-b33b9c45d2a9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: v2-nl-001.xiaodao.com}}
+  - {name: https://git.io/v9999 clash ip6 45, server: t11.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t11.ssrsub.one}
+  - {name: https://git.io/v9999 clash ip6 46, server: v2-11.ssrsub.one, port: 153, type: vmess, uuid: 6bb99012-5169-405b-9443-05d8773fc120, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: n46hm52773.laowanxiang.com}}
+  - {name: https://git.io/v9999 clash ip6 47, server: t10.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t10.ssrsub.one}
+  - {name: https://git.io/v9999 clash ip6 48, server: v2-06.ssrsub.one, port: 153, type: vmess, uuid: 6bb99012-5169-405b-9443-05d8773fc120, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: n46hm52773.laowanxiang.com}}
+  - {name: https://git.io/v9999 clash ip6 49, server: v2-10.ssrsub.one, port: 153, type: vmess, uuid: 6bb99012-5169-405b-9443-05d8773fc120, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: n46hm52773.laowanxiang.com}}
+  - {name: https://git.io/v9999 clash ip6 50, server: t06.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t06.ssrsub.one}
+  - {name: https://git.io/v9999 clash ip6 51, server: t13.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t13.ssrsub.one}
+  - {name: https://git.io/v9999 clash ip6 52, server: v2-04.ssrsub.one, port: 153, type: vmess, uuid: 6bb99012-5169-405b-9443-05d8773fc120, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: n46hm52773.laowanxiang.com}}
+  - {name: https://git.io/v9999 clash ip6 53, server: v2-05.ssrsub.one, port: 153, type: vmess, uuid: 6bb99012-5169-405b-9443-05d8773fc120, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: n46hm52773.laowanxiang.com}}
+  - {name: https://git.io/v9999 clash ip6 54, server: v2-02.ssrsub.one, port: 153, type: vmess, uuid: 6bb99012-5169-405b-9443-05d8773fc120, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: n46hm52773.laowanxiang.com}}
+  - {name: https://git.io/v9999 clash ip6 55, server: v2-01.ssrsub.one, port: 153, type: vmess, uuid: 6bb99012-5169-405b-9443-05d8773fc120, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: n46hm52773.laowanxiang.com}}
+  - {name: https://git.io/v9999 clash ip6 56, server: t05.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t05.ssrsub.one}
+  - {name: https://git.io/v9999 clash ip6 57, server: v2-03.ssrsub.one, port: 153, type: vmess, uuid: 6bb99012-5169-405b-9443-05d8773fc120, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: n46hm52773.laowanxiang.com}}
+  - {name: https://git.io/v9999 clash ip6 58, server: d872c788-cbcc-4870-a7cc-d8dc559bb5fa.ddns.moonvm.net, port: 443, type: trojan, password: 8167be25-9327-4986-a3fc-21eb82e9316e, sni: d872c788-cbcc-4870-a7cc-d8dc559bb5fa.ddns.moonvm.net}
+  - {name: https://git.io/v9999 clash ip6 59, server: 138.199.19.157, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip6 60, server: 138.199.19.134, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip6 61, server: 192.154.255.52, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: https://git.io/v9999 clash ip6 62, server: 185.193.36.184, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip6 63, server: 185.134.23.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip6 64, server: 185.141.206.182, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip6 65, server: 178.238.231.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip6 66, server: 37.120.194.91, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip6 67, server: 37.120.221.5, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 clash ip6 68, server: 37.120.221.5, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: https://git.io/v9999 clash ip6 69, server: v2n10t3.fastjet.info, port: 443, type: trojan, password: xman-123-jjk, sni: v2n10t3.fastjet.info}
+  - {name: https://git.io/v9999 clash ip6 70, server: trojan.internet-cloudflare-accelerate.tk, port: 443, type: trojan, password: 52147717-3969-4dc9-8c18-883c8b3becfe, sni: trojan.internet-cloudflare-accelerate.tk}
+  - {name: https://git.io/v9999 clash ip6 71, server: 212.102.35.201, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip6 72, server: 66.115.147.89, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 clash ip6 73, server: 37.120.221.5, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -42,7 +99,64 @@ proxy-groups:
       - https://git.io/v9999 clash ip6 13
       - https://git.io/v9999 clash ip6 14
       - https://git.io/v9999 clash ip6 15
-      - https://git.io/v9999 clash ip
+      - https://git.io/v9999 clash ip6 16
+      - https://git.io/v9999 clash ip6 17
+      - https://git.io/v9999 clash ip6 18
+      - https://git.io/v9999 clash ip6 19
+      - https://git.io/v9999 clash ip6 20
+      - https://git.io/v9999 clash ip6 21
+      - https://git.io/v9999 clash ip6 22
+      - https://git.io/v9999 clash ip6 23
+      - https://git.io/v9999 clash ip6 24
+      - https://git.io/v9999 clash ip6 25
+      - https://git.io/v9999 clash ip6 26
+      - https://git.io/v9999 clash ip6 27
+      - https://git.io/v9999 clash ip6 28
+      - https://git.io/v9999 clash ip6 29
+      - https://git.io/v9999 clash ip6 30
+      - https://git.io/v9999 clash ip6 31
+      - https://git.io/v9999 clash ip6 32
+      - https://git.io/v9999 clash ip6 33
+      - https://git.io/v9999 clash ip6 34
+      - https://git.io/v9999 clash ip6 35
+      - https://git.io/v9999 clash ip6 36
+      - https://git.io/v9999 clash ip6 37
+      - https://git.io/v9999 clash ip6 38
+      - https://git.io/v9999 clash ip6 39
+      - https://git.io/v9999 clash ip6 40
+      - https://git.io/v9999 clash ip6 41
+      - https://git.io/v9999 clash ip6 42
+      - https://git.io/v9999 clash ip6 43
+      - https://git.io/v9999 clash ip6 44
+      - https://git.io/v9999 clash ip6 45
+      - https://git.io/v9999 clash ip6 46
+      - https://git.io/v9999 clash ip6 47
+      - https://git.io/v9999 clash ip6 48
+      - https://git.io/v9999 clash ip6 49
+      - https://git.io/v9999 clash ip6 50
+      - https://git.io/v9999 clash ip6 51
+      - https://git.io/v9999 clash ip6 52
+      - https://git.io/v9999 clash ip6 53
+      - https://git.io/v9999 clash ip6 54
+      - https://git.io/v9999 clash ip6 55
+      - https://git.io/v9999 clash ip6 56
+      - https://git.io/v9999 clash ip6 57
+      - https://git.io/v9999 clash ip6 58
+      - https://git.io/v9999 clash ip6 59
+      - https://git.io/v9999 clash ip6 60
+      - https://git.io/v9999 clash ip6 61
+      - https://git.io/v9999 clash ip6 62
+      - https://git.io/v9999 clash ip6 63
+      - https://git.io/v9999 clash ip6 64
+      - https://git.io/v9999 clash ip6 65
+      - https://git.io/v9999 clash ip6 66
+      - https://git.io/v9999 clash ip6 67
+      - https://git.io/v9999 clash ip6 68
+      - https://git.io/v9999 clash ip6 69
+      - https://git.io/v9999 clash ip6 70
+      - https://git.io/v9999 clash ip6 71
+      - https://git.io/v9999 clash ip6 72
+      - https://git.io/v9999 clash ip6 73
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -63,7 +177,64 @@ proxy-groups:
       - https://git.io/v9999 clash ip6 13
       - https://git.io/v9999 clash ip6 14
       - https://git.io/v9999 clash ip6 15
-      - https://git.io/v9999 clash ip
+      - https://git.io/v9999 clash ip6 16
+      - https://git.io/v9999 clash ip6 17
+      - https://git.io/v9999 clash ip6 18
+      - https://git.io/v9999 clash ip6 19
+      - https://git.io/v9999 clash ip6 20
+      - https://git.io/v9999 clash ip6 21
+      - https://git.io/v9999 clash ip6 22
+      - https://git.io/v9999 clash ip6 23
+      - https://git.io/v9999 clash ip6 24
+      - https://git.io/v9999 clash ip6 25
+      - https://git.io/v9999 clash ip6 26
+      - https://git.io/v9999 clash ip6 27
+      - https://git.io/v9999 clash ip6 28
+      - https://git.io/v9999 clash ip6 29
+      - https://git.io/v9999 clash ip6 30
+      - https://git.io/v9999 clash ip6 31
+      - https://git.io/v9999 clash ip6 32
+      - https://git.io/v9999 clash ip6 33
+      - https://git.io/v9999 clash ip6 34
+      - https://git.io/v9999 clash ip6 35
+      - https://git.io/v9999 clash ip6 36
+      - https://git.io/v9999 clash ip6 37
+      - https://git.io/v9999 clash ip6 38
+      - https://git.io/v9999 clash ip6 39
+      - https://git.io/v9999 clash ip6 40
+      - https://git.io/v9999 clash ip6 41
+      - https://git.io/v9999 clash ip6 42
+      - https://git.io/v9999 clash ip6 43
+      - https://git.io/v9999 clash ip6 44
+      - https://git.io/v9999 clash ip6 45
+      - https://git.io/v9999 clash ip6 46
+      - https://git.io/v9999 clash ip6 47
+      - https://git.io/v9999 clash ip6 48
+      - https://git.io/v9999 clash ip6 49
+      - https://git.io/v9999 clash ip6 50
+      - https://git.io/v9999 clash ip6 51
+      - https://git.io/v9999 clash ip6 52
+      - https://git.io/v9999 clash ip6 53
+      - https://git.io/v9999 clash ip6 54
+      - https://git.io/v9999 clash ip6 55
+      - https://git.io/v9999 clash ip6 56
+      - https://git.io/v9999 clash ip6 57
+      - https://git.io/v9999 clash ip6 58
+      - https://git.io/v9999 clash ip6 59
+      - https://git.io/v9999 clash ip6 60
+      - https://git.io/v9999 clash ip6 61
+      - https://git.io/v9999 clash ip6 62
+      - https://git.io/v9999 clash ip6 63
+      - https://git.io/v9999 clash ip6 64
+      - https://git.io/v9999 clash ip6 65
+      - https://git.io/v9999 clash ip6 66
+      - https://git.io/v9999 clash ip6 67
+      - https://git.io/v9999 clash ip6 68
+      - https://git.io/v9999 clash ip6 69
+      - https://git.io/v9999 clash ip6 70
+      - https://git.io/v9999 clash ip6 71
+      - https://git.io/v9999 clash ip6 72
+      - https://git.io/v9999 clash ip6 73
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -85,7 +256,64 @@ proxy-groups:
       - https://git.io/v9999 clash ip6 13
       - https://git.io/v9999 clash ip6 14
       - https://git.io/v9999 clash ip6 15
-      - https://git.io/v9999 clash ip
+      - https://git.io/v9999 clash ip6 16
+      - https://git.io/v9999 clash ip6 17
+      - https://git.io/v9999 clash ip6 18
+      - https://git.io/v9999 clash ip6 19
+      - https://git.io/v9999 clash ip6 20
+      - https://git.io/v9999 clash ip6 21
+      - https://git.io/v9999 clash ip6 22
+      - https://git.io/v9999 clash ip6 23
+      - https://git.io/v9999 clash ip6 24
+      - https://git.io/v9999 clash ip6 25
+      - https://git.io/v9999 clash ip6 26
+      - https://git.io/v9999 clash ip6 27
+      - https://git.io/v9999 clash ip6 28
+      - https://git.io/v9999 clash ip6 29
+      - https://git.io/v9999 clash ip6 30
+      - https://git.io/v9999 clash ip6 31
+      - https://git.io/v9999 clash ip6 32
+      - https://git.io/v9999 clash ip6 33
+      - https://git.io/v9999 clash ip6 34
+      - https://git.io/v9999 clash ip6 35
+      - https://git.io/v9999 clash ip6 36
+      - https://git.io/v9999 clash ip6 37
+      - https://git.io/v9999 clash ip6 38
+      - https://git.io/v9999 clash ip6 39
+      - https://git.io/v9999 clash ip6 40
+      - https://git.io/v9999 clash ip6 41
+      - https://git.io/v9999 clash ip6 42
+      - https://git.io/v9999 clash ip6 43
+      - https://git.io/v9999 clash ip6 44
+      - https://git.io/v9999 clash ip6 45
+      - https://git.io/v9999 clash ip6 46
+      - https://git.io/v9999 clash ip6 47
+      - https://git.io/v9999 clash ip6 48
+      - https://git.io/v9999 clash ip6 49
+      - https://git.io/v9999 clash ip6 50
+      - https://git.io/v9999 clash ip6 51
+      - https://git.io/v9999 clash ip6 52
+      - https://git.io/v9999 clash ip6 53
+      - https://git.io/v9999 clash ip6 54
+      - https://git.io/v9999 clash ip6 55
+      - https://git.io/v9999 clash ip6 56
+      - https://git.io/v9999 clash ip6 57
+      - https://git.io/v9999 clash ip6 58
+      - https://git.io/v9999 clash ip6 59
+      - https://git.io/v9999 clash ip6 60
+      - https://git.io/v9999 clash ip6 61
+      - https://git.io/v9999 clash ip6 62
+      - https://git.io/v9999 clash ip6 63
+      - https://git.io/v9999 clash ip6 64
+      - https://git.io/v9999 clash ip6 65
+      - https://git.io/v9999 clash ip6 66
+      - https://git.io/v9999 clash ip6 67
+      - https://git.io/v9999 clash ip6 68
+      - https://git.io/v9999 clash ip6 69
+      - https://git.io/v9999 clash ip6 70
+      - https://git.io/v9999 clash ip6 71
+      - https://git.io/v9999 clash ip6 72
+      - https://git.io/v9999 clash ip6 73
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -111,7 +339,64 @@ proxy-groups:
       - https://git.io/v9999 clash ip6 13
       - https://git.io/v9999 clash ip6 14
       - https://git.io/v9999 clash ip6 15
-      - https://git.io/v9999 clash ip
+      - https://git.io/v9999 clash ip6 16
+      - https://git.io/v9999 clash ip6 17
+      - https://git.io/v9999 clash ip6 18
+      - https://git.io/v9999 clash ip6 19
+      - https://git.io/v9999 clash ip6 20
+      - https://git.io/v9999 clash ip6 21
+      - https://git.io/v9999 clash ip6 22
+      - https://git.io/v9999 clash ip6 23
+      - https://git.io/v9999 clash ip6 24
+      - https://git.io/v9999 clash ip6 25
+      - https://git.io/v9999 clash ip6 26
+      - https://git.io/v9999 clash ip6 27
+      - https://git.io/v9999 clash ip6 28
+      - https://git.io/v9999 clash ip6 29
+      - https://git.io/v9999 clash ip6 30
+      - https://git.io/v9999 clash ip6 31
+      - https://git.io/v9999 clash ip6 32
+      - https://git.io/v9999 clash ip6 33
+      - https://git.io/v9999 clash ip6 34
+      - https://git.io/v9999 clash ip6 35
+      - https://git.io/v9999 clash ip6 36
+      - https://git.io/v9999 clash ip6 37
+      - https://git.io/v9999 clash ip6 38
+      - https://git.io/v9999 clash ip6 39
+      - https://git.io/v9999 clash ip6 40
+      - https://git.io/v9999 clash ip6 41
+      - https://git.io/v9999 clash ip6 42
+      - https://git.io/v9999 clash ip6 43
+      - https://git.io/v9999 clash ip6 44
+      - https://git.io/v9999 clash ip6 45
+      - https://git.io/v9999 clash ip6 46
+      - https://git.io/v9999 clash ip6 47
+      - https://git.io/v9999 clash ip6 48
+      - https://git.io/v9999 clash ip6 49
+      - https://git.io/v9999 clash ip6 50
+      - https://git.io/v9999 clash ip6 51
+      - https://git.io/v9999 clash ip6 52
+      - https://git.io/v9999 clash ip6 53
+      - https://git.io/v9999 clash ip6 54
+      - https://git.io/v9999 clash ip6 55
+      - https://git.io/v9999 clash ip6 56
+      - https://git.io/v9999 clash ip6 57
+      - https://git.io/v9999 clash ip6 58
+      - https://git.io/v9999 clash ip6 59
+      - https://git.io/v9999 clash ip6 60
+      - https://git.io/v9999 clash ip6 61
+      - https://git.io/v9999 clash ip6 62
+      - https://git.io/v9999 clash ip6 63
+      - https://git.io/v9999 clash ip6 64
+      - https://git.io/v9999 clash ip6 65
+      - https://git.io/v9999 clash ip6 66
+      - https://git.io/v9999 clash ip6 67
+      - https://git.io/v9999 clash ip6 68
+      - https://git.io/v9999 clash ip6 69
+      - https://git.io/v9999 clash ip6 70
+      - https://git.io/v9999 clash ip6 71
+      - https://git.io/v9999 clash ip6 72
+      - https://git.io/v9999 clash ip6 73
   - name: 📲 电报信息
     type: select
     proxies:
@@ -132,7 +417,64 @@ proxy-groups:
       - https://git.io/v9999 clash ip6 13
       - https://git.io/v9999 clash ip6 14
       - https://git.io/v9999 clash ip6 15
-      - https://git.io/v9999 clash ip
+      - https://git.io/v9999 clash ip6 16
+      - https://git.io/v9999 clash ip6 17
+      - https://git.io/v9999 clash ip6 18
+      - https://git.io/v9999 clash ip6 19
+      - https://git.io/v9999 clash ip6 20
+      - https://git.io/v9999 clash ip6 21
+      - https://git.io/v9999 clash ip6 22
+      - https://git.io/v9999 clash ip6 23
+      - https://git.io/v9999 clash ip6 24
+      - https://git.io/v9999 clash ip6 25
+      - https://git.io/v9999 clash ip6 26
+      - https://git.io/v9999 clash ip6 27
+      - https://git.io/v9999 clash ip6 28
+      - https://git.io/v9999 clash ip6 29
+      - https://git.io/v9999 clash ip6 30
+      - https://git.io/v9999 clash ip6 31
+      - https://git.io/v9999 clash ip6 32
+      - https://git.io/v9999 clash ip6 33
+      - https://git.io/v9999 clash ip6 34
+      - https://git.io/v9999 clash ip6 35
+      - https://git.io/v9999 clash ip6 36
+      - https://git.io/v9999 clash ip6 37
+      - https://git.io/v9999 clash ip6 38
+      - https://git.io/v9999 clash ip6 39
+      - https://git.io/v9999 clash ip6 40
+      - https://git.io/v9999 clash ip6 41
+      - https://git.io/v9999 clash ip6 42
+      - https://git.io/v9999 clash ip6 43
+      - https://git.io/v9999 clash ip6 44
+      - https://git.io/v9999 clash ip6 45
+      - https://git.io/v9999 clash ip6 46
+      - https://git.io/v9999 clash ip6 47
+      - https://git.io/v9999 clash ip6 48
+      - https://git.io/v9999 clash ip6 49
+      - https://git.io/v9999 clash ip6 50
+      - https://git.io/v9999 clash ip6 51
+      - https://git.io/v9999 clash ip6 52
+      - https://git.io/v9999 clash ip6 53
+      - https://git.io/v9999 clash ip6 54
+      - https://git.io/v9999 clash ip6 55
+      - https://git.io/v9999 clash ip6 56
+      - https://git.io/v9999 clash ip6 57
+      - https://git.io/v9999 clash ip6 58
+      - https://git.io/v9999 clash ip6 59
+      - https://git.io/v9999 clash ip6 60
+      - https://git.io/v9999 clash ip6 61
+      - https://git.io/v9999 clash ip6 62
+      - https://git.io/v9999 clash ip6 63
+      - https://git.io/v9999 clash ip6 64
+      - https://git.io/v9999 clash ip6 65
+      - https://git.io/v9999 clash ip6 66
+      - https://git.io/v9999 clash ip6 67
+      - https://git.io/v9999 clash ip6 68
+      - https://git.io/v9999 clash ip6 69
+      - https://git.io/v9999 clash ip6 70
+      - https://git.io/v9999 clash ip6 71
+      - https://git.io/v9999 clash ip6 72
+      - https://git.io/v9999 clash ip6 73
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -154,7 +496,64 @@ proxy-groups:
       - https://git.io/v9999 clash ip6 13
       - https://git.io/v9999 clash ip6 14
       - https://git.io/v9999 clash ip6 15
-      - https://git.io/v9999 clash ip
+      - https://git.io/v9999 clash ip6 16
+      - https://git.io/v9999 clash ip6 17
+      - https://git.io/v9999 clash ip6 18
+      - https://git.io/v9999 clash ip6 19
+      - https://git.io/v9999 clash ip6 20
+      - https://git.io/v9999 clash ip6 21
+      - https://git.io/v9999 clash ip6 22
+      - https://git.io/v9999 clash ip6 23
+      - https://git.io/v9999 clash ip6 24
+      - https://git.io/v9999 clash ip6 25
+      - https://git.io/v9999 clash ip6 26
+      - https://git.io/v9999 clash ip6 27
+      - https://git.io/v9999 clash ip6 28
+      - https://git.io/v9999 clash ip6 29
+      - https://git.io/v9999 clash ip6 30
+      - https://git.io/v9999 clash ip6 31
+      - https://git.io/v9999 clash ip6 32
+      - https://git.io/v9999 clash ip6 33
+      - https://git.io/v9999 clash ip6 34
+      - https://git.io/v9999 clash ip6 35
+      - https://git.io/v9999 clash ip6 36
+      - https://git.io/v9999 clash ip6 37
+      - https://git.io/v9999 clash ip6 38
+      - https://git.io/v9999 clash ip6 39
+      - https://git.io/v9999 clash ip6 40
+      - https://git.io/v9999 clash ip6 41
+      - https://git.io/v9999 clash ip6 42
+      - https://git.io/v9999 clash ip6 43
+      - https://git.io/v9999 clash ip6 44
+      - https://git.io/v9999 clash ip6 45
+      - https://git.io/v9999 clash ip6 46
+      - https://git.io/v9999 clash ip6 47
+      - https://git.io/v9999 clash ip6 48
+      - https://git.io/v9999 clash ip6 49
+      - https://git.io/v9999 clash ip6 50
+      - https://git.io/v9999 clash ip6 51
+      - https://git.io/v9999 clash ip6 52
+      - https://git.io/v9999 clash ip6 53
+      - https://git.io/v9999 clash ip6 54
+      - https://git.io/v9999 clash ip6 55
+      - https://git.io/v9999 clash ip6 56
+      - https://git.io/v9999 clash ip6 57
+      - https://git.io/v9999 clash ip6 58
+      - https://git.io/v9999 clash ip6 59
+      - https://git.io/v9999 clash ip6 60
+      - https://git.io/v9999 clash ip6 61
+      - https://git.io/v9999 clash ip6 62
+      - https://git.io/v9999 clash ip6 63
+      - https://git.io/v9999 clash ip6 64
+      - https://git.io/v9999 clash ip6 65
+      - https://git.io/v9999 clash ip6 66
+      - https://git.io/v9999 clash ip6 67
+      - https://git.io/v9999 clash ip6 68
+      - https://git.io/v9999 clash ip6 69
+      - https://git.io/v9999 clash ip6 70
+      - https://git.io/v9999 clash ip6 71
+      - https://git.io/v9999 clash ip6 72
+      - https://git.io/v9999 clash ip6 73
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -185,7 +584,64 @@ proxy-groups:
       - https://git.io/v9999 clash ip6 13
       - https://git.io/v9999 clash ip6 14
       - https://git.io/v9999 clash ip6 15
-      - https://git.io/v9999 clash ip
+      - https://git.io/v9999 clash ip6 16
+      - https://git.io/v9999 clash ip6 17
+      - https://git.io/v9999 clash ip6 18
+      - https://git.io/v9999 clash ip6 19
+      - https://git.io/v9999 clash ip6 20
+      - https://git.io/v9999 clash ip6 21
+      - https://git.io/v9999 clash ip6 22
+      - https://git.io/v9999 clash ip6 23
+      - https://git.io/v9999 clash ip6 24
+      - https://git.io/v9999 clash ip6 25
+      - https://git.io/v9999 clash ip6 26
+      - https://git.io/v9999 clash ip6 27
+      - https://git.io/v9999 clash ip6 28
+      - https://git.io/v9999 clash ip6 29
+      - https://git.io/v9999 clash ip6 30
+      - https://git.io/v9999 clash ip6 31
+      - https://git.io/v9999 clash ip6 32
+      - https://git.io/v9999 clash ip6 33
+      - https://git.io/v9999 clash ip6 34
+      - https://git.io/v9999 clash ip6 35
+      - https://git.io/v9999 clash ip6 36
+      - https://git.io/v9999 clash ip6 37
+      - https://git.io/v9999 clash ip6 38
+      - https://git.io/v9999 clash ip6 39
+      - https://git.io/v9999 clash ip6 40
+      - https://git.io/v9999 clash ip6 41
+      - https://git.io/v9999 clash ip6 42
+      - https://git.io/v9999 clash ip6 43
+      - https://git.io/v9999 clash ip6 44
+      - https://git.io/v9999 clash ip6 45
+      - https://git.io/v9999 clash ip6 46
+      - https://git.io/v9999 clash ip6 47
+      - https://git.io/v9999 clash ip6 48
+      - https://git.io/v9999 clash ip6 49
+      - https://git.io/v9999 clash ip6 50
+      - https://git.io/v9999 clash ip6 51
+      - https://git.io/v9999 clash ip6 52
+      - https://git.io/v9999 clash ip6 53
+      - https://git.io/v9999 clash ip6 54
+      - https://git.io/v9999 clash ip6 55
+      - https://git.io/v9999 clash ip6 56
+      - https://git.io/v9999 clash ip6 57
+      - https://git.io/v9999 clash ip6 58
+      - https://git.io/v9999 clash ip6 59
+      - https://git.io/v9999 clash ip6 60
+      - https://git.io/v9999 clash ip6 61
+      - https://git.io/v9999 clash ip6 62
+      - https://git.io/v9999 clash ip6 63
+      - https://git.io/v9999 clash ip6 64
+      - https://git.io/v9999 clash ip6 65
+      - https://git.io/v9999 clash ip6 66
+      - https://git.io/v9999 clash ip6 67
+      - https://git.io/v9999 clash ip6 68
+      - https://git.io/v9999 clash ip6 69
+      - https://git.io/v9999 clash ip6 70
+      - https://git.io/v9999 clash ip6 71
+      - https://git.io/v9999 clash ip6 72
+      - https://git.io/v9999 clash ip6 73
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
