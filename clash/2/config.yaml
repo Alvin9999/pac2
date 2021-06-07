@@ -6,11 +6,10 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: https://git.io/v9999 clash ip4trojan, server: test1.free2222.xyz, port: 443, type: trojan, password: O4l7WfZgyrzIQfYt, sni: test1.free2222.xyz}
-  - {name: https://git.io/v9999 clash ip3, server: n4.itocm.com, port: 443, type: trojan, password: fangyygw, sni: n4.itocm.com}
-  - {name: https://git.io/v9999 clash ip3 2, server: g21.newword.site, port: 443, type: trojan, password: 33b751be-b753-4f26-b2e5-964224d966be, sni: g21.newword.site}
-  - {name: https://git.io/v9999 clash ip3 3, server: g24.newword.site, port: 443, type: trojan, password: 33b751be-b753-4f26-b2e5-964224d966be, sni: g24.newword.site}
-  - {name: https://git.io/v9999 clash ip3 4, server: 43.240.206.227, port: 3389, type: trojan, password: ba4fedf8c217c146}
-  - {name: https://git.io/v9999 clash ip3 5, server: 120.236.197.205, port: 3389, type: trojan, password: ba4fedf8c217c146}
+  - {name: https://git.io/v9999 clash ip3, server: g21.newword.site, port: 443, type: trojan, password: 33b751be-b753-4f26-b2e5-964224d966be, sni: g21.newword.site}
+  - {name: https://git.io/v9999 clash ip3 2, server: g24.newword.site, port: 443, type: trojan, password: 33b751be-b753-4f26-b2e5-964224d966be, sni: g24.newword.site}
+  - {name: https://git.io/v9999 clash ip3 3, server: 43.240.206.227, port: 3389, type: trojan, password: ba4fedf8c217c146}
+  - {name: https://git.io/v9999 clash ip3 4, server: 120.236.197.205, port: 3389, type: trojan, password: ba4fedf8c217c146}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -22,7 +21,6 @@ proxy-groups:
       - https://git.io/v9999 clash ip3 2
       - https://git.io/v9999 clash ip3 3
       - https://git.io/v9999 clash ip3 4
-      - https://git.io/v9999 clash ip3 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -33,7 +31,6 @@ proxy-groups:
       - https://git.io/v9999 clash ip3 2
       - https://git.io/v9999 clash ip3 3
       - https://git.io/v9999 clash ip3 4
-      - https://git.io/v9999 clash ip3 5
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -45,7 +42,6 @@ proxy-groups:
       - https://git.io/v9999 clash ip3 2
       - https://git.io/v9999 clash ip3 3
       - https://git.io/v9999 clash ip3 4
-      - https://git.io/v9999 clash ip3 5
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -61,7 +57,6 @@ proxy-groups:
       - https://git.io/v9999 clash ip3 2
       - https://git.io/v9999 clash ip3 3
       - https://git.io/v9999 clash ip3 4
-      - https://git.io/v9999 clash ip3 5
   - name: 📲 电报信息
     type: select
     proxies:
@@ -72,7 +67,6 @@ proxy-groups:
       - https://git.io/v9999 clash ip3 2
       - https://git.io/v9999 clash ip3 3
       - https://git.io/v9999 clash ip3 4
-      - https://git.io/v9999 clash ip3 5
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -84,7 +78,6 @@ proxy-groups:
       - https://git.io/v9999 clash ip3 2
       - https://git.io/v9999 clash ip3 3
       - https://git.io/v9999 clash ip3 4
-      - https://git.io/v9999 clash ip3 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -105,7 +98,6 @@ proxy-groups:
       - https://git.io/v9999 clash ip3 2
       - https://git.io/v9999 clash ip3 3
       - https://git.io/v9999 clash ip3 4
-      - https://git.io/v9999 clash ip3 5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
