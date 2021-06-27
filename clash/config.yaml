@@ -5,122 +5,124 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇷🇺 https://git.io/v9999 clash ip1 莫斯科CN2, server: 176.32.35.73, port: 44444, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: https://git.io/v9999 clash ip1, server: 91.245.254.51, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 2, server: 91.245.254.61, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 3, server: 195.47.194.42, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 4, server: 91.245.254.237, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 5, server: 86.106.157.160, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 6, server: 91.245.254.125, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 7, server: 193.29.106.123, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 8, server: 37.120.233.51, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 9, server: 37.120.233.67, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 10, server: 217.138.200.187, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 11, server: 217.138.200.189, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 12, server: 217.138.220.147, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 13, server: 37.120.233.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 14, server: 139.28.176.43, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 15, server: 89.36.76.67, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 16, server: 91.90.121.211, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 17, server: 89.36.76.61, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 18, server: 37.120.233.237, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 19, server: 37.120.233.101, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 20, server: 37.120.233.37, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 21, server: 37.120.233.141, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 22, server: 91.90.121.173, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 23, server: 91.90.121.163, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 24, server: 91.245.254.21, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 25, server: 138.199.42.153, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 26, server: 209.216.92.20, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 27, server: 198.8.92.84, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: https://git.io/v9999 clash ip1 28, server: 198.147.22.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 clash ip1 29, server: 146.70.27.59, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 30, server: 37.120.233.61, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 31, server: 146.70.27.45, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 32, server: 139.28.218.83, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 33, server: 139.28.176.163, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 34, server: 81.19.214.32, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 35, server: 89.34.99.87, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 36, server: 172.98.78.227, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 37, server: 86.106.90.29, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 38, server: 138.199.42.159, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 39, server: 94.20.154.85, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 40, server: 138.199.42.135, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 41, server: 138.199.42.143, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 42, server: 217.146.82.197, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 43, server: 193.148.17.149, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 44, server: 89.46.223.187, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 45, server: 217.146.82.252, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 46, server: 185.124.240.153, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 47, server: 84.39.114.157, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 48, server: 81.92.205.123, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 49, server: 89.238.134.61, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 50, server: 212.102.54.175, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 51, server: ss.pl.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: M1LCZAlfz1bV}
-  - {name: https://git.io/v9999 clash ip1 52, server: 91.90.123.115, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 clash ip1 53, server: 91.90.123.115, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: https://git.io/v9999 clash ip1 54, server: 212.102.54.137, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 55, server: 91.90.123.115, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 clash ip1 56, server: ss.fr.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: 6nhHHuGHw2D5}
-  - {name: https://git.io/v9999 clash ip1 57, server: 91.90.123.115, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: https://git.io/v9999 clash ip1 58, server: 91.90.123.115, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: https://git.io/v9999 clash ip1 59, server: 91.90.123.115, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: https://git.io/v9999 clash ip1 60, server: 195.181.171.247, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 61, server: 91.90.123.115, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: https://git.io/v9999 clash ip1 62, server: 91.90.123.115, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: https://git.io/v9999 clash ip1 63, server: 91.90.123.115, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: https://git.io/v9999 clash ip1 64, server: 89.46.223.60, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 65, server: 91.90.123.115, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: https://git.io/v9999 clash ip1 66, server: 23.81.179.82, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 67, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 clash ip1 68, server: ss.uk.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: HgVDIN05O6bH}
-  - {name: https://git.io/v9999 clash ip1 69, server: 51.81.35.164, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: syCiJl3nb8OD}
-  - {name: https://git.io/v9999 clash ip1 70, server: 146.59.3.33, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: M1LCZAlfz1bV}
-  - {name: https://git.io/v9999 clash ip1 71, server: 45.134.224.15, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: https://git.io/v9999 clash ip1 72, server: 91.90.123.115, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: https://git.io/v9999 clash ip1 73, server: ss.us.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: syCiJl3nb8OD}
-  - {name: https://git.io/v9999 clash ip1 74, server: 84.17.58.197, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 75, server: 51.195.149.30, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: HgVDIN05O6bH}
-  - {name: https://git.io/v9999 clash ip1 76, server: 51.77.170.89, port: 4040, type: ss, cipher: aes-256-gcm, password: mLALZNdiT5zG}
-  - {name: https://git.io/v9999 clash ip1 77, server: 143.244.42.71, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 clash ip1 78, server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: HgCMlgbtQMxl}
-  - {name: https://git.io/v9999 clash ip1 79, server: 51.75.141.238, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: 6nhHHuGHw2D5}
-  - {name: https://git.io/v9999 clash ip1 80, server: 51.195.118.69, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: HgCMlgbtQMxl}
-  - {name: https://git.io/v9999 clash ip1 81, server: 185.44.76.104, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 82, server: 143.244.42.96, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 83, server: 51.195.62.220, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: https://git.io/v9999 clash ip1 84, server: 51.195.62.220, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: https://git.io/v9999 clash ip1 85, server: 91.90.123.115, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: https://git.io/v9999 clash ip1 86, server: 51.195.118.69, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: cWv8FcJk0VpS}
-  - {name: https://git.io/v9999 clash ip1 87, server: 51.89.99.59, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: https://git.io/v9999 clash ip1 88, server: 91.90.123.115, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: https://git.io/v9999 clash ip1 89, server: 84.17.35.78, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 clash ip1 90, server: 91.90.123.115, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: https://git.io/v9999 clash ip1 91, server: nl1.hiout.me, port: 36402, type: ss, cipher: aes-256-gcm, password: qLVVsktJzWpi}
-  - {name: https://git.io/v9999 clash ip1 92, server: 143.244.60.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 clash ip1 93, server: 91.90.123.115, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: https://git.io/v9999 clash ip1 94, server: 91.90.123.115, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1, server: 91.90.121.133, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 2, server: 195.47.194.93, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 3, server: 37.120.206.235, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 4, server: 92.38.138.139, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 5, server: 91.245.254.27, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 6, server: 91.245.254.115, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 7, server: 37.120.233.123, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 8, server: 37.120.233.125, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 9, server: 37.120.233.19, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 10, server: 143.244.42.81, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 11, server: 173.237.207.58, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 12, server: 193.29.107.205, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 13, server: 193.29.107.211, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 14, server: 193.29.107.229, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 15, server: 37.120.235.211, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 16, server: 37.120.206.237, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 17, server: 23.108.108.84, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 18, server: 185.216.32.59, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 19, server: 138.199.16.137, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 20, server: 138.199.16.140, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 21, server: 138.199.16.147, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 22, server: 81.19.208.93, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 23, server: 45.83.88.75, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 24, server: 194.37.96.243, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 25, server: 185.44.76.72, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 26, server: 185.134.22.232, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 27, server: 185.38.150.124, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 28, server: 66.115.182.109, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 29, server: 207.244.125.132, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 30, server: 5.157.13.83, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 31, server: 89.46.223.56, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 32, server: 86.106.157.210, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 33, server: 89.46.223.54, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 34, server: 217.146.83.69, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 35, server: 217.146.82.240, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 36, server: 86.106.90.35, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 37, server: 89.238.133.115, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 38, server: 89.238.135.43, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 39, server: 89.238.130.245, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 40, server: 89.44.201.179, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 41, server: 89.46.223.52, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 42, server: 217.138.196.203, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 43, server: 89.46.223.66, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 44, server: 89.46.223.70, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 45, server: 89.46.223.183, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 46, server: 37.120.233.237, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 47, server: 212.102.54.175, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 48, server: ss.pl.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: M1LCZAlfz1bV}
+  - {name: https://git.io/v9999 clash ip1 49, server: 84.17.58.197, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 50, server: 91.90.121.173, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 51, server: 51.195.62.220, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: https://git.io/v9999 clash ip1 52, server: 51.195.62.220, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: https://git.io/v9999 clash ip1 53, server: 51.195.149.30, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: HgVDIN05O6bH}
+  - {name: https://git.io/v9999 clash ip1 54, server: 91.90.123.115, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: https://git.io/v9999 clash ip1 55, server: 51.89.99.59, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: https://git.io/v9999 clash ip1 56, server: 91.90.123.115, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: https://git.io/v9999 clash ip1 57, server: 138.199.42.159, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 58, server: 23.81.179.82, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 59, server: 185.44.76.104, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 60, server: 91.90.123.115, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: https://git.io/v9999 clash ip1 61, server: 89.34.99.87, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 62, server: 143.244.60.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip1 63, server: 209.216.92.20, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 64, server: ss.us.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: syCiJl3nb8OD}
+  - {name: https://git.io/v9999 clash ip1 65, server: 37.120.233.61, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 66, server: 51.81.35.164, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: syCiJl3nb8OD}
+  - {name: https://git.io/v9999 clash ip1 67, server: 51.195.118.69, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: HgCMlgbtQMxl}
+  - {name: https://git.io/v9999 clash ip1 68, server: 91.90.123.115, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: https://git.io/v9999 clash ip1 69, server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: HgCMlgbtQMxl}
+  - {name: https://git.io/v9999 clash ip1 70, server: 91.90.123.115, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: https://git.io/v9999 clash ip1 71, server: 91.90.123.115, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: https://git.io/v9999 clash ip1 72, server: 84.17.35.78, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 clash ip1 73, server: 51.195.118.69, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: cWv8FcJk0VpS}
+  - {name: https://git.io/v9999 clash ip1 74, server: ss.uk.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: HgVDIN05O6bH}
+  - {name: https://git.io/v9999 clash ip1 75, server: 91.90.123.115, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 clash ip1 76, server: 91.90.123.115, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: https://git.io/v9999 clash ip1 77, server: 91.90.123.115, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: https://git.io/v9999 clash ip1 78, server: 91.90.123.115, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: https://git.io/v9999 clash ip1 79, server: 212.102.54.137, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 80, server: ss.uk.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: JSvsHhHYIuVG}
+  - {name: https://git.io/v9999 clash ip1 81, server: 143.244.42.71, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://git.io/v9999 clash ip1 82, server: 51.77.170.89, port: 4040, type: ss, cipher: aes-256-gcm, password: mLALZNdiT5zG}
+  - {name: https://git.io/v9999 clash ip1 83, server: 84.17.58.134, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 84, server: 91.90.123.115, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://git.io/v9999 clash ip1 85, server: 91.90.123.115, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: https://git.io/v9999 clash ip1 86, server: 91.90.123.115, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: https://git.io/v9999 clash ip1 87, server: 91.90.123.115, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: https://git.io/v9999 clash ip1 88, server: 91.90.123.115, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: https://git.io/v9999 clash ip1 89, server: 81.19.214.32, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 90, server: 91.90.123.115, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: https://git.io/v9999 clash ip1 91, server: 91.90.123.115, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 92, server: 217.146.82.252, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 93, server: 146.70.27.59, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 94, server: 217.138.220.147, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: https://git.io/v9999 clash ip1 95, server: 91.90.123.115, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: https://git.io/v9999 clash ip1 96, server: 91.90.123.115, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: https://git.io/v9999 clash ip1 97, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 clash ip1 98, server: 84.17.35.86, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 clash ip1 99, server: 91.90.123.115, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: https://git.io/v9999 clash ip1 100, server: 91.90.123.115, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: https://git.io/v9999 clash ip1 101, server: 91.90.123.115, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: https://git.io/v9999 clash ip1 102, server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: cWv8FcJk0VpS}
-  - {name: https://git.io/v9999 clash ip1 103, server: 212.102.44.83, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: https://git.io/v9999 clash ip1 104, server: 82.102.26.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 clash ip1 105, server: 84.17.58.134, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://git.io/v9999 clash ip1 106, server: ss.uk.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: JSvsHhHYIuVG}
-  - {name: https://git.io/v9999 clash ip1 107, server: 207.244.67.149, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: https://git.io/v9999 clash ip1 108, server: 136.243.158.13, port: 4040, type: ss, cipher: aes-256-gcm, password: BsNmpzet3AnY}
+  - {name: https://git.io/v9999 clash ip1 96, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip1 97, server: 86.106.157.160, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 98, server: 138.199.42.153, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 99, server: 138.199.42.143, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 100, server: 172.98.78.227, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 101, server: 195.181.171.247, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 102, server: 138.199.42.135, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 103, server: 94.20.154.85, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 104, server: 198.147.22.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 clash ip1 105, server: 217.146.82.197, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 106, server: nl1.hiout.me, port: 36402, type: ss, cipher: aes-256-gcm, password: qLVVsktJzWpi}
+  - {name: https://git.io/v9999 clash ip1 107, server: 193.148.17.149, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 108, server: 143.244.42.96, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://git.io/v9999 clash ip1 109, server: 84.17.35.86, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip1 110, server: 91.90.123.115, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: https://git.io/v9999 clash ip1 111, server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: cWv8FcJk0VpS}
+  - {name: https://git.io/v9999 clash ip1 112, server: 207.244.67.149, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇺 https://git.io/v9999 clash ip1 莫斯科CN2
       - https://git.io/v9999 clash ip1
       - https://git.io/v9999 clash ip1 2
       - https://git.io/v9999 clash ip1 3
@@ -229,12 +231,15 @@ proxy-groups:
       - https://git.io/v9999 clash ip1 106
       - https://git.io/v9999 clash ip1 107
       - https://git.io/v9999 clash ip1 108
+      - https://git.io/v9999 clash ip1 109
+      - https://git.io/v9999 clash ip1 110
+      - https://git.io/v9999 clash ip1 111
+      - https://git.io/v9999 clash ip1 112
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇷🇺 https://git.io/v9999 clash ip1 莫斯科CN2
       - https://git.io/v9999 clash ip1
       - https://git.io/v9999 clash ip1 2
       - https://git.io/v9999 clash ip1 3
@@ -343,13 +348,16 @@ proxy-groups:
       - https://git.io/v9999 clash ip1 106
       - https://git.io/v9999 clash ip1 107
       - https://git.io/v9999 clash ip1 108
+      - https://git.io/v9999 clash ip1 109
+      - https://git.io/v9999 clash ip1 110
+      - https://git.io/v9999 clash ip1 111
+      - https://git.io/v9999 clash ip1 112
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇺 https://git.io/v9999 clash ip1 莫斯科CN2
       - https://git.io/v9999 clash ip1
       - https://git.io/v9999 clash ip1 2
       - https://git.io/v9999 clash ip1 3
@@ -458,6 +466,10 @@ proxy-groups:
       - https://git.io/v9999 clash ip1 106
       - https://git.io/v9999 clash ip1 107
       - https://git.io/v9999 clash ip1 108
+      - https://git.io/v9999 clash ip1 109
+      - https://git.io/v9999 clash ip1 110
+      - https://git.io/v9999 clash ip1 111
+      - https://git.io/v9999 clash ip1 112
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -468,7 +480,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇷🇺 https://git.io/v9999 clash ip1 莫斯科CN2
       - https://git.io/v9999 clash ip1
       - https://git.io/v9999 clash ip1 2
       - https://git.io/v9999 clash ip1 3
@@ -577,12 +588,15 @@ proxy-groups:
       - https://git.io/v9999 clash ip1 106
       - https://git.io/v9999 clash ip1 107
       - https://git.io/v9999 clash ip1 108
+      - https://git.io/v9999 clash ip1 109
+      - https://git.io/v9999 clash ip1 110
+      - https://git.io/v9999 clash ip1 111
+      - https://git.io/v9999 clash ip1 112
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇷🇺 https://git.io/v9999 clash ip1 莫斯科CN2
       - https://git.io/v9999 clash ip1
       - https://git.io/v9999 clash ip1 2
       - https://git.io/v9999 clash ip1 3
@@ -691,13 +705,16 @@ proxy-groups:
       - https://git.io/v9999 clash ip1 106
       - https://git.io/v9999 clash ip1 107
       - https://git.io/v9999 clash ip1 108
+      - https://git.io/v9999 clash ip1 109
+      - https://git.io/v9999 clash ip1 110
+      - https://git.io/v9999 clash ip1 111
+      - https://git.io/v9999 clash ip1 112
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇺 https://git.io/v9999 clash ip1 莫斯科CN2
       - https://git.io/v9999 clash ip1
       - https://git.io/v9999 clash ip1 2
       - https://git.io/v9999 clash ip1 3
@@ -806,6 +823,10 @@ proxy-groups:
       - https://git.io/v9999 clash ip1 106
       - https://git.io/v9999 clash ip1 107
       - https://git.io/v9999 clash ip1 108
+      - https://git.io/v9999 clash ip1 109
+      - https://git.io/v9999 clash ip1 110
+      - https://git.io/v9999 clash ip1 111
+      - https://git.io/v9999 clash ip1 112
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -821,7 +842,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇺 https://git.io/v9999 clash ip1 莫斯科CN2
       - https://git.io/v9999 clash ip1
       - https://git.io/v9999 clash ip1 2
       - https://git.io/v9999 clash ip1 3
@@ -930,6 +950,10 @@ proxy-groups:
       - https://git.io/v9999 clash ip1 106
       - https://git.io/v9999 clash ip1 107
       - https://git.io/v9999 clash ip1 108
+      - https://git.io/v9999 clash ip1 109
+      - https://git.io/v9999 clash ip1 110
+      - https://git.io/v9999 clash ip1 111
+      - https://git.io/v9999 clash ip1 112
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
