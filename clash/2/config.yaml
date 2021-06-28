@@ -5,39 +5,39 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇷🇺 https://git.io/v9999 clash莫斯科, server: trojan-ru.free2222.xyz, port: 443, type: vmess, uuid: 32d4436a-9595-4e6b-86fc-86991c06aaf1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: trojan-ru.free2222.xyz}}
   - {name: https://git.io/v9999 clash ip4trojan2 ru, server: trojan-ru1.free3333.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan-ru1.free3333.xyz}
-  - {name: https://git.io/v9999 clash ip4trojan1 vultr, server: trojan1.free2222.xyz, port: 443, type: trojan, password: ArQyeYjtonsFUfL8, sni: trojan1.free2222.xyz}
+  - {name: https://git.io/v9999 clash ip3ip4 ru2, server: free-ru2.free3333.xyz, port: 443, type: vmess, uuid: d0958744-a5cd-4929-9149-926de4a64bab, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: free-ru2.free3333.xyz}}
   - {name: https://git.io/v9999 clash ip3ip4 ru, server: free-ru1.free3333.xyz, port: 443, type: vmess, uuid: 7b6e4347-3c7f-4b8c-af0c-53831d54b6c7, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: free-ru1.free3333.xyz}}
-  - {name: 🇷🇺 https://git.io/v9999 clash ip1 莫斯科CN2, server: 176.32.35.73, port: 23456, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇷🇺 https://git.io/v9999 clash莫斯科
       - https://git.io/v9999 clash ip4trojan2 ru
-      - https://git.io/v9999 clash ip4trojan1 vultr
+      - https://git.io/v9999 clash ip3ip4 ru2
       - https://git.io/v9999 clash ip3ip4 ru
-      - 🇷🇺 https://git.io/v9999 clash ip1 莫斯科CN2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇷🇺 https://git.io/v9999 clash莫斯科
       - https://git.io/v9999 clash ip4trojan2 ru
-      - https://git.io/v9999 clash ip4trojan1 vultr
+      - https://git.io/v9999 clash ip3ip4 ru2
       - https://git.io/v9999 clash ip3ip4 ru
-      - 🇷🇺 https://git.io/v9999 clash ip1 莫斯科CN2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇷🇺 https://git.io/v9999 clash莫斯科
       - https://git.io/v9999 clash ip4trojan2 ru
-      - https://git.io/v9999 clash ip4trojan1 vultr
+      - https://git.io/v9999 clash ip3ip4 ru2
       - https://git.io/v9999 clash ip3ip4 ru
-      - 🇷🇺 https://git.io/v9999 clash ip1 莫斯科CN2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -48,29 +48,29 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇷🇺 https://git.io/v9999 clash莫斯科
       - https://git.io/v9999 clash ip4trojan2 ru
-      - https://git.io/v9999 clash ip4trojan1 vultr
+      - https://git.io/v9999 clash ip3ip4 ru2
       - https://git.io/v9999 clash ip3ip4 ru
-      - 🇷🇺 https://git.io/v9999 clash ip1 莫斯科CN2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇷🇺 https://git.io/v9999 clash莫斯科
       - https://git.io/v9999 clash ip4trojan2 ru
-      - https://git.io/v9999 clash ip4trojan1 vultr
+      - https://git.io/v9999 clash ip3ip4 ru2
       - https://git.io/v9999 clash ip3ip4 ru
-      - 🇷🇺 https://git.io/v9999 clash ip1 莫斯科CN2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇷🇺 https://git.io/v9999 clash莫斯科
       - https://git.io/v9999 clash ip4trojan2 ru
-      - https://git.io/v9999 clash ip4trojan1 vultr
+      - https://git.io/v9999 clash ip3ip4 ru2
       - https://git.io/v9999 clash ip3ip4 ru
-      - 🇷🇺 https://git.io/v9999 clash ip1 莫斯科CN2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -86,10 +86,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇷🇺 https://git.io/v9999 clash莫斯科
       - https://git.io/v9999 clash ip4trojan2 ru
-      - https://git.io/v9999 clash ip4trojan1 vultr
+      - https://git.io/v9999 clash ip3ip4 ru2
       - https://git.io/v9999 clash ip3ip4 ru
-      - 🇷🇺 https://git.io/v9999 clash ip1 莫斯科CN2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
