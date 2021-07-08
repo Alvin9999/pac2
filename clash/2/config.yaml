@@ -5,50 +5,58 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 28, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 https://git.io/v9999 瑞典斯德哥尔摩Amazon数据中心 18, server: 13.49.246.208, port: 443, type: vmess, uuid: df055ea2-4d3a-445e-977d-8e958abaad3a, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /xamjyss143/, ws-headers: {Host: v2ray-se-2.xamjyssvpn.xyz}}
+  - {name: 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM数据中心 14, server: t7.ssrsub.one, port: 443, type: vmess, uuid: 055db50f-f1d0-4192-8b25-a988d6657e9e, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /v2ray/08b24f7/, ws-headers: {Host: t7.ssrsub.one}}
+  - {name: 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶IT7网络 8, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
+  - {name: 🇺🇸 https://git.io/v9999 美国加利福尼亚州费利蒙IT7网络 11, server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false}
   - {name: 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 26, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 25, server: 104.19.45.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 24, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 https://git.io/v9999 美国  6, server: 135.125.207.34, port: 80, type: vmess, uuid: e2816152-6326-4cf9-aa95-34b0f9a8c666, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /sshocean, ws-headers: {Host: 135.125.207.34}}
-  - {name: 🇩🇪 https://git.io/v9999 clash ip5德国, server: 89.163.224.127, port: 45729, type: vmess, uuid: 2dc2ac00-bcfa-4cee-ad03-d77b34a74f60, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 https://git.io/v9999 clash ip5德国 2, server: 89.163.224.92, port: 43962, type: vmess, uuid: 033f5888-886d-4f83-9d28-04bd5996dda0, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 https://git.io/v9999 clash ip4莫斯科, server: 176.32.35.73, port: 44127, type: vmess, uuid: a0c1c26a-2af8-4eae-b313-85e144e53353, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 176.32.35.73}}
+  - {name: 🇩🇪 https://git.io/v9999 clash ip5德国, server: 89.163.224.92, port: 43962, type: vmess, uuid: 033f5888-886d-4f83-9d28-04bd5996dda0, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 https://git.io/v9999 clash ip5德国 2, server: 89.163.224.127, port: 45729, type: vmess, uuid: 2dc2ac00-bcfa-4cee-ad03-d77b34a74f60, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇷🇺 https://git.io/v9999 clash ip4莫斯科, server: 45.140.169.224, port: 52341, type: vmess, uuid: 3f1079d6-998a-4d1b-98be-a7e9d5f30d07, alterId: 0, cipher: auto, tls: false}
   - {name: 🇷🇺 https://git.io/v9999 clash ip4莫斯科 2, server: 46.17.45.139, port: 47902, type: vmess, uuid: 8a4a8799-e739-437e-9144-6889cd326b32, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 46.17.45.139}}
-  - {name: 🇷🇺 https://git.io/v9999 clash ip4莫斯科 3, server: 45.140.169.224, port: 52341, type: vmess, uuid: 3f1079d6-998a-4d1b-98be-a7e9d5f30d07, alterId: 0, cipher: auto, tls: false}
-  - {name: https://git.io/v9999 clash ip3, server: 72.44.74.98, port: 443, type: vmess, uuid: 81295af2-bcd2-0d7e-8bc4-f1367049cf95, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /gafnvws, ws-headers: {Host: 72-44-74-98.wdnmd1145141919810.xyz}}
-  - {name: https://git.io/v9999 clash ip3 2, server: 3.108.61.75, port: 44810, type: vmess, uuid: 2149d8a1-a22b-41b5-b5da-0c30170dc198, alterId: 64, cipher: auto, tls: false}
-  - {name: https://git.io/v9999 clash ip3 3, server: 96.43.91.58, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
-  - {name: https://git.io/v9999 clash ip3 4, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: https://git.io/v9999 clash ip3 5, server: 3.36.76.192, port: 31812, type: vmess, uuid: a1371d43-f0fe-43cf-b826-d900a1c8de49, alterId: 64, cipher: auto, tls: false}
-  - {name: https://git.io/v9999 clash ip3 6, server: 18.157.179.71, port: 443, type: vmess, uuid: 81dd574d-8d47-4b31-9f5a-3f638b427842, alterId: 64, cipher: auto, tls: false}
-  - {name: https://git.io/v9999 clash ip3 7, server: 13.212.76.43, port: 15068, type: vmess, uuid: 7a006e11-72df-4497-947a-54b4ef9cd229, alterId: 64, cipher: auto, tls: false}
-  - {name: https://git.io/v9999 clash ip3 8, server: 54.215.234.182, port: 14924, type: vmess, uuid: d099824d-8259-4c45-f6ab-c1896f741393, alterId: 64, cipher: auto, tls: false}
-  - {name: https://git.io/v9999 clash ip3 9, server: rntwo.laoban666.xyz, port: 443, type: vmess, uuid: 114f5786-a8a0-446a-a32f-446893480560, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: /27353486f3a1d4f/, ws-headers: {Host: rntwo.laoban666.xyz}}
-  - {name: https://git.io/v9999 clash ip3 10, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
-  - {name: https://git.io/v9999 clash ip3 11, server: euserv10p.ezddns.tk, port: 80, type: vmess, uuid: 4323a38e-29dc-4c6d-f436-b15114e57a75, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /download.zip, ws-headers: {Host: euserv10p.ezddns.tk}}
-  - {name: https://git.io/v9999 clash ip3 12, server: euserv17p.ezddns.tk, port: 80, type: vmess, uuid: 4a6cc4a6-491f-4a58-fb45-bf888f0b381f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv17p.ezddns.tk}}
-  - {name: https://git.io/v9999 clash ip3 13, server: ping.pe, port: 443, type: vmess, uuid: 3a3e263d-223f-49cc-bbdb-f7e07a55e6fe, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /111111.online, ws-headers: {Host: by.6111.online}}
-  - {name: https://git.io/v9999 clash ip3 14, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
-  - {name: https://git.io/v9999 clash ip3 15, server: 120.236.197.205, port: 3389, type: trojan, password: ba4fedf8c217c146}
-  - {name: https://git.io/v9999 clash ip3 16, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false}
-  - {name: https://git.io/v9999 clash ip3 17, server: euserv4p.ezddns.tk, port: 443, type: vmess, uuid: d2da3dcb-b08a-4561-83de-b73e7b8c0288, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /stream, ws-headers: {Host: euserv4p.ezddns.tk}}
-  - {name: https://git.io/v9999 clash ip3 18, server: 107.175.44.154, port: 443, type: vmess, uuid: 114f5786-a8a0-446a-a32f-446893480560, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: /27353486f3a1d4f/, ws-headers: {Host: rntwo.laoban666.xyz}}
-  - {name: https://git.io/v9999 clash ip3 19, server: workers.dev, port: 443, type: vmess, uuid: 7a70e0f7-170d-4ab0-82a0-c40554bfb320, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /111111.online, ws-headers: {Host: buyvm.proxypool.ga}}
-  - {name: https://git.io/v9999 clash ip3 20, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
-  - {name: https://git.io/v9999 clash ip3 21, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
-  - {name: https://git.io/v9999 clash ip3 22, server: rntwo.laoban666.xyz, port: 443, type: vmess, uuid: 114f5786-a8a0-446a-a32f-446893480560, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: /27353486f3a1d4f/, ws-headers: {Host: rntwo.laoban666.xyz}}
-  - {name: https://git.io/v9999 clash ip3 23, server: 95.214.55.120, port: 42280, type: vmess, uuid: ac56c78b-bc3e-45ce-bd20-254339688d17, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇷🇺 https://git.io/v9999 clash ip4莫斯科 3, server: 176.32.35.73, port: 44127, type: vmess, uuid: a0c1c26a-2af8-4eae-b313-85e144e53353, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 176.32.35.73}}
+  - {name: https://git.io/v9999 clash ip3, server: bimbel.ruangguru.com, port: 80, type: vmess, uuid: b22b990f-b6dd-4b57-a0e1-ee3f829d413f, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /sshkit, ws-headers: {Host: eu-sshkit.v2-ray.cf}}
+  - {name: https://git.io/v9999 clash ip3 2, server: 104.16.1.4, port: 443, type: vmess, uuid: 6d237619-baac-3fcd-acdf-d3383453bb35, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /0wejcsges, ws-headers: {Host: de.sb-cloud.cf}}
+  - {name: https://git.io/v9999 clash ip3 3, server: 54.215.234.182, port: 14924, type: vmess, uuid: d099824d-8259-4c45-f6ab-c1896f741393, alterId: 64, cipher: auto, tls: false}
+  - {name: https://git.io/v9999 clash ip3 4, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
+  - {name: https://git.io/v9999 clash ip3 5, server: ban4.feiclouddd.me, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sdafasfsa, ws-headers: {Host: ban4.feiclouddd.me}}
+  - {name: https://git.io/v9999 clash ip3 6, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: https://git.io/v9999 clash ip3 7, server: 66.42.43.239, port: 443, type: vmess, uuid: 160ce2c0-89d2-11eb-aef3-560003425baf, alterId: 12, cipher: auto, tls: true, network: ws, ws-path: /zwWptVxh/, ws-headers: {Host: gmegme.ga}}
+  - {name: https://git.io/v9999 clash ip3 8, server: 15.164.227.247, port: 10891, type: vmess, uuid: 62affe81-79f0-4c07-ed18-a69b97081542, alterId: 64, cipher: auto, tls: false}
+  - {name: https://git.io/v9999 clash ip3 9, server: 96.43.91.58, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: https://git.io/v9999 clash ip3 10, server: euserv4p.ezddns.tk, port: 443, type: vmess, uuid: d2da3dcb-b08a-4561-83de-b73e7b8c0288, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /stream, ws-headers: {Host: euserv4p.ezddns.tk}}
+  - {name: https://git.io/v9999 clash ip3 11, server: euserv6p.ezddns.tk, port: 80, type: vmess, uuid: 499737a4-9f18-4e1f-fb38-437e1855fc04, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv6p.ezddns.tk}}
+  - {name: https://git.io/v9999 clash ip3 12, server: v2raylpc.herokuapp.com, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2raylpc.herokuapp.com}}
+  - {name: https://git.io/v9999 clash ip3 13, server: workers.dev, port: 443, type: vmess, uuid: 7a70e0f7-170d-4ab0-82a0-c40554bfb320, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /111111.online, ws-headers: {Host: buyvm.proxypool.ga}}
+  - {name: https://git.io/v9999 clash ip3 14, server: euserv9p.ezddns.tk, port: 80, type: vmess, uuid: ca870483-fa7d-4f64-983a-6ed455143aca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /live, ws-headers: {Host: euserv9p.ezddns.tk}}
+  - {name: https://git.io/v9999 clash ip3 15, server: euserv11p.ezddns.tk, port: 80, type: vmess, uuid: ffab7ea6-596d-4f88-daa5-4ec177f314a5, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /download.rar, ws-headers: {Host: euserv11p.ezddns.tk}}
+  - {name: https://git.io/v9999 clash ip3 16, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: https://git.io/v9999 clash ip3 17, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false}
+  - {name: https://git.io/v9999 clash ip3 18, server: jp.angelosakura.tk, port: 12347, type: vmess, uuid: d20d7c24-486d-400c-a8f6-e87bc67bf35c, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jp.angelosakura.tk}}
+  - {name: https://git.io/v9999 clash ip3 19, server: 104.19.45.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: https://git.io/v9999 clash ip3 20, server: 46.182.107.25, port: 443, type: vmess, uuid: 0a1ab3bd-0431-4da8-ad8a-238367ce4efc, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.11300814.xyz}}
+  - {name: https://git.io/v9999 clash ip3 21, server: 138.201.150.52, port: 33957, type: vmess, uuid: 89cee221-b06c-46c5-f0d7-4fd3f4740b97, alterId: 64, cipher: auto, tls: false}
+  - {name: https://git.io/v9999 clash ip3 22, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: https://git.io/v9999 clash ip3 23, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: https://git.io/v9999 clash ip3 24, server: xxxray.salir.cl, port: 443, type: vmess, uuid: 9047cac9-6660-4b20-af97-8445a8396447, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /PublicQwer, ws-headers: {Host: xxxray.salir.cl}}
+  - {name: https://git.io/v9999 clash ip3 25, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
+  - {name: https://git.io/v9999 clash ip3 26, server: ping.pe, port: 443, type: vmess, uuid: 3a3e263d-223f-49cc-bbdb-f7e07a55e6fe, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /111111.online, ws-headers: {Host: by.6111.online}}
+  - {name: https://git.io/v9999 clash ip3 27, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: https://git.io/v9999 clash ip3 28, server: 18.157.179.71, port: 443, type: vmess, uuid: 81dd574d-8d47-4b31-9f5a-3f638b427842, alterId: 64, cipher: auto, tls: false}
+  - {name: https://git.io/v9999 clash ip3 29, server: t9.ssrsub.one, port: 443, type: trojan, password: 638f5c82c, sni: t9.ssrsub.one}
+  - {name: https://git.io/v9999 clash ip3 30, server: t7.ssrsub.one, port: 443, type: trojan, password: b9c9111, sni: t7.ssrsub.one}
+  - {name: https://git.io/v9999 clash ip3 31, server: 120.236.197.205, port: 3389, type: trojan, password: ba4fedf8c217c146}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 28
+      - 🇩🇪 https://git.io/v9999 瑞典斯德哥尔摩Amazon数据中心 18
+      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM数据中心 14
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶IT7网络 8
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州费利蒙IT7网络 11
       - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 26
-      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 25
-      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 24
-      - 🇺🇸 https://git.io/v9999 美国  6
       - 🇩🇪 https://git.io/v9999 clash ip5德国
       - 🇩🇪 https://git.io/v9999 clash ip5德国 2
       - 🇷🇺 https://git.io/v9999 clash ip4莫斯科
@@ -77,16 +85,24 @@ proxy-groups:
       - https://git.io/v9999 clash ip3 21
       - https://git.io/v9999 clash ip3 22
       - https://git.io/v9999 clash ip3 23
+      - https://git.io/v9999 clash ip3 24
+      - https://git.io/v9999 clash ip3 25
+      - https://git.io/v9999 clash ip3 26
+      - https://git.io/v9999 clash ip3 27
+      - https://git.io/v9999 clash ip3 28
+      - https://git.io/v9999 clash ip3 29
+      - https://git.io/v9999 clash ip3 30
+      - https://git.io/v9999 clash ip3 31
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 28
+      - 🇩🇪 https://git.io/v9999 瑞典斯德哥尔摩Amazon数据中心 18
+      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM数据中心 14
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶IT7网络 8
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州费利蒙IT7网络 11
       - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 26
-      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 25
-      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 24
-      - 🇺🇸 https://git.io/v9999 美国  6
       - 🇩🇪 https://git.io/v9999 clash ip5德国
       - 🇩🇪 https://git.io/v9999 clash ip5德国 2
       - 🇷🇺 https://git.io/v9999 clash ip4莫斯科
@@ -115,17 +131,25 @@ proxy-groups:
       - https://git.io/v9999 clash ip3 21
       - https://git.io/v9999 clash ip3 22
       - https://git.io/v9999 clash ip3 23
+      - https://git.io/v9999 clash ip3 24
+      - https://git.io/v9999 clash ip3 25
+      - https://git.io/v9999 clash ip3 26
+      - https://git.io/v9999 clash ip3 27
+      - https://git.io/v9999 clash ip3 28
+      - https://git.io/v9999 clash ip3 29
+      - https://git.io/v9999 clash ip3 30
+      - https://git.io/v9999 clash ip3 31
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 28
+      - 🇩🇪 https://git.io/v9999 瑞典斯德哥尔摩Amazon数据中心 18
+      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM数据中心 14
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶IT7网络 8
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州费利蒙IT7网络 11
       - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 26
-      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 25
-      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 24
-      - 🇺🇸 https://git.io/v9999 美国  6
       - 🇩🇪 https://git.io/v9999 clash ip5德国
       - 🇩🇪 https://git.io/v9999 clash ip5德国 2
       - 🇷🇺 https://git.io/v9999 clash ip4莫斯科
@@ -154,6 +178,14 @@ proxy-groups:
       - https://git.io/v9999 clash ip3 21
       - https://git.io/v9999 clash ip3 22
       - https://git.io/v9999 clash ip3 23
+      - https://git.io/v9999 clash ip3 24
+      - https://git.io/v9999 clash ip3 25
+      - https://git.io/v9999 clash ip3 26
+      - https://git.io/v9999 clash ip3 27
+      - https://git.io/v9999 clash ip3 28
+      - https://git.io/v9999 clash ip3 29
+      - https://git.io/v9999 clash ip3 30
+      - https://git.io/v9999 clash ip3 31
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -164,11 +196,11 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 28
+      - 🇩🇪 https://git.io/v9999 瑞典斯德哥尔摩Amazon数据中心 18
+      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM数据中心 14
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶IT7网络 8
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州费利蒙IT7网络 11
       - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 26
-      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 25
-      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 24
-      - 🇺🇸 https://git.io/v9999 美国  6
       - 🇩🇪 https://git.io/v9999 clash ip5德国
       - 🇩🇪 https://git.io/v9999 clash ip5德国 2
       - 🇷🇺 https://git.io/v9999 clash ip4莫斯科
@@ -197,16 +229,24 @@ proxy-groups:
       - https://git.io/v9999 clash ip3 21
       - https://git.io/v9999 clash ip3 22
       - https://git.io/v9999 clash ip3 23
+      - https://git.io/v9999 clash ip3 24
+      - https://git.io/v9999 clash ip3 25
+      - https://git.io/v9999 clash ip3 26
+      - https://git.io/v9999 clash ip3 27
+      - https://git.io/v9999 clash ip3 28
+      - https://git.io/v9999 clash ip3 29
+      - https://git.io/v9999 clash ip3 30
+      - https://git.io/v9999 clash ip3 31
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 28
+      - 🇩🇪 https://git.io/v9999 瑞典斯德哥尔摩Amazon数据中心 18
+      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM数据中心 14
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶IT7网络 8
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州费利蒙IT7网络 11
       - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 26
-      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 25
-      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 24
-      - 🇺🇸 https://git.io/v9999 美国  6
       - 🇩🇪 https://git.io/v9999 clash ip5德国
       - 🇩🇪 https://git.io/v9999 clash ip5德国 2
       - 🇷🇺 https://git.io/v9999 clash ip4莫斯科
@@ -235,17 +275,25 @@ proxy-groups:
       - https://git.io/v9999 clash ip3 21
       - https://git.io/v9999 clash ip3 22
       - https://git.io/v9999 clash ip3 23
+      - https://git.io/v9999 clash ip3 24
+      - https://git.io/v9999 clash ip3 25
+      - https://git.io/v9999 clash ip3 26
+      - https://git.io/v9999 clash ip3 27
+      - https://git.io/v9999 clash ip3 28
+      - https://git.io/v9999 clash ip3 29
+      - https://git.io/v9999 clash ip3 30
+      - https://git.io/v9999 clash ip3 31
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 28
+      - 🇩🇪 https://git.io/v9999 瑞典斯德哥尔摩Amazon数据中心 18
+      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM数据中心 14
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶IT7网络 8
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州费利蒙IT7网络 11
       - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 26
-      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 25
-      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 24
-      - 🇺🇸 https://git.io/v9999 美国  6
       - 🇩🇪 https://git.io/v9999 clash ip5德国
       - 🇩🇪 https://git.io/v9999 clash ip5德国 2
       - 🇷🇺 https://git.io/v9999 clash ip4莫斯科
@@ -274,6 +322,14 @@ proxy-groups:
       - https://git.io/v9999 clash ip3 21
       - https://git.io/v9999 clash ip3 22
       - https://git.io/v9999 clash ip3 23
+      - https://git.io/v9999 clash ip3 24
+      - https://git.io/v9999 clash ip3 25
+      - https://git.io/v9999 clash ip3 26
+      - https://git.io/v9999 clash ip3 27
+      - https://git.io/v9999 clash ip3 28
+      - https://git.io/v9999 clash ip3 29
+      - https://git.io/v9999 clash ip3 30
+      - https://git.io/v9999 clash ip3 31
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -289,11 +345,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 28
+      - 🇩🇪 https://git.io/v9999 瑞典斯德哥尔摩Amazon数据中心 18
+      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM数据中心 14
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶IT7网络 8
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州费利蒙IT7网络 11
       - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 26
-      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 25
-      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 24
-      - 🇺🇸 https://git.io/v9999 美国  6
       - 🇩🇪 https://git.io/v9999 clash ip5德国
       - 🇩🇪 https://git.io/v9999 clash ip5德国 2
       - 🇷🇺 https://git.io/v9999 clash ip4莫斯科
@@ -322,6 +378,14 @@ proxy-groups:
       - https://git.io/v9999 clash ip3 21
       - https://git.io/v9999 clash ip3 22
       - https://git.io/v9999 clash ip3 23
+      - https://git.io/v9999 clash ip3 24
+      - https://git.io/v9999 clash ip3 25
+      - https://git.io/v9999 clash ip3 26
+      - https://git.io/v9999 clash ip3 27
+      - https://git.io/v9999 clash ip3 28
+      - https://git.io/v9999 clash ip3 29
+      - https://git.io/v9999 clash ip3 30
+      - https://git.io/v9999 clash ip3 31
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
