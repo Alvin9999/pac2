@@ -5,12 +5,13 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip1莫斯科, server: 45.144.3.208, port: 58983, type: vmess, uuid: ffaf2bf3-43a8-40ec-8e39-62b6f42bb8af, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 26, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
   - {name: https://git.io/v9999 clash only2, server: 217.79.181.111, port: 27840, type: vmess, uuid: f9ce37e2-48d0-47b9-bca3-1748941e3355, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 217.79.181.111}}
   - {name: https://git.io/v9999 clash only, server: 45.76.76.213, port: 11383, type: vmess, uuid: aed7a819-7134-4d6d-b870-238fad1cd994, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.76.76.213}}
   - {name: 🇩🇪 https://git.io/v9999 clash ip5德国, server: 89.163.224.127, port: 45729, type: vmess, uuid: 2dc2ac00-bcfa-4cee-ad03-d77b34a74f60, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 https://git.io/v9999 clash ip4莫斯科, server: 176.32.35.73, port: 44127, type: vmess, uuid: a0c1c26a-2af8-4eae-b313-85e144e53353, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 176.32.35.73}}
-  - {name: 🇷🇺 https://git.io/v9999 clash ip4莫斯科 2, server: 46.17.45.139, port: 47902, type: vmess, uuid: 8a4a8799-e739-437e-9144-6889cd326b32, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 46.17.45.139}}
+  - {name: 🇷🇺 https://git.io/v9999 clash ip4莫斯科, server: 176.32.35.73, port: 20592, type: vmess, uuid: e7385e13-1a69-4b2c-9d95-20ebf36226ae, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇷🇺 https://git.io/v9999 clash ip4莫斯科 2, server: 46.17.45.139, port: 56967, type: vmess, uuid: 5458261b-ec18-4673-9251-fa7859a5cacb, alterId: 0, cipher: auto, tls: false}
   - {name: 🇷🇺 https://git.io/v9999 clash ip4莫斯科 3, server: 45.140.169.224, port: 52341, type: vmess, uuid: 3f1079d6-998a-4d1b-98be-a7e9d5f30d07, alterId: 0, cipher: auto, tls: false}
   - {name: https://git.io/v9999 clash ip3, server: 5.183.101.204, port: 59857, type: vmess, uuid: 4c35d374-dbf2-4e5f-c731-dfa49191825a, alterId: 64, cipher: auto, tls: false}
   - {name: https://git.io/v9999 clash ip3 2, server: 104.156.254.142, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
@@ -143,6 +144,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip1莫斯科
       - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 26
       - https://git.io/v9999 clash only2
       - https://git.io/v9999 clash only
@@ -280,6 +282,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip1莫斯科
       - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 26
       - https://git.io/v9999 clash only2
       - https://git.io/v9999 clash only
@@ -418,6 +421,7 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip1莫斯科
       - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 26
       - https://git.io/v9999 clash only2
       - https://git.io/v9999 clash only
@@ -560,6 +564,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip1莫斯科
       - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 26
       - https://git.io/v9999 clash only2
       - https://git.io/v9999 clash only
@@ -697,6 +702,7 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip1莫斯科
       - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 26
       - https://git.io/v9999 clash only2
       - https://git.io/v9999 clash only
@@ -835,6 +841,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip1莫斯科
       - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 26
       - https://git.io/v9999 clash only2
       - https://git.io/v9999 clash only
@@ -982,6 +989,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki ip1莫斯科
       - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 26
       - https://git.io/v9999 clash only2
       - https://git.io/v9999 clash only
