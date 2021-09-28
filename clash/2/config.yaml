@@ -5,33 +5,32 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS4, server: 137.175.30.248, port: 12345, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞, server: 198.200.51.37, port: 5012, type: vmess, uuid: 8507efa6-1854-11ec-8aad-00163cdca817, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞 2, server: 192.74.254.167, port: 20508, type: vmess, uuid: 764e808a-115e-11ec-a88f-00163c9f4934, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞 3, server: 198.200.51.18, port: 62096, type: vmess, uuid: 42f7eabe-0d3f-11ec-859b-00163caf481c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞 4, server: 198.200.51.28, port: 21045, type: vmess, uuid: 1d219570-0d1b-11ec-a57e-00163ca76936, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞 5, server: 198.200.51.34, port: 37221, type: vmess, uuid: c70c1895-22ab-4661-83e7-c437137273f9, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞 6, server: 198.200.51.189, port: 53930, type: vmess, uuid: 01c61866-4586-4c83-82d1-05ee08cbfa9a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞 7, server: 107.148.200.123, port: 52025, type: vmess, uuid: e85a81e0-12a0-11ec-bc90-00163c1b189e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞 8, server: 107.148.200.229, port: 51267, type: vmess, uuid: dd6fc0ba-10ac-11ec-bb46-00163c0ad178, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞 9, server: 192.74.254.112, port: 58719, type: vmess, uuid: ae1048eb-a962-48f6-b15f-013d83d0b6c7, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞 10, server: 142.4.123.135, port: 58200, type: vmess, uuid: 73e7a742-115c-11ec-bf5c-00163cdab24a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞 11, server: 137.175.30.251, port: 26424, type: vmess, uuid: 77cd775c-1c0a-11ec-a1a8-00163c1393a8, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞 12, server: 142.4.123.249, port: 38396, type: vmess, uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 https://git.io/v9999 莫斯科TTKg, server: 45.144.179.215, port: 4881, type: vmess, uuid: 522a7b98-1c6a-11ec-9d56-6e0116768709, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞, server: 137.175.30.248, port: 16141, type: vmess, uuid: fc498020-1ffc-11ec-94f8-00163c35cb68, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞 2, server: 198.200.51.18, port: 62096, type: vmess, uuid: 42f7eabe-0d3f-11ec-859b-00163caf481c, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞 3, server: 198.200.51.28, port: 11221, type: vmess, uuid: 1d219570-0d1b-11ec-a57e-00163ca76936, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞 4, server: 198.200.51.37, port: 5012, type: vmess, uuid: 8507efa6-1854-11ec-8aad-00163cdca817, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞 5, server: 198.200.51.34, port: 17838, type: vmess, uuid: 53e483d4-1ea9-11ec-ad60-00163cc87418, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞 6, server: 142.4.123.249, port: 38396, type: vmess, uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞 7, server: 107.148.200.229, port: 51267, type: vmess, uuid: dd6fc0ba-10ac-11ec-bb46-00163c0ad178, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞 8, server: 107.148.200.123, port: 52025, type: vmess, uuid: e85a81e0-12a0-11ec-bc90-00163c1b189e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞 9, server: 142.4.123.135, port: 58200, type: vmess, uuid: 73e7a742-115c-11ec-bf5c-00163cdab24a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞 10, server: 137.175.30.251, port: 26424, type: vmess, uuid: 77cd775c-1c0a-11ec-a1a8-00163c1393a8, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞 11, server: 192.74.254.112, port: 58719, type: vmess, uuid: ae1048eb-a962-48f6-b15f-013d83d0b6c7, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞 12, server: 192.74.254.167, port: 20508, type: vmess, uuid: 764e808a-115e-11ec-a88f-00163c9f4934, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞 13, server: 198.200.51.189, port: 53930, type: vmess, uuid: 01c61866-4586-4c83-82d1-05ee08cbfa9a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇷🇺 https://git.io/v9999 莫斯科TTK, server: 195.133.52.32, port: 51459, type: vmess, uuid: 3b08fc94-1c30-11ec-9a6c-568170410c51, alterId: 0, cipher: auto, tls: false}
   - {name: 🇷🇺 https://git.io/v9999 莫斯科TTK 2, server: 45.144.178.97, port: 32231, type: vmess, uuid: 57a951d4-1c0b-11ec-8be6-365aa404540b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇷🇺 https://git.io/v9999 莫斯科ADMAN, server: 91.206.92.27, port: 43680, type: vmess, uuid: 4d7f9007-c908-4289-87ec-8da932d4e181, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇷🇺 https://git.io/v9999 莫斯科adman, server: 45.130.147.15, port: 34098, type: vmess, uuid: 4f9b76f8-1b5b-11ec-8d4f-6245124c1573, alterId: 0, cipher: auto, tls: false}
   - {name: 🇷🇺 https://git.io/v9999 莫斯科, server: 45.144.3.208, port: 59785, type: vmess, uuid: 5a4b09d8-168f-4ea7-968f-f5c3b5822ba8, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.144.3.208}}
-  - {name: https://git.io/v9999 lg1, server: 158.51.96.145, port: 15881, type: vmess, uuid: 446bed9e-1d4f-11ec-8cc1-a23241bf8a65, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 https://git.io/v9999 ip1莫斯科, server: 176.32.35.228, port: 28769, type: vmess, uuid: d7c2a604-0e55-11ec-a43a-7aec04f65127, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇷🇺 https://git.io/v9999 莫斯科 2, server: 176.32.35.228, port: 28769, type: vmess, uuid: d7c2a604-0e55-11ec-a43a-7aec04f65127, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 https://git.io/v9999 德国ip1, server: 89.163.225.161, port: 63502, type: vmess, uuid: ad57bc3a-1e89-11ec-9a79-38eaa70f7262, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 https://git.io/v9999 圣何塞SS4
       - 🇺🇸 https://git.io/v9999 圣何塞
       - 🇺🇸 https://git.io/v9999 圣何塞 2
       - 🇺🇸 https://git.io/v9999 圣何塞 3
@@ -44,19 +43,19 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞 10
       - 🇺🇸 https://git.io/v9999 圣何塞 11
       - 🇺🇸 https://git.io/v9999 圣何塞 12
-      - 🇷🇺 https://git.io/v9999 莫斯科TTKg
+      - 🇺🇸 https://git.io/v9999 圣何塞 13
       - 🇷🇺 https://git.io/v9999 莫斯科TTK
       - 🇷🇺 https://git.io/v9999 莫斯科TTK 2
       - 🇷🇺 https://git.io/v9999 莫斯科ADMAN
+      - 🇷🇺 https://git.io/v9999 莫斯科adman
       - 🇷🇺 https://git.io/v9999 莫斯科
-      - https://git.io/v9999 lg1
-      - 🇷🇺 https://git.io/v9999 ip1莫斯科
+      - 🇷🇺 https://git.io/v9999 莫斯科 2
+      - 🇩🇪 https://git.io/v9999 德国ip1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 https://git.io/v9999 圣何塞SS4
       - 🇺🇸 https://git.io/v9999 圣何塞
       - 🇺🇸 https://git.io/v9999 圣何塞 2
       - 🇺🇸 https://git.io/v9999 圣何塞 3
@@ -69,20 +68,20 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞 10
       - 🇺🇸 https://git.io/v9999 圣何塞 11
       - 🇺🇸 https://git.io/v9999 圣何塞 12
-      - 🇷🇺 https://git.io/v9999 莫斯科TTKg
+      - 🇺🇸 https://git.io/v9999 圣何塞 13
       - 🇷🇺 https://git.io/v9999 莫斯科TTK
       - 🇷🇺 https://git.io/v9999 莫斯科TTK 2
       - 🇷🇺 https://git.io/v9999 莫斯科ADMAN
+      - 🇷🇺 https://git.io/v9999 莫斯科adman
       - 🇷🇺 https://git.io/v9999 莫斯科
-      - https://git.io/v9999 lg1
-      - 🇷🇺 https://git.io/v9999 ip1莫斯科
+      - 🇷🇺 https://git.io/v9999 莫斯科 2
+      - 🇩🇪 https://git.io/v9999 德国ip1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 https://git.io/v9999 圣何塞SS4
       - 🇺🇸 https://git.io/v9999 圣何塞
       - 🇺🇸 https://git.io/v9999 圣何塞 2
       - 🇺🇸 https://git.io/v9999 圣何塞 3
@@ -95,13 +94,14 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞 10
       - 🇺🇸 https://git.io/v9999 圣何塞 11
       - 🇺🇸 https://git.io/v9999 圣何塞 12
-      - 🇷🇺 https://git.io/v9999 莫斯科TTKg
+      - 🇺🇸 https://git.io/v9999 圣何塞 13
       - 🇷🇺 https://git.io/v9999 莫斯科TTK
       - 🇷🇺 https://git.io/v9999 莫斯科TTK 2
       - 🇷🇺 https://git.io/v9999 莫斯科ADMAN
+      - 🇷🇺 https://git.io/v9999 莫斯科adman
       - 🇷🇺 https://git.io/v9999 莫斯科
-      - https://git.io/v9999 lg1
-      - 🇷🇺 https://git.io/v9999 ip1莫斯科
+      - 🇷🇺 https://git.io/v9999 莫斯科 2
+      - 🇩🇪 https://git.io/v9999 德国ip1
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -112,7 +112,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 https://git.io/v9999 圣何塞SS4
       - 🇺🇸 https://git.io/v9999 圣何塞
       - 🇺🇸 https://git.io/v9999 圣何塞 2
       - 🇺🇸 https://git.io/v9999 圣何塞 3
@@ -125,19 +124,19 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞 10
       - 🇺🇸 https://git.io/v9999 圣何塞 11
       - 🇺🇸 https://git.io/v9999 圣何塞 12
-      - 🇷🇺 https://git.io/v9999 莫斯科TTKg
+      - 🇺🇸 https://git.io/v9999 圣何塞 13
       - 🇷🇺 https://git.io/v9999 莫斯科TTK
       - 🇷🇺 https://git.io/v9999 莫斯科TTK 2
       - 🇷🇺 https://git.io/v9999 莫斯科ADMAN
+      - 🇷🇺 https://git.io/v9999 莫斯科adman
       - 🇷🇺 https://git.io/v9999 莫斯科
-      - https://git.io/v9999 lg1
-      - 🇷🇺 https://git.io/v9999 ip1莫斯科
+      - 🇷🇺 https://git.io/v9999 莫斯科 2
+      - 🇩🇪 https://git.io/v9999 德国ip1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 https://git.io/v9999 圣何塞SS4
       - 🇺🇸 https://git.io/v9999 圣何塞
       - 🇺🇸 https://git.io/v9999 圣何塞 2
       - 🇺🇸 https://git.io/v9999 圣何塞 3
@@ -150,20 +149,20 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞 10
       - 🇺🇸 https://git.io/v9999 圣何塞 11
       - 🇺🇸 https://git.io/v9999 圣何塞 12
-      - 🇷🇺 https://git.io/v9999 莫斯科TTKg
+      - 🇺🇸 https://git.io/v9999 圣何塞 13
       - 🇷🇺 https://git.io/v9999 莫斯科TTK
       - 🇷🇺 https://git.io/v9999 莫斯科TTK 2
       - 🇷🇺 https://git.io/v9999 莫斯科ADMAN
+      - 🇷🇺 https://git.io/v9999 莫斯科adman
       - 🇷🇺 https://git.io/v9999 莫斯科
-      - https://git.io/v9999 lg1
-      - 🇷🇺 https://git.io/v9999 ip1莫斯科
+      - 🇷🇺 https://git.io/v9999 莫斯科 2
+      - 🇩🇪 https://git.io/v9999 德国ip1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 https://git.io/v9999 圣何塞SS4
       - 🇺🇸 https://git.io/v9999 圣何塞
       - 🇺🇸 https://git.io/v9999 圣何塞 2
       - 🇺🇸 https://git.io/v9999 圣何塞 3
@@ -176,13 +175,14 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞 10
       - 🇺🇸 https://git.io/v9999 圣何塞 11
       - 🇺🇸 https://git.io/v9999 圣何塞 12
-      - 🇷🇺 https://git.io/v9999 莫斯科TTKg
+      - 🇺🇸 https://git.io/v9999 圣何塞 13
       - 🇷🇺 https://git.io/v9999 莫斯科TTK
       - 🇷🇺 https://git.io/v9999 莫斯科TTK 2
       - 🇷🇺 https://git.io/v9999 莫斯科ADMAN
+      - 🇷🇺 https://git.io/v9999 莫斯科adman
       - 🇷🇺 https://git.io/v9999 莫斯科
-      - https://git.io/v9999 lg1
-      - 🇷🇺 https://git.io/v9999 ip1莫斯科
+      - 🇷🇺 https://git.io/v9999 莫斯科 2
+      - 🇩🇪 https://git.io/v9999 德国ip1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -198,7 +198,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 https://git.io/v9999 圣何塞SS4
       - 🇺🇸 https://git.io/v9999 圣何塞
       - 🇺🇸 https://git.io/v9999 圣何塞 2
       - 🇺🇸 https://git.io/v9999 圣何塞 3
@@ -211,13 +210,14 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞 10
       - 🇺🇸 https://git.io/v9999 圣何塞 11
       - 🇺🇸 https://git.io/v9999 圣何塞 12
-      - 🇷🇺 https://git.io/v9999 莫斯科TTKg
+      - 🇺🇸 https://git.io/v9999 圣何塞 13
       - 🇷🇺 https://git.io/v9999 莫斯科TTK
       - 🇷🇺 https://git.io/v9999 莫斯科TTK 2
       - 🇷🇺 https://git.io/v9999 莫斯科ADMAN
+      - 🇷🇺 https://git.io/v9999 莫斯科adman
       - 🇷🇺 https://git.io/v9999 莫斯科
-      - https://git.io/v9999 lg1
-      - 🇷🇺 https://git.io/v9999 ip1莫斯科
+      - 🇷🇺 https://git.io/v9999 莫斯科 2
+      - 🇩🇪 https://git.io/v9999 德国ip1
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
