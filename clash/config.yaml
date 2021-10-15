@@ -5,17 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: https://github.com/Alvin9999/new-pac/wiki 自用, server: 139.28.235.41, port: 24229, type: vmess, uuid: ad8d0374-90e2-4e8a-8e25-8a402d51cd45, alterId: 0, cipher: auto, tls: false}
-  - {name: 🏳️‍🌈 https://github.com/Alvin9999/new-pac/wiki 台湾-NF(CN2中转)-流量x0.8-v36, server: cn2-6998.v2free.xyz, port: 31888, type: vmess, uuid: cd94ffd8-ea74-3f17-a3b6-70982dc4a60f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /RayjajbC8W96bW, ws-headers: {Host: cn2-6998.v2free.xyz}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki 申请域名, server: us-free-001.herokuapp.com, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: herokuus001.herokuapp.com}}
-  - {name: 🇷🇺 https://github.com/Alvin9999/new-pac/wiki 莫斯科ip3, server: 45.135.135.16, port: 11223, type: vmess, uuid: 5958e1e6-10af-11ec-9a8f-1aa60786834b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 美国(CN2中转)-v14, server: cn2-6998.v2free.xyz, port: 31893, type: vmess, uuid: cd94ffd8-ea74-3f17-a3b6-70982dc4a60f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /f60Ldl5OMRvt, ws-headers: {Host: cn2-6998.v2free.xyz}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip2, server: 45.66.157.195, port: 12233, type: vmess, uuid: 4cbb0ce4-1ec3-11ec-b76f-00163c06ad53, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip1, server: 216.105.168.138, port: 10964, type: vmess, uuid: b874d3a8-1ff8-11ec-9fc6-0cc47a52170a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 https://github.com/Alvin9999/new-pac/wiki 俄罗斯g, server: 45.144.179.215, port: 3366, type: vmess, uuid: 522a7b98-1c6a-11ec-9d56-6e0116768709, alterId: 0, cipher: auto, tls: false}
-  - {name: 🏳️‍🌈 https://github.com/Alvin9999/new-pac/wiki VIP2-CN2中转-台湾-NF-流量x0.8-v23, server: cn2-7476.v2free.xyz, port: 31888, type: vmess, uuid: cd94ffd8-ea74-3f17-a3b6-70982dc4a60f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /RayjajbC8W96bW, ws-headers: {Host: cn2-7476.v2free.xyz}}
-  - {name: 🇩🇪 https://github.com/Alvin9999/new-pac/wiki VIP2-CN2中转-德国-v41, server: cn2-6998.v2free.xyz, port: 31890, type: vmess, uuid: cd94ffd8-ea74-3f17-a3b6-70982dc4a60f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /QaIfa199dCeB, ws-headers: {Host: cn2-6998.v2free.xyz}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki TTKip4, server: 2.59.214.249, port: 33445, type: vmess, uuid: aaad4b5a-1f4f-11ec-a856-82b57278959a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 https://git.io/v9999 圣何塞, server: 107.148.200.123, port: 52025, type: vmess, uuid: e85a81e0-12a0-11ec-bc90-00163c1b189e, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 https://git.io/v9999 圣何塞 2, server: 107.148.200.229, port: 51267, type: vmess, uuid: dd6fc0ba-10ac-11ec-bb46-00163c0ad178, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 https://git.io/v9999 圣何塞 3, server: 137.175.30.248, port: 22334, type: vmess, uuid: fc498020-1ffc-11ec-94f8-00163c35cb68, alterId: 0, cipher: auto, tls: false}
@@ -38,17 +27,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - https://github.com/Alvin9999/new-pac/wiki 自用
-      - 🏳️‍🌈 https://github.com/Alvin9999/new-pac/wiki 台湾-NF(CN2中转)-流量x0.8-v36
-      - https://github.com/Alvin9999/new-pac/wiki 申请域名
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki 莫斯科ip3
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 美国(CN2中转)-v14
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip2
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip1
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki 俄罗斯g
-      - 🏳️‍🌈 https://github.com/Alvin9999/new-pac/wiki VIP2-CN2中转-台湾-NF-流量x0.8-v23
-      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki VIP2-CN2中转-德国-v41
-      - https://github.com/Alvin9999/new-pac/wiki TTKip4
       - 🇺🇸 https://git.io/v9999 圣何塞
       - 🇺🇸 https://git.io/v9999 圣何塞 2
       - 🇺🇸 https://git.io/v9999 圣何塞 3
@@ -71,17 +49,6 @@ proxy-groups:
     interval: 300
     tolerance: 0
     proxies:
-      - https://github.com/Alvin9999/new-pac/wiki 自用
-      - 🏳️‍🌈 https://github.com/Alvin9999/new-pac/wiki 台湾-NF(CN2中转)-流量x0.8-v36
-      - https://github.com/Alvin9999/new-pac/wiki 申请域名
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki 莫斯科ip3
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 美国(CN2中转)-v14
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip2
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip1
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki 俄罗斯g
-      - 🏳️‍🌈 https://github.com/Alvin9999/new-pac/wiki VIP2-CN2中转-台湾-NF-流量x0.8-v23
-      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki VIP2-CN2中转-德国-v41
-      - https://github.com/Alvin9999/new-pac/wiki TTKip4
       - 🇺🇸 https://git.io/v9999 圣何塞
       - 🇺🇸 https://git.io/v9999 圣何塞 2
       - 🇺🇸 https://git.io/v9999 圣何塞 3
@@ -104,17 +71,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - https://github.com/Alvin9999/new-pac/wiki 自用
-      - 🏳️‍🌈 https://github.com/Alvin9999/new-pac/wiki 台湾-NF(CN2中转)-流量x0.8-v36
-      - https://github.com/Alvin9999/new-pac/wiki 申请域名
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki 莫斯科ip3
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 美国(CN2中转)-v14
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip2
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip1
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki 俄罗斯g
-      - 🏳️‍🌈 https://github.com/Alvin9999/new-pac/wiki VIP2-CN2中转-台湾-NF-流量x0.8-v23
-      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki VIP2-CN2中转-德国-v41
-      - https://github.com/Alvin9999/new-pac/wiki TTKip4
       - 🇺🇸 https://git.io/v9999 圣何塞
       - 🇺🇸 https://git.io/v9999 圣何塞 2
       - 🇺🇸 https://git.io/v9999 圣何塞 3
@@ -135,25 +91,12 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
-      - 🏳️‍🌈 https://github.com/Alvin9999/new-pac/wiki 台湾-NF(CN2中转)-流量x0.8-v36
-      - 🏳️‍🌈 https://github.com/Alvin9999/new-pac/wiki VIP2-CN2中转-台湾-NF-流量x0.8-v23
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - https://github.com/Alvin9999/new-pac/wiki 自用
-      - 🏳️‍🌈 https://github.com/Alvin9999/new-pac/wiki 台湾-NF(CN2中转)-流量x0.8-v36
-      - https://github.com/Alvin9999/new-pac/wiki 申请域名
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki 莫斯科ip3
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 美国(CN2中转)-v14
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip2
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip1
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki 俄罗斯g
-      - 🏳️‍🌈 https://github.com/Alvin9999/new-pac/wiki VIP2-CN2中转-台湾-NF-流量x0.8-v23
-      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki VIP2-CN2中转-德国-v41
-      - https://github.com/Alvin9999/new-pac/wiki TTKip4
       - 🇺🇸 https://git.io/v9999 圣何塞
       - 🇺🇸 https://git.io/v9999 圣何塞 2
       - 🇺🇸 https://git.io/v9999 圣何塞 3
@@ -175,17 +118,6 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - https://github.com/Alvin9999/new-pac/wiki 自用
-      - 🏳️‍🌈 https://github.com/Alvin9999/new-pac/wiki 台湾-NF(CN2中转)-流量x0.8-v36
-      - https://github.com/Alvin9999/new-pac/wiki 申请域名
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki 莫斯科ip3
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 美国(CN2中转)-v14
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip2
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip1
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki 俄罗斯g
-      - 🏳️‍🌈 https://github.com/Alvin9999/new-pac/wiki VIP2-CN2中转-台湾-NF-流量x0.8-v23
-      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki VIP2-CN2中转-德国-v41
-      - https://github.com/Alvin9999/new-pac/wiki TTKip4
       - 🇺🇸 https://git.io/v9999 圣何塞
       - 🇺🇸 https://git.io/v9999 圣何塞 2
       - 🇺🇸 https://git.io/v9999 圣何塞 3
@@ -208,17 +140,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - https://github.com/Alvin9999/new-pac/wiki 自用
-      - 🏳️‍🌈 https://github.com/Alvin9999/new-pac/wiki 台湾-NF(CN2中转)-流量x0.8-v36
-      - https://github.com/Alvin9999/new-pac/wiki 申请域名
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki 莫斯科ip3
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 美国(CN2中转)-v14
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip2
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip1
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki 俄罗斯g
-      - 🏳️‍🌈 https://github.com/Alvin9999/new-pac/wiki VIP2-CN2中转-台湾-NF-流量x0.8-v23
-      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki VIP2-CN2中转-德国-v41
-      - https://github.com/Alvin9999/new-pac/wiki TTKip4
       - 🇺🇸 https://git.io/v9999 圣何塞
       - 🇺🇸 https://git.io/v9999 圣何塞 2
       - 🇺🇸 https://git.io/v9999 圣何塞 3
@@ -250,17 +171,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - https://github.com/Alvin9999/new-pac/wiki 自用
-      - 🏳️‍🌈 https://github.com/Alvin9999/new-pac/wiki 台湾-NF(CN2中转)-流量x0.8-v36
-      - https://github.com/Alvin9999/new-pac/wiki 申请域名
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki 莫斯科ip3
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 美国(CN2中转)-v14
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip2
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip1
-      - 🇷🇺 https://github.com/Alvin9999/new-pac/wiki 俄罗斯g
-      - 🏳️‍🌈 https://github.com/Alvin9999/new-pac/wiki VIP2-CN2中转-台湾-NF-流量x0.8-v23
-      - 🇩🇪 https://github.com/Alvin9999/new-pac/wiki VIP2-CN2中转-德国-v41
-      - https://github.com/Alvin9999/new-pac/wiki TTKip4
       - 🇺🇸 https://git.io/v9999 圣何塞
       - 🇺🇸 https://git.io/v9999 圣何塞 2
       - 🇺🇸 https://git.io/v9999 圣何塞 3
