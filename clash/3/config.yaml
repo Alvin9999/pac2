@@ -6,20 +6,22 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 🇺🇸 https://git.io/v9999 圣何塞洛杉矶SS, server: 216.105.168.142, port: 10011, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS, server: 142.4.123.249, port: 12345, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS 2, server: 137.175.30.251, port: 10011, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS 3, server: 137.175.30.248, port: 10011, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS 4, server: 198.200.51.28, port: 10011, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS 5, server: 142.4.123.135, port: 10011, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS 6, server: 198.200.51.18, port: 10011, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS, server: 198.200.51.18, port: 10011, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS 2, server: 142.4.123.249, port: 12345, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS 3, server: 198.200.51.28, port: 10011, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS 4, server: 107.148.200.229, port: 10011, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS 5, server: 192.74.254.112, port: 10011, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS 6, server: 198.200.51.34, port: 10011, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
   - {name: 🇺🇸 https://git.io/v9999 圣何塞SS 7, server: 107.148.200.123, port: 10011, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS 8, server: 107.148.200.229, port: 10011, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS 9, server: 198.200.51.34, port: 10011, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS 10, server: 192.74.254.167, port: 10011, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS 11, server: 198.200.51.189, port: 10011, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS 12, server: 192.74.254.112, port: 10011, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS 8, server: 198.200.51.189, port: 12340, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS 9, server: 192.74.254.167, port: 10011, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS 10, server: 142.4.123.135, port: 10011, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS 11, server: 137.175.30.248, port: 10011, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS 12, server: 137.175.30.251, port: 10011, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
   - {name: 🇷🇺 https://git.io/v9999 莫斯科TTK, server: 45.144.178.97, port: 11111, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
   - {name: 🇷🇺 https://git.io/v9999 莫斯科TTK 2, server: 192.109.98.35, port: 12345, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇷🇺 https://git.io/v9999 莫斯科TTK 3, server: 91.206.92.27, port: 10011, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 洛杉矶SS, server: 85.209.158.29, port: 11000, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -41,6 +43,8 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞SS 12
       - 🇷🇺 https://git.io/v9999 莫斯科TTK
       - 🇷🇺 https://git.io/v9999 莫斯科TTK 2
+      - 🇷🇺 https://git.io/v9999 莫斯科TTK 3
+      - 🇺🇸 https://git.io/v9999 洛杉矶SS
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -62,6 +66,8 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞SS 12
       - 🇷🇺 https://git.io/v9999 莫斯科TTK
       - 🇷🇺 https://git.io/v9999 莫斯科TTK 2
+      - 🇷🇺 https://git.io/v9999 莫斯科TTK 3
+      - 🇺🇸 https://git.io/v9999 洛杉矶SS
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -83,6 +89,8 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞SS 12
       - 🇷🇺 https://git.io/v9999 莫斯科TTK
       - 🇷🇺 https://git.io/v9999 莫斯科TTK 2
+      - 🇷🇺 https://git.io/v9999 莫斯科TTK 3
+      - 🇺🇸 https://git.io/v9999 洛杉矶SS
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -108,6 +116,8 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞SS 12
       - 🇷🇺 https://git.io/v9999 莫斯科TTK
       - 🇷🇺 https://git.io/v9999 莫斯科TTK 2
+      - 🇷🇺 https://git.io/v9999 莫斯科TTK 3
+      - 🇺🇸 https://git.io/v9999 洛杉矶SS
   - name: 📲 电报信息
     type: select
     proxies:
@@ -128,6 +138,8 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞SS 12
       - 🇷🇺 https://git.io/v9999 莫斯科TTK
       - 🇷🇺 https://git.io/v9999 莫斯科TTK 2
+      - 🇷🇺 https://git.io/v9999 莫斯科TTK 3
+      - 🇺🇸 https://git.io/v9999 洛杉矶SS
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -149,6 +161,8 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞SS 12
       - 🇷🇺 https://git.io/v9999 莫斯科TTK
       - 🇷🇺 https://git.io/v9999 莫斯科TTK 2
+      - 🇷🇺 https://git.io/v9999 莫斯科TTK 3
+      - 🇺🇸 https://git.io/v9999 洛杉矶SS
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -179,6 +193,8 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞SS 12
       - 🇷🇺 https://git.io/v9999 莫斯科TTK
       - 🇷🇺 https://git.io/v9999 莫斯科TTK 2
+      - 🇷🇺 https://git.io/v9999 莫斯科TTK 3
+      - 🇺🇸 https://git.io/v9999 洛杉矶SS
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
