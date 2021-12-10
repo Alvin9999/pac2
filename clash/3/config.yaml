@@ -5,52 +5,40 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6, server: 45.66.159.5, port: 38404, type: vmess, uuid: 1c8fa1b8-5110-11ec-a4b9-00163cbed88a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 2, server: 45.66.159.5, port: 7019, type: vmess, uuid: 208e8b08-5110-11ec-a4b9-00163cbed88a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 3, server: 45.66.159.5, port: 47232, type: vmess, uuid: 24352f50-5110-11ec-a4b9-00163cbed88a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 4, server: 45.66.159.5, port: 10522, type: vmess, uuid: 28262ae2-5110-11ec-a4b9-00163cbed88a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 5, server: 45.66.159.74, port: 10000, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 6, server: 45.66.159.74, port: 10001, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 7, server: 45.66.159.74, port: 10002, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 洛杉矶ws ip6, server: 45.66.159.5, port: 27250, type: vmess, uuid: 4bc75036-596f-11ec-953d-00163cbed88a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /HXSwY0fl/, ws-headers: {Host: 45.66.159.5}}
+  - {name: 🇺🇸 https://git.io/v9999 洛杉矶ws ip6 2, server: 45.66.159.5, port: 38376, type: vmess, uuid: 50db7a0c-596f-11ec-953d-00163cbed88a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /MrtglvdI/, ws-headers: {Host: 45.66.159.5}}
+  - {name: 🇺🇸 https://git.io/v9999 洛杉矶ws ip6 3, server: 45.66.159.5, port: 64701, type: vmess, uuid: 55285f1c-596f-11ec-953d-00163cbed88a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /f6mpeuC3/, ws-headers: {Host: 45.66.159.5}}
+  - {name: 🇺🇸 https://git.io/v9999 洛杉矶ws ip6 4, server: 45.66.159.5, port: 13493, type: vmess, uuid: 5b566db6-596f-11ec-888d-00163cbed88a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /nyk8rsw0/, ws-headers: {Host: 45.66.159.5}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 2
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 3
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 4
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 5
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 6
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 7
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6 2
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6 3
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 0
     proxies:
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 2
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 3
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 4
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 5
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 6
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 7
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6 2
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6 3
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6 4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 2
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 3
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 4
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 5
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 6
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 7
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6 2
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6 3
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6 4
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -61,38 +49,29 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 2
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 3
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 4
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 5
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 6
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 7
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6 2
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6 3
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6 4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 2
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 3
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 4
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 5
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 6
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 7
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6 2
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6 3
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6 4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 2
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 3
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 4
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 5
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 6
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 7
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6 2
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6 3
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -108,13 +87,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 2
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 3
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 4
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 5
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 6
-      - 🇺🇸 https://git.io/v9999 洛杉矶tcp ip6 7
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6 2
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6 3
+      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip6 4
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
