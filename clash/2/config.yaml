@@ -5,76 +5,80 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip1, server: 1.1.1.1, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
-  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 2, server: 104.18.87.142, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
-  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 3, server: 172.64.88.97, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
-  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 4, server: 172.67.85.124, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
-  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 5, server: 104.22.32.71, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
-  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 6, server: 104.27.17.236, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
-  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 7, server: 104.20.210.106, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
-  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 8, server: 104.27.116.170, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
-  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 9, server: 104.19.181.49, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
-  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 10, server: icook.tw, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
-  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 11, server: cdn.xia.me, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
-  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 12, server: cf1.521024.xyz, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
-  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 13, server: cf.521024.xyz, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
+  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip4, server: cf.521024.xyz, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
+  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 2, server: 104.19.181.49, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
+  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 3, server: 104.27.17.236, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
+  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 4, server: 104.18.87.142, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
+  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 5, server: icook.tw, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
+  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 6, server: 104.27.116.170, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
+  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 7, server: 104.20.210.106, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
+  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 8, server: cdn.xia.me, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
+  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 9, server: 172.64.88.97, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
+  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 10, server: cf.521024.xyz, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
+  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 11, server: 172.67.85.124, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
+  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 12, server: 1.1.1.1, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
+  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 13, server: 104.22.32.71, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
+  - {name: 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 14, server: cf1.521024.xyz, port: 443, type: vmess, uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash1.v2rayfree1.xyz}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 2
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 3
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 4
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 5
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 6
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 7
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 8
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 9
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 10
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 11
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 12
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 13
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 2
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 3
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 4
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 5
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 6
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 7
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 8
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 9
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 10
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 11
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 12
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 13
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 14
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 0
     proxies:
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 2
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 3
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 4
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 5
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 6
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 7
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 8
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 9
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 10
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 11
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 12
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 13
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 2
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 3
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 4
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 5
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 6
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 7
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 8
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 9
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 10
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 11
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 12
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 13
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 14
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 2
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 3
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 4
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 5
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 6
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 7
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 8
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 9
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 10
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 11
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 12
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 13
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 2
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 3
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 4
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 5
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 6
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 7
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 8
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 9
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 10
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 11
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 12
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 13
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 14
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -85,56 +89,59 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 2
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 3
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 4
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 5
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 6
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 7
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 8
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 9
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 10
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 11
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 12
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 13
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 2
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 3
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 4
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 5
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 6
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 7
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 8
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 9
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 10
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 11
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 12
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 13
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 14
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 2
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 3
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 4
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 5
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 6
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 7
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 8
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 9
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 10
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 11
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 12
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 13
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 2
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 3
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 4
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 5
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 6
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 7
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 8
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 9
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 10
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 11
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 12
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 13
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 14
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 2
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 3
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 4
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 5
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 6
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 7
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 8
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 9
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 10
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 11
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 12
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 13
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 2
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 3
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 4
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 5
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 6
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 7
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 8
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 9
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 10
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 11
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 12
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 13
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 14
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -150,19 +157,20 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 2
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 3
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 4
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 5
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 6
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 7
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 8
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 9
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 10
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 11
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 12
-      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip1 13
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 2
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 3
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 4
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 5
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 6
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 7
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 8
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 9
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 10
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 11
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 12
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 13
+      - 🇷🇺 https://git.io/v9999 莫斯科CDN ip4 14
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
