@@ -5,13 +5,13 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2, server: 198.200.51.34, port: 38201, type: vmess, uuid: fc5f075e-59ab-11ec-96bd-00163cc87418, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /TJFEVjvO/, ws-headers: {Host: 198.200.51.34}}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2 2, server: 107.148.200.229, port: 64848, type: vmess, uuid: 01480e32-59ac-11ec-99af-00163c0ad178, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /T6KhszHL/, ws-headers: {Host: 107.148.200.229}}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2 3, server: 137.175.30.251, port: 16873, type: vmess, uuid: c150c3c0-50df-11ec-aaf3-00163c1393a8, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /UWNKisZB/, ws-headers: {Host: 137.175.30.251}}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2 4, server: 192.74.254.167, port: 14003, type: vmess, uuid: 0e062afc-50e0-11ec-9c30-00163c9f4934, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /3Xt2YL4H/, ws-headers: {Host: 192.74.254.167}}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2 5, server: 198.200.51.18, port: 27962, type: vmess, uuid: b660c4a6-50df-11ec-9676-00163caf481c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jZyaImnU/, ws-headers: {Host: 198.200.51.18}}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2 6, server: 107.148.200.123, port: 23370, type: vmess, uuid: 938eb42e-50df-11ec-8129-00163c1b189e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /SZF3TKj8/, ws-headers: {Host: 107.148.200.123}}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2 7, server: 192.74.254.112, port: 52244, type: vmess, uuid: 015c0894-50e0-11ec-a3e8-00163c57bd9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /E0Y46mSw/, ws-headers: {Host: 192.74.254.112}}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2, server: 142.4.123.135, port: 16541, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2 2, server: 142.4.123.249, port: 7299, type: ss, cipher: chacha20-poly1305, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2 3, server: 192.74.254.112, port: 65260, type: ss, cipher: chacha20-poly1305, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2 4, server: 192.74.254.112, port: 52244, type: vmess, uuid: 015c0894-50e0-11ec-a3e8-00163c57bd9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /E0Y46mSw/, ws-headers: {Host: 192.74.254.112}}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2 5, server: 198.200.51.34, port: 38201, type: vmess, uuid: fc5f075e-59ab-11ec-96bd-00163cc87418, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /TJFEVjvO/, ws-headers: {Host: 198.200.51.34}}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2 6, server: 137.175.30.251, port: 16873, type: vmess, uuid: c150c3c0-50df-11ec-aaf3-00163c1393a8, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /UWNKisZB/, ws-headers: {Host: 137.175.30.251}}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2 7, server: 198.200.51.18, port: 27962, type: vmess, uuid: b660c4a6-50df-11ec-9676-00163caf481c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jZyaImnU/, ws-headers: {Host: 198.200.51.18}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
