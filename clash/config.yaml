@@ -6,8 +6,8 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2, server: 142.4.123.135, port: 16541, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2 2, server: 142.4.123.249, port: 7299, type: ss, cipher: chacha20-poly1305, password: dongtaiwang.com}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2 3, server: 192.74.254.112, port: 65260, type: ss, cipher: chacha20-poly1305, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2 2, server: 142.4.123.249, port: 61356, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2 3, server: 192.74.254.112, port: 38395, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
   - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2 4, server: 192.74.254.112, port: 52244, type: vmess, uuid: 015c0894-50e0-11ec-a3e8-00163c57bd9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /E0Y46mSw/, ws-headers: {Host: 192.74.254.112}}
   - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2 5, server: 198.200.51.34, port: 38201, type: vmess, uuid: fc5f075e-59ab-11ec-96bd-00163cc87418, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /TJFEVjvO/, ws-headers: {Host: 198.200.51.34}}
   - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2 6, server: 137.175.30.251, port: 16873, type: vmess, uuid: c150c3c0-50df-11ec-aaf3-00163c1393a8, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /UWNKisZB/, ws-headers: {Host: 137.175.30.251}}
