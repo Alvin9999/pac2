@@ -5,21 +5,22 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1, server: www.digitalocean.com, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 2, server: cf.521024.xyz, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 3, server: 104.17.97.246, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 4, server: 104.19.42.37, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 5, server: 104.16.206.241, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 6, server: 104.19.103.228, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 7, server: 104.16.195.23, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 8, server: cdn.xia.me, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 9, server: cf1.521024.xyz, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 10, server: 104.19.183.198, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 11, server: 104.21.209.112, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 12, server: 1.1.1.1, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 13, server: 104.20.169.236, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 14, server: 104.16.190.180, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 15, server: icook.tw, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1, server: 104.17.97.246, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN-达拉斯 ip1, server: 209.209.115.41, port: 38369, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 2, server: 104.16.206.241, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 3, server: 104.19.42.37, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 4, server: www.digitalocean.com, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 5, server: 104.21.209.112, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 6, server: cf1.521024.xyz, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 7, server: 1.1.1.1, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 8, server: 104.16.190.180, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 9, server: 104.20.169.236, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 10, server: cf.521024.xyz, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 11, server: cdn.xia.me, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 12, server: 104.19.103.228, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 13, server: icook.tw, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 14, server: 104.19.183.198, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip1 15, server: 104.16.195.23, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: clash3.v2rayfree1.xyz}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -27,6 +28,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸 https://git.io/v9999 美国CDN ip1
+      - 🇺🇸 https://git.io/v9999 美国CDN-达拉斯 ip1
       - 🇺🇸 https://git.io/v9999 美国CDN ip1 2
       - 🇺🇸 https://git.io/v9999 美国CDN ip1 3
       - 🇺🇸 https://git.io/v9999 美国CDN ip1 4
@@ -48,6 +50,7 @@ proxy-groups:
     tolerance: 0
     proxies:
       - 🇺🇸 https://git.io/v9999 美国CDN ip1
+      - 🇺🇸 https://git.io/v9999 美国CDN-达拉斯 ip1
       - 🇺🇸 https://git.io/v9999 美国CDN ip1 2
       - 🇺🇸 https://git.io/v9999 美国CDN ip1 3
       - 🇺🇸 https://git.io/v9999 美国CDN ip1 4
@@ -69,6 +72,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸 https://git.io/v9999 美国CDN ip1
+      - 🇺🇸 https://git.io/v9999 美国CDN-达拉斯 ip1
       - 🇺🇸 https://git.io/v9999 美国CDN ip1 2
       - 🇺🇸 https://git.io/v9999 美国CDN ip1 3
       - 🇺🇸 https://git.io/v9999 美国CDN ip1 4
@@ -94,6 +98,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🇺🇸 https://git.io/v9999 美国CDN ip1
+      - 🇺🇸 https://git.io/v9999 美国CDN-达拉斯 ip1
       - 🇺🇸 https://git.io/v9999 美国CDN ip1 2
       - 🇺🇸 https://git.io/v9999 美国CDN ip1 3
       - 🇺🇸 https://git.io/v9999 美国CDN ip1 4
@@ -114,6 +119,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🇺🇸 https://git.io/v9999 美国CDN ip1
+      - 🇺🇸 https://git.io/v9999 美国CDN-达拉斯 ip1
       - 🇺🇸 https://git.io/v9999 美国CDN ip1 2
       - 🇺🇸 https://git.io/v9999 美国CDN ip1 3
       - 🇺🇸 https://git.io/v9999 美国CDN ip1 4
@@ -135,6 +141,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸 https://git.io/v9999 美国CDN ip1
+      - 🇺🇸 https://git.io/v9999 美国CDN-达拉斯 ip1
       - 🇺🇸 https://git.io/v9999 美国CDN ip1 2
       - 🇺🇸 https://git.io/v9999 美国CDN ip1 3
       - 🇺🇸 https://git.io/v9999 美国CDN ip1 4
@@ -165,6 +172,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸 https://git.io/v9999 美国CDN ip1
+      - 🇺🇸 https://git.io/v9999 美国CDN-达拉斯 ip1
       - 🇺🇸 https://git.io/v9999 美国CDN ip1 2
       - 🇺🇸 https://git.io/v9999 美国CDN ip1 3
       - 🇺🇸 https://git.io/v9999 美国CDN ip1 4
