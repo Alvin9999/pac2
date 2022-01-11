@@ -5,9 +5,12 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2, server: 142.4.123.249, port: 34297, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2 2, server: 142.4.123.135, port: 51333, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2 3, server: 107.148.200.123, port: 23514, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2, server: 142.4.123.135, port: 1966, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2 2, server: 107.148.200.123, port: 23514, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞 ip2 3, server: 142.4.123.249, port: 34297, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 圣-达拉斯3, server: 209.209.115.22, port: 7544, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 圣-达拉斯2, server: 209.209.115.23, port: 27887, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 圣-达拉斯1, server: 209.209.115.6, port: 56870, type: vmess, uuid: 579cbfde-7299-11ec-8511-c68119276ea3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /JV06PzeO/, ws-headers: {Host: 209.209.115.6}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -17,6 +20,9 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞 ip2
       - 🇺🇸 https://git.io/v9999 圣何塞 ip2 2
       - 🇺🇸 https://git.io/v9999 圣何塞 ip2 3
+      - 🇺🇸 https://git.io/v9999 圣-达拉斯3
+      - 🇺🇸 https://git.io/v9999 圣-达拉斯2
+      - 🇺🇸 https://git.io/v9999 圣-达拉斯1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -26,6 +32,9 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞 ip2
       - 🇺🇸 https://git.io/v9999 圣何塞 ip2 2
       - 🇺🇸 https://git.io/v9999 圣何塞 ip2 3
+      - 🇺🇸 https://git.io/v9999 圣-达拉斯3
+      - 🇺🇸 https://git.io/v9999 圣-达拉斯2
+      - 🇺🇸 https://git.io/v9999 圣-达拉斯1
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -35,6 +44,9 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞 ip2
       - 🇺🇸 https://git.io/v9999 圣何塞 ip2 2
       - 🇺🇸 https://git.io/v9999 圣何塞 ip2 3
+      - 🇺🇸 https://git.io/v9999 圣-达拉斯3
+      - 🇺🇸 https://git.io/v9999 圣-达拉斯2
+      - 🇺🇸 https://git.io/v9999 圣-达拉斯1
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -48,6 +60,9 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞 ip2
       - 🇺🇸 https://git.io/v9999 圣何塞 ip2 2
       - 🇺🇸 https://git.io/v9999 圣何塞 ip2 3
+      - 🇺🇸 https://git.io/v9999 圣-达拉斯3
+      - 🇺🇸 https://git.io/v9999 圣-达拉斯2
+      - 🇺🇸 https://git.io/v9999 圣-达拉斯1
   - name: 📲 电报信息
     type: select
     proxies:
@@ -56,6 +71,9 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞 ip2
       - 🇺🇸 https://git.io/v9999 圣何塞 ip2 2
       - 🇺🇸 https://git.io/v9999 圣何塞 ip2 3
+      - 🇺🇸 https://git.io/v9999 圣-达拉斯3
+      - 🇺🇸 https://git.io/v9999 圣-达拉斯2
+      - 🇺🇸 https://git.io/v9999 圣-达拉斯1
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -65,6 +83,9 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞 ip2
       - 🇺🇸 https://git.io/v9999 圣何塞 ip2 2
       - 🇺🇸 https://git.io/v9999 圣何塞 ip2 3
+      - 🇺🇸 https://git.io/v9999 圣-达拉斯3
+      - 🇺🇸 https://git.io/v9999 圣-达拉斯2
+      - 🇺🇸 https://git.io/v9999 圣-达拉斯1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -83,6 +104,9 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞 ip2
       - 🇺🇸 https://git.io/v9999 圣何塞 ip2 2
       - 🇺🇸 https://git.io/v9999 圣何塞 ip2 3
+      - 🇺🇸 https://git.io/v9999 圣-达拉斯3
+      - 🇺🇸 https://git.io/v9999 圣-达拉斯2
+      - 🇺🇸 https://git.io/v9999 圣-达拉斯1
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
