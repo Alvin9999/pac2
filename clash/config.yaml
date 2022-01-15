@@ -5,40 +5,40 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: https://git.io/v9999 圣TTK, server: 195.133.52.144, port: 10091, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: https://git.io/v9999 圣TTK 2, server: 194.135.32.221, port: 13994, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: https://git.io/v9999 圣TTK 3, server: 193.53.127.197, port: 1593, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: https://git.io/v9999 圣TTK 4, server: 195.133.53.212, port: 11337, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: https://git.io/v9999 圣TTK ip2, server: 193.53.127.197, port: 21188, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: https://git.io/v9999 圣TTK ip2 2, server: 195.133.52.144, port: 10091, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: https://git.io/v9999 圣TTK ip2 3, server: 195.133.53.212, port: 11337, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: https://git.io/v9999 圣TTK i2, server: 194.135.32.221, port: 13994, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - https://git.io/v9999 圣TTK
-      - https://git.io/v9999 圣TTK 2
-      - https://git.io/v9999 圣TTK 3
-      - https://git.io/v9999 圣TTK 4
+      - https://git.io/v9999 圣TTK ip2
+      - https://git.io/v9999 圣TTK ip2 2
+      - https://git.io/v9999 圣TTK ip2 3
+      - https://git.io/v9999 圣TTK i2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 0
     proxies:
-      - https://git.io/v9999 圣TTK
-      - https://git.io/v9999 圣TTK 2
-      - https://git.io/v9999 圣TTK 3
-      - https://git.io/v9999 圣TTK 4
+      - https://git.io/v9999 圣TTK ip2
+      - https://git.io/v9999 圣TTK ip2 2
+      - https://git.io/v9999 圣TTK ip2 3
+      - https://git.io/v9999 圣TTK i2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - https://git.io/v9999 圣TTK
-      - https://git.io/v9999 圣TTK 2
-      - https://git.io/v9999 圣TTK 3
-      - https://git.io/v9999 圣TTK 4
+      - https://git.io/v9999 圣TTK ip2
+      - https://git.io/v9999 圣TTK ip2 2
+      - https://git.io/v9999 圣TTK ip2 3
+      - https://git.io/v9999 圣TTK i2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -49,29 +49,29 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - https://git.io/v9999 圣TTK
-      - https://git.io/v9999 圣TTK 2
-      - https://git.io/v9999 圣TTK 3
-      - https://git.io/v9999 圣TTK 4
+      - https://git.io/v9999 圣TTK ip2
+      - https://git.io/v9999 圣TTK ip2 2
+      - https://git.io/v9999 圣TTK ip2 3
+      - https://git.io/v9999 圣TTK i2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - https://git.io/v9999 圣TTK
-      - https://git.io/v9999 圣TTK 2
-      - https://git.io/v9999 圣TTK 3
-      - https://git.io/v9999 圣TTK 4
+      - https://git.io/v9999 圣TTK ip2
+      - https://git.io/v9999 圣TTK ip2 2
+      - https://git.io/v9999 圣TTK ip2 3
+      - https://git.io/v9999 圣TTK i2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - https://git.io/v9999 圣TTK
-      - https://git.io/v9999 圣TTK 2
-      - https://git.io/v9999 圣TTK 3
-      - https://git.io/v9999 圣TTK 4
+      - https://git.io/v9999 圣TTK ip2
+      - https://git.io/v9999 圣TTK ip2 2
+      - https://git.io/v9999 圣TTK ip2 3
+      - https://git.io/v9999 圣TTK i2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -87,10 +87,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - https://git.io/v9999 圣TTK
-      - https://git.io/v9999 圣TTK 2
-      - https://git.io/v9999 圣TTK 3
-      - https://git.io/v9999 圣TTK 4
+      - https://git.io/v9999 圣TTK ip2
+      - https://git.io/v9999 圣TTK ip2 2
+      - https://git.io/v9999 圣TTK ip2 3
+      - https://git.io/v9999 圣TTK i2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
