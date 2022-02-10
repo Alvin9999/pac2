@@ -5,676 +5,235 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"https://git_io/v9999_ip4_澳大利亚_99","server":"45.79.239.168","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"https://git_io/v9999_ip4_波兰_50","server":"194.15.196.54","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"https://git_io/v9999_ip4_法国_33","server":"62.210.222.195","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"https://git_io/v9999_ip4_法国_56","server":"62.210.209.50","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"https://git_io/v9999_ip4_加拿大_1","server":"134.195.196.44","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"https://git_io/v9999_ip4_加拿大_13","server":"134.195.196.214","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"https://git_io/v9999_ip4_加拿大_14","server":"134.195.196.214","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"https://git_io/v9999_ip4_加拿大_15","server":"134.195.196.193","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"https://git_io/v9999_ip4_加拿大_16","server":"134.195.196.214","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"https://git_io/v9999_ip4_加拿大_17","server":"198.57.27.184","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"https://git_io/v9999_ip4_加拿大_18","server":"134.195.196.214","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"https://git_io/v9999_ip4_加拿大_19","server":"134.195.196.110","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"https://git_io/v9999_ip4_加拿大_2","server":"134.195.196.214","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"https://git_io/v9999_ip4_加拿大_20","server":"134.195.196.200","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"https://git_io/v9999_ip4_加拿大_23","server":"134.195.196.110","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"https://git_io/v9999_ip4_加拿大_24","server":"198.57.27.241","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"https://git_io/v9999_ip4_加拿大_25","server":"134.195.196.150","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"https://git_io/v9999_ip4_加拿大_26","server":"134.195.196.71","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"https://git_io/v9999_ip4_加拿大_4","server":"134.195.196.214","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"https://git_io/v9999_ip4_加拿大_48","server":"134.195.196.71","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"https://git_io/v9999_ip4_加拿大_49","server":"198.57.27.36","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"https://git_io/v9999_ip4_加拿大_5","server":"134.195.196.214","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"https://git_io/v9999_ip4_加拿大_63","server":"134.195.196.150","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"https://git_io/v9999_ip4_加拿大_64","server":"134.195.196.150","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"https://git_io/v9999_ip4_加拿大_67","server":"134.195.196.3","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"https://git_io/v9999_ip4_加拿大_68","server":"134.195.196.81","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"https://git_io/v9999_ip4_加拿大_7","server":"134.195.196.24","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"https://git_io/v9999_ip4_加拿大_78","server":"198.57.27.36","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"https://git_io/v9999_ip4_加拿大_88","server":"198.57.27.184","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"https://git_io/v9999_ip4_美国_100","server":"38.107.226.49","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"https://git_io/v9999_ip4_美国_11","server":"38.91.106.236","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"https://git_io/v9999_ip4_美国_21","server":"38.114.114.77","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"https://git_io/v9999_ip4_美国_22","server":"38.68.135.93","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"https://git_io/v9999_ip4_美国_28","server":"38.68.134.23","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"https://git_io/v9999_ip4_美国_29","server":"38.68.134.191","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"https://git_io/v9999_ip4_美国_3","server":"169.197.142.48","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"https://git_io/v9999_ip4_美国_30","server":"38.114.114.69","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"https://git_io/v9999_ip4_美国_34","server":"38.114.114.77","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"https://git_io/v9999_ip4_美国_35","server":"38.68.134.9","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"https://git_io/v9999_ip4_美国_36","server":"38.114.114.185","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"https://git_io/v9999_ip4_美国_37","server":"38.68.134.9","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"https://git_io/v9999_ip4_美国_38","server":"169.197.142.216","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"https://git_io/v9999_ip4_美国_39","server":"38.68.134.9","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"https://git_io/v9999_ip4_美国_40","server":"38.114.114.77","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"https://git_io/v9999_ip4_美国_41","server":"38.68.134.9","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"https://git_io/v9999_ip4_美国_42","server":"38.114.114.77","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"https://git_io/v9999_ip4_美国_45","server":"167.88.62.34","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"https://git_io/v9999_ip4_美国_47","server":"167.88.63.60","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"https://git_io/v9999_ip4_美国_51","server":"38.68.134.71","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"https://git_io/v9999_ip4_美国_53","server":"38.114.114.49","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"https://git_io/v9999_ip4_美国_55","server":"38.91.107.43","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"https://git_io/v9999_ip4_美国_58","server":"38.68.134.48","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"https://git_io/v9999_ip4_美国_59","server":"38.68.134.191","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"https://git_io/v9999_ip4_美国_6","server":"169.197.142.48","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"https://git_io/v9999_ip4_美国_60","server":"169.197.141.244","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"https://git_io/v9999_ip4_美国_66","server":"38.91.107.80","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"https://git_io/v9999_ip4_美国_69","server":"38.86.135.169","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"https://git_io/v9999_ip4_美国_72","server":"167.88.63.60","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"https://git_io/v9999_ip4_美国_74","server":"169.197.143.52","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"https://git_io/v9999_ip4_美国_75","server":"167.88.63.60","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"https://git_io/v9999_ip4_美国_79","server":"167.88.63.60","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"https://git_io/v9999_ip4_美国_8","server":"169.197.142.48","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"https://git_io/v9999_ip4_美国_80","server":"38.75.137.187","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"https://git_io/v9999_ip4_美国_81","server":"167.88.63.74","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"https://git_io/v9999_ip4_美国_82","server":"38.107.226.49","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"https://git_io/v9999_ip4_美国_84","server":"38.107.226.48","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"https://git_io/v9999_ip4_美国_86","server":"169.197.142.48","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"https://git_io/v9999_ip4_美国_87","server":"38.107.226.48","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"https://git_io/v9999_ip4_美国_89","server":"142.202.48.34","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"https://git_io/v9999_ip4_美国_90","server":"38.114.114.49","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"https://git_io/v9999_ip4_美国_91","server":"169.197.143.52","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"https://git_io/v9999_ip4_美国_92","server":"142.202.48.77","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"https://git_io/v9999_ip4_美国_95","server":"169.197.143.52","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"https://git_io/v9999_ip4_美国_96","server":"38.68.134.48","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"https://git_io/v9999_ip4_美国_97","server":"38.91.100.134","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"https://git_io/v9999_ip4_美国_98","server":"38.121.43.71","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"https://git_io/v9999_ip4_印度_10","server":"45.79.123.187","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"https://git_io/v9999_ip4_印度_12","server":"172.104.207.35","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"https://git_io/v9999_ip4_印度_32","server":"45.79.123.175","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"https://git_io/v9999_ip4_印度_57","server":"192.46.209.17","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"https://git_io/v9999_ip4_印度_62","server":"45.79.123.175","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"https://git_io/v9999_ip4_印度_70","server":"in-vpnpool.freexiazai.ml","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"https://git_io/v9999_ip4_英国_54","server":"172.99.190.186","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"https://git_io/v9999_ip4_英国_61","server":"172.99.190.186","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
   - {"name":"https://git_io/v9999_ip4_英国_65","server":"172.99.190.149","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"https://git_io/v9999_ip4_英国_71","server":"172.99.190.139","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"https://git_io/v9999_ip4_英国_73","server":"172.99.190.139","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"https://git_io/v9999_ip4_英国_76","server":"172.99.190.139","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"https://git_io/v9999_ip4_英国_77","server":"172.99.190.87","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"https://git_io/v9999_ip4_英国_83","server":"172.99.190.153","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"https://git_io/v9999_ip4_英国_85","server":"172.99.190.153","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"https://git_io/v9999_ip4_印度_12","server":"172.104.207.35","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"https://git_io/v9999_ip4_美国_98","server":"38.121.43.71","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"https://git_io/v9999_ip4_美国_97","server":"38.91.100.134","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"https://git_io/v9999_ip4_美国_89","server":"142.202.48.34","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"https://git_io/v9999_ip4_美国_81","server":"167.88.63.74","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"https://git_io/v9999_ip4_美国_66","server":"38.91.107.80","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"https://git_io/v9999_ip4_美国_60","server":"169.197.141.244","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"https://git_io/v9999_ip4_美国_55","server":"38.91.107.43","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"https://git_io/v9999_ip4_美国_45","server":"167.88.62.34","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"https://git_io/v9999_ip4_美国_28","server":"38.68.134.23","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"https://git_io/v9999_ip4_美国_100","server":"38.107.226.49","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"https://git_io/v9999_ip4_加拿大_78","server":"198.57.27.36","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"https://git_io/v9999_ip4_加拿大_68","server":"134.195.196.81","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"https://git_io/v9999_ip4_加拿大_5","server":"134.195.196.214","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"https://git_io/v9999_ip4_加拿大_48","server":"134.195.196.71","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"https://git_io/v9999_ip4_加拿大_4","server":"134.195.196.214","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"https://git_io/v9999_ip4_加拿大_26","server":"134.195.196.71","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"https://git_io/v9999_ip4_加拿大_24","server":"198.57.27.241","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"https://git_io/v9999_ip4_加拿大_20","server":"134.195.196.200","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"https://git_io/v9999_ip4_加拿大_2","server":"134.195.196.214","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"https://git_io/v9999_ip4_加拿大_18","server":"134.195.196.214","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"https://git_io/v9999_ip4_加拿大_17","server":"198.57.27.184","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"https://git_io/v9999_ip4_加拿大_16","server":"134.195.196.214","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"https://git_io/v9999_ip4_加拿大_15","server":"134.195.196.193","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"https://git_io/v9999_ip4_加拿大_14","server":"134.195.196.214","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"https://git_io/v9999_ip4_加拿大_13","server":"134.195.196.214","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"https://git_io/v9999_ip4_法国_56","server":"62.210.209.50","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - https://git_io/v9999_ip4_澳大利亚_99
-      - https://git_io/v9999_ip4_波兰_50
-      - https://git_io/v9999_ip4_法国_33
-      - https://git_io/v9999_ip4_法国_56
-      - https://git_io/v9999_ip4_加拿大_1
-      - https://git_io/v9999_ip4_加拿大_13
-      - https://git_io/v9999_ip4_加拿大_14
-      - https://git_io/v9999_ip4_加拿大_15
-      - https://git_io/v9999_ip4_加拿大_16
-      - https://git_io/v9999_ip4_加拿大_17
-      - https://git_io/v9999_ip4_加拿大_18
-      - https://git_io/v9999_ip4_加拿大_19
-      - https://git_io/v9999_ip4_加拿大_2
-      - https://git_io/v9999_ip4_加拿大_20
-      - https://git_io/v9999_ip4_加拿大_23
-      - https://git_io/v9999_ip4_加拿大_24
-      - https://git_io/v9999_ip4_加拿大_25
-      - https://git_io/v9999_ip4_加拿大_26
-      - https://git_io/v9999_ip4_加拿大_4
-      - https://git_io/v9999_ip4_加拿大_48
-      - https://git_io/v9999_ip4_加拿大_49
-      - https://git_io/v9999_ip4_加拿大_5
-      - https://git_io/v9999_ip4_加拿大_63
-      - https://git_io/v9999_ip4_加拿大_64
-      - https://git_io/v9999_ip4_加拿大_67
-      - https://git_io/v9999_ip4_加拿大_68
-      - https://git_io/v9999_ip4_加拿大_7
-      - https://git_io/v9999_ip4_加拿大_78
-      - https://git_io/v9999_ip4_加拿大_88
-      - https://git_io/v9999_ip4_美国_100
-      - https://git_io/v9999_ip4_美国_11
-      - https://git_io/v9999_ip4_美国_21
-      - https://git_io/v9999_ip4_美国_22
-      - https://git_io/v9999_ip4_美国_28
-      - https://git_io/v9999_ip4_美国_29
-      - https://git_io/v9999_ip4_美国_3
-      - https://git_io/v9999_ip4_美国_30
-      - https://git_io/v9999_ip4_美国_34
-      - https://git_io/v9999_ip4_美国_35
-      - https://git_io/v9999_ip4_美国_36
-      - https://git_io/v9999_ip4_美国_37
-      - https://git_io/v9999_ip4_美国_38
-      - https://git_io/v9999_ip4_美国_39
-      - https://git_io/v9999_ip4_美国_40
-      - https://git_io/v9999_ip4_美国_41
-      - https://git_io/v9999_ip4_美国_42
-      - https://git_io/v9999_ip4_美国_45
-      - https://git_io/v9999_ip4_美国_47
-      - https://git_io/v9999_ip4_美国_51
-      - https://git_io/v9999_ip4_美国_53
-      - https://git_io/v9999_ip4_美国_55
-      - https://git_io/v9999_ip4_美国_58
-      - https://git_io/v9999_ip4_美国_59
-      - https://git_io/v9999_ip4_美国_6
-      - https://git_io/v9999_ip4_美国_60
-      - https://git_io/v9999_ip4_美国_66
-      - https://git_io/v9999_ip4_美国_69
-      - https://git_io/v9999_ip4_美国_72
-      - https://git_io/v9999_ip4_美国_74
-      - https://git_io/v9999_ip4_美国_75
-      - https://git_io/v9999_ip4_美国_79
-      - https://git_io/v9999_ip4_美国_8
-      - https://git_io/v9999_ip4_美国_80
-      - https://git_io/v9999_ip4_美国_81
-      - https://git_io/v9999_ip4_美国_82
-      - https://git_io/v9999_ip4_美国_84
-      - https://git_io/v9999_ip4_美国_86
-      - https://git_io/v9999_ip4_美国_87
-      - https://git_io/v9999_ip4_美国_89
-      - https://git_io/v9999_ip4_美国_90
-      - https://git_io/v9999_ip4_美国_91
-      - https://git_io/v9999_ip4_美国_92
-      - https://git_io/v9999_ip4_美国_95
-      - https://git_io/v9999_ip4_美国_96
-      - https://git_io/v9999_ip4_美国_97
-      - https://git_io/v9999_ip4_美国_98
-      - https://git_io/v9999_ip4_印度_10
-      - https://git_io/v9999_ip4_印度_12
-      - https://git_io/v9999_ip4_印度_32
-      - https://git_io/v9999_ip4_印度_57
-      - https://git_io/v9999_ip4_印度_62
-      - https://git_io/v9999_ip4_印度_70
-      - https://git_io/v9999_ip4_英国_54
-      - https://git_io/v9999_ip4_英国_61
       - https://git_io/v9999_ip4_英国_65
-      - https://git_io/v9999_ip4_英国_71
-      - https://git_io/v9999_ip4_英国_73
-      - https://git_io/v9999_ip4_英国_76
-      - https://git_io/v9999_ip4_英国_77
-      - https://git_io/v9999_ip4_英国_83
-      - https://git_io/v9999_ip4_英国_85
+      - https://git_io/v9999_ip4_印度_12
+      - https://git_io/v9999_ip4_美国_98
+      - https://git_io/v9999_ip4_美国_97
+      - https://git_io/v9999_ip4_美国_89
+      - https://git_io/v9999_ip4_美国_81
+      - https://git_io/v9999_ip4_美国_66
+      - https://git_io/v9999_ip4_美国_60
+      - https://git_io/v9999_ip4_美国_55
+      - https://git_io/v9999_ip4_美国_45
+      - https://git_io/v9999_ip4_美国_28
+      - https://git_io/v9999_ip4_美国_100
+      - https://git_io/v9999_ip4_加拿大_78
+      - https://git_io/v9999_ip4_加拿大_68
+      - https://git_io/v9999_ip4_加拿大_5
+      - https://git_io/v9999_ip4_加拿大_48
+      - https://git_io/v9999_ip4_加拿大_4
+      - https://git_io/v9999_ip4_加拿大_26
+      - https://git_io/v9999_ip4_加拿大_24
+      - https://git_io/v9999_ip4_加拿大_20
+      - https://git_io/v9999_ip4_加拿大_2
+      - https://git_io/v9999_ip4_加拿大_18
+      - https://git_io/v9999_ip4_加拿大_17
+      - https://git_io/v9999_ip4_加拿大_16
+      - https://git_io/v9999_ip4_加拿大_15
+      - https://git_io/v9999_ip4_加拿大_14
+      - https://git_io/v9999_ip4_加拿大_13
+      - https://git_io/v9999_ip4_法国_56
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - https://git_io/v9999_ip4_澳大利亚_99
-      - https://git_io/v9999_ip4_波兰_50
-      - https://git_io/v9999_ip4_法国_33
-      - https://git_io/v9999_ip4_法国_56
-      - https://git_io/v9999_ip4_加拿大_1
-      - https://git_io/v9999_ip4_加拿大_13
-      - https://git_io/v9999_ip4_加拿大_14
-      - https://git_io/v9999_ip4_加拿大_15
-      - https://git_io/v9999_ip4_加拿大_16
-      - https://git_io/v9999_ip4_加拿大_17
-      - https://git_io/v9999_ip4_加拿大_18
-      - https://git_io/v9999_ip4_加拿大_19
-      - https://git_io/v9999_ip4_加拿大_2
-      - https://git_io/v9999_ip4_加拿大_20
-      - https://git_io/v9999_ip4_加拿大_23
-      - https://git_io/v9999_ip4_加拿大_24
-      - https://git_io/v9999_ip4_加拿大_25
-      - https://git_io/v9999_ip4_加拿大_26
-      - https://git_io/v9999_ip4_加拿大_4
-      - https://git_io/v9999_ip4_加拿大_48
-      - https://git_io/v9999_ip4_加拿大_49
-      - https://git_io/v9999_ip4_加拿大_5
-      - https://git_io/v9999_ip4_加拿大_63
-      - https://git_io/v9999_ip4_加拿大_64
-      - https://git_io/v9999_ip4_加拿大_67
-      - https://git_io/v9999_ip4_加拿大_68
-      - https://git_io/v9999_ip4_加拿大_7
-      - https://git_io/v9999_ip4_加拿大_78
-      - https://git_io/v9999_ip4_加拿大_88
-      - https://git_io/v9999_ip4_美国_100
-      - https://git_io/v9999_ip4_美国_11
-      - https://git_io/v9999_ip4_美国_21
-      - https://git_io/v9999_ip4_美国_22
-      - https://git_io/v9999_ip4_美国_28
-      - https://git_io/v9999_ip4_美国_29
-      - https://git_io/v9999_ip4_美国_3
-      - https://git_io/v9999_ip4_美国_30
-      - https://git_io/v9999_ip4_美国_34
-      - https://git_io/v9999_ip4_美国_35
-      - https://git_io/v9999_ip4_美国_36
-      - https://git_io/v9999_ip4_美国_37
-      - https://git_io/v9999_ip4_美国_38
-      - https://git_io/v9999_ip4_美国_39
-      - https://git_io/v9999_ip4_美国_40
-      - https://git_io/v9999_ip4_美国_41
-      - https://git_io/v9999_ip4_美国_42
-      - https://git_io/v9999_ip4_美国_45
-      - https://git_io/v9999_ip4_美国_47
-      - https://git_io/v9999_ip4_美国_51
-      - https://git_io/v9999_ip4_美国_53
-      - https://git_io/v9999_ip4_美国_55
-      - https://git_io/v9999_ip4_美国_58
-      - https://git_io/v9999_ip4_美国_59
-      - https://git_io/v9999_ip4_美国_6
-      - https://git_io/v9999_ip4_美国_60
-      - https://git_io/v9999_ip4_美国_66
-      - https://git_io/v9999_ip4_美国_69
-      - https://git_io/v9999_ip4_美国_72
-      - https://git_io/v9999_ip4_美国_74
-      - https://git_io/v9999_ip4_美国_75
-      - https://git_io/v9999_ip4_美国_79
-      - https://git_io/v9999_ip4_美国_8
-      - https://git_io/v9999_ip4_美国_80
-      - https://git_io/v9999_ip4_美国_81
-      - https://git_io/v9999_ip4_美国_82
-      - https://git_io/v9999_ip4_美国_84
-      - https://git_io/v9999_ip4_美国_86
-      - https://git_io/v9999_ip4_美国_87
-      - https://git_io/v9999_ip4_美国_89
-      - https://git_io/v9999_ip4_美国_90
-      - https://git_io/v9999_ip4_美国_91
-      - https://git_io/v9999_ip4_美国_92
-      - https://git_io/v9999_ip4_美国_95
-      - https://git_io/v9999_ip4_美国_96
-      - https://git_io/v9999_ip4_美国_97
-      - https://git_io/v9999_ip4_美国_98
-      - https://git_io/v9999_ip4_印度_10
-      - https://git_io/v9999_ip4_印度_12
-      - https://git_io/v9999_ip4_印度_32
-      - https://git_io/v9999_ip4_印度_57
-      - https://git_io/v9999_ip4_印度_62
-      - https://git_io/v9999_ip4_印度_70
-      - https://git_io/v9999_ip4_英国_54
-      - https://git_io/v9999_ip4_英国_61
       - https://git_io/v9999_ip4_英国_65
-      - https://git_io/v9999_ip4_英国_71
-      - https://git_io/v9999_ip4_英国_73
-      - https://git_io/v9999_ip4_英国_76
-      - https://git_io/v9999_ip4_英国_77
-      - https://git_io/v9999_ip4_英国_83
-      - https://git_io/v9999_ip4_英国_85
+      - https://git_io/v9999_ip4_印度_12
+      - https://git_io/v9999_ip4_美国_98
+      - https://git_io/v9999_ip4_美国_97
+      - https://git_io/v9999_ip4_美国_89
+      - https://git_io/v9999_ip4_美国_81
+      - https://git_io/v9999_ip4_美国_66
+      - https://git_io/v9999_ip4_美国_60
+      - https://git_io/v9999_ip4_美国_55
+      - https://git_io/v9999_ip4_美国_45
+      - https://git_io/v9999_ip4_美国_28
+      - https://git_io/v9999_ip4_美国_100
+      - https://git_io/v9999_ip4_加拿大_78
+      - https://git_io/v9999_ip4_加拿大_68
+      - https://git_io/v9999_ip4_加拿大_5
+      - https://git_io/v9999_ip4_加拿大_48
+      - https://git_io/v9999_ip4_加拿大_4
+      - https://git_io/v9999_ip4_加拿大_26
+      - https://git_io/v9999_ip4_加拿大_24
+      - https://git_io/v9999_ip4_加拿大_20
+      - https://git_io/v9999_ip4_加拿大_2
+      - https://git_io/v9999_ip4_加拿大_18
+      - https://git_io/v9999_ip4_加拿大_17
+      - https://git_io/v9999_ip4_加拿大_16
+      - https://git_io/v9999_ip4_加拿大_15
+      - https://git_io/v9999_ip4_加拿大_14
+      - https://git_io/v9999_ip4_加拿大_13
+      - https://git_io/v9999_ip4_法国_56
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - https://git_io/v9999_ip4_澳大利亚_99
-      - https://git_io/v9999_ip4_波兰_50
-      - https://git_io/v9999_ip4_法国_33
-      - https://git_io/v9999_ip4_法国_56
-      - https://git_io/v9999_ip4_加拿大_1
-      - https://git_io/v9999_ip4_加拿大_13
-      - https://git_io/v9999_ip4_加拿大_14
-      - https://git_io/v9999_ip4_加拿大_15
-      - https://git_io/v9999_ip4_加拿大_16
-      - https://git_io/v9999_ip4_加拿大_17
-      - https://git_io/v9999_ip4_加拿大_18
-      - https://git_io/v9999_ip4_加拿大_19
-      - https://git_io/v9999_ip4_加拿大_2
-      - https://git_io/v9999_ip4_加拿大_20
-      - https://git_io/v9999_ip4_加拿大_23
-      - https://git_io/v9999_ip4_加拿大_24
-      - https://git_io/v9999_ip4_加拿大_25
-      - https://git_io/v9999_ip4_加拿大_26
-      - https://git_io/v9999_ip4_加拿大_4
-      - https://git_io/v9999_ip4_加拿大_48
-      - https://git_io/v9999_ip4_加拿大_49
-      - https://git_io/v9999_ip4_加拿大_5
-      - https://git_io/v9999_ip4_加拿大_63
-      - https://git_io/v9999_ip4_加拿大_64
-      - https://git_io/v9999_ip4_加拿大_67
-      - https://git_io/v9999_ip4_加拿大_68
-      - https://git_io/v9999_ip4_加拿大_7
-      - https://git_io/v9999_ip4_加拿大_78
-      - https://git_io/v9999_ip4_加拿大_88
-      - https://git_io/v9999_ip4_美国_100
-      - https://git_io/v9999_ip4_美国_11
-      - https://git_io/v9999_ip4_美国_21
-      - https://git_io/v9999_ip4_美国_22
-      - https://git_io/v9999_ip4_美国_28
-      - https://git_io/v9999_ip4_美国_29
-      - https://git_io/v9999_ip4_美国_3
-      - https://git_io/v9999_ip4_美国_30
-      - https://git_io/v9999_ip4_美国_34
-      - https://git_io/v9999_ip4_美国_35
-      - https://git_io/v9999_ip4_美国_36
-      - https://git_io/v9999_ip4_美国_37
-      - https://git_io/v9999_ip4_美国_38
-      - https://git_io/v9999_ip4_美国_39
-      - https://git_io/v9999_ip4_美国_40
-      - https://git_io/v9999_ip4_美国_41
-      - https://git_io/v9999_ip4_美国_42
-      - https://git_io/v9999_ip4_美国_45
-      - https://git_io/v9999_ip4_美国_47
-      - https://git_io/v9999_ip4_美国_51
-      - https://git_io/v9999_ip4_美国_53
-      - https://git_io/v9999_ip4_美国_55
-      - https://git_io/v9999_ip4_美国_58
-      - https://git_io/v9999_ip4_美国_59
-      - https://git_io/v9999_ip4_美国_6
-      - https://git_io/v9999_ip4_美国_60
-      - https://git_io/v9999_ip4_美国_66
-      - https://git_io/v9999_ip4_美国_69
-      - https://git_io/v9999_ip4_美国_72
-      - https://git_io/v9999_ip4_美国_74
-      - https://git_io/v9999_ip4_美国_75
-      - https://git_io/v9999_ip4_美国_79
-      - https://git_io/v9999_ip4_美国_8
-      - https://git_io/v9999_ip4_美国_80
-      - https://git_io/v9999_ip4_美国_81
-      - https://git_io/v9999_ip4_美国_82
-      - https://git_io/v9999_ip4_美国_84
-      - https://git_io/v9999_ip4_美国_86
-      - https://git_io/v9999_ip4_美国_87
-      - https://git_io/v9999_ip4_美国_89
-      - https://git_io/v9999_ip4_美国_90
-      - https://git_io/v9999_ip4_美国_91
-      - https://git_io/v9999_ip4_美国_92
-      - https://git_io/v9999_ip4_美国_95
-      - https://git_io/v9999_ip4_美国_96
-      - https://git_io/v9999_ip4_美国_97
-      - https://git_io/v9999_ip4_美国_98
-      - https://git_io/v9999_ip4_印度_10
-      - https://git_io/v9999_ip4_印度_12
-      - https://git_io/v9999_ip4_印度_32
-      - https://git_io/v9999_ip4_印度_57
-      - https://git_io/v9999_ip4_印度_62
-      - https://git_io/v9999_ip4_印度_70
-      - https://git_io/v9999_ip4_英国_54
-      - https://git_io/v9999_ip4_英国_61
       - https://git_io/v9999_ip4_英国_65
-      - https://git_io/v9999_ip4_英国_71
-      - https://git_io/v9999_ip4_英国_73
-      - https://git_io/v9999_ip4_英国_76
-      - https://git_io/v9999_ip4_英国_77
-      - https://git_io/v9999_ip4_英国_83
-      - https://git_io/v9999_ip4_英国_85
+      - https://git_io/v9999_ip4_印度_12
+      - https://git_io/v9999_ip4_美国_98
+      - https://git_io/v9999_ip4_美国_97
+      - https://git_io/v9999_ip4_美国_89
+      - https://git_io/v9999_ip4_美国_81
+      - https://git_io/v9999_ip4_美国_66
+      - https://git_io/v9999_ip4_美国_60
+      - https://git_io/v9999_ip4_美国_55
+      - https://git_io/v9999_ip4_美国_45
+      - https://git_io/v9999_ip4_美国_28
+      - https://git_io/v9999_ip4_美国_100
+      - https://git_io/v9999_ip4_加拿大_78
+      - https://git_io/v9999_ip4_加拿大_68
+      - https://git_io/v9999_ip4_加拿大_5
+      - https://git_io/v9999_ip4_加拿大_48
+      - https://git_io/v9999_ip4_加拿大_4
+      - https://git_io/v9999_ip4_加拿大_26
+      - https://git_io/v9999_ip4_加拿大_24
+      - https://git_io/v9999_ip4_加拿大_20
+      - https://git_io/v9999_ip4_加拿大_2
+      - https://git_io/v9999_ip4_加拿大_18
+      - https://git_io/v9999_ip4_加拿大_17
+      - https://git_io/v9999_ip4_加拿大_16
+      - https://git_io/v9999_ip4_加拿大_15
+      - https://git_io/v9999_ip4_加拿大_14
+      - https://git_io/v9999_ip4_加拿大_13
+      - https://git_io/v9999_ip4_法国_56
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - https://git_io/v9999_ip4_澳大利亚_99
-      - https://git_io/v9999_ip4_波兰_50
-      - https://git_io/v9999_ip4_法国_33
-      - https://git_io/v9999_ip4_法国_56
-      - https://git_io/v9999_ip4_加拿大_1
-      - https://git_io/v9999_ip4_加拿大_13
-      - https://git_io/v9999_ip4_加拿大_14
-      - https://git_io/v9999_ip4_加拿大_15
-      - https://git_io/v9999_ip4_加拿大_16
-      - https://git_io/v9999_ip4_加拿大_17
-      - https://git_io/v9999_ip4_加拿大_18
-      - https://git_io/v9999_ip4_加拿大_19
-      - https://git_io/v9999_ip4_加拿大_2
-      - https://git_io/v9999_ip4_加拿大_20
-      - https://git_io/v9999_ip4_加拿大_23
-      - https://git_io/v9999_ip4_加拿大_24
-      - https://git_io/v9999_ip4_加拿大_25
-      - https://git_io/v9999_ip4_加拿大_26
-      - https://git_io/v9999_ip4_加拿大_4
-      - https://git_io/v9999_ip4_加拿大_48
-      - https://git_io/v9999_ip4_加拿大_49
-      - https://git_io/v9999_ip4_加拿大_5
-      - https://git_io/v9999_ip4_加拿大_63
-      - https://git_io/v9999_ip4_加拿大_64
-      - https://git_io/v9999_ip4_加拿大_67
-      - https://git_io/v9999_ip4_加拿大_68
-      - https://git_io/v9999_ip4_加拿大_7
-      - https://git_io/v9999_ip4_加拿大_78
-      - https://git_io/v9999_ip4_加拿大_88
-      - https://git_io/v9999_ip4_美国_100
-      - https://git_io/v9999_ip4_美国_11
-      - https://git_io/v9999_ip4_美国_21
-      - https://git_io/v9999_ip4_美国_22
-      - https://git_io/v9999_ip4_美国_28
-      - https://git_io/v9999_ip4_美国_29
-      - https://git_io/v9999_ip4_美国_3
-      - https://git_io/v9999_ip4_美国_30
-      - https://git_io/v9999_ip4_美国_34
-      - https://git_io/v9999_ip4_美国_35
-      - https://git_io/v9999_ip4_美国_36
-      - https://git_io/v9999_ip4_美国_37
-      - https://git_io/v9999_ip4_美国_38
-      - https://git_io/v9999_ip4_美国_39
-      - https://git_io/v9999_ip4_美国_40
-      - https://git_io/v9999_ip4_美国_41
-      - https://git_io/v9999_ip4_美国_42
-      - https://git_io/v9999_ip4_美国_45
-      - https://git_io/v9999_ip4_美国_47
-      - https://git_io/v9999_ip4_美国_51
-      - https://git_io/v9999_ip4_美国_53
-      - https://git_io/v9999_ip4_美国_55
-      - https://git_io/v9999_ip4_美国_58
-      - https://git_io/v9999_ip4_美国_59
-      - https://git_io/v9999_ip4_美国_6
-      - https://git_io/v9999_ip4_美国_60
-      - https://git_io/v9999_ip4_美国_66
-      - https://git_io/v9999_ip4_美国_69
-      - https://git_io/v9999_ip4_美国_72
-      - https://git_io/v9999_ip4_美国_74
-      - https://git_io/v9999_ip4_美国_75
-      - https://git_io/v9999_ip4_美国_79
-      - https://git_io/v9999_ip4_美国_8
-      - https://git_io/v9999_ip4_美国_80
-      - https://git_io/v9999_ip4_美国_81
-      - https://git_io/v9999_ip4_美国_82
-      - https://git_io/v9999_ip4_美国_84
-      - https://git_io/v9999_ip4_美国_86
-      - https://git_io/v9999_ip4_美国_87
-      - https://git_io/v9999_ip4_美国_89
-      - https://git_io/v9999_ip4_美国_90
-      - https://git_io/v9999_ip4_美国_91
-      - https://git_io/v9999_ip4_美国_92
-      - https://git_io/v9999_ip4_美国_95
-      - https://git_io/v9999_ip4_美国_96
-      - https://git_io/v9999_ip4_美国_97
-      - https://git_io/v9999_ip4_美国_98
-      - https://git_io/v9999_ip4_印度_10
-      - https://git_io/v9999_ip4_印度_12
-      - https://git_io/v9999_ip4_印度_32
-      - https://git_io/v9999_ip4_印度_57
-      - https://git_io/v9999_ip4_印度_62
-      - https://git_io/v9999_ip4_印度_70
-      - https://git_io/v9999_ip4_英国_54
-      - https://git_io/v9999_ip4_英国_61
       - https://git_io/v9999_ip4_英国_65
-      - https://git_io/v9999_ip4_英国_71
-      - https://git_io/v9999_ip4_英国_73
-      - https://git_io/v9999_ip4_英国_76
-      - https://git_io/v9999_ip4_英国_77
-      - https://git_io/v9999_ip4_英国_83
-      - https://git_io/v9999_ip4_英国_85
+      - https://git_io/v9999_ip4_印度_12
+      - https://git_io/v9999_ip4_美国_98
+      - https://git_io/v9999_ip4_美国_97
+      - https://git_io/v9999_ip4_美国_89
+      - https://git_io/v9999_ip4_美国_81
+      - https://git_io/v9999_ip4_美国_66
+      - https://git_io/v9999_ip4_美国_60
+      - https://git_io/v9999_ip4_美国_55
+      - https://git_io/v9999_ip4_美国_45
+      - https://git_io/v9999_ip4_美国_28
+      - https://git_io/v9999_ip4_美国_100
+      - https://git_io/v9999_ip4_加拿大_78
+      - https://git_io/v9999_ip4_加拿大_68
+      - https://git_io/v9999_ip4_加拿大_5
+      - https://git_io/v9999_ip4_加拿大_48
+      - https://git_io/v9999_ip4_加拿大_4
+      - https://git_io/v9999_ip4_加拿大_26
+      - https://git_io/v9999_ip4_加拿大_24
+      - https://git_io/v9999_ip4_加拿大_20
+      - https://git_io/v9999_ip4_加拿大_2
+      - https://git_io/v9999_ip4_加拿大_18
+      - https://git_io/v9999_ip4_加拿大_17
+      - https://git_io/v9999_ip4_加拿大_16
+      - https://git_io/v9999_ip4_加拿大_15
+      - https://git_io/v9999_ip4_加拿大_14
+      - https://git_io/v9999_ip4_加拿大_13
+      - https://git_io/v9999_ip4_法国_56
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - https://git_io/v9999_ip4_澳大利亚_99
-      - https://git_io/v9999_ip4_波兰_50
-      - https://git_io/v9999_ip4_法国_33
-      - https://git_io/v9999_ip4_法国_56
-      - https://git_io/v9999_ip4_加拿大_1
-      - https://git_io/v9999_ip4_加拿大_13
-      - https://git_io/v9999_ip4_加拿大_14
-      - https://git_io/v9999_ip4_加拿大_15
-      - https://git_io/v9999_ip4_加拿大_16
-      - https://git_io/v9999_ip4_加拿大_17
-      - https://git_io/v9999_ip4_加拿大_18
-      - https://git_io/v9999_ip4_加拿大_19
-      - https://git_io/v9999_ip4_加拿大_2
-      - https://git_io/v9999_ip4_加拿大_20
-      - https://git_io/v9999_ip4_加拿大_23
-      - https://git_io/v9999_ip4_加拿大_24
-      - https://git_io/v9999_ip4_加拿大_25
-      - https://git_io/v9999_ip4_加拿大_26
-      - https://git_io/v9999_ip4_加拿大_4
-      - https://git_io/v9999_ip4_加拿大_48
-      - https://git_io/v9999_ip4_加拿大_49
-      - https://git_io/v9999_ip4_加拿大_5
-      - https://git_io/v9999_ip4_加拿大_63
-      - https://git_io/v9999_ip4_加拿大_64
-      - https://git_io/v9999_ip4_加拿大_67
-      - https://git_io/v9999_ip4_加拿大_68
-      - https://git_io/v9999_ip4_加拿大_7
-      - https://git_io/v9999_ip4_加拿大_78
-      - https://git_io/v9999_ip4_加拿大_88
-      - https://git_io/v9999_ip4_美国_100
-      - https://git_io/v9999_ip4_美国_11
-      - https://git_io/v9999_ip4_美国_21
-      - https://git_io/v9999_ip4_美国_22
-      - https://git_io/v9999_ip4_美国_28
-      - https://git_io/v9999_ip4_美国_29
-      - https://git_io/v9999_ip4_美国_3
-      - https://git_io/v9999_ip4_美国_30
-      - https://git_io/v9999_ip4_美国_34
-      - https://git_io/v9999_ip4_美国_35
-      - https://git_io/v9999_ip4_美国_36
-      - https://git_io/v9999_ip4_美国_37
-      - https://git_io/v9999_ip4_美国_38
-      - https://git_io/v9999_ip4_美国_39
-      - https://git_io/v9999_ip4_美国_40
-      - https://git_io/v9999_ip4_美国_41
-      - https://git_io/v9999_ip4_美国_42
-      - https://git_io/v9999_ip4_美国_45
-      - https://git_io/v9999_ip4_美国_47
-      - https://git_io/v9999_ip4_美国_51
-      - https://git_io/v9999_ip4_美国_53
-      - https://git_io/v9999_ip4_美国_55
-      - https://git_io/v9999_ip4_美国_58
-      - https://git_io/v9999_ip4_美国_59
-      - https://git_io/v9999_ip4_美国_6
-      - https://git_io/v9999_ip4_美国_60
-      - https://git_io/v9999_ip4_美国_66
-      - https://git_io/v9999_ip4_美国_69
-      - https://git_io/v9999_ip4_美国_72
-      - https://git_io/v9999_ip4_美国_74
-      - https://git_io/v9999_ip4_美国_75
-      - https://git_io/v9999_ip4_美国_79
-      - https://git_io/v9999_ip4_美国_8
-      - https://git_io/v9999_ip4_美国_80
-      - https://git_io/v9999_ip4_美国_81
-      - https://git_io/v9999_ip4_美国_82
-      - https://git_io/v9999_ip4_美国_84
-      - https://git_io/v9999_ip4_美国_86
-      - https://git_io/v9999_ip4_美国_87
-      - https://git_io/v9999_ip4_美国_89
-      - https://git_io/v9999_ip4_美国_90
-      - https://git_io/v9999_ip4_美国_91
-      - https://git_io/v9999_ip4_美国_92
-      - https://git_io/v9999_ip4_美国_95
-      - https://git_io/v9999_ip4_美国_96
-      - https://git_io/v9999_ip4_美国_97
-      - https://git_io/v9999_ip4_美国_98
-      - https://git_io/v9999_ip4_印度_10
-      - https://git_io/v9999_ip4_印度_12
-      - https://git_io/v9999_ip4_印度_32
-      - https://git_io/v9999_ip4_印度_57
-      - https://git_io/v9999_ip4_印度_62
-      - https://git_io/v9999_ip4_印度_70
-      - https://git_io/v9999_ip4_英国_54
-      - https://git_io/v9999_ip4_英国_61
       - https://git_io/v9999_ip4_英国_65
-      - https://git_io/v9999_ip4_英国_71
-      - https://git_io/v9999_ip4_英国_73
-      - https://git_io/v9999_ip4_英国_76
-      - https://git_io/v9999_ip4_英国_77
-      - https://git_io/v9999_ip4_英国_83
-      - https://git_io/v9999_ip4_英国_85
+      - https://git_io/v9999_ip4_印度_12
+      - https://git_io/v9999_ip4_美国_98
+      - https://git_io/v9999_ip4_美国_97
+      - https://git_io/v9999_ip4_美国_89
+      - https://git_io/v9999_ip4_美国_81
+      - https://git_io/v9999_ip4_美国_66
+      - https://git_io/v9999_ip4_美国_60
+      - https://git_io/v9999_ip4_美国_55
+      - https://git_io/v9999_ip4_美国_45
+      - https://git_io/v9999_ip4_美国_28
+      - https://git_io/v9999_ip4_美国_100
+      - https://git_io/v9999_ip4_加拿大_78
+      - https://git_io/v9999_ip4_加拿大_68
+      - https://git_io/v9999_ip4_加拿大_5
+      - https://git_io/v9999_ip4_加拿大_48
+      - https://git_io/v9999_ip4_加拿大_4
+      - https://git_io/v9999_ip4_加拿大_26
+      - https://git_io/v9999_ip4_加拿大_24
+      - https://git_io/v9999_ip4_加拿大_20
+      - https://git_io/v9999_ip4_加拿大_2
+      - https://git_io/v9999_ip4_加拿大_18
+      - https://git_io/v9999_ip4_加拿大_17
+      - https://git_io/v9999_ip4_加拿大_16
+      - https://git_io/v9999_ip4_加拿大_15
+      - https://git_io/v9999_ip4_加拿大_14
+      - https://git_io/v9999_ip4_加拿大_13
+      - https://git_io/v9999_ip4_法国_56
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - https://git_io/v9999_ip4_澳大利亚_99
-      - https://git_io/v9999_ip4_波兰_50
-      - https://git_io/v9999_ip4_法国_33
-      - https://git_io/v9999_ip4_法国_56
-      - https://git_io/v9999_ip4_加拿大_1
-      - https://git_io/v9999_ip4_加拿大_13
-      - https://git_io/v9999_ip4_加拿大_14
-      - https://git_io/v9999_ip4_加拿大_15
-      - https://git_io/v9999_ip4_加拿大_16
-      - https://git_io/v9999_ip4_加拿大_17
-      - https://git_io/v9999_ip4_加拿大_18
-      - https://git_io/v9999_ip4_加拿大_19
-      - https://git_io/v9999_ip4_加拿大_2
-      - https://git_io/v9999_ip4_加拿大_20
-      - https://git_io/v9999_ip4_加拿大_23
-      - https://git_io/v9999_ip4_加拿大_24
-      - https://git_io/v9999_ip4_加拿大_25
-      - https://git_io/v9999_ip4_加拿大_26
-      - https://git_io/v9999_ip4_加拿大_4
-      - https://git_io/v9999_ip4_加拿大_48
-      - https://git_io/v9999_ip4_加拿大_49
-      - https://git_io/v9999_ip4_加拿大_5
-      - https://git_io/v9999_ip4_加拿大_63
-      - https://git_io/v9999_ip4_加拿大_64
-      - https://git_io/v9999_ip4_加拿大_67
-      - https://git_io/v9999_ip4_加拿大_68
-      - https://git_io/v9999_ip4_加拿大_7
-      - https://git_io/v9999_ip4_加拿大_78
-      - https://git_io/v9999_ip4_加拿大_88
-      - https://git_io/v9999_ip4_美国_100
-      - https://git_io/v9999_ip4_美国_11
-      - https://git_io/v9999_ip4_美国_21
-      - https://git_io/v9999_ip4_美国_22
-      - https://git_io/v9999_ip4_美国_28
-      - https://git_io/v9999_ip4_美国_29
-      - https://git_io/v9999_ip4_美国_3
-      - https://git_io/v9999_ip4_美国_30
-      - https://git_io/v9999_ip4_美国_34
-      - https://git_io/v9999_ip4_美国_35
-      - https://git_io/v9999_ip4_美国_36
-      - https://git_io/v9999_ip4_美国_37
-      - https://git_io/v9999_ip4_美国_38
-      - https://git_io/v9999_ip4_美国_39
-      - https://git_io/v9999_ip4_美国_40
-      - https://git_io/v9999_ip4_美国_41
-      - https://git_io/v9999_ip4_美国_42
-      - https://git_io/v9999_ip4_美国_45
-      - https://git_io/v9999_ip4_美国_47
-      - https://git_io/v9999_ip4_美国_51
-      - https://git_io/v9999_ip4_美国_53
-      - https://git_io/v9999_ip4_美国_55
-      - https://git_io/v9999_ip4_美国_58
-      - https://git_io/v9999_ip4_美国_59
-      - https://git_io/v9999_ip4_美国_6
-      - https://git_io/v9999_ip4_美国_60
-      - https://git_io/v9999_ip4_美国_66
-      - https://git_io/v9999_ip4_美国_69
-      - https://git_io/v9999_ip4_美国_72
-      - https://git_io/v9999_ip4_美国_74
-      - https://git_io/v9999_ip4_美国_75
-      - https://git_io/v9999_ip4_美国_79
-      - https://git_io/v9999_ip4_美国_8
-      - https://git_io/v9999_ip4_美国_80
-      - https://git_io/v9999_ip4_美国_81
-      - https://git_io/v9999_ip4_美国_82
-      - https://git_io/v9999_ip4_美国_84
-      - https://git_io/v9999_ip4_美国_86
-      - https://git_io/v9999_ip4_美国_87
-      - https://git_io/v9999_ip4_美国_89
-      - https://git_io/v9999_ip4_美国_90
-      - https://git_io/v9999_ip4_美国_91
-      - https://git_io/v9999_ip4_美国_92
-      - https://git_io/v9999_ip4_美国_95
-      - https://git_io/v9999_ip4_美国_96
-      - https://git_io/v9999_ip4_美国_97
-      - https://git_io/v9999_ip4_美国_98
-      - https://git_io/v9999_ip4_印度_10
-      - https://git_io/v9999_ip4_印度_12
-      - https://git_io/v9999_ip4_印度_32
-      - https://git_io/v9999_ip4_印度_57
-      - https://git_io/v9999_ip4_印度_62
-      - https://git_io/v9999_ip4_印度_70
-      - https://git_io/v9999_ip4_英国_54
-      - https://git_io/v9999_ip4_英国_61
       - https://git_io/v9999_ip4_英国_65
-      - https://git_io/v9999_ip4_英国_71
-      - https://git_io/v9999_ip4_英国_73
-      - https://git_io/v9999_ip4_英国_76
-      - https://git_io/v9999_ip4_英国_77
-      - https://git_io/v9999_ip4_英国_83
-      - https://git_io/v9999_ip4_英国_85
+      - https://git_io/v9999_ip4_印度_12
+      - https://git_io/v9999_ip4_美国_98
+      - https://git_io/v9999_ip4_美国_97
+      - https://git_io/v9999_ip4_美国_89
+      - https://git_io/v9999_ip4_美国_81
+      - https://git_io/v9999_ip4_美国_66
+      - https://git_io/v9999_ip4_美国_60
+      - https://git_io/v9999_ip4_美国_55
+      - https://git_io/v9999_ip4_美国_45
+      - https://git_io/v9999_ip4_美国_28
+      - https://git_io/v9999_ip4_美国_100
+      - https://git_io/v9999_ip4_加拿大_78
+      - https://git_io/v9999_ip4_加拿大_68
+      - https://git_io/v9999_ip4_加拿大_5
+      - https://git_io/v9999_ip4_加拿大_48
+      - https://git_io/v9999_ip4_加拿大_4
+      - https://git_io/v9999_ip4_加拿大_26
+      - https://git_io/v9999_ip4_加拿大_24
+      - https://git_io/v9999_ip4_加拿大_20
+      - https://git_io/v9999_ip4_加拿大_2
+      - https://git_io/v9999_ip4_加拿大_18
+      - https://git_io/v9999_ip4_加拿大_17
+      - https://git_io/v9999_ip4_加拿大_16
+      - https://git_io/v9999_ip4_加拿大_15
+      - https://git_io/v9999_ip4_加拿大_14
+      - https://git_io/v9999_ip4_加拿大_13
+      - https://git_io/v9999_ip4_法国_56
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -697,97 +256,34 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - https://git_io/v9999_ip4_澳大利亚_99
-      - https://git_io/v9999_ip4_波兰_50
-      - https://git_io/v9999_ip4_法国_33
-      - https://git_io/v9999_ip4_法国_56
-      - https://git_io/v9999_ip4_加拿大_1
-      - https://git_io/v9999_ip4_加拿大_13
-      - https://git_io/v9999_ip4_加拿大_14
-      - https://git_io/v9999_ip4_加拿大_15
-      - https://git_io/v9999_ip4_加拿大_16
-      - https://git_io/v9999_ip4_加拿大_17
-      - https://git_io/v9999_ip4_加拿大_18
-      - https://git_io/v9999_ip4_加拿大_19
-      - https://git_io/v9999_ip4_加拿大_2
-      - https://git_io/v9999_ip4_加拿大_20
-      - https://git_io/v9999_ip4_加拿大_23
-      - https://git_io/v9999_ip4_加拿大_24
-      - https://git_io/v9999_ip4_加拿大_25
-      - https://git_io/v9999_ip4_加拿大_26
-      - https://git_io/v9999_ip4_加拿大_4
-      - https://git_io/v9999_ip4_加拿大_48
-      - https://git_io/v9999_ip4_加拿大_49
-      - https://git_io/v9999_ip4_加拿大_5
-      - https://git_io/v9999_ip4_加拿大_63
-      - https://git_io/v9999_ip4_加拿大_64
-      - https://git_io/v9999_ip4_加拿大_67
-      - https://git_io/v9999_ip4_加拿大_68
-      - https://git_io/v9999_ip4_加拿大_7
-      - https://git_io/v9999_ip4_加拿大_78
-      - https://git_io/v9999_ip4_加拿大_88
-      - https://git_io/v9999_ip4_美国_100
-      - https://git_io/v9999_ip4_美国_11
-      - https://git_io/v9999_ip4_美国_21
-      - https://git_io/v9999_ip4_美国_22
-      - https://git_io/v9999_ip4_美国_28
-      - https://git_io/v9999_ip4_美国_29
-      - https://git_io/v9999_ip4_美国_3
-      - https://git_io/v9999_ip4_美国_30
-      - https://git_io/v9999_ip4_美国_34
-      - https://git_io/v9999_ip4_美国_35
-      - https://git_io/v9999_ip4_美国_36
-      - https://git_io/v9999_ip4_美国_37
-      - https://git_io/v9999_ip4_美国_38
-      - https://git_io/v9999_ip4_美国_39
-      - https://git_io/v9999_ip4_美国_40
-      - https://git_io/v9999_ip4_美国_41
-      - https://git_io/v9999_ip4_美国_42
-      - https://git_io/v9999_ip4_美国_45
-      - https://git_io/v9999_ip4_美国_47
-      - https://git_io/v9999_ip4_美国_51
-      - https://git_io/v9999_ip4_美国_53
-      - https://git_io/v9999_ip4_美国_55
-      - https://git_io/v9999_ip4_美国_58
-      - https://git_io/v9999_ip4_美国_59
-      - https://git_io/v9999_ip4_美国_6
-      - https://git_io/v9999_ip4_美国_60
-      - https://git_io/v9999_ip4_美国_66
-      - https://git_io/v9999_ip4_美国_69
-      - https://git_io/v9999_ip4_美国_72
-      - https://git_io/v9999_ip4_美国_74
-      - https://git_io/v9999_ip4_美国_75
-      - https://git_io/v9999_ip4_美国_79
-      - https://git_io/v9999_ip4_美国_8
-      - https://git_io/v9999_ip4_美国_80
-      - https://git_io/v9999_ip4_美国_81
-      - https://git_io/v9999_ip4_美国_82
-      - https://git_io/v9999_ip4_美国_84
-      - https://git_io/v9999_ip4_美国_86
-      - https://git_io/v9999_ip4_美国_87
-      - https://git_io/v9999_ip4_美国_89
-      - https://git_io/v9999_ip4_美国_90
-      - https://git_io/v9999_ip4_美国_91
-      - https://git_io/v9999_ip4_美国_92
-      - https://git_io/v9999_ip4_美国_95
-      - https://git_io/v9999_ip4_美国_96
-      - https://git_io/v9999_ip4_美国_97
-      - https://git_io/v9999_ip4_美国_98
-      - https://git_io/v9999_ip4_印度_10
-      - https://git_io/v9999_ip4_印度_12
-      - https://git_io/v9999_ip4_印度_32
-      - https://git_io/v9999_ip4_印度_57
-      - https://git_io/v9999_ip4_印度_62
-      - https://git_io/v9999_ip4_印度_70
-      - https://git_io/v9999_ip4_英国_54
-      - https://git_io/v9999_ip4_英国_61
       - https://git_io/v9999_ip4_英国_65
-      - https://git_io/v9999_ip4_英国_71
-      - https://git_io/v9999_ip4_英国_73
-      - https://git_io/v9999_ip4_英国_76
-      - https://git_io/v9999_ip4_英国_77
-      - https://git_io/v9999_ip4_英国_83
-      - https://git_io/v9999_ip4_英国_85
+      - https://git_io/v9999_ip4_印度_12
+      - https://git_io/v9999_ip4_美国_98
+      - https://git_io/v9999_ip4_美国_97
+      - https://git_io/v9999_ip4_美国_89
+      - https://git_io/v9999_ip4_美国_81
+      - https://git_io/v9999_ip4_美国_66
+      - https://git_io/v9999_ip4_美国_60
+      - https://git_io/v9999_ip4_美国_55
+      - https://git_io/v9999_ip4_美国_45
+      - https://git_io/v9999_ip4_美国_28
+      - https://git_io/v9999_ip4_美国_100
+      - https://git_io/v9999_ip4_加拿大_78
+      - https://git_io/v9999_ip4_加拿大_68
+      - https://git_io/v9999_ip4_加拿大_5
+      - https://git_io/v9999_ip4_加拿大_48
+      - https://git_io/v9999_ip4_加拿大_4
+      - https://git_io/v9999_ip4_加拿大_26
+      - https://git_io/v9999_ip4_加拿大_24
+      - https://git_io/v9999_ip4_加拿大_20
+      - https://git_io/v9999_ip4_加拿大_2
+      - https://git_io/v9999_ip4_加拿大_18
+      - https://git_io/v9999_ip4_加拿大_17
+      - https://git_io/v9999_ip4_加拿大_16
+      - https://git_io/v9999_ip4_加拿大_15
+      - https://git_io/v9999_ip4_加拿大_14
+      - https://git_io/v9999_ip4_加拿大_13
+      - https://git_io/v9999_ip4_法国_56
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
