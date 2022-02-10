@@ -8,7 +8,6 @@ proxies:
   - {"name":"https://git_io/v9999_ip2_美国_9","server":"169.197.141.91","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
   - {"name":"https://git_io/v9999_ip2_美国_8","server":"38.68.134.23","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
   - {"name":"https://git_io/v9999_ip2_美国_6","server":"38.68.134.23","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"https://git_io/v9999_ip2_美国_5","server":"38.68.134.191","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
   - {"name":"https://git_io/v9999_ip2_美国_43","server":"142.202.48.34","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
   - {"name":"https://git_io/v9999_ip2_美国_4","server":"169.197.141.91","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
   - {"name":"https://git_io/v9999_ip2_美国_38","server":"169.197.141.91","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
@@ -17,7 +16,6 @@ proxies:
   - {"name":"https://git_io/v9999_ip2_美国_31","server":"169.197.141.187","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
   - {"name":"https://git_io/v9999_ip2_美国_22","server":"169.197.141.91","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
   - {"name":"https://git_io/v9999_ip2_美国_20","server":"169.197.141.91","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"https://git_io/v9999_ip2_美国_2","server":"167.88.62.34","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
   - {"name":"https://git_io/v9999_ip2_美国_17","server":"169.197.141.187","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
   - {"name":"https://git_io/v9999_ip2_美国_15","server":"38.68.134.23","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
   - {"name":"https://git_io/v9999_ip2_美国_1","server":"169.197.141.187","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
@@ -62,7 +60,6 @@ proxy-groups:
       - https://git_io/v9999_ip2_美国_9
       - https://git_io/v9999_ip2_美国_8
       - https://git_io/v9999_ip2_美国_6
-      - https://git_io/v9999_ip2_美国_5
       - https://git_io/v9999_ip2_美国_43
       - https://git_io/v9999_ip2_美国_4
       - https://git_io/v9999_ip2_美国_38
@@ -71,7 +68,6 @@ proxy-groups:
       - https://git_io/v9999_ip2_美国_31
       - https://git_io/v9999_ip2_美国_22
       - https://git_io/v9999_ip2_美国_20
-      - https://git_io/v9999_ip2_美国_2
       - https://git_io/v9999_ip2_美国_17
       - https://git_io/v9999_ip2_美国_15
       - https://git_io/v9999_ip2_美国_1
@@ -116,7 +112,6 @@ proxy-groups:
       - https://git_io/v9999_ip2_美国_9
       - https://git_io/v9999_ip2_美国_8
       - https://git_io/v9999_ip2_美国_6
-      - https://git_io/v9999_ip2_美国_5
       - https://git_io/v9999_ip2_美国_43
       - https://git_io/v9999_ip2_美国_4
       - https://git_io/v9999_ip2_美国_38
@@ -125,7 +120,6 @@ proxy-groups:
       - https://git_io/v9999_ip2_美国_31
       - https://git_io/v9999_ip2_美国_22
       - https://git_io/v9999_ip2_美国_20
-      - https://git_io/v9999_ip2_美国_2
       - https://git_io/v9999_ip2_美国_17
       - https://git_io/v9999_ip2_美国_15
       - https://git_io/v9999_ip2_美国_1
@@ -170,7 +164,6 @@ proxy-groups:
       - https://git_io/v9999_ip2_美国_9
       - https://git_io/v9999_ip2_美国_8
       - https://git_io/v9999_ip2_美国_6
-      - https://git_io/v9999_ip2_美国_5
       - https://git_io/v9999_ip2_美国_43
       - https://git_io/v9999_ip2_美国_4
       - https://git_io/v9999_ip2_美国_38
@@ -179,7 +172,6 @@ proxy-groups:
       - https://git_io/v9999_ip2_美国_31
       - https://git_io/v9999_ip2_美国_22
       - https://git_io/v9999_ip2_美国_20
-      - https://git_io/v9999_ip2_美国_2
       - https://git_io/v9999_ip2_美国_17
       - https://git_io/v9999_ip2_美国_15
       - https://git_io/v9999_ip2_美国_1
@@ -223,7 +215,6 @@ proxy-groups:
       - https://git_io/v9999_ip2_美国_9
       - https://git_io/v9999_ip2_美国_8
       - https://git_io/v9999_ip2_美国_6
-      - https://git_io/v9999_ip2_美国_5
       - https://git_io/v9999_ip2_美国_43
       - https://git_io/v9999_ip2_美国_4
       - https://git_io/v9999_ip2_美国_38
@@ -232,7 +223,6 @@ proxy-groups:
       - https://git_io/v9999_ip2_美国_31
       - https://git_io/v9999_ip2_美国_22
       - https://git_io/v9999_ip2_美国_20
-      - https://git_io/v9999_ip2_美国_2
       - https://git_io/v9999_ip2_美国_17
       - https://git_io/v9999_ip2_美国_15
       - https://git_io/v9999_ip2_美国_1
@@ -276,7 +266,6 @@ proxy-groups:
       - https://git_io/v9999_ip2_美国_9
       - https://git_io/v9999_ip2_美国_8
       - https://git_io/v9999_ip2_美国_6
-      - https://git_io/v9999_ip2_美国_5
       - https://git_io/v9999_ip2_美国_43
       - https://git_io/v9999_ip2_美国_4
       - https://git_io/v9999_ip2_美国_38
@@ -285,7 +274,6 @@ proxy-groups:
       - https://git_io/v9999_ip2_美国_31
       - https://git_io/v9999_ip2_美国_22
       - https://git_io/v9999_ip2_美国_20
-      - https://git_io/v9999_ip2_美国_2
       - https://git_io/v9999_ip2_美国_17
       - https://git_io/v9999_ip2_美国_15
       - https://git_io/v9999_ip2_美国_1
@@ -329,7 +317,6 @@ proxy-groups:
       - https://git_io/v9999_ip2_美国_9
       - https://git_io/v9999_ip2_美国_8
       - https://git_io/v9999_ip2_美国_6
-      - https://git_io/v9999_ip2_美国_5
       - https://git_io/v9999_ip2_美国_43
       - https://git_io/v9999_ip2_美国_4
       - https://git_io/v9999_ip2_美国_38
@@ -338,7 +325,6 @@ proxy-groups:
       - https://git_io/v9999_ip2_美国_31
       - https://git_io/v9999_ip2_美国_22
       - https://git_io/v9999_ip2_美国_20
-      - https://git_io/v9999_ip2_美国_2
       - https://git_io/v9999_ip2_美国_17
       - https://git_io/v9999_ip2_美国_15
       - https://git_io/v9999_ip2_美国_1
@@ -399,7 +385,6 @@ proxy-groups:
       - https://git_io/v9999_ip2_美国_9
       - https://git_io/v9999_ip2_美国_8
       - https://git_io/v9999_ip2_美国_6
-      - https://git_io/v9999_ip2_美国_5
       - https://git_io/v9999_ip2_美国_43
       - https://git_io/v9999_ip2_美国_4
       - https://git_io/v9999_ip2_美国_38
@@ -408,7 +393,6 @@ proxy-groups:
       - https://git_io/v9999_ip2_美国_31
       - https://git_io/v9999_ip2_美国_22
       - https://git_io/v9999_ip2_美国_20
-      - https://git_io/v9999_ip2_美国_2
       - https://git_io/v9999_ip2_美国_17
       - https://git_io/v9999_ip2_美国_15
       - https://git_io/v9999_ip2_美国_1
