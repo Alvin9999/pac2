@@ -32,6 +32,11 @@ proxies:
   - {name: 🇫🇷 https://git.io/v9999_ip2_法国_62, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: 🇫🇷 https://git.io/v9999_ip2_法国_61, server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: 🇫🇷 https://git.io/v9999_ip2_法国_60, server: 149.202.82.172, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 https://git.io/v9999_ip2_US美国, server: 169.197.142.47, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇬🇧 https://git.io/v9999_ip2_GB英国, server: 172.99.190.188, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇩🇪 https://git.io/v9999_ip2_DE德国, server: 217.79.184.107, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 https://git.io/v9999_ip2_CA加拿大, server: 134.195.196.221, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 https://git.io/v9999_ip2_CA加拿大 2, server: 134.195.196.217, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -65,6 +70,11 @@ proxy-groups:
       - 🇫🇷 https://git.io/v9999_ip2_法国_62
       - 🇫🇷 https://git.io/v9999_ip2_法国_61
       - 🇫🇷 https://git.io/v9999_ip2_法国_60
+      - 🇺🇸 https://git.io/v9999_ip2_US美国
+      - 🇬🇧 https://git.io/v9999_ip2_GB英国
+      - 🇩🇪 https://git.io/v9999_ip2_DE德国
+      - 🇨🇦 https://git.io/v9999_ip2_CA加拿大
+      - 🇨🇦 https://git.io/v9999_ip2_CA加拿大 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -97,6 +107,11 @@ proxy-groups:
       - 🇫🇷 https://git.io/v9999_ip2_法国_62
       - 🇫🇷 https://git.io/v9999_ip2_法国_61
       - 🇫🇷 https://git.io/v9999_ip2_法国_60
+      - 🇺🇸 https://git.io/v9999_ip2_US美国
+      - 🇬🇧 https://git.io/v9999_ip2_GB英国
+      - 🇩🇪 https://git.io/v9999_ip2_DE德国
+      - 🇨🇦 https://git.io/v9999_ip2_CA加拿大
+      - 🇨🇦 https://git.io/v9999_ip2_CA加拿大 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -129,6 +144,11 @@ proxy-groups:
       - 🇫🇷 https://git.io/v9999_ip2_法国_62
       - 🇫🇷 https://git.io/v9999_ip2_法国_61
       - 🇫🇷 https://git.io/v9999_ip2_法国_60
+      - 🇺🇸 https://git.io/v9999_ip2_US美国
+      - 🇬🇧 https://git.io/v9999_ip2_GB英国
+      - 🇩🇪 https://git.io/v9999_ip2_DE德国
+      - 🇨🇦 https://git.io/v9999_ip2_CA加拿大
+      - 🇨🇦 https://git.io/v9999_ip2_CA加拿大 2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -162,6 +182,11 @@ proxy-groups:
       - 🇫🇷 https://git.io/v9999_ip2_法国_62
       - 🇫🇷 https://git.io/v9999_ip2_法国_61
       - 🇫🇷 https://git.io/v9999_ip2_法国_60
+      - 🇺🇸 https://git.io/v9999_ip2_US美国
+      - 🇬🇧 https://git.io/v9999_ip2_GB英国
+      - 🇩🇪 https://git.io/v9999_ip2_DE德国
+      - 🇨🇦 https://git.io/v9999_ip2_CA加拿大
+      - 🇨🇦 https://git.io/v9999_ip2_CA加拿大 2
   - name: 🎯 直连
     type: select
     proxies:
@@ -800,5 +825,43 @@ rules:
  - DOMAIN-KEYWORD,yunpan,🎯 直连
  - DOMAIN-KEYWORD,Thunder,🎯 直连
  - DOMAIN-KEYWORD,XLLiveUD,🎯 直连
+ - DOMAIN-SUFFIX,265.com,🎯 直连
+ - DOMAIN-SUFFIX,2mdn.net,🎯 直连
+ - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt2-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt3-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt4-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt5-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt6-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt7-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt8-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,app-measurement.com,🎯 直连
+ - DOMAIN-SUFFIX,c.android.clients.google.com,🎯 直连
+ - DOMAIN-SUFFIX,cache.pack.google.com,🎯 直连
+ - DOMAIN-SUFFIX,clickserve.dartsearch.net,🎯 直连
+ - DOMAIN-SUFFIX,clientservices.googleapis.com,🎯 直连
+ - DOMAIN-SUFFIX,crl.pki.goog,🎯 直连
+ - DOMAIN-SUFFIX,dl.google.com,🎯 直连
+ - DOMAIN-SUFFIX,dl.l.google.com,🎯 直连
+ - DOMAIN-SUFFIX,fonts.googleapis.com,🎯 直连
+ - DOMAIN-SUFFIX,fonts.gstatic.com,🎯 直连
+ - DOMAIN-SUFFIX,googletagmanager.com,🎯 直连
+ - DOMAIN-SUFFIX,googletagservices.com,🎯 直连
+ - DOMAIN-SUFFIX,gtm.oasisfeng.com,🎯 直连
+ - DOMAIN-SUFFIX,imasdk.googleapis.com,🎯 直连
+ - DOMAIN-SUFFIX,mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,ocsp.pki.goog,🎯 直连
+ - DOMAIN-SUFFIX,recaptcha.net,🎯 直连
+ - DOMAIN-SUFFIX,safebrowsing-cache.google.com,🎯 直连
+ - DOMAIN-SUFFIX,safebrowsing.googleapis.com,🎯 直连
+ - DOMAIN-SUFFIX,settings.crashlytics.com,🎯 直连
+ - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,🎯 直连
+ - DOMAIN-SUFFIX,ssl.gstatic.com,🎯 直连
+ - DOMAIN-SUFFIX,toolbarqueries.google.com,🎯 直连
+ - DOMAIN-SUFFIX,tools.google.com,🎯 直连
+ - DOMAIN-SUFFIX,tools.l.google.com,🎯 直连
+ - DOMAIN-SUFFIX,update.googleapis.com,🎯 直连
+ - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 直连
+ - DOMAIN-SUFFIX,www.gstatic.com,🎯 直连
  - GEOIP,CN,🎯 直连
  - MATCH,🔰 节点选择
