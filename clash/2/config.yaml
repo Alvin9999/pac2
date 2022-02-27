@@ -5,103 +5,108 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇬🇧 https://git.io/v9999_ip4_英国_65, server: 172.99.190.149, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: 🇬🇧 https://git.io/v9999_ip4_英国_6, server: 172.99.190.205, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇬🇧 https://git.io/v9999_ip4_英国_19, server: 172.99.190.149, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇬🇧 https://git.io/v9999_ip4_英国_18, server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇬🇧 https://git.io/v9999_ip4_英国_16, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: 🇬🇧 https://git.io/v9999_ip4_英国_14, server: 172.99.190.205, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: 🇬🇧 https://git.io/v9999_ip4_英国_13, server: 172.99.190.205, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇬🇧 https://git.io/v9999_ip4_英国_12, server: 172.99.190.205, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇬🇧 https://git.io/v9999_ip4_英国_11, server: 172.99.190.205, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: 🇬🇧 https://git.io/v9999_ip4_英国_10, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 https://git.io/v9999_ip4_美国_7, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 98b20eea-8a11-11ec-9aeb-52ac0014346a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /nBaG3RmV/, headers: {Host: v2ray.ifuckgfw.ga}}}
+  - {name: 🇺🇸 https://git.io/v9999_ip4_美国_5, server: 85.wowogg.cyou, port: 52285, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
   - {name: 🇺🇸 https://git.io/v9999_ip4_美国_45, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇨🇦 https://git.io/v9999_ip4_加拿大_78, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 https://git.io/v9999_ip4_加拿大_77, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 https://git.io/v9999_ip4_加拿大_70, server: 134.195.196.200, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 https://git.io/v9999_ip4_美国_4, server: 82.wowogg.cyou, port: 52282, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 https://git.io/v9999_ip4_美国_3, server: 82.wowogg.cyou, port: 52282, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 https://git.io/v9999_ip4_美国_2, server: 82.wowogg.cyou, port: 52282, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 https://git.io/v9999_ip4_美国_1, server: 104.wowogg.cyou, port: 11222, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
   - {name: 🇨🇦 https://git.io/v9999_ip4_加拿大_15, server: 134.195.196.193, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: https://git.io/v9999_ip4_8, server: 104.18.27.64, port: 443, type: vmess, uuid: 2d36b155-3de7-4e49-b71c-c69077edb79c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /The-Great-Awakening_vws, headers: {Host: vincent-jackson2028.cf}}}
+  - {name: https://git.io/v9999_ip4_6, server: icook.tw, port: 443, type: vmess, uuid: 188741f2-1f14-43cb-be7a-1200a9f4332e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /The-Great-Awakening_vws, headers: {Host: vincent-jackson2022.ml}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 直连
-      - 🇬🇧 https://git.io/v9999_ip4_英国_65
       - 🇬🇧 https://git.io/v9999_ip4_英国_6
-      - 🇬🇧 https://git.io/v9999_ip4_英国_19
-      - 🇬🇧 https://git.io/v9999_ip4_英国_18
-      - 🇬🇧 https://git.io/v9999_ip4_英国_16
       - 🇬🇧 https://git.io/v9999_ip4_英国_14
       - 🇬🇧 https://git.io/v9999_ip4_英国_13
       - 🇬🇧 https://git.io/v9999_ip4_英国_12
       - 🇬🇧 https://git.io/v9999_ip4_英国_11
       - 🇬🇧 https://git.io/v9999_ip4_英国_10
+      - 🇺🇸 https://git.io/v9999_ip4_美国_7
+      - 🇺🇸 https://git.io/v9999_ip4_美国_5
       - 🇺🇸 https://git.io/v9999_ip4_美国_45
-      - 🇨🇦 https://git.io/v9999_ip4_加拿大_78
-      - 🇨🇦 https://git.io/v9999_ip4_加拿大_77
-      - 🇨🇦 https://git.io/v9999_ip4_加拿大_70
+      - 🇺🇸 https://git.io/v9999_ip4_美国_4
+      - 🇺🇸 https://git.io/v9999_ip4_美国_3
+      - 🇺🇸 https://git.io/v9999_ip4_美国_2
+      - 🇺🇸 https://git.io/v9999_ip4_美国_1
       - 🇨🇦 https://git.io/v9999_ip4_加拿大_15
+      - https://git.io/v9999_ip4_8
+      - https://git.io/v9999_ip4_6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇬🇧 https://git.io/v9999_ip4_英国_65
       - 🇬🇧 https://git.io/v9999_ip4_英国_6
-      - 🇬🇧 https://git.io/v9999_ip4_英国_19
-      - 🇬🇧 https://git.io/v9999_ip4_英国_18
-      - 🇬🇧 https://git.io/v9999_ip4_英国_16
       - 🇬🇧 https://git.io/v9999_ip4_英国_14
       - 🇬🇧 https://git.io/v9999_ip4_英国_13
       - 🇬🇧 https://git.io/v9999_ip4_英国_12
       - 🇬🇧 https://git.io/v9999_ip4_英国_11
       - 🇬🇧 https://git.io/v9999_ip4_英国_10
+      - 🇺🇸 https://git.io/v9999_ip4_美国_7
+      - 🇺🇸 https://git.io/v9999_ip4_美国_5
       - 🇺🇸 https://git.io/v9999_ip4_美国_45
-      - 🇨🇦 https://git.io/v9999_ip4_加拿大_78
-      - 🇨🇦 https://git.io/v9999_ip4_加拿大_77
-      - 🇨🇦 https://git.io/v9999_ip4_加拿大_70
+      - 🇺🇸 https://git.io/v9999_ip4_美国_4
+      - 🇺🇸 https://git.io/v9999_ip4_美国_3
+      - 🇺🇸 https://git.io/v9999_ip4_美国_2
+      - 🇺🇸 https://git.io/v9999_ip4_美国_1
       - 🇨🇦 https://git.io/v9999_ip4_加拿大_15
+      - https://git.io/v9999_ip4_8
+      - https://git.io/v9999_ip4_6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 直连
       - 🔰 节点选择
-      - 🇬🇧 https://git.io/v9999_ip4_英国_65
       - 🇬🇧 https://git.io/v9999_ip4_英国_6
-      - 🇬🇧 https://git.io/v9999_ip4_英国_19
-      - 🇬🇧 https://git.io/v9999_ip4_英国_18
-      - 🇬🇧 https://git.io/v9999_ip4_英国_16
       - 🇬🇧 https://git.io/v9999_ip4_英国_14
       - 🇬🇧 https://git.io/v9999_ip4_英国_13
       - 🇬🇧 https://git.io/v9999_ip4_英国_12
       - 🇬🇧 https://git.io/v9999_ip4_英国_11
       - 🇬🇧 https://git.io/v9999_ip4_英国_10
+      - 🇺🇸 https://git.io/v9999_ip4_美国_7
+      - 🇺🇸 https://git.io/v9999_ip4_美国_5
       - 🇺🇸 https://git.io/v9999_ip4_美国_45
-      - 🇨🇦 https://git.io/v9999_ip4_加拿大_78
-      - 🇨🇦 https://git.io/v9999_ip4_加拿大_77
-      - 🇨🇦 https://git.io/v9999_ip4_加拿大_70
+      - 🇺🇸 https://git.io/v9999_ip4_美国_4
+      - 🇺🇸 https://git.io/v9999_ip4_美国_3
+      - 🇺🇸 https://git.io/v9999_ip4_美国_2
+      - 🇺🇸 https://git.io/v9999_ip4_美国_1
       - 🇨🇦 https://git.io/v9999_ip4_加拿大_15
+      - https://git.io/v9999_ip4_8
+      - https://git.io/v9999_ip4_6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 直连
       - ♻️ 自动选择
-      - 🇬🇧 https://git.io/v9999_ip4_英国_65
       - 🇬🇧 https://git.io/v9999_ip4_英国_6
-      - 🇬🇧 https://git.io/v9999_ip4_英国_19
-      - 🇬🇧 https://git.io/v9999_ip4_英国_18
-      - 🇬🇧 https://git.io/v9999_ip4_英国_16
       - 🇬🇧 https://git.io/v9999_ip4_英国_14
       - 🇬🇧 https://git.io/v9999_ip4_英国_13
       - 🇬🇧 https://git.io/v9999_ip4_英国_12
       - 🇬🇧 https://git.io/v9999_ip4_英国_11
       - 🇬🇧 https://git.io/v9999_ip4_英国_10
+      - 🇺🇸 https://git.io/v9999_ip4_美国_7
+      - 🇺🇸 https://git.io/v9999_ip4_美国_5
       - 🇺🇸 https://git.io/v9999_ip4_美国_45
-      - 🇨🇦 https://git.io/v9999_ip4_加拿大_78
-      - 🇨🇦 https://git.io/v9999_ip4_加拿大_77
-      - 🇨🇦 https://git.io/v9999_ip4_加拿大_70
+      - 🇺🇸 https://git.io/v9999_ip4_美国_4
+      - 🇺🇸 https://git.io/v9999_ip4_美国_3
+      - 🇺🇸 https://git.io/v9999_ip4_美国_2
+      - 🇺🇸 https://git.io/v9999_ip4_美国_1
       - 🇨🇦 https://git.io/v9999_ip4_加拿大_15
+      - https://git.io/v9999_ip4_8
+      - https://git.io/v9999_ip4_6
   - name: 🎯 直连
     type: select
     proxies:
@@ -740,5 +745,43 @@ rules:
  - DOMAIN-KEYWORD,yunpan,🎯 直连
  - DOMAIN-KEYWORD,Thunder,🎯 直连
  - DOMAIN-KEYWORD,XLLiveUD,🎯 直连
+ - DOMAIN-SUFFIX,265.com,🎯 直连
+ - DOMAIN-SUFFIX,2mdn.net,🎯 直连
+ - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt2-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt3-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt4-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt5-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt6-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt7-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,alt8-mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,app-measurement.com,🎯 直连
+ - DOMAIN-SUFFIX,c.android.clients.google.com,🎯 直连
+ - DOMAIN-SUFFIX,cache.pack.google.com,🎯 直连
+ - DOMAIN-SUFFIX,clickserve.dartsearch.net,🎯 直连
+ - DOMAIN-SUFFIX,clientservices.googleapis.com,🎯 直连
+ - DOMAIN-SUFFIX,crl.pki.goog,🎯 直连
+ - DOMAIN-SUFFIX,dl.google.com,🎯 直连
+ - DOMAIN-SUFFIX,dl.l.google.com,🎯 直连
+ - DOMAIN-SUFFIX,fonts.googleapis.com,🎯 直连
+ - DOMAIN-SUFFIX,fonts.gstatic.com,🎯 直连
+ - DOMAIN-SUFFIX,googletagmanager.com,🎯 直连
+ - DOMAIN-SUFFIX,googletagservices.com,🎯 直连
+ - DOMAIN-SUFFIX,gtm.oasisfeng.com,🎯 直连
+ - DOMAIN-SUFFIX,imasdk.googleapis.com,🎯 直连
+ - DOMAIN-SUFFIX,mtalk.google.com,🎯 直连
+ - DOMAIN-SUFFIX,ocsp.pki.goog,🎯 直连
+ - DOMAIN-SUFFIX,recaptcha.net,🎯 直连
+ - DOMAIN-SUFFIX,safebrowsing-cache.google.com,🎯 直连
+ - DOMAIN-SUFFIX,safebrowsing.googleapis.com,🎯 直连
+ - DOMAIN-SUFFIX,settings.crashlytics.com,🎯 直连
+ - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,🎯 直连
+ - DOMAIN-SUFFIX,ssl.gstatic.com,🎯 直连
+ - DOMAIN-SUFFIX,toolbarqueries.google.com,🎯 直连
+ - DOMAIN-SUFFIX,tools.google.com,🎯 直连
+ - DOMAIN-SUFFIX,tools.l.google.com,🎯 直连
+ - DOMAIN-SUFFIX,update.googleapis.com,🎯 直连
+ - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 直连
+ - DOMAIN-SUFFIX,www.gstatic.com,🎯 直连
  - GEOIP,CN,🎯 直连
  - MATCH,🔰 节点选择
