@@ -9,34 +9,44 @@ proxies:
   - {name: 🇬🇧 https://git.io/v9999_ip2_英国_8, server: 172.99.190.205, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇬🇧 https://git.io/v9999_ip2_英国_6, server: 172.99.190.205, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: 🇬🇧 https://git.io/v9999_ip2_英国_5, server: 172.99.190.205, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇬🇧 https://git.io/v9999_ip2_英国_4, server: 172.99.190.205, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: 🇬🇧 https://git.io/v9999_ip2_英国_3, server: 172.99.190.205, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
   - {name: 🇬🇧 https://git.io/v9999_ip2_英国_2, server: 172.99.190.205, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: 🇬🇧 https://git.io/v9999_ip2_英国_11, server: 172.99.190.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: 🇬🇧 https://git.io/v9999_ip2_英国_1, server: 172.99.190.205, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇬🇧 https://git.io/v9999_ip2_英国_1 2, server: 172.99.190.188, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
   - {name: 🇺🇸 https://git.io/v9999_ip2_美国_9, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 https://git.io/v9999_ip2_美国_9 2, server: 138.2.125.231, port: 35565, type: vmess, uuid: 7f829896-d307-4e3d-ae77-e9bcff947ce2, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 https://git.io/v9999_ip2_美国_8, server: 138.2.125.221, port: 35565, type: vmess, uuid: f36521b5-5309-441e-cf4f-52ff0023acea, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 https://git.io/v9999_ip2_美国_7, server: 150.230.252.80, port: 35565, type: vmess, uuid: badacc06-e5df-40de-b505-c59d68d105fc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 https://git.io/v9999_ip2_美国_6, server: 104.27.89.125, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, headers: {Host: xiaochen.chenyingjie5201314.workers.dev}}}
+  - {name: 🇺🇸 https://git.io/v9999_ip2_美国_5, server: c39s2.jamjams.net, port: 32567, type: ss, cipher: aes-256-gcm, password: m35yfEjtbS}
+  - {name: 🇺🇸 https://git.io/v9999_ip2_美国_4, server: 192.18.143.154, port: 45565, type: vmess, uuid: 04868706-81d0-4f50-e72e-4b0d1db2d258, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /newbanli, headers: {Host: 192.18.143.154}}}
+  - {name: 🇺🇸 https://git.io/v9999_ip2_美国_3, server: 192.18.132.64, port: 35565, type: vmess, uuid: e324f7bd-9639-4d1f-c03d-01189a21e6c4, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 https://git.io/v9999_ip2_美国_22, server: 169.197.141.91, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇺🇸 https://git.io/v9999_ip2_美国_20, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 https://git.io/v9999_ip2_美国_2, server: jason.lbtzyw.com, port: 443, type: vmess, uuid: f3a8372f-73aa-4a92-9f23-cfa0a9830d7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/zovpvws?ed=2048", headers: {Host: jason.lbtzyw.com}}}
+  - {name: 🇺🇸 https://git.io/v9999_ip2_美国_11, server: 155.248.242.150, port: 45565, type: vmess, uuid: ece341dc-4d70-4f03-a21a-e75136b90e7c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /blog, headers: {Host: 155.248.242.150}}}
+  - {name: 🇺🇸 https://git.io/v9999_ip2_美国_10, server: 150.230.252.80, port: 45565, type: vmess, uuid: c18ccae1-572b-4516-d120-22154ea8db06, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /blog, headers: {Host: 150.230.252.80}}}
+  - {name: 🇺🇸 https://git.io/v9999_ip2_美国_1, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 🇨🇦 https://git.io/v9999_ip2_加拿大_57, server: 134.195.196.193, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
   - {name: 🇨🇦 https://git.io/v9999_ip2_加拿大_47, server: 134.195.196.193, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇨🇦 https://git.io/v9999_ip2_加拿大_44, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: 🇨🇦 https://git.io/v9999_ip2_加拿大_42, server: 134.195.196.193, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 https://git.io/v9999_ip2_加拿大_37, server: 134.195.196.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 https://git.io/v9999_ip2_加拿大_33, server: 134.195.196.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: 🇨🇦 https://git.io/v9999_ip2_加拿大_29, server: 134.195.196.193, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇨🇦 https://git.io/v9999_ip2_加拿大_27, server: 134.195.196.200, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 https://git.io/v9999_ip2_加拿大_21, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 🇨🇦 https://git.io/v9999_ip2_加拿大_13, server: 134.195.196.193, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
   - {name: 🇨🇦 https://git.io/v9999_ip2_加拿大_12, server: 134.195.196.193, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 https://git.io/v9999_ip2_加拿大_12 2, server: 134.195.196.147, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇰🇷 https://git.io/v9999_ip2_韩国_18, server: 152.67.202.177, port: 45565, type: vmess, uuid: 2101db15-3c37-4ad5-d0e8-aa0bbf4225d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /blog, headers: {Host: 152.67.202.177}}}
+  - {name: 🇰🇷 https://git.io/v9999_ip2_韩国_17, server: 146.56.143.17, port: 29613, type: vmess, uuid: b5ce4178-89f9-451e-e7c7-ba61d208b252, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 https://git.io/v9999_ip2_韩国_16, server: 146.56.106.189, port: 35565, type: vmess, uuid: a9a8ae62-6ff0-4e80-ac0d-a5b5af80a346, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 https://git.io/v9999_ip2_韩国_15, server: 152.67.202.177, port: 35565, type: vmess, uuid: 45d10cdf-3e5e-480d-e51e-c0a6e69677c7, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 https://git.io/v9999_ip2_韩国_14, server: 140.238.12.87, port: 35565, type: vmess, uuid: cbd85a23-3bad-41c3-8b93-85e8bcb6ebe6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 https://git.io/v9999_ip2_韩国_13, server: 146.56.178.159, port: 35565, type: vmess, uuid: c53f11c3-86b0-4087-ce45-6f12821575a5, alterId: 0, cipher: auto, tls: false}
   - {name: 🇫🇷 https://git.io/v9999_ip2_法国_63, server: 149.202.82.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇫🇷 https://git.io/v9999_ip2_法国_62, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: 🇫🇷 https://git.io/v9999_ip2_法国_61, server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: 🇫🇷 https://git.io/v9999_ip2_法国_60, server: 149.202.82.172, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 https://git.io/v9999_ip2_US美国, server: 169.197.142.47, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇬🇧 https://git.io/v9999_ip2_GB英国, server: 172.99.190.188, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇩🇪 https://git.io/v9999_ip2_DE德国, server: 217.79.184.107, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇨🇦 https://git.io/v9999_ip2_CA加拿大, server: 134.195.196.221, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 https://git.io/v9999_ip2_CA加拿大 2, server: 134.195.196.217, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -47,34 +57,44 @@ proxy-groups:
       - 🇬🇧 https://git.io/v9999_ip2_英国_8
       - 🇬🇧 https://git.io/v9999_ip2_英国_6
       - 🇬🇧 https://git.io/v9999_ip2_英国_5
-      - 🇬🇧 https://git.io/v9999_ip2_英国_4
       - 🇬🇧 https://git.io/v9999_ip2_英国_3
       - 🇬🇧 https://git.io/v9999_ip2_英国_2
       - 🇬🇧 https://git.io/v9999_ip2_英国_11
       - 🇬🇧 https://git.io/v9999_ip2_英国_1
+      - 🇬🇧 https://git.io/v9999_ip2_英国_1 2
       - 🇺🇸 https://git.io/v9999_ip2_美国_9
+      - 🇺🇸 https://git.io/v9999_ip2_美国_9 2
+      - 🇺🇸 https://git.io/v9999_ip2_美国_8
+      - 🇺🇸 https://git.io/v9999_ip2_美国_7
+      - 🇺🇸 https://git.io/v9999_ip2_美国_6
+      - 🇺🇸 https://git.io/v9999_ip2_美国_5
+      - 🇺🇸 https://git.io/v9999_ip2_美国_4
+      - 🇺🇸 https://git.io/v9999_ip2_美国_3
       - 🇺🇸 https://git.io/v9999_ip2_美国_22
       - 🇺🇸 https://git.io/v9999_ip2_美国_20
+      - 🇺🇸 https://git.io/v9999_ip2_美国_2
+      - 🇺🇸 https://git.io/v9999_ip2_美国_11
+      - 🇺🇸 https://git.io/v9999_ip2_美国_10
+      - 🇺🇸 https://git.io/v9999_ip2_美国_1
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_57
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_47
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_44
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_42
-      - 🇨🇦 https://git.io/v9999_ip2_加拿大_37
-      - 🇨🇦 https://git.io/v9999_ip2_加拿大_33
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_29
-      - 🇨🇦 https://git.io/v9999_ip2_加拿大_27
-      - 🇨🇦 https://git.io/v9999_ip2_加拿大_21
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_13
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_12
+      - 🇨🇦 https://git.io/v9999_ip2_加拿大_12 2
+      - 🇰🇷 https://git.io/v9999_ip2_韩国_18
+      - 🇰🇷 https://git.io/v9999_ip2_韩国_17
+      - 🇰🇷 https://git.io/v9999_ip2_韩国_16
+      - 🇰🇷 https://git.io/v9999_ip2_韩国_15
+      - 🇰🇷 https://git.io/v9999_ip2_韩国_14
+      - 🇰🇷 https://git.io/v9999_ip2_韩国_13
       - 🇫🇷 https://git.io/v9999_ip2_法国_63
       - 🇫🇷 https://git.io/v9999_ip2_法国_62
       - 🇫🇷 https://git.io/v9999_ip2_法国_61
       - 🇫🇷 https://git.io/v9999_ip2_法国_60
-      - 🇺🇸 https://git.io/v9999_ip2_US美国
       - 🇬🇧 https://git.io/v9999_ip2_GB英国
-      - 🇩🇪 https://git.io/v9999_ip2_DE德国
-      - 🇨🇦 https://git.io/v9999_ip2_CA加拿大
-      - 🇨🇦 https://git.io/v9999_ip2_CA加拿大 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -84,34 +104,44 @@ proxy-groups:
       - 🇬🇧 https://git.io/v9999_ip2_英国_8
       - 🇬🇧 https://git.io/v9999_ip2_英国_6
       - 🇬🇧 https://git.io/v9999_ip2_英国_5
-      - 🇬🇧 https://git.io/v9999_ip2_英国_4
       - 🇬🇧 https://git.io/v9999_ip2_英国_3
       - 🇬🇧 https://git.io/v9999_ip2_英国_2
       - 🇬🇧 https://git.io/v9999_ip2_英国_11
       - 🇬🇧 https://git.io/v9999_ip2_英国_1
+      - 🇬🇧 https://git.io/v9999_ip2_英国_1 2
       - 🇺🇸 https://git.io/v9999_ip2_美国_9
+      - 🇺🇸 https://git.io/v9999_ip2_美国_9 2
+      - 🇺🇸 https://git.io/v9999_ip2_美国_8
+      - 🇺🇸 https://git.io/v9999_ip2_美国_7
+      - 🇺🇸 https://git.io/v9999_ip2_美国_6
+      - 🇺🇸 https://git.io/v9999_ip2_美国_5
+      - 🇺🇸 https://git.io/v9999_ip2_美国_4
+      - 🇺🇸 https://git.io/v9999_ip2_美国_3
       - 🇺🇸 https://git.io/v9999_ip2_美国_22
       - 🇺🇸 https://git.io/v9999_ip2_美国_20
+      - 🇺🇸 https://git.io/v9999_ip2_美国_2
+      - 🇺🇸 https://git.io/v9999_ip2_美国_11
+      - 🇺🇸 https://git.io/v9999_ip2_美国_10
+      - 🇺🇸 https://git.io/v9999_ip2_美国_1
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_57
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_47
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_44
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_42
-      - 🇨🇦 https://git.io/v9999_ip2_加拿大_37
-      - 🇨🇦 https://git.io/v9999_ip2_加拿大_33
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_29
-      - 🇨🇦 https://git.io/v9999_ip2_加拿大_27
-      - 🇨🇦 https://git.io/v9999_ip2_加拿大_21
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_13
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_12
+      - 🇨🇦 https://git.io/v9999_ip2_加拿大_12 2
+      - 🇰🇷 https://git.io/v9999_ip2_韩国_18
+      - 🇰🇷 https://git.io/v9999_ip2_韩国_17
+      - 🇰🇷 https://git.io/v9999_ip2_韩国_16
+      - 🇰🇷 https://git.io/v9999_ip2_韩国_15
+      - 🇰🇷 https://git.io/v9999_ip2_韩国_14
+      - 🇰🇷 https://git.io/v9999_ip2_韩国_13
       - 🇫🇷 https://git.io/v9999_ip2_法国_63
       - 🇫🇷 https://git.io/v9999_ip2_法国_62
       - 🇫🇷 https://git.io/v9999_ip2_法国_61
       - 🇫🇷 https://git.io/v9999_ip2_法国_60
-      - 🇺🇸 https://git.io/v9999_ip2_US美国
       - 🇬🇧 https://git.io/v9999_ip2_GB英国
-      - 🇩🇪 https://git.io/v9999_ip2_DE德国
-      - 🇨🇦 https://git.io/v9999_ip2_CA加拿大
-      - 🇨🇦 https://git.io/v9999_ip2_CA加拿大 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -121,34 +151,44 @@ proxy-groups:
       - 🇬🇧 https://git.io/v9999_ip2_英国_8
       - 🇬🇧 https://git.io/v9999_ip2_英国_6
       - 🇬🇧 https://git.io/v9999_ip2_英国_5
-      - 🇬🇧 https://git.io/v9999_ip2_英国_4
       - 🇬🇧 https://git.io/v9999_ip2_英国_3
       - 🇬🇧 https://git.io/v9999_ip2_英国_2
       - 🇬🇧 https://git.io/v9999_ip2_英国_11
       - 🇬🇧 https://git.io/v9999_ip2_英国_1
+      - 🇬🇧 https://git.io/v9999_ip2_英国_1 2
       - 🇺🇸 https://git.io/v9999_ip2_美国_9
+      - 🇺🇸 https://git.io/v9999_ip2_美国_9 2
+      - 🇺🇸 https://git.io/v9999_ip2_美国_8
+      - 🇺🇸 https://git.io/v9999_ip2_美国_7
+      - 🇺🇸 https://git.io/v9999_ip2_美国_6
+      - 🇺🇸 https://git.io/v9999_ip2_美国_5
+      - 🇺🇸 https://git.io/v9999_ip2_美国_4
+      - 🇺🇸 https://git.io/v9999_ip2_美国_3
       - 🇺🇸 https://git.io/v9999_ip2_美国_22
       - 🇺🇸 https://git.io/v9999_ip2_美国_20
+      - 🇺🇸 https://git.io/v9999_ip2_美国_2
+      - 🇺🇸 https://git.io/v9999_ip2_美国_11
+      - 🇺🇸 https://git.io/v9999_ip2_美国_10
+      - 🇺🇸 https://git.io/v9999_ip2_美国_1
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_57
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_47
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_44
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_42
-      - 🇨🇦 https://git.io/v9999_ip2_加拿大_37
-      - 🇨🇦 https://git.io/v9999_ip2_加拿大_33
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_29
-      - 🇨🇦 https://git.io/v9999_ip2_加拿大_27
-      - 🇨🇦 https://git.io/v9999_ip2_加拿大_21
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_13
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_12
+      - 🇨🇦 https://git.io/v9999_ip2_加拿大_12 2
+      - 🇰🇷 https://git.io/v9999_ip2_韩国_18
+      - 🇰🇷 https://git.io/v9999_ip2_韩国_17
+      - 🇰🇷 https://git.io/v9999_ip2_韩国_16
+      - 🇰🇷 https://git.io/v9999_ip2_韩国_15
+      - 🇰🇷 https://git.io/v9999_ip2_韩国_14
+      - 🇰🇷 https://git.io/v9999_ip2_韩国_13
       - 🇫🇷 https://git.io/v9999_ip2_法国_63
       - 🇫🇷 https://git.io/v9999_ip2_法国_62
       - 🇫🇷 https://git.io/v9999_ip2_法国_61
       - 🇫🇷 https://git.io/v9999_ip2_法国_60
-      - 🇺🇸 https://git.io/v9999_ip2_US美国
       - 🇬🇧 https://git.io/v9999_ip2_GB英国
-      - 🇩🇪 https://git.io/v9999_ip2_DE德国
-      - 🇨🇦 https://git.io/v9999_ip2_CA加拿大
-      - 🇨🇦 https://git.io/v9999_ip2_CA加拿大 2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -159,34 +199,44 @@ proxy-groups:
       - 🇬🇧 https://git.io/v9999_ip2_英国_8
       - 🇬🇧 https://git.io/v9999_ip2_英国_6
       - 🇬🇧 https://git.io/v9999_ip2_英国_5
-      - 🇬🇧 https://git.io/v9999_ip2_英国_4
       - 🇬🇧 https://git.io/v9999_ip2_英国_3
       - 🇬🇧 https://git.io/v9999_ip2_英国_2
       - 🇬🇧 https://git.io/v9999_ip2_英国_11
       - 🇬🇧 https://git.io/v9999_ip2_英国_1
+      - 🇬🇧 https://git.io/v9999_ip2_英国_1 2
       - 🇺🇸 https://git.io/v9999_ip2_美国_9
+      - 🇺🇸 https://git.io/v9999_ip2_美国_9 2
+      - 🇺🇸 https://git.io/v9999_ip2_美国_8
+      - 🇺🇸 https://git.io/v9999_ip2_美国_7
+      - 🇺🇸 https://git.io/v9999_ip2_美国_6
+      - 🇺🇸 https://git.io/v9999_ip2_美国_5
+      - 🇺🇸 https://git.io/v9999_ip2_美国_4
+      - 🇺🇸 https://git.io/v9999_ip2_美国_3
       - 🇺🇸 https://git.io/v9999_ip2_美国_22
       - 🇺🇸 https://git.io/v9999_ip2_美国_20
+      - 🇺🇸 https://git.io/v9999_ip2_美国_2
+      - 🇺🇸 https://git.io/v9999_ip2_美国_11
+      - 🇺🇸 https://git.io/v9999_ip2_美国_10
+      - 🇺🇸 https://git.io/v9999_ip2_美国_1
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_57
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_47
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_44
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_42
-      - 🇨🇦 https://git.io/v9999_ip2_加拿大_37
-      - 🇨🇦 https://git.io/v9999_ip2_加拿大_33
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_29
-      - 🇨🇦 https://git.io/v9999_ip2_加拿大_27
-      - 🇨🇦 https://git.io/v9999_ip2_加拿大_21
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_13
       - 🇨🇦 https://git.io/v9999_ip2_加拿大_12
+      - 🇨🇦 https://git.io/v9999_ip2_加拿大_12 2
+      - 🇰🇷 https://git.io/v9999_ip2_韩国_18
+      - 🇰🇷 https://git.io/v9999_ip2_韩国_17
+      - 🇰🇷 https://git.io/v9999_ip2_韩国_16
+      - 🇰🇷 https://git.io/v9999_ip2_韩国_15
+      - 🇰🇷 https://git.io/v9999_ip2_韩国_14
+      - 🇰🇷 https://git.io/v9999_ip2_韩国_13
       - 🇫🇷 https://git.io/v9999_ip2_法国_63
       - 🇫🇷 https://git.io/v9999_ip2_法国_62
       - 🇫🇷 https://git.io/v9999_ip2_法国_61
       - 🇫🇷 https://git.io/v9999_ip2_法国_60
-      - 🇺🇸 https://git.io/v9999_ip2_US美国
       - 🇬🇧 https://git.io/v9999_ip2_GB英国
-      - 🇩🇪 https://git.io/v9999_ip2_DE德国
-      - 🇨🇦 https://git.io/v9999_ip2_CA加拿大
-      - 🇨🇦 https://git.io/v9999_ip2_CA加拿大 2
   - name: 🎯 直连
     type: select
     proxies:
