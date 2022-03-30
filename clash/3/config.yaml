@@ -5,93 +5,33 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6, server: cf1.521024.xyz, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 2, server: 104.16.143.7, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 3, server: 104.20.131.67, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 4, server: 104.24.88.80, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 5, server: icook.tw, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 6, server: cdn.xia.me, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 7, server: cf.521024.xyz, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 8, server: 104.18.240.134, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 9, server: 104.18.236.50, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 10, server: 104.19.119.250, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 11, server: 104.17.141.79, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 12, server: www.digitalocean.com, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
-  - {name: 🇺🇸 https://git.io/v9999 美国CDN ip6 13, server: 104.19.92.3, port: 443, type: vmess, uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: clash3.v2rayfree1.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip6洛杉矶SSR, server: clash4.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 直连
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 2
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 3
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 4
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 5
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 6
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 7
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 8
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 9
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 10
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 11
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 12
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 13
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip6洛杉矶SSR
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 2
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 3
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 4
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 5
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 6
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 7
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 8
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 9
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 10
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 11
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 12
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 13
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip6洛杉矶SSR
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 直连
       - 🔰 节点选择
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 2
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 3
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 4
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 5
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 6
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 7
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 8
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 9
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 10
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 11
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 12
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 13
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip6洛杉矶SSR
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 直连
       - ♻️ 自动选择
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 2
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 3
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 4
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 5
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 6
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 7
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 8
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 9
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 10
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 11
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 12
-      - 🇺🇸 https://git.io/v9999 美国CDN ip6 13
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip6洛杉矶SSR
   - name: 🎯 直连
     type: select
     proxies:
