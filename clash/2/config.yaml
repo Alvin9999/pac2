@@ -5,6 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip2&ip4 v2ray-tcp, server: 88.218.94.171, port: 46883, type: vmess, uuid: d3fd3abc-b4ee-11ec-a479-00163c4358f0, alterId: 0, cipher: auto, tls: false}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip2&ip4 v2ray-ws, server: wsclash2.free4444.xyz, port: 35845, type: vmess, uuid: e020b92c-b4ee-11ec-a479-00163c4358f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /x6UiVPhJ/, headers: {Host: wsclash2.free4444.xyz}}}
   - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip2&ip4洛杉矶SSR, server: clash2.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🔰 节点选择
@@ -12,18 +14,24 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 直连
+      - https://github.com/Alvin9999/new-pac/wiki clash ip2&ip4 v2ray-tcp
+      - https://github.com/Alvin9999/new-pac/wiki clash ip2&ip4 v2ray-ws
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip2&ip4洛杉矶SSR
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - https://github.com/Alvin9999/new-pac/wiki clash ip2&ip4 v2ray-tcp
+      - https://github.com/Alvin9999/new-pac/wiki clash ip2&ip4 v2ray-ws
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip2&ip4洛杉矶SSR
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 直连
       - 🔰 节点选择
+      - https://github.com/Alvin9999/new-pac/wiki clash ip2&ip4 v2ray-tcp
+      - https://github.com/Alvin9999/new-pac/wiki clash ip2&ip4 v2ray-ws
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip2&ip4洛杉矶SSR
   - name: 🍎 苹果服务
     type: select
@@ -31,6 +39,8 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 直连
       - ♻️ 自动选择
+      - https://github.com/Alvin9999/new-pac/wiki clash ip2&ip4 v2ray-tcp
+      - https://github.com/Alvin9999/new-pac/wiki clash ip2&ip4 v2ray-ws
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip2&ip4洛杉矶SSR
   - name: 🎯 直连
     type: select
