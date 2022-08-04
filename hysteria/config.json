@@ -1,8 +1,8 @@
 {
 "server": "146.0.36.33:38618",
 "protocol": "wechat-video",
-"up_mbps": 12,
-"down_mbps": 62,
+"up_mbps": 8,
+"down_mbps": 15,
 "http": {
 "listen": "127.0.0.1:10809",
 "timeout" : 300,
