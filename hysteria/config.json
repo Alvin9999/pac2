@@ -1,25 +1,25 @@
 {
-"server": "62.210.192.249:20595",
+"server": "185.216.72.15:28306",
 "protocol": "wechat-video",
-"up_mbps": 5,
+"up_mbps": 3,
 "down_mbps": 10,
 "http": {
 "listen": "127.0.0.1:1081",
-"timeout" : 300,
+"timeout" : 200,
 "disable_udp": false
 },
 "socks5": {
 "listen": "127.0.0.1:1080",
-"timeout": 300,
+"timeout": 200,
 "disable_udp": false
 },
 "alpn": "h3",
 "mmdb": "acl/Country.mmdb",
 "auth_str": "dongtaiwang.com",
-"server_name": "hy9.free4444.xyz",
+"server_name": "hy6.free4444.xyz",
 "insecure": true,
-"recv_window_conn": 6291456,
-"recv_window": 25165824,
+"recv_window_conn": 5767168,
+"recv_window": 23068672,
 "disable_mtu_discovery": true,
 "resolver": "https://8.8.8.8:443/dns-query",
 "retry": 3,
