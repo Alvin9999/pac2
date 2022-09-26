@@ -7,7 +7,7 @@ external-controller: :9090
 proxies:
   - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip3 洛杉矶1SSR, server: clash6.ssrfree6.xyz, port: 44004, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip3 洛杉矶2SSR, server: sv.ssrfree3.xyz, port: 44001, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip3 洛杉矶3SSR, server: sv.ssrfree7.xyz, port: 44002, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip3 洛杉矶3SSR, server: sv.ssrfree7.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
