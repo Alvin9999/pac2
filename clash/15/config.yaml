@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-1, server: 172.64.144.2, port: 443, type: vmess, uuid: 07a63fe3-8a46-4f89-b548-9151c61b9dc8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: v2ray1.zhujicn2.com}}}
+  - {name: 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-1, server: 198.41.212.2, port: 443, type: vmess, uuid: 07a63fe3-8a46-4f89-b548-9151c61b9dc8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: v2ray1.zhujicn2.com}}}
   - {name: 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN4, server: 141.101.115.2, port: 443, type: vmess, uuid: 94887268-f3cb-48be-ade3-87d42faae3e4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: m5.v2rayfree1.xyz}}}
   - {name: 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN3, server: 172.64.144.154, port: 443, type: vmess, uuid: 94887268-f3cb-48be-ade3-87d42faae3e4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: m5.v2rayfree1.xyz}}}
   - {name: 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN2, server: 141.101.114.2, port: 443, type: vmess, uuid: 94887268-f3cb-48be-ade3-87d42faae3e4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: m5.v2rayfree1.xyz}}}
