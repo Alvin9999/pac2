@@ -1,21 +1,22 @@
 {
-"server": "51.159.103.77:39393",
-"protocol": "udp",
-"up_mbps": 12,
-"down_mbps": 42,
+"server": "62.210.192.249:20595",
+"protocol": "wechat-video",
+"up_mbps": 5,
+"down_mbps": 10,
 "http": {
 "listen": "127.0.0.1:1081",
-"timeout" : 280,
+"timeout" : 300,
 "disable_udp": false
 },
 "socks5": {
 "listen": "127.0.0.1:1080",
-"timeout": 280,
+"timeout": 300,
 "disable_udp": false
 },
 "alpn": "h3",
-"auth_str": "h2.hysteria1.xyz",
-"server_name": "h2.hysteria1.xyz",
+"mmdb": "acl/Country.mmdb",
+"auth_str": "dongtaiwang.com",
+"server_name": "hy9.free4444.xyz",
 "insecure": true,
 "recv_window_conn": 6291456,
 "recv_window": 25165824,
@@ -24,3 +25,4 @@
 "retry": 3,
 "retry_interval": 3
 }
+
