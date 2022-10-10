@@ -1,16 +1,16 @@
 {
-"server": "51.159.103.77:11777",
+"server": "121.0.97.39:63746",
 "protocol": "udp",
 "up_mbps": 2,
-"down_mbps": 8,
+"down_mbps": 18,
 "http": {
 "listen": "127.0.0.1:1081",
-"timeout" : 300,
+"timeout" : 100,
 "disable_udp": false
 },
 "socks5": {
 "listen": "127.0.0.1:1080",
-"timeout": 300,
+"timeout": 100,
 "disable_udp": false
 },
 "alpn": "h3",
@@ -20,7 +20,7 @@
 "recv_window_conn": 6291456,
 "recv_window": 25165824,
 "disable_mtu_discovery": true,
-"resolver": "https://223.5.5.5:443/dns-query",
+"resolver": "https://8.8.8.8:443/dns-query",
 "retry": 3,
 "retry_interval": 3
 }
