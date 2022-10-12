@@ -2,7 +2,7 @@
 "server": "51.158.54.46:13204",
 "protocol": "udp",
 "up_mbps": 2,
-"down_mbps": 100,
+"down_mbps": 10,
 "http": {
 "listen": "127.0.0.1:1081",
 "timeout" : 300,
