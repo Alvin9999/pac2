@@ -1,16 +1,16 @@
 {
-"server": "121.0.97.39:63746",
+"server": "51.158.54.46:13204",
 "protocol": "udp",
 "up_mbps": 2,
-"down_mbps": 148,
+"down_mbps": 100,
 "http": {
 "listen": "127.0.0.1:1081",
-"timeout" : 100,
+"timeout" : 300,
 "disable_udp": false
 },
 "socks5": {
 "listen": "127.0.0.1:1080",
-"timeout": 100,
+"timeout": 300,
 "disable_udp": false
 },
 "alpn": "h3",
