@@ -5,12 +5,12 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip6 洛杉矶1CDN, server: 141.101.115.150, port: 443, type: vmess, uuid: bf4619e4-01dc-48ca-be08-0976b54968ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: lg5.zhujicn2.com}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip6 洛杉矶1-2CDN, server: 141.101.114.150, port: 443, type: vmess, uuid: bf4619e4-01dc-48ca-be08-0976b54968ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: lg5.zhujicn2.com}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip6 洛杉矶1-3CDN, server: 172.64.153.150, port: 443, type: vmess, uuid: bf4619e4-01dc-48ca-be08-0976b54968ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: lg5.zhujicn2.com}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip6 洛杉矶1-4CDN, server: 198.41.212.150, port: 443, type: vmess, uuid: bf4619e4-01dc-48ca-be08-0976b54968ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: lg5.zhujicn2.com}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip6 洛杉矶1-5CDN, server: 172.64.154.150, port: 443, type: vmess, uuid: bf4619e4-01dc-48ca-be08-0976b54968ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: lg5.zhujicn2.com}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip6 洛杉矶1-6CDN, server: 172.64.154.155, port: 443, type: vmess, uuid: bf4619e4-01dc-48ca-be08-0976b54968ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: lg5.zhujicn2.com}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip6 洛杉矶1CDN, server: 172.64.154.102, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip6 洛杉矶1-2CDN, server: 141.101.114.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip6 洛杉矶1-3CDN, server: 172.64.153.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip6 洛杉矶1-4CDN, server: 198.41.212.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip6 洛杉矶1-5CDN, server: 172.64.154.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip6 洛杉矶1-6CDN, server: 172.64.154.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -202,7 +202,6 @@ rules:
  - DOMAIN,dl.google.com,🎯 全球直连
  - DOMAIN,dl.l.google.com,🎯 全球直连
  - DOMAIN,update.googleapis.com,🎯 全球直连
- - DOMAIN,translate.googleapis.com,🎯 全球直连
  - DOMAIN,fonts.googleapis.com,🎯 全球直连
  - DOMAIN,fonts.gstatic.com,🎯 全球直连
  - DOMAIN,mtalk.google.com,🎯 全球直连
@@ -959,9 +958,13 @@ rules:
  - DOMAIN-SUFFIX,poloniex.com,🔰 节点选择
  - DOMAIN-SUFFIX,uniswap.org,🔰 节点选择
  - DOMAIN-SUFFIX,zb.com,🔰 节点选择
- - DOMAIN-SUFFIX,discord.com,🔰 节点选择
- - DOMAIN-SUFFIX,discordapp.com,🔰 节点选择
- - DOMAIN-SUFFIX,discordapp.net,🔰 节点选择
+ - DOMAIN-KEYWORD,discord,🔰 节点选择
+ - DOMAIN-SUFFIX,dis.gd,🔰 节点选择
+ - DOMAIN-SUFFIX,airhorn.solutions,🔰 节点选择
+ - DOMAIN-SUFFIX,airhornbot.com,🔰 节点选择
+ - DOMAIN-SUFFIX,bigbeans.solutions,🔰 节点选择
+ - DOMAIN-SUFFIX,watchanimeattheoffice.com,🔰 节点选择
+ - DOMAIN,hammerandchisel.ssl.zendesk.com,🔰 节点选择
  - DOMAIN-SUFFIX,dropbox.com,🔰 节点选择
  - DOMAIN-SUFFIX,dropboxapi.com,🔰 节点选择
  - DOMAIN-SUFFIX,dropboxusercontent.com,🔰 节点选择
