@@ -1,8 +1,8 @@
 {
-"server": "51.158.54.46:13204",
+"server": "51.159.103.77:15258",
 "protocol": "udp",
 "up_mbps": 2,
-"down_mbps": 100,
+"down_mbps": 8,
 "http": {
 "listen": "127.0.0.1:1081",
 "timeout" : 300,
@@ -15,7 +15,7 @@
 },
 "alpn": "h3",
 "auth_str": "dongtaiwang.com",
-"server_name": "bing.com",
+"server_name": "qq.com",
 "insecure": true,
 "recv_window_conn": 6291456,
 "recv_window": 25165824,
