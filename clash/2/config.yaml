@@ -5,31 +5,39 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip4 洛杉矶1SSR, server: clash4.ssrfree4.xyz, port: 22333, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip4 洛杉矶2SSR, server: clash4-2.ssrfree4.xyz, port: 12345, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-4, server: 172.64.148.111, port: 443, type: vmess, uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: fr2.cfcdn4.xyz}}}
+  - {name: 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-2, server: 141.101.114.111, port: 443, type: vmess, uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: fr2.cfcdn4.xyz}}}
+  - {name: 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1, server: 141.101.115.111, port: 443, type: vmess, uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: fr2.cfcdn4.xyz}}}
+  - {name: 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-3, server: 198.41.212.122, port: 443, type: vmess, uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: fr2.cfcdn4.xyz}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip4 洛杉矶1SSR
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip4 洛杉矶2SSR
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-4
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-2
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip4 洛杉矶1SSR
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip4 洛杉矶2SSR
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-4
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-2
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip4 洛杉矶1SSR
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip4 洛杉矶2SSR
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-4
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-2
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-3
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -40,23 +48,29 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip4 洛杉矶1SSR
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip4 洛杉矶2SSR
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-4
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-2
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip4 洛杉矶1SSR
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip4 洛杉矶2SSR
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-4
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-2
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip4 洛杉矶1SSR
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip4 洛杉矶2SSR
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-4
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-2
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -72,8 +86,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip4 洛杉矶1SSR
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip4 洛杉矶2SSR
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-4
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-2
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip5 法国CDN1-3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -170,7 +186,6 @@ rules:
  - DOMAIN,dl.google.com,🎯 全球直连
  - DOMAIN,dl.l.google.com,🎯 全球直连
  - DOMAIN,update.googleapis.com,🎯 全球直连
- - DOMAIN,translate.googleapis.com,🎯 全球直连
  - DOMAIN,fonts.googleapis.com,🎯 全球直连
  - DOMAIN,fonts.gstatic.com,🎯 全球直连
  - DOMAIN,mtalk.google.com,🎯 全球直连
@@ -683,76 +698,6 @@ rules:
  - DOMAIN-SUFFIX,disney-plus.net,🌍 国外媒体
  - DOMAIN-SUFFIX,disneystreaming.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dssott.com,🌍 国外媒体
- - DOMAIN,cdn.registerdisney.go.com,🌍 国外媒体
- - DOMAIN-SUFFIX,dmm.co.jp,🌍 国外媒体
- - DOMAIN-SUFFIX,dmm.com,🌍 国外媒体
- - DOMAIN-SUFFIX,dmm-extension.com,🌍 国外媒体
- - DOMAIN-SUFFIX,encoretvb.com,🌍 国外媒体
- - DOMAIN,edge.api.brightcove.com,🌍 国外媒体
- - DOMAIN,bcbolt446c5271-a.akamaihd.net,🌍 国外媒体
- - DOMAIN-SUFFIX,hbo.com,🌍 国外媒体
- - DOMAIN-SUFFIX,hbogo.com,🌍 国外媒体
- - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
- - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
- - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
- - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
- - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
- - DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
- - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
- - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
- - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🌍 国外媒体
- - DOMAIN,dai3fd1oh325y.cloudfront.net,🌍 国外媒体
- - DOMAIN,hboasia1-i.akamaihd.net,🌍 国外媒体
- - DOMAIN,hboasia2-i.akamaihd.net,🌍 国外媒体
- - DOMAIN,hboasia3-i.akamaihd.net,🌍 国外媒体
- - DOMAIN,hboasia4-i.akamaihd.net,🌍 国外媒体
- - DOMAIN,hboasia5-i.akamaihd.net,🌍 国外媒体
- - DOMAIN,hboasialive.akamaized.net,🌍 国外媒体
- - DOMAIN,hbogoprod-vod.akamaized.net,🌍 国外媒体
- - DOMAIN,hbolb.onwardsmg.com,🌍 国外媒体
- - DOMAIN,hbounify-prod.evergent.com,🌍 国外媒体
- - DOMAIN,players.brightcove.net,🌍 国外媒体
- - DOMAIN,s3-ap-southeast-1.amazonaws.com,🌍 国外媒体
- - DOMAIN-SUFFIX,5itv.tv,🌍 国外媒体
- - DOMAIN-SUFFIX,ocnttv.com,🌍 国外媒体
- - DOMAIN-SUFFIX,hulu.com,🌍 国外媒体
- - DOMAIN-SUFFIX,huluim.com,🌍 国外媒体
- - DOMAIN-SUFFIX,hulustream.com,🌍 国外媒体
- - DOMAIN-SUFFIX,happyon.jp,🌍 国外媒体
- - DOMAIN-SUFFIX,hjholdings.jp,🌍 国外媒体
- - DOMAIN-SUFFIX,hulu.jp,🌍 国外媒体
- - DOMAIN-SUFFIX,itv.com,🌍 国外媒体
- - DOMAIN-SUFFIX,itvstatic.com,🌍 国外媒体
- - DOMAIN,itvpnpmobile-a.akamaihd.net,🌍 国外媒体
- - DOMAIN-SUFFIX,iq.com,🌍 国外媒体
- - DOMAIN,intl.iqiyi.com,🌍 国外媒体
- - DOMAIN,intl-rcd.iqiyi.com,🌍 国外媒体
- - DOMAIN,intl-subscription.iqiyi.com,🌍 国外媒体
- - IP-CIDR,23.53.32.88/32,🌍 国外媒体,no-resolve
- - IP-CIDR,23.211.15.99/32,🌍 国外媒体,no-resolve
- - IP-CIDR,103.5.34.153/32,🌍 国外媒体,no-resolve
- - IP-CIDR,104.109.129.153/32,🌍 国外媒体,no-resolve
- - IP-CIDR,110.238.107.47/32,🌍 国外媒体,no-resolve
- - IP-CIDR,118.26.32.178/32,🌍 国外媒体,no-resolve
- - IP-CIDR,203.74.95.131/32,🌍 国外媒体,no-resolve
- - IP-CIDR,203.74.95.139/32,🌍 国外媒体,no-resolve
- - IP-CIDR,203.74.95.153/32,🌍 国外媒体,no-resolve
- - IP-CIDR,203.211.4.169/32,🌍 国外媒体,no-resolve
- - IP-CIDR,203.211.4.193/32,🌍 国外媒体,no-resolve
- - IP-CIDR,210.71.227.200/32,🌍 国外媒体,no-resolve
- - IP-CIDR,210.71.227.202/32,🌍 国外媒体,no-resolve
- - IP-CIDR,210.201.32.8/32,🌍 国外媒体,no-resolve
- - IP-CIDR,210.201.32.11/32,🌍 国外媒体,no-resolve
- - DOMAIN-SUFFIX,kktv.com.tw,🌍 国外媒体
- - DOMAIN-SUFFIX,kktv.me,🌍 国外媒体
- - DOMAIN,kktv-theater.kk.stream,🌍 国外媒体
- - DOMAIN-SUFFIX,linetv.tw,🌍 国外媒体
- - DOMAIN,d3c7rimkq79yfu.cloudfront.net,🌍 国外媒体
- - DOMAIN-SUFFIX,litv.tv,🌍 国外媒体
- - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🌍 国外媒体
- - DOMAIN-SUFFIX,api.mgtv.com,🌍 国外媒体
- - DOMAIN,mobileso.bz.mgtv.com,🌍 国外媒体
- - DOMAIN-SUFFIX,channel5.com,🌍 国外媒体
  - DOMAIN-SUFFIX,my5.tv,🌍 国外媒体
  - DOMAIN,d349g9zuie06uo.cloudfront.net,🌍 国外媒体
  - DOMAIN-SUFFIX,mytvsuper.com,🌍 国外媒体
@@ -927,9 +872,13 @@ rules:
  - DOMAIN-SUFFIX,poloniex.com,🔰 节点选择
  - DOMAIN-SUFFIX,uniswap.org,🔰 节点选择
  - DOMAIN-SUFFIX,zb.com,🔰 节点选择
- - DOMAIN-SUFFIX,discord.com,🔰 节点选择
- - DOMAIN-SUFFIX,discordapp.com,🔰 节点选择
- - DOMAIN-SUFFIX,discordapp.net,🔰 节点选择
+ - DOMAIN-KEYWORD,discord,🔰 节点选择
+ - DOMAIN-SUFFIX,dis.gd,🔰 节点选择
+ - DOMAIN-SUFFIX,airhorn.solutions,🔰 节点选择
+ - DOMAIN-SUFFIX,airhornbot.com,🔰 节点选择
+ - DOMAIN-SUFFIX,bigbeans.solutions,🔰 节点选择
+ - DOMAIN-SUFFIX,watchanimeattheoffice.com,🔰 节点选择
+ - DOMAIN,hammerandchisel.ssl.zendesk.com,🔰 节点选择
  - DOMAIN-SUFFIX,dropbox.com,🔰 节点选择
  - DOMAIN-SUFFIX,dropboxapi.com,🔰 节点选择
  - DOMAIN-SUFFIX,dropboxusercontent.com,🔰 节点选择
@@ -1817,3 +1766,4 @@ rules:
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
+
