@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash4 SSR, server: ssr3.ssrfree7.xyz, port: 22333, type: ssr, cipher: aes-256-cfb, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash4 SSR, server: ssr3.ssrfree7.xyz, port: 11444, type: ssr, cipher: aes-256-cfb, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
