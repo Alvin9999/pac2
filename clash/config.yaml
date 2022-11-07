@@ -7,7 +7,7 @@ external-controller: :9090
 proxies:
   - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip2 洛杉矶1CDN, server: 198.41.212.122, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}}
   - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip2 洛杉矶1-5CDN, server: 198.41.203.4, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip2 洛杉矶1-4CDN, server: 172.64.154.222, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip2 洛杉矶1-4CDN, server: 141.101.115.136, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}}
   - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip2 洛杉矶1-3CDN, server: 141.101.115.133, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}}
   - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip2 洛杉矶1-2CDN, server: 141.101.114.133, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}}
 proxy-groups:
