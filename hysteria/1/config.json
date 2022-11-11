@@ -1,8 +1,8 @@
 {
-"server": "51.159.103.77:15258",
+"server": "51.159.103.77:42514",
 "protocol": "udp",
-"up_mbps": 2,
-"down_mbps": 8,
+"up_mbps": 11,
+"down_mbps": 55,
 "http": {
 "listen": "127.0.0.1:1081",
 "timeout" : 300,
@@ -15,12 +15,15 @@
 },
 "alpn": "h3",
 "auth_str": "dongtaiwang.com",
-"server_name": "qq.com",
+"server_name": "wechat.com",
 "insecure": true,
-"recv_window_conn": 6291456,
-"recv_window": 25165824,
+"recv_window_conn": 5767168,
+"recv_window": 23068672,
 "disable_mtu_discovery": true,
-"resolver": "https://8.8.8.8:443/dns-query",
+"resolver": "https://doh.pub/dns-query",
 "retry": 3,
-"retry_interval": 3
+"retry_interval": 3,
+"quit_on_disconnect": false,
+"handshake_timeout": 15,
+"idle_timeout": 30
 }
