@@ -1,5 +1,5 @@
 {
-"server": "51.159.103.77:42514",
+"server": "51.159.103.77:42801",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
@@ -15,7 +15,7 @@
 },
 "alpn": "h3",
 "auth_str": "dongtaiwang.com",
-"server_name": "wechat.com",
+"server_name": "qq.com",
 "insecure": true,
 "recv_window_conn": 5767168,
 "recv_window": 23068672,
@@ -25,5 +25,6 @@
 "retry_interval": 3,
 "quit_on_disconnect": false,
 "handshake_timeout": 15,
-"idle_timeout": 30
+"idle_timeout": 30,
+"hop_interval": 60
 }
