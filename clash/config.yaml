@@ -24,6 +24,8 @@ proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-9
@@ -92,6 +94,48 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-9
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-8
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-7
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-6
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-5
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-4
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-3
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-2
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-15
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-14
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-13
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-12
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-11
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-10
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-1
+  - name: ⚖️ 负载均衡-散列
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: consistent-hashing
+    proxies:
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-9
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-8
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-7
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-6
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-5
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-4
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-3
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-2
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-15
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-14
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-13
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-12
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-11
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-10
+      - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-1
+  - name: ⚖️ 负载均衡-轮询
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: round-robin
+    proxies:
       - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-9
       - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-8
       - 🇫🇷 https://github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-7
