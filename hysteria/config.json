@@ -1,6 +1,5 @@
-
 {
-"server": "51.158.54.46:26220",
+"server": "51.158.54.46:48439",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
@@ -16,7 +15,7 @@
 },
 "alpn": "h3",
 "auth_str": "dongtaiwang.com",
-"server_name": "bing.com",
+"server_name": "youku.com",
 "insecure": true,
 "recv_window_conn": 5767168,
 "recv_window": 23068672,
