@@ -1,5 +1,5 @@
 {
-"server": "51.159.103.77:42801",
+"server": "51.158.54.46:48439",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
@@ -15,16 +15,17 @@
 },
 "alpn": "h3",
 "auth_str": "dongtaiwang.com",
-"server_name": "qq.com",
+"server_name": "youku.com",
 "insecure": true,
 "recv_window_conn": 5767168,
 "recv_window": 23068672,
 "disable_mtu_discovery": true,
-"resolver": "https://doh.pub/dns-query",
+"resolver": "https://223.5.5.5/dns-query",
 "retry": 3,
 "retry_interval": 3,
 "quit_on_disconnect": false,
 "handshake_timeout": 15,
 "idle_timeout": 30,
-"hop_interval": 60
+"fast_open": true,
+"hop_interval": 180
 }
