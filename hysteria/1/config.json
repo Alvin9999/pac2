@@ -1,21 +1,20 @@
-
 {
-"server": "51.159.103.77:42801",
+"server": "104.149.157.123:40976",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
 "http": {
 "listen": "127.0.0.1:1081",
-"timeout" : 300,
+"timeout" : 220,
 "disable_udp": false
 },
 "socks5": {
 "listen": "127.0.0.1:1080",
-"timeout": 300,
+"timeout": 220,
 "disable_udp": false
 },
 "alpn": "h3",
-"auth_str": "dongtaiwang.com",
+"auth_str": "iUcZvyrnDzPnQokhhfmuqKciFWOIxagzeQ3BkjdqcV1f9rcKWN",
 "server_name": "qq.com",
 "insecure": true,
 "recv_window_conn": 5767168,
@@ -30,4 +29,3 @@
 "fast_open": true,
 "hop_interval": 180
 }
-
