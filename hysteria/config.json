@@ -1,5 +1,5 @@
 {
-"server": "51.158.54.46:48439",
+"server": "51.158.54.46:18325",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
@@ -13,8 +13,9 @@
 "timeout": 300,
 "disable_udp": false
 },
-"alpn": "h3",
+"obfs": "",
 "auth_str": "dongtaiwang.com",
+"alpn": "h3",
 "server_name": "youku.com",
 "insecure": true,
 "recv_window_conn": 5767168,
@@ -27,5 +28,5 @@
 "handshake_timeout": 15,
 "idle_timeout": 30,
 "fast_open": true,
-"hop_interval": 180
+"hop_interval": 120
 }
