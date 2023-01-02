@@ -1,6 +1,6 @@
 {
-"server": "104.149.139.189:48761",
-"protocol": "udp",
+"server": "104.149.139.189:18019",
+"protocol": "wechat-video",
 "up_mbps": 11,
 "down_mbps": 55,
 "http": {
@@ -18,8 +18,8 @@
 "alpn": "h3",
 "server_name": "wechat.com",
 "insecure": true,
-"recv_window_conn": 5767168,
-"recv_window": 23068672,
+"recv_window_conn": 4980736,
+"recv_window": 19922944,
 "disable_mtu_discovery": true,
 "resolver": "https://223.5.5.5/dns-query",
 "retry": 3,
