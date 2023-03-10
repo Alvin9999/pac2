@@ -1,6 +1,6 @@
 {
-"server": "1.hysteria1.xyz:43747",
-"protocol": "wechat-video",
+"server": "104.149.139.189:34684",
+"protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
 "http": {
@@ -14,10 +14,10 @@
 "disable_udp": false
 },
 "obfs": "",
+"auth_str": "cg5j9lwpLA4MRIAqfgezBC7fRGcVstk0fJO2tJtTRuZTjAgr2m",
 "alpn": "h3",
-"auth_str": "dongtaiwang.com",
-"server_name": "1.hysteria1.xyz",
-"insecure": false,
+"server_name": "youku.com",
+"insecure": true,
 "recv_window_conn": 5767168,
 "recv_window": 23068672,
 "disable_mtu_discovery": true,
@@ -30,3 +30,4 @@
 "fast_open": true,
 "hop_interval": 120
 }
+
