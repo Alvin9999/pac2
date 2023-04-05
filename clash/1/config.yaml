@@ -5,6 +5,45 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-9, server: 23.227.38.20, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-8, server: 23.227.38.21, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-7, server: 23.227.38.22, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-6, server: 23.227.38.100, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-5, server: 23.227.38.24, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-17, server: 198.41.212.12, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-16, server: 203.30.191.2, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-15, server: 23.227.38.38, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-14, server: 203.24.108.8, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-13, server: 185.162.228.229, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-12, server: 23.227.38.25, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-11, server: 23.227.38.26, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-10, server: 23.227.38.27, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-9CDN, server: 185.162.228.2, port: 80, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fr.v2ray1.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN, server: 66.235.200.2, port: 80, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fr.v2ray1.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN, server: 203.24.108.2, port: 80, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fr.v2ray1.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-6CDN, server: 203.30.188.2, port: 80, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fr.v2ray1.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-5CDN, server: 203.30.189.2, port: 80, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fr.v2ray1.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-4CDN, server: 203.30.190.2, port: 80, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fr.v2ray1.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN, server: 23.227.38.40, port: 80, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fr.v2ray1.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-2CDN, server: 188.114.99.2, port: 80, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fr.v2ray1.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-1CDN, server: 203.30.191.2, port: 80, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fr.v2ray1.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-15CDN, server: 190.93.245.4, port: 80, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fr.v2ray1.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-14CDN, server: 190.93.246.2, port: 80, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fr.v2ray1.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN, server: 190.93.244.4, port: 80, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fr.v2ray1.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-12CDN, server: 141.101.115.32, port: 80, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fr.v2ray1.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-10CDN, server: 141.101.114.2, port: 80, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fr.v2ray1.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN, server: 203.24.108.100, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: lg2.v2ray6.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN, server: 203.30.188.100, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: lg2.v2ray6.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN, server: 203.30.189.2, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: lg2.v2ray6.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN, server: 203.30.190.2, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: lg2.v2ray6.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN, server: 23.227.38.39, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: lg2.v2ray6.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-2CDN, server: 188.114.99.10, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: lg2.v2ray6.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-1CDN, server: 203.30.191.100, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: lg2.v2ray6.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-14CDN, server: 190.93.246.3, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: lg2.v2ray6.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-13CDN, server: 190.93.245.1, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: lg2.v2ray6.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-12CDN, server: 190.93.244.3, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: lg2.v2ray6.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-11CDN, server: 141.101.114.31, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: lg2.v2ray6.xyz}}}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-10CDN, server: 185.162.228.229, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: lg2.v2ray6.xyz}}}
   - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN, server: 185.162.228.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}}
   - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-8CDN, server: 66.235.200.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}}
   - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-7CDN, server: 203.24.108.8, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}}
@@ -19,37 +58,51 @@ proxies:
   - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-12CDN, server: 190.93.244.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}}
   - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-11CDN, server: 141.101.114.30, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}}
   - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-10CDN, server: 141.101.115.30, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-9, server: 23.227.38.20, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-8, server: 23.227.38.21, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-7, server: 23.227.38.22, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-6, server: 23.227.38.100, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-5, server: 23.227.38.24, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-17, server: 198.41.212.12, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-16, server: 203.30.191.2, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-15, server: 23.227.38.38, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-14, server: 203.24.108.8, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-13, server: 185.162.228.229, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-12, server: 23.227.38.25, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-11, server: 23.227.38.26, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-10, server: 23.227.38.27, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: lg1.v2ray6.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN, server: 203.24.108.100, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: lg2.v2ray6.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN, server: 203.30.188.100, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: lg2.v2ray6.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN, server: 203.30.189.2, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: lg2.v2ray6.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN, server: 203.30.190.2, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: lg2.v2ray6.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN, server: 23.227.38.39, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: lg2.v2ray6.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-2CDN, server: 188.114.99.10, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: lg2.v2ray6.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-1CDN, server: 203.30.191.100, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: lg2.v2ray6.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-14CDN, server: 190.93.246.3, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: lg2.v2ray6.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-13CDN, server: 190.93.245.1, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: lg2.v2ray6.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-12CDN, server: 190.93.244.3, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: lg2.v2ray6.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-11CDN, server: 141.101.114.31, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: lg2.v2ray6.xyz}}}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-10CDN, server: 185.162.228.229, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: lg2.v2ray6.xyz}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-9
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-8
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-7
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-6
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-5
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-17
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-16
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-15
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-14
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-13
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-12
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-11
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-10
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-9CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-6CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-5CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-4CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-2CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-1CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-15CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-14CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-12CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-10CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-2CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-1CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-14CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-13CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-12CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-11CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-10CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-8CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-7CDN
@@ -64,36 +117,50 @@ proxy-groups:
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-12CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-11CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-10CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-9
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-8
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-7
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-6
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-5
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-17
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-16
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-15
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-14
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-13
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-12
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-11
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-10
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-2CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-1CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-14CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-13CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-12CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-11CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-10CDN
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-9
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-8
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-7
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-6
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-5
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-17
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-16
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-15
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-14
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-13
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-12
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-11
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-10
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-9CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-6CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-5CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-4CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-2CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-1CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-15CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-14CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-12CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-10CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-2CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-1CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-14CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-13CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-12CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-11CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-10CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-8CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-7CDN
@@ -108,37 +175,51 @@ proxy-groups:
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-12CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-11CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-10CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-9
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-8
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-7
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-6
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-5
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-17
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-16
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-15
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-14
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-13
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-12
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-11
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-10
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-2CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-1CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-14CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-13CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-12CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-11CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-10CDN
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-9
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-8
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-7
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-6
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-5
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-17
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-16
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-15
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-14
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-13
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-12
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-11
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-10
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-9CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-6CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-5CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-4CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-2CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-1CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-15CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-14CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-12CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-10CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-2CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-1CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-14CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-13CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-12CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-11CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-10CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-8CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-7CDN
@@ -153,31 +234,6 @@ proxy-groups:
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-12CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-11CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-10CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-9
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-8
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-7
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-6
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-5
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-17
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-16
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-15
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-14
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-13
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-12
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-11
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-10
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-2CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-1CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-14CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-13CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-12CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-11CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-10CDN
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -188,6 +244,45 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-9
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-8
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-7
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-6
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-5
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-17
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-16
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-15
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-14
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-13
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-12
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-11
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-10
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-9CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-6CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-5CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-4CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-2CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-1CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-15CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-14CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-12CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-10CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-2CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-1CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-14CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-13CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-12CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-11CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-10CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-8CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-7CDN
@@ -202,36 +297,50 @@ proxy-groups:
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-12CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-11CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-10CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-9
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-8
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-7
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-6
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-5
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-17
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-16
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-15
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-14
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-13
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-12
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-11
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-10
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-2CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-1CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-14CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-13CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-12CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-11CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-10CDN
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-9
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-8
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-7
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-6
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-5
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-17
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-16
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-15
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-14
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-13
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-12
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-11
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-10
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-9CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-6CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-5CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-4CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-2CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-1CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-15CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-14CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-12CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-10CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-2CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-1CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-14CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-13CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-12CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-11CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-10CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-8CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-7CDN
@@ -246,37 +355,51 @@ proxy-groups:
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-12CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-11CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-10CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-9
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-8
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-7
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-6
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-5
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-17
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-16
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-15
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-14
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-13
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-12
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-11
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-10
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-2CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-1CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-14CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-13CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-12CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-11CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-10CDN
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-9
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-8
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-7
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-6
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-5
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-17
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-16
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-15
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-14
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-13
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-12
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-11
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-10
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-9CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-6CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-5CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-4CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-2CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-1CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-15CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-14CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-12CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-10CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-2CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-1CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-14CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-13CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-12CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-11CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-10CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-8CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-7CDN
@@ -291,31 +414,6 @@ proxy-groups:
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-12CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-11CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-10CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-9
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-8
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-7
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-6
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-5
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-17
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-16
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-15
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-14
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-13
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-12
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-11
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-10
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-2CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-1CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-14CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-13CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-12CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-11CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-10CDN
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -331,6 +429,45 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-9
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-8
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-7
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-6
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-5
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-17
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-16
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-15
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-14
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-13
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-12
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-11
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-10
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-9CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-6CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-5CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-4CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-2CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-1CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-15CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-14CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-12CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-10CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-2CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-1CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-14CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-13CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-12CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-11CDN
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-10CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-8CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-7CDN
@@ -345,31 +482,6 @@ proxy-groups:
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-12CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-11CDN
       - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-10CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-9
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-8
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-7
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-6
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-5
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-17
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-16
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-15
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-14
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-13
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-12
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-11
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶4-10
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-2CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-1CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-14CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-13CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-12CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-11CDN
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-10CDN
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -2118,4 +2230,3 @@ rules:
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
-
