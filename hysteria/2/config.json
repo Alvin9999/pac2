@@ -1,22 +1,22 @@
 {
-"server": "104.149.139.189:34684",
+"server": "173.234.25.51:42479",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
 "http": {
 "listen": "127.0.0.1:1081",
-"timeout" : 220,
+"timeout" : 200,
 "disable_udp": false
 },
 "socks5": {
 "listen": "127.0.0.1:1080",
-"timeout": 220,
+"timeout": 200,
 "disable_udp": false
 },
 "obfs": "",
-"auth_str": "cg5j9lwpLA4MRIAqfgezBC7fRGcVstk0fJO2tJtTRuZTjAgr2m",
+"auth_str": "dongadlkdjafidjdfaodfadfdf",
 "alpn": "h3",
-"server_name": "youku.com",
+"server_name": "wechat.com",
 "insecure": true,
 "recv_window_conn": 5767168,
 "recv_window": 23068672,
@@ -30,4 +30,3 @@
 "fast_open": true,
 "hop_interval": 120
 }
-
