@@ -5,48 +5,22 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇻🇳_87, server: f-as1.wvvvv.eu.org, port: 20, type: vmess, uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0, alterId: 0, cipher: auto, tls: false}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_90, server: fr2.cachexy.ga, port: 80, type: vmess, uuid: c8c9867b-df9a-4217-8161-67824e20cb57, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /g5D0hFMY/, headers: {Host: fr2.cachexy.ga}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_85, server: cf.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /8kH8qnepjkprbsidLrLkmX, headers: {Host: germany2.yj2022.ga}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_84, server: cf.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /Eynyyo4kJfl2fkJfl2f, headers: {Host: england1.yj2022.ga}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_83, server: cf.noaries.de, port: 2052, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: contabo-uk.cloudflare.quest}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_82, server: cf.noaries.de, port: 2052, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: scw-nl.cloudflare.quest}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_81, server: cf.noaries.de, port: 8880, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: contabo-de.cloudflare.quest}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_80, server: cf.noaries.de, port: 8080, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.cloudflare.quest}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_8, server: 140.99.149.43, port: 56882, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_79, server: 162.159.58.13, port: 8880, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: contabo-sg.cloudflare.quest}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_78, server: 162.159.58.13, port: 8880, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: contabo-uk.cloudflare.quest}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_77, server: 162.159.58.13, port: 2082, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ovh.cloudflare.quest}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_76, server: 162.159.58.13, port: 2052, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: contabo-sg.cloudflare.quest}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_7, server: 137.175.3.228, port: 53002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_67, server: 141.101.113.10, port: 2052, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: fr.cloudflare.quest}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_60, server: 45.86.11.201, port: 44101, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_52, server: 3.mamadcucu.com, port: 2086, type: vmess, uuid: 929344e1-473c-4feb-b86b-fde3ee1ccd16, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ArsalanTauBot, headers: {Host: 3.mamadcucu.com}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_47, server: 198.2.208.87, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_46, server: 198.2.205.108, port: 53327, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_45, server: 198.2.204.248, port: 46802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_44, server: 198.2.203.55, port: 44002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_36, server: 162.159.58.13, port: 8880, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.trump2023.net}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_25, server: 156.225.67.213, port: 47134, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, tls: false}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_20, server: 156.225.67.115, port: 49920, type: vmess, uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4, alterId: 64, cipher: auto, tls: false}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_19, server: 156.225.67.108, port: 49924, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_18, server: 156.225.67.101, port: 44388, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_14, server: 142.4.114.26, port: 34002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_13, server: 142.4.110.29, port: 52902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_11, server: 140.99.59.226, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇳🇱_61, server: 46.182.107.15, port: 51332, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇫🇷_62, server: 51.195.35.148, port: 58812, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇨🇾_49, server: 203.24.108.100, port: 8880, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.trump2023.net}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇨🇷_75, server: 190.93.244.2, port: 2052, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: lsb-aries.heinu.cf}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇨🇷_74, server: 190.93.244.2, port: 8080, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ovh.cloudflare.quest}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇨🇷_73, server: 190.93.244.2, port: 8880, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: contabo-us.cloudflare.quest}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇨🇷_71, server: 190.93.244.12, port: 2082, type: vmess, uuid: 314c1387-618c-4689-97fc-4bc9a1ae5e05, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ir3.nmsl.ninja}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇨🇷_70, server: 190.93.244.112, port: 2052, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ovh.cloudflare.quest}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇨🇷_69, server: 190.93.244.12, port: 8880, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: contabo-au.cloudflare.quest}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇨🇷_68, server: 190.93.244.2, port: 8880, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: csjp.cloudflare.quest}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇨🇷_38, server: 190.93.244.3, port: 8880, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.trump2023.net}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇨🇦_51, server: 23.227.38.39, port: 8880, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.trump2023.net}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash_🇧🇿_50, server: 203.30.188.100, port: 8880, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.trump2023.net}}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip, server: 198.41.220.47, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 2, server: 108.162.192.12, port: 443, type: vmess, uuid: efb8f3ba-848f-4716-b233-ea038cd2eb32, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer, headers: {Host: vtcss.top}}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 3, server: cdnjs.com, port: 443, type: vmess, uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 4, server: 108.162.192.12, port: 443, type: vmess, uuid: efb8f3ba-848f-4716-b233-ea038cd2eb32, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer, headers: {Host: vtcss.top}}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 5, server: 192.74.228.175, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 6, server: 38.143.66.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 7, server: 172.67.84.93, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 8, server: 172.67.250.239, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 9, server: 192.74.228.171, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 10, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 11, server: 25.v2-ray.cyou, port: 23625, type: vmess, uuid: 0dd19d20-ec86-3680-b256-87237bafa89e, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 25.v2-ray.cyou}}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 12, server: 104.17.3.81, port: 80, type: vmess, uuid: e40b2de3-b829-4591-a7b6-99d1913f3246, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /worryfree, headers: {Host: w.evouch77.live}}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 13, server: 172.67.57.22, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 14, server: 172.67.113.82, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 15, server: 172.67.132.15, port: 443, type: vmess, uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: ming2.kiwireich.com}}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 16, server: 172.67.199.253, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -57,47 +31,21 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇻🇳_87
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_90
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_85
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_84
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_83
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_82
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_81
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_80
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_8
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_79
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_78
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_77
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_76
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_7
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_67
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_60
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_52
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_47
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_46
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_45
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_44
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_36
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_25
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_20
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_19
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_18
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_14
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_13
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇺🇸_11
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇳🇱_61
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇫🇷_62
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇨🇾_49
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇨🇷_75
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇨🇷_74
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇨🇷_73
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇨🇷_71
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇨🇷_70
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇨🇷_69
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇨🇷_68
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇨🇷_38
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇨🇦_51
-      - https://github.com/Alvin9999/new-pac/wiki clash_🇧🇿_50
+      - https://github.com/Alvin9999/new-pac/wiki ip
+      - https://github.com/Alvin9999/new-pac/wiki ip 2
+      - https://github.com/Alvin9999/new-pac/wiki ip 3
+      - https://github.com/Alvin9999/new-pac/wiki ip 4
+      - https://github.com/Alvin9999/new-pac/wiki ip 5
+      - https://github.com/Alvin9999/new-pac/wiki ip 6
+      - https://github.com/Alvin9999/new-pac/wiki ip 7
+      - https://github.com/Alvin9999/new-pac/wiki ip 8
+      - https://github.com/Alvin9999/new-pac/wiki ip 9
+      - https://github.com/Alvin9999/new-pac/wiki ip 10
+      - https://github.com/Alvin9999/new-pac/wiki ip 11
+      - https://github.com/Alvin9999/new-pac/wiki ip 12
+      - https://github.com/Alvin9999/new-pac/wiki ip 13
+      - https://github.com/Alvin9999/new-pac/wiki ip 14
+      - https://github.com/Alvin9999/new-pac/wiki ip 15
+      - https://github.com/Alvin9999/new-pac/wiki ip 16
 rules:
  - MATCH,🔰 节点选择
