@@ -5,24 +5,22 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: https://github.com/Alvin9999/new-pac/wiki ip, server: 167.88.63.79, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: https://github.com/Alvin9999/new-pac/wiki ip 2, server: 172.67.199.253, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki ip 3, server: 172.67.132.15, port: 443, type: vmess, uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: ming2.kiwireich.com}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki ip 4, server: 192.74.246.56, port: 50032, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: https://github.com/Alvin9999/new-pac/wiki ip 5, server: fscus.fscloud123456789.com, port: 443, type: trojan, password: adbeb3f5-693f-47d0-aec7-07a90c2095c7}
-  - {name: https://github.com/Alvin9999/new-pac/wiki ip 6, server: 203.24.108.100, port: 8880, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.trump2023.net}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki ip 7, server: 25.v2-ray.cyou, port: 23625, type: vmess, uuid: 0dd19d20-ec86-3680-b256-87237bafa89e, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 25.v2-ray.cyou}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki ip 8, server: flos1.ydnode.us, port: 80, type: vmess, uuid: db0af0f2-a278-3019-9ef8-f064d7a0726c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: flos1.ydnode.us}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki ip 9, server: new3.hucloud-dns.xyz, port: 443, type: vmess, uuid: 1c8ad3f2-835c-4fda-b9b6-881d3cadfd8e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: new3.hucloud-dns.xyz}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki ip 10, server: 167.88.63.79, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: https://github.com/Alvin9999/new-pac/wiki ip 11, server: 167.88.63.79, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: https://github.com/Alvin9999/new-pac/wiki ip 12, server: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip, port: 10099, type: vmess, uuid: a2b3caa6-9cad-4612-b053-bbb0353f3e1a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki ip 13, server: 104.17.3.81, port: 80, type: vmess, uuid: e40b2de3-b829-4591-a7b6-99d1913f3246, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /worryfree, headers: {Host: w.evouch77.live}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki ip 14, server: 172.67.57.22, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki ip 15, server: 172.67.113.82, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki ip 16, server: fscus.fscloud123456789.com, port: 443, type: trojan, password: adbeb3f5-693f-47d0-aec7-07a90c2095c7}
-  - {name: https://github.com/Alvin9999/new-pac/wiki ip 17, server: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip, port: 10099, type: vmess, uuid: a2b3caa6-9cad-4612-b053-bbb0353f3e1a, alterId: 0, cipher: auto, tls: false, servername: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip, network: ws, ws-opts: {path: /, headers: {Host: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip}}}
-  - {name: https://github.com/Alvin9999/new-pac/wiki ip 18, server: 198.2.208.87, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip, server: 198.41.220.47, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 2, server: 108.162.192.12, port: 443, type: vmess, uuid: efb8f3ba-848f-4716-b233-ea038cd2eb32, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer, headers: {Host: vtcss.top}}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 3, server: cdnjs.com, port: 443, type: vmess, uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 4, server: 108.162.192.12, port: 443, type: vmess, uuid: efb8f3ba-848f-4716-b233-ea038cd2eb32, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer, headers: {Host: vtcss.top}}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 5, server: 192.74.228.175, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 6, server: 38.143.66.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 7, server: 172.67.84.93, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 8, server: 172.67.250.239, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 9, server: 192.74.228.171, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 10, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 11, server: 25.v2-ray.cyou, port: 23625, type: vmess, uuid: 0dd19d20-ec86-3680-b256-87237bafa89e, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 25.v2-ray.cyou}}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 12, server: 104.17.3.81, port: 80, type: vmess, uuid: e40b2de3-b829-4591-a7b6-99d1913f3246, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /worryfree, headers: {Host: w.evouch77.live}}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 13, server: 172.67.57.22, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 14, server: 172.67.113.82, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 15, server: 172.67.132.15, port: 443, type: vmess, uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: ming2.kiwireich.com}}}
+  - {name: https://github.com/Alvin9999/new-pac/wiki ip 16, server: 172.67.199.253, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -49,7 +47,6 @@ proxy-groups:
       - https://github.com/Alvin9999/new-pac/wiki ip 14
       - https://github.com/Alvin9999/new-pac/wiki ip 15
       - https://github.com/Alvin9999/new-pac/wiki ip 16
-      - https://github.com/Alvin9999/new-pac/wiki ip 17
-      - https://github.com/Alvin9999/new-pac/wiki ip 18
 rules:
  - MATCH,🔰 节点选择
+
