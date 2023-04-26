@@ -1,22 +1,22 @@
 {
-"server": "173.234.25.51:42479",
+"server": "104.149.155.29:13150",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
 "http": {
 "listen": "127.0.0.1:1081",
-"timeout" : 200,
+"timeout" : 300,
 "disable_udp": false
 },
 "socks5": {
 "listen": "127.0.0.1:1080",
-"timeout": 200,
+"timeout": 300,
 "disable_udp": false
 },
 "obfs": "",
-"auth_str": "dongadlkdjafidjdfaodfadfdf",
+"auth_str": "BZsZtkDdcVqYq6UXqADVNLIrPIMCpBcAeYpspfJk1KJrVxgkxq",
 "alpn": "h3",
-"server_name": "wechat.com",
+"server_name": "www.amazon.com",
 "insecure": true,
 "recv_window_conn": 5767168,
 "recv_window": 23068672,
