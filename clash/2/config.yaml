@@ -5,129 +5,31 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 www.dongtaiwang.com_1, server: xn--eckwa3c8a8m.xn--pckh8dr.com, port: 80, type: vmess, uuid: d68b6863-5d72-3331-8a11-0c89df0d1195, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: download.skycn.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_2, server: xn--eckuhg.xn--pckh8dr.com, port: 60018, type: vmess, uuid: d68b6863-5d72-3331-8a11-0c89df0d1195, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: download.skycn.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_3, server: xn--eckuhg.xn--pckh8dr.com, port: 60021, type: vmess, uuid: d68b6863-5d72-3331-8a11-0c89df0d1195, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: download.skycn.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_4, server: xn--eckuhg.xn--pckh8dr.com, port: 60019, type: vmess, uuid: d68b6863-5d72-3331-8a11-0c89df0d1195, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: download.skycn.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_5, server: xn--eckuhg.xn--pckh8dr.com, port: 60004, type: vmess, uuid: d68b6863-5d72-3331-8a11-0c89df0d1195, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: download.skycn.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_6, server: xn--eckuhg.xn--pckh8dr.com, port: 60010, type: vmess, uuid: d68b6863-5d72-3331-8a11-0c89df0d1195, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: download.skycn.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_7, server: xn--eckuhg.xn--pckh8dr.com, port: 60020, type: vmess, uuid: d68b6863-5d72-3331-8a11-0c89df0d1195, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: download.skycn.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_8, server: xn--eckuhg.xn--pckh8dr.com, port: 60017, type: vmess, uuid: d68b6863-5d72-3331-8a11-0c89df0d1195, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: download.skycn.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_9, server: xn--eckuhg.xn--pckh8dr.com, port: 60003, type: vmess, uuid: d68b6863-5d72-3331-8a11-0c89df0d1195, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: download.skycn.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_10, server: xn--eckuhg.xn--pckh8dr.com, port: 60006, type: vmess, uuid: d68b6863-5d72-3331-8a11-0c89df0d1195, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: download.skycn.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_11, server: xn--eckuhg.xn--pckh8dr.com, port: 60022, type: vmess, uuid: d68b6863-5d72-3331-8a11-0c89df0d1195, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: download.skycn.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_12, server: xn--eckuhg.xn--pckh8dr.com, port: 60014, type: vmess, uuid: d68b6863-5d72-3331-8a11-0c89df0d1195, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: download.skycn.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_13, server: xn--eckuhg.xn--pckh8dr.com, port: 60012, type: vmess, uuid: d68b6863-5d72-3331-8a11-0c89df0d1195, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: download.skycn.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_14, server: xn--eckuhg.xn--pckh8dr.com, port: 60015, type: vmess, uuid: d68b6863-5d72-3331-8a11-0c89df0d1195, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: download.skycn.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_15, server: xn--eckuhg.xn--pckh8dr.com, port: 60016, type: vmess, uuid: d68b6863-5d72-3331-8a11-0c89df0d1195, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: download.skycn.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_16, server: xn--eckuhg.xn--pckh8dr.com, port: 60011, type: vmess, uuid: d68b6863-5d72-3331-8a11-0c89df0d1195, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: download.skycn.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_17, server: xn--eckuhg.xn--pckh8dr.com, port: 60005, type: vmess, uuid: d68b6863-5d72-3331-8a11-0c89df0d1195, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: download.skycn.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_18, server: xn--eckuhg.xn--pckh8dr.com, port: 60009, type: vmess, uuid: d68b6863-5d72-3331-8a11-0c89df0d1195, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: download.skycn.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_19, server: sg2.af49c4e4c2ef.sanfen004.me, port: 443, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇨🇳 www.dongtaiwang.com_20, server: sg2.af49c4e4c2ef.sanfen004.me, port: 443, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇨🇳 www.dongtaiwang.com_21, server: sg2.af49c4e4c2ef.sanfen004.me, port: 443, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇨🇳 www.dongtaiwang.com_22, server: jp4.af49c4e4c2ef.sanfen004.me, port: 443, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇨🇳 www.dongtaiwang.com_23, server: jp4.af49c4e4c2ef.sanfen004.me, port: 443, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇨🇳 www.dongtaiwang.com_24, server: jp4.af49c4e4c2ef.sanfen004.me, port: 443, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇨🇳 www.dongtaiwang.com_25, server: jp3.af49c4e4c2ef.sanfen004.me, port: 443, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇨🇳 www.dongtaiwang.com_26, server: jp3.af49c4e4c2ef.sanfen004.me, port: 443, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇨🇳 www.dongtaiwang.com_27, server: jp3.af49c4e4c2ef.sanfen004.me, port: 443, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇨🇳 www.dongtaiwang.com_28, server: jp1.1f4826f463aa.sanfen004.me, port: 443, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_29, server: jp1.1f4826f463aa.sanfen004.me, port: 443, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: jp1.1f4826f463aa.sanfen004.me}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_30, server: hk80-2.8b750e3e20aa.sanfen004.me, port: 80, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: hk80-2.8b750e3e20aa.sanfen004.me}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_31, server: hk80-2.8b750e3e20aa.sanfen004.me, port: 80, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: www.baidu.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_32, server: hk5.af49c4e4c2ef.sanfen004.me, port: 443, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_33, server: hk5.af49c4e4c2ef.sanfen004.me, port: 443, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: hk5.af49c4e4c2ef.sanfen004.me}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_34, server: hk4.af49c4e4c2ef.sanfen004.me, port: 443, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: hk4.af49c4e4c2ef.sanfen004.me}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_35, server: hk4.af49c4e4c2ef.sanfen004.me, port: 443, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_36, server: hk3.af49c4e4c2ef.sanfen004.me, port: 443, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_37, server: hk3.af49c4e4c2ef.sanfen004.me, port: 443, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: hk3.af49c4e4c2ef.sanfen004.me}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_38, server: hk2.c2bfe79372be.sanfen004.me, port: 443, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: hk2.c2bfe79372be.sanfen004.me}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_39, server: hk2.c2bfe79372be.sanfen004.me, port: 443, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_40, server: hk1.b.bd6b6c503c93.sanfen004.me, port: 443, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: hk1.b.bd6b6c503c93.sanfen004.me}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_41, server: hk1.b.bd6b6c503c93.sanfen004.me, port: 443, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_42, server: d0cd89648587.sanfen004.me, port: 16610, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 www.dongtaiwang.com_43, server: d0cd89648587.sanfen004.me, port: 16610, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 www.dongtaiwang.com_44, server: d0cd89648587.sanfen004.me, port: 16610, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 www.dongtaiwang.com_45, server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us1.sanfencdn.net}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_46, server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: ce31cb07-c0d7-482a-b667-d51c53c99687, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us2.sanfencdn.net}}}
-  - {name: 🇨🇳 www.dongtaiwang.com_47, server: agroup.node5.v.nodelist-gfwairport1.download, port: 50001, type: vmess, uuid: b941836a-5793-4337-b0ea-ea067c5a98ae, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 www.dongtaiwang.com_48, server: agroup.node4.v.nodelist-gfwairport1.download, port: 50001, type: vmess, uuid: b941836a-5793-4337-b0ea-ea067c5a98ae, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 www.dongtaiwang.com_49, server: agroup.node2.v.nodelist-gfwairport1.download, port: 50001, type: vmess, uuid: b941836a-5793-4337-b0ea-ea067c5a98ae, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 www.dongtaiwang.com_50, server: gdcm.v-too.cloud, port: 28138, type: ss, cipher: chacha20-ietf-poly1305, password: 55a9db6e-03eb-4fdb-b323-415ac1bb89d3}
-  - {name: 🇨🇳 www.dongtaiwang.com_51, server: gdcm.v-too.cloud, port: 33684, type: ss, cipher: chacha20-ietf-poly1305, password: 55a9db6e-03eb-4fdb-b323-415ac1bb89d3}
-  - {name: 🇨🇳 www.dongtaiwang.com_52, server: gdcm.v-too.cloud, port: 47998, type: ss, cipher: chacha20-ietf-poly1305, password: 55a9db6e-03eb-4fdb-b323-415ac1bb89d3}
-  - {name: 🇨🇳 www.dongtaiwang.com_53, server: gdcm.v-too.cloud, port: 31710, type: ss, cipher: chacha20-ietf-poly1305, password: 55a9db6e-03eb-4fdb-b323-415ac1bb89d3}
-  - {name: 🇨🇳 www.dongtaiwang.com_54, server: gdcm.v-too.cloud, port: 24629, type: ss, cipher: chacha20-ietf-poly1305, password: 55a9db6e-03eb-4fdb-b323-415ac1bb89d3}
-  - {name: 🇨🇳 www.dongtaiwang.com_55, server: gdcm.v-too.cloud, port: 37532, type: ss, cipher: chacha20-ietf-poly1305, password: 55a9db6e-03eb-4fdb-b323-415ac1bb89d3}
-  - {name: 🇨🇳 www.dongtaiwang.com_56, server: gdcm.v-too.cloud, port: 34644, type: ss, cipher: chacha20-ietf-poly1305, password: 55a9db6e-03eb-4fdb-b323-415ac1bb89d3}
-  - {name: 🇨🇳 www.dongtaiwang.com_57, server: gb-service.bygcloud.xyz, port: 27011, type: ss, cipher: aes-128-gcm, password: 0611fb89-6e48-4a40-abdb-c883fb68caff}
-  - {name: 🇨🇳 www.dongtaiwang.com_58, server: gb-service.bygcloud.xyz, port: 27007, type: ss, cipher: aes-128-gcm, password: 0611fb89-6e48-4a40-abdb-c883fb68caff}
-  - {name: 🇨🇳 www.dongtaiwang.com_59, server: gb-service.bygcloud.xyz, port: 27013, type: ss, cipher: aes-128-gcm, password: 0611fb89-6e48-4a40-abdb-c883fb68caff}
-  - {name: 🇨🇳 www.dongtaiwang.com_60, server: gb-service.bygcloud.xyz, port: 27023, type: ss, cipher: aes-128-gcm, password: 0611fb89-6e48-4a40-abdb-c883fb68caff}
-  - {name: 🇨🇳 www.dongtaiwang.com_61, server: gb-service.bygcloud.xyz, port: 27010, type: ss, cipher: aes-128-gcm, password: 0611fb89-6e48-4a40-abdb-c883fb68caff}
-  - {name: 🇨🇳 www.dongtaiwang.com_62, server: gb-service.bygcloud.xyz, port: 27004, type: ss, cipher: aes-128-gcm, password: 0611fb89-6e48-4a40-abdb-c883fb68caff}
-  - {name: 🇨🇳 www.dongtaiwang.com_63, server: gb-service.bygcloud.xyz, port: 27012, type: ss, cipher: aes-128-gcm, password: 0611fb89-6e48-4a40-abdb-c883fb68caff}
-  - {name: 🇨🇳 www.dongtaiwang.com_64, server: gb-service.bygcloud.xyz, port: 27014, type: ss, cipher: aes-128-gcm, password: 0611fb89-6e48-4a40-abdb-c883fb68caff}
-  - {name: 🇨🇳 www.dongtaiwang.com_65, server: gb-service.bygcloud.xyz, port: 27005, type: ss, cipher: aes-128-gcm, password: 0611fb89-6e48-4a40-abdb-c883fb68caff}
-  - {name: 🇨🇳 www.dongtaiwang.com_66, server: gb-service.bygcloud.xyz, port: 27021, type: ss, cipher: aes-128-gcm, password: 0611fb89-6e48-4a40-abdb-c883fb68caff}
-  - {name: 🇨🇳 www.dongtaiwang.com_67, server: gb-service.bygcloud.xyz, port: 22002, type: ss, cipher: aes-128-gcm, password: 0611fb89-6e48-4a40-abdb-c883fb68caff}
-  - {name: 🇨🇳 www.dongtaiwang.com_68, server: gb-service.bygcloud.xyz, port: 24003, type: ss, cipher: aes-128-gcm, password: 0611fb89-6e48-4a40-abdb-c883fb68caff}
-  - {name: 🇨🇳 www.dongtaiwang.com_69, server: gb-service.bygcloud.xyz, port: 24002, type: ss, cipher: aes-128-gcm, password: 0611fb89-6e48-4a40-abdb-c883fb68caff}
-  - {name: 🇨🇳 www.dongtaiwang.com_70, server: gb-service.bygcloud.xyz, port: 24001, type: ss, cipher: aes-128-gcm, password: 0611fb89-6e48-4a40-abdb-c883fb68caff}
-  - {name: 🇨🇳 www.dongtaiwang.com_71, server: gb-service.bygcloud.xyz, port: 23003, type: ss, cipher: aes-128-gcm, password: 0611fb89-6e48-4a40-abdb-c883fb68caff}
-  - {name: 🇨🇳 www.dongtaiwang.com_72, server: gb-service.bygcloud.xyz, port: 27006, type: ss, cipher: aes-128-gcm, password: 0611fb89-6e48-4a40-abdb-c883fb68caff}
-  - {name: 🇨🇳 www.dongtaiwang.com_73, server: gb-service.bygcloud.xyz, port: 27002, type: ss, cipher: aes-128-gcm, password: 0611fb89-6e48-4a40-abdb-c883fb68caff}
-  - {name: 🇨🇳 www.dongtaiwang.com_74, server: d0cd89648587.sanfen004.me, port: 16611, type: ss, cipher: aes-256-gcm, password: ce31cb07-c0d7-482a-b667-d51c53c99687}
-  - {name: 🇨🇳 www.dongtaiwang.com_75, server: ahcm.v-too.cloud, port: 10259, type: ss, cipher: chacha20-ietf-poly1305, password: 55a9db6e-03eb-4fdb-b323-415ac1bb89d3}
-  - {name: 🇨🇳 www.dongtaiwang.com_76, server: agroup.node5.s.nodelist-gfwairport1.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: b941836a-5793-4337-b0ea-ea067c5a98ae}
-  - {name: 🇨🇳 www.dongtaiwang.com_77, server: agroup.node2.s.nodelist-gfwairport1.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: b941836a-5793-4337-b0ea-ea067c5a98ae}
-  - {name: 🇨🇳 www.dongtaiwang.com_78, server: 1uk.nutcloud.de, port: 65444, type: ss, cipher: chacha20-ietf-poly1305, password: od176M3UVTFsyZAYYkT8Xe/Ip2V69M5Ml2q00slKFak=}
-  - {name: 🇨🇳 www.dongtaiwang.com_79, server: 1de.nutcloud.de, port: 65444, type: ss, cipher: chacha20-ietf-poly1305, password: od176M3UVTFsyZAYYkT8Xe/Ip2V69M5Ml2q00slKFak=}
-  - {name: 🇨🇳 www.dongtaiwang.com_80, server: us5.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_81, server: us4.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_82, server: us3.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_83, server: us1.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_84, server: tw4.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_85, server: tw2.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_86, server: tw1.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_87, server: sg9.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_88, server: sg8.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_89, server: sg7.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_90, server: sg6.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_91, server: sg4.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_92, server: sg3.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_93, server: sg2.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_94, server: sg10.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_95, server: sg1.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_96, server: kr4.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_97, server: kr3.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_98, server: kr2.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_99, server: kr1.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_100, server: jp6.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_101, server: jp5.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_102, server: jp4.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_103, server: jp3.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_104, server: jp1.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_105, server: in2.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_106, server: in1.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_107, server: hk9.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_108, server: hk8.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_109, server: hk7.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_110, server: hk4.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_111, server: hk3.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_112, server: hk2.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_113, server: hk10.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_114, server: hk1.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_115, server: hk1.microsoft-orgwly.vip, port: 443, type: trojan, password: 2a86f06a-3c20-4568-ace4-e3bc418c64d4, skip-cert-verify: true}
-  - {name: 🇨🇳 www.dongtaiwang.com_116, server: gb2.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_117, server: gb1.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_118, server: fr1.microsoft-orgwly.vip, port: 443, type: trojan, password: d4e6f6f4-46a1-40a8-8b1d-6b6d5ae0bb98, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇨🇳 www.dongtaiwang.com_119, server: agroup.node4.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: b941836a-5793-4337-b0ea-ea067c5a98ae}
-  - {name: 🇨🇳 www.dongtaiwang.com_120, server: agroup.node2.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: b941836a-5793-4337-b0ea-ea067c5a98ae}
-  - {name: 🇨🇳 www.dongtaiwang.com_121, server: agroup.node1.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: b941836a-5793-4337-b0ea-ea067c5a98ae}
-  - {name: 🇨🇳 www.dongtaiwang.com_122, server: 183.213.200.225, port: 28113, type: trojan, password: cdyB1Q, sni: ctldl.windowsupdate.com, skip-cert-verify: true}
-  - {name: 🇨🇳 www.dongtaiwang.com_123, server: 183.213.200.225, port: 28114, type: trojan, password: cdyB1Q, sni: download.windowsupdate.com, skip-cert-verify: true}
+  - {name: 🇨🇳 www.dongtaiwang.com_1, server: iepl.bj-bj.cyou, port: 36611, type: ss, cipher: aes-128-gcm, password: ccf9a4a3-5877-433d-a021-82d0bff433f1}
+  - {name: 🇨🇳 www.dongtaiwang.com_2, server: gb-service.bygcloud.xyz, port: 27003, type: ss, cipher: aes-128-gcm, password: 0611fb89-6e48-4a40-abdb-c883fb68caff}
+  - {name: 🇨🇳 www.dongtaiwang.com_3, server: iepl.bj-bj.cyou, port: 36601, type: ss, cipher: aes-256-gcm, password: ccf9a4a3-5877-433d-a021-82d0bff433f1}
+  - {name: 🇨🇳 www.dongtaiwang.com_4, server: iepl.bj-bj.cyou, port: 36611, type: ss, cipher: aes-128-gcm, password: ccf9a4a3-5877-433d-a021-82d0bff433f1}
+  - {name: 🇨🇳 www.dongtaiwang.com_5, server: gb-service.bygcloud.xyz, port: 27022, type: ss, cipher: aes-128-gcm, password: 0611fb89-6e48-4a40-abdb-c883fb68caff}
+  - {name: 🇨🇳 www.dongtaiwang.com_6, server: iepl.bj-bj.cyou, port: 36601, type: ss, cipher: aes-256-gcm, password: ccf9a4a3-5877-433d-a021-82d0bff433f1}
+  - {name: 🇨🇳 www.dongtaiwang.com_7, server: ahcm.v-too.cloud, port: 10259, type: ss, cipher: chacha20-ietf-poly1305, password: 6b6841eb-6de7-4fc7-b00c-34a02ebc17bd}
+  - {name: 🇨🇳 www.dongtaiwang.com_8, server: iepl.bj-bj.cyou, port: 36611, type: ss, cipher: aes-128-gcm, password: ccf9a4a3-5877-433d-a021-82d0bff433f1}
+  - {name: 🇨🇳 www.dongtaiwang.com_9, server: ahcm.v-too.cloud, port: 10259, type: ss, cipher: chacha20-ietf-poly1305, password: 6b6841eb-6de7-4fc7-b00c-34a02ebc17bd}
+  - {name: 🇨🇳 www.dongtaiwang.com_10, server: iepl.bj-bj.cyou, port: 36611, type: ss, cipher: aes-128-gcm, password: ccf9a4a3-5877-433d-a021-82d0bff433f1}
+  - {name: 🇨🇳 www.dongtaiwang.com_11, server: fscm.v-too.cloud, port: 21262, type: ss, cipher: chacha20-ietf-poly1305, password: f21a1359-79b4-44dd-9a70-d6b9b19beb14}
+  - {name: 🇨🇳 www.dongtaiwang.com_12, server: fscm.v-too.cloud, port: 24353, type: ss, cipher: chacha20-ietf-poly1305, password: f21a1359-79b4-44dd-9a70-d6b9b19beb14}
+  - {name: 🇨🇳 www.dongtaiwang.com_13, server: iepl.bj-bj.cyou, port: 36601, type: ss, cipher: aes-256-gcm, password: ccf9a4a3-5877-433d-a021-82d0bff433f1}
+  - {name: 🇨🇳 www.dongtaiwang.com_14, server: iepl.bj-bj.cyou, port: 36601, type: ss, cipher: aes-256-gcm, password: ccf9a4a3-5877-433d-a021-82d0bff433f1}
+  - {name: 🇨🇳 www.dongtaiwang.com_15, server: gb-service.bygcloud.xyz, port: 27019, type: ss, cipher: aes-128-gcm, password: 0611fb89-6e48-4a40-abdb-c883fb68caff}
+  - {name: 🇨🇳 www.dongtaiwang.com_16, server: fscm.v-too.cloud, port: 24353, type: ss, cipher: chacha20-ietf-poly1305, password: f21a1359-79b4-44dd-9a70-d6b9b19beb14}
+  - {name: 🇨🇳 www.dongtaiwang.com_17, server: fscm.v-too.cloud, port: 21262, type: ss, cipher: chacha20-ietf-poly1305, password: f21a1359-79b4-44dd-9a70-d6b9b19beb14}
+  - {name: 🇨🇳 www.dongtaiwang.com_18, server: gb-service.bygcloud.xyz, port: 27020, type: ss, cipher: aes-128-gcm, password: 0611fb89-6e48-4a40-abdb-c883fb68caff}
+  - {name: 🇨🇳 www.dongtaiwang.com_19, server: fscm.v-too.cloud, port: 24353, type: ss, cipher: chacha20-ietf-poly1305, password: f21a1359-79b4-44dd-9a70-d6b9b19beb14}
+  - {name: 🇨🇳 www.dongtaiwang.com_20, server: gb-service.bygcloud.xyz, port: 23001, type: ss, cipher: aes-128-gcm, password: 0611fb89-6e48-4a40-abdb-c883fb68caff}
+  - {name: 🇨🇳 www.dongtaiwang.com_21, server: fscm.v-too.cloud, port: 24353, type: ss, cipher: chacha20-ietf-poly1305, password: f21a1359-79b4-44dd-9a70-d6b9b19beb14}
+  - {name: 🇨🇳 www.dongtaiwang.com_22, server: fscm.v-too.cloud, port: 21262, type: ss, cipher: chacha20-ietf-poly1305, password: f21a1359-79b4-44dd-9a70-d6b9b19beb14}
+  - {name: 🇨🇳 www.dongtaiwang.com_23, server: gb-service.bygcloud.xyz, port: 23002, type: ss, cipher: aes-128-gcm, password: 0611fb89-6e48-4a40-abdb-c883fb68caff}
+  - {name: 🇨🇳 www.dongtaiwang.com_24, server: gb-service.bygcloud.xyz, port: 22001, type: ss, cipher: aes-128-gcm, password: 0611fb89-6e48-4a40-abdb-c883fb68caff}
+  - {name: 🇨🇳 www.dongtaiwang.com_25, server: fscm.v-too.cloud, port: 21262, type: ss, cipher: chacha20-ietf-poly1305, password: f21a1359-79b4-44dd-9a70-d6b9b19beb14}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -163,103 +65,5 @@ proxy-groups:
       - 🇨🇳 www.dongtaiwang.com_23
       - 🇨🇳 www.dongtaiwang.com_24
       - 🇨🇳 www.dongtaiwang.com_25
-      - 🇨🇳 www.dongtaiwang.com_26
-      - 🇨🇳 www.dongtaiwang.com_27
-      - 🇨🇳 www.dongtaiwang.com_28
-      - 🇨🇳 www.dongtaiwang.com_29
-      - 🇨🇳 www.dongtaiwang.com_30
-      - 🇨🇳 www.dongtaiwang.com_31
-      - 🇨🇳 www.dongtaiwang.com_32
-      - 🇨🇳 www.dongtaiwang.com_33
-      - 🇨🇳 www.dongtaiwang.com_34
-      - 🇨🇳 www.dongtaiwang.com_35
-      - 🇨🇳 www.dongtaiwang.com_36
-      - 🇨🇳 www.dongtaiwang.com_37
-      - 🇨🇳 www.dongtaiwang.com_38
-      - 🇨🇳 www.dongtaiwang.com_39
-      - 🇨🇳 www.dongtaiwang.com_40
-      - 🇨🇳 www.dongtaiwang.com_41
-      - 🇨🇳 www.dongtaiwang.com_42
-      - 🇨🇳 www.dongtaiwang.com_43
-      - 🇨🇳 www.dongtaiwang.com_44
-      - 🇨🇳 www.dongtaiwang.com_45
-      - 🇨🇳 www.dongtaiwang.com_46
-      - 🇨🇳 www.dongtaiwang.com_47
-      - 🇨🇳 www.dongtaiwang.com_48
-      - 🇨🇳 www.dongtaiwang.com_49
-      - 🇨🇳 www.dongtaiwang.com_50
-      - 🇨🇳 www.dongtaiwang.com_51
-      - 🇨🇳 www.dongtaiwang.com_52
-      - 🇨🇳 www.dongtaiwang.com_53
-      - 🇨🇳 www.dongtaiwang.com_54
-      - 🇨🇳 www.dongtaiwang.com_55
-      - 🇨🇳 www.dongtaiwang.com_56
-      - 🇨🇳 www.dongtaiwang.com_57
-      - 🇨🇳 www.dongtaiwang.com_58
-      - 🇨🇳 www.dongtaiwang.com_59
-      - 🇨🇳 www.dongtaiwang.com_60
-      - 🇨🇳 www.dongtaiwang.com_61
-      - 🇨🇳 www.dongtaiwang.com_62
-      - 🇨🇳 www.dongtaiwang.com_63
-      - 🇨🇳 www.dongtaiwang.com_64
-      - 🇨🇳 www.dongtaiwang.com_65
-      - 🇨🇳 www.dongtaiwang.com_66
-      - 🇨🇳 www.dongtaiwang.com_67
-      - 🇨🇳 www.dongtaiwang.com_68
-      - 🇨🇳 www.dongtaiwang.com_69
-      - 🇨🇳 www.dongtaiwang.com_70
-      - 🇨🇳 www.dongtaiwang.com_71
-      - 🇨🇳 www.dongtaiwang.com_72
-      - 🇨🇳 www.dongtaiwang.com_73
-      - 🇨🇳 www.dongtaiwang.com_74
-      - 🇨🇳 www.dongtaiwang.com_75
-      - 🇨🇳 www.dongtaiwang.com_76
-      - 🇨🇳 www.dongtaiwang.com_77
-      - 🇨🇳 www.dongtaiwang.com_78
-      - 🇨🇳 www.dongtaiwang.com_79
-      - 🇨🇳 www.dongtaiwang.com_80
-      - 🇨🇳 www.dongtaiwang.com_81
-      - 🇨🇳 www.dongtaiwang.com_82
-      - 🇨🇳 www.dongtaiwang.com_83
-      - 🇨🇳 www.dongtaiwang.com_84
-      - 🇨🇳 www.dongtaiwang.com_85
-      - 🇨🇳 www.dongtaiwang.com_86
-      - 🇨🇳 www.dongtaiwang.com_87
-      - 🇨🇳 www.dongtaiwang.com_88
-      - 🇨🇳 www.dongtaiwang.com_89
-      - 🇨🇳 www.dongtaiwang.com_90
-      - 🇨🇳 www.dongtaiwang.com_91
-      - 🇨🇳 www.dongtaiwang.com_92
-      - 🇨🇳 www.dongtaiwang.com_93
-      - 🇨🇳 www.dongtaiwang.com_94
-      - 🇨🇳 www.dongtaiwang.com_95
-      - 🇨🇳 www.dongtaiwang.com_96
-      - 🇨🇳 www.dongtaiwang.com_97
-      - 🇨🇳 www.dongtaiwang.com_98
-      - 🇨🇳 www.dongtaiwang.com_99
-      - 🇨🇳 www.dongtaiwang.com_100
-      - 🇨🇳 www.dongtaiwang.com_101
-      - 🇨🇳 www.dongtaiwang.com_102
-      - 🇨🇳 www.dongtaiwang.com_103
-      - 🇨🇳 www.dongtaiwang.com_104
-      - 🇨🇳 www.dongtaiwang.com_105
-      - 🇨🇳 www.dongtaiwang.com_106
-      - 🇨🇳 www.dongtaiwang.com_107
-      - 🇨🇳 www.dongtaiwang.com_108
-      - 🇨🇳 www.dongtaiwang.com_109
-      - 🇨🇳 www.dongtaiwang.com_110
-      - 🇨🇳 www.dongtaiwang.com_111
-      - 🇨🇳 www.dongtaiwang.com_112
-      - 🇨🇳 www.dongtaiwang.com_113
-      - 🇨🇳 www.dongtaiwang.com_114
-      - 🇨🇳 www.dongtaiwang.com_115
-      - 🇨🇳 www.dongtaiwang.com_116
-      - 🇨🇳 www.dongtaiwang.com_117
-      - 🇨🇳 www.dongtaiwang.com_118
-      - 🇨🇳 www.dongtaiwang.com_119
-      - 🇨🇳 www.dongtaiwang.com_120
-      - 🇨🇳 www.dongtaiwang.com_121
-      - 🇨🇳 www.dongtaiwang.com_122
-      - 🇨🇳 www.dongtaiwang.com_123
 rules:
  - MATCH,🔰 节点选择
