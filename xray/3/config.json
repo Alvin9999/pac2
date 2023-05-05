@@ -51,39 +51,31 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.149.151.185",
+            "address": "185.199.224.231",
             "port": 443,
             "users": [
               {
-                "id": "cb26c708-2cbb-4cad-b66d-d7e39808dfad",
+                "id": "0b79f0e2-a7cb-4712-9623-f4fc1d8de910",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": "none",
-                "flow": ""
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "tcp",
         "security": "reality",
         "realitySettings": {
           "serverName": "addons.mozilla.org",
           "fingerprint": "chrome",
           "show": false,
-          "publicKey": "ipkaULYBqXoRYrNMFDayyc_kFta1POlXisjhHbzZxy4",
+          "publicKey": "uIE2YwnX1rAu3SDKAtUkfzLmFS8S5QNkIk1W8uL52yQ",
           "shortId": "",
           "spiderX": ""
-        },
-        "grpcSettings": {
-          "serviceName": "grpc",
-          "multiMode": false,
-          "idle_timeout": 60,
-          "health_check_timeout": 20,
-          "permit_without_stream": false,
-          "initial_windows_size": 0
         }
       },
       "mux": {
@@ -118,7 +110,7 @@
         "enabled": true
       },
       {
-        "id": "5587444840861797119",
+        "id": "4903912855803990739",
         "type": "field",
         "outboundTag": "direct",
         "domain": [
@@ -128,7 +120,7 @@
         "enabled": true
       },
       {
-        "id": "5466645047156114438",
+        "id": "5708028511442260423",
         "type": "field",
         "outboundTag": "block",
         "domain": [
@@ -137,7 +129,7 @@
         "enabled": true
       },
       {
-        "id": "4909868401200372767",
+        "id": "5285280340381945458",
         "type": "field",
         "outboundTag": "direct",
         "domain": [
@@ -146,7 +138,7 @@
         "enabled": true
       },
       {
-        "id": "4709450168904549883",
+        "id": "5063426339087196734",
         "type": "field",
         "outboundTag": "direct",
         "ip": [
@@ -156,7 +148,7 @@
         "enabled": true
       },
       {
-        "id": "4889619983245668820",
+        "id": "4919950405029472934",
         "type": "field",
         "port": "0-65535",
         "outboundTag": "proxy",
