@@ -5,24 +5,110 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 www.dongtaiwang.com, server: sw.tbstbstbstbs666.com, port: 18823, type: vmess, uuid: 29d5b05b-9166-3981-be60-a2561d1aa95d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sw.tbstbstbstbs666.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com 2, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm2.yxjnode.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com 3, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com 4, server: yx.timeswath.uk, port: 80, type: vmess, uuid: 947bfda6-877f-4747-8e89-da77a0eef191, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /111111111, headers: {Host: sfo.fof124.top}}}
-  - {name: 🇨🇳 www.dongtaiwang.com 5, server: sw.tbstbstbstbs666.com, port: 18812, type: vmess, uuid: 29d5b05b-9166-3981-be60-a2561d1aa95d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sw.tbstbstbstbs666.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com 6, server: sw.tbstbstbstbs666.com, port: 18820, type: vmess, uuid: 29d5b05b-9166-3981-be60-a2561d1aa95d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sw.tbstbstbstbs666.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com 7, server: sw.tbstbstbstbs666.com, port: 18839, type: vmess, uuid: 29d5b05b-9166-3981-be60-a2561d1aa95d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sw.tbstbstbstbs666.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com 8, server: sw.tbstbstbstbs666.com, port: 18829, type: vmess, uuid: 29d5b05b-9166-3981-be60-a2561d1aa95d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sw.tbstbstbstbs666.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com 9, server: tls2.fuzzyng.net, port: 443, type: vmess, uuid: ec7c94b5-6ca6-4289-b44b-c6583f2c5f6c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/fuzzyng?ed=2048", headers: {Host: dl.kgvn.garenanow.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com 10, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}}
-  - {name: 🇨🇳 www.dongtaiwang.com 11, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp2.yxjnode.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com 12, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com 13, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}}
-  - {name: 🇨🇳 www.dongtaiwang.com 14, server: 59.36.84.180, port: 63092, type: vmess, uuid: 311f3c4b-90a1-3c5c-a4fe-215cc7c90d02, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 59.36.84.180}}}
-  - {name: 🇨🇳 www.dongtaiwang.com 15, server: inf.314156.xyz, port: 80, type: vmess, uuid: 5b3b5d3f-68a1-4afe-8a9e-a55f30af98e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /workerConfig, headers: {Host: inf.314156.xyz}}}
-  - {name: 🇨🇳 www.dongtaiwang.com 16, server: a.gfw.services, port: 64739, type: ss, cipher: chacha20-ietf-poly1305, password: abc9a8de-024e-42ea-b1f3-b9ea7a85f9ed}
-  - {name: 🇨🇳 www.dongtaiwang.com 17, server: ahcm.v-too.cloud, port: 10259, type: ss, cipher: chacha20-ietf-poly1305, password: 75c9c41d-5287-4b13-abe4-c66a8c0ab9f4}
-  - {name: 🇨🇳 www.dongtaiwang.com 18, server: a.gfw.services, port: 21566, type: ss, cipher: chacha20-ietf-poly1305, password: abc9a8de-024e-42ea-b1f3-b9ea7a85f9ed}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_1, server: us3.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_2, server: th1.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_3, server: ca1.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_4, server: us1.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_5, server: ie1.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_6, server: th1.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_7, server: gb2.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_8, server: gb1.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_9, server: ca1.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_10, server: ie1.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_11, server: in1.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_12, server: fr1.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_13, server: sg6.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_14, server: sg1.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_15, server: jp2.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_16, server: us2.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_17, server: us3.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_18, server: us1.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_19, server: us4.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_20, server: sg3.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_21, server: hk11.microsoft-orgwly.vip, port: 80, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_22, server: jp1.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_23, server: hk3.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_24, server: jp12.microsoft-orgwly.vip, port: 80, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_25, server: in2.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_26, server: sg5.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_27, server: kr1.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_28, server: sg10.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_29, server: sg12.microsoft-orgwly.vip, port: 80, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_30, server: jp6.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_31, server: jp9.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_32, server: in1.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_33, server: jp11.microsoft-orgwly.vip, port: 80, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_34, server: hk2.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_35, server: hk2.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_36, server: kr4.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_37, server: jp4.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_38, server: in2.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_39, server: jp8.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_40, server: jp10.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_41, server: hk10.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_42, server: hk9.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_43, server: vn1.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_44, server: jp2.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_45, server: hk8.microsoft-orgwly.vip, port: 80, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_46, server: hk4.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_47, server: sg11.microsoft-orgwly.vip, port: 80, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_48, server: jp1.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_49, server: vn1.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_50, server: sg3.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_51, server: jp6.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_52, server: sg4.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_53, server: sg9.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_54, server: fr1.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_55, server: kr3.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_56, server: kr2.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_57, server: kr1.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_58, server: sg6.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_59, server: jp9.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_60, server: sg8.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_61, server: sg1.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_62, server: sg10.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_63, server: sg4.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_64, server: sg9.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_65, server: sg12.microsoft-orgwly.vip, port: 80, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_66, server: kr3.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_67, server: tw1.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_68, server: hk3.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_69, server: kr4.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_70, server: jp7.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_71, server: jp8.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_72, server: jp10.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_73, server: jp3.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_74, server: hk1.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_75, server: jp11.microsoft-orgwly.vip, port: 80, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_76, server: hk1.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_77, server: tw2.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_78, server: jp12.microsoft-orgwly.vip, port: 80, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_79, server: jp4.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_80, server: hk7.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_81, server: hk6.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_82, server: hk9.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_83, server: hk11.microsoft-orgwly.vip, port: 80, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_84, server: hk10.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_85, server: hk8.microsoft-orgwly.vip, port: 80, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_86, server: hk4.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_87, server: us4.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_88, server: us2.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_89, server: sg5.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_90, server: tw1.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_91, server: kr2.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_92, server: sg8.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_93, server: sg11.microsoft-orgwly.vip, port: 80, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_94, server: jp3.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_95, server: jp7.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_96, server: hk6.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_97, server: hk7.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_98, server: tw2.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_99, server: th1.microsoft-orgwly.vip, port: 443, type: trojan, password: 7d3ad95b-910a-46c2-8834-adeba9f78b45, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_100, server: tw4.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_101, server: gb1.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_102, server: tw5.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_103, server: gb2.microsoft-orgwly.vip, port: 443, type: trojan, password: d51db87b-1b4b-4dc4-a831-20892ce41354, sni: tls.microsoft-orgwly.vip}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_104, server: tw4.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -33,23 +119,109 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 www.dongtaiwang.com
-      - 🇨🇳 www.dongtaiwang.com 2
-      - 🇨🇳 www.dongtaiwang.com 3
-      - 🇨🇳 www.dongtaiwang.com 4
-      - 🇨🇳 www.dongtaiwang.com 5
-      - 🇨🇳 www.dongtaiwang.com 6
-      - 🇨🇳 www.dongtaiwang.com 7
-      - 🇨🇳 www.dongtaiwang.com 8
-      - 🇨🇳 www.dongtaiwang.com 9
-      - 🇨🇳 www.dongtaiwang.com 10
-      - 🇨🇳 www.dongtaiwang.com 11
-      - 🇨🇳 www.dongtaiwang.com 12
-      - 🇨🇳 www.dongtaiwang.com 13
-      - 🇨🇳 www.dongtaiwang.com 14
-      - 🇨🇳 www.dongtaiwang.com 15
-      - 🇨🇳 www.dongtaiwang.com 16
-      - 🇨🇳 www.dongtaiwang.com 17
-      - 🇨🇳 www.dongtaiwang.com 18
+      - https://github.com/Alvin9999/new-pac/wiki_1
+      - https://github.com/Alvin9999/new-pac/wiki_2
+      - https://github.com/Alvin9999/new-pac/wiki_3
+      - https://github.com/Alvin9999/new-pac/wiki_4
+      - https://github.com/Alvin9999/new-pac/wiki_5
+      - https://github.com/Alvin9999/new-pac/wiki_6
+      - https://github.com/Alvin9999/new-pac/wiki_7
+      - https://github.com/Alvin9999/new-pac/wiki_8
+      - https://github.com/Alvin9999/new-pac/wiki_9
+      - https://github.com/Alvin9999/new-pac/wiki_10
+      - https://github.com/Alvin9999/new-pac/wiki_11
+      - https://github.com/Alvin9999/new-pac/wiki_12
+      - https://github.com/Alvin9999/new-pac/wiki_13
+      - https://github.com/Alvin9999/new-pac/wiki_14
+      - https://github.com/Alvin9999/new-pac/wiki_15
+      - https://github.com/Alvin9999/new-pac/wiki_16
+      - https://github.com/Alvin9999/new-pac/wiki_17
+      - https://github.com/Alvin9999/new-pac/wiki_18
+      - https://github.com/Alvin9999/new-pac/wiki_19
+      - https://github.com/Alvin9999/new-pac/wiki_20
+      - https://github.com/Alvin9999/new-pac/wiki_21
+      - https://github.com/Alvin9999/new-pac/wiki_22
+      - https://github.com/Alvin9999/new-pac/wiki_23
+      - https://github.com/Alvin9999/new-pac/wiki_24
+      - https://github.com/Alvin9999/new-pac/wiki_25
+      - https://github.com/Alvin9999/new-pac/wiki_26
+      - https://github.com/Alvin9999/new-pac/wiki_27
+      - https://github.com/Alvin9999/new-pac/wiki_28
+      - https://github.com/Alvin9999/new-pac/wiki_29
+      - https://github.com/Alvin9999/new-pac/wiki_30
+      - https://github.com/Alvin9999/new-pac/wiki_31
+      - https://github.com/Alvin9999/new-pac/wiki_32
+      - https://github.com/Alvin9999/new-pac/wiki_33
+      - https://github.com/Alvin9999/new-pac/wiki_34
+      - https://github.com/Alvin9999/new-pac/wiki_35
+      - https://github.com/Alvin9999/new-pac/wiki_36
+      - https://github.com/Alvin9999/new-pac/wiki_37
+      - https://github.com/Alvin9999/new-pac/wiki_38
+      - https://github.com/Alvin9999/new-pac/wiki_39
+      - https://github.com/Alvin9999/new-pac/wiki_40
+      - https://github.com/Alvin9999/new-pac/wiki_41
+      - https://github.com/Alvin9999/new-pac/wiki_42
+      - https://github.com/Alvin9999/new-pac/wiki_43
+      - https://github.com/Alvin9999/new-pac/wiki_44
+      - https://github.com/Alvin9999/new-pac/wiki_45
+      - https://github.com/Alvin9999/new-pac/wiki_46
+      - https://github.com/Alvin9999/new-pac/wiki_47
+      - https://github.com/Alvin9999/new-pac/wiki_48
+      - https://github.com/Alvin9999/new-pac/wiki_49
+      - https://github.com/Alvin9999/new-pac/wiki_50
+      - https://github.com/Alvin9999/new-pac/wiki_51
+      - https://github.com/Alvin9999/new-pac/wiki_52
+      - https://github.com/Alvin9999/new-pac/wiki_53
+      - https://github.com/Alvin9999/new-pac/wiki_54
+      - https://github.com/Alvin9999/new-pac/wiki_55
+      - https://github.com/Alvin9999/new-pac/wiki_56
+      - https://github.com/Alvin9999/new-pac/wiki_57
+      - https://github.com/Alvin9999/new-pac/wiki_58
+      - https://github.com/Alvin9999/new-pac/wiki_59
+      - https://github.com/Alvin9999/new-pac/wiki_60
+      - https://github.com/Alvin9999/new-pac/wiki_61
+      - https://github.com/Alvin9999/new-pac/wiki_62
+      - https://github.com/Alvin9999/new-pac/wiki_63
+      - https://github.com/Alvin9999/new-pac/wiki_64
+      - https://github.com/Alvin9999/new-pac/wiki_65
+      - https://github.com/Alvin9999/new-pac/wiki_66
+      - https://github.com/Alvin9999/new-pac/wiki_67
+      - https://github.com/Alvin9999/new-pac/wiki_68
+      - https://github.com/Alvin9999/new-pac/wiki_69
+      - https://github.com/Alvin9999/new-pac/wiki_70
+      - https://github.com/Alvin9999/new-pac/wiki_71
+      - https://github.com/Alvin9999/new-pac/wiki_72
+      - https://github.com/Alvin9999/new-pac/wiki_73
+      - https://github.com/Alvin9999/new-pac/wiki_74
+      - https://github.com/Alvin9999/new-pac/wiki_75
+      - https://github.com/Alvin9999/new-pac/wiki_76
+      - https://github.com/Alvin9999/new-pac/wiki_77
+      - https://github.com/Alvin9999/new-pac/wiki_78
+      - https://github.com/Alvin9999/new-pac/wiki_79
+      - https://github.com/Alvin9999/new-pac/wiki_80
+      - https://github.com/Alvin9999/new-pac/wiki_81
+      - https://github.com/Alvin9999/new-pac/wiki_82
+      - https://github.com/Alvin9999/new-pac/wiki_83
+      - https://github.com/Alvin9999/new-pac/wiki_84
+      - https://github.com/Alvin9999/new-pac/wiki_85
+      - https://github.com/Alvin9999/new-pac/wiki_86
+      - https://github.com/Alvin9999/new-pac/wiki_87
+      - https://github.com/Alvin9999/new-pac/wiki_88
+      - https://github.com/Alvin9999/new-pac/wiki_89
+      - https://github.com/Alvin9999/new-pac/wiki_90
+      - https://github.com/Alvin9999/new-pac/wiki_91
+      - https://github.com/Alvin9999/new-pac/wiki_92
+      - https://github.com/Alvin9999/new-pac/wiki_93
+      - https://github.com/Alvin9999/new-pac/wiki_94
+      - https://github.com/Alvin9999/new-pac/wiki_95
+      - https://github.com/Alvin9999/new-pac/wiki_96
+      - https://github.com/Alvin9999/new-pac/wiki_97
+      - https://github.com/Alvin9999/new-pac/wiki_98
+      - https://github.com/Alvin9999/new-pac/wiki_99
+      - https://github.com/Alvin9999/new-pac/wiki_100
+      - https://github.com/Alvin9999/new-pac/wiki_101
+      - https://github.com/Alvin9999/new-pac/wiki_102
+      - https://github.com/Alvin9999/new-pac/wiki_103
+      - https://github.com/Alvin9999/new-pac/wiki_104
 rules:
  - MATCH,🔰 节点选择
