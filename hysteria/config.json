@@ -1,22 +1,22 @@
 {
-"server": "51.158.54.46:18325",
+"server": "51.158.54.46:49139",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
 "http": {
 "listen": "127.0.0.1:1081",
-"timeout" : 300,
+"timeout" : 250,
 "disable_udp": false
 },
 "socks5": {
 "listen": "127.0.0.1:1080",
-"timeout": 300,
+"timeout": 250,
 "disable_udp": false
 },
 "obfs": "",
 "auth_str": "dongtaiwang.com",
 "alpn": "h3",
-"server_name": "youku.com",
+"server_name": "www.paypal.com",
 "insecure": true,
 "recv_window_conn": 5767168,
 "recv_window": 23068672,
