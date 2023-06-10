@@ -22,7 +22,7 @@
     {
       "type": "shadowtls",
       "tag": "shadowtls-out",
-      "server": "167.160.91.115",
+      "server": "167.160.91.116",
       "server_port": 443,
       "tls": {
         "enabled": true,
