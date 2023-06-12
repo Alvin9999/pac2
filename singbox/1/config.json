@@ -22,11 +22,11 @@
     {
       "type": "shadowtls",
       "tag": "shadowtls-out",
-      "server": "167.160.91.116",
+      "server": "185.199.225.94",
       "server_port": 443,
       "tls": {
         "enabled": true,
-        "server_name": "www.paypal.com"
+        "server_name": "www.amazon.com"
       }
     },
     {
