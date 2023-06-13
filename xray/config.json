@@ -51,39 +51,31 @@
       "settings": {
         "vnext": [
           {
-            "address": "203.210.16.180",
+            "address": "185.199.224.231",
             "port": 443,
             "users": [
               {
-                "id": "b5e3126b-48b5-4284-a70f-c206dc40a1a0",
+                "id": "0b79f0e2-a7cb-4712-9623-f4fc1d8de910",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": "none",
-                "flow": ""
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "tcp",
         "security": "reality",
         "realitySettings": {
           "serverName": "addons.mozilla.org",
           "fingerprint": "chrome",
           "show": false,
-          "publicKey": "icd4h7DhRPtgVPyFtImYbZzjQ1QMR6orGXNQJ0zmcEw",
+          "publicKey": "uIE2YwnX1rAu3SDKAtUkfzLmFS8S5QNkIk1W8uL52yQ",
           "shortId": "",
           "spiderX": ""
-        },
-        "grpcSettings": {
-          "serviceName": "grpc",
-          "multiMode": false,
-          "idle_timeout": 60,
-          "health_check_timeout": 20,
-          "permit_without_stream": false,
-          "initial_windows_size": 0
         }
       },
       "mux": {
