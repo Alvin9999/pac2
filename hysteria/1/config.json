@@ -1,22 +1,22 @@
 {
-"server": "108.181.24.45:13150",
+"server": "167.160.91.115:13928",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
 "http": {
 "listen": "127.0.0.1:1081",
-"timeout" : 300,
+"timeout" : 250,
 "disable_udp": false
 },
 "socks5": {
 "listen": "127.0.0.1:1080",
-"timeout": 300,
+"timeout": 250,
 "disable_udp": false
 },
 "obfs": "",
-"auth_str": "BZsZtkDdcVqYq6UXqADVNLIrPIMCpBcAeYpspfJk1KJrVxgkxq",
+"auth_str": "BF0LL4L2jlqSdW3KxjQv81AiFFjj90vWRHeUoqUuTVPeDAGvq3",
 "alpn": "h3",
-"server_name": "www.amazon.com",
+"server_name": "paypal.com",
 "insecure": true,
 "recv_window_conn": 5767168,
 "recv_window": 23068672,
