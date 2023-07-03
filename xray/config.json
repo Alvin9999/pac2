@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.199.224.231",
+            "address": "185.199.225.45",
             "port": 443,
             "users": [
               {
-                "id": "0b79f0e2-a7cb-4712-9623-f4fc1d8de910",
+                "id": "7e21e906-8fc0-4597-a3ea-458d42d8b0ea",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -70,10 +70,10 @@
         "network": "tcp",
         "security": "reality",
         "realitySettings": {
-          "serverName": "addons.mozilla.org",
+          "serverName": "update.microsoft",
           "fingerprint": "chrome",
           "show": false,
-          "publicKey": "uIE2YwnX1rAu3SDKAtUkfzLmFS8S5QNkIk1W8uL52yQ",
+          "publicKey": "xyYXigWe8enzK3H5cDyjLzBY-JRKukhatZi_ekiaq3w",
           "shortId": "",
           "spiderX": ""
         }
