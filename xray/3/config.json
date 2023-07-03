@@ -1,3 +1,4 @@
+
 {
   "log": {
     "access": "",
@@ -51,11 +52,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.199.224.231",
+            "address": "166.1.18.191",
             "port": 443,
             "users": [
               {
-                "id": "0b79f0e2-a7cb-4712-9623-f4fc1d8de910",
+                "id": "f7e892a9-2bf2-47eb-ad67-e2060f1051e6",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -70,10 +71,10 @@
         "network": "tcp",
         "security": "reality",
         "realitySettings": {
-          "serverName": "addons.mozilla.org",
+          "serverName": "d1.awsstatic.com",
           "fingerprint": "chrome",
           "show": false,
-          "publicKey": "uIE2YwnX1rAu3SDKAtUkfzLmFS8S5QNkIk1W8uL52yQ",
+          "publicKey": "NciWtYa1soF85NiUzFpudo2jx3tWL8j-Q4itC6_kBjI",
           "shortId": "",
           "spiderX": ""
         }
