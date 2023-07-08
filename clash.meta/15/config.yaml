@@ -13,46 +13,46 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"洛杉矶5","type":"hysteria","server":"108.181.23.83","port":10802,"sni":"www.microsoft.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"Ryr93NBZcQneXUrlB9MX6RR414GPrsgJLHcecA9X6z0sazuHVC","up":11,"down":88}
+  - {"name":"洛杉矶1","type":"hysteria","server":"45.129.2.6","port":39381,"sni":"www.microsoft.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"4ILI5uU7ipN4abcPFe3GVhgtDJyNBgBXFhzwCSi9SvU8vCLVt5","up":11,"down":55}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 洛杉矶5
+      - 洛杉矶1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 洛杉矶5
+      - 洛杉矶1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 洛杉矶5
+      - 洛杉矶1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 洛杉矶5
+      - 洛杉矶1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 洛杉矶5
+      - 洛杉矶1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 洛杉矶5
+      - 洛杉矶1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -75,7 +75,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 洛杉矶5
+      - 洛杉矶1
 
 rules:
 # 本地/局域网地址
@@ -84,6 +84,3 @@ rules:
 # 本地/局域网地址
 # Router managed 路由器管理域名
   - MATCH,🚀 节点选择
-
-
-
