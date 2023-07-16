@@ -26,7 +26,7 @@
       "server_port": 443,
       "tls": {
         "enabled": true,
-        "server_name": "www.amazon.com"
+        "server_name": "www.microsoft.com"
       }
     },
     {
