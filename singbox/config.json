@@ -11,7 +11,7 @@
     {
       "type": "shadowsocks",
       "method": "2022-blake3-aes-128-gcm",
-      "password": "8JCsPssfgS8tiRwiMlhARg==",
+      "password": "9JCsP55fgSstiRwiMlhbRg==",
       "detour": "shadowtls-out",
       "multiplex": {
         "enabled": true,
@@ -22,7 +22,7 @@
     {
       "type": "shadowtls",
       "tag": "shadowtls-out",
-      "server": "108.181.22.213",
+      "server": "45.136.245.249",
       "server_port": 443,
       "tls": {
         "enabled": true,
