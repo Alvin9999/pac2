@@ -11,48 +11,47 @@ dns:
     - 8.8.4.4
     - tls://1.0.0.1:853
     - tls://dns.google:853
-
 proxies:
-  - {"name":"洛杉矶2","type":"hysteria","server":"108.181.18.186","port":52958,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"qyMvbDyzkIdgRnzYTmP6mLIP1zfCSRoHSNPgCro0aeT5WUPy6e","up":11,"down":55}
+  - {"name":"洛杉矶1","type":"vless","server":"166.1.18.191","port":443,"udp":true,"uuid":"f7e892a9-2bf2-47eb-ad67-e2060f1051e6","tls":true,"servername":"d1.awsstatic.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"NciWtYa1soF85NiUzFpudo2jx3tWL8j-Q4itC6_kBjI"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 洛杉矶2
+      - 洛杉矶1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 洛杉矶2
+      - 洛杉矶1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 洛杉矶2
+      - 洛杉矶1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 洛杉矶2
+      - 洛杉矶1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 洛杉矶2
+      - 洛杉矶1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 洛杉矶2
+      - 洛杉矶1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -75,7 +74,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 洛杉矶2
+      - 洛杉矶1
 
 rules:
 # 本地/局域网地址
