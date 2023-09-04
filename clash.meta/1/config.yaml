@@ -13,7 +13,7 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"洛杉矶1","type":"hysteria","server":"173.234.25.54","port":20164,"sni":"www.microsoft.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"Ljg6NNEATDqP97hdAdHe1lJv7ggtKc0h7zmCCZKCX3qY0LR64F","up":11,"down":55}
+  - {"name":"洛杉矶1","type":"hysteria","server":"173.234.25.53","port":20164,"sni":"www.microsoft.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"Ljg6NNEATDqP97hdAdHe1lJv7ggtKc0h7zmCCZKCX3qY0LR64F","up":11,"down":55}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
