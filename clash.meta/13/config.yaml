@@ -13,7 +13,7 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"洛杉矶2","type":"hysteria","server":"1.cfcdn3.xyz","port":62188,"sni":"1.cfcdn3.xyz","skip-cert-verify":true,"alpn":["h3"],"protocol":"wechat-video","auth_str":"vIgxlQ03cdvEHqDdbX1orWErMEk9kEx5DvzKFwuwmOHZaHESfz","up":11,"down":55}
+  - {"name":"洛杉矶2","type":"hysteria","server":"108.181.18.186","port":52958,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"qyMvbDyzkIdgRnzYTmP6mLIP1zfCSRoHSNPgCro0aeT5WUPy6e","up":11,"down":55}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
