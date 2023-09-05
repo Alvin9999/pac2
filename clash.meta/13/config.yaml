@@ -11,48 +11,47 @@ dns:
     - 8.8.4.4
     - tls://1.0.0.1:853
     - tls://dns.google:853
-
 proxies:
-  - {"name":"洛杉矶2","type":"hysteria","server":"108.181.18.186","port":51376,"sni":"www.bilibili.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"sRg69KllWR6lSevX7ZmFJuz1JpIljqOI4vTa7qNkORf2U4VO5y","up":11,"down":55}
+  - {"name":"洛杉矶3","type":"ssr","server":"167.160.90.252","port":20022,"password":"dongtaiwang.com","cipher":"dummy","obfs":"plain","protocol":"auth_chain_a"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 洛杉矶2
+      - 洛杉矶3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 洛杉矶2
+      - 洛杉矶3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 洛杉矶2
+      - 洛杉矶3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 洛杉矶2
+      - 洛杉矶3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 洛杉矶2
+      - 洛杉矶3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 洛杉矶2
+      - 洛杉矶3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -75,7 +74,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 洛杉矶2
+      - 洛杉矶3
 
 rules:
 # 本地/局域网地址
