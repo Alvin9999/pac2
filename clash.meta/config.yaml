@@ -12,46 +12,67 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"洛杉矶2","type":"vmess","server":"23.227.39.250","port":443,"cipher":"auto","uuid":"d8b10a16-d959-4feb-949f-b6eee2ee577a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"9.freek1.xyz","network":"ws","ws-opts":{"path":"/euryvws","headers":{"host":"9.freek1.xyz"}}}
+  - {"name":"洛杉矶1","type":"ssr","server":"108.181.18.186","port":10001,"password":"dongtaiwang.com","cipher":"dummy","obfs":"plain","protocol":"auth_chain_a"}
+  - {"name":"洛杉矶2_1","type":"ssr","server":"108.181.18.186","port":10002,"password":"dongtaiwang.com","cipher":"dummy","obfs":"plain","protocol":"auth_chain_a"}
+  - {"name":"洛杉矶2_2","type":"ssr","server":"108.181.18.186","port":10003,"password":"dongtaiwang.com","cipher":"dummy","obfs":"plain","protocol":"auth_chain_a"}
+  - {"name":"洛杉矶2_3","type":"ssr","server":"108.181.18.186","port":10004,"password":"dongtaiwang.com","cipher":"dummy","obfs":"plain","protocol":"auth_chain_a"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 洛杉矶2
+      - 洛杉矶1
+      - 洛杉矶2_1
+      - 洛杉矶2_2
+      - 洛杉矶2_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 50
+    tolerance: 5
     proxies:
-      - 洛杉矶2
+      - 洛杉矶1
+      - 洛杉矶2_1
+      - 洛杉矶2_2
+      - 洛杉矶2_3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 洛杉矶2
+      - 洛杉矶1
+      - 洛杉矶2_1
+      - 洛杉矶2_2
+      - 洛杉矶2_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 洛杉矶2
+      - 洛杉矶1
+      - 洛杉矶2_1
+      - 洛杉矶2_2
+      - 洛杉矶2_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 洛杉矶2
+      - 洛杉矶1
+      - 洛杉矶2_1
+      - 洛杉矶2_2
+      - 洛杉矶2_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 洛杉矶2
+      - 洛杉矶1
+      - 洛杉矶2_1
+      - 洛杉矶2_2
+      - 洛杉矶2_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,7 +95,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 洛杉矶2
+      - 洛杉矶1
+      - 洛杉矶2_1
+      - 洛杉矶2_2
+      - 洛杉矶2_3
 
 rules:
 # 本地/局域网地址
