@@ -1,22 +1,22 @@
 {
-"server": "108.181.24.45:45705",
-"protocol": "wechat-video",
+"server": "173.234.25.52:20164",
+"protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
 "http": {
 "listen": "127.0.0.1:1081",
-"timeout" : 220,
+"timeout" : 250,
 "disable_udp": false
 },
 "socks5": {
 "listen": "127.0.0.1:1080",
-"timeout": 220,
+"timeout": 250,
 "disable_udp": false
 },
 "obfs": "",
-"auth_str": "s9gPEwSmIg2wkTi28kz7zHWaE1FSMs2RtI0doiIJXMPi274FJB",
+"auth_str": "Ljg6NNEATDqP97hdAdHe1lJv7ggtKc0h7zmCCZKCX3qY0LR64F",
 "alpn": "h3",
-"server_name": "wechat.com",
+"server_name": "www.microsoft.com",
 "insecure": true,
 "recv_window_conn": 5767168,
 "recv_window": 23068672,
