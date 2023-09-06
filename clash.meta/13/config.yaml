@@ -12,46 +12,47 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"洛杉矶3","type":"hysteria","server":"45.136.245.126","port":30154,"sni":"hostloc.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"MAcCQ72ofBxgNgbPEhbFUEFCIAgWtbapnSLb1WvbDN2K118EU8","up":11,"down":55}
+  - {"name":"洛杉矶2","type":"tuic","server":"x2.freek1.xyz","port":10220,"udp":true,"uuid":"385f79b4-4a4c-426c-b664-849f8d722525","password":385f79b4-4a4c-426c-b664-849f8d722525,"alpn":["h3"],"disable-sni":true,"reduce-rtt":true,"udp-relay-mode":native,"congestion-controller":"bbr"}
+
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 洛杉矶3
+      - 洛杉矶2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 洛杉矶3
+      - 洛杉矶2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 洛杉矶3
+      - 洛杉矶2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 洛杉矶3
+      - 洛杉矶2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 洛杉矶3
+      - 洛杉矶2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 洛杉矶3
+      - 洛杉矶2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,7 +75,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 洛杉矶3
+      - 洛杉矶2
 
 rules:
 # 本地/局域网地址
@@ -83,3 +84,4 @@ rules:
 # 本地/局域网地址
 # Router managed 路由器管理域名
   - MATCH,🚀 节点选择
+
