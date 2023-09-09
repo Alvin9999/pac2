@@ -12,7 +12,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"洛杉矶2","type":"hysteria","server":"108.181.22.130","port":44056,47000-48000,"sni":"qq.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"mWpUGqLT60IOf9A4Aqi59yqUvacoAoE1yAtPBg71E6ze4KnBau","up":11,"down":55,"hop_interval":30}
+  - {"name":"洛杉矶2","type":"hysteria","server":"108.181.22.130","port":44056,47000-48000,"sni":"qq.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"mWpUGqLT60IOf9A4Aqi59yqUvacoAoE1yAtPBg71E6ze4KnBau","up":11,"down":55,"hop_interval":10}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
