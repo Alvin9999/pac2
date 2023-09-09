@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "108.181.22.142",
-            "port": 443,
+            "address": "173.234.25.51",
+            "port": 29295,
             "users": [
               {
-                "id": "63348f14-b4fb-4c9f-b087-a1f458283c9f",
+                "id": "9e2626df-3467-4393-9f7c-aaca6fe4336c",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -70,10 +70,10 @@
         "network": "tcp",
         "security": "reality",
         "realitySettings": {
-          "serverName": "swcdn.apple.com",
+          "serverName": "m.media-amazon.com",
           "fingerprint": "chrome",
           "show": false,
-          "publicKey": "qPWdelx7FdWFEHZY0plfhYG_4CVoTgxFVH-EZe1kjhY",
+          "publicKey": "LN86WNkTPKjU0rSHPg1X7TGZy1ba9vGwnt_MukdZOB8",
           "shortId": "",
           "spiderX": ""
         }
