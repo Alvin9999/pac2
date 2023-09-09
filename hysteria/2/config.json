@@ -1,20 +1,20 @@
 {
-"server": "173.234.25.52:20164",
+"server": "166.1.18.191:16542,21000-22000",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
 "http": {
 "listen": "127.0.0.1:1081",
-"timeout" : 250,
+"timeout" : 300,
 "disable_udp": false
 },
 "socks5": {
 "listen": "127.0.0.1:1080",
-"timeout": 250,
+"timeout": 300,
 "disable_udp": false
 },
 "obfs": "",
-"auth_str": "Ljg6NNEATDqP97hdAdHe1lJv7ggtKc0h7zmCCZKCX3qY0LR64F",
+"auth_str": "PidedzMQ9WgikepaWKUdAaC2hLDFqxK5z1Aw19dxAluufRwpll",
 "alpn": "h3",
 "server_name": "www.microsoft.com",
 "insecure": true,
@@ -28,5 +28,5 @@
 "handshake_timeout": 15,
 "idle_timeout": 30,
 "fast_open": true,
-"hop_interval": 120
+"hop_interval": 10
 }
