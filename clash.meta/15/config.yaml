@@ -77,9 +77,4 @@ proxy-groups:
       - 洛杉矶5
 
 rules:
-# 本地/局域网地址
-# 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
-# ACL4SSR标志 如没有，代表不是用ACL4SSR规则
-# 本地/局域网地址
-# Router managed 路由器管理域名
   - MATCH,🚀 节点选择
