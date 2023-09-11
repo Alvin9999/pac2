@@ -12,7 +12,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"洛杉矶4","type":"vless","server":"45.145.72.227","port":16011,"udp":true,"uuid":"c891d2dd-352d-4e38-aec5-0cb454c12715","tls":true,"servername":"one-piece.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"xR3BwG1BWGWuRlHf8n3M1HPQeEV0FxATWuURzfCLkyE"},"client-fingerprint":"chrome"}
+  - {"name":"洛杉矶4","type":"vless","server":"166.1.18.191","port":443,"udp":true,"uuid":"f7e892a9-2bf2-47eb-ad67-e2060f1051e6","tls":true,"servername":"d1.awsstatic.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"NciWtYa1soF85NiUzFpudo2jx3tWL8j-Q4itC6_kBjI"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -77,9 +77,4 @@ proxy-groups:
       - 洛杉矶4
 
 rules:
-# 本地/局域网地址
-# 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
-# ACL4SSR标志 如没有，代表不是用ACL4SSR规则
-# 本地/局域网地址
-# Router managed 路由器管理域名
   - MATCH,🚀 节点选择
