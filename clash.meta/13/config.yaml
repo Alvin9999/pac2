@@ -12,7 +12,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"洛杉矶3","type":"tuic","server":"x1.cfcdn3.xyz","port":52389,"udp":true,"uuid":"d9bc1fa7-30fa-4a25-b8a4-e0fab2ddcf15","password":d9bc1fa7-30fa-4a25-b8a4-e0fab2ddcf15,"alpn":["h3"],"disable-sni":true,"reduce-rtt":true,"udp-relay-mode":native,"congestion-controller":"bbr"}
+  - {"name":"洛杉矶3","type":"hysteria","server":"108.181.18.188","port":51980,15000-16000,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"155RG0Zj3DU0mYJh1MbzNVucrUu7pvEwLnVov0C7PWmEXkqAsW","up":11,"down":55,"hop_interval":10}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -83,3 +83,4 @@ rules:
 # 本地/局域网地址
 # Router managed 路由器管理域名
   - MATCH,🚀 节点选择
+
