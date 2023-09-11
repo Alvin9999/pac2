@@ -12,7 +12,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"洛杉矶6","type":"tuic","server":"x3.freek1.xyz","port":54582,"udp":true,"uuid":"088a6c3b-a555-4117-bfa1-2efd7ef0180e","password":088a6c3b-a555-4117-bfa1-2efd7ef0180e,"alpn":["h3"],"disable-sni":true,"reduce-rtt":true,"udp-relay-mode":native,"congestion-controller":"bbr"}
+  - {"name":"洛杉矶6","type":"hysteria","server":"108.181.18.189","port":51980,15000-16000,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"155RG0Zj3DU0mYJh1MbzNVucrUu7pvEwLnVov0C7PWmEXkqAsW","up":11,"down":55,"hop_interval":10}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
