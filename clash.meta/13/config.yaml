@@ -12,7 +12,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"洛杉矶3","type":"vless","server":"108.181.18.189","port":443,"udp":true,"uuid":"cb26c708-2cbb-4cad-b66d-d7e39808dfad","tls":true,"servername":"addons.mozilla.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"ipkaULYBqXoRYrNMFDayyc_kFta1POlXisjhHbzZxy4"},"client-fingerprint":"chrome"}
+  - {"name":"洛杉矶3","type":"vless","server":"45.145.72.226","port":15579,"udp":true,"uuid":"4ceda034-aa43-4df6-9f66-9917df25102e","tls":true,"servername":"gateway.icloud.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"QfXEIkUSMzZ1yaotl-BvjPP9iAkv38p3rH_eT8DnjAs"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
