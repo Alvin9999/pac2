@@ -12,7 +12,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"洛杉矶2","type":"vless","server":"108.181.22.130","port":17680,"udp":true,"uuid":"d606dfe0-267e-424f-8e0b-5dfdfbf7bc2d","tls":true,"servername":"download-installer.cdn.mozilla.net","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"1u8wDSgys6gX-4qWVC9bJsRZUJk6M--SNDqgI4lIUgY"},"client-fingerprint":"chrome"}
+  - {"name":"洛杉矶2","type":"vless","server":"108.181.22.130","port":17768,"udp":true,"uuid":"ddf498c9-9ded-4f04-8f8c-22737e13f18a","tls":true,"servername":"www.lovelive-anime.jp","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"yQ6_r7lGEwNA20d4wdcMtbll75rH3Hv7W74Nn_503Cs"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
