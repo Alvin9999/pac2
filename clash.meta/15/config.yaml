@@ -12,46 +12,46 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"洛杉矶5","type":"vless","server":"185.22.153.124","port":34562,"udp":true,"uuid":"1aebdc19-0794-40c8-98fd-ed4eb69aa596","tls":true,"servername":"itunes.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"DL3tRdvx41PM2ia5va65Arz9iadqDgF9DXbfpuYa-Qc"},"client-fingerprint":"chrome"}
+  - {"name":"洛杉矶3","type":"hysteria","server":"185.22.153.124","port":27688,47000-48000,"sni":"youku.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"YL7nbqD0HgBiVBGGXgxFp5eJbPYvgz0NfaERCZa95sRKWDz4cA","up":11,"down":55,"hop_interval":10}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 洛杉矶5
+      - 洛杉矶3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 洛杉矶5
+      - 洛杉矶3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 洛杉矶5
+      - 洛杉矶3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 洛杉矶5
+      - 洛杉矶3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 洛杉矶5
+      - 洛杉矶3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 洛杉矶5
+      - 洛杉矶3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,7 +74,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 洛杉矶5
+      - 洛杉矶3
 
 rules:
   - MATCH,🚀 节点选择
