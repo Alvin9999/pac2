@@ -12,7 +12,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"洛杉矶6","type":"vless","server":"108.181.22.139","port":10982,"udp":true,"uuid":"3f4c685d-23c8-4236-8c72-598f36c89930","tls":true,"servername":"www.nokia.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"S6ycbWYBM6WB-5SzRQSwVTFHF6v4BUHQf0Rus5B7KG0"},"client-fingerprint":"chrome"}
+  - {"name":"洛杉矶6","type":"hysteria","server":"108.181.22.139","port":40527,10000-20000,"sni":"baidu.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"GBfoCSHkcq55vZV3bakcVY51Y4jtfbHHikM037OkS8T2Z2Qtqb","up":11,"down":55,"hop_interval":10}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
