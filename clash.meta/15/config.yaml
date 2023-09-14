@@ -12,7 +12,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"洛杉矶1","type":"hysteria","server":"trojan.dtku48.xyz","port":56936,"sni":"trojan.dtku48.xyz","skip-cert-verify":false,"alpn":["h3"],"protocol":"udp","auth_str":"26ZIfV65doPCa1QnoQk3fode2ab8mj16IWjmYcgPSVOA0MEmyM","up":11,"down":55}
+  - {"name":"洛杉矶1","type":"ssr","server":"108.181.18.187","port":11111,"password":"dongtaiwang.com","cipher":"dummy","obfs":"http_simple","protocol":"auth_chain_a"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
