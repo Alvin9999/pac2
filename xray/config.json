@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.140.168.221",
-            "port": 443,
+            "address": "108.181.22.140",
+            "port": 23694,
             "users": [
               {
-                "id": "40ccefc6-35da-4e64-8a60-7c98671debb7",
+                "id": "024fcb50-d42c-47b4-8662-329e7b50b748",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -70,10 +70,10 @@
         "network": "tcp",
         "security": "reality",
         "realitySettings": {
-          "serverName": "d1.awsstatic.com",
+          "serverName": "mensura.cdn-apple.com",
           "fingerprint": "chrome",
           "show": false,
-          "publicKey": "9UVYudHsbabswlvOuDRMweSC31_qhToDx4_QDIf-oGk",
+          "publicKey": "Pjgg-A89G4QbXUjFhoNCOyUxR-jcvnn64lSo1XYZqnE",
           "shortId": "",
           "spiderX": ""
         }
