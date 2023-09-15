@@ -12,7 +12,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"metaip1","type":"hysteria","server":"108.181.22.131","port":32296,34500-34600,"sni":"qq.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"VZENlctKGivNmryU7Rb4spM8gBf7snyrA1NLfLHeM9roGWaEgS","up":2,"down":10,"hop_interval":600}
+  - {"name":"metaip1","type":"hysteria","server":"108.181.22.131","port":32296,34500-34600,"sni":"qq.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"VZENlctKGivNmryU7Rb4spM8gBf7snyrA1NLfLHeM9roGWaEgS","up":2,"down":8,"hop_interval":600}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
