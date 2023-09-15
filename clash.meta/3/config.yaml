@@ -12,7 +12,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"洛杉矶4","type":"ssr","server":"www.dtku50.xyz","port":30033,"password":"dongtaiwang.com","cipher":"none","obfs":"random_head","protocol":"auth_chain_b"}
+  - {"name":"洛杉矶4","type":"vless","server":"www.dtku50.xyz","port":12282,"udp":true,"uuid":"0d4b1986-5258-4c4f-8578-555fafffa761","tls":true,"servername":"player.live-video.net","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"YP9Bsfjub0ziDCQVIFunSyL3CATmR8TbrYC_enJDqGU"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
