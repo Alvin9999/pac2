@@ -22,7 +22,7 @@
     {
       "type": "shadowtls",
       "tag": "shadowtls-out",
-      "server": "108.181.22.213",
+      "server": "www.dtku50.xyz",
       "server_port": 443,
       "tls": {
         "enabled": true,
@@ -52,3 +52,4 @@
     ]
   }
 }
+
