@@ -1,6 +1,6 @@
 {
-  "server": "167.160.90.252:60930",
-  "auth": "fc4488ef",
+  "server": "www.dtku48.xyz:50411",
+  "auth": "abab0600",
   "tls": {
     "sni": "www.bing.com",
     "insecure": true
@@ -11,7 +11,7 @@
     "initConnReceiveWindow": 33554432,
     "maxConnReceiveWindow": 33554432
   },
-    "fastOpen": true,
+  "fastOpen": true,
   "socks5": {
     "listen": "127.0.0.1:1080"
   },
