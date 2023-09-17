@@ -12,46 +12,46 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"metaip5","type":"hysteria","server":"www.dtku48.xyz","port":31402,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"9rmR3Uln01JZj5Ejx9ktzyflVXYGp3QItQlz5c9uOUYMaxoMxV","up":2,"down":10}
+  - {"name":"metaip6","type":"tuic","server":"tuic1.cfcdn3.xyz","port":65016,"udp":true,"uuid":"157c060e-7289-4fed-9154-00636029e064","password":157c060e-7289-4fed-9154-00636029e064,"alpn":["h3"],"disable-sni":true,"reduce-rtt":true,"udp-relay-mode":native,"congestion-controller":"bbr"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - metaip5
+      - metaip6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - metaip5
+      - metaip6
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - metaip5
+      - metaip6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - metaip5
+      - metaip6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - metaip5
+      - metaip6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - metaip5
+      - metaip6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,7 +74,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - metaip5
+      - metaip6
 
 rules:
   - MATCH,🚀 节点选择
