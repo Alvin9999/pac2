@@ -1,3 +1,4 @@
+
 mixed-port: 7890
 allow-lan: false
 log-level: info
@@ -12,46 +13,46 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"metaip4","type":"ss","server":"www.dtku48.xyz","port":20022,"password":"KIa7yLRa7XqlbKRh5tL11A==","cipher":"aes-128-gcm"}
+  - {"name":"metaip2","type":"vless","server":"www.dtku49.xyz","port":18113,"udp":true,"uuid":"1a66f4f9-00b8-460e-b02e-17b2eaa9eae5","tls":true,"servername":"s0.awsstatic.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"tCyy6NnNNay5yqWTaotWm53q-STtoHdBpjqH9OxXOmE"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - metaip4
+      - metaip2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - metaip4
+      - metaip2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - metaip4
+      - metaip2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - metaip4
+      - metaip2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - metaip4
+      - metaip2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - metaip4
+      - metaip2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,8 +75,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - metaip4
+      - metaip2
 
 rules:
   - MATCH,🚀 节点选择
-
