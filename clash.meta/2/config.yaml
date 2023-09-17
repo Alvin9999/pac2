@@ -1,3 +1,5 @@
+
+
 mixed-port: 7890
 allow-lan: false
 log-level: info
@@ -12,7 +14,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"metaip4","type":"ss","server":"61.227.215.213","port":33333,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
+  - {"name":"metaip4","type":"ssr","server":"www.dtku49.xyz","port":11111,"password":"dongtaiwang.com","cipher":"dummy","obfs":"plain","protocol":"auth_chain_a"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -78,4 +80,3 @@ proxy-groups:
 
 rules:
   - MATCH,🚀 节点选择
-
