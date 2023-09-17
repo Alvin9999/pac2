@@ -12,7 +12,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"metaip3","type":"ss","server":"www.dtku50.xyz","port":40044,"password":"GigZ8tAuRg0OwkOWREohsE4gC/n2AqPsHrOsWR4GKfY=","cipher":"aes-256-gcm"}
+  - {"name":"metaip3","type":"vless","server":"www.dtku50.xyz","port":20055,"udp":true,"uuid":"1630fbac-241f-4bc1-a28b-f32c79104c67","tls":true,"servername":"updates.cdn-apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"2AHqzptm5IQJ3Tgpiwz0Hu4HSboguKVIZl4BCY0DGGI"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
