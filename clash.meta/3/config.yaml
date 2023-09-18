@@ -12,46 +12,46 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"metaip6","type":"tuic","server":"tuic1.cfcdn3.xyz","port":65016,"udp":true,"uuid":"157c060e-7289-4fed-9154-00636029e064","password":157c060e-7289-4fed-9154-00636029e064,"alpn":["h3"],"disable-sni":true,"reduce-rtt":true,"udp-relay-mode":native,"congestion-controller":"bbr"}
+  - {"name":"ip1","type":"vless","server":"108.181.22.130","port":19011,"udp":true,"uuid":"5ee73951-3411-4ebb-b1d2-456a1c376dbd","tls":true,"servername":"addons.mozilla.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"B-S59zqB3X0BXgmxJud3GgAwOp3DiSJ-W3Pt2gco2zY"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - metaip6
+      - ip1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - metaip6
+      - ip1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - metaip6
+      - ip1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - metaip6
+      - ip1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - metaip6
+      - ip1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - metaip6
+      - ip1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,7 +74,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - metaip6
+      - ip1
 
 rules:
   - MATCH,🚀 节点选择
