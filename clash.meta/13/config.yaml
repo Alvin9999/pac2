@@ -12,7 +12,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"ip","type":"hysteria","server":"108.181.22.132","port":53352,12000-13000,"sni":"brave.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"LjkWEh76iGmvmECQoT6N1CFflDogah4gcYTQZuAeSN2HNUsjRN","up":11,"down":55,"hop_interval":150}
+  - {"name":"ip","type":"vless","server":"64.110.26.218","port":27337,"udp":true,"uuid":"a972b075-44bd-486b-9733-1510946de4d0","tls":true,"servername":"mensura.cdn-apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"8Ox_1_YEj1XIRmCX1XSK08-N3euq_gwbOccyJXHC8RM"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
