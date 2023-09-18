@@ -12,46 +12,46 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"quick_ip2","type":"vless","server":"www.dtku49.xyz","port":21610,"udp":true,"uuid":"6e6204a7-79e4-4904-8ede-f15f6343b832","tls":true,"servername":"swdist.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"JY3VCTvY-droHRjgfdSGu9oU_F-il82LrTClI7oWWh4"},"client-fingerprint":"chrome"}
+  - {"name":"quick_ip","type":"ss","server":"www.dtku49.xyz","port":10088,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - quick_ip2
+      - quick_ip
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - quick_ip2
+      - quick_ip
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - quick_ip2
+      - quick_ip
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - quick_ip2
+      - quick_ip
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - quick_ip2
+      - quick_ip
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - quick_ip2
+      - quick_ip
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,7 +74,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - quick_ip2
+      - quick_ip
 
 rules:
   - MATCH,🚀 节点选择
+
