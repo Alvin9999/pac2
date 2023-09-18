@@ -12,7 +12,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"ip","type":"hysteria","server":"108.181.22.132","port":41114,"sni":"mirrors.oit.uci.edu","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"cDdE7RAChMPK09Sthz6QOC08JVvLCkNZXim3j1AljLe6HWNMkD","up":1,"down":4}
+  - {"name":"ip","type":"vless","server":"108.181.22.132","port":20397,"udp":true,"uuid":"bd820dc9-be97-44ea-91e2-e95aeff0a13f","tls":true,"servername":"swdist.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"3VV2JfX6nC4POM8ciU-fi71lI5qdSqP6CNPwJOwBbA8"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
