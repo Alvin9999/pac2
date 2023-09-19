@@ -12,7 +12,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"ip","type":"vless","server":"www.dtku49.xyz","port":26932,"udp":true,"uuid":"debc577a-b790-4ee9-b1d1-16cc21719c51","tls":true,"servername":"player.live-video.net","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"t-ymTkJZPMheRrHEDHNALpbYI-cGDhC5H-qTVdjtHXI"},"client-fingerprint":"chrome"}
+  - {"name":"ip","type":"vmess","server":"dongtaiwang3.com","port":8880,"cipher":"auto","uuid":"208d8c18-4f63-4013-bd67-a39f62301132","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/YGhTwaEU/","headers":{"host":"cf1.freeh1.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
