@@ -47,35 +47,30 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "108.181.22.141",
-            "port": 23694,
+            "address": "dongtaiwang2.com",
+            "port": 8880,
             "users": [
               {
-                "id": "024fcb50-d42c-47b4-8662-329e7b50b748",
+                "id": "dbbb54c3-82c4-4949-b23c-44be748902e5",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "security": "auto"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "mensura.cdn-apple.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "Pjgg-A89G4QbXUjFhoNCOyUxR-jcvnn64lSo1XYZqnE",
-          "shortId": "",
-          "spiderX": ""
+        "network": "ws",
+        "wsSettings": {
+          "path": "/vS7D1rRP/",
+          "headers": {
+            "Host": "cf3.freek1.xyz"
+          }
         }
       },
       "mux": {
