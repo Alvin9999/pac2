@@ -47,30 +47,35 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "v4.cfnode.eu.org",
-            "port": 8880,
+            "address": "108.181.22.140",
+            "port": 23694,
             "users": [
               {
-                "id": "dbbb54c3-82c4-4949-b23c-44be748902e5",
+                "id": "024fcb50-d42c-47b4-8662-329e7b50b748",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/vS7D1rRP/",
-          "headers": {
-            "Host": "cf3.freek1.xyz"
-          }
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "mensura.cdn-apple.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "Pjgg-A89G4QbXUjFhoNCOyUxR-jcvnn64lSo1XYZqnE",
+          "shortId": "",
+          "spiderX": ""
         }
       },
       "mux": {
