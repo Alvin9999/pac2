@@ -12,7 +12,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"quick_ip","type":"ss","server":"www.dtku49.xyz","port":10088,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
+  - {"name":"quick_ip","type":"vless","server":"www.dtku49.xyz","port":18514,"udp":true,"uuid":"69521861-80c5-4bc9-aaf1-aaaac63a1ca2","tls":true,"servername":"mensura.cdn-apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"0O8GlvlpcXl40QMMtnB87rnntF0VOcxyYjBFF5C-TGo"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -78,4 +78,5 @@ proxy-groups:
 
 rules:
   - MATCH,🚀 节点选择
+
 
