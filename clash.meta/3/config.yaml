@@ -12,7 +12,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"ip","type":"vmess","server":"v4.cfnode.eu.org","port":443,"cipher":"auto","uuid":"d70c4505-c9d7-44c4-a1ff-98a0bc7ebdd3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"d.freeh1.xyz"}}}
+  - {"name":"ip","type":"vmess","server":"www.dongtaiwang2.com","port":2095,"cipher":"auto","uuid":"4cc11ff7-c8a4-421e-b9c1-90304d43a6bc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/eB1AkM2N/","headers":{"host":"cf6.freek1.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -78,3 +78,4 @@ proxy-groups:
 
 rules:
   - MATCH,🚀 节点选择
+
