@@ -51,35 +51,31 @@
       "settings": {
         "vnext": [
           {
-            "address": "v4.cfnode.eu.org",
-            "port": 443,
+            "address": "www.dtku49.xyz",
+            "port": 25401,
             "users": [
               {
-                "id": "f5c180eb-fbce-49ac-9029-482eca9385c0",
+                "id": "0a4b070f-a5fb-4f06-ae61-c0e6cbdbd3c4",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": "none",
-                "flow": ""
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "xray1.freeh1.xyz",
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "player.live-video.net",
           "fingerprint": "chrome",
-          "show": false
-        },
-        "wsSettings": {
-          "path": "/gzogws",
-          "headers": {
-            "Host": "xray1.freeh1.xyz"
-          }
+          "show": false,
+          "publicKey": "TmhOdLMEQFvViSQ3Vcu2ag-DN8s3TH8uuOFQIb0EJlk",
+          "shortId": "6ba85179e30d4fc2",
+          "spiderX": ""
         }
       },
       "mux": {
