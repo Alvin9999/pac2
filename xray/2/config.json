@@ -47,18 +47,20 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
             "address": "download.yunzhongzhuan.com",
-            "port": 8880,
+            "port": 443,
             "users": [
               {
-                "id": "dbbb54c3-82c4-4949-b23c-44be748902e5",
+                "id": "f5c180eb-fbce-49ac-9029-482eca9385c0",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "auto",
+                "encryption": "none",
+                "flow": ""
               }
             ]
           }
@@ -66,10 +68,17 @@
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "xray1.freeh1.xyz",
+          "fingerprint": "chrome",
+          "show": false
+        },
         "wsSettings": {
-          "path": "/vS7D1rRP/",
+          "path": "/gzogws",
           "headers": {
-            "Host": "cf3.freek1.xyz"
+            "Host": "xray1.freeh1.xyz"
           }
         }
       },
