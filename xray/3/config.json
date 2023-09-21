@@ -47,44 +47,21 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
             "address": "www.dtku49.xyz",
-            "port": 25401,
-            "users": [
-              {
-                "id": "0a4b070f-a5fb-4f06-ae61-c0e6cbdbd3c4",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
-              }
-            ]
+            "method": "2022-blake3-aes-256-gcm",
+            "ota": false,
+            "password": "c6WFCUqSAe/otYPfVUve3lK6LIjyge3A+s9GST7QQ+c=",
+            "port": 10382,
+            "level": 1
           }
         ]
       },
       "streamSettings": {
-        "network": "grpc",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "player.live-video.net",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "TmhOdLMEQFvViSQ3Vcu2ag-DN8s3TH8uuOFQIb0EJlk",
-          "shortId": "6ba85179e30d4fc2",
-          "spiderX": ""
-        },
-        "grpcSettings": {
-          "serviceName": "grpc",
-          "multiMode": false,
-          "idle_timeout": 60,
-          "health_check_timeout": 20,
-          "permit_without_stream": false,
-          "initial_windows_size": 0
-        }
+        "network": "tcp"
       },
       "mux": {
         "enabled": false,
