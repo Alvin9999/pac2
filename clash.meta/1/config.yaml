@@ -12,7 +12,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"ip","type":"vmess","server":"v4.cfnode.eu.org","port":8880,"cipher":"auto","uuid":"0dc3ae8c-43d4-4a19-97d3-e78ff2e2fdab","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/OFR9SgW0/","headers":{"host":"4.dtku47.xyz"}}}
+  - {"name":"ip","type":"vmess","server":"v4.cfnode.eu.org","port":8880,"cipher":"auto","uuid":"0dc3ae8c-43d4-4a19-97d3-e78ff2e2fdab","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/OFR9SgW0/","headers":{"host":"6.dtku47.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
