@@ -12,46 +12,46 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"quick_ip3","type":"hysteria","server":"www.dtku50.xyz","port":43250,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"2S9M5Gs0pgRsaTObNghoLZx6wPkBJOGTFWvf4R06Us5hUNtfr7","up":2,"down":10}
+  - {"name":"quick_ip","type":"vless","server":"www.dtku49.xyz","port":25401,"udp":true,"uuid":"0a4b070f-a5fb-4f06-ae61-c0e6cbdbd3c4","tls":true,"servername":"player.live-video.net","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"TmhOdLMEQFvViSQ3Vcu2ag-DN8s3TH8uuOFQIb0EJlk","short-id":"6ba85179e30d4fc2"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - quick_ip3
+      - quick_ip
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - quick_ip3
+      - quick_ip
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - quick_ip3
+      - quick_ip
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - quick_ip3
+      - quick_ip
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - quick_ip3
+      - quick_ip
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - quick_ip3
+      - quick_ip
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,7 +74,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - quick_ip3
+      - quick_ip
 
 rules:
   - MATCH,🚀 节点选择
+
