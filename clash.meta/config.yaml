@@ -12,7 +12,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"ip","type":"vmess","server":"dongtaiwang2.com","port":8880,"cipher":"auto","uuid":"0dc3ae8c-43d4-4a19-97d3-e78ff2e2fdab","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/OFR9SgW0/","headers":{"host":"7.dtku47.xyz"}}}
+  - {"name":"ip","type":"ssr","server":"108.181.22.133","port":30001,"password":"dongtaiwang.com","cipher":"dummy","obfs":"plain","protocol":"auth_chain_a"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
