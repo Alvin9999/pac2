@@ -12,7 +12,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"ip","type":"vless","server":"v4.cfnode.eu.org","port":443,"uuid":"6bd2d2f3-ac76-4a48-93c0-8e58154a03d9","tls":true,"servername":"cf108.freek1.xyz","network":"ws","ws-opts":{"path":"/xjefws","headers":{"host":"cf108.freek1.xyz"}},"client-fingerprint":"chrome"}
+  - {"name":"ip","type":"ssr","server":"108.181.22.133","port":30001,"password":"dongtaiwang.com","cipher":"dummy","obfs":"plain","protocol":"auth_chain_a"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -78,4 +78,3 @@ proxy-groups:
 
 rules:
   - MATCH,🚀 节点选择
-
