@@ -1,6 +1,7 @@
+
 {
-  "server": "167.160.90.252:60930",
-  "auth": "fc4488ef",
+  "server": "108.181.22.155:48152",
+  "auth": "8eb5dcd9",
   "tls": {
     "sni": "www.bing.com",
     "insecure": true
@@ -11,7 +12,7 @@
     "initConnReceiveWindow": 33554432,
     "maxConnReceiveWindow": 33554432
   },
-    "fastOpen": true,
+  "fastOpen": true,
   "socks5": {
     "listen": "127.0.0.1:1080"
   },
@@ -21,4 +22,3 @@
     }
   }
 }
-
