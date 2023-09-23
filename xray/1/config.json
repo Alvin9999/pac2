@@ -47,36 +47,21 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "108.181.22.140",
-            "port": 23694,
-            "users": [
-              {
-                "id": "024fcb50-d42c-47b4-8662-329e7b50b748",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
+            "address": "45.145.72.139",
+            "method": "2022-blake3-chacha20-poly1305",
+            "ota": false,
+            "password": "cLx2LnkqgE8HgI4GDsRvBm1Q10QtuC1sl4HltvhLhLg=",
+            "port": 12213,
+            "level": 1
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "mensura.cdn-apple.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "Pjgg-A89G4QbXUjFhoNCOyUxR-jcvnn64lSo1XYZqnE",
-          "shortId": "",
-          "spiderX": ""
-        }
+        "network": "tcp"
       },
       "mux": {
         "enabled": false,
