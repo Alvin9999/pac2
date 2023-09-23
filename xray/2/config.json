@@ -51,35 +51,31 @@
       "settings": {
         "vnext": [
           {
-            "address": "download.yunzhongzhuan.com",
-            "port": 443,
+            "address": "108.181.22.140",
+            "port": 23694,
             "users": [
               {
-                "id": "f5c180eb-fbce-49ac-9029-482eca9385c0",
+                "id": "024fcb50-d42c-47b4-8662-329e7b50b748",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": "none",
-                "flow": ""
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "xray1.freeh1.xyz",
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "mensura.cdn-apple.com",
           "fingerprint": "chrome",
-          "show": false
-        },
-        "wsSettings": {
-          "path": "/gzogws",
-          "headers": {
-            "Host": "xray1.freeh1.xyz"
-          }
+          "show": false,
+          "publicKey": "Pjgg-A89G4QbXUjFhoNCOyUxR-jcvnn64lSo1XYZqnE",
+          "shortId": "",
+          "spiderX": ""
         }
       },
       "mux": {
