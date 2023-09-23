@@ -1,6 +1,7 @@
+
 {
-  "server": "www.dtku48.xyz:50411",
-  "auth": "abab0600",
+  "server": "www2.dtku49.xyz:54406",
+  "auth": "ebcbb37b",
   "tls": {
     "sni": "www.bing.com",
     "insecure": true
