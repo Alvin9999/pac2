@@ -51,11 +51,11 @@
       "settings": {
         "servers": [
           {
-            "address": "45.145.72.139",
-            "method": "2022-blake3-chacha20-poly1305",
+            "address": "www.dtku49.xyz",
+            "method": "2022-blake3-aes-256-gcm",
             "ota": false,
-            "password": "cLx2LnkqgE8HgI4GDsRvBm1Q10QtuC1sl4HltvhLhLg=",
-            "port": 12213,
+            "password": "c6WFCUqSAe/otYPfVUve3lK6LIjyge3A+s9GST7QQ+c=",
+            "port": 10382,
             "level": 1
           }
         ]
@@ -142,3 +142,4 @@
     ]
   }
 }
+
