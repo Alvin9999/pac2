@@ -1,3 +1,4 @@
+secret: dongtaiwang.com
 mixed-port: 7890
 allow-lan: false
 log-level: info
@@ -12,46 +13,46 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"quick_ip","type":"ss","server":"www.dtku49.xyz","port":10382,"password":"c6WFCUqSAe/otYPfVUve3lK6LIjyge3A+s9GST7QQ+c=","cipher":"2022-blake3-aes-256-gcm"}
+  - {"name":"ip","type":"tuic","server":"tuic1.dtku47.xyz","port":23788,"udp":true,"uuid":"ae02b441-c64b-46d3-bdc4-c0f578b1db22","password":xLDZTVuo3cjI,"alpn":["h3"],"disable-sni":true,"reduce-rtt":true,"udp-relay-mode":native,"congestion-controller":"bbr"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - quick_ip
+      - ip
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - quick_ip
+      - ip
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - quick_ip
+      - ip
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - quick_ip
+      - ip
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - quick_ip
+      - ip
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - quick_ip
+      - ip
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,8 +75,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - quick_ip
+      - ip
 
 rules:
   - MATCH,🚀 节点选择
-
