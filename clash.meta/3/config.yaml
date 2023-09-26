@@ -13,7 +13,16 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"ip","type":"ssr","server":"108.181.22.133","port":30002,"password":"dongtaiwang.com","cipher":"dummy","obfs":"plain","protocol":"auth_chain_a"}
+  - name: ip
+    server: tuic1.dtku47.xyz
+    port: 22336
+    type: tuic
+    uuid: 39edbd65-1a14-4d58-bb5a-3b69c52d0869
+    password: hSOogY0SXn4T
+    alpn: [h3]
+    request-timeout: 8000
+    udp-relay-mode: native
+    congestion-controller: bbr
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -79,4 +88,3 @@ proxy-groups:
 
 rules:
   - MATCH,🚀 节点选择
-
