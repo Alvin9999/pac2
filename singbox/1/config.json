@@ -4,7 +4,7 @@
       "type": "mixed",
       "listen_port": 1080,
       "sniff": true,
-      "set_system_proxy": false
+      "set_system_proxy": true
     }
   ],
   "outbounds": [
@@ -22,7 +22,7 @@
     {
       "type": "shadowtls",
       "tag": "shadowtls-out",
-      "server": "www.dtku50.xyz",
+      "server": "108.181.22.213",
       "server_port": 443,
       "tls": {
         "enabled": true,
@@ -52,4 +52,3 @@
     ]
   }
 }
-
