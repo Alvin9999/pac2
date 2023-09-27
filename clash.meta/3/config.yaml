@@ -14,15 +14,15 @@ dns:
     - tls://dns.google:853
 proxies:
   - name: ip
-    server: tuic1.dtku47.xyz
-    port: 22336
-    type: tuic
-    uuid: 39edbd65-1a14-4d58-bb5a-3b69c52d0869
-    password: hSOogY0SXn4T
-    alpn: [h3]
-    request-timeout: 8000
-    udp-relay-mode: native
-    congestion-controller: bbr
+    type: hysteria
+    server: hy1.dtku47.xyz
+    port: 22334
+    auth-str: lASdKzWK0VxL
+    alpn:
+      - h3
+    protocol: udp
+    up: "50 Mbps"
+    down: "100 Mbps"
 proxy-groups:
   - name: 🚀 节点选择
     type: select
