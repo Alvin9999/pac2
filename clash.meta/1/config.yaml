@@ -16,10 +16,9 @@ proxies:
   - name: ip
     type: ss
     server: 108.181.22.130
-    port: 11334
+    port: 11256
     cipher: 2022-blake3-chacha20-poly1305
-    password: "dgYGLyKCLmne6qEMapMVO9/d++PfBfEyB0LW4RXjaus="
-
+    password: "+/b6Q+CbYg8b823kivADeViRHa7kdBprvhpyTk15QpY="
 proxy-groups:
   - name: 🚀 节点选择
     type: select
