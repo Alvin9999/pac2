@@ -16,8 +16,8 @@ proxies:
   - name: ip
     type: hysteria
     server: hy1.dtku47.xyz
-    port: 11257
-    auth-str: oO5q7L6QPSuJ
+    port: 22334
+    auth-str: lASdKzWK0VxL
     alpn:
       - h3
     protocol: udp
@@ -88,5 +88,3 @@ proxy-groups:
 
 rules:
   - MATCH,🚀 节点选择
-
-
