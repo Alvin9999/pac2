@@ -13,16 +13,13 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: ip
-    type: hysteria
-    server: clash1.dtku47.xyz
-    port: 11223
-    auth-str: O5tQQiW2xKf5
-    alpn:
-      - h3
-    protocol: udp
-    up: "50 Mbps"
-    down: "100 Mbps"
+- name: ip 
+  type: hysteria2
+  server: 108.181.17.116
+  port: 12309
+  password: ca7a7db6
+  sni: www.bing.com
+  skip-cert-verify: true 
 proxy-groups:
   - name: 🚀 节点选择
     type: select
