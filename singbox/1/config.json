@@ -2,53 +2,41 @@
   "inbounds": [
     {
       "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "::",
       "listen_port": 1080,
       "sniff": true,
-      "set_system_proxy": true
+      "set_system_proxy": false
     }
   ],
   "outbounds": [
     {
       "type": "shadowsocks",
-      "method": "2022-blake3-aes-128-gcm",
-      "password": "8JCsPssfgS8tiRwiMlhARg==",
-      "detour": "shadowtls-out",
+      "tag": "shadowtls-0958",
+      "method": "2022-blake3-chacha20-poly1305", 
+      "password": "BuzObm3GemcBeQLSFFoYT7L3yLvrtEp3VW4GgbJqOM0=",
+      "detour": "stl-2348", 
       "multiplex": {
         "enabled": true,
         "max_connections": 4,
-        "min_streams": 4
+        "min_streams": 4 
       }
     },
     {
       "type": "shadowtls",
-      "tag": "shadowtls-out",
-      "server": "108.181.22.213",
+      "tag": "stl-2348",
+      "server": "www.dtku50.xyz", 
       "server_port": 443,
+      "version": 3, 
+      "password": "BYHdsgQYw5jB/pRu5D5jJ+tTd9SdEtU03nYjP5LdxQ8=", 
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com"
+        "server_name": "nijigen-works.jp", 
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome" 
+        }
       }
-    },
-    {
-      "type": "direct",
-      "tag": "direct"
-    },
-    {
-      "type": "block",
-      "tag": "block"
     }
-  ],
-  "route": {
-    "rules": [
-      {
-        "geosite": "category-ads-all",
-        "outbound": "block"
-      },
-      {
-        "geosite": "cn",
-        "geoip": "cn",
-        "outbound": "direct"
-      }
-    ]
-  }
-}
+	]
+ }
