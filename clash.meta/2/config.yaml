@@ -13,7 +13,12 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"ip","type":"ssr","server":"108.181.22.133","port":30005,"password":"dongtaiwang.com","cipher":"dummy","obfs":"plain","protocol":"auth_chain_a"}
+  - name: ip
+    type: ss
+    server: 108.181.22.130
+    port: 11256
+    cipher: 2022-blake3-chacha20-poly1305
+    password: "+/b6Q+CbYg8b823kivADeViRHa7kdBprvhpyTk15QpY="
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -79,3 +84,5 @@ proxy-groups:
 
 rules:
   - MATCH,🚀 节点选择
+
+
