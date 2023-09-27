@@ -14,11 +14,15 @@ dns:
     - tls://dns.google:853
 proxies:
   - name: ip
-    type: ss
-    server: 108.181.22.130
-    port: 11256
-    cipher: 2022-blake3-chacha20-poly1305
-    password: "+/b6Q+CbYg8b823kivADeViRHa7kdBprvhpyTk15QpY="
+    type: hysteria
+    server: hy1.dtku47.xyz
+    port: 11257
+    auth-str: oO5q7L6QPSuJ
+    alpn:
+      - h3
+    protocol: udp
+    up: "50 Mbps"
+    down: "100 Mbps"
 proxy-groups:
   - name: 🚀 节点选择
     type: select
