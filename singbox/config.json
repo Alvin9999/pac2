@@ -13,7 +13,7 @@
     {
       "type": "shadowsocks",
       "tag": "socks-0799",
-      "server": "45.145.72.222", 
+      "server": "45.145.72.226", 
       "server_port": 28899,
       "method": "2022-blake3-chacha20-poly1305", 
       "password": "2OPCKzUDp7bTdQ51KVob9mBgjz9v2YVWCfe0KH0Katw=", 
