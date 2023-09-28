@@ -47,21 +47,36 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "45.145.72.139",
-            "method": "2022-blake3-chacha20-poly1305",
-            "ota": false,
-            "password": "cLx2LnkqgE8HgI4GDsRvBm1Q10QtuC1sl4HltvhLhLg=",
-            "port": 12213,
-            "level": 1
+            "address": "45.145.72.225",
+            "port": 27606,
+            "users": [
+              {
+                "id": "f31c96ca-42e5-4583-b029-467c19d94ec4",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp"
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "gateway.icloud.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "BGarJF0kDGe2vK7WDH5rltpoJVOZ0C9pSw8y8Jtp9zk",
+          "shortId": "6ba85179e30d4fc2",
+          "spiderX": ""
+        }
       },
       "mux": {
         "enabled": false,
