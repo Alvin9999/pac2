@@ -11,32 +11,25 @@
   ],
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "shadowtls-0958",
-      "method": "2022-blake3-chacha20-poly1305", 
-      "password": "BuzObm3GemcBeQLSFFoYT7L3yLvrtEp3VW4GgbJqOM0=",
-      "detour": "stl-2348", 
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 4,
-        "min_streams": 4 
-      }
-    },
-    {
-      "type": "shadowtls",
-      "tag": "stl-2348",
-      "server": "www.dtku50.xyz", 
-      "server_port": 443,
-      "version": 3, 
-      "password": "BYHdsgQYw5jB/pRu5D5jJ+tTd9SdEtU03nYjP5LdxQ8=", 
+      "type": "tuic",
+      "tag": "tuic-6132",
+      "server": "sing2.dtku47.xyz", 
+      "server_port": 55667,
+      "uuid": "2dca51f2-8968-479b-b086-4a62269f3f37", 
+      "password": "dongtaiwang", 
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
       "tls": {
         "enabled": true,
-        "server_name": "nijigen-works.jp", 
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome" 
-        }
+        "server_name": "sing2.dtku47.xyz", 
+        "alpn": [
+          "h3"
+        ]
+
       }
     }
-	]
- }
+  ] 
+	 
+}
