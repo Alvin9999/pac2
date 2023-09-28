@@ -51,31 +51,35 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.145.72.225",
-            "port": 27606,
+            "address": "download.yunzhongzhuan.com",
+            "port": 443,
             "users": [
               {
-                "id": "f31c96ca-42e5-4583-b029-467c19d94ec4",
+                "id": "f5c180eb-fbce-49ac-9029-482eca9385c0",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "flow": ""
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "gateway.icloud.com",
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "xray1.freeh1.xyz",
           "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "BGarJF0kDGe2vK7WDH5rltpoJVOZ0C9pSw8y8Jtp9zk",
-          "shortId": "6ba85179e30d4fc2",
-          "spiderX": ""
+          "show": false
+        },
+        "wsSettings": {
+          "path": "/gzogws",
+          "headers": {
+            "Host": "xray1.freeh1.xyz"
+          }
         }
       },
       "mux": {
