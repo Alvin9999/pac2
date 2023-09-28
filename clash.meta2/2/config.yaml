@@ -13,16 +13,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: ip 
-    server: tuic3.dtku47.xyz
-    port: 12255
-    type: tuic
-    uuid: ed6a538a-6e66-4f21-a769-4b389bb2f3ab
-    password: dongtaiwang
-    alpn: [h3]
-    request-timeout: 8000
-    udp-relay-mode: native
-    congestion-controller: bbr
+  - {"name":"ip","type":"vless","server":"www.dtku46.xyz","port":21116,"udp":true,"uuid":"b1417278-b409-456a-865c-7f91f6bdfb25","tls":true,"servername":"www.lovelive-anime.jp","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"mMOWuVq1mFtGQwT3dPw9ZpIQoA5Ft2lG-_xhVSJDUlw","short-id":"6ba85179e30d4fc2"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
