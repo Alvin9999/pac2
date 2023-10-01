@@ -13,7 +13,17 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"ip","type":"vless","server":"www.dtku46.xyz","port":21116,"udp":true,"uuid":"b1417278-b409-456a-865c-7f91f6bdfb25","tls":true,"servername":"www.lovelive-anime.jp","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"mMOWuVq1mFtGQwT3dPw9ZpIQoA5Ft2lG-_xhVSJDUlw","short-id":"6ba85179e30d4fc2"},"client-fingerprint":"chrome"}
+  - name: ip 
+    type: hysteria
+    server: www.dtku46.xyz
+    port: 11223
+    auth-str: mqoE9qSoyMFa
+    alpn:
+      - h3
+    protocol: udp
+    up: "50 Mbps"
+    down: "100 Mbps"
+    skip-cert-verify: true 
 proxy-groups:
   - name: 🚀 节点选择
     type: select
