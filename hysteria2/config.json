@@ -1,7 +1,7 @@
 
 {
-  "server": "108.181.22.155:48152",
-  "auth": "8eb5dcd9",
+  "server": "108.181.22.155:17965",
+  "auth": "4f58555f",
   "tls": {
     "sni": "www.bing.com",
     "insecure": true
