@@ -13,7 +13,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"quick_ip","type":"ss","server":"www3.dtku49.xyz","port":10088,"password":"x3jy8UXDQj6OPEL/MLXqqtPqmidNFNbHzXo91Wd8tiw=","cipher":"2022-blake3-chacha20-poly1305"}
+  - {"name":"quick_ip","type":"hysteria","server":"www3.dtku49.xyz","port":58693,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"nbdyVMqucpFMmyRiwcRQFI7EeKzJWjPYuks3ZzEhCv6HjeZvbh","up":11,"down":55}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
