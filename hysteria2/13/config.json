@@ -1,6 +1,7 @@
+
 {
-  "server": "www.dtku48.xyz:50411",
-  "auth": "abab0600",
+  "server": "www.dtku48.xyz:56411",
+  "auth": "dongtaiwang.com",
   "tls": {
     "sni": "www.bing.com",
     "insecure": true
