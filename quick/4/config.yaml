@@ -12,8 +12,9 @@ dns:
     - 8.8.4.4
     - tls://1.0.0.1:853
     - tls://dns.google:853
+
 proxies:
-  - {"name":"quick_ip","type":"ss","server":"www2.dtku49.xyz","port":11105,"password":"thqfFCl0zl4Wyc0FaKxTQw==","cipher":"2022-blake3-aes-128-gcm"}
+  - {"name":"quick_ip","type":"hysteria","server":"108.181.22.239","port":17727,"sni":"youku.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"7YxfKsXdTnB226S8j4OjaA9M0nLcXATvgnXhVJbCRG7e9KKU7i","up":11,"down":55}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
