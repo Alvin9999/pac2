@@ -13,17 +13,13 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: ip 
-    type: hysteria
-    server: www.dtku46.xyz
-    port: 11223
-    auth-str: mqoE9qSoyMFa
-    alpn:
-      - h3
-    protocol: udp
-    up: "50 Mbps"
-    down: "100 Mbps"
-    skip-cert-verify: true 
+- name: ip 
+  type: hysteria2
+  server: www2.dtku49.xyz
+  port: 54406
+  password: ebcbb37b
+  sni: www.bing.com
+  skip-cert-verify: true 
 proxy-groups:
   - name: 🚀 节点选择
     type: select
