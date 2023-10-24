@@ -1,3 +1,5 @@
 127.0.0.1 dingbz.com www.dingbz.com
 127.0.0.1 dingbz.net www.dingbz.net
 127.0.0.1 dbzhu.com www.dbzhu.com
+127.0.0.1 chihan.one www.chihan.one
+127.0.0.1 jieshe.org www.jieshe.org
