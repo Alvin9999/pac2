@@ -1,5 +1,6 @@
+
 {
-"server": "108.181.22.239:17727",
+"server": "167.160.91.115:41189",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
@@ -14,9 +15,9 @@
 "disable_udp": false
 },
 "obfs": "",
-"auth_str": "7YxfKsXdTnB226S8j4OjaA9M0nLcXATvgnXhVJbCRG7e9KKU7i",
+"auth_str": "bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF",
 "alpn": "h3",
-"server_name": "youku.com",
+"server_name": "www.amazon.cn",
 "insecure": true,
 "recv_window_conn": 5767168,
 "recv_window": 23068672,
