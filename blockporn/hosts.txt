@@ -1,5 +1,5 @@
 #to add to your hsots file, block these sites
-#wget https://raw.githubusercontent.com/bannedbook/blockporn/master/hosts.txt  -O ->> /etc/hosts
+#https://raw.githubusercontent.com/Alvin9999/pac2/master/blockporn/hosts.txt  -O ->> /etc/hosts
 127.0.1.1   www.eghandbags.com  eghandbags.com
 127.0.0.1	007milf.com
 127.0.0.1	00webcams.com
