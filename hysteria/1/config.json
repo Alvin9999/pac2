@@ -1,5 +1,5 @@
 {
-"server": "167.160.91.115:41698",
+"server": "167.160.91.115:41189",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
@@ -14,9 +14,9 @@
 "disable_udp": false
 },
 "obfs": "",
-"auth_str": "kZYvm1YxXAQ9ydOJEYOzqiEK34J54WnxhhQUfLlV0yEglpa8uI",
+"auth_str": "bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF",
 "alpn": "h3",
-"server_name": "www.microsoft.com",
+"server_name": "www.amazon.cn",
 "insecure": true,
 "recv_window_conn": 5767168,
 "recv_window": 23068672,
