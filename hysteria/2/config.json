@@ -1,21 +1,20 @@
-
 {
-"server": "167.160.91.115:41189",
+"server": "109.104.152.149:48406",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
 "http": {
 "listen": "127.0.0.1:1081",
-"timeout" : 250,
+"timeout" : 300,
 "disable_udp": false
 },
 "socks5": {
 "listen": "127.0.0.1:1080",
-"timeout": 250,
+"timeout": 300,
 "disable_udp": false
 },
 "obfs": "",
-"auth_str": "bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF",
+"auth_str": "xfNhrunYJ9GvDXCTktY2bIwhc1EyeyyAbiUMx1UtBOWgI4cMVB",
 "alpn": "h3",
 "server_name": "www.amazon.cn",
 "insecure": true,
