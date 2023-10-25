@@ -15,9 +15,9 @@ dns:
 proxies:
 - name: ip 
   type: hysteria2
-  server: 108.181.24.7
-  port: 30682
-  password: dongtaiwang.com
+  server: 109.104.152.219
+  port: 59625
+  password: dc881814
   sni: www.bing.com
   skip-cert-verify: true 
 proxy-groups:
