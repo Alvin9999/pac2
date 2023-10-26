@@ -14,10 +14,10 @@ dns:
     - tls://dns.google:853
 proxies:
   - name: ip 
-    server: 108.181.24.7
-    port: 23450
+    server: 108.181.22.205
+    port: 50987
     type: tuic
-    uuid: 3618921b-adeb-4bd3-a2a0-f98b72a674b1
+    uuid: d6214437-e1b5-4334-9090-8f66b78bea89
     password: dongtaiwang
     sni: bing.com
     alpn: [h3]
