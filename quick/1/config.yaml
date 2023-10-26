@@ -13,7 +13,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"quick_ip","type":"vless","server":"45.150.165.79","port":25678,"udp":true,"uuid":"34f36b97-1fb7-41f3-8db4-912cc69e724a","tls":true,"servername":"itunes.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"sJsSZcA2DyAHDTcoe8Utbz9JaXJPMVmtHmiXxWmcExc"},"client-fingerprint":"chrome"}
+  - {"name":"quick_ip","type":"vless","server":"45.150.165.87","port":25678,"udp":true,"uuid":"34f36b97-1fb7-41f3-8db4-912cc69e724a","tls":true,"servername":"itunes.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"sJsSZcA2DyAHDTcoe8Utbz9JaXJPMVmtHmiXxWmcExc"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
