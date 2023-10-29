@@ -13,13 +13,18 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-- name: ip 
-  type: hysteria2
-  server: 109.104.152.219
-  port: 59625
-  password: dc881814
-  sni: www.bing.com
-  skip-cert-verify: true 
+  - name: ip 
+    server: 109.104.152.219
+    port: 50981
+    type: tuic
+    uuid: e31f5163-0da9-448e-8ff5-2930a74ae250
+    password: dongtaiwang.com
+    sni: bing.com
+    alpn: [h3]
+    request-timeout: 8000
+    udp-relay-mode: native
+    skip-cert-verify: true
+    congestion-controller: bbr 
 proxy-groups:
   - name: 🚀 节点选择
     type: select
