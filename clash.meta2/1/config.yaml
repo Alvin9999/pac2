@@ -15,16 +15,16 @@ dns:
 proxies:
   - name: ip 
     server: 109.104.152.219
-    port: 50981
+    port: 19008
     type: tuic
-    uuid: e31f5163-0da9-448e-8ff5-2930a74ae250
+    uuid: 9f8c2f3e-cb9e-410f-9b87-f1615ac1a1bb
     password: dongtaiwang.com
     sni: bing.com
     alpn: [h3]
     request-timeout: 8000
     udp-relay-mode: native
     skip-cert-verify: true
-    congestion-controller: bbr 
+    congestion-controller: bbr
 proxy-groups:
   - name: 🚀 节点选择
     type: select
