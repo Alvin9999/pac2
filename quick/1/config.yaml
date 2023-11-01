@@ -14,17 +14,11 @@ dns:
     - tls://dns.google:853
 proxies:
   - name: ip 
-    server: tuic1.freeh1.xyz
-    port: 40981
-    type: tuic
-    uuid: c2faac69-e1c1-4bf5-b8a8-d2ce4d834a66
-    password: dongtaiwang
-    sni: tuic1.freeh1.xyz
-    alpn: [h3]
-    request-timeout: 8000
-    udp-relay-mode: native
-    skip-cert-verify: false
-    congestion-controller: bbr
+    type: ss
+    server: 45.145.72.223
+    port: 19981
+    cipher: 2022-blake3-chacha20-poly1305
+    password: "2fvT8DSm5gQ9njDuL0licBN29TVJeuS5sbt2ZBwUdUs="
 proxy-groups:
   - name: 🚀 节点选择
     type: select
