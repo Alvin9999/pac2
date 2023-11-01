@@ -14,16 +14,16 @@ dns:
     - tls://dns.google:853
 proxies:
   - name: ip 
-    server: 167.160.90.251
-    port: 45098
+    server: tuic1.freeh1.xyz
+    port: 40981
     type: tuic
-    uuid: aac973c9-c274-4312-889a-45d3e6e9cfa7
-    password: 1LaawCPfNRYy
-    sni: bing.com
+    uuid: c2faac69-e1c1-4bf5-b8a8-d2ce4d834a66
+    password: dongtaiwang
+    sni: tuic1.freeh1.xyz
     alpn: [h3]
     request-timeout: 8000
     udp-relay-mode: native
-    skip-cert-verify: true
+    skip-cert-verify: false
     congestion-controller: bbr
 proxy-groups:
   - name: 🚀 节点选择
