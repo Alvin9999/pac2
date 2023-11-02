@@ -13,12 +13,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: ip 
-    type: ss
-    server: 45.145.72.223
-    port: 19981
-    cipher: 2022-blake3-chacha20-poly1305
-    password: "2fvT8DSm5gQ9njDuL0licBN29TVJeuS5sbt2ZBwUdUs="
+  - {"name":"ip","type":"vless","server":"45.150.165.121","port":10306,"udp":true,"uuid":"89a3befc-045b-4287-8b9f-f51c455f93be","tls":true,"servername":"mensura.cdn-apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"ec05-gX8GbyAZaJ72G4AWIadOsDk2_sZCDliuHZnwBc","short-id":"6ba85179e30d4fc2"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
