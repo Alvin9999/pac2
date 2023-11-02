@@ -13,7 +13,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: ip 
+  - name: ip1
     server: 109.104.152.219
     port: 19008
     type: tuic
@@ -25,45 +25,62 @@ proxies:
     udp-relay-mode: native
     skip-cert-verify: true
     congestion-controller: bbr
+  - name: ip2
+    type: hysteria2
+    server: 167.160.90.251
+    port: 10981
+    password: i2XRv7zj1uWE
+    alpn:
+      - h3
+    sni: bing.com
+    skip-cert-verify: true
+    up: "100 Mbps"
+    down: "50 Mbps"
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ip
+      - ip1
+      - ip2
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ip
+      - ip1
+      - ip2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ip
+      - ip1
+      - ip2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ip
+      - ip1
+      - ip2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ip
+      - ip1
+      - ip2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ip
+      - ip1
+      - ip2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -86,7 +103,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ip
+      - ip1
+      - ip2
 
 rules:
   - MATCH,🚀 节点选择
