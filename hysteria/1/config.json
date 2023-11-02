@@ -1,22 +1,22 @@
 {
-"server": "108.181.22.239:17727",
+"server": "108.181.22.239:61561",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
 "http": {
 "listen": "127.0.0.1:1081",
-"timeout" : 250,
+"timeout" : 300,
 "disable_udp": false
 },
 "socks5": {
 "listen": "127.0.0.1:1080",
-"timeout": 250,
+"timeout": 300,
 "disable_udp": false
 },
 "obfs": "",
-"auth_str": "7YxfKsXdTnB226S8j4OjaA9M0nLcXATvgnXhVJbCRG7e9KKU7i",
+"auth_str": "PBhG3zqMKaMO5ZnemDvLrZ6v0Fd7EqCutDvzLNtvWHJ6IpMWJg",
 "alpn": "h3",
-"server_name": "youku.com",
+"server_name": "bing.com",
 "insecure": true,
 "recv_window_conn": 5767168,
 "recv_window": 23068672,
