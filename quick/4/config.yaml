@@ -13,17 +13,18 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: ip 
-    server: 108.181.22.239
-    port: 26789
+  - name: ip
+    server: www2.dtku49.xyz
+    port: 19881
     type: tuic
-    uuid: a6ccf4f3-2b05-48ff-b440-2e3dce3e216a
-    password: iLHa7ogC0RjF
+    uuid: 45e2b23a-1a49-49c4-9422-8d786887ef3d
+    password: 51UMpwpdw0Kw
     sni: bing.com
     alpn: [h3]
     request-timeout: 8000
     udp-relay-mode: native
     skip-cert-verify: true
+    congestion-controller: bbr
 proxy-groups:
   - name: 🚀 节点选择
     type: select
