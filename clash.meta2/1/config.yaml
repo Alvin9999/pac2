@@ -22,8 +22,8 @@ proxies:
       - h3
     sni: bing.com
     skip-cert-verify: true
-    up: "20 Mbps"
-    down: "100 Mbps"
+    up: "200 Mbps"
+    down: "1000 Mbps"
 proxy-groups:
   - name: 🚀 节点选择
     type: select
