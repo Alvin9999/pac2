@@ -1,5 +1,5 @@
 {
-"server": "108.181.22.239:61561",
+"server": "109.104.152.180:64502",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
@@ -14,12 +14,12 @@
 "disable_udp": false
 },
 "obfs": "",
-"auth_str": "PBhG3zqMKaMO5ZnemDvLrZ6v0Fd7EqCutDvzLNtvWHJ6IpMWJg",
+"auth_str": "kxeFKpB8fhGjP7cO7NNgXYr19ZsqKQMco612ZCfXiaJrojw571",
 "alpn": "h3",
 "server_name": "bing.com",
 "insecure": true,
-"recv_window_conn": 5767168,
-"recv_window": 23068672,
+"recv_window_conn": 576716800,
+"recv_window": 2306867200,
 "disable_mtu_discovery": true,
 "resolver": "https://223.5.5.5/dns-query",
 "retry": 3,
