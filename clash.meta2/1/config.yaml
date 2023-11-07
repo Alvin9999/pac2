@@ -36,6 +36,18 @@ proxies:
     skip-cert-verify: true
     up: "100 Mbps"
     down: "100 Mbps"
+  - name: ip3
+    type: hysteria
+    server: 216.146.24.155
+    port: 30002
+    auth-str: gB6NMRpQ7gaE
+    sni: bing.com
+    skip-cert-verify: true
+    alpn:
+      - h3
+    protocol: udp
+    up: "100 Mbps"
+    down: "500 Mbps"
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -44,6 +56,7 @@ proxy-groups:
       - DIRECT
       - ip1
       - ip2
+      - ip3
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -52,6 +65,7 @@ proxy-groups:
     proxies:
       - ip1
       - ip2
+      - ip3
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -60,6 +74,7 @@ proxy-groups:
       - 🎯 全球直连
       - ip1
       - ip2
+      - ip3
   - name: 📲 电报信息
     type: select
     proxies:
@@ -67,6 +82,7 @@ proxy-groups:
       - 🎯 全球直连
       - ip1
       - ip2
+      - ip3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -74,6 +90,7 @@ proxy-groups:
       - 🚀 节点选择
       - ip1
       - ip2
+      - ip3
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -81,6 +98,7 @@ proxy-groups:
       - 🎯 全球直连
       - ip1
       - ip2
+      - ip3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -105,6 +123,7 @@ proxy-groups:
       - ♻️ 自动选择
       - ip1
       - ip2
+      - ip3
 
 rules:
   - MATCH,🚀 节点选择
