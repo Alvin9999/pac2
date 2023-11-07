@@ -47,7 +47,7 @@ proxies:
       - h3
     protocol: udp
     up: "100 Mbps"
-    down: "500 Mbps"
+    down: "100 Mbps"
 proxy-groups:
   - name: 🚀 节点选择
     type: select
