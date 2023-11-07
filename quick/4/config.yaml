@@ -13,7 +13,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"quick_ip1","type":"hysteria","server":"www2.dtku49.xyz","port":37363,"sni":"www.microsoft.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"n8Paxd1Uad5wisPoT6i43lrerK1O5iQRfHnbI3RRsIrbdkyLZP","up":4,"down":20}
+  - {"name":"quick_ip1","type":"hysteria","server":"www2.dtku49.xyz","port":37363,"sni":"www.microsoft.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"n8Paxd1Uad5wisPoT6i43lrerK1O5iQRfHnbI3RRsIrbdkyLZP","up":10,"down":50}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
