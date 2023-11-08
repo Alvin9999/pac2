@@ -21,8 +21,8 @@ proxies:
     alpn:
       - h3
     protocol: udp
-    up: "50 Mbps"
-    down: "100 Mbps"
+    up: "11 Mbps"
+    down: "55 Mbps"
     skip-cert-verify: true 
 proxy-groups:
   - name: 🚀 节点选择
