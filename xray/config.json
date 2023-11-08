@@ -47,36 +47,21 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "109.104.152.156",
-            "port": 16717,
-            "users": [
-              {
-                "id": "a2971a3e-d013-47b2-93c8-2ff2a4bcff2a",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
+            "address": "www2.dtku49.xyz",
+            "method": "2022-blake3-chacha20-poly1305",
+            "ota": false,
+            "password": "y7S5E+7x9oxDsaAMkpllSZHm/vXRSMTD/5C0DHfpMh4=",
+            "port": 61230,
+            "level": 1
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "aod.itunes.apple.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "ydGuypY0EPIAxMpi8L-yhWBtjyavZbtwo9JJk2K5G0Y",
-          "shortId": "6ba85179e30d4fc2",
-          "spiderX": ""
-        }
+        "network": "tcp"
       },
       "mux": {
         "enabled": false,
