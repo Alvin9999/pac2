@@ -51,7 +51,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "dongtaiwang3.com",
+            "address": "cloudflare.cfgo.cc",
             "port": 443,
             "users": [
               {
