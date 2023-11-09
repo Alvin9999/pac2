@@ -13,7 +13,18 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"quick_ip4","type":"hysteria","server":"www2.dtku49.xyz","port":37363,"sni":"www.microsoft.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"n8Paxd1Uad5wisPoT6i43lrerK1O5iQRfHnbI3RRsIrbdkyLZP","up":11,"down":55}
+  - name: quick_ip4
+    server: 108.181.22.239
+    port: 19988
+    type: tuic
+    uuid: 485ce799-da5f-46e8-a82b-8ef322d8602f
+    password: dongtaiwang.com
+    sni: bing.com
+    alpn: [h3]
+    request-timeout: 8000
+    udp-relay-mode: native
+    skip-cert-verify: true
+    congestion-controller: bbr
 proxy-groups:
   - name: 🚀 节点选择
     type: select
