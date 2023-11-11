@@ -14,17 +14,16 @@ dns:
     - tls://dns.google:853
 proxies:
   - name: ip1 
+    type: hysteria2
     server: 109.104.152.219
-    port: 19008
-    type: tuic
-    uuid: 9f8c2f3e-cb9e-410f-9b87-f1615ac1a1bb
+    port: 34091
     password: dongtaiwang.com
+    alpn:
+      - h3
     sni: bing.com
-    alpn: [h3]
-    request-timeout: 8000
-    udp-relay-mode: native
     skip-cert-verify: true
-    congestion-controller: bbr
+    up: "100 Mbps"
+    down: "100 Mbps"
   - name: ip2
     type: hysteria2
     server: 167.160.90.251
