@@ -16,7 +16,7 @@ proxies:
   - name: ip1 
     type: hysteria2
     server: 109.104.152.219
-    port: 34091
+    port: 22309
     password: dongtaiwang.com
     alpn:
       - h3
