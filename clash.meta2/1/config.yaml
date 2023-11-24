@@ -14,17 +14,6 @@ dns:
     - tls://dns.google:853
 proxies:
   - name: ip1 
-    type: hysteria2
-    server: 109.104.152.219
-    port: 22998
-    password: dongtaiwang.com
-    alpn:
-      - h3
-    sni: bing.com
-    skip-cert-verify: true
-    up: "100 Mbps"
-    down: "100 Mbps"
-  - name: ip2 
     type: hysteria
     server: 167.160.90.251
     port: 48089
@@ -35,6 +24,17 @@ proxies:
     up: "11 Mbps"
     down: "55 Mbps"
     skip-cert-verify: true 
+  - name: ip2 
+    type: hysteria2
+    server: 109.104.152.219
+    port: 22998
+    password: dongtaiwang.com
+    alpn:
+      - h3
+    sni: bing.com
+    skip-cert-verify: true
+    up: "100 Mbps"
+    down: "100 Mbps"
 proxy-groups:
   - name: 🚀 节点选择
     type: select
