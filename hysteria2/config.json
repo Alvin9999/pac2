@@ -1,6 +1,6 @@
 
 {
-  "server": "www.dtku46.xyz:33330",
+  "server": "www.dtku46.xyz:53850",
   "auth": "dongtaiwang.com",
   "tls": {
     "sni": "www.bing.com",
