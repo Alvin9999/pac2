@@ -25,14 +25,15 @@ proxies:
     down: "55 Mbps"
     skip-cert-verify: true 
   - name: ip2 
-    type: hysteria2
+    type: hysteria
     server: 109.104.152.219
-    port: 13133
-    password: dongtaiwang.com
-    alpn:
-      - h3
+    port: 22335
+    auth-str: dongtaiwang.com
     sni: bing.com
     skip-cert-verify: true
+    alpn:
+      - h3
+    protocol: udp
     up: "100 Mbps"
     down: "100 Mbps"
 proxy-groups:
