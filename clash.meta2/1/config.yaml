@@ -25,17 +25,17 @@ proxies:
     down: "55 Mbps"
     skip-cert-verify: true 
   - name: ip2 
-    type: hysteria
     server: 109.104.152.219
-    port: 22335
-    auth-str: dongtaiwang.com
+    port: 11226
+    type: tuic
+    uuid: a47e8e4a-a917-4d89-8b22-fc2bedcd7a21
+    password: dongtaiwang.com
     sni: bing.com
+    alpn: [h3]
+    request-timeout: 8000
+    udp-relay-mode: native
     skip-cert-verify: true
-    alpn:
-      - h3
-    protocol: udp
-    up: "100 Mbps"
-    down: "100 Mbps"
+    congestion-controller: bbr
 proxy-groups:
   - name: 🚀 节点选择
     type: select
