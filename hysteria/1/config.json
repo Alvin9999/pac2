@@ -5,12 +5,12 @@
 "down_mbps": 55,
 "http": {
 "listen": "127.0.0.1:1081",
-"timeout" : 300,
+"timeout" : 220,
 "disable_udp": false
 },
 "socks5": {
 "listen": "127.0.0.1:1080",
-"timeout": 300,
+"timeout": 220,
 "disable_udp": false
 },
 "obfs": "",
