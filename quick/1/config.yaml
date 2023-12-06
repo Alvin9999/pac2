@@ -13,7 +13,18 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"quick_ip1","type":"hysteria","server":"62.204.54.81","port":42691,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"dongtaiwang.com","up":5,"down":10}
+  - name: quick_ip1
+    server: 109.104.152.180
+    port: 22335
+    type: tuic
+    uuid: e78e1e93-a648-4974-b544-68f8b9fa0b81
+    password: dongtaiwang.com
+    sni: bing.com
+    alpn: [h3]
+    request-timeout: 8000
+    udp-relay-mode: native
+    skip-cert-verify: true
+    congestion-controller: bb
 proxy-groups:
   - name: 🚀 节点选择
     type: select
