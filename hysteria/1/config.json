@@ -1,16 +1,16 @@
 {
-"server": "109.104.152.180:59759",
+"server": "109.104.152.180:16605",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
 "http": {
 "listen": "127.0.0.1:1081",
-"timeout" : 220,
+"timeout" : 300,
 "disable_udp": false
 },
 "socks5": {
 "listen": "127.0.0.1:1080",
-"timeout": 220,
+"timeout": 300,
 "disable_udp": false
 },
 "obfs": "",
