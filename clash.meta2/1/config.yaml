@@ -26,9 +26,9 @@ proxies:
     skip-cert-verify: true 
   - name: ip2 
     server: 109.104.152.219
-    port: 11226
+    port: 11091
     type: tuic
-    uuid: a47e8e4a-a917-4d89-8b22-fc2bedcd7a21
+    uuid: 62fc1c08-c2d7-4d35-8cb3-6289b4293679
     password: dongtaiwang.com
     sni: bing.com
     alpn: [h3]
