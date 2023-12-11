@@ -13,57 +13,56 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: quick_ip4
-    server: 108.181.22.239
-    port: 19988
-    type: tuic
-    uuid: 485ce799-da5f-46e8-a82b-8ef322d8602f
-    password: dongtaiwang.com
-    sni: bing.com
-    alpn: [h3]
-    request-timeout: 8000
-    udp-relay-mode: native
-    skip-cert-verify: true
-    congestion-controller: bbr
+  - name: ip 
+    type: hysteria
+    server: www.dtku46.xyz
+    port: 11223
+    auth-str: mqoE9qSoyMFa
+    alpn:
+      - h3
+    protocol: udp
+    up: "11 Mbps"
+    down: "55 Mbps"
+    skip-cert-verify: true 
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - quick_ip4
+      - ip
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - quick_ip4
+      - ip
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - quick_ip4
+      - ip
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - quick_ip4
+      - ip
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - quick_ip4
+      - ip
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - quick_ip4
+      - ip
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -86,8 +85,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - quick_ip4
+      - ip
 
 rules:
   - MATCH,🚀 节点选择
-
