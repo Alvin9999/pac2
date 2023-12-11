@@ -1,5 +1,5 @@
 {
-"server": "109.104.152.180:40522",
+"server": "108.181.22.239:61561",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
@@ -14,9 +14,9 @@
 "disable_udp": false
 },
 "obfs": "",
-"auth_str": "dongtaiwang.com",
+"auth_str": "PBhG3zqMKaMO5ZnemDvLrZ6v0Fd7EqCutDvzLNtvWHJ6IpMWJg",
 "alpn": "h3",
-"server_name": "www.microsoft.com",
+"server_name": "bing.com",
 "insecure": true,
 "recv_window_conn": 5767168,
 "recv_window": 23068672,
