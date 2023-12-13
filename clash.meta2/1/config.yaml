@@ -25,17 +25,16 @@ proxies:
     down: "55 Mbps"
     skip-cert-verify: true 
   - name: ip2 
-    server: 109.104.152.219
-    port: 11091
-    type: tuic
-    uuid: 62fc1c08-c2d7-4d35-8cb3-6289b4293679
-    password: dongtaiwang.com
-    sni: bing.com
-    alpn: [h3]
-    request-timeout: 8000
-    udp-relay-mode: native
-    skip-cert-verify: true
-    congestion-controller: bbr
+    type: hysteria
+    server: 108.181.22.239
+    port: 41146
+    auth-str: dongtaiwang.com
+    alpn:
+      - h3
+    protocol: udp
+    up: "11 Mbps"
+    down: "55 Mbps"
+    skip-cert-verify: true 
 proxy-groups:
   - name: 🚀 节点选择
     type: select
