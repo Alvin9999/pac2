@@ -12,15 +12,16 @@
   "outbounds": [
     {
       "type": "hysteria",
-      "tag": "Hysteria-3166",
-      "server": "www.dtku50.xyz", 
-      "server_port": 28877,
-      "up_mbps": 50, 
-      "down_mbps": 100, 
-      "auth_str": "y6Sf5xTFyNx5",
+      "tag": "Hysteria-5013",
+      "server": "108.181.22.213", 
+      "server_port": 33450,
+      "up_mbps": 1000, 
+      "down_mbps": 1000,
+      "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
-        "server_name": "www.dtku50.xyz", 
+        "insecure": true,
+        "server_name": "bing.com", 
         "alpn": [
           "h3"
         ]
@@ -30,3 +31,4 @@
   ] 
 	 
 }
+
