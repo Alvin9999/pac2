@@ -11,19 +11,16 @@
   ],
   "outbounds": [
     {
-      "type": "tuic",
-      "tag": "tuic-6132",
-      "server": "sing2.dtku47.xyz", 
-      "server_port": 55667,
-      "uuid": "2dca51f2-8968-479b-b086-4a62269f3f37", 
-      "password": "dongtaiwang", 
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "zero_rtt_handshake": false,
-      "heartbeat": "10s",
+      "type": "hysteria",
+      "tag": "Hysteria-3166",
+      "server": "www.dtku50.xyz", 
+      "server_port": 28877,
+      "up_mbps": 50, 
+      "down_mbps": 100, 
+      "auth_str": "y6Sf5xTFyNx5",
       "tls": {
         "enabled": true,
-        "server_name": "sing2.dtku47.xyz", 
+        "server_name": "www.dtku50.xyz", 
         "alpn": [
           "h3"
         ]
