@@ -14,10 +14,10 @@ dns:
     - tls://dns.google:853
 proxies:
   - name: ip1
-    server: 104.234.70.41
-    port: 11223
+    server: 64.110.25.10
+    port: 11227
     type: tuic
-    uuid: c573056f-e44b-4244-8142-136753c3debe
+    uuid: 764b539f-2d3c-4772-9731-5ebf6984af98
     password: dongtaiwang.com
     sni: bing.com
     alpn: [h3]
@@ -26,10 +26,10 @@ proxies:
     skip-cert-verify: true
     congestion-controller: bbr
   - name: ip2
-    server: 64.110.25.10
-    port: 11227
+    server: 104.234.70.41
+    port: 11223
     type: tuic
-    uuid: 764b539f-2d3c-4772-9731-5ebf6984af98
+    uuid: c573056f-e44b-4244-8142-136753c3debe
     password: dongtaiwang.com
     sni: bing.com
     alpn: [h3]
