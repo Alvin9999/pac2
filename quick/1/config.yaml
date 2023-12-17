@@ -14,16 +14,17 @@ dns:
     - tls://dns.google:853
 proxies:
   - name: ip 
-    type: hysteria2
     server: 64.110.25.10
-    port: 33446
+    port: 11227
+    type: tuic
+    uuid: 764b539f-2d3c-4772-9731-5ebf6984af98
     password: dongtaiwang.com
-    alpn:
-      - h3
     sni: bing.com
+    alpn: [h3]
+    request-timeout: 8000
+    udp-relay-mode: native
     skip-cert-verify: true
-    up: "100 Mbps"
-    down: "100 Mbps"
+    congestion-controller: bbr
 proxy-groups:
   - name: 🚀 节点选择
     type: select
