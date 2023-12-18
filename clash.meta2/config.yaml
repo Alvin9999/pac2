@@ -16,7 +16,7 @@ proxies:
   - name: ip 
     type: hysteria
     server: 108.181.22.213
-    port: 61834
+    port: 52284
     auth-str: dongtaiwang.com
     alpn:
       - h3
