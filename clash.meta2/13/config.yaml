@@ -14,15 +14,16 @@ dns:
     - tls://dns.google:853
 proxies:
   - name: ip 
-    server: tuic3.dtku47.xyz
-    port: 12255
-    type: tuic
-    uuid: ed6a538a-6e66-4f21-a769-4b389bb2f3ab
-    password: dongtaiwang
-    alpn: [h3]
-    request-timeout: 8000
-    udp-relay-mode: native
-    congestion-controller: bbr
+    type: hysteria
+    server: 108.181.22.155
+    port: 19721
+    auth-str: dongtaiwang.com
+    alpn:
+      - h3
+    protocol: udp
+    up: "11 Mbps"
+    down: "55 Mbps"
+    skip-cert-verify: true 
 proxy-groups:
   - name: 🚀 节点选择
     type: select
