@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "dongtaiwang3.com",
+            "address": "yhc1.freeh1.xyz",
             "port": 443,
             "users": [
               {
-                "id": "f5c180eb-fbce-49ac-9029-482eca9385c0",
+                "id": "3cf5352c-ba83-40d2-a661-df6affa019eb",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -71,14 +71,14 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "xray1.freeh1.xyz",
+          "serverName": "yhc1.freeh1.xyz",
           "fingerprint": "chrome",
           "show": false
         },
         "wsSettings": {
-          "path": "/gzogws",
+          "path": "/kdnhws",
           "headers": {
-            "Host": "xray1.freeh1.xyz"
+            "Host": "yhc1.freeh1.xyz"
           }
         }
       },
