@@ -26,16 +26,16 @@ proxies:
     skip-cert-verify: true
     congestion-controller: bbr
   - name: ip2
-    server: 62.204.54.81
-    type: hysteria
-    port: 46333
-    auth-str: dongtaiwang.com
+    type: hysteria2
+    server: 45.145.72.212
+    port: 23520
+    password: dongtaiwang.com
     alpn:
       - h3
-    protocol: udp
+    sni: bing.com
     up: "5 Mbps"
     down: "10 Mbps"
-    skip-cert-verify: true 
+    skip-cert-verify: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
