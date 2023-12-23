@@ -55,7 +55,7 @@
             "port": 443,
             "users": [
               {
-                "id": "3cf5352c-ba83-40d2-a661-df6affa019eb",
+                "id": "0773256c-d020-436d-afea-6eee7cb6c872",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -71,14 +71,14 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "yhc1.freeh1.xyz",
+          "serverName": "xray1.freegradely.xyz",
           "fingerprint": "chrome",
           "show": false
         },
         "wsSettings": {
-          "path": "/kdnhws",
+          "path": "/bodhws",
           "headers": {
-            "Host": "yhc1.freeh1.xyz"
+            "Host": "xray1.freegradely.xyz"
           }
         }
       },
@@ -161,5 +161,3 @@
     ]
   }
 }
-
-
