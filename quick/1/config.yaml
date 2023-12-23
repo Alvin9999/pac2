@@ -25,17 +25,6 @@ proxies:
     udp-relay-mode: native
     skip-cert-verify: true
     congestion-controller: bbr
-  - name: ip2
-    type: hysteria2
-    server: 45.145.72.212
-    port: 23520
-    password: dongtaiwang.com
-    alpn:
-      - h3
-    sni: bing.com
-    up: "1 Mbps"
-    down: "5 Mbps"
-    skip-cert-verify: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -43,7 +32,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - ip1
-      - ip2
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -51,7 +39,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - ip1
-      - ip2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -59,28 +46,24 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - ip1
-      - ip2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ip1
-      - ip2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - ip1
-      - ip2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ip1
-      - ip2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -104,7 +87,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - ip1
-      - ip2
 
 rules:
   - MATCH,🚀 节点选择
