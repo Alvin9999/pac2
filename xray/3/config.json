@@ -47,7 +47,7 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
@@ -55,12 +55,10 @@
             "port": 443,
             "users": [
               {
-                "id": "3cf5352c-ba83-40d2-a661-df6affa019eb",
+                "id": "f5c180eb-fbce-49ac-9029-482eca9385c0",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
+                "security": "auto"
               }
             ]
           }
@@ -71,14 +69,13 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "yhc1.freeh1.xyz",
-          "fingerprint": "chrome",
+          "serverName": "xray1.freeh1.xyz",
           "show": false
         },
         "wsSettings": {
-          "path": "/kdnhws",
+          "path": "/gzogws",
           "headers": {
-            "Host": "yhc1.freeh1.xyz"
+            "Host": "xray1.freeh1.xyz"
           }
         }
       },
