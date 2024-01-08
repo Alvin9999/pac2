@@ -15,9 +15,9 @@ dns:
 proxies:
   - name: ip1
     server: 64.110.25.10
-    port: 11227
+    port: 33445
     type: tuic
-    uuid: 764b539f-2d3c-4772-9731-5ebf6984af98
+    uuid: 670998c6-a78f-43cc-86aa-29292476e040
     password: dongtaiwang.com
     sni: bing.com
     alpn: [h3]
