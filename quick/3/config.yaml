@@ -13,7 +13,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"quick_ip3","type":"hysteria","server":"www.dtku50.xyz","port":23577,"sni":"www.amazon.cn","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"dongtaiwang.com","up":2,"down":10}
+  - {"name":"quick_ip3","type":"hysteria","server":"www.dtku50.xyz","port":56252,"sni":"www.amazon.cn","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"dongtaiwang.com","up":2,"down":10}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
