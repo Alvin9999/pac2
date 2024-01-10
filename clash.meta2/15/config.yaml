@@ -14,9 +14,9 @@ dns:
     - tls://dns.google:853
 proxies:
   - name: ip 
-    server: 104.234.70.41
+    server: 108.181.2.154
     type: hysteria
-    port: 57153
+    port: 55667
     auth-str: dongtaiwang.com
     alpn:
       - h3
