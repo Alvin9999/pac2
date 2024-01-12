@@ -13,7 +13,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"quick_ip1","type":"hysteria","server":"62.204.54.81","port":46333,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"dongtaiwang.com","up":5,"down":10}
+  - {"name":"quick_ip1","type":"hysteria","server":"62.204.54.81","port":44550,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"dongtaiwang.com","up":5,"down":10}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
