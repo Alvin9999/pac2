@@ -15,8 +15,8 @@
       "tag": "dongtaiwang.com",
       "server": "www.dtku50.xyz", 
       "server_port": 11229,
-      "up_mbps": 1000, 
-      "down_mbps": 1000,
+      "up_mbps": 11, 
+      "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
