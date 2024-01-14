@@ -14,17 +14,16 @@ dns:
     - tls://dns.google:853
 proxies:
   - name: ip1
+    type: hysteria
     server: 64.110.25.10
-    port: 33445
-    type: tuic
-    uuid: 670998c6-a78f-43cc-86aa-29292476e040
-    password: dongtaiwang.com
-    sni: bing.com
-    alpn: [h3]
-    request-timeout: 8000
-    udp-relay-mode: native
-    skip-cert-verify: true
-    congestion-controller: bbr
+    port: 44556
+    auth-str: mqoE9qSoyMFa
+    alpn:
+      - h3
+    protocol: udp
+    up: "11 Mbps"
+    down: "55 Mbps"
+    skip-cert-verify: true 
 proxy-groups:
   - name: 🚀 节点选择
     type: select
