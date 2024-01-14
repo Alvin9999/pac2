@@ -12,12 +12,12 @@
   "outbounds": [
     {
       "type": "hysteria",
-      "tag": "Hysteria-3166",
+      "tag": "dongtaiwang.com",
       "server": "www.dtku50.xyz", 
-      "server_port": 28877,
+      "server_port": 33440,
       "up_mbps": 50, 
       "down_mbps": 100, 
-      "auth_str": "y6Sf5xTFyNx5",
+      "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
         "server_name": "www.dtku50.xyz", 
