@@ -13,8 +13,8 @@
     {
       "type": "hysteria",
       "tag": "dongtaiwang.com",
-      "server": "108.181.22.213", 
-      "server_port": 34500,
+      "server": "www.dtku50.xyz", 
+      "server_port": 11229,
       "up_mbps": 1000, 
       "down_mbps": 1000,
       "auth_str": "dongtaiwang.com",
@@ -31,4 +31,3 @@
   ] 
 	 
 }
-
