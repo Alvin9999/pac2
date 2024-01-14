@@ -14,15 +14,11 @@ dns:
     - tls://dns.google:853
 proxies:
   - name: ip1 
-    type: hysteria
+    type: hysteria2
     server: 108.181.2.155
-    port: 33345
-    auth-str: dongtaiwang.com
-    alpn:
-      - h3
-    protocol: udp
-    up: "11 Mbps"
-    down: "55 Mbps"
+    port: 22223
+    password: dongtaiwang.com
+    sni: bing.com
     skip-cert-verify: true 
 proxy-groups:
   - name: 🚀 节点选择
@@ -89,3 +85,4 @@ proxy-groups:
 
 rules:
   - MATCH,🚀 节点选择
+
