@@ -17,7 +17,7 @@ proxies:
     type: hysteria
     server: 64.110.25.10
     port: 44556
-    auth-str: mqoE9qSoyMFa
+    auth-str: dongtaiwang.com
     alpn:
       - h3
     protocol: udp
