@@ -16,7 +16,7 @@ proxies:
   - name: ip 
     type: hysteria
     server: www.dtku46.xyz
-    port: 44556
+    port: 11223
     auth-str: dongtaiwang.com
     alpn:
       - h3
