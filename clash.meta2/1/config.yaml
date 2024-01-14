@@ -15,19 +15,8 @@ dns:
 proxies:
   - name: ip1 
     type: hysteria
-    server: 167.160.90.251
+    server: 167.160.90.252
     port: 48089
-    auth-str: dongtaiwang.com
-    alpn:
-      - h3
-    protocol: udp
-    up: "11 Mbps"
-    down: "55 Mbps"
-    skip-cert-verify: true 
-  - name: ip2 
-    type: hysteria
-    server: 108.181.22.239
-    port: 41146
     auth-str: dongtaiwang.com
     alpn:
       - h3
@@ -42,7 +31,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - ip1
-      - ip2
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -50,7 +38,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - ip1
-      - ip2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -58,28 +45,24 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - ip1
-      - ip2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ip1
-      - ip2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - ip1
-      - ip2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ip1
-      - ip2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -103,7 +86,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - ip1
-      - ip2
 
 rules:
   - MATCH,🚀 节点选择
