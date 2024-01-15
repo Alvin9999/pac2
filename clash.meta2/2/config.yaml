@@ -13,17 +13,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: ip 
-    type: hysteria
-    server: 111.243.97.209
-    port: 22334
-    auth-str: dongtaiwang.com
-    alpn:
-      - h3
-    protocol: udp
-    up: "11 Mbps"
-    down: "55 Mbps"
-    skip-cert-verify: true 
+  - {"name":"ip","type":"vmess","server":"cloudflare.cfgo.cc","port":443,"cipher":"auto","uuid":"f5c180eb-fbce-49ac-9029-482eca9385c0","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/gzogws","headers":{"host":"xray1.freeh1.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
