@@ -15,7 +15,7 @@ dns:
 proxies:
   - name: ip 
     type: hysteria
-    server: 111.243.97.209
+    server: www2.dtku48.xyz
     port: 22334
     auth-str: dongtaiwang.com
     alpn:
