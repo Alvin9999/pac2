@@ -13,53 +13,52 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"ip1","type":"vless","server":"dongtaiwang3.com","port":443,"uuid":"a9202ced-3185-489c-8b28-74e9a00d894d","tls":true,"servername":"dongtaiwang.dtku47.xyz","network":"ws","ws-opts":{"path":"/eobjws","headers":{"host":"dongtaiwang.dtku47.xyz"}},"client-fingerprint":"chrome"}
-  - {"name":"ip1-2","type":"vless","server":"dongtaiwang2.com","port":443,"uuid":"a9202ced-3185-489c-8b28-74e9a00d894d","tls":true,"servername":"dongtaiwang.dtku47.xyz","network":"ws","ws-opts":{"path":"/eobjws","headers":{"host":"dongtaiwang.dtku47.xyz"}},"client-fingerprint":"chrome"}
+  - name: ip
+    type: hysteria2
+    server: 108.181.24.77
+    port: 18775
+    password: dongtaiwang.com
+    sni: bing.com
+    skip-cert-verify: true 
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ip1
-      - ip1-2
+      - ip
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ip1
-      - ip1-2
+      - ip
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ip1
-      - ip1-2
+      - ip
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ip1
-      - ip1-2
+      - ip
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ip1
-      - ip1-2
+      - ip
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ip1
-      - ip1-2
+      - ip
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -82,8 +81,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ip1
-      - ip1-2
+      - ip
 
 rules:
   - MATCH,🚀 节点选择
+
