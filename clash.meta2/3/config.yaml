@@ -13,7 +13,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"ip","type":"vmess","server":"cloudflare.cfgo.cc","port":443,"cipher":"auto","uuid":"f5c180eb-fbce-49ac-9029-482eca9385c0","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/gzogws","headers":{"host":"xray1.freeh1.xyz"}}}
+  - {"name":"ip","type":"vmess","server":"dongtaiwang3.com","port":443,"cipher":"auto","uuid":"f5c180eb-fbce-49ac-9029-482eca9385c0","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/gzogws","headers":{"host":"xray1.freeh1.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
