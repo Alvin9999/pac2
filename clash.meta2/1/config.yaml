@@ -13,53 +13,46 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"ip1","type":"vless","server":"dongtaiwang3.com","port":443,"uuid":"a9202ced-3185-489c-8b28-74e9a00d894d","tls":true,"servername":"dongtaiwang.dtku47.xyz","network":"ws","ws-opts":{"path":"/eobjws","headers":{"host":"dongtaiwang.dtku47.xyz"}},"client-fingerprint":"chrome"}
-  - {"name":"ip1-2","type":"vless","server":"dongtaiwang2.com","port":443,"uuid":"a9202ced-3185-489c-8b28-74e9a00d894d","tls":true,"servername":"dongtaiwang.dtku47.xyz","network":"ws","ws-opts":{"path":"/eobjws","headers":{"host":"dongtaiwang.dtku47.xyz"}},"client-fingerprint":"chrome"}
+- {name: "ip", type: ss, server: 167.160.90.252, port: 8883, cipher: 2022-blake3-aes-128-gcm, password: "lolvK9uAhEDYTMuqCRblBg==", plugin: shadow-tls, client-fingerprint: chrome, plugin-opts: {host: "addons.mozilla.org", password: "d3971b31-e16b-4af2-b430-afb896380543", version: 3}, smux: { enabled: true, protocol: 'h2mux', padding: true, max-connections: '8', min-streams: '16', statistic: true, only-tcp: false } }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ip1
-      - ip1-2
+      - ip
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ip1
-      - ip1-2
+      - ip
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ip1
-      - ip1-2
+      - ip
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ip1
-      - ip1-2
+      - ip
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ip1
-      - ip1-2
+      - ip
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ip1
-      - ip1-2
+      - ip
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -82,12 +75,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ip1
-      - ip1-2
+      - ip
 
 rules:
   - MATCH,🚀 节点选择
-
-
-
 
