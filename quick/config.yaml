@@ -13,46 +13,46 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"quick_ip1","type":"hysteria","server":"62.204.54.81","port":62946,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"dongtaiwang.com","up":5,"down":10}
+- {name: "ip", type: hysteria2, server: 45.150.165.84, port: 33445,  password: 736e5d71-c0c1-4cba-8de6-ed4c4ef6fb02, obfs: salamander, obfs-password: 736e5d71-c0c1-4cba-8de6-ed4c4ef6fb02, skip-cert-verify: true, up: "2 Mbps", down: "10 Mbps",}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - quick_ip1
+      - ip
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - quick_ip1
+      - ip
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - quick_ip1
+      - ip
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - quick_ip1
+      - ip
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - quick_ip1
+      - ip
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - quick_ip1
+      - ip
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -75,7 +75,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - quick_ip1
+      - ip
 
 rules:
   - MATCH,🚀 节点选择
+
