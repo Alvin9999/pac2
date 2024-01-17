@@ -1,5 +1,6 @@
+
 {
-"server": "167.160.91.115:41189",
+"server": "51.158.54.46:55396",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
@@ -14,12 +15,12 @@
 "disable_udp": false
 },
 "obfs": "",
-"auth_str": "bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF",
+"auth_str": "dongtaiwang.com",
 "alpn": "h3",
-"server_name": "www.amazon.cn",
+"server_name": "youku.com",
 "insecure": true,
-"recv_window_conn": 5767168,
-"recv_window": 23068672,
+"recv_window_conn": 115343360,
+"recv_window": 461373440,
 "disable_mtu_discovery": true,
 "resolver": "https://223.5.5.5/dns-query",
 "retry": 3,
