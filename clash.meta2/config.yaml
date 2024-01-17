@@ -13,7 +13,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"ip","type":"vmess","server":"dongtaiwang2.com","port":443,"cipher":"auto","uuid":"f5c180eb-fbce-49ac-9029-482eca9385c0","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/gzogws","headers":{"host":"xray1.freeh1.xyz"}}}
+- {name: "ip", type: ss, server: 167.160.90.252, port: 8883, cipher: 2022-blake3-aes-128-gcm, password: "lolvK9uAhEDYTMuqCRblBg==", plugin: shadow-tls, client-fingerprint: chrome, plugin-opts: {host: "addons.mozilla.org", password: "d3971b31-e16b-4af2-b430-afb896380543", version: 3}, smux: { enabled: true, protocol: 'h2mux', padding: true, max-connections: '8', min-streams: '16', statistic: true, only-tcp: false } }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
