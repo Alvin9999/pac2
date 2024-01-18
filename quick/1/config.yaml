@@ -13,7 +13,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-- {name: "ip", type: hysteria2, server: 51.158.54.46, port: 23400, up: "11 Mbps", down: "55 Mbps", password: d64df453-34f0-4fa8-b115-e6805f6d54db, obfs: salamander, obfs-password: d64df453-34f0-4fa8-b115-e6805f6d54db, skip-cert-verify: true}
+- {name: "ip", type: hysteria2, server: 51.158.54.46, password: d64df453-34f0-4fa8-b115-e6805f6d54db, obfs: salamander, obfs-password: d64df453-34f0-4fa8-b115-e6805f6d54db, skip-cert-verify: true, port: 23400, up: "11 Mbps", down: "55 Mbps"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
