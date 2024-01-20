@@ -13,46 +13,46 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"ip1","type":"vless","server":"dongtaiwang2.com","port":443,"uuid":"869d601c-9e4c-4e83-b816-bb553234aaea","tls":true,"servername":"dongtaiwang.freeh1.xyz","network":"ws","ws-opts":{"path":"/pxzaws","headers":{"host":"dongtaiwang.freeh1.xyz"}},"client-fingerprint":"chrome"}
+  - {"name":"ip4","type":"vless","server":"fr.freeh1.xyz","port":443,"uuid":"7b671cd2-233d-406c-88da-1c687727dc52","tls":true,"servername":"fr.freeh1.xyz","network":"ws","ws-opts":{"path":"/kfhaws","headers":{"host":"fr.freeh1.xyz"}},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ip1
+      - ip4
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ip1
+      - ip4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ip1
+      - ip4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ip1
+      - ip4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ip1
+      - ip4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ip1
+      - ip4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -75,7 +75,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ip1
+      - ip4
 
 rules:
   - MATCH,🚀 节点选择
