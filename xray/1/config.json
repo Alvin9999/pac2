@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "dongtaiwang3.com",
+            "address": "fr.freeh1.xyz",
             "port": 443,
             "users": [
               {
-                "id": "ffb15cd2-0521-49de-b8aa-fb15d58c8075",
+                "id": "7b671cd2-233d-406c-88da-1c687727dc52",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -71,14 +71,14 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "v2ray3.freegradely.xyz",
+          "serverName": "fr.freeh1.xyz",
           "fingerprint": "chrome",
           "show": false
         },
         "wsSettings": {
-          "path": "/bqbows",
+          "path": "/kfhaws",
           "headers": {
-            "Host": "v2ray3.freegradely.xyz"
+            "Host": "fr.freeh1.xyz"
           }
         }
       },
