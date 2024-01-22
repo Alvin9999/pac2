@@ -13,7 +13,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"ip4","type":"vless","server":"cm.dongtaiwang3.com","port":443,"uuid":"7b671cd2-233d-406c-88da-1c687727dc52","tls":true,"servername":"fr.freeh1.xyz","network":"ws","ws-opts":{"path":"/kfhaws","headers":{"host":"fr.freeh1.xyz"}},"client-fingerprint":"chrome"}
+  - {"name":"ip4","type":"vless","server":"cu.dongtaiwang3.com","port":443,"uuid":"7b671cd2-233d-406c-88da-1c687727dc52","tls":true,"servername":"fr.freeh1.xyz","network":"ws","ws-opts":{"path":"/kfhaws","headers":{"host":"fr.freeh1.xyz"}},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
