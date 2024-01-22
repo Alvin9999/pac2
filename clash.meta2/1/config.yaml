@@ -14,7 +14,7 @@ dns:
     - tls://dns.google:853
 proxies:
   - {"name":"ip1","type":"vless","server":"dongtaiwang3.com","port":443,"uuid":"a9202ced-3185-489c-8b28-74e9a00d894d","tls":true,"servername":"dongtaiwang.dtku47.xyz","network":"ws","ws-opts":{"path":"/eobjws","headers":{"host":"dongtaiwang.dtku47.xyz"}},"client-fingerprint":"chrome"}
-  - {"name":"ip1-2","type":"vless","server":"fr.freeh1.xyz","port":443,"uuid":"7b671cd2-233d-406c-88da-1c687727dc52","tls":true,"servername":"fr.freeh1.xyz","network":"ws","ws-opts":{"path":"/kfhaws","headers":{"host":"fr.freeh1.xyz"}},"client-fingerprint":"chrome"}
+  - {"name":"ip1-2","type":"vless","server":"cu.dongtaiwang3.com","port":443,"uuid":"7b671cd2-233d-406c-88da-1c687727dc52","tls":true,"servername":"fr.freeh1.xyz","network":"ws","ws-opts":{"path":"/kfhaws","headers":{"host":"fr.freeh1.xyz"}},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
