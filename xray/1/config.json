@@ -55,7 +55,7 @@
             "port": 443,
             "users": [
               {
-                "id": "7b671cd2-233d-406c-88da-1c687727dc52",
+                "id": "ffb15cd2-0521-49de-b8aa-fb15d58c8075",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -71,14 +71,14 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "fr.freeh1.xyz",
+          "serverName": "v2ray3.freegradely.xyz",
           "fingerprint": "chrome",
           "show": false
         },
         "wsSettings": {
-          "path": "/kfhaws",
+          "path": "/bqbows",
           "headers": {
-            "Host": "fr.freeh1.xyz"
+            "Host": "v2ray3.freegradely.xyz"
           }
         }
       },
