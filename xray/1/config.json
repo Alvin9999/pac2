@@ -47,20 +47,18 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
             "address": "23.227.39.53",
-            "port": 443,
+            "port": 8080,
             "users": [
               {
-                "id": "ffb15cd2-0521-49de-b8aa-fb15d58c8075",
+                "id": "f59fc9c9-2a79-4a69-b6be-1cc39ca3a1c7",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
+                "security": "auto"
               }
             ]
           }
@@ -68,17 +66,10 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "v2ray3.freegradely.xyz",
-          "fingerprint": "chrome",
-          "show": false
-        },
         "wsSettings": {
-          "path": "/bqbows",
+          "path": "/I3aZT476/",
           "headers": {
-            "Host": "v2ray3.freegradely.xyz"
+            "Host": "dongtaiwang.freegradely.xyz"
           }
         }
       },
