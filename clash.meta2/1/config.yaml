@@ -13,8 +13,8 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"ip1","type":"vless","server":"23.227.38.51","port":443,"uuid":"7b671cd2-233d-406c-88da-1c687727dc52","tls":true,"servername":"fr.freeh1.xyz","network":"ws","ws-opts":{"path":"/kfhaws","headers":{"host":"fr.freeh1.xyz"}},"client-fingerprint":"chrome"}
-  - {"name":"ip1-2","type":"vless","server":"23.227.39.51","port":443,"uuid":"7b671cd2-233d-406c-88da-1c687727dc52","tls":true,"servername":"fr.freeh1.xyz","network":"ws","ws-opts":{"path":"/kfhaws","headers":{"host":"fr.freeh1.xyz"}},"client-fingerprint":"chrome"}
+  - {"name":"ip1","type":"vmess","server":"23.227.38.51","port":8080,"cipher":"auto","uuid":"f9c183a4-7d83-428c-8590-56f1252d8ba6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/Wg9ATORw/","headers":{"host":"fr2.freeh1.xyz"}}}
+  - {"name":"ip1-2","type":"vmess","server":"23.227.39.51","port":8080,"cipher":"auto","uuid":"f9c183a4-7d83-428c-8590-56f1252d8ba6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/Wg9ATORw/","headers":{"host":"fr2.freeh1.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
