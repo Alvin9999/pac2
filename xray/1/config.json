@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "23.227.39.53",
-            "port": 8080,
+            "address": "108.181.22.213",
+            "port": 11223,
             "users": [
               {
-                "id": "f59fc9c9-2a79-4a69-b6be-1cc39ca3a1c7",
+                "id": "28fcdcde-905c-482c-ab31-36a0f5abe931",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -65,13 +65,7 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/I3aZT476/",
-          "headers": {
-            "Host": "dongtaiwang.freegradely.xyz"
-          }
-        }
+        "network": "tcp"
       },
       "mux": {
         "enabled": false,
