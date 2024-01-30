@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "198.41.220.100",
-            "port": 443,
+            "address": "108.181.22.213",
+            "port": 11223,
             "users": [
               {
-                "id": "f5c180eb-fbce-49ac-9029-482eca9385c0",
+                "id": "28fcdcde-905c-482c-ab31-36a0f5abe931",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -65,19 +65,7 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "xray1.freeh1.xyz",
-          "show": false
-        },
-        "wsSettings": {
-          "path": "/gzogws",
-          "headers": {
-            "Host": "xray1.freeh1.xyz"
-          }
-        }
+        "network": "tcp"
       },
       "mux": {
         "enabled": false,
