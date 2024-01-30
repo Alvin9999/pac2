@@ -13,46 +13,53 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"ip","type":"vless","server":"198.41.220.101","port":443,"uuid":"ffb15cd2-0521-49de-b8aa-fb15d58c8075","tls":true,"servername":"v2ray3.freegradely.xyz","network":"ws","ws-opts":{"path":"/bqbows","headers":{"host":"v2ray3.freegradely.xyz"}},"client-fingerprint":"chrome"}
+  - {"name":"ip1","type":"vmess","server":"198.41.220.101","port":8080,"cipher":"auto","uuid":"f59fc9c9-2a79-4a69-b6be-1cc39ca3a1c7","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/I3aZT476/","headers":{"host":"dongtaiwang.freegradely.xyz"}}}
+  - {"name":"ip1-2","type":"vmess","server":"198.41.220.102","port":8080,"cipher":"auto","uuid":"f59fc9c9-2a79-4a69-b6be-1cc39ca3a1c7","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/I3aZT476/","headers":{"host":"dongtaiwang.freegradely.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ip
+      - ip1
+      - ip1-2
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ip
+      - ip1
+      - ip1-2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ip
+      - ip1
+      - ip1-2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ip
+      - ip1
+      - ip1-2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ip
+      - ip1
+      - ip1-2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ip
+      - ip1
+      - ip1-2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -75,7 +82,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ip
+      - ip1
+      - ip1-2
 
 rules:
   - MATCH,🚀 节点选择
