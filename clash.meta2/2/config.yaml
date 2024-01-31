@@ -1,3 +1,4 @@
+
 secret: dongtaiwang.com
 mixed-port: 7890
 allow-lan: false
@@ -13,7 +14,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"dongtaiwang.com_1","type":"vmess","server":"108.181.2.154","port":33445,"cipher":"auto","uuid":"7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"dongtaiwang.com_1","type":"vmess","server":"108.181.5.18","port":18657,"cipher":"auto","uuid":"636ba072-493e-4235-b7a8-822bd4e340d5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
