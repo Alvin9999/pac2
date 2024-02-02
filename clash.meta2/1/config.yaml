@@ -15,7 +15,6 @@ dns:
 proxies:
   - {"name":"dongtaiwang.com_1","type":"vless","server":"51.159.103.141","port":12207,"udp":true,"uuid":"63925418-7ae3-4da1-9e73-fb3fc5af6fdb","tls":true,"servername":"s0.awsstatic.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"A-DHKUq8W8KZKM1gr8xcKCoqKSct73NtdSjUZMhFcEM","short-id":"6ba85179e30d4fc2"},"client-fingerprint":"chrome"}
   - {"name":"dongtaiwang.com_2","type":"vless","server":"109.104.152.4","port":16414,"udp":true,"uuid":"80b5b4de-0619-4ac2-b1ff-f2bcc697b641","tls":true,"servername":"mensura.cdn-apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"QR_5pj5Kj8I3sO6-6ywnM7B1fE2-btdv-IFEas2JHgE","short-id":"6ba85179e30d4fc2"},"client-fingerprint":"chrome"}
-  - {"name":"dongtaiwang.com_3","type":"vless","server":"108.181.5.130","port":17346,"udp":true,"uuid":"7fc88217-1b18-49b7-bc50-bfe379dc6bf7","tls":true,"servername":"d1.awsstatic.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"O5x9mSGdETFh_ql4m_2dPEUNBVwCly9XSi9pu1teLls","short-id":"6ba85179e30d4fc2"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -24,7 +23,6 @@ proxy-groups:
       - DIRECT
       - dongtaiwang.com_1
       - dongtaiwang.com_2
-      - dongtaiwang.com_3
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -33,7 +31,6 @@ proxy-groups:
     proxies:
       - dongtaiwang.com_1
       - dongtaiwang.com_2
-      - dongtaiwang.com_3
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -42,7 +39,6 @@ proxy-groups:
       - 🎯 全球直连
       - dongtaiwang.com_1
       - dongtaiwang.com_2
-      - dongtaiwang.com_3
   - name: 📲 电报信息
     type: select
     proxies:
@@ -50,7 +46,6 @@ proxy-groups:
       - 🎯 全球直连
       - dongtaiwang.com_1
       - dongtaiwang.com_2
-      - dongtaiwang.com_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -58,7 +53,6 @@ proxy-groups:
       - 🚀 节点选择
       - dongtaiwang.com_1
       - dongtaiwang.com_2
-      - dongtaiwang.com_3
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -66,7 +60,6 @@ proxy-groups:
       - 🎯 全球直连
       - dongtaiwang.com_1
       - dongtaiwang.com_2
-      - dongtaiwang.com_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -91,7 +84,6 @@ proxy-groups:
       - ♻️ 自动选择
       - dongtaiwang.com_1
       - dongtaiwang.com_2
-      - dongtaiwang.com_3
 
 rules:
   - MATCH,🚀 节点选择
