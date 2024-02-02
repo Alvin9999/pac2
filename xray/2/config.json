@@ -47,25 +47,36 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "108.181.22.213",
-            "port": 11223,
+            "address": "109.104.152.4",
+            "port": 16414,
             "users": [
               {
-                "id": "28fcdcde-905c-482c-ab31-36a0f5abe931",
+                "id": "80b5b4de-0619-4ac2-b1ff-f2bcc697b641",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp"
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "mensura.cdn-apple.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "QR_5pj5Kj8I3sO6-6ywnM7B1fE2-btdv-IFEas2JHgE",
+          "shortId": "6ba85179e30d4fc2",
+          "spiderX": ""
+        }
       },
       "mux": {
         "enabled": false,
