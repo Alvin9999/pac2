@@ -13,7 +13,17 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"dongtaiwang.com_1","type":"vmess","server":"108.181.5.18","port":18657,"cipher":"auto","uuid":"636ba072-493e-4235-b7a8-822bd4e340d5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - name: dongtaiwang.com_1
+    type: hysteria
+    server: 108.181.5.20
+    port: 22881
+    auth-str: dongtaiwang.com
+    alpn:
+      - h3
+    protocol: udp
+    up: "11 Mbps"
+    down: "55 Mbps"
+    skip-cert-verify: true 
 proxy-groups:
   - name: 🚀 节点选择
     type: select
