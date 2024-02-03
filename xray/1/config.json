@@ -47,25 +47,36 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
             "address": "108.181.22.213",
-            "port": 11223,
+            "port": 28945,
             "users": [
               {
-                "id": "28fcdcde-905c-482c-ab31-36a0f5abe931",
+                "id": "9cc39477-0d85-4419-84d4-fb7fc77668b3",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp"
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "academy.nvidia.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "yKXmLTmXAi-BHBg3JpCz-NWUmVcKlfm7iMmVoq7YQx0",
+          "shortId": "6ba85179e30d4fc2",
+          "spiderX": ""
+        }
       },
       "mux": {
         "enabled": false,
