@@ -47,25 +47,36 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "62.210.100.235",
-            "port": 20138,
+            "address": "108.181.22.213",
+            "port": 28945,
             "users": [
               {
-                "id": "3de3fd56-cc9f-42bc-a7e3-608c8990c75f",
+                "id": "9cc39477-0d85-4419-84d4-fb7fc77668b3",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp"
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "m.media-amazon.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "yKXmLTmXAi-BHBg3JpCz-NWUmVcKlfm7iMmVoq7YQx0",
+          "shortId": "6ba85179e30d4fc2",
+          "spiderX": ""
+        }
       },
       "mux": {
         "enabled": false,
@@ -146,3 +157,4 @@
     ]
   }
 }
+
