@@ -70,7 +70,7 @@
         "network": "tcp",
         "security": "reality",
         "realitySettings": {
-          "serverName": "academy.nvidia.com",
+          "serverName": "m.media-amazon.com",
           "fingerprint": "chrome",
           "show": false,
           "publicKey": "yKXmLTmXAi-BHBg3JpCz-NWUmVcKlfm7iMmVoq7YQx0",
