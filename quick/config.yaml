@@ -13,46 +13,52 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-- {name: "ip", type: hysteria2, server: 45.150.165.84, port: 8881, password: d017e316-82cb-441c-8eea-7b5e9de64a20, obfs: salamander, obfs-password: d017e316-82cb-441c-8eea-7b5e9de64a20, skip-cert-verify: true, up: "2 Mbps", down: "10 Mbps"}
+  - name: ip1 
+    type: hysteria2
+    server: 51.158.54.46
+    port: 44550
+    password: dongtaiwang.com
+    sni: bing.com
+    skip-cert-verify: true 
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ip
+      - ip1
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ip
+      - ip1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ip
+      - ip1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ip
+      - ip1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ip
+      - ip1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ip
+      - ip1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -75,8 +81,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ip
+      - ip1
 
 rules:
   - MATCH,🚀 节点选择
-
+  
