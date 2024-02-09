@@ -28,6 +28,26 @@ proxies:
   - {"name":"freenode_13","type":"vless","server":"104.16.96.82","port":8443,"uuid":"ffffffff-17ad-45e7-aaa1-f2baaa08e930","tls":true,"servername":"watashi.free.jppublic.moh539.link","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"watashi.free.jppublic.moh539.link"}}}
   - {"name":"freenode_14","type":"vless","server":"35.247.175.120","port":48597,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"baipiao343.stunning-bassoon.pages.dev","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"baipiao343.stunning-bassoon.pages.dev"}}}
   - {"name":"freenode_15","type":"vless","server":"104.17.215.241","port":8443,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"kyd.cloudns.org"}}}
+  - {"name":"freenode_16","type":"vless","server":"104.17.214.39","port":8443,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"kyd.cloudns.org"}}}
+  - {"name":"freenode_17","type":"vless","server":"152.70.234.109","port":2086,"uuid":"7fd7c15d-95cd-4f5c-bf59-f21e5eb27580","tls":true,"servername":"3k.dabee.top","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"3k.dabee.top"}}}
+  - {"name":"freenode_18","type":"vless","server":"198.41.220.158","port":2087,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"kyd.cloudns.org"}}}
+  - {"name":"freenode_19","type":"vless","server":"104.17.210.128","port":2083,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"kyd.cloudns.org"}}}
+  - {"name":"freenode_20","type":"vless","server":"104.21.30.178","port":2087,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"kyd.cloudns.org"}}}
+  - {"name":"freenode_21","type":"vless","server":"104.17.210.138","port":2096,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"kyd.cloudns.org"}}}
+  - {"name":"freenode_22","type":"vless","server":"198.41.221.80","port":2083,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"kyd.cloudns.org"}}}
+  - {"name":"freenode_23","type":"vless","server":"198.41.221.237","port":443,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"kyd.cloudns.org"}}}
+  - {"name":"freenode_24","type":"vless","server":"104.21.17.151","port":443,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"pages.20230619.love"}}}
+  - {"name":"freenode_25","type":"vless","server":"104.17.221.226","port":2096,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"kyd.cloudns.org"}}}
+  - {"name":"freenode_26","type":"vless","server":"104.21.0.236","port":8443,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"pages.20230619.love"}}}
+  - {"name":"freenode_27","type":"vless","server":"104.17.219.35","port":2096,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"kyd.cloudns.org"}}}
+  - {"name":"freenode_28","type":"vless","server":"jgw.wshyx.pp.ua","port":2087,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"pages.20230619.love"}}}
+  - {"name":"freenode_29","type":"vless","server":"198.41.221.12","port":2096,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"kyd.cloudns.org"}}}
+  - {"name":"freenode_30","type":"vless","server":"104.21.28.147","port":2083,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"kyd.cloudns.org"}}}
+  - {"name":"freenode_31","type":"vless","server":"198.41.209.150","port":8443,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"kyd.cloudns.org"}}}
+  - {"name":"freenode_32","type":"vless","server":"104.19.155.11","port":8443,"uuid":"ffffffff-17ad-45e7-aaa1-f2baaa08e930","tls":true,"servername":"watashi.free.jppublic.moh539.link","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"watashi.free.jppublic.moh539.link"}}}
+  - {"name":"freenode_33","type":"vless","server":"104.21.4.246","port":2083,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"edgood.king361.cf","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"edgood.king361.cf"}}}
+  - {"name":"freenode_34","type":"vless","server":"104.16.96.218","port":2087,"uuid":"ffffffff-17ad-45e7-aaa1-f2baaa08e930","tls":true,"servername":"watashi.free.jppublic.moh539.link","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"watashi.free.jppublic.moh539.link"}}}
+  - {"name":"freenode_35","type":"vless","server":"lilijuly.pp.ua","port":8443,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"pages.20230619.love"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -49,6 +69,26 @@ proxy-groups:
       - freenode_13
       - freenode_14
       - freenode_15
+      - freenode_16
+      - freenode_17
+      - freenode_18
+      - freenode_19
+      - freenode_20
+      - freenode_21
+      - freenode_22
+      - freenode_23
+      - freenode_24
+      - freenode_25
+      - freenode_26
+      - freenode_27
+      - freenode_28
+      - freenode_29
+      - freenode_30
+      - freenode_31
+      - freenode_32
+      - freenode_33
+      - freenode_34
+      - freenode_35
 
   - name: ♻️ 自动选择
     type: url-test
@@ -71,6 +111,27 @@ proxy-groups:
       - freenode_13
       - freenode_14
       - freenode_15
+      - freenode_16
+      - freenode_17
+      - freenode_18
+      - freenode_19
+      - freenode_20
+      - freenode_21
+      - freenode_22
+      - freenode_23
+      - freenode_24
+      - freenode_25
+      - freenode_26
+      - freenode_27
+      - freenode_28
+      - freenode_29
+      - freenode_30
+      - freenode_31
+      - freenode_32
+      - freenode_33
+      - freenode_34
+      - freenode_35
+
 
   - name: 🌍 国外媒体
     type: select
@@ -93,6 +154,27 @@ proxy-groups:
       - freenode_13
       - freenode_14
       - freenode_15
+      - freenode_16
+      - freenode_17
+      - freenode_18
+      - freenode_19
+      - freenode_20
+      - freenode_21
+      - freenode_22
+      - freenode_23
+      - freenode_24
+      - freenode_25
+      - freenode_26
+      - freenode_27
+      - freenode_28
+      - freenode_29
+      - freenode_30
+      - freenode_31
+      - freenode_32
+      - freenode_33
+      - freenode_34
+      - freenode_35
+
 
   - name: 📲 电报信息
     type: select
@@ -114,6 +196,27 @@ proxy-groups:
       - freenode_13
       - freenode_14
       - freenode_15
+      - freenode_16
+      - freenode_17
+      - freenode_18
+      - freenode_19
+      - freenode_20
+      - freenode_21
+      - freenode_22
+      - freenode_23
+      - freenode_24
+      - freenode_25
+      - freenode_26
+      - freenode_27
+      - freenode_28
+      - freenode_29
+      - freenode_30
+      - freenode_31
+      - freenode_32
+      - freenode_33
+      - freenode_34
+      - freenode_35
+
 
   - name: Ⓜ️ 微软服务
     type: select
@@ -135,6 +238,27 @@ proxy-groups:
       - freenode_13
       - freenode_14
       - freenode_15
+      - freenode_16
+      - freenode_17
+      - freenode_18
+      - freenode_19
+      - freenode_20
+      - freenode_21
+      - freenode_22
+      - freenode_23
+      - freenode_24
+      - freenode_25
+      - freenode_26
+      - freenode_27
+      - freenode_28
+      - freenode_29
+      - freenode_30
+      - freenode_31
+      - freenode_32
+      - freenode_33
+      - freenode_34
+      - freenode_35
+
 
   - name: 🍎 苹果服务
     type: select
@@ -156,6 +280,27 @@ proxy-groups:
       - freenode_13
       - freenode_14
       - freenode_15
+      - freenode_16
+      - freenode_17
+      - freenode_18
+      - freenode_19
+      - freenode_20
+      - freenode_21
+      - freenode_22
+      - freenode_23
+      - freenode_24
+      - freenode_25
+      - freenode_26
+      - freenode_27
+      - freenode_28
+      - freenode_29
+      - freenode_30
+      - freenode_31
+      - freenode_32
+      - freenode_33
+      - freenode_34
+      - freenode_35
+
 
   - name: 🎯 全球直连
     type: select
@@ -194,6 +339,27 @@ proxy-groups:
       - freenode_13
       - freenode_14
       - freenode_15
+      - freenode_16
+      - freenode_17
+      - freenode_18
+      - freenode_19
+      - freenode_20
+      - freenode_21
+      - freenode_22
+      - freenode_23
+      - freenode_24
+      - freenode_25
+      - freenode_26
+      - freenode_27
+      - freenode_28
+      - freenode_29
+      - freenode_30
+      - freenode_31
+      - freenode_32
+      - freenode_33
+      - freenode_34
+      - freenode_35
+
 
 
 rules:
