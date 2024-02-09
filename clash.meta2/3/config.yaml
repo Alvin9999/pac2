@@ -36,7 +36,7 @@ proxy-groups:
       - dongtaiwang.com_6
       - dongtaiwang.com_7
       - dongtaiwang.com_8
-
+      - dongtaiwang.com_9
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -51,7 +51,7 @@ proxy-groups:
       - dongtaiwang.com_6
       - dongtaiwang.com_7
       - dongtaiwang.com_8
-
+      - dongtaiwang.com_9
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -66,7 +66,7 @@ proxy-groups:
       - dongtaiwang.com_6
       - dongtaiwang.com_7
       - dongtaiwang.com_8
-
+      - dongtaiwang.com_9
   - name: 📲 电报信息
     type: select
     proxies:
@@ -80,7 +80,7 @@ proxy-groups:
       - dongtaiwang.com_6
       - dongtaiwang.com_7
       - dongtaiwang.com_8
-
+      - dongtaiwang.com_9
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -94,7 +94,7 @@ proxy-groups:
       - dongtaiwang.com_6
       - dongtaiwang.com_7
       - dongtaiwang.com_8
-
+      - dongtaiwang.com_9
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -108,7 +108,7 @@ proxy-groups:
       - dongtaiwang.com_6
       - dongtaiwang.com_7
       - dongtaiwang.com_8
-
+      - dongtaiwang.com_9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -139,7 +139,7 @@ proxy-groups:
       - dongtaiwang.com_6
       - dongtaiwang.com_7
       - dongtaiwang.com_8
-
+      - dongtaiwang.com_9
 
 rules:
   - MATCH,🚀 节点选择
