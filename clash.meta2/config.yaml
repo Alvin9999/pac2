@@ -13,578 +13,102 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"freenode2_1","type":"vless","server":"104.21.2.65","port":2053,"uuid":"7fd7c15d-95cd-4f5c-bf59-f21e5eb27580","tls":true,"servername":"3k.dabee.top","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"3k.dabee.top"}}}
-  - {"name":"freenode2_2","type":"vless","server":"104.21.2.194","port":2096,"uuid":"7fd7c15d-95cd-4f5c-bf59-f21e5eb27580","tls":true,"servername":"3k.dabee.top","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"3k.dabee.top"}}}
-  - {"name":"freenode2_3","type":"vless","server":"dytyna.pp.ua","port":2083,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"pages.20230619.love"}}}
-  - {"name":"freenode2_4","type":"vless","server":"104.21.5.24","port":2087,"uuid":"73b6dbd5-a27a-4c76-9ad1-42a82380dddb","tls":true,"servername":"ed.ariesver.online","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"ed.ariesver.online"}}}
-  - {"name":"freenode2_5","type":"vless","server":"104.19.174.72","port":443,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"pages.20230619.love"}}}
-  - {"name":"freenode2_6","type":"vless","server":"104.21.2.139","port":2087,"uuid":"7fd7c15d-95cd-4f5c-bf59-f21e5eb27580","tls":true,"servername":"3k.dabee.top","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"3k.dabee.top"}}}
-  - {"name":"freenode2_7","type":"vless","server":"104.21.0.224","port":2083,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"pages.20230619.love"}}}
-  - {"name":"freenode2_8","type":"vless","server":"gb1.vlessx.xyz","port":8443,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"pages.20230619.love"}}}
-  - {"name":"freenode2_9","type":"vless","server":"104.21.5.238","port":443,"uuid":"73b6dbd5-a27a-4c76-9ad1-42a82380dddb","tls":true,"servername":"ed.ariesver.online","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"ed.ariesver.online"}}}
-  - {"name":"freenode2_10","type":"vless","server":"104.21.4.245","port":2053,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"edgood.king361.cf","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"edgood.king361.cf"}}}
-  - {"name":"freenode2_11","type":"vless","server":"104.16.96.55","port":2087,"uuid":"ffffffff-17ad-45e7-aaa1-f2baaa08e930","tls":true,"servername":"watashi.free.jppublic.moh539.link","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"watashi.free.jppublic.moh539.link"}}}
-  - {"name":"freenode2_12","type":"vless","server":"104.21.12.37","port":8443,"uuid":"7fd7c15d-95cd-4f5c-bf59-f21e5eb27580","tls":true,"servername":"3k.dabee.top","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"3k.dabee.top"}}}
-  - {"name":"freenode2_13","type":"vless","server":"104.21.15.147","port":2096,"uuid":"73b6dbd5-a27a-4c76-9ad1-42a82380dddb","tls":true,"servername":"ed.ariesver.online","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"ed.ariesver.online"}}}
-  - {"name":"freenode2_14","type":"vless","server":"jp11.vlessx.xyz","port":8443,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"pages.20230619.love"}}}
-  - {"name":"freenode2_15","type":"vless","server":"104.21.15.241","port":443,"uuid":"73b6dbd5-a27a-4c76-9ad1-42a82380dddb","tls":true,"servername":"ed.ariesver.online","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"ed.ariesver.online"}}}
-  - {"name":"freenode2_16","type":"vless","server":"104.21.2.250","port":2087,"uuid":"7fd7c15d-95cd-4f5c-bf59-f21e5eb27580","tls":true,"servername":"3k.dabee.top","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"3k.dabee.top"}}}
-  - {"name":"freenode2_17","type":"vless","server":"198.41.221.213","port":2087,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"kyd.cloudns.org"}}}
-  - {"name":"freenode2_18","type":"vless","server":"104.21.2.119","port":2083,"uuid":"7fd7c15d-95cd-4f5c-bf59-f21e5eb27580","tls":true,"servername":"3k.dabee.top","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"3k.dabee.top"}}}
-  - {"name":"freenode2_19","type":"vless","server":"104.21.28.133","port":8443,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"kyd.cloudns.org"}}}
-  - {"name":"freenode2_20","type":"vless","server":"104.21.5.103","port":2096,"uuid":"73b6dbd5-a27a-4c76-9ad1-42a82380dddb","tls":true,"servername":"ed.ariesver.online","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"ed.ariesver.online"}}}
-  - {"name":"freenode2_21","type":"vless","server":"104.21.30.245","port":2083,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"kyd.cloudns.org"}}}
-  - {"name":"freenode2_22","type":"vless","server":"198.41.208.160","port":8443,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"kyd.cloudns.org"}}}
-  - {"name":"freenode2_23","type":"vless","server":"de5.vlessx.xyz","port":8443,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"pages.20230619.love"}}}
-  - {"name":"freenode2_24","type":"vless","server":"nl54.vlessx.us","port":8443,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"pages.20230619.love"}}}
-  - {"name":"freenode2_25","type":"vless","server":"104.21.12.54","port":2083,"uuid":"7fd7c15d-95cd-4f5c-bf59-f21e5eb27580","tls":true,"servername":"3k.dabee.top","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"3k.dabee.top"}}}
-  - {"name":"freenode2_26","type":"vless","server":"www.ipget.net","port":2087,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ss2.wang66.homes","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"ss2.wang66.homes"}}}
-  - {"name":"freenode2_27","type":"vless","server":"172.64.89.170","port":443,"uuid":"b9ad895b-12ac-40fc-a5ac-a5b2a1285001","tls":true,"servername":"3k.pureboy.eu.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"3k.pureboy.eu.org"}}}
-  - {"name":"freenode2_28","type":"vless","server":"104.21.4.130","port":2087,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"edgood.king361.cf","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"edgood.king361.cf"}}}
-  - {"name":"freenode2_29","type":"vless","server":"104.21.0.199","port":2053,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"pages.20230619.love"}}}
-  - {"name":"freenode2_30","type":"vless","server":"ipv6.yuhe9555proton.pp.ua","port":2087,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"pages.20230619.love"}}}
-  - {"name":"freenode2_31","type":"vless","server":"104.21.4.179","port":2087,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"edgood.king361.cf","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"edgood.king361.cf"}}}
-  - {"name":"freenode2_32","type":"vless","server":"smi.pp.ua","port":2096,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"pages.20230619.love"}}}
-  - {"name":"freenode2_33","type":"vless","server":"104.21.5.70","port":443,"uuid":"73b6dbd5-a27a-4c76-9ad1-42a82380dddb","tls":true,"servername":"ed.ariesver.online","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"ed.ariesver.online"}}}
-  - {"name":"freenode2_34","type":"vless","server":"104.21.5.236","port":8443,"uuid":"73b6dbd5-a27a-4c76-9ad1-42a82380dddb","tls":true,"servername":"ed.ariesver.online","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"ed.ariesver.online"}}}
-  - {"name":"freenode2_35","type":"vless","server":"104.21.1.57","port":2087,"uuid":"ffffffff-17ad-45e7-aaa1-f2baaa08e930","tls":true,"servername":"watashi.free.jppublic.moh539.link","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"watashi.free.jppublic.moh539.link"}}}
-  - {"name":"freenode2_36","type":"vless","server":"www.butech.pp.ua","port":2087,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"pages.20230619.love"}}}
-  - {"name":"freenode2_37","type":"vless","server":"104.21.15.177","port":8443,"uuid":"73b6dbd5-a27a-4c76-9ad1-42a82380dddb","tls":true,"servername":"ed.ariesver.online","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"ed.ariesver.online"}}}
-  - {"name":"freenode2_38","type":"vless","server":"104.21.15.36","port":8443,"uuid":"73b6dbd5-a27a-4c76-9ad1-42a82380dddb","tls":true,"servername":"ed.ariesver.online","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"ed.ariesver.online"}}}
-  - {"name":"freenode2_39","type":"vless","server":"104.21.5.200","port":2083,"uuid":"73b6dbd5-a27a-4c76-9ad1-42a82380dddb","tls":true,"servername":"ed.ariesver.online","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"ed.ariesver.online"}}}
-  - {"name":"freenode2_40","type":"vless","server":"104.21.4.164","port":2083,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"edgood.king361.cf","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"edgood.king361.cf"}}}
-  - {"name":"freenode2_41","type":"vless","server":"104.21.4.248","port":2087,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"edgood.king361.cf","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"edgood.king361.cf"}}}
-  - {"name":"freenode2_42","type":"vless","server":"104.21.2.189","port":2087,"uuid":"7fd7c15d-95cd-4f5c-bf59-f21e5eb27580","tls":true,"servername":"3k.dabee.top","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"3k.dabee.top"}}}
-  - {"name":"freenode2_43","type":"vless","server":"104.21.30.234","port":8443,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"kyd.cloudns.org"}}}
-  - {"name":"freenode2_44","type":"vless","server":"104.21.2.83","port":2087,"uuid":"7fd7c15d-95cd-4f5c-bf59-f21e5eb27580","tls":true,"servername":"3k.dabee.top","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"3k.dabee.top"}}}
-  - {"name":"freenode2_45","type":"vless","server":"104.21.5.253","port":2083,"uuid":"73b6dbd5-a27a-4c76-9ad1-42a82380dddb","tls":true,"servername":"ed.ariesver.online","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"ed.ariesver.online"}}}
-  - {"name":"freenode2_46","type":"vless","server":"nl46.vlessx.us","port":8443,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"pages.20230619.love"}}}
-  - {"name":"freenode2_47","type":"vless","server":"104.21.15.241","port":2087,"uuid":"73b6dbd5-a27a-4c76-9ad1-42a82380dddb","tls":true,"servername":"ed.ariesver.online","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"ed.ariesver.online"}}}
-  - {"name":"freenode2_48","type":"vless","server":"104.21.4.134","port":2053,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"edgood.king361.cf","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"edgood.king361.cf"}}}
-  - {"name":"freenode2_49","type":"vless","server":"104.21.0.48","port":2053,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"pages.20230619.love"}}}
-  - {"name":"freenode2_50","type":"vless","server":"104.21.5.154","port":8443,"uuid":"73b6dbd5-a27a-4c76-9ad1-42a82380dddb","tls":true,"servername":"ed.ariesver.online","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"ed.ariesver.online"}}}
-  - {"name":"freenode2_51","type":"vless","server":"104.21.26.237","port":2083,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"kyd.cloudns.org"}}}
-  - {"name":"freenode2_52","type":"vless","server":"104.21.24.70","port":2096,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"kyd.cloudns.org"}}}
-  - {"name":"freenode2_53","type":"vless","server":"104.21.28.9","port":2053,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"kyd.cloudns.org"}}}
-  - {"name":"freenode2_54","type":"vless","server":"104.21.2.60","port":443,"uuid":"7fd7c15d-95cd-4f5c-bf59-f21e5eb27580","tls":true,"servername":"3k.dabee.top","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"3k.dabee.top"}}}
-  - {"name":"freenode2_55","type":"vless","server":"104.21.0.248","port":2096,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"pages.20230619.love"}}}
-  - {"name":"freenode2_56","type":"vless","server":"104.21.5.66","port":2096,"uuid":"73b6dbd5-a27a-4c76-9ad1-42a82380dddb","tls":true,"servername":"ed.ariesver.online","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"ed.ariesver.online"}}}
-  - {"name":"freenode2_57","type":"vless","server":"104.16.32.40","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"baipiao406.stunning-bassoon.pages.dev","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"baipiao406.stunning-bassoon.pages.dev"}}}
-  - {"name":"freenode2_58","type":"vless","server":"104.21.0.222","port":443,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"pages.20230619.love"}}}
-  - {"name":"freenode2_59","type":"vless","server":"198.41.208.243","port":8443,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"kyd.cloudns.org"}}}
-  - {"name":"freenode2_60","type":"vless","server":"104.21.2.242","port":2087,"uuid":"7fd7c15d-95cd-4f5c-bf59-f21e5eb27580","tls":true,"servername":"3k.dabee.top","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"3k.dabee.top"}}}
-  - {"name":"freenode2_61","type":"vless","server":"104.21.24.40","port":443,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"kyd.cloudns.org"}}}
-  - {"name":"freenode2_62","type":"vless","server":"kr2.vlessx.xyz","port":8443,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"pages.20230619.love"}}}
-  - {"name":"freenode2_63","type":"vless","server":"104.21.2.155","port":2083,"uuid":"7fd7c15d-95cd-4f5c-bf59-f21e5eb27580","tls":true,"servername":"3k.dabee.top","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"3k.dabee.top"}}}
-  - {"name":"freenode2_64","type":"vless","server":"104.21.59.125","port":443,"uuid":"b9ad895b-12ac-40fc-a5ac-a5b2a1285001","tls":true,"servername":"3k.pureboy.eu.org","network":"ws","ws-opts":{"path":"shabi","headers":{"host":"3k.pureboy.eu.org"}}}
-  - {"name":"freenode2_65","type":"vless","server":"104.21.43.16","port":443,"uuid":"b9ad895b-12ac-40fc-a5ac-a5b2a1285001","tls":true,"servername":"3k.pureboy.eu.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"3k.pureboy.eu.org"}}}
-  - {"name":"freenode2_66","type":"vless","server":"ipv6.yuhe9555proton.pp.ua","port":8443,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"pages.20230619.love"}}}
-  - {"name":"freenode2_67","type":"vless","server":"104.21.2.1","port":2083,"uuid":"7fd7c15d-95cd-4f5c-bf59-f21e5eb27580","tls":true,"servername":"3k.dabee.top","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"3k.dabee.top"}}}
-  - {"name":"freenode2_68","type":"vless","server":"104.16.97.212","port":2083,"uuid":"ffffffff-17ad-45e7-aaa1-f2baaa08e930","tls":true,"servername":"watashi.free.jppublic.moh539.link","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"watashi.free.jppublic.moh539.link"}}}
-  - {"name":"freenode2_69","type":"vless","server":"104.21.2.74","port":8443,"uuid":"7fd7c15d-95cd-4f5c-bf59-f21e5eb27580","tls":true,"servername":"3k.dabee.top","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"3k.dabee.top"}}}
-  - {"name":"freenode2_70","type":"vless","server":"104.21.5.78","port":2083,"uuid":"73b6dbd5-a27a-4c76-9ad1-42a82380dddb","tls":true,"servername":"ed.ariesver.online","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"ed.ariesver.online"}}}
-  - {"name":"freenode2_71","type":"vless","server":"104.21.2.159","port":8443,"uuid":"7fd7c15d-95cd-4f5c-bf59-f21e5eb27580","tls":true,"servername":"3k.dabee.top","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"3k.dabee.top"}}}
-  - {"name":"freenode2_72","type":"vless","server":"104.21.5.109","port":2053,"uuid":"73b6dbd5-a27a-4c76-9ad1-42a82380dddb","tls":true,"servername":"ed.ariesver.online","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"ed.ariesver.online"}}}
-  - {"name":"freenode2_73","type":"vless","server":"198.41.209.254","port":443,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"kyd.cloudns.org"}}}
-  - {"name":"freenode2_74","type":"vless","server":"www.microfix.pp.ua","port":2083,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"pages.20230619.love"}}}
-  - {"name":"freenode2_75","type":"vless","server":"104.21.17.178","port":2083,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"pages.20230619.love"}}}
-  - {"name":"freenode2_76","type":"vless","server":"104.21.2.115","port":443,"uuid":"7fd7c15d-95cd-4f5c-bf59-f21e5eb27580","tls":true,"servername":"3k.dabee.top","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"3k.dabee.top"}}}
-  - {"name":"freenode2_77","type":"vless","server":"104.21.5.209","port":2053,"uuid":"73b6dbd5-a27a-4c76-9ad1-42a82380dddb","tls":true,"servername":"ed.ariesver.online","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"ed.ariesver.online"}}}
+  - {"name":"dongtaiwang.com_1","type":"vmess","server":"www.darkroom.lol","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.darkroom.lol"}}}
+  - {"name":"dongtaiwang.com_2","type":"vmess","server":"data-us-v1.shwjfkw.cn","port":20401,"cipher":"auto","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/debian","headers":{"host":"data-us-v1.shwjfkw.cn"}}}
+  - {"name":"dongtaiwang.com_3","type":"ss","server":"service.ouluyun9803.com","port":20003,"password":"d6105bbd-be0d-45b2-82ad-31fd1071c1d2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"dongtaiwang.com_4","type":"vmess","server":"104.21.82.183","port":8880,"cipher":"auto","uuid":"5a7021e0-26b4-45d6-b175-fe551601ca97","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"server26.beheshtbaneh.com"}}}
+  - {"name":"dongtaiwang.com_5","type":"ss","server":"service.ouluyun9803.com","port":20005,"password":"d6105bbd-be0d-45b2-82ad-31fd1071c1d2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"dongtaiwang.com_6","type":"ss","server":"109.104.152.161","port":12345,"password":"dongtaiwang.com","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"dongtaiwang.com_7","type":"ss","server":"109.104.152.33","port":12345,"password":"dongtaiwang.com","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"dongtaiwang.com_8","type":"ss","server":"64.31.55.124","port":12345,"password":"dongtaiwang.com","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"dongtaiwang.com_9","type":"ss","server":"111.243.98.243","port":12345,"password":"dongtaiwang.com","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - freenode2_1
-      - freenode2_2
-      - freenode2_3
-      - freenode2_4
-      - freenode2_5
-      - freenode2_6
-      - freenode2_7
-      - freenode2_8
-      - freenode2_9
-      - freenode2_10
-      - freenode2_11
-      - freenode2_12
-      - freenode2_13
-      - freenode2_14
-      - freenode2_15
-      - freenode2_16
-      - freenode2_17
-      - freenode2_18
-      - freenode2_19
-      - freenode2_20
-      - freenode2_21
-      - freenode2_22
-      - freenode2_23
-      - freenode2_24
-      - freenode2_25
-      - freenode2_26
-      - freenode2_27
-      - freenode2_28
-      - freenode2_29
-      - freenode2_30
-      - freenode2_31
-      - freenode2_32
-      - freenode2_33
-      - freenode2_34
-      - freenode2_35
-      - freenode2_36
-      - freenode2_37
-      - freenode2_38
-      - freenode2_39
-      - freenode2_40
-      - freenode2_41
-      - freenode2_42
-      - freenode2_43
-      - freenode2_44
-      - freenode2_45
-      - freenode2_46
-      - freenode2_47
-      - freenode2_48
-      - freenode2_49
-      - freenode2_50
-      - freenode2_51
-      - freenode2_52
-      - freenode2_53
-      - freenode2_54
-      - freenode2_55
-      - freenode2_56
-      - freenode2_57
-      - freenode2_58
-      - freenode2_59
-      - freenode2_60
-      - freenode2_61
-      - freenode2_62
-      - freenode2_63
-      - freenode2_64
-      - freenode2_65
-      - freenode2_66
-      - freenode2_67
-      - freenode2_68
-      - freenode2_69
-      - freenode2_70
-      - freenode2_71
-      - freenode2_72
-      - freenode2_73
-      - freenode2_74
-      - freenode2_75
-      - freenode2_76
-      - freenode2_77
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
+      - dongtaiwang.com_4
+      - dongtaiwang.com_5
+      - dongtaiwang.com_6
+      - dongtaiwang.com_7
+      - dongtaiwang.com_8
+      - dongtaiwang.com_9
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - freenode2_1
-      - freenode2_2
-      - freenode2_3
-      - freenode2_4
-      - freenode2_5
-      - freenode2_6
-      - freenode2_7
-      - freenode2_8
-      - freenode2_9
-      - freenode2_10
-      - freenode2_11
-      - freenode2_12
-      - freenode2_13
-      - freenode2_14
-      - freenode2_15
-      - freenode2_16
-      - freenode2_17
-      - freenode2_18
-      - freenode2_19
-      - freenode2_20
-      - freenode2_21
-      - freenode2_22
-      - freenode2_23
-      - freenode2_24
-      - freenode2_25
-      - freenode2_26
-      - freenode2_27
-      - freenode2_28
-      - freenode2_29
-      - freenode2_30
-      - freenode2_31
-      - freenode2_32
-      - freenode2_33
-      - freenode2_34
-      - freenode2_35
-      - freenode2_36
-      - freenode2_37
-      - freenode2_38
-      - freenode2_39
-      - freenode2_40
-      - freenode2_41
-      - freenode2_42
-      - freenode2_43
-      - freenode2_44
-      - freenode2_45
-      - freenode2_46
-      - freenode2_47
-      - freenode2_48
-      - freenode2_49
-      - freenode2_50
-      - freenode2_51
-      - freenode2_52
-      - freenode2_53
-      - freenode2_54
-      - freenode2_55
-      - freenode2_56
-      - freenode2_57
-      - freenode2_58
-      - freenode2_59
-      - freenode2_60
-      - freenode2_61
-      - freenode2_62
-      - freenode2_63
-      - freenode2_64
-      - freenode2_65
-      - freenode2_66
-      - freenode2_67
-      - freenode2_68
-      - freenode2_69
-      - freenode2_70
-      - freenode2_71
-      - freenode2_72
-      - freenode2_73
-      - freenode2_74
-      - freenode2_75
-      - freenode2_76
-      - freenode2_77
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
+      - dongtaiwang.com_4
+      - dongtaiwang.com_5
+      - dongtaiwang.com_6
+      - dongtaiwang.com_7
+      - dongtaiwang.com_8
+      - dongtaiwang.com_9
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - freenode2_1
-      - freenode2_2
-      - freenode2_3
-      - freenode2_4
-      - freenode2_5
-      - freenode2_6
-      - freenode2_7
-      - freenode2_8
-      - freenode2_9
-      - freenode2_10
-      - freenode2_11
-      - freenode2_12
-      - freenode2_13
-      - freenode2_14
-      - freenode2_15
-      - freenode2_16
-      - freenode2_17
-      - freenode2_18
-      - freenode2_19
-      - freenode2_20
-      - freenode2_21
-      - freenode2_22
-      - freenode2_23
-      - freenode2_24
-      - freenode2_25
-      - freenode2_26
-      - freenode2_27
-      - freenode2_28
-      - freenode2_29
-      - freenode2_30
-      - freenode2_31
-      - freenode2_32
-      - freenode2_33
-      - freenode2_34
-      - freenode2_35
-      - freenode2_36
-      - freenode2_37
-      - freenode2_38
-      - freenode2_39
-      - freenode2_40
-      - freenode2_41
-      - freenode2_42
-      - freenode2_43
-      - freenode2_44
-      - freenode2_45
-      - freenode2_46
-      - freenode2_47
-      - freenode2_48
-      - freenode2_49
-      - freenode2_50
-      - freenode2_51
-      - freenode2_52
-      - freenode2_53
-      - freenode2_54
-      - freenode2_55
-      - freenode2_56
-      - freenode2_57
-      - freenode2_58
-      - freenode2_59
-      - freenode2_60
-      - freenode2_61
-      - freenode2_62
-      - freenode2_63
-      - freenode2_64
-      - freenode2_65
-      - freenode2_66
-      - freenode2_67
-      - freenode2_68
-      - freenode2_69
-      - freenode2_70
-      - freenode2_71
-      - freenode2_72
-      - freenode2_73
-      - freenode2_74
-      - freenode2_75
-      - freenode2_76
-      - freenode2_77
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
+      - dongtaiwang.com_4
+      - dongtaiwang.com_5
+      - dongtaiwang.com_6
+      - dongtaiwang.com_7
+      - dongtaiwang.com_8
+      - dongtaiwang.com_9
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - freenode2_1
-      - freenode2_2
-      - freenode2_3
-      - freenode2_4
-      - freenode2_5
-      - freenode2_6
-      - freenode2_7
-      - freenode2_8
-      - freenode2_9
-      - freenode2_10
-      - freenode2_11
-      - freenode2_12
-      - freenode2_13
-      - freenode2_14
-      - freenode2_15
-      - freenode2_16
-      - freenode2_17
-      - freenode2_18
-      - freenode2_19
-      - freenode2_20
-      - freenode2_21
-      - freenode2_22
-      - freenode2_23
-      - freenode2_24
-      - freenode2_25
-      - freenode2_26
-      - freenode2_27
-      - freenode2_28
-      - freenode2_29
-      - freenode2_30
-      - freenode2_31
-      - freenode2_32
-      - freenode2_33
-      - freenode2_34
-      - freenode2_35
-      - freenode2_36
-      - freenode2_37
-      - freenode2_38
-      - freenode2_39
-      - freenode2_40
-      - freenode2_41
-      - freenode2_42
-      - freenode2_43
-      - freenode2_44
-      - freenode2_45
-      - freenode2_46
-      - freenode2_47
-      - freenode2_48
-      - freenode2_49
-      - freenode2_50
-      - freenode2_51
-      - freenode2_52
-      - freenode2_53
-      - freenode2_54
-      - freenode2_55
-      - freenode2_56
-      - freenode2_57
-      - freenode2_58
-      - freenode2_59
-      - freenode2_60
-      - freenode2_61
-      - freenode2_62
-      - freenode2_63
-      - freenode2_64
-      - freenode2_65
-      - freenode2_66
-      - freenode2_67
-      - freenode2_68
-      - freenode2_69
-      - freenode2_70
-      - freenode2_71
-      - freenode2_72
-      - freenode2_73
-      - freenode2_74
-      - freenode2_75
-      - freenode2_76
-      - freenode2_77
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
+      - dongtaiwang.com_4
+      - dongtaiwang.com_5
+      - dongtaiwang.com_6
+      - dongtaiwang.com_7
+      - dongtaiwang.com_8
+      - dongtaiwang.com_9
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - freenode2_1
-      - freenode2_2
-      - freenode2_3
-      - freenode2_4
-      - freenode2_5
-      - freenode2_6
-      - freenode2_7
-      - freenode2_8
-      - freenode2_9
-      - freenode2_10
-      - freenode2_11
-      - freenode2_12
-      - freenode2_13
-      - freenode2_14
-      - freenode2_15
-      - freenode2_16
-      - freenode2_17
-      - freenode2_18
-      - freenode2_19
-      - freenode2_20
-      - freenode2_21
-      - freenode2_22
-      - freenode2_23
-      - freenode2_24
-      - freenode2_25
-      - freenode2_26
-      - freenode2_27
-      - freenode2_28
-      - freenode2_29
-      - freenode2_30
-      - freenode2_31
-      - freenode2_32
-      - freenode2_33
-      - freenode2_34
-      - freenode2_35
-      - freenode2_36
-      - freenode2_37
-      - freenode2_38
-      - freenode2_39
-      - freenode2_40
-      - freenode2_41
-      - freenode2_42
-      - freenode2_43
-      - freenode2_44
-      - freenode2_45
-      - freenode2_46
-      - freenode2_47
-      - freenode2_48
-      - freenode2_49
-      - freenode2_50
-      - freenode2_51
-      - freenode2_52
-      - freenode2_53
-      - freenode2_54
-      - freenode2_55
-      - freenode2_56
-      - freenode2_57
-      - freenode2_58
-      - freenode2_59
-      - freenode2_60
-      - freenode2_61
-      - freenode2_62
-      - freenode2_63
-      - freenode2_64
-      - freenode2_65
-      - freenode2_66
-      - freenode2_67
-      - freenode2_68
-      - freenode2_69
-      - freenode2_70
-      - freenode2_71
-      - freenode2_72
-      - freenode2_73
-      - freenode2_74
-      - freenode2_75
-      - freenode2_76
-      - freenode2_77
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
+      - dongtaiwang.com_4
+      - dongtaiwang.com_5
+      - dongtaiwang.com_6
+      - dongtaiwang.com_7
+      - dongtaiwang.com_8
+      - dongtaiwang.com_9
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - freenode2_1
-      - freenode2_2
-      - freenode2_3
-      - freenode2_4
-      - freenode2_5
-      - freenode2_6
-      - freenode2_7
-      - freenode2_8
-      - freenode2_9
-      - freenode2_10
-      - freenode2_11
-      - freenode2_12
-      - freenode2_13
-      - freenode2_14
-      - freenode2_15
-      - freenode2_16
-      - freenode2_17
-      - freenode2_18
-      - freenode2_19
-      - freenode2_20
-      - freenode2_21
-      - freenode2_22
-      - freenode2_23
-      - freenode2_24
-      - freenode2_25
-      - freenode2_26
-      - freenode2_27
-      - freenode2_28
-      - freenode2_29
-      - freenode2_30
-      - freenode2_31
-      - freenode2_32
-      - freenode2_33
-      - freenode2_34
-      - freenode2_35
-      - freenode2_36
-      - freenode2_37
-      - freenode2_38
-      - freenode2_39
-      - freenode2_40
-      - freenode2_41
-      - freenode2_42
-      - freenode2_43
-      - freenode2_44
-      - freenode2_45
-      - freenode2_46
-      - freenode2_47
-      - freenode2_48
-      - freenode2_49
-      - freenode2_50
-      - freenode2_51
-      - freenode2_52
-      - freenode2_53
-      - freenode2_54
-      - freenode2_55
-      - freenode2_56
-      - freenode2_57
-      - freenode2_58
-      - freenode2_59
-      - freenode2_60
-      - freenode2_61
-      - freenode2_62
-      - freenode2_63
-      - freenode2_64
-      - freenode2_65
-      - freenode2_66
-      - freenode2_67
-      - freenode2_68
-      - freenode2_69
-      - freenode2_70
-      - freenode2_71
-      - freenode2_72
-      - freenode2_73
-      - freenode2_74
-      - freenode2_75
-      - freenode2_76
-      - freenode2_77
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
+      - dongtaiwang.com_4
+      - dongtaiwang.com_5
+      - dongtaiwang.com_6
+      - dongtaiwang.com_7
+      - dongtaiwang.com_8
+      - dongtaiwang.com_9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -607,83 +131,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - freenode2_1
-      - freenode2_2
-      - freenode2_3
-      - freenode2_4
-      - freenode2_5
-      - freenode2_6
-      - freenode2_7
-      - freenode2_8
-      - freenode2_9
-      - freenode2_10
-      - freenode2_11
-      - freenode2_12
-      - freenode2_13
-      - freenode2_14
-      - freenode2_15
-      - freenode2_16
-      - freenode2_17
-      - freenode2_18
-      - freenode2_19
-      - freenode2_20
-      - freenode2_21
-      - freenode2_22
-      - freenode2_23
-      - freenode2_24
-      - freenode2_25
-      - freenode2_26
-      - freenode2_27
-      - freenode2_28
-      - freenode2_29
-      - freenode2_30
-      - freenode2_31
-      - freenode2_32
-      - freenode2_33
-      - freenode2_34
-      - freenode2_35
-      - freenode2_36
-      - freenode2_37
-      - freenode2_38
-      - freenode2_39
-      - freenode2_40
-      - freenode2_41
-      - freenode2_42
-      - freenode2_43
-      - freenode2_44
-      - freenode2_45
-      - freenode2_46
-      - freenode2_47
-      - freenode2_48
-      - freenode2_49
-      - freenode2_50
-      - freenode2_51
-      - freenode2_52
-      - freenode2_53
-      - freenode2_54
-      - freenode2_55
-      - freenode2_56
-      - freenode2_57
-      - freenode2_58
-      - freenode2_59
-      - freenode2_60
-      - freenode2_61
-      - freenode2_62
-      - freenode2_63
-      - freenode2_64
-      - freenode2_65
-      - freenode2_66
-      - freenode2_67
-      - freenode2_68
-      - freenode2_69
-      - freenode2_70
-      - freenode2_71
-      - freenode2_72
-      - freenode2_73
-      - freenode2_74
-      - freenode2_75
-      - freenode2_76
-      - freenode2_77
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
+      - dongtaiwang.com_4
+      - dongtaiwang.com_5
+      - dongtaiwang.com_6
+      - dongtaiwang.com_7
+      - dongtaiwang.com_8
+      - dongtaiwang.com_9
 
 rules:
   - MATCH,🚀 节点选择
