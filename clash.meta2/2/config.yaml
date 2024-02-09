@@ -13,53 +13,235 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"dongtaiwang.com_0","type":"vmess","server":"167.82.19.72","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
-  - {"name":"dongtaiwang.com_1","type":"vmess","server":"146.75.116.107","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_1","type":"vmess","server":"167.82.19.72","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_2","type":"vmess","server":"146.75.116.107","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_3","type":"vmess","server":"167.82.79.187","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_4","type":"vmess","server":"151.101.42.4","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_5","type":"vmess","server":"146.75.117.254","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_6","type":"vmess","server":"151.101.71.39","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_7","type":"vmess","server":"151.101.217.42","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_8","type":"vmess","server":"199.232.178.211","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_9","type":"vmess","server":"146.75.101.163","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_10","type":"vmess","server":"167.82.57.35","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_11","type":"vmess","server":"167.82.96.14","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_12","type":"vmess","server":"199.232.168.93","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_13","type":"vmess","server":"151.101.71.59","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_14","type":"vmess","server":"199.232.222.159","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_15","type":"vmess","server":"167.82.108.153","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_16","type":"vmess","server":"140.248.145.5","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_17","type":"vmess","server":"146.75.40.149","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_18","type":"vmess","server":"151.101.115.81","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_19","type":"vmess","server":"167.82.63.59","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_20","type":"vmess","server":"199.232.165.223","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_21","type":"vmess","server":"199.232.241.22","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_22","type":"vmess","server":"151.101.233.50","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_23","type":"vmess","server":"167.82.92.201","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_24","type":"vmess","server":"146.75.12.143","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_25","type":"vmess","server":"151.101.43.245","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_26","type":"vmess","server":"167.82.41.0","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_27","type":"vmess","server":"140.248.143.223","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
+  - {"name":"fastnode_28","type":"vmess","server":"199.232.156.123","port":80,"cipher":"auto","uuid":"eff57453-31bc-4b6a-968a-17687dacc13f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/z4l0eJX1/","headers":{"host":"freedom1.com"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - dongtaiwang.com_0
-      - dongtaiwang.com_1
+      - fastnode_1
+      - fastnode_2
+      - fastnode_3
+      - fastnode_4
+      - fastnode_5
+      - fastnode_6
+      - fastnode_7
+      - fastnode_8
+      - fastnode_9
+      - fastnode_10
+      - fastnode_11
+      - fastnode_12
+      - fastnode_13
+      - fastnode_14
+      - fastnode_15
+      - fastnode_16
+      - fastnode_17
+      - fastnode_18
+      - fastnode_19
+      - fastnode_20
+      - fastnode_21
+      - fastnode_22
+      - fastnode_23
+      - fastnode_24
+      - fastnode_25
+      - fastnode_26
+      - fastnode_27
+      - fastnode_28
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - dongtaiwang.com_0
-      - dongtaiwang.com_1
+      - fastnode_1
+      - fastnode_2
+      - fastnode_3
+      - fastnode_4
+      - fastnode_5
+      - fastnode_6
+      - fastnode_7
+      - fastnode_8
+      - fastnode_9
+      - fastnode_10
+      - fastnode_11
+      - fastnode_12
+      - fastnode_13
+      - fastnode_14
+      - fastnode_15
+      - fastnode_16
+      - fastnode_17
+      - fastnode_18
+      - fastnode_19
+      - fastnode_20
+      - fastnode_21
+      - fastnode_22
+      - fastnode_23
+      - fastnode_24
+      - fastnode_25
+      - fastnode_26
+      - fastnode_27
+      - fastnode_28
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - dongtaiwang.com_0
-      - dongtaiwang.com_1
+      - fastnode_1
+      - fastnode_2
+      - fastnode_3
+      - fastnode_4
+      - fastnode_5
+      - fastnode_6
+      - fastnode_7
+      - fastnode_8
+      - fastnode_9
+      - fastnode_10
+      - fastnode_11
+      - fastnode_12
+      - fastnode_13
+      - fastnode_14
+      - fastnode_15
+      - fastnode_16
+      - fastnode_17
+      - fastnode_18
+      - fastnode_19
+      - fastnode_20
+      - fastnode_21
+      - fastnode_22
+      - fastnode_23
+      - fastnode_24
+      - fastnode_25
+      - fastnode_26
+      - fastnode_27
+      - fastnode_28
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - dongtaiwang.com_0
-      - dongtaiwang.com_1
+      - fastnode_1
+      - fastnode_2
+      - fastnode_3
+      - fastnode_4
+      - fastnode_5
+      - fastnode_6
+      - fastnode_7
+      - fastnode_8
+      - fastnode_9
+      - fastnode_10
+      - fastnode_11
+      - fastnode_12
+      - fastnode_13
+      - fastnode_14
+      - fastnode_15
+      - fastnode_16
+      - fastnode_17
+      - fastnode_18
+      - fastnode_19
+      - fastnode_20
+      - fastnode_21
+      - fastnode_22
+      - fastnode_23
+      - fastnode_24
+      - fastnode_25
+      - fastnode_26
+      - fastnode_27
+      - fastnode_28
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - dongtaiwang.com_0
-      - dongtaiwang.com_1
+      - fastnode_1
+      - fastnode_2
+      - fastnode_3
+      - fastnode_4
+      - fastnode_5
+      - fastnode_6
+      - fastnode_7
+      - fastnode_8
+      - fastnode_9
+      - fastnode_10
+      - fastnode_11
+      - fastnode_12
+      - fastnode_13
+      - fastnode_14
+      - fastnode_15
+      - fastnode_16
+      - fastnode_17
+      - fastnode_18
+      - fastnode_19
+      - fastnode_20
+      - fastnode_21
+      - fastnode_22
+      - fastnode_23
+      - fastnode_24
+      - fastnode_25
+      - fastnode_26
+      - fastnode_27
+      - fastnode_28
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - dongtaiwang.com_0
-      - dongtaiwang.com_1
+      - fastnode_1
+      - fastnode_2
+      - fastnode_3
+      - fastnode_4
+      - fastnode_5
+      - fastnode_6
+      - fastnode_7
+      - fastnode_8
+      - fastnode_9
+      - fastnode_10
+      - fastnode_11
+      - fastnode_12
+      - fastnode_13
+      - fastnode_14
+      - fastnode_15
+      - fastnode_16
+      - fastnode_17
+      - fastnode_18
+      - fastnode_19
+      - fastnode_20
+      - fastnode_21
+      - fastnode_22
+      - fastnode_23
+      - fastnode_24
+      - fastnode_25
+      - fastnode_26
+      - fastnode_27
+      - fastnode_28
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -82,8 +264,34 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - dongtaiwang.com_0
-      - dongtaiwang.com_1
+      - fastnode_1
+      - fastnode_2
+      - fastnode_3
+      - fastnode_4
+      - fastnode_5
+      - fastnode_6
+      - fastnode_7
+      - fastnode_8
+      - fastnode_9
+      - fastnode_10
+      - fastnode_11
+      - fastnode_12
+      - fastnode_13
+      - fastnode_14
+      - fastnode_15
+      - fastnode_16
+      - fastnode_17
+      - fastnode_18
+      - fastnode_19
+      - fastnode_20
+      - fastnode_21
+      - fastnode_22
+      - fastnode_23
+      - fastnode_24
+      - fastnode_25
+      - fastnode_26
+      - fastnode_27
+      - fastnode_28
 rules:
   - MATCH,🚀 节点选择
   
