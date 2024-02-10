@@ -13,6 +13,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
+  - {"name":"dongtaiwang.com_0","type":"ss","server":"www.dtku40.xyz","port":22222,"password":"dongtaiwang.com","cipher":"chacha20-ietf-poly1305"}
   - {"name":"dongtaiwang.com_1","type":"vmess","server":"data-us-v1.shwjfkw.cn","port":20401,"cipher":"auto","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/debian","headers":{"host":"data-us-v1.shwjfkw.cn"}}}
   - {"name":"dongtaiwang.com_2","type":"ss","server":"service.ouluyun9803.com","port":20003,"password":"d6105bbd-be0d-45b2-82ad-31fd1071c1d2","cipher":"chacha20-ietf-poly1305"}
   - {"name":"dongtaiwang.com_3","type":"vmess","server":"104.21.82.183","port":8880,"cipher":"auto","uuid":"5a7021e0-26b4-45d6-b175-fe551601ca97","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"server26.beheshtbaneh.com"}}}
@@ -30,6 +31,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - dongtaiwang.com_0
       - dongtaiwang.com_1
       - dongtaiwang.com_2
       - dongtaiwang.com_3
@@ -47,6 +49,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - dongtaiwang.com_0
       - dongtaiwang.com_1
       - dongtaiwang.com_2
       - dongtaiwang.com_3
@@ -64,6 +67,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - dongtaiwang.com_0
       - dongtaiwang.com_1
       - dongtaiwang.com_2
       - dongtaiwang.com_3
@@ -80,6 +84,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - dongtaiwang.com_0
       - dongtaiwang.com_1
       - dongtaiwang.com_2
       - dongtaiwang.com_3
@@ -96,6 +101,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - dongtaiwang.com_0
       - dongtaiwang.com_1
       - dongtaiwang.com_2
       - dongtaiwang.com_3
@@ -112,6 +118,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - dongtaiwang.com_0
       - dongtaiwang.com_1
       - dongtaiwang.com_2
       - dongtaiwang.com_3
@@ -145,6 +152,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - dongtaiwang.com_0
       - dongtaiwang.com_1
       - dongtaiwang.com_2
       - dongtaiwang.com_3
