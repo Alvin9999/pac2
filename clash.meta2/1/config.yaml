@@ -13,46 +13,116 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"dongtaiwang.com_1","type":"ss","server":"lg3.dtku41.xyz","port":44672,"password":"dongtaiwang.com","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"freenode_0","type":"ss","server":"lg3.dtku41.xyz","port":44672,"password":"dongtaiwang.com","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"freenode_1","type":"ss","server":"foshan.chiguayun.shop","port":27103,"password":"f4b81edb-73a5-41fa-9086-6f446061815d","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"freenode_2","type":"ss","server":"yd.qianggewangluo.buzz","port":10809,"password":"6f35bc86-d226-4dd0-8f4c-708f23077d24","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"freenode_3","type":"ss","server":"yd.qianggewangluo.buzz","port":10813,"password":"6f35bc86-d226-4dd0-8f4c-708f23077d24","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"freenode_4","type":"ss","server":"yd.qianggewangluo.buzz","port":10815,"password":"6f35bc86-d226-4dd0-8f4c-708f23077d24","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"freenode_5","type":"ss","server":"yd.qianggewangluo.buzz","port":10803,"password":"6f35bc86-d226-4dd0-8f4c-708f23077d24","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"freenode_6","type":"ss","server":"hefei.chiguayun.shop","port":27101,"password":"f4b81edb-73a5-41fa-9086-6f446061815d","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"freenode_7","type":"ss","server":"yd.qianggewangluo.buzz","port":10817,"password":"6f35bc86-d226-4dd0-8f4c-708f23077d24","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"freenode_8","type":"ss","server":"hefei.chiguayun.shop","port":27105,"password":"f4b81edb-73a5-41fa-9086-6f446061815d","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"freenode_9","type":"ss","server":"uydyfkghjrtcsdx.youcansee.cyou","port":20167,"password":"ca7e0c98-136d-472c-927b-b56bcba722e3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"freenode_10","type":"ss","server":"zhejiang.52vpn.top","port":32143,"password":"432fe02f-b649-4bdc-91d8-f91ae87002f7","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - dongtaiwang.com_1
+      - freenode_0
+      - freenode_1
+      - freenode_2
+      - freenode_3
+      - freenode_4
+      - freenode_5
+      - freenode_6
+      - freenode_7
+      - freenode_8
+      - freenode_9
+      - freenode_10
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - dongtaiwang.com_1
+      - freenode_0
+      - freenode_1
+      - freenode_2
+      - freenode_3
+      - freenode_4
+      - freenode_5
+      - freenode_6
+      - freenode_7
+      - freenode_8
+      - freenode_9
+      - freenode_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - dongtaiwang.com_1
+      - freenode_0
+      - freenode_1
+      - freenode_2
+      - freenode_3
+      - freenode_4
+      - freenode_5
+      - freenode_6
+      - freenode_7
+      - freenode_8
+      - freenode_9
+      - freenode_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - dongtaiwang.com_1
+      - freenode_0
+      - freenode_1
+      - freenode_2
+      - freenode_3
+      - freenode_4
+      - freenode_5
+      - freenode_6
+      - freenode_7
+      - freenode_8
+      - freenode_9
+      - freenode_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - dongtaiwang.com_1
+      - freenode_0
+      - freenode_1
+      - freenode_2
+      - freenode_3
+      - freenode_4
+      - freenode_5
+      - freenode_6
+      - freenode_7
+      - freenode_8
+      - freenode_9
+      - freenode_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - dongtaiwang.com_1
+      - freenode_0
+      - freenode_1
+      - freenode_2
+      - freenode_3
+      - freenode_4
+      - freenode_5
+      - freenode_6
+      - freenode_7
+      - freenode_8
+      - freenode_9
+      - freenode_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -75,7 +145,17 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - dongtaiwang.com_1
+      - freenode_0
+      - freenode_1
+      - freenode_2
+      - freenode_3
+      - freenode_4
+      - freenode_5
+      - freenode_6
+      - freenode_7
+      - freenode_8
+      - freenode_9
+      - freenode_10
 
 rules:
   - MATCH,🚀 节点选择
