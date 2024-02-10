@@ -13,17 +13,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: ip 
-    type: hysteria
-    server: www2.dtku48.xyz
-    port: 22334
-    auth-str: dongtaiwang.com
-    alpn:
-      - h3
-    protocol: udp
-    up: "11 Mbps"
-    down: "55 Mbps"
-    skip-cert-verify: true 
+  - {name: "ip", type: hysteria2, server: 45.150.165.84, port: 8881, password: d017e316-82cb-441c-8eea-7b5e9de64a20, obfs: salamander, obfs-password: d017e316-82cb-441c-8eea-7b5e9de64a20, skip-cert-verify: true, up: "2 Mbps", down: "10 Mbps"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
