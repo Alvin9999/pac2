@@ -51,11 +51,11 @@
       "settings": {
         "servers": [
           {
-            "address": "51.159.103.141",
+            "address": "www.dtku44.xyz",
             "method": "2022-blake3-aes-256-gcm",
             "ota": false,
-            "password": "KbeB6i+p+Iz+TWzXaYj5EqeKTBTyDbYStmdvFdp99QE=",
-            "port": 33345,
+            "password": "oats+7vdaSOb4NsxWwCBQll4qTwPu/dhpegiIGnqd9c=",
+            "port": 22335,
             "level": 1
           }
         ]
