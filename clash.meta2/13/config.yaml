@@ -13,7 +13,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"dongtaiwang.com_0","type":"ss","server":"109.104.152.144","port":111,"password":"dongtaiwang.com","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"dongtaiwang.com_0","type":"ss","server":"www.dtku40.xyz","port":22222,"password":"dongtaiwang.com","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
