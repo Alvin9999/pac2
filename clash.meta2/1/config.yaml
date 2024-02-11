@@ -15,15 +15,6 @@ dns:
 proxies:
   - {"name":"freenode_0","type":"vless","server":"108.181.5.18","port":22222,"uuid":"1bf69b3a-4673-4d02-a311-cb6380eaddce","tls":false,"network":"tcp"}
   - {"name":"freenode_1","type":"vmess","server":"109.104.152.144","port":12300,"cipher":"auto","uuid":"4be33771-099d-4d65-9426-09bed47eb41f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"freenode_2","type":"ss","server":"yd.qianggewangluo.buzz","port":10809,"password":"6f35bc86-d226-4dd0-8f4c-708f23077d24","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"freenode_3","type":"ss","server":"yd.qianggewangluo.buzz","port":10813,"password":"6f35bc86-d226-4dd0-8f4c-708f23077d24","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"freenode_4","type":"ss","server":"yd.qianggewangluo.buzz","port":10815,"password":"6f35bc86-d226-4dd0-8f4c-708f23077d24","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"freenode_5","type":"ss","server":"yd.qianggewangluo.buzz","port":10803,"password":"6f35bc86-d226-4dd0-8f4c-708f23077d24","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"freenode_6","type":"ss","server":"hefei.chiguayun.shop","port":27101,"password":"f4b81edb-73a5-41fa-9086-6f446061815d","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"freenode_7","type":"ss","server":"yd.qianggewangluo.buzz","port":10817,"password":"6f35bc86-d226-4dd0-8f4c-708f23077d24","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"freenode_8","type":"ss","server":"hefei.chiguayun.shop","port":27105,"password":"f4b81edb-73a5-41fa-9086-6f446061815d","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"freenode_9","type":"ss","server":"uydyfkghjrtcsdx.youcansee.cyou","port":20167,"password":"ca7e0c98-136d-472c-927b-b56bcba722e3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"freenode_10","type":"ss","server":"zhejiang.52vpn.top","port":32143,"password":"432fe02f-b649-4bdc-91d8-f91ae87002f7","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -32,15 +23,6 @@ proxy-groups:
       - DIRECT
       - freenode_0
       - freenode_1
-      - freenode_2
-      - freenode_3
-      - freenode_4
-      - freenode_5
-      - freenode_6
-      - freenode_7
-      - freenode_8
-      - freenode_9
-      - freenode_10
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -49,15 +31,6 @@ proxy-groups:
     proxies:
       - freenode_0
       - freenode_1
-      - freenode_2
-      - freenode_3
-      - freenode_4
-      - freenode_5
-      - freenode_6
-      - freenode_7
-      - freenode_8
-      - freenode_9
-      - freenode_10
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -66,15 +39,6 @@ proxy-groups:
       - 🎯 全球直连
       - freenode_0
       - freenode_1
-      - freenode_2
-      - freenode_3
-      - freenode_4
-      - freenode_5
-      - freenode_6
-      - freenode_7
-      - freenode_8
-      - freenode_9
-      - freenode_10
   - name: 📲 电报信息
     type: select
     proxies:
@@ -82,15 +46,6 @@ proxy-groups:
       - 🎯 全球直连
       - freenode_0
       - freenode_1
-      - freenode_2
-      - freenode_3
-      - freenode_4
-      - freenode_5
-      - freenode_6
-      - freenode_7
-      - freenode_8
-      - freenode_9
-      - freenode_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -98,15 +53,6 @@ proxy-groups:
       - 🚀 节点选择
       - freenode_0
       - freenode_1
-      - freenode_2
-      - freenode_3
-      - freenode_4
-      - freenode_5
-      - freenode_6
-      - freenode_7
-      - freenode_8
-      - freenode_9
-      - freenode_10
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -114,15 +60,6 @@ proxy-groups:
       - 🎯 全球直连
       - freenode_0
       - freenode_1
-      - freenode_2
-      - freenode_3
-      - freenode_4
-      - freenode_5
-      - freenode_6
-      - freenode_7
-      - freenode_8
-      - freenode_9
-      - freenode_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -147,16 +84,6 @@ proxy-groups:
       - ♻️ 自动选择
       - freenode_0
       - freenode_1
-      - freenode_2
-      - freenode_3
-      - freenode_4
-      - freenode_5
-      - freenode_6
-      - freenode_7
-      - freenode_8
-      - freenode_9
-      - freenode_10
-
 rules:
   - MATCH,🚀 节点选择
   
