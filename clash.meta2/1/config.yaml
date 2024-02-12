@@ -13,7 +13,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: dongtaiwang.com_1
+  - name: dongtaiwang.com_0
     type: hysteria2
     server: 64.31.55.30
     port: 20011
