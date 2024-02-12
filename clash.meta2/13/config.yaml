@@ -13,7 +13,17 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"dongtaiwang.com_1","type":"vless","server":"www.dtku40.xyz","port":50011,"uuid":"8d97976f-1856-4075-9168-1f45a029b794","tls":false,"network":"tcp"}
+  - name: dongtaiwang.com_1
+    type: hysteria2
+    server: 64.31.55.30
+    port: 20011
+    password: dongtaiwang.com
+    alpn:
+      - h3
+    sni: bing.com
+    skip-cert-verify: true
+    up: "11 Mbps"
+    down: "55 Mbps"
 proxy-groups:
   - name: 🚀 节点选择
     type: select
