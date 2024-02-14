@@ -14,7 +14,7 @@ dns:
     - tls://dns.google:853
 proxies:
   - {"name":"dongtaiwang.com_0","type":"tuic","server":"109.104.152.144","port":44411,"udp":true,"uuid":"7bda06fd-e4af-4115-8aa3-f021832cfa78","password":dongtaiwang.com,"alpn":["h3"],"disable-sni":true,"reduce-rtt":true,"udp-relay-mode":native,"congestion-controller":"bbr"}
-  - {"name":"dongtaiwang.com_1","type":"vmess","server":"www.dtku40.xyz","port":40011,"cipher":"auto","uuid":"c506bccb-06b8-4f1a-bc3e-41ed4929c003","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/soh5qvuQ/"}}
+  - {"name":"dongtaiwang.com_1","type":"vmess","server":"www.dtku40.xyz","port":18810,"cipher":"auto","uuid":"afb1ad76-0f6f-4cb8-983a-95f5b4708321","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/9tEYTPFN/"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
