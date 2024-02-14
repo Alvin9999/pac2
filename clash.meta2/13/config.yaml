@@ -13,7 +13,6 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"dongtaiwang.com_0","type":"hysteria","server":"109.104.152.101","port":32200,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"dongtaiwang.com","up":11,"down":55}
   - {"name":"dongtaiwang.com_1","type":"vmess","server":"108.181.5.18","port":40010,"cipher":"auto","uuid":"44bee251-795d-4d7a-8ecb-c4322aec05be","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xajVDSGJ/"}}
 proxy-groups:
   - name: 🚀 节点选择
@@ -21,7 +20,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - dongtaiwang.com_0
       - dongtaiwang.com_1
   - name: ♻️ 自动选择
     type: url-test
@@ -29,7 +27,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - dongtaiwang.com_0
       - dongtaiwang.com_1
   - name: 🌍 国外媒体
     type: select
@@ -37,28 +34,24 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - dongtaiwang.com_0
       - dongtaiwang.com_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - dongtaiwang.com_0
       - dongtaiwang.com_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - dongtaiwang.com_0
       - dongtaiwang.com_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - dongtaiwang.com_0
       - dongtaiwang.com_1
   - name: 🎯 全球直连
     type: select
@@ -82,7 +75,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - dongtaiwang.com_0
       - dongtaiwang.com_1
 
 rules:
