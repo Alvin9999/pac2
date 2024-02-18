@@ -15,8 +15,8 @@ dns:
 proxies:
   - name: dongtaiwang.com_1
     type: hysteria2
-    server: 64.31.55.42
-    port: 31100
+    server: 109.104.152.214
+    port: 11111
     password: dongtaiwang.com
     alpn:
       - h3
