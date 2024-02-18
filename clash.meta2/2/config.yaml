@@ -13,17 +13,19 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: dongtaiwang.com_1
-    type: hysteria2
-    server: 109.104.152.214
-    port: 11111
-    password: dongtaiwang.com
-    alpn:
-      - h3
-    sni: bing.com
-    skip-cert-verify: true
-    up: "11 Mbps"
-    down: "55 Mbps"
+- name: dongtaiwang.com_1                           
+  server: 108.181.5.21                 
+  port: 12301                                    
+  type: tuic
+  uuid: 2b4ea72a-fd71-4433-9bec-81df29373530       
+  password: 2b4ea72a-fd71-4433-9bec-81df29373530   
+  alpn: [h3]
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+  sni: www.bing.com                                
+  skip-cert-verify: true 
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -90,3 +92,4 @@ proxy-groups:
 rules:
   - MATCH,🚀 节点选择
   
+
