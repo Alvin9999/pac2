@@ -52,7 +52,7 @@
         "vnext": [
           {
             "address": "23.227.39.88",
-            "port": 443,
+            "port": 8080,
             "users": [
               {
                 "id": "6dca5aed-9206-4496-9d1f-65c31c92f50b",
@@ -66,12 +66,6 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "proprietary-arc-durham-motorcycle.trycloudflare.com",
-          "show": false
-        },
         "wsSettings": {
           "path": "6dca5aed-9206-4496-9d1f-65c31c92f50b-vm",
           "headers": {
