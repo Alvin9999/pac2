@@ -13,7 +13,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"dongtaiwang.com_1","type":"trojan","server":"23.227.38.11","port":443,"udp":true,"password":"b17fa17d-13a0-4e8a-a398-8e549ea8b208","sni":"syndication-statutes-wanted-logo.trycloudflare.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/argox-tr","headers":{"host":"syndication-statutes-wanted-logo.trycloudflare.com"}}}
+  - {"name":"dongtaiwang.com_1","type":"vless","server":"64.31.55.42","port":23514,"udp":true,"uuid":"b17fa17d-13a0-4e8a-a398-8e549ea8b208","tls":true,"servername":"addons.mozilla.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"ew6CB407JaI_WVD7QlD5QuvJTD7Pbv1oEbtis35-MRM"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
