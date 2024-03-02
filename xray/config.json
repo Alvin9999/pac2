@@ -51,31 +51,35 @@
       "settings": {
         "vnext": [
           {
-            "address": "62.210.101.0",
-            "port": 18700,
+            "address": "fbi.gov",
+            "port": 443,
             "users": [
               {
-                "id": "e659661d-8439-46e0-b1ab-d75ceaf73404",
+                "id": "ebfdccb6-7416-4b6e-860d-98587344d500",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "flow": ""
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "update.microsoft",
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "lg1.freessr2.xyz",
           "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "PBRc2v9SSXpG4jjQRYNa-kgs8w9V4U3MNLuncd2d0hw",
-          "shortId": "6ba85179e30d4fc2",
-          "spiderX": ""
+          "show": false
+        },
+        "wsSettings": {
+          "path": "/xyakws",
+          "headers": {
+            "Host": "lg1.freessr2.xyz"
+          }
         }
       },
       "mux": {
