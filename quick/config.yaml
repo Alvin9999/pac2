@@ -16,13 +16,13 @@ proxies:
   - name: dongtaiwang.com_0
     type: ss
     server: 62.204.54.81
-    port: 33441
+    port: 44550
     cipher: 2022-blake3-chacha20-poly1305
-    password: "NKdY5gGUB1L9FEaG87QL9E5QY2h2UlJtLZndpOLqI30="
+    password: "5IH4rBauUuOT4VpAshgMPMSQ3Tf+oJjDY/jEDbIel2Q="
     plugin: shadow-tls
     plugin-opts:
       host: "nijigen-works.jp"
-      password: "iB1xxyVagUbv+xyRdRFfTvsCFOHy6Aoj94193CRpxEk="
+      password: "FHDLxKgzbcDCPmijble8uT1gddgBmOxA1XXeDgyqgGc="
       version: 3
 proxy-groups:
   - name: 🚀 节点选择
