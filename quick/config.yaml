@@ -7,52 +7,62 @@ dns:
   nameserver:
     - 119.29.29.29
     - 223.5.5.5
-  fallback:
-    - 8.8.8.8
-    - 8.8.4.4
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
+  fallback-filter:
+    geoip: false
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
 proxies:
-  - {"name":"ip","type":"vless","server":"45.145.72.212","port":11223,"udp":true,"uuid":"34d7aac1-fac7-4e17-b41e-5be028d286cd","tls":true,"servername":"addons.mozilla.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"u24pYS0RqtYk8NBqtg4NIHUZIA0HmwuYw2RBIyt0T0c"},"client-fingerprint":"chrome"}
+  - name: dongtaiwang.com_0
+    type: ss
+    server: 62.204.54.81
+    port: 33441
+    cipher: 2022-blake3-chacha20-poly1305
+    password: "NKdY5gGUB1L9FEaG87QL9E5QY2h2UlJtLZndpOLqI30="
+    plugin: shadow-tls
+    plugin-opts:
+      host: "nijigen-works.jp"
+      password: "iB1xxyVagUbv+xyRdRFfTvsCFOHy6Aoj94193CRpxEk="
+      version: 3
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ip
+      - dongtaiwang.com_0
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ip
+      - dongtaiwang.com_0
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ip
+      - dongtaiwang.com_0
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ip
+      - dongtaiwang.com_0
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ip
+      - dongtaiwang.com_0
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ip
+      - dongtaiwang.com_0
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -75,7 +85,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ip
-
+      - dongtaiwang.com_0
 rules:
   - MATCH,🚀 节点选择
