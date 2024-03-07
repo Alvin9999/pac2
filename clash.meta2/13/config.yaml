@@ -13,124 +13,56 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - {"name":"dongtaiwang.com_1","type":"vmess","server":"yh1.freeh1.xyz","port":8080,"cipher":"auto","uuid":"d9c5ec6a-a8d8-4732-8447-56fbd2f93e96","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"pcs-referenced-camera-concerns.trycloudflare.com","network":"ws","ws-opts":{"path":"d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm","headers":{"host":"pcs-referenced-camera-concerns.trycloudflare.com"}}}
-  - {"name":"dongtaiwang.com_2","type":"vmess","server":"yh1.freeh1.xyz","port":8080,"cipher":"auto","uuid":"ef8c954e-014f-4b36-8273-9b5086afab34","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"bibliographic-sword-sequence-advertisers.trycloudflare.com","network":"ws","ws-opts":{"path":"ef8c954e-014f-4b36-8273-9b5086afab34-vm","headers":{"host":"bibliographic-sword-sequence-advertisers.trycloudflare.com"}}}
-  - {"name":"dongtaiwang.com_3","type":"vmess","server":"yh1.freeh1.xyz","port":8080,"cipher":"auto","uuid":"028c8131-9e3e-4836-94ac-ea7f24d4d05a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"nest-emily-healing-h.trycloudflare.com","network":"ws","ws-opts":{"path":"028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm","headers":{"host":"nest-emily-healing-h.trycloudflare.com"}}}
-  - {"name":"dongtaiwang.com_4","type":"vmess","server":"yh1.freeh1.xyz","port":8080,"cipher":"auto","uuid":"82cb93a3-65a9-4dac-a2a7-d997b6c26d6a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"larger-marketing-amounts-skin.trycloudflare.com","network":"ws","ws-opts":{"path":"82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm","headers":{"host":"larger-marketing-amounts-skin.trycloudflare.com"}}}
-  - {"name":"dongtaiwang.com_5","type":"vmess","server":"yh2.freeh1.xyz","port":8080,"cipher":"auto","uuid":"ef8c954e-014f-4b36-8273-9b5086afab34","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"bibliographic-sword-sequence-advertisers.trycloudflare.com","network":"ws","ws-opts":{"path":"ef8c954e-014f-4b36-8273-9b5086afab34-vm","headers":{"host":"bibliographic-sword-sequence-advertisers.trycloudflare.com"}}}
-  - {"name":"dongtaiwang.com_6","type":"vmess","server":"yh2.freeh1.xyz","port":8080,"cipher":"auto","uuid":"028c8131-9e3e-4836-94ac-ea7f24d4d05a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"nest-emily-healing-h.trycloudflare.com","network":"ws","ws-opts":{"path":"028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm","headers":{"host":"nest-emily-healing-h.trycloudflare.com"}}}
-  - {"name":"dongtaiwang.com_7","type":"vmess","server":"yh2.freeh1.xyz","port":8080,"cipher":"auto","uuid":"d9c5ec6a-a8d8-4732-8447-56fbd2f93e96","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"pcs-referenced-camera-concerns.trycloudflare.com","network":"ws","ws-opts":{"path":"d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm","headers":{"host":"pcs-referenced-camera-concerns.trycloudflare.com"}}}
-  - {"name":"dongtaiwang.com_8","type":"vmess","server":"yh3.freeh1.xyz","port":8080,"cipher":"auto","uuid":"82cb93a3-65a9-4dac-a2a7-d997b6c26d6a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"larger-marketing-amounts-skin.trycloudflare.com","network":"ws","ws-opts":{"path":"82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm","headers":{"host":"larger-marketing-amounts-skin.trycloudflare.com"}}}
-  - {"name":"dongtaiwang.com_9","type":"vmess","server":"yh3.freeh1.xyz","port":8080,"cipher":"auto","uuid":"ef8c954e-014f-4b36-8273-9b5086afab34","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"bibliographic-sword-sequence-advertisers.trycloudflare.com","network":"ws","ws-opts":{"path":"ef8c954e-014f-4b36-8273-9b5086afab34-vm","headers":{"host":"bibliographic-sword-sequence-advertisers.trycloudflare.com"}}}
-  - {"name":"dongtaiwang.com_10","type":"vmess","server":"yh3.freeh1.xyz","port":8080,"cipher":"auto","uuid":"028c8131-9e3e-4836-94ac-ea7f24d4d05a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"nest-emily-healing-h.trycloudflare.com","network":"ws","ws-opts":{"path":"028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm","headers":{"host":"nest-emily-healing-h.trycloudflare.com"}}}
-  - {"name":"dongtaiwang.com_11","type":"vmess","server":"yh3.freeh1.xyz","port":8080,"cipher":"auto","uuid":"d9c5ec6a-a8d8-4732-8447-56fbd2f93e96","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"pcs-referenced-camera-concerns.trycloudflare.com","network":"ws","ws-opts":{"path":"d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm","headers":{"host":"pcs-referenced-camera-concerns.trycloudflare.com"}}}
-  - {"name":"dongtaiwang.com_12","type":"vmess","server":"yh3.freeh1.xyz","port":8080,"cipher":"auto","uuid":"82cb93a3-65a9-4dac-a2a7-d997b6c26d6a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"larger-marketing-amounts-skin.trycloudflare.com","network":"ws","ws-opts":{"path":"82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm","headers":{"host":"larger-marketing-amounts-skin.trycloudflare.com"}}}
-
+  - name: dongtaiwang.com_0
+    server: 64.31.55.18
+    port: 11223
+    type: tuic
+    uuid: 1a0a455e-4207-44be-b5a0-062747671570
+    password: dongtaiwang.com
+    alpn: [h3]
+    disable-sni: true
+    reduce-rtt: true
+    udp-relay-mode: native
+    congestion-controller: bbr
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - dongtaiwang.com_1
-      - dongtaiwang.com_2
-      - dongtaiwang.com_3
-      - dongtaiwang.com_4
-      - dongtaiwang.com_5
-      - dongtaiwang.com_6
-      - dongtaiwang.com_7
-      - dongtaiwang.com_8
-      - dongtaiwang.com_9
-      - dongtaiwang.com_10
-      - dongtaiwang.com_11
-      - dongtaiwang.com_12
+      - dongtaiwang.com_0
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - dongtaiwang.com_1
-      - dongtaiwang.com_2
-      - dongtaiwang.com_3
-      - dongtaiwang.com_4
-      - dongtaiwang.com_5
-      - dongtaiwang.com_6
-      - dongtaiwang.com_7
-      - dongtaiwang.com_8
-      - dongtaiwang.com_9
-      - dongtaiwang.com_10
-      - dongtaiwang.com_11
-      - dongtaiwang.com_12
+      - dongtaiwang.com_0
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - dongtaiwang.com_1
-      - dongtaiwang.com_2
-      - dongtaiwang.com_3
-      - dongtaiwang.com_4
-      - dongtaiwang.com_5
-      - dongtaiwang.com_6
-      - dongtaiwang.com_7
-      - dongtaiwang.com_8
-      - dongtaiwang.com_9
-      - dongtaiwang.com_10
-      - dongtaiwang.com_11
-      - dongtaiwang.com_12
+      - dongtaiwang.com_0
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - dongtaiwang.com_1
-      - dongtaiwang.com_2
-      - dongtaiwang.com_3
-      - dongtaiwang.com_4
-      - dongtaiwang.com_5
-      - dongtaiwang.com_6
-      - dongtaiwang.com_7
-      - dongtaiwang.com_8
-      - dongtaiwang.com_9
-      - dongtaiwang.com_10
-      - dongtaiwang.com_11
-      - dongtaiwang.com_12
+      - dongtaiwang.com_0
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - dongtaiwang.com_1
-      - dongtaiwang.com_2
-      - dongtaiwang.com_3
-      - dongtaiwang.com_4
-      - dongtaiwang.com_5
-      - dongtaiwang.com_6
-      - dongtaiwang.com_7
-      - dongtaiwang.com_8
-      - dongtaiwang.com_9
-      - dongtaiwang.com_10
-      - dongtaiwang.com_11
-      - dongtaiwang.com_12
+      - dongtaiwang.com_0
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - dongtaiwang.com_1
-      - dongtaiwang.com_2
-      - dongtaiwang.com_3
-      - dongtaiwang.com_4
-      - dongtaiwang.com_5
-      - dongtaiwang.com_6
-      - dongtaiwang.com_7
-      - dongtaiwang.com_8
-      - dongtaiwang.com_9
-      - dongtaiwang.com_10
-      - dongtaiwang.com_11
-      - dongtaiwang.com_12
+      - dongtaiwang.com_0
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -153,19 +85,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - dongtaiwang.com_1
-      - dongtaiwang.com_2
-      - dongtaiwang.com_3
-      - dongtaiwang.com_4
-      - dongtaiwang.com_5
-      - dongtaiwang.com_6
-      - dongtaiwang.com_7
-      - dongtaiwang.com_8
-      - dongtaiwang.com_9
-      - dongtaiwang.com_10
-      - dongtaiwang.com_11
-      - dongtaiwang.com_12
-   
-
+      - dongtaiwang.com_0
 rules:
   - MATCH,🚀 节点选择
