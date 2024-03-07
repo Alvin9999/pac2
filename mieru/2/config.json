@@ -3,16 +3,16 @@
         {
             "profileName": "default",
             "user": {
-                "name": "5bbce4b8",
-                "password": "f7533e9f"
+                "name": "dongtaiwang.com",
+                "password": "dongtaiwang.com"
             },
             "servers": [
                 {
-                    "ipAddress": "108.181.5.19",
+                    "ipAddress": "64.110.25.14",
                     "domainName": "",
                     "portBindings": [
                         {
-                            "port": 28233,
+                            "port": 2208,
                             "protocol": "TCP"
                         }
                     ]
