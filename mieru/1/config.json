@@ -18,11 +18,17 @@
                     ]
                 }
             ],
-            "mtu": 1400
+            "mtu": 1400,
+            "multiplexing": {
+                "level": "MULTIPLEXING_HIGH"
+            }
         }
     ],
     "activeProfile": "default",
     "rpcPort": 8964,
     "socks5Port": 3080,
-    "loggingLevel": "INFO"
+    "loggingLevel": "INFO",
+    "socks5ListenLAN": false,
+    "httpProxyPort": 8080,
+    "httpProxyListenLAN": false
 }
