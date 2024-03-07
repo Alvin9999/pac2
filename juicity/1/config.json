@@ -1,0 +1,10 @@
+{
+  "listen": "127.0.0.1:1080",
+  "server": "62.204.54.81:55123",
+  "uuid": "e1565ee9-0208-4cbf-8934-f75181316a60",
+  "password": "n/IwOv/Dc0mq",
+  "sni": "bing.com",
+  "allow_insecure": true,
+  "congestion_control": "bbr",
+  "log_level": "info"
+}
