@@ -13,14 +13,14 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: dongtaiwang.com_0
+  - name: ip 
     type: hysteria2
-    server: 51.159.77.153
-    port: 44190
+    server: 109.104.152.89
+    port: 22441
     password: dongtaiwang.com
     alpn:
       - h3
-    sni: bing.com
+    sni: www.bing.com
     skip-cert-verify: true
     up: "11 Mbps"
     down: "55 Mbps"
@@ -30,39 +30,39 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - dongtaiwang.com_0
+      - ip
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - dongtaiwang.com_0
+      - ip
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - dongtaiwang.com_0
+      - ip
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - dongtaiwang.com_0
+      - ip
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - dongtaiwang.com_0
+      - ip
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - dongtaiwang.com_0
+      - ip
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -85,8 +85,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - dongtaiwang.com_0
+      - ip
 
 rules:
   - MATCH,🚀 节点选择
-  
