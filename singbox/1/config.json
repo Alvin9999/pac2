@@ -11,19 +11,20 @@
   ],
   "outbounds": [
     {
-      "type": "hysteria",
-      "tag": "dongtaiwang.com",
-      "server": "173.234.25.50", 
-      "server_port": 1992,
-      "up_mbps": 11, 
-      "down_mbps": 55,
-      "auth_str": "dongtaiwang.com",
+      "type": "hysteria2",
+      "tag": "Hysteria2-dongtaiwang.com",
+      "server": "64.31.55.72", 
+      "server_port": 33229,
+      "up_mbps": 1000, 
+      "down_mbps": 1000,
+      "password": "dongtaiwang.com",
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "bing.com", 
         "alpn": [
           "h3"
+
         ]
 
       }
