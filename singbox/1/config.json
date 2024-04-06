@@ -15,8 +15,8 @@
       "tag": "Hysteria2-dongtaiwang.com",
       "server": "64.31.55.72", 
       "server_port": 33229,
-      "up_mbps": 1000, 
-      "down_mbps": 1000,
+      "up_mbps": 11, 
+      "down_mbps": 55,
       "password": "dongtaiwang.com",
       "tls": {
         "enabled": true,
