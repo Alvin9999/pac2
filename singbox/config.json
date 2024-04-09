@@ -11,18 +11,11 @@
   ],
   "outbounds": [
     {
-      "type": "vless",
+     "type": "shadowsocks",
       "tag": "dongtaiwang.com",
-      "server": "109.104.152.186", 
-      "server_port": 44556,
-      "uuid": "0d0fd551-5c8a-42a9-936b-c2a06e1febaa",
-      "transport": {
-        "type": "ws",
-        "path": "/xIkCaKAG",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "flow": "",
+      "method": "2022-blake3-chacha20-poly1305", 
+      "password": "2mLw+aTguEUrvK/Jamxr4CY/RbLCL/MmfWJQ7c6bXe8=",
+      "detour": "stl-6831",
       "multiplex": {
         "enabled": true,
         "protocol": "h2mux",
@@ -31,10 +24,27 @@
         "padding": false,
         "brutal": {
           "enabled": true,
-          "up_mbps": 1000,
-          "down_mbps": 1000
+          "up_mbps": 11,
+          "down_mbps": 55
         }
       }
-    }
-	 ]
-	   }
+    },
+    {
+      "type": "shadowtls",
+      "tag": "stl-6831",
+      "server": "109.104.152.186", 
+      "server_port": 443,
+      "version": 3, 
+      "password": "UcMMbVQBzIUAcdC12ju6lV9j3rjK3cAQiZoYCDk1h/g=", 
+      "tls": {
+        "enabled": true,
+        "server_name": "nijigen-works.jp", 
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome" 
+        }
+      }
+ }
+ ]
+  }
+  
