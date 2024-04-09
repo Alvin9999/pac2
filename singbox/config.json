@@ -11,24 +11,30 @@
   ],
   "outbounds": [
     {
-      "type": "hysteria",
+      "type": "vless",
       "tag": "dongtaiwang.com",
-      "server": "www.dtku50.xyz", 
-      "server_port": 11229,
-      "up_mbps": 11, 
-      "down_mbps": 55,
-      "auth_str": "dongtaiwang.com",
-      "tls": {
+      "server": "109.104.152.186", 
+      "server_port": 44556,
+      "uuid": "0d0fd551-5c8a-42a9-936b-c2a06e1febaa",
+      "transport": {
+        "type": "ws",
+        "path": "/xIkCaKAG",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "flow": "",
+      "multiplex": {
         "enabled": true,
-        "insecure": true,
-        "server_name": "bing.com", 
-        "alpn": [
-          "h3"
-        ]
-
+        "protocol": "h2mux",
+        "max_connections": 1,
+        "min_streams": 4,
+        "padding": false,
+        "brutal": {
+          "enabled": true,
+          "up_mbps": 1000,
+          "down_mbps": 1000
+        }
       }
     }
-  ] 
-	 
-}
-
+	 ]
+	   }
