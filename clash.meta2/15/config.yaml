@@ -35,8 +35,8 @@ proxies:
       padding: true
       brutal-opts:
         enabled: true
-        up: 50
-        down: 100
+        up: 11
+        down: 55
 proxy-groups:
   - name: 🚀 节点选择
     type: select
