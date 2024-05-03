@@ -13,10 +13,10 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - {"name":"dongtaiwang.com_0","type":"vless","server":"yh7.dtku41.xyz","port":443,"uuid":"1a62379a-e160-45a3-8361-3e6b5021d192","tls":true,"servername":"giving-hide-provisions-corrected.trycloudflare.com","network":"ws","ws-opts":{"path":"/argox-vl?ed=2048","headers":{"host":"giving-hide-provisions-corrected.trycloudflare.com"}}}
-  - {"name":"dongtaiwang.com_1","type":"vless","server":"yh9.dtku41.xyz","port":443,"uuid":"1a62379a-e160-45a3-8361-3e6b5021d192","tls":true,"servername":"giving-hide-provisions-corrected.trycloudflare.com","network":"ws","ws-opts":{"path":"/argox-vl?ed=2048","headers":{"host":"giving-hide-provisions-corrected.trycloudflare.com"}}}
-  - {"name":"dongtaiwang.com_2","type":"vless","server":"yh6.dtku41.xyz","port":443,"uuid":"1a62379a-e160-45a3-8361-3e6b5021d192","tls":true,"servername":"giving-hide-provisions-corrected.trycloudflare.com","network":"ws","ws-opts":{"path":"/argox-vl?ed=2048","headers":{"host":"giving-hide-provisions-corrected.trycloudflare.com"}}}
-  - {"name":"dongtaiwang.com_3","type":"vless","server":"yh1.dtku41.xyz","port":443,"uuid":"1a62379a-e160-45a3-8361-3e6b5021d192","tls":true,"servername":"giving-hide-provisions-corrected.trycloudflare.com","network":"ws","ws-opts":{"path":"/argox-vl?ed=2048","headers":{"host":"giving-hide-provisions-corrected.trycloudflare.com"}}}
+  - {"name":"dongtaiwang.com_0","type":"vless","server":"104.26.9.12","port":80,"uuid":"1a62379a-e160-45a3-8361-3e6b5021d192","tls":false,"servername":"giving-hide-provisions-corrected.trycloudflare.com","network":"ws","ws-opts":{"path":"/argox-vl?ed=2048","headers":{"host":"giving-hide-provisions-corrected.trycloudflare.com"}}}
+  - {"name":"dongtaiwang.com_1","type":"vless","server":"104.19.21.24","port":80,"uuid":"1a62379a-e160-45a3-8361-3e6b5021d192","tls":false,"servername":"giving-hide-provisions-corrected.trycloudflare.com","network":"ws","ws-opts":{"path":"/argox-vl?ed=2048","headers":{"host":"giving-hide-provisions-corrected.trycloudflare.com"}}}
+  - {"name":"dongtaiwang.com_2","type":"vless","server":"104.26.9.54","port":80,"uuid":"1a62379a-e160-45a3-8361-3e6b5021d192","tls":false,"servername":"giving-hide-provisions-corrected.trycloudflare.com","network":"ws","ws-opts":{"path":"/argox-vl?ed=2048","headers":{"host":"giving-hide-provisions-corrected.trycloudflare.com"}}}
+  - {"name":"dongtaiwang.com_3","type":"vless","server":"104.19.38.28","port":80,"uuid":"1a62379a-e160-45a3-8361-3e6b5021d192","tls":false,"servername":"giving-hide-provisions-corrected.trycloudflare.com","network":"ws","ws-opts":{"path":"/argox-vl?ed=2048","headers":{"host":"giving-hide-provisions-corrected.trycloudflare.com"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
