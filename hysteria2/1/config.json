@@ -1,6 +1,6 @@
 
 {
-  "server": "104.192.224.140:40391",
+  "server": "104.192.224.140:62894",
   "auth": "dongtaiwang.com",
   "tls": {
     "sni": "www.bing.com",
