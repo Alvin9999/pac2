@@ -13,10 +13,71 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - {"name":"dongtaiwang.com_0","type":"vless","server":"104.26.9.12","port":80,"uuid":"1a62379a-e160-45a3-8361-3e6b5021d192","tls":false,"servername":"giving-hide-provisions-corrected.trycloudflare.com","network":"ws","ws-opts":{"path":"/argox-vl?ed=2048","headers":{"host":"giving-hide-provisions-corrected.trycloudflare.com"}}}
-  - {"name":"dongtaiwang.com_1","type":"vless","server":"104.19.21.24","port":80,"uuid":"1a62379a-e160-45a3-8361-3e6b5021d192","tls":false,"servername":"giving-hide-provisions-corrected.trycloudflare.com","network":"ws","ws-opts":{"path":"/argox-vl?ed=2048","headers":{"host":"giving-hide-provisions-corrected.trycloudflare.com"}}}
-  - {"name":"dongtaiwang.com_2","type":"vless","server":"104.26.9.54","port":80,"uuid":"1a62379a-e160-45a3-8361-3e6b5021d192","tls":false,"servername":"giving-hide-provisions-corrected.trycloudflare.com","network":"ws","ws-opts":{"path":"/argox-vl?ed=2048","headers":{"host":"giving-hide-provisions-corrected.trycloudflare.com"}}}
-  - {"name":"dongtaiwang.com_3","type":"vless","server":"104.19.38.28","port":80,"uuid":"1a62379a-e160-45a3-8361-3e6b5021d192","tls":false,"servername":"giving-hide-provisions-corrected.trycloudflare.com","network":"ws","ws-opts":{"path":"/argox-vl?ed=2048","headers":{"host":"giving-hide-provisions-corrected.trycloudflare.com"}}}
+- name: dongtaiwang.com_0                     
+  type: vmess
+  server: 104.26.9.12                      
+  port: 8443                                     
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  servername: funk-england-indirect-gospel.trycloudflare.com                    
+  ws-opts:
+    path: "028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm"                             
+    headers:
+      Host: funk-england-indirect-gospel.trycloudflare.com
+
+- name: dongtaiwang.com_1                    
+  type: vmess
+  server: 104.19.21.24                     
+  port: 8880                                     
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: funk-england-indirect-gospel.trycloudflare.com                    
+  ws-opts:
+    path: "028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm"                             
+    headers:
+      Host: funk-england-indirect-gospel.trycloudflare.com 
+
+- name: dongtaiwang.com_2
+  type: vmess
+  server: 104.26.9.54                   
+  port: 8443                                     
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  servername: funk-england-indirect-gospel.trycloudflare.com                    
+  ws-opts:
+    path: "028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm"                             
+    headers:
+      Host: funk-england-indirect-gospel.trycloudflare.com
+
+- name: dongtaiwang.com_3           
+  type: vmess
+  server: 104.19.38.28                   
+  port: 8880                                     
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: funk-england-indirect-gospel.trycloudflare.com                    
+  ws-opts:
+    path: "028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm"                             
+    headers:
+      Host: funk-england-indirect-gospel.trycloudflare.com 
+
+
 proxy-groups:
   - name: 🚀 节点选择
     type: select
