@@ -13,46 +13,128 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - {"name":"dongtaiwang.com_1","type":"hysteria","server":"108.181.5.22","port":44557,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"dongtaiwang.com","up":11,"down":55,"hop_interval":10}
+- name: dongtaiwang.com_0                     
+  type: vmess
+  server: 162.159.129.179                      
+  port: 443                                     
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  servername: division-rachel-sic-mileage.trycloudflare.com                    
+  ws-opts:
+    path: "d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm"                             
+    headers:
+      Host: division-rachel-sic-mileage.trycloudflare.com
+
+- name: dongtaiwang.com_1                    
+  type: vmess
+  server: 162.159.136.23                   
+  port: 8880                                     
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: division-rachel-sic-mileage.trycloudflare.com                    
+  ws-opts:
+    path: "d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm"                             
+    headers:
+      Host: division-rachel-sic-mileage.trycloudflare.com 
+
+- name: dongtaiwang.com_2
+  type: vmess
+  server: 172.64.144.55               
+  port: 8443                                     
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  servername: division-rachel-sic-mileage.trycloudflare.com                    
+  ws-opts:
+    path: "d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm"                             
+    headers:
+      Host: division-rachel-sic-mileage.trycloudflare.com
+
+- name: dongtaiwang.com_3           
+  type: vmess
+  server: 104.19.38.112                 
+  port: 8880                                     
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: division-rachel-sic-mileage.trycloudflare.com                    
+  ws-opts:
+    path: "d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm"                             
+    headers:
+      Host: division-rachel-sic-mileage.trycloudflare.com 
+
+
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - dongtaiwang.com_0
       - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - dongtaiwang.com_0
       - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - dongtaiwang.com_0
       - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - dongtaiwang.com_0
       - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - dongtaiwang.com_0
       - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - dongtaiwang.com_0
       - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -75,7 +157,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - dongtaiwang.com_0
       - dongtaiwang.com_1
-
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
 rules:
   - MATCH,🚀 节点选择
