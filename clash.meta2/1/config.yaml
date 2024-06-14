@@ -13,17 +13,71 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - name: dongtaiwang.com_0
-    server: 74.63.233.74
-    port: 11229
-    type: tuic
-    uuid: df382452-726b-47e7-8189-260ec1610d23
-    password: dongtaiwang.com
-    alpn: [h3]
-    disable-sni: true
-    reduce-rtt: true
-    udp-relay-mode: native
-    congestion-controller: bbr
+- name: dongtaiwang.com_0                     
+  type: vmess
+  server: fbi.gov                      
+  port: 8443                                     
+  uuid: 7c82741d-5510-4cfe-a022-8ee885b80d8a       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  servername: commitments-coin-acdbentity-organized.trycloudflare.com                    
+  ws-opts:
+    path: "7c82741d-5510-4cfe-a022-8ee885b80d8a-vm"                             
+    headers:
+      Host: commitments-coin-acdbentity-organized.trycloudflare.com
+
+- name: dongtaiwang.com_1                    
+  type: vmess
+  server: 162.159.136.11                   
+  port: 8880                                     
+  uuid: 7c82741d-5510-4cfe-a022-8ee885b80d8a       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: commitments-coin-acdbentity-organized.trycloudflare.com                    
+  ws-opts:
+    path: "7c82741d-5510-4cfe-a022-8ee885b80d8a-vm"                             
+    headers:
+      Host: commitments-coin-acdbentity-organized.trycloudflare.com 
+
+- name: dongtaiwang.com_2
+  type: vmess
+  server: 172.64.144.200               
+  port: 8443                                     
+  uuid: 7c82741d-5510-4cfe-a022-8ee885b80d8a       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  servername: commitments-coin-acdbentity-organized.trycloudflare.com                    
+  ws-opts:
+    path: "7c82741d-5510-4cfe-a022-8ee885b80d8a-vm"                             
+    headers:
+      Host: commitments-coin-acdbentity-organized.trycloudflare.com
+
+- name: dongtaiwang.com_3           
+  type: vmess
+  server: 104.19.38.12                 
+  port: 8880                                     
+  uuid: 7c82741d-5510-4cfe-a022-8ee885b80d8a       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: commitments-coin-acdbentity-organized.trycloudflare.com                    
+  ws-opts:
+    path: "7c82741d-5510-4cfe-a022-8ee885b80d8a-vm"                             
+    headers:
+      Host: commitments-coin-acdbentity-organized.trycloudflare.com 
+
+
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -31,6 +85,9 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -38,6 +95,9 @@ proxy-groups:
     tolerance: 50
     proxies:
       - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -45,24 +105,36 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -86,5 +158,8 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
 rules:
   - MATCH,🚀 节点选择
