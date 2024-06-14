@@ -13,17 +13,71 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - name: dongtaiwang.com_0
-    server: 108.181.5.132
-    port: 9727
-    type: tuic
-    uuid: 02b0c83f-5fa4-4f08-8a9f-d9cae4a7a419
-    password: 02b0c83f-5fa4-4f08-8a9f-d9cae4a7a419
-    alpn: [h3]
-    disable-sni: true
-    reduce-rtt: true
-    udp-relay-mode: native
-    congestion-controller: bbr
+- name: dongtaiwang.com_0                     
+  type: vmess
+  server: 104.19.55.52                      
+  port: 443                                     
+  uuid: 7f1ffa3d-105b-43b0-a458-425780fa9938       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  servername: afternoon-friend-volkswagen-mentor.trycloudflare.com                    
+  ws-opts:
+    path: "7f1ffa3d-105b-43b0-a458-425780fa9938-vm"                             
+    headers:
+      Host: afternoon-friend-volkswagen-mentor.trycloudflare.com
+
+- name: dongtaiwang.com_1                    
+  type: vmess
+  server: 162.159.136.22                   
+  port: 8880                                     
+  uuid: 7f1ffa3d-105b-43b0-a458-425780fa9938       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: afternoon-friend-volkswagen-mentor.trycloudflare.com                    
+  ws-opts:
+    path: "7f1ffa3d-105b-43b0-a458-425780fa9938-vm"                             
+    headers:
+      Host: afternoon-friend-volkswagen-mentor.trycloudflare.com 
+
+- name: dongtaiwang.com_2
+  type: vmess
+  server: 172.64.144.114               
+  port: 8443                                     
+  uuid: 7f1ffa3d-105b-43b0-a458-425780fa9938       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  servername: afternoon-friend-volkswagen-mentor.trycloudflare.com                    
+  ws-opts:
+    path: "7f1ffa3d-105b-43b0-a458-425780fa9938-vm"                             
+    headers:
+      Host: afternoon-friend-volkswagen-mentor.trycloudflare.com
+
+- name: dongtaiwang.com_3           
+  type: vmess
+  server: 104.19.38.66                
+  port: 8880                                     
+  uuid: 7f1ffa3d-105b-43b0-a458-425780fa9938       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: afternoon-friend-volkswagen-mentor.trycloudflare.com                    
+  ws-opts:
+    path: "7f1ffa3d-105b-43b0-a458-425780fa9938-vm"                             
+    headers:
+      Host: afternoon-friend-volkswagen-mentor.trycloudflare.com 
+
+
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -31,6 +85,9 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -38,6 +95,9 @@ proxy-groups:
     tolerance: 50
     proxies:
       - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -45,24 +105,36 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -86,5 +158,8 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
 rules:
   - MATCH,🚀 节点选择
