@@ -1,16 +1,16 @@
 {
-"server": "108.181.5.133:26022",
+"server": "109.104.152.194:58510",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
 "http": {
 "listen": "127.0.0.1:1081",
-"timeout" : 230,
+"timeout" : 300,
 "disable_udp": false
 },
 "socks5": {
 "listen": "127.0.0.1:1080",
-"timeout": 230,
+"timeout": 300,
 "disable_udp": false
 },
 "obfs": "",
@@ -18,8 +18,8 @@
 "alpn": "h3",
 "server_name": "bing.com",
 "insecure": true,
-"recv_window_conn": 69206016,
-"recv_window": 276824064,
+"recv_window_conn": 115343360,
+"recv_window": 461373440,
 "disable_mtu_discovery": true,
 "resolver": "https://223.5.5.5/dns-query",
 "retry": 3,
