@@ -16,66 +16,66 @@ proxies:
 - name: dongtaiwang.com_0                     
   type: vmess
   server: fbi.gov                      
-  port: 8443                                     
-  uuid: 7c82741d-5510-4cfe-a022-8ee885b80d8a       
+  port: 8080                                     
+  uuid: ffaba3ee-4070-4590-9959-d863f9a4c6de       
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
+  tls: false
   network: ws
-  servername: commitments-coin-acdbentity-organized.trycloudflare.com                    
+  servername: ip001.dtku47.xyz                    
   ws-opts:
-    path: "7c82741d-5510-4cfe-a022-8ee885b80d8a-vm"                             
+    path: "/9aqOiXD2/"                             
     headers:
-      Host: commitments-coin-acdbentity-organized.trycloudflare.com
+      Host: ip001.dtku47.xyz
 
 - name: dongtaiwang.com_1                    
   type: vmess
   server: 162.159.136.11                   
-  port: 8880                                     
-  uuid: 7c82741d-5510-4cfe-a022-8ee885b80d8a       
+  port: 8080                                     
+  uuid: ffaba3ee-4070-4590-9959-d863f9a4c6de       
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   network: ws
-  servername: commitments-coin-acdbentity-organized.trycloudflare.com                    
+  servername: ip001.dtku47.xyz                    
   ws-opts:
-    path: "7c82741d-5510-4cfe-a022-8ee885b80d8a-vm"                             
+    path: "/9aqOiXD2/"                             
     headers:
-      Host: commitments-coin-acdbentity-organized.trycloudflare.com 
+      Host: ip001.dtku47.xyz 
 
 - name: dongtaiwang.com_2
   type: vmess
   server: 172.64.144.200               
-  port: 8443                                     
-  uuid: 7c82741d-5510-4cfe-a022-8ee885b80d8a       
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  network: ws
-  servername: commitments-coin-acdbentity-organized.trycloudflare.com                    
-  ws-opts:
-    path: "7c82741d-5510-4cfe-a022-8ee885b80d8a-vm"                             
-    headers:
-      Host: commitments-coin-acdbentity-organized.trycloudflare.com
-
-- name: dongtaiwang.com_3           
-  type: vmess
-  server: 104.19.38.12                 
-  port: 8880                                     
-  uuid: 7c82741d-5510-4cfe-a022-8ee885b80d8a       
+  port: 8080                                     
+  uuid: ffaba3ee-4070-4590-9959-d863f9a4c6de       
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   network: ws
-  servername: commitments-coin-acdbentity-organized.trycloudflare.com                    
+  servername: ip001.dtku47.xyz                    
   ws-opts:
-    path: "7c82741d-5510-4cfe-a022-8ee885b80d8a-vm"                             
+    path: "/9aqOiXD2/"                             
     headers:
-      Host: commitments-coin-acdbentity-organized.trycloudflare.com 
+      Host: ip001.dtku47.xyz
+
+- name: dongtaiwang.com_3           
+  type: vmess
+  server: 104.19.38.12                 
+  port: 8080                                     
+  uuid: ffaba3ee-4070-4590-9959-d863f9a4c6de       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip001.dtku47.xyz                    
+  ws-opts:
+    path: "/9aqOiXD2/"                             
+    headers:
+      Host: ip001.dtku47.xyz 
 
 
 proxy-groups:
