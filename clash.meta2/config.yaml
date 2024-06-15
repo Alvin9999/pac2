@@ -23,11 +23,11 @@ proxies:
   udp: true
   tls: true
   network: ws
-  servername: division-rachel-sic-mileage.trycloudflare.com                    
+  servername: remaining-criminal-douglas-idol.trycloudflare.com                    
   ws-opts:
     path: "d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm"                             
     headers:
-      Host: division-rachel-sic-mileage.trycloudflare.com
+      Host: remaining-criminal-douglas-idol.trycloudflare.com
 
 - name: dongtaiwang.com_1                    
   type: vmess
@@ -39,11 +39,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: division-rachel-sic-mileage.trycloudflare.com                    
+  servername: remaining-criminal-douglas-idol.trycloudflare.com                    
   ws-opts:
     path: "d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm"                             
     headers:
-      Host: division-rachel-sic-mileage.trycloudflare.com 
+      Host: remaining-criminal-douglas-idol.trycloudflare.com 
 
 - name: dongtaiwang.com_2
   type: vmess
@@ -55,11 +55,11 @@ proxies:
   udp: true
   tls: true
   network: ws
-  servername: division-rachel-sic-mileage.trycloudflare.com                    
+  servername: remaining-criminal-douglas-idol.trycloudflare.com                    
   ws-opts:
     path: "d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm"                             
     headers:
-      Host: division-rachel-sic-mileage.trycloudflare.com
+      Host: remaining-criminal-douglas-idol.trycloudflare.com
 
 - name: dongtaiwang.com_3           
   type: vmess
@@ -71,11 +71,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: division-rachel-sic-mileage.trycloudflare.com                    
+  servername: remaining-criminal-douglas-idol.trycloudflare.com                    
   ws-opts:
     path: "d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm"                             
     headers:
-      Host: division-rachel-sic-mileage.trycloudflare.com 
+      Host: remaining-criminal-douglas-idol.trycloudflare.com 
 
 
 proxy-groups:
