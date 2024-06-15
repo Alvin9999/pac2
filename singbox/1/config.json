@@ -11,24 +11,33 @@
   ],
   "outbounds": [
     {
-      "type": "hysteria",
-      "tag": "dongtaiwang.com",
-      "server": "64.31.55.72", 
-      "server_port": 55661,
-      "up_mbps": 5, 
-      "down_mbps": 20,
-      "auth_str": "dongtaiwang.com",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "bing.com", 
-        "alpn": [
-          "h3"
-        ]
+            "server": "fbi.gov",
+            "server_port": 2052,
+            "tag": "dongtaiwang.com",
+            "tls": {
+                "enabled": false,
+                "server_name": "ip003.dtku47.xyz",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "packet_encoding": "packetaddr",
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "ip003.dtku47.xyz"
+                    ]
+                },
+                "path": "ef8c954e-014f-4b36-8273-9b5086afab34-vm",
+                "type": "ws"
+            },
+            "type": "vmess",
+            "security": "auto",
+            "uuid": "ef8c954e-014f-4b36-8273-9b5086afab34"
 
-      }
-    }
-  ] 
-	 
-}
-
+        }
+ ]
+  }
+  
