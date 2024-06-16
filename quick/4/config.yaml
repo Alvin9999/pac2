@@ -16,9 +16,14 @@ proxies:
   - name: dongtaiwang.com_0
     type: ss
     server: 109.104.152.186
-    port: 11223
+    port: 443
     cipher: 2022-blake3-chacha20-poly1305
-    password: "7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto="
+    password: "2mLw+aTguEUrvK/Jamxr4CY/RbLCL/MmfWJQ7c6bXe8="
+    plugin: shadow-tls
+    plugin-opts:
+      host: "nijigen-works.jp"
+      password: "UcMMbVQBzIUAcdC12ju6lV9j3rjK3cAQiZoYCDk1h/g="
+      version: 3
     smux:
       enabled: true
       protocol: smux
