@@ -23,11 +23,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip001.dtku47.xyz                    
+  servername: ip001.freegradely.xyz                    
   ws-opts:
     path: "/9aqOiXD2/"                             
     headers:
-      Host: ip001.dtku47.xyz
+      Host: ip001.freegradely.xyz
 
 - name: dongtaiwang.com_1                    
   type: vmess
@@ -39,11 +39,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip001.dtku47.xyz                    
+  servername: ip001.freegradely.xyz                    
   ws-opts:
     path: "/9aqOiXD2/"                             
     headers:
-      Host: ip001.dtku47.xyz 
+      Host: ip001.freegradely.xyz 
 
 - name: dongtaiwang.com_2
   type: vmess
@@ -55,11 +55,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip001.dtku47.xyz                    
+  servername: ip001.freegradely.xyz                    
   ws-opts:
     path: "/9aqOiXD2/"                             
     headers:
-      Host: ip001.dtku47.xyz
+      Host: ip001.freegradely.xyz
 
 - name: dongtaiwang.com_3           
   type: vmess
@@ -71,11 +71,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip001.dtku47.xyz                    
+  servername: ip001.freegradely.xyz                    
   ws-opts:
     path: "/9aqOiXD2/"                             
     headers:
-      Host: ip001.dtku47.xyz 
+      Host: ip001.freegradely.xyz 
 
 
 proxy-groups:
