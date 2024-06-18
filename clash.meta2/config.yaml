@@ -31,7 +31,7 @@ proxies:
 
 - name: dongtaiwang.com_1                    
   type: vmess
-  server: 162.159.136.23                   
+  server: 23.227.38.3                 
   port: 8880                                     
   uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c       
   alterId: 0
