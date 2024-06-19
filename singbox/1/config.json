@@ -11,7 +11,7 @@
   ],
   "outbounds": [
     {
-            "server": "fbi.gov",
+            "server": "104.16.148.244",
             "server_port": 2052,
             "tag": "dongtaiwang.com",
             "tls": {
