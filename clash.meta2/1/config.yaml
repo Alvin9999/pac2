@@ -15,7 +15,7 @@ dns:
 proxies:
 - name: dongtaiwang.com_0                     
   type: vmess
-  server: fbi.gov                      
+  server: 104.16.148.244                 
   port: 8080                                     
   uuid: ffaba3ee-4070-4590-9959-d863f9a4c6de       
   alterId: 0
