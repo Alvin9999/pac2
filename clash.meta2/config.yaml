@@ -15,13 +15,13 @@ dns:
 proxies:
 - name: dongtaiwang.com_0                     
   type: vmess
-  server: 162.159.129.179                      
-  port: 443                                     
+  server: 104.19.38.10               
+  port: 80                                     
   uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c       
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
+  tls: false
   network: ws
   servername: remaining-criminal-douglas-idol.trycloudflare.com                    
   ws-opts:
@@ -48,12 +48,12 @@ proxies:
 - name: dongtaiwang.com_2
   type: vmess
   server: 141.101.122.184          
-  port: 8443                                     
+  port: 80                                     
   uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c       
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
+  tls: false
   network: ws
   servername: remaining-criminal-douglas-idol.trycloudflare.com                    
   ws-opts:
