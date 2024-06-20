@@ -15,67 +15,67 @@ dns:
 proxies:
 - name: dongtaiwang.com_0                     
   type: vmess
-  server: 104.16.149.222                 
-  port: 2095                                     
-  uuid: e9555d84-a146-4e36-9c23-eac28387be48       
+  server: 104.19.32.88               
+  port: 2086                                     
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c       
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   network: ws
-  servername: ip5-2.freegradely.xyz                    
+  servername: ip5-4.freegradely.xyz                    
   ws-opts:
-    path: "/WNh8bXQv/"                             
+    path: "d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm"                             
     headers:
-      Host: ip5-2.freegradely.xyz
+      Host: ip5-4.freegradely.xyz
 
 - name: dongtaiwang.com_1                    
   type: vmess
   server: 23.227.38.8               
-  port: 2095                                     
-  uuid: e9555d84-a146-4e36-9c23-eac28387be48       
+  port: 2086                                     
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c       
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   network: ws
-  servername: ip5-2.freegradely.xyz                    
+  servername: ip5-4.freegradely.xyz                    
   ws-opts:
-    path: "/WNh8bXQv/"                             
+    path: "d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm"                             
     headers:
-      Host: ip5-2.freegradely.xyz 
+      Host: ip5-4.freegradely.xyz 
 
 - name: dongtaiwang.com_2
   type: vmess
   server: 172.64.144.66               
-  port: 2095                                     
-  uuid: e9555d84-a146-4e36-9c23-eac28387be48       
+  port: 2086                                     
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c       
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   network: ws
-  servername: ip5-2.freegradely.xyz                    
+  servername: ip5-4.freegradely.xyz                    
   ws-opts:
-    path: "/WNh8bXQv/"                             
+    path: "d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm"                             
     headers:
-      Host: ip5-2.freegradely.xyz
+      Host: ip5-4.freegradely.xyz
 
 - name: dongtaiwang.com_3           
   type: vmess
   server: 104.19.38.88                
-  port: 2095                                     
-  uuid: e9555d84-a146-4e36-9c23-eac28387be48       
+  port: 2086                                     
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c       
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   network: ws
-  servername: ip5-2.freegradely.xyz                    
+  servername: ip5-4.freegradely.xyz                    
   ws-opts:
-    path: "/WNh8bXQv/"                             
+    path: "d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm"                             
     headers:
-      Host: ip5-2.freegradely.xyz 
+      Host: ip5-4.freegradely.xyz 
 
 
 proxy-groups:
