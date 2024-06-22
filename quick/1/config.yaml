@@ -25,7 +25,7 @@ proxies:
   network: ws
   servername: ip5-4.freegradely.xyz                    
   ws-opts:
-    path: "d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm"                             
+    path: "github.com/Alvin9999"                             
     headers:
       Host: ip5-4.freegradely.xyz
 
@@ -41,7 +41,7 @@ proxies:
   network: ws
   servername: ip5-4.freegradely.xyz                    
   ws-opts:
-    path: "d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm"                             
+    path: "github.com/Alvin9999"                             
     headers:
       Host: ip5-4.freegradely.xyz 
 
@@ -57,7 +57,7 @@ proxies:
   network: ws
   servername: ip5-4.freegradely.xyz                    
   ws-opts:
-    path: "d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm"                             
+    path: "github.com/Alvin9999"                             
     headers:
       Host: ip5-4.freegradely.xyz
 
@@ -73,7 +73,7 @@ proxies:
   network: ws
   servername: ip5-4.freegradely.xyz                    
   ws-opts:
-    path: "d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm"                             
+    path: "github.com/Alvin9999"                             
     headers:
       Host: ip5-4.freegradely.xyz 
 
