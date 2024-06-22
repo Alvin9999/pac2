@@ -47,20 +47,18 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
             "address": "yh7.dtku41.xyz",
-            "port": 443,
+            "port": 2082,
             "users": [
               {
-                "id": "ebfdccb6-7416-4b6e-860d-98587344d500",
+                "id": "86e926b9-d67a-4c8f-a35e-024631838a45",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
+                "security": "auto"
               }
             ]
           }
@@ -68,17 +66,10 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "lg1.freessr2.xyz",
-          "fingerprint": "chrome",
-          "show": false
-        },
         "wsSettings": {
-          "path": "/xyakws",
+          "path": "github.com/Alvin9999",
           "headers": {
-            "Host": "lg1.freessr2.xyz"
+            "Host": "ip2.freessr2.xyz"
           }
         }
       },
@@ -102,61 +93,42 @@
       }
     }
   ],
+  "dns": {
+    "hosts": {
+      "dns.google": "8.8.8.8",
+      "proxy.example.com": "127.0.0.1"
+    },
+    "servers": [
+      {
+        "address": "1.1.1.1",
+        "domains": [
+          "geosite:cn",
+          "geosite:geolocation-cn"
+        ],
+        "expectIPs": [
+          "geoip:cn"
+        ]
+      },
+      "1.1.1.1",
+      "8.8.8.8",
+      "https://dns.google/dns-query"
+    ]
+  },
   "routing": {
-    "domainStrategy": "AsIs",
+    "domainStrategy": "IPOnDemand",
+    "domainMatcher": "mph",
     "rules": [
       {
         "type": "field",
         "inboundTag": [
           "api"
         ],
-        "outboundTag": "api",
-        "enabled": true
+        "outboundTag": "api"
       },
       {
-        "id": "4903912855803990739",
-        "type": "field",
-        "outboundTag": "direct",
-        "domain": [
-          "domain:example-example.com",
-          "domain:example-example2.com"
-        ],
-        "enabled": true
-      },
-      {
-        "id": "5708028511442260423",
-        "type": "field",
-        "outboundTag": "block",
-        "domain": [
-          "geosite:category-ads-all"
-        ],
-        "enabled": true
-      },
-      {
-        "id": "5285280340381945458",
-        "type": "field",
-        "outboundTag": "direct",
-        "domain": [
-          "geosite:cn"
-        ],
-        "enabled": true
-      },
-      {
-        "id": "5063426339087196734",
-        "type": "field",
-        "outboundTag": "direct",
-        "ip": [
-          "geoip:private",
-          "geoip:cn"
-        ],
-        "enabled": true
-      },
-      {
-        "id": "4919950405029472934",
         "type": "field",
         "port": "0-65535",
-        "outboundTag": "proxy",
-        "enabled": true
+        "outboundTag": "proxy"
       }
     ]
   }
