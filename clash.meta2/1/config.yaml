@@ -25,7 +25,7 @@ proxies:
   network: ws
   servername: ip11.freegradely.xyz                    
   ws-opts:
-    path: "e9e3cc13-db48-4cc1-8c24-7626439a5339-vm"                             
+    path: "github.com/Alvin9999"                             
     headers:
       Host: ip11.freegradely.xyz
 
@@ -41,7 +41,7 @@ proxies:
   network: ws
   servername: ip11.freegradely.xyz                    
   ws-opts:
-    path: "e9e3cc13-db48-4cc1-8c24-7626439a5339-vm"                             
+    path: "github.com/Alvin9999"                             
     headers:
       Host: ip11.freegradely.xyz 
 
@@ -57,7 +57,7 @@ proxies:
   network: ws
   servername: ip11.freegradely.xyz                    
   ws-opts:
-    path: "e9e3cc13-db48-4cc1-8c24-7626439a5339-vm"                             
+    path: "github.com/Alvin9999"                             
     headers:
       Host: ip11.freegradely.xyz
 
@@ -73,7 +73,7 @@ proxies:
   network: ws
   servername: ip11.freegradely.xyz                    
   ws-opts:
-    path: "e9e3cc13-db48-4cc1-8c24-7626439a5339-vm"                             
+    path: "github.com/Alvin9999"                             
     headers:
       Host: ip11.freegradely.xyz 
 
