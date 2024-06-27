@@ -14,16 +14,16 @@ dns:
       - 0.0.0.0/32
 proxies:
   - name: dongtaiwang.com_0
-    server: 109.104.152.186
-    port: 44550
-    type: tuic
-    uuid: 760d4891-63ab-40db-98c7-1219ae1b92df
-    password: dongtaiwang.com
-    alpn: [h3]
-    disable-sni: true
-    reduce-rtt: true
-    udp-relay-mode: native
-    congestion-controller: bbr
+    type: ss
+    server: 23.170.40.77
+    port: 443
+    cipher: 2022-blake3-chacha20-poly1305
+    password: "CmUP/cj9LY2W4bsBUV7mG8ujmMcCOzt+b4un9xnLuro="
+    plugin: shadow-tls
+    plugin-opts:
+      host: "nijigen-works.jp"
+      password: "K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM="
+      version: 3
 proxy-groups:
   - name: 🚀 节点选择
     type: select
