@@ -11,26 +11,31 @@
   ],
   "outbounds": [
     {
-      "type": "tuic",
+      "type": "vless",
       "tag": "dongtaiwang.com",
-      "server": "109.104.152.186", 
-      "server_port": 44550,
-      "uuid": "760d4891-63ab-40db-98c7-1219ae1b92df", 
-      "password": "dongtaiwang.com", 
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "zero_rtt_handshake": false,
-      "heartbeat": "10s",
+      "server": "23.170.40.77", 
+      "server_port": 23450,
+      "uuid": "665ac122-452a-4bd1-8f92-056c959bc636", 
+      "flow": "",
+      "transport": {
+        "type": "grpc",
+        "service_name": "k9lTrY3d"
+      },
       "tls": {
         "enabled": true,
-        "insecure": true,
-        "server_name": "bing.com", 
-        "alpn": [
-          "h3"
-        ]
-      }
- }
+        "server_name": "nijigen-works.jp", 
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "H9txbn5FUStm1BkJgpdXi20sqJuP82i3EJoty8lWJnI",
+          "short_id": "53dfb4a1f2fc77c9"
+        }
+		}
+			}
+
  ]
   }
   
-
