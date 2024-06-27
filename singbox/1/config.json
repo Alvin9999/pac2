@@ -12,7 +12,7 @@
   "outbounds": [
     {
             "server": "104.19.38.189",
-            "server_port": 2052,
+            "server_port": 2086,
             "tag": "dongtaiwang.com",
             "tls": {
                 "enabled": false,
@@ -35,7 +35,7 @@
             },
             "type": "vmess",
             "security": "auto",
-            "uuid": "ef8c954e-014f-4b36-8273-9b5086afab34"
+            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339"
 
         }
  ]
