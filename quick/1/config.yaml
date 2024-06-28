@@ -17,7 +17,7 @@ proxies:
   type: vmess
   server: 104.19.32.88               
   port: 2086                                     
-  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c       
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
   alterId: 0
   cipher: auto
   udp: true
@@ -33,7 +33,7 @@ proxies:
   type: vmess
   server: 23.227.38.8               
   port: 2086                                     
-  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c       
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
   alterId: 0
   cipher: auto
   udp: true
@@ -49,7 +49,7 @@ proxies:
   type: vmess
   server: 104.26.0.50           
   port: 2086                                     
-  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c       
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
   alterId: 0
   cipher: auto
   udp: true
@@ -65,7 +65,7 @@ proxies:
   type: vmess
   server: 104.19.38.88                
   port: 2086                                     
-  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c       
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
   alterId: 0
   cipher: auto
   udp: true
