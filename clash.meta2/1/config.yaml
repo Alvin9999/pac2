@@ -23,11 +23,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz
+      Host: ip13.freegradely.xyz
 
 - name: dongtaiwang.com_1                    
   type: vmess
@@ -39,11 +39,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz 
+      Host: ip13.freegradely.xyz 
 
 - name: dongtaiwang.com_2
   type: vmess
@@ -55,11 +55,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz
+      Host: ip13.freegradely.xyz
 
 - name: dongtaiwang.com_3           
   type: vmess
@@ -71,11 +71,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz 
+      Host: ip13.freegradely.xyz 
 
 - name: dongtaiwang.com_4           
   type: vmess
@@ -87,11 +87,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz 
+      Host: ip13.freegradely.xyz 
 
 - name: dongtaiwang.com_5           
   type: vmess
@@ -103,11 +103,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz 
+      Host: ip13.freegradely.xyz 
       
 - name: dongtaiwang.com_6          
   type: vmess
@@ -119,11 +119,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz 
+      Host: ip13.freegradely.xyz 
       
 - name: dongtaiwang.com_7          
   type: vmess
@@ -135,11 +135,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz   
+      Host: ip13.freegradely.xyz   
 
 - name: dongtaiwang.com_8         
   type: vmess
@@ -151,11 +151,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz   
+      Host: ip13.freegradely.xyz   
 
 - name: dongtaiwang.com_9        
   type: vmess
@@ -167,11 +167,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz  
+      Host: ip13.freegradely.xyz  
       
 - name: dongtaiwang.com_10        
   type: vmess
@@ -183,11 +183,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz  
+      Host: ip13.freegradely.xyz  
       
 - name: dongtaiwang.com_11       
   type: vmess
@@ -199,11 +199,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz  
+      Host: ip13.freegradely.xyz  
       
 - name: dongtaiwang.com_12      
   type: vmess
@@ -215,11 +215,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz 
+      Host: ip13.freegradely.xyz 
 
 - name: dongtaiwang.com_13      
   type: vmess
@@ -231,11 +231,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz 
+      Host: ip13.freegradely.xyz 
       
 - name: dongtaiwang.com_14    
   type: vmess
@@ -247,11 +247,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz  
+      Host: ip13.freegradely.xyz  
 
 - name: dongtaiwang.com_15    
   type: vmess
@@ -263,11 +263,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz 
+      Host: ip13.freegradely.xyz 
       
 - name: dongtaiwang.com_16   
   type: vmess
@@ -279,11 +279,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz 
+      Host: ip13.freegradely.xyz 
       
 - name: dongtaiwang.com_17   
   type: vmess
@@ -295,11 +295,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz 
+      Host: ip13.freegradely.xyz 
       
 - name: dongtaiwang.com_18   
   type: vmess
@@ -311,11 +311,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz 
+      Host: ip13.freegradely.xyz 
 
 - name: dongtaiwang.com_19   
   type: vmess
@@ -327,11 +327,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz 
+      Host: ip13.freegradely.xyz 
       
 - name: dongtaiwang.com_20   
   type: vmess
@@ -343,11 +343,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz 
+      Host: ip13.freegradely.xyz 
       
 - name: dongtaiwang.com_21   
   type: vmess
@@ -359,11 +359,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz 
+      Host: ip13.freegradely.xyz 
 
 - name: dongtaiwang.com_22  
   type: vmess
@@ -375,11 +375,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz 
+      Host: ip13.freegradely.xyz 
 
 - name: dongtaiwang.com_23 
   type: vmess
@@ -391,11 +391,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz 
+      Host: ip13.freegradely.xyz 
 
 - name: dongtaiwang.com_24 
   type: vmess
@@ -407,11 +407,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz 
+      Host: ip13.freegradely.xyz 
  
 - name: dongtaiwang.com_25
   type: vmess
@@ -423,11 +423,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz 
+      Host: ip13.freegradely.xyz 
 
 - name: dongtaiwang.com_26
   type: vmess
@@ -439,11 +439,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz 
+      Host: ip13.freegradely.xyz 
       
 - name: dongtaiwang.com_27
   type: vmess
@@ -455,11 +455,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz 
+      Host: ip13.freegradely.xyz 
       
 - name: dongtaiwang.com_28
   type: vmess
@@ -471,11 +471,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz 
+      Host: ip13.freegradely.xyz 
 
 - name: dongtaiwang.com_29
   type: vmess
@@ -487,15 +487,15 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz 
+      Host: ip13.freegradely.xyz 
       
 - name: dongtaiwang.com_30   
   type: vmess
-  server: 172.67.74.112
+  server: 104.19.45.11
   port: 2086                                     
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
   alterId: 0
@@ -503,12 +503,491 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip12.freegradely.xyz                    
+  servername: ip13.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip12.freegradely.xyz 
+      Host: ip13.freegradely.xyz 
+
+- name: dongtaiwang.com_31                    
+  type: vmess
+  server: 104.19.45.13                
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz 
+
+- name: dongtaiwang.com_32
+  type: vmess
+  server: 104.19.45.15     
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz
+
+- name: dongtaiwang.com_33           
+  type: vmess
+  server: 104.19.45.17                     
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz 
+
+- name: dongtaiwang.com_34           
+  type: vmess
+  server: 104.19.45.19                 
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz 
+
+- name: dongtaiwang.com_35           
+  type: vmess
+  server: 104.19.45.31              
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz 
       
+- name: dongtaiwang.com_36          
+  type: vmess
+  server: 104.19.45.35               
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz 
+      
+- name: dongtaiwang.com_37          
+  type: vmess
+  server: 104.19.45.42             
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz   
+
+- name: dongtaiwang.com_38         
+  type: vmess
+  server: 104.19.45.47             
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz   
+
+- name: dongtaiwang.com_39        
+  type: vmess
+  server: 104.19.45.50            
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz  
+      
+- name: dongtaiwang.com_40        
+  type: vmess
+  server: 104.19.45.90          
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz  
+      
+- name: dongtaiwang.com_41       
+  type: vmess
+  server: 104.19.46.17            
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz  
+      
+- name: dongtaiwang.com_42      
+  type: vmess
+  server: 104.19.46.22         
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz 
+
+- name: dongtaiwang.com_43      
+  type: vmess
+  server: 104.19.46.27
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz 
+      
+- name: dongtaiwang.com_44    
+  type: vmess
+  server: 104.19.46.33 
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz  
+
+- name: dongtaiwang.com_45    
+  type: vmess
+  server: 104.19.46.36
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz 
+      
+- name: dongtaiwang.com_46   
+  type: vmess
+  server: 104.19.46.39
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz 
+      
+- name: dongtaiwang.com_47   
+  type: vmess
+  server: 104.19.46.42
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz 
+      
+- name: dongtaiwang.com_48   
+  type: vmess
+  server: 104.19.46.56
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz 
+
+- name: dongtaiwang.com_49   
+  type: vmess
+  server: 104.19.46.59
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz 
+      
+- name: dongtaiwang.com_50   
+  type: vmess
+  server: 104.19.46.63
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz 
+      
+- name: dongtaiwang.com_51   
+  type: vmess
+  server: 104.19.47.22
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz 
+
+- name: dongtaiwang.com_52  
+  type: vmess
+  server: 104.19.47.27
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz 
+
+- name: dongtaiwang.com_53 
+  type: vmess
+  server: 104.19.47.32
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz 
+
+- name: dongtaiwang.com_54 
+  type: vmess
+  server: 104.19.47.36
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz 
+ 
+- name: dongtaiwang.com_55
+  type: vmess
+  server: 104.19.47.45
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz 
+
+- name: dongtaiwang.com_56
+  type: vmess
+  server: 104.19.47.77
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz 
+      
+- name: dongtaiwang.com_57
+  type: vmess
+  server: 104.19.47.79
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz 
+      
+- name: dongtaiwang.com_58
+  type: vmess
+  server: 104.19.47.88
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz 
+
+- name: dongtaiwang.com_59
+  type: vmess
+  server: 104.19.47.80
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz 
+      
+- name: dongtaiwang.com_60   
+  type: vmess
+  server: 104.19.47.122
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip13.freegradely.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip13.freegradely.xyz   
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -546,6 +1025,36 @@ proxy-groups:
       - dongtaiwang.com_28
       - dongtaiwang.com_29
       - dongtaiwang.com_30
+      - dongtaiwang.com_31
+      - dongtaiwang.com_32
+      - dongtaiwang.com_33
+      - dongtaiwang.com_34
+      - dongtaiwang.com_35
+      - dongtaiwang.com_36
+      - dongtaiwang.com_37
+      - dongtaiwang.com_38
+      - dongtaiwang.com_39
+      - dongtaiwang.com_40
+      - dongtaiwang.com_41
+      - dongtaiwang.com_42
+      - dongtaiwang.com_43
+      - dongtaiwang.com_44
+      - dongtaiwang.com_45
+      - dongtaiwang.com_46
+      - dongtaiwang.com_47
+      - dongtaiwang.com_48
+      - dongtaiwang.com_49
+      - dongtaiwang.com_50
+      - dongtaiwang.com_51
+      - dongtaiwang.com_52
+      - dongtaiwang.com_53
+      - dongtaiwang.com_54
+      - dongtaiwang.com_55
+      - dongtaiwang.com_56
+      - dongtaiwang.com_57
+      - dongtaiwang.com_58
+      - dongtaiwang.com_59
+      - dongtaiwang.com_60
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -583,6 +1092,36 @@ proxy-groups:
       - dongtaiwang.com_28
       - dongtaiwang.com_29
       - dongtaiwang.com_30
+      - dongtaiwang.com_31
+      - dongtaiwang.com_32
+      - dongtaiwang.com_33
+      - dongtaiwang.com_34
+      - dongtaiwang.com_35
+      - dongtaiwang.com_36
+      - dongtaiwang.com_37
+      - dongtaiwang.com_38
+      - dongtaiwang.com_39
+      - dongtaiwang.com_40
+      - dongtaiwang.com_41
+      - dongtaiwang.com_42
+      - dongtaiwang.com_43
+      - dongtaiwang.com_44
+      - dongtaiwang.com_45
+      - dongtaiwang.com_46
+      - dongtaiwang.com_47
+      - dongtaiwang.com_48
+      - dongtaiwang.com_49
+      - dongtaiwang.com_50
+      - dongtaiwang.com_51
+      - dongtaiwang.com_52
+      - dongtaiwang.com_53
+      - dongtaiwang.com_54
+      - dongtaiwang.com_55
+      - dongtaiwang.com_56
+      - dongtaiwang.com_57
+      - dongtaiwang.com_58
+      - dongtaiwang.com_59
+      - dongtaiwang.com_60
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -620,6 +1159,36 @@ proxy-groups:
       - dongtaiwang.com_28
       - dongtaiwang.com_29
       - dongtaiwang.com_30
+      - dongtaiwang.com_31
+      - dongtaiwang.com_32
+      - dongtaiwang.com_33
+      - dongtaiwang.com_34
+      - dongtaiwang.com_35
+      - dongtaiwang.com_36
+      - dongtaiwang.com_37
+      - dongtaiwang.com_38
+      - dongtaiwang.com_39
+      - dongtaiwang.com_40
+      - dongtaiwang.com_41
+      - dongtaiwang.com_42
+      - dongtaiwang.com_43
+      - dongtaiwang.com_44
+      - dongtaiwang.com_45
+      - dongtaiwang.com_46
+      - dongtaiwang.com_47
+      - dongtaiwang.com_48
+      - dongtaiwang.com_49
+      - dongtaiwang.com_50
+      - dongtaiwang.com_51
+      - dongtaiwang.com_52
+      - dongtaiwang.com_53
+      - dongtaiwang.com_54
+      - dongtaiwang.com_55
+      - dongtaiwang.com_56
+      - dongtaiwang.com_57
+      - dongtaiwang.com_58
+      - dongtaiwang.com_59
+      - dongtaiwang.com_60
   - name: 📲 电报信息
     type: select
     proxies:
@@ -656,6 +1225,36 @@ proxy-groups:
       - dongtaiwang.com_28
       - dongtaiwang.com_29
       - dongtaiwang.com_30
+      - dongtaiwang.com_31
+      - dongtaiwang.com_32
+      - dongtaiwang.com_33
+      - dongtaiwang.com_34
+      - dongtaiwang.com_35
+      - dongtaiwang.com_36
+      - dongtaiwang.com_37
+      - dongtaiwang.com_38
+      - dongtaiwang.com_39
+      - dongtaiwang.com_40
+      - dongtaiwang.com_41
+      - dongtaiwang.com_42
+      - dongtaiwang.com_43
+      - dongtaiwang.com_44
+      - dongtaiwang.com_45
+      - dongtaiwang.com_46
+      - dongtaiwang.com_47
+      - dongtaiwang.com_48
+      - dongtaiwang.com_49
+      - dongtaiwang.com_50
+      - dongtaiwang.com_51
+      - dongtaiwang.com_52
+      - dongtaiwang.com_53
+      - dongtaiwang.com_54
+      - dongtaiwang.com_55
+      - dongtaiwang.com_56
+      - dongtaiwang.com_57
+      - dongtaiwang.com_58
+      - dongtaiwang.com_59
+      - dongtaiwang.com_60
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -692,6 +1291,36 @@ proxy-groups:
       - dongtaiwang.com_28
       - dongtaiwang.com_29
       - dongtaiwang.com_30
+      - dongtaiwang.com_31
+      - dongtaiwang.com_32
+      - dongtaiwang.com_33
+      - dongtaiwang.com_34
+      - dongtaiwang.com_35
+      - dongtaiwang.com_36
+      - dongtaiwang.com_37
+      - dongtaiwang.com_38
+      - dongtaiwang.com_39
+      - dongtaiwang.com_40
+      - dongtaiwang.com_41
+      - dongtaiwang.com_42
+      - dongtaiwang.com_43
+      - dongtaiwang.com_44
+      - dongtaiwang.com_45
+      - dongtaiwang.com_46
+      - dongtaiwang.com_47
+      - dongtaiwang.com_48
+      - dongtaiwang.com_49
+      - dongtaiwang.com_50
+      - dongtaiwang.com_51
+      - dongtaiwang.com_52
+      - dongtaiwang.com_53
+      - dongtaiwang.com_54
+      - dongtaiwang.com_55
+      - dongtaiwang.com_56
+      - dongtaiwang.com_57
+      - dongtaiwang.com_58
+      - dongtaiwang.com_59
+      - dongtaiwang.com_60
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -728,6 +1357,36 @@ proxy-groups:
       - dongtaiwang.com_28
       - dongtaiwang.com_29
       - dongtaiwang.com_30
+      - dongtaiwang.com_31
+      - dongtaiwang.com_32
+      - dongtaiwang.com_33
+      - dongtaiwang.com_34
+      - dongtaiwang.com_35
+      - dongtaiwang.com_36
+      - dongtaiwang.com_37
+      - dongtaiwang.com_38
+      - dongtaiwang.com_39
+      - dongtaiwang.com_40
+      - dongtaiwang.com_41
+      - dongtaiwang.com_42
+      - dongtaiwang.com_43
+      - dongtaiwang.com_44
+      - dongtaiwang.com_45
+      - dongtaiwang.com_46
+      - dongtaiwang.com_47
+      - dongtaiwang.com_48
+      - dongtaiwang.com_49
+      - dongtaiwang.com_50
+      - dongtaiwang.com_51
+      - dongtaiwang.com_52
+      - dongtaiwang.com_53
+      - dongtaiwang.com_54
+      - dongtaiwang.com_55
+      - dongtaiwang.com_56
+      - dongtaiwang.com_57
+      - dongtaiwang.com_58
+      - dongtaiwang.com_59
+      - dongtaiwang.com_60
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -781,5 +1440,35 @@ proxy-groups:
       - dongtaiwang.com_28
       - dongtaiwang.com_29
       - dongtaiwang.com_30
+      - dongtaiwang.com_31
+      - dongtaiwang.com_32
+      - dongtaiwang.com_33
+      - dongtaiwang.com_34
+      - dongtaiwang.com_35
+      - dongtaiwang.com_36
+      - dongtaiwang.com_37
+      - dongtaiwang.com_38
+      - dongtaiwang.com_39
+      - dongtaiwang.com_40
+      - dongtaiwang.com_41
+      - dongtaiwang.com_42
+      - dongtaiwang.com_43
+      - dongtaiwang.com_44
+      - dongtaiwang.com_45
+      - dongtaiwang.com_46
+      - dongtaiwang.com_47
+      - dongtaiwang.com_48
+      - dongtaiwang.com_49
+      - dongtaiwang.com_50
+      - dongtaiwang.com_51
+      - dongtaiwang.com_52
+      - dongtaiwang.com_53
+      - dongtaiwang.com_54
+      - dongtaiwang.com_55
+      - dongtaiwang.com_56
+      - dongtaiwang.com_57
+      - dongtaiwang.com_58
+      - dongtaiwang.com_59
+      - dongtaiwang.com_60
 rules:
   - MATCH,🚀 节点选择
