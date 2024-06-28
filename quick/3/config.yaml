@@ -13,17 +13,7 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - name: dongtaiwang.com_0
-    type: ss
-    server: 23.170.40.77
-    port: 443
-    cipher: 2022-blake3-chacha20-poly1305
-    password: "CmUP/cj9LY2W4bsBUV7mG8ujmMcCOzt+b4un9xnLuro="
-    plugin: shadow-tls
-    plugin-opts:
-      host: "nijigen-works.jp"
-      password: "K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM="
-      version: 3
+  - {"name":"dongtaiwang.com_0","type":"hysteria","server":"23.170.40.77","port":30009,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"dongtaiwang.com","up":11,"down":55,"hop_interval":10}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
