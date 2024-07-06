@@ -16,7 +16,7 @@
             "tag": "dongtaiwang.com",
             "tls": {
                 "enabled": false,
-                "server_name": "singbox1.dtku47.xyz",
+                "server_name": "singbox2.dtku47.xyz",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -27,7 +27,7 @@
             "transport": {
                 "headers": {
                     "Host": [
-                        "singbox1.dtku47.xyz"
+                        "singbox2.dtku47.xyz"
                     ]
                 },
                 "path": "github.com/Alvin9999",
