@@ -23,11 +23,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip005.dtku47.xyz                    
+  servername: ip006.dtku47.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip005.dtku47.xyz
+      Host: ip006.dtku47.xyz
 
 - name: dongtaiwang.com_1                    
   type: vmess
@@ -39,11 +39,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip005.dtku47.xyz                    
+  servername: ip006.dtku47.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip005.dtku47.xyz 
+      Host: ip006.dtku47.xyz 
 
 - name: dongtaiwang.com_2
   type: vmess
@@ -55,11 +55,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip005.dtku47.xyz                    
+  servername: ip006.dtku47.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip005.dtku47.xyz
+      Host: ip006.dtku47.xyz
 
 - name: dongtaiwang.com_3           
   type: vmess
@@ -71,11 +71,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip005.dtku47.xyz                    
+  servername: ip006.dtku47.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip005.dtku47.xyz 
+      Host: ip006.dtku47.xyz 
 
 
 proxy-groups:
