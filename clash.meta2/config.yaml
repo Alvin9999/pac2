@@ -23,11 +23,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz
+      Host: cdn3.freegradely.xyz
 
 - name: dongtaiwang.com_1                    
   type: vmess
@@ -39,11 +39,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz 
+      Host: cdn3.freegradely.xyz 
 
 - name: dongtaiwang.com_2
   type: vmess
@@ -55,11 +55,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz
+      Host: cdn3.freegradely.xyz
 
 - name: dongtaiwang.com_3           
   type: vmess
@@ -71,11 +71,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz 
+      Host: cdn3.freegradely.xyz 
 
 - name: dongtaiwang.com_4           
   type: vmess
@@ -87,11 +87,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz 
+      Host: cdn3.freegradely.xyz 
 
 - name: dongtaiwang.com_5           
   type: vmess
@@ -103,11 +103,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz 
+      Host: cdn3.freegradely.xyz 
       
 - name: dongtaiwang.com_6          
   type: vmess
@@ -119,11 +119,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz 
+      Host: cdn3.freegradely.xyz 
       
 - name: dongtaiwang.com_7          
   type: vmess
@@ -135,11 +135,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz   
+      Host: cdn3.freegradely.xyz   
 
 - name: dongtaiwang.com_8         
   type: vmess
@@ -151,11 +151,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz   
+      Host: cdn3.freegradely.xyz   
 
 - name: dongtaiwang.com_9        
   type: vmess
@@ -167,11 +167,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz  
+      Host: cdn3.freegradely.xyz  
       
 - name: dongtaiwang.com_10        
   type: vmess
@@ -183,11 +183,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz  
+      Host: cdn3.freegradely.xyz  
       
 - name: dongtaiwang.com_11       
   type: vmess
@@ -199,11 +199,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz  
+      Host: cdn3.freegradely.xyz  
       
 - name: dongtaiwang.com_12      
   type: vmess
@@ -215,11 +215,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz 
+      Host: cdn3.freegradely.xyz 
 
 - name: dongtaiwang.com_13      
   type: vmess
@@ -231,11 +231,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz 
+      Host: cdn3.freegradely.xyz 
       
 - name: dongtaiwang.com_14    
   type: vmess
@@ -247,11 +247,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz  
+      Host: cdn3.freegradely.xyz  
 
 - name: dongtaiwang.com_15    
   type: vmess
@@ -263,11 +263,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz 
+      Host: cdn3.freegradely.xyz 
       
 - name: dongtaiwang.com_16   
   type: vmess
@@ -279,11 +279,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz 
+      Host: cdn3.freegradely.xyz 
       
 - name: dongtaiwang.com_17   
   type: vmess
@@ -295,11 +295,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz 
+      Host: cdn3.freegradely.xyz 
       
 - name: dongtaiwang.com_18   
   type: vmess
@@ -311,11 +311,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz 
+      Host: cdn3.freegradely.xyz 
 
 - name: dongtaiwang.com_19   
   type: vmess
@@ -327,11 +327,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz 
+      Host: cdn3.freegradely.xyz 
       
 - name: dongtaiwang.com_20   
   type: vmess
@@ -343,11 +343,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz 
+      Host: cdn3.freegradely.xyz 
       
 - name: dongtaiwang.com_21   
   type: vmess
@@ -359,11 +359,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz 
+      Host: cdn3.freegradely.xyz 
 
 - name: dongtaiwang.com_22  
   type: vmess
@@ -375,11 +375,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz 
+      Host: cdn3.freegradely.xyz 
 
 - name: dongtaiwang.com_23 
   type: vmess
@@ -391,11 +391,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz 
+      Host: cdn3.freegradely.xyz 
 
 - name: dongtaiwang.com_24 
   type: vmess
@@ -407,11 +407,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz 
+      Host: cdn3.freegradely.xyz 
  
 - name: dongtaiwang.com_25
   type: vmess
@@ -423,11 +423,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz 
+      Host: cdn3.freegradely.xyz 
 
 - name: dongtaiwang.com_26
   type: vmess
@@ -439,11 +439,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz 
+      Host: cdn3.freegradely.xyz 
       
 - name: dongtaiwang.com_27
   type: vmess
@@ -455,11 +455,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz 
+      Host: cdn3.freegradely.xyz 
       
 - name: dongtaiwang.com_28
   type: vmess
@@ -471,11 +471,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz 
+      Host: cdn3.freegradely.xyz 
 
 - name: dongtaiwang.com_29
   type: vmess
@@ -487,11 +487,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz 
+      Host: cdn3.freegradely.xyz 
       
 - name: dongtaiwang.com_30   
   type: vmess
@@ -503,11 +503,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: cdn2.freegradely.xyz                    
+  servername: cdn3.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: cdn2.freegradely.xyz 
+      Host: cdn3.freegradely.xyz 
       
 proxy-groups:
   - name: 🚀 节点选择
