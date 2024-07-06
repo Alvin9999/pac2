@@ -23,11 +23,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5-7.freegradely.xyz                    
+  servername: ip5-10.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5-7.freegradely.xyz
+      Host: ip5-10.freegradely.xyz
 
 - name: dongtaiwang.com_1                    
   type: vmess
@@ -39,11 +39,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5-7.freegradely.xyz                    
+  servername: ip5-10.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5-7.freegradely.xyz 
+      Host: ip5-10.freegradely.xyz 
 
 - name: dongtaiwang.com_2
   type: vmess
@@ -55,11 +55,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5-7.freegradely.xyz                    
+  servername: ip5-10.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5-7.freegradely.xyz
+      Host: ip5-10.freegradely.xyz
 
 - name: dongtaiwang.com_3           
   type: vmess
@@ -71,11 +71,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5-7.freegradely.xyz                    
+  servername: ip5-10.freegradely.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5-7.freegradely.xyz 
+      Host: ip5-10.freegradely.xyz 
 
 
 proxy-groups:
