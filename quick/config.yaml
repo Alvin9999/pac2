@@ -15,15 +15,15 @@ dns:
 proxies:
   - name: dongtaiwang.com_0
     server: www2.dtku44.xyz
-    port: 11224
-    type: tuic
-    uuid: 285524a5-18ae-4bf4-8e89-473dfdc3a212
-    password: dongtaiwang.com
-    alpn: [h3]
-    disable-sni: true
-    reduce-rtt: true
-    udp-relay-mode: native
-    congestion-controller: bbr
+    type: ss
+    port: 443
+    cipher: 2022-blake3-chacha20-poly1305
+    password: "6qfEwR4QOrHq+k3csNdEZgMa+Y890g/eouGnVEtxb0c="
+    plugin: shadow-tls
+    plugin-opts:
+      host: "nijigen-works.jp"
+      password: "LdjpJtNZK+2WhXfRY+FxR9sokcOYoddKAx8dN7q8FOI="
+      version: 3
 proxy-groups:
   - name: 🚀 节点选择
     type: select
