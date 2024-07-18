@@ -1,9 +1,8 @@
-
 {
-  "server": "38.114.103.210:30647",
+  "server": "38.114.103.210:26288,20000-30000",
   "auth": "dongtaiwang.com",
   "tls": {
-    "sni": "bing.com",
+    "sni": "www.bing.com",
     "insecure": true
   },
   "quic": {
