@@ -1,8 +1,8 @@
 {
-  "server": "51.159.34.216:7571,20000-30000",
+  "server": "173.234.31.98:57429,20000-20000",
   "auth": "dongtaiwang.com",
   "tls": {
-    "sni": "www.bing.com",
+    "sni": "",
     "insecure": true
   },
   "quic": {
