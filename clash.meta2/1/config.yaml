@@ -671,7 +671,7 @@ proxies:
       
 - name: dongtaiwang.com_41       
   type: vmess
-  server: 104.19.46.17            
+  server: 104.26.5.56            
   port: 2086                                     
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
   alterId: 0
@@ -687,7 +687,7 @@ proxies:
       
 - name: dongtaiwang.com_42      
   type: vmess
-  server: 104.19.46.22         
+  server: 104.26.5.66         
   port: 2086                                     
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
   alterId: 0
@@ -703,7 +703,7 @@ proxies:
 
 - name: dongtaiwang.com_43      
   type: vmess
-  server: 104.19.46.27
+  server: 104.26.5.67
   port: 2086                                     
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
   alterId: 0
@@ -719,7 +719,7 @@ proxies:
       
 - name: dongtaiwang.com_44    
   type: vmess
-  server: 104.19.46.33 
+  server: 104.26.5.88
   port: 2086                                     
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
   alterId: 0
@@ -735,7 +735,7 @@ proxies:
 
 - name: dongtaiwang.com_45    
   type: vmess
-  server: 104.19.46.36
+  server: 104.26.5.90
   port: 2086                                     
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
   alterId: 0
@@ -751,7 +751,7 @@ proxies:
       
 - name: dongtaiwang.com_46   
   type: vmess
-  server: 104.19.46.39
+  server: 104.26.5.103
   port: 2086                                     
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
   alterId: 0
@@ -767,7 +767,7 @@ proxies:
       
 - name: dongtaiwang.com_47   
   type: vmess
-  server: 104.19.46.42
+  server: 104.26.5.112
   port: 2086                                     
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
   alterId: 0
@@ -783,7 +783,7 @@ proxies:
       
 - name: dongtaiwang.com_48   
   type: vmess
-  server: 104.19.46.56
+  server: 104.26.5.113
   port: 2086                                     
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
   alterId: 0
@@ -799,7 +799,7 @@ proxies:
 
 - name: dongtaiwang.com_49   
   type: vmess
-  server: 104.19.46.59
+  server: 104.26.5.123
   port: 2086                                     
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
   alterId: 0
@@ -815,7 +815,7 @@ proxies:
       
 - name: dongtaiwang.com_50   
   type: vmess
-  server: 104.19.46.63
+  server: 104.26.5.145
   port: 2086                                     
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
   alterId: 0
@@ -831,7 +831,7 @@ proxies:
       
 - name: dongtaiwang.com_51   
   type: vmess
-  server: 104.19.47.22
+  server: 162.159.140.19
   port: 2086                                     
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
   alterId: 0
@@ -847,7 +847,7 @@ proxies:
 
 - name: dongtaiwang.com_52  
   type: vmess
-  server: 104.19.47.27
+  server: 162.159.140.33
   port: 2086                                     
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
   alterId: 0
@@ -863,7 +863,7 @@ proxies:
 
 - name: dongtaiwang.com_53 
   type: vmess
-  server: 104.19.47.32
+  server: 162.159.140.39
   port: 2086                                     
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
   alterId: 0
@@ -879,7 +879,7 @@ proxies:
 
 - name: dongtaiwang.com_54 
   type: vmess
-  server: 104.19.47.36
+  server: 162.159.140.45
   port: 2086                                     
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
   alterId: 0
@@ -895,7 +895,7 @@ proxies:
  
 - name: dongtaiwang.com_55
   type: vmess
-  server: 104.19.47.45
+  server: 162.159.140.56
   port: 2086                                     
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
   alterId: 0
@@ -911,7 +911,7 @@ proxies:
 
 - name: dongtaiwang.com_56
   type: vmess
-  server: 104.19.47.77
+  server: 162.159.140.66
   port: 2086                                     
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
   alterId: 0
@@ -927,7 +927,7 @@ proxies:
       
 - name: dongtaiwang.com_57
   type: vmess
-  server: 104.19.47.79
+  server: 162.159.140.77
   port: 2086                                     
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
   alterId: 0
@@ -943,7 +943,7 @@ proxies:
       
 - name: dongtaiwang.com_58
   type: vmess
-  server: 104.19.47.88
+  server: 162.159.140.89
   port: 2086                                     
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
   alterId: 0
@@ -959,7 +959,7 @@ proxies:
 
 - name: dongtaiwang.com_59
   type: vmess
-  server: 104.19.47.80
+  server: 162.159.140.91
   port: 2086                                     
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
   alterId: 0
@@ -975,7 +975,7 @@ proxies:
       
 - name: dongtaiwang.com_60   
   type: vmess
-  server: 104.19.47.122
+  server: 162.159.140.93
   port: 2086                                     
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
   alterId: 0
