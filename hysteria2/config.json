@@ -1,10 +1,21 @@
 {
-  "server": "hy2.3124845.xyz:443",
+  "server": "hy3.3124845.xyz:443",
   "auth": "dongtaiwang.com",
   "tls": {
-    "sni": "hy2.3124845.xyz",
+    "sni": "hy3.3124845.xyz",
     "insecure": false
   },
+   "obfs": {
+        "type": "salamander",
+		"salamander":
+		{
+        "password": "dongtaiwang.com"}
+      },
+	  
+	  "bandwidth":{
+  "up": "11 mbps",
+  "down": "55 mbps"    },
+  
   "quic": {
     "initStreamReceiveWindow": 16777216,
     "maxStreamReceiveWindow": 16777216,
@@ -20,3 +31,4 @@
     }
   }
 }
+  
