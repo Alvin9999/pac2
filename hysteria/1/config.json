@@ -1,5 +1,5 @@
 {
-"server": "208.87.243.123:31476",
+"server": "38.135.52.192:23456",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
@@ -13,10 +13,10 @@
 "timeout": 300,
 "disable_udp": false
 },
-"obfs": "",
+"obfs": "dongtaiwang.com",
 "auth_str": "dongtaiwang.com",
 "alpn": "h3",
-"server_name": "wechat.com",
+"server_name": "bing.com",
 "insecure": true,
 "recv_window_conn": 115343360,
 "recv_window": 461373440,
