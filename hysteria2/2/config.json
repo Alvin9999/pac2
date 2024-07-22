@@ -1,9 +1,9 @@
 {
-  "server": "173.234.31.99:56549",
+  "server": "hy2.3124845.xyz:443",
   "auth": "dongtaiwang.com",
   "tls": {
-    "sni": "",
-    "insecure": true
+    "sni": "hy2.3124845.xyz",
+    "insecure": false
   },
   "quic": {
     "initStreamReceiveWindow": 16777216,
