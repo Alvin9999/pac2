@@ -1,9 +1,9 @@
 {
-  "server": "hy3.3124845.xyz:443",
+  "server": "166.1.18.178:23456",
   "auth": "dongtaiwang.com",
   "tls": {
-    "sni": "hy3.3124845.xyz",
-    "insecure": false
+    "sni": "bing.com",
+    "insecure": true
   },
    "obfs": {
         "type": "salamander",
