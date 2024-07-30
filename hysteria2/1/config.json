@@ -1,21 +1,10 @@
 {
-  "server": "207.90.239.157:22881",
+  "server": "91.149.239.189:43210,10000-20000",
   "auth": "dongtaiwang.com",
   "tls": {
-    "sni": "bing.com",
+    "sni": "www.bing.com",
     "insecure": true
   },
-   "obfs": {
-        "type": "salamander",
-		"salamander":
-		{
-        "password": "dongtaiwang.com"}
-      },
-	  
-	  "bandwidth":{
-  "up": "11 mbps",
-  "down": "55 mbps"    },
-  
   "quic": {
     "initStreamReceiveWindow": 16777216,
     "maxStreamReceiveWindow": 16777216,
@@ -31,4 +20,3 @@
     }
   }
 }
-  
