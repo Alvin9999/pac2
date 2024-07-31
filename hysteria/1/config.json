@@ -1,5 +1,5 @@
 {
-"server": "104.166.125.163:11001",
+"server": "173.234.31.102:10221",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
@@ -18,8 +18,8 @@
 "alpn": "h3",
 "server_name": "bing.com",
 "insecure": true,
-"recv_window_conn": 57671680,
-"recv_window": 230686720,
+"recv_window_conn": 115343360,
+"recv_window": 461373440,
 "disable_mtu_discovery": true,
 "resolver": "https://223.5.5.5/dns-query",
 "retry": 3,
