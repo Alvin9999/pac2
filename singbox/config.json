@@ -13,13 +13,13 @@
     {
       "type": "vless",
       "tag": "dongtaiwang.com",
-      "server": "23.170.40.77", 
-      "server_port": 23450,
-      "uuid": "665ac122-452a-4bd1-8f92-056c959bc636", 
+      "server": "91.149.239.23", 
+      "server_port": 12345,
+      "uuid": "37c5c02a-45ca-4c5c-a5c0-e8238571d11a", 
       "flow": "",
       "transport": {
         "type": "grpc",
-        "service_name": "k9lTrY3d"
+        "service_name": "23MKsu1m"
       },
       "tls": {
         "enabled": true,
@@ -30,9 +30,10 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "H9txbn5FUStm1BkJgpdXi20sqJuP82i3EJoty8lWJnI",
-          "short_id": "53dfb4a1f2fc77c9"
+          "public_key": "5CbVsui_i_MD3uKpQPKm7a0Ch711dN5ZHV5tZap-HF8",
+          "short_id": "d066b03b353640b8"
         }
+
 		}
 			}
 
