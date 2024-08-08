@@ -13,17 +13,1621 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - name: dongtaiwang.com_0
-    type: ss
-    server: 23.170.40.77
-    port: 443
-    cipher: 2022-blake3-chacha20-poly1305
-    password: "CmUP/cj9LY2W4bsBUV7mG8ujmMcCOzt+b4un9xnLuro="
-    plugin: shadow-tls
-    plugin-opts:
-      host: "nijigen-works.jp"
-      password: "K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM="
-      version: 3
+- name: dongtaiwang.com_0                     
+  type: vmess
+  server: 104.19.38.8             
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz
+
+- name: dongtaiwang.com_1                    
+  type: vmess
+  server: 104.26.0.56           
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_2
+  type: vmess
+  server: 23.227.38.3         
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz
+
+- name: dongtaiwang.com_3           
+  type: vmess
+  server: 104.19.38.12                 
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_4           
+  type: vmess
+  server: 172.64.175.88                 
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_5           
+  type: vmess
+  server: 172.64.99.22               
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_6          
+  type: vmess
+  server: 104.19.21.71              
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_7          
+  type: vmess
+  server: 172.64.175.213             
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz   
+
+- name: dongtaiwang.com_8         
+  type: vmess
+  server: 172.64.198.249            
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz   
+
+- name: dongtaiwang.com_9        
+  type: vmess
+  server: 172.64.194.76            
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz  
+      
+- name: dongtaiwang.com_10        
+  type: vmess
+  server: 104.19.21.63           
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz  
+      
+- name: dongtaiwang.com_11       
+  type: vmess
+  server: 104.19.123.11           
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz  
+      
+- name: dongtaiwang.com_12      
+  type: vmess
+  server: 104.18.57.111         
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_13      
+  type: vmess
+  server: 104.19.21.230    
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_14    
+  type: vmess
+  server: 104.19.21.230    
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz  
+
+- name: dongtaiwang.com_15    
+  type: vmess
+  server: 104.19.46.103  
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_16   
+  type: vmess
+  server: 104.19.32.216
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_17   
+  type: vmess
+  server: 104.19.47.65
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_18   
+  type: vmess
+  server: 104.19.58.175
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_19   
+  type: vmess
+  server: 104.19.55.49
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_20   
+  type: vmess
+  server: 104.19.42.49
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_21   
+  type: vmess
+  server: 104.17.106.151
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_22  
+  type: vmess
+  server: 104.19.57.4
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_23 
+  type: vmess
+  server: 104.19.59.89
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_24 
+  type: vmess
+  server: 104.20.17.186
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+ 
+- name: dongtaiwang.com_25
+  type: vmess
+  server: 104.20.25.146
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_26
+  type: vmess
+  server: 104.20.25.146
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_27
+  type: vmess
+  server: 104.26.7.132
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_28
+  type: vmess
+  server: 104.20.25.146
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_29
+  type: vmess
+  server: 104.20.17.186
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_30   
+  type: vmess
+  server: 104.19.45.11
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_31                    
+  type: vmess
+  server: 104.19.45.13                
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_32
+  type: vmess
+  server: 104.19.45.15     
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz
+
+- name: dongtaiwang.com_33           
+  type: vmess
+  server: 104.19.45.17                     
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_34           
+  type: vmess
+  server: 104.19.45.19                 
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_35           
+  type: vmess
+  server: 104.19.45.31              
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_36          
+  type: vmess
+  server: 104.19.45.35               
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_37          
+  type: vmess
+  server: 104.19.45.42             
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz   
+
+- name: dongtaiwang.com_38         
+  type: vmess
+  server: 104.19.45.47             
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz   
+
+- name: dongtaiwang.com_39        
+  type: vmess
+  server: 104.19.45.50            
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz  
+      
+- name: dongtaiwang.com_40        
+  type: vmess
+  server: 104.19.45.90          
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz  
+      
+- name: dongtaiwang.com_41       
+  type: vmess
+  server: 104.26.5.56            
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz  
+      
+- name: dongtaiwang.com_42      
+  type: vmess
+  server: 104.26.5.66         
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_43      
+  type: vmess
+  server: 104.26.5.67
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_44    
+  type: vmess
+  server: 104.26.5.88
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz  
+
+- name: dongtaiwang.com_45    
+  type: vmess
+  server: 104.26.5.90
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_46   
+  type: vmess
+  server: 104.26.5.103
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_47   
+  type: vmess
+  server: 104.26.5.112
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_48   
+  type: vmess
+  server: 104.26.5.113
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_49   
+  type: vmess
+  server: 104.26.5.123
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_50   
+  type: vmess
+  server: 104.26.5.145
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_51   
+  type: vmess
+  server: 162.159.140.19
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_52  
+  type: vmess
+  server: 162.159.140.33
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_53 
+  type: vmess
+  server: 162.159.140.39
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_54 
+  type: vmess
+  server: 162.159.140.45
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+ 
+- name: dongtaiwang.com_55
+  type: vmess
+  server: 162.159.140.56
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_56
+  type: vmess
+  server: 162.159.140.66
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_57
+  type: vmess
+  server: 162.159.140.77
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_58
+  type: vmess
+  server: 162.159.140.89
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_59
+  type: vmess
+  server: 162.159.140.91
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_60   
+  type: vmess
+  server: 162.159.140.93
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz   
+- name: dongtaiwang.com_61                    
+  type: vmess
+  server: 172.64.167.5               
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_62
+  type: vmess
+  server: 172.64.167.8         
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz
+
+- name: dongtaiwang.com_63           
+  type: vmess
+  server: 172.64.167.10                 
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_64           
+  type: vmess
+  server: 172.64.167.15                  
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_65           
+  type: vmess
+  server: 172.64.167.19               
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_66          
+  type: vmess
+  server: 172.64.167.22              
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_67          
+  type: vmess
+  server: 172.64.167.25               
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz   
+
+- name: dongtaiwang.com_68         
+  type: vmess
+  server: 172.64.167.29           
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz   
+
+- name: dongtaiwang.com_69        
+  type: vmess
+  server: 172.64.167.35          
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz  
+      
+- name: dongtaiwang.com_70        
+  type: vmess
+  server: 172.64.167.44        
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz  
+      
+- name: dongtaiwang.com_71       
+  type: vmess
+  server: 172.64.233.7      
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz  
+      
+- name: dongtaiwang.com_72      
+  type: vmess
+  server: 172.64.233.9      
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_73      
+  type: vmess
+  server: 172.64.233.15   
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_74    
+  type: vmess
+  server: 172.64.233.17
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz  
+
+- name: dongtaiwang.com_75    
+  type: vmess
+  server: 172.64.233.24
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_76   
+  type: vmess
+  server: 172.64.233.27
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_77   
+  type: vmess
+  server: 172.64.233.32
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_78   
+  type: vmess
+  server: 172.64.233.35
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_79   
+  type: vmess
+  server: 172.64.233.37
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_80   
+  type: vmess
+  server: 172.64.233.43
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_81   
+  type: vmess
+  server: 172.64.166.2
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_82  
+  type: vmess
+  server: 172.64.166.8
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_83 
+  type: vmess
+  server: 172.64.166.9
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_84 
+  type: vmess
+  server: 172.64.166.12
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+ 
+- name: dongtaiwang.com_85
+  type: vmess
+  server: 172.64.166.16
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_86
+  type: vmess
+  server: 172.64.166.20
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_87
+  type: vmess
+  server: 172.64.166.22
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_88
+  type: vmess
+  server: 172.64.166.28
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_89
+  type: vmess
+  server: 172.64.166.32
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_90   
+  type: vmess
+  server: 172.64.166.33
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_91  
+  type: vmess
+  server: fbi.gov
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_92 
+  type: vmess
+  server: shopify.com
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+ 
+- name: dongtaiwang.com_93 
+  type: vmess
+  server: icook.tw
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_94
+  type: vmess
+  server: ip.sb
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
+- name: dongtaiwang.com_95
+  type: vmess
+  server: japan.com
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+     
+- name: dongtaiwang.com_96
+  type: vmess
+  server: malaysia.com
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_97
+  type: vmess
+  server: russia.com
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_98
+  type: vmess
+  server: singapore.com
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+
+- name: dongtaiwang.com_99
+  type: vmess
+  server: skk.moe
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz    
+
+- name: dongtaiwang.com_100
+  type: vmess
+  server: www.visa.com
+  port: 2086                                     
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz                    
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip1.1789034.xyz 
+      
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -31,6 +1635,107 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
+      - dongtaiwang.com_4
+      - dongtaiwang.com_5
+      - dongtaiwang.com_6
+      - dongtaiwang.com_7
+      - dongtaiwang.com_8
+      - dongtaiwang.com_9
+      - dongtaiwang.com_10
+      - dongtaiwang.com_11
+      - dongtaiwang.com_12
+      - dongtaiwang.com_13
+      - dongtaiwang.com_14
+      - dongtaiwang.com_15
+      - dongtaiwang.com_16
+      - dongtaiwang.com_17
+      - dongtaiwang.com_18
+      - dongtaiwang.com_19
+      - dongtaiwang.com_20
+      - dongtaiwang.com_21
+      - dongtaiwang.com_22
+      - dongtaiwang.com_23
+      - dongtaiwang.com_24
+      - dongtaiwang.com_25
+      - dongtaiwang.com_26
+      - dongtaiwang.com_27
+      - dongtaiwang.com_28
+      - dongtaiwang.com_29
+      - dongtaiwang.com_30
+      - dongtaiwang.com_31
+      - dongtaiwang.com_32
+      - dongtaiwang.com_33
+      - dongtaiwang.com_34
+      - dongtaiwang.com_35
+      - dongtaiwang.com_36
+      - dongtaiwang.com_37
+      - dongtaiwang.com_38
+      - dongtaiwang.com_39
+      - dongtaiwang.com_40
+      - dongtaiwang.com_41
+      - dongtaiwang.com_42
+      - dongtaiwang.com_43
+      - dongtaiwang.com_44
+      - dongtaiwang.com_45
+      - dongtaiwang.com_46
+      - dongtaiwang.com_47
+      - dongtaiwang.com_48
+      - dongtaiwang.com_49
+      - dongtaiwang.com_50
+      - dongtaiwang.com_51
+      - dongtaiwang.com_52
+      - dongtaiwang.com_53
+      - dongtaiwang.com_54
+      - dongtaiwang.com_55
+      - dongtaiwang.com_56
+      - dongtaiwang.com_57
+      - dongtaiwang.com_58
+      - dongtaiwang.com_59
+      - dongtaiwang.com_60
+      - dongtaiwang.com_61
+      - dongtaiwang.com_62
+      - dongtaiwang.com_63
+      - dongtaiwang.com_64
+      - dongtaiwang.com_65
+      - dongtaiwang.com_66
+      - dongtaiwang.com_67
+      - dongtaiwang.com_68
+      - dongtaiwang.com_69
+      - dongtaiwang.com_70
+      - dongtaiwang.com_71
+      - dongtaiwang.com_72
+      - dongtaiwang.com_73
+      - dongtaiwang.com_74
+      - dongtaiwang.com_75
+      - dongtaiwang.com_76
+      - dongtaiwang.com_77
+      - dongtaiwang.com_78
+      - dongtaiwang.com_79
+      - dongtaiwang.com_80
+      - dongtaiwang.com_81
+      - dongtaiwang.com_82
+      - dongtaiwang.com_83
+      - dongtaiwang.com_84
+      - dongtaiwang.com_85
+      - dongtaiwang.com_86
+      - dongtaiwang.com_87
+      - dongtaiwang.com_88
+      - dongtaiwang.com_89
+      - dongtaiwang.com_90
+      - dongtaiwang.com_91
+      - dongtaiwang.com_92
+      - dongtaiwang.com_93
+      - dongtaiwang.com_94
+      - dongtaiwang.com_95
+      - dongtaiwang.com_96
+      - dongtaiwang.com_97
+      - dongtaiwang.com_98
+      - dongtaiwang.com_99
+      - dongtaiwang.com_100
+      
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -38,6 +1743,106 @@ proxy-groups:
     tolerance: 50
     proxies:
       - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
+      - dongtaiwang.com_4
+      - dongtaiwang.com_5
+      - dongtaiwang.com_6
+      - dongtaiwang.com_7
+      - dongtaiwang.com_8
+      - dongtaiwang.com_9
+      - dongtaiwang.com_10
+      - dongtaiwang.com_11
+      - dongtaiwang.com_12
+      - dongtaiwang.com_13
+      - dongtaiwang.com_14
+      - dongtaiwang.com_15
+      - dongtaiwang.com_16
+      - dongtaiwang.com_17
+      - dongtaiwang.com_18
+      - dongtaiwang.com_19
+      - dongtaiwang.com_20
+      - dongtaiwang.com_21
+      - dongtaiwang.com_22
+      - dongtaiwang.com_23
+      - dongtaiwang.com_24
+      - dongtaiwang.com_25
+      - dongtaiwang.com_26
+      - dongtaiwang.com_27
+      - dongtaiwang.com_28
+      - dongtaiwang.com_29
+      - dongtaiwang.com_30
+      - dongtaiwang.com_31
+      - dongtaiwang.com_32
+      - dongtaiwang.com_33
+      - dongtaiwang.com_34
+      - dongtaiwang.com_35
+      - dongtaiwang.com_36
+      - dongtaiwang.com_37
+      - dongtaiwang.com_38
+      - dongtaiwang.com_39
+      - dongtaiwang.com_40
+      - dongtaiwang.com_41
+      - dongtaiwang.com_42
+      - dongtaiwang.com_43
+      - dongtaiwang.com_44
+      - dongtaiwang.com_45
+      - dongtaiwang.com_46
+      - dongtaiwang.com_47
+      - dongtaiwang.com_48
+      - dongtaiwang.com_49
+      - dongtaiwang.com_50
+      - dongtaiwang.com_51
+      - dongtaiwang.com_52
+      - dongtaiwang.com_53
+      - dongtaiwang.com_54
+      - dongtaiwang.com_55
+      - dongtaiwang.com_56
+      - dongtaiwang.com_57
+      - dongtaiwang.com_58
+      - dongtaiwang.com_59
+      - dongtaiwang.com_60
+      - dongtaiwang.com_61
+      - dongtaiwang.com_62
+      - dongtaiwang.com_63
+      - dongtaiwang.com_64
+      - dongtaiwang.com_65
+      - dongtaiwang.com_66
+      - dongtaiwang.com_67
+      - dongtaiwang.com_68
+      - dongtaiwang.com_69
+      - dongtaiwang.com_70
+      - dongtaiwang.com_71
+      - dongtaiwang.com_72
+      - dongtaiwang.com_73
+      - dongtaiwang.com_74
+      - dongtaiwang.com_75
+      - dongtaiwang.com_76
+      - dongtaiwang.com_77
+      - dongtaiwang.com_78
+      - dongtaiwang.com_79
+      - dongtaiwang.com_80
+      - dongtaiwang.com_81
+      - dongtaiwang.com_82
+      - dongtaiwang.com_83
+      - dongtaiwang.com_84
+      - dongtaiwang.com_85
+      - dongtaiwang.com_86
+      - dongtaiwang.com_87
+      - dongtaiwang.com_88
+      - dongtaiwang.com_89
+      - dongtaiwang.com_90
+      - dongtaiwang.com_91
+      - dongtaiwang.com_92
+      - dongtaiwang.com_93
+      - dongtaiwang.com_94
+      - dongtaiwang.com_95
+      - dongtaiwang.com_96
+      - dongtaiwang.com_97
+      - dongtaiwang.com_98
+      - dongtaiwang.com_99
+      - dongtaiwang.com_100  
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -45,24 +1850,424 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
+      - dongtaiwang.com_4
+      - dongtaiwang.com_5
+      - dongtaiwang.com_6
+      - dongtaiwang.com_7
+      - dongtaiwang.com_8
+      - dongtaiwang.com_9
+      - dongtaiwang.com_10
+      - dongtaiwang.com_11
+      - dongtaiwang.com_12
+      - dongtaiwang.com_13
+      - dongtaiwang.com_14
+      - dongtaiwang.com_15
+      - dongtaiwang.com_16
+      - dongtaiwang.com_17
+      - dongtaiwang.com_18
+      - dongtaiwang.com_19
+      - dongtaiwang.com_20
+      - dongtaiwang.com_21
+      - dongtaiwang.com_22
+      - dongtaiwang.com_23
+      - dongtaiwang.com_24
+      - dongtaiwang.com_25
+      - dongtaiwang.com_26
+      - dongtaiwang.com_27
+      - dongtaiwang.com_28
+      - dongtaiwang.com_29
+      - dongtaiwang.com_30
+      - dongtaiwang.com_31
+      - dongtaiwang.com_32
+      - dongtaiwang.com_33
+      - dongtaiwang.com_34
+      - dongtaiwang.com_35
+      - dongtaiwang.com_36
+      - dongtaiwang.com_37
+      - dongtaiwang.com_38
+      - dongtaiwang.com_39
+      - dongtaiwang.com_40
+      - dongtaiwang.com_41
+      - dongtaiwang.com_42
+      - dongtaiwang.com_43
+      - dongtaiwang.com_44
+      - dongtaiwang.com_45
+      - dongtaiwang.com_46
+      - dongtaiwang.com_47
+      - dongtaiwang.com_48
+      - dongtaiwang.com_49
+      - dongtaiwang.com_50
+      - dongtaiwang.com_51
+      - dongtaiwang.com_52
+      - dongtaiwang.com_53
+      - dongtaiwang.com_54
+      - dongtaiwang.com_55
+      - dongtaiwang.com_56
+      - dongtaiwang.com_57
+      - dongtaiwang.com_58
+      - dongtaiwang.com_59
+      - dongtaiwang.com_60
+      - dongtaiwang.com_61
+      - dongtaiwang.com_62
+      - dongtaiwang.com_63
+      - dongtaiwang.com_64
+      - dongtaiwang.com_65
+      - dongtaiwang.com_66
+      - dongtaiwang.com_67
+      - dongtaiwang.com_68
+      - dongtaiwang.com_69
+      - dongtaiwang.com_70
+      - dongtaiwang.com_71
+      - dongtaiwang.com_72
+      - dongtaiwang.com_73
+      - dongtaiwang.com_74
+      - dongtaiwang.com_75
+      - dongtaiwang.com_76
+      - dongtaiwang.com_77
+      - dongtaiwang.com_78
+      - dongtaiwang.com_79
+      - dongtaiwang.com_80
+      - dongtaiwang.com_81
+      - dongtaiwang.com_82
+      - dongtaiwang.com_83
+      - dongtaiwang.com_84
+      - dongtaiwang.com_85
+      - dongtaiwang.com_86
+      - dongtaiwang.com_87
+      - dongtaiwang.com_88
+      - dongtaiwang.com_89
+      - dongtaiwang.com_90
+      - dongtaiwang.com_91
+      - dongtaiwang.com_92
+      - dongtaiwang.com_93
+      - dongtaiwang.com_94
+      - dongtaiwang.com_95
+      - dongtaiwang.com_96
+      - dongtaiwang.com_97
+      - dongtaiwang.com_98
+      - dongtaiwang.com_99
+      - dongtaiwang.com_100
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
+      - dongtaiwang.com_4
+      - dongtaiwang.com_5
+      - dongtaiwang.com_6
+      - dongtaiwang.com_7
+      - dongtaiwang.com_8
+      - dongtaiwang.com_9
+      - dongtaiwang.com_10
+      - dongtaiwang.com_11
+      - dongtaiwang.com_12
+      - dongtaiwang.com_13
+      - dongtaiwang.com_14
+      - dongtaiwang.com_15
+      - dongtaiwang.com_16
+      - dongtaiwang.com_17
+      - dongtaiwang.com_18
+      - dongtaiwang.com_19
+      - dongtaiwang.com_20
+      - dongtaiwang.com_21
+      - dongtaiwang.com_22
+      - dongtaiwang.com_23
+      - dongtaiwang.com_24
+      - dongtaiwang.com_25
+      - dongtaiwang.com_26
+      - dongtaiwang.com_27
+      - dongtaiwang.com_28
+      - dongtaiwang.com_29
+      - dongtaiwang.com_30
+      - dongtaiwang.com_31
+      - dongtaiwang.com_32
+      - dongtaiwang.com_33
+      - dongtaiwang.com_34
+      - dongtaiwang.com_35
+      - dongtaiwang.com_36
+      - dongtaiwang.com_37
+      - dongtaiwang.com_38
+      - dongtaiwang.com_39
+      - dongtaiwang.com_40
+      - dongtaiwang.com_41
+      - dongtaiwang.com_42
+      - dongtaiwang.com_43
+      - dongtaiwang.com_44
+      - dongtaiwang.com_45
+      - dongtaiwang.com_46
+      - dongtaiwang.com_47
+      - dongtaiwang.com_48
+      - dongtaiwang.com_49
+      - dongtaiwang.com_50
+      - dongtaiwang.com_51
+      - dongtaiwang.com_52
+      - dongtaiwang.com_53
+      - dongtaiwang.com_54
+      - dongtaiwang.com_55
+      - dongtaiwang.com_56
+      - dongtaiwang.com_57
+      - dongtaiwang.com_58
+      - dongtaiwang.com_59
+      - dongtaiwang.com_60
+      - dongtaiwang.com_61
+      - dongtaiwang.com_62
+      - dongtaiwang.com_63
+      - dongtaiwang.com_64
+      - dongtaiwang.com_65
+      - dongtaiwang.com_66
+      - dongtaiwang.com_67
+      - dongtaiwang.com_68
+      - dongtaiwang.com_69
+      - dongtaiwang.com_70
+      - dongtaiwang.com_71
+      - dongtaiwang.com_72
+      - dongtaiwang.com_73
+      - dongtaiwang.com_74
+      - dongtaiwang.com_75
+      - dongtaiwang.com_76
+      - dongtaiwang.com_77
+      - dongtaiwang.com_78
+      - dongtaiwang.com_79
+      - dongtaiwang.com_80
+      - dongtaiwang.com_81
+      - dongtaiwang.com_82
+      - dongtaiwang.com_83
+      - dongtaiwang.com_84
+      - dongtaiwang.com_85
+      - dongtaiwang.com_86
+      - dongtaiwang.com_87
+      - dongtaiwang.com_88
+      - dongtaiwang.com_89
+      - dongtaiwang.com_90
+      - dongtaiwang.com_91
+      - dongtaiwang.com_92
+      - dongtaiwang.com_93
+      - dongtaiwang.com_94
+      - dongtaiwang.com_95
+      - dongtaiwang.com_96
+      - dongtaiwang.com_97
+      - dongtaiwang.com_98
+      - dongtaiwang.com_99
+      - dongtaiwang.com_100
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
+      - dongtaiwang.com_4
+      - dongtaiwang.com_5
+      - dongtaiwang.com_6
+      - dongtaiwang.com_7
+      - dongtaiwang.com_8
+      - dongtaiwang.com_9
+      - dongtaiwang.com_10
+      - dongtaiwang.com_11
+      - dongtaiwang.com_12
+      - dongtaiwang.com_13
+      - dongtaiwang.com_14
+      - dongtaiwang.com_15
+      - dongtaiwang.com_16
+      - dongtaiwang.com_17
+      - dongtaiwang.com_18
+      - dongtaiwang.com_19
+      - dongtaiwang.com_20
+      - dongtaiwang.com_21
+      - dongtaiwang.com_22
+      - dongtaiwang.com_23
+      - dongtaiwang.com_24
+      - dongtaiwang.com_25
+      - dongtaiwang.com_26
+      - dongtaiwang.com_27
+      - dongtaiwang.com_28
+      - dongtaiwang.com_29
+      - dongtaiwang.com_30
+      - dongtaiwang.com_31
+      - dongtaiwang.com_32
+      - dongtaiwang.com_33
+      - dongtaiwang.com_34
+      - dongtaiwang.com_35
+      - dongtaiwang.com_36
+      - dongtaiwang.com_37
+      - dongtaiwang.com_38
+      - dongtaiwang.com_39
+      - dongtaiwang.com_40
+      - dongtaiwang.com_41
+      - dongtaiwang.com_42
+      - dongtaiwang.com_43
+      - dongtaiwang.com_44
+      - dongtaiwang.com_45
+      - dongtaiwang.com_46
+      - dongtaiwang.com_47
+      - dongtaiwang.com_48
+      - dongtaiwang.com_49
+      - dongtaiwang.com_50
+      - dongtaiwang.com_51
+      - dongtaiwang.com_52
+      - dongtaiwang.com_53
+      - dongtaiwang.com_54
+      - dongtaiwang.com_55
+      - dongtaiwang.com_56
+      - dongtaiwang.com_57
+      - dongtaiwang.com_58
+      - dongtaiwang.com_59
+      - dongtaiwang.com_60
+      - dongtaiwang.com_61
+      - dongtaiwang.com_62
+      - dongtaiwang.com_63
+      - dongtaiwang.com_64
+      - dongtaiwang.com_65
+      - dongtaiwang.com_66
+      - dongtaiwang.com_67
+      - dongtaiwang.com_68
+      - dongtaiwang.com_69
+      - dongtaiwang.com_70
+      - dongtaiwang.com_71
+      - dongtaiwang.com_72
+      - dongtaiwang.com_73
+      - dongtaiwang.com_74
+      - dongtaiwang.com_75
+      - dongtaiwang.com_76
+      - dongtaiwang.com_77
+      - dongtaiwang.com_78
+      - dongtaiwang.com_79
+      - dongtaiwang.com_80
+      - dongtaiwang.com_81
+      - dongtaiwang.com_82
+      - dongtaiwang.com_83
+      - dongtaiwang.com_84
+      - dongtaiwang.com_85
+      - dongtaiwang.com_86
+      - dongtaiwang.com_87
+      - dongtaiwang.com_88
+      - dongtaiwang.com_89
+      - dongtaiwang.com_90
+      - dongtaiwang.com_91
+      - dongtaiwang.com_92
+      - dongtaiwang.com_93
+      - dongtaiwang.com_94
+      - dongtaiwang.com_95
+      - dongtaiwang.com_96
+      - dongtaiwang.com_97
+      - dongtaiwang.com_98
+      - dongtaiwang.com_99
+      - dongtaiwang.com_100
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
+      - dongtaiwang.com_4
+      - dongtaiwang.com_5
+      - dongtaiwang.com_6
+      - dongtaiwang.com_7
+      - dongtaiwang.com_8
+      - dongtaiwang.com_9
+      - dongtaiwang.com_10
+      - dongtaiwang.com_11
+      - dongtaiwang.com_12
+      - dongtaiwang.com_13
+      - dongtaiwang.com_14
+      - dongtaiwang.com_15
+      - dongtaiwang.com_16
+      - dongtaiwang.com_17
+      - dongtaiwang.com_18
+      - dongtaiwang.com_19
+      - dongtaiwang.com_20
+      - dongtaiwang.com_21
+      - dongtaiwang.com_22
+      - dongtaiwang.com_23
+      - dongtaiwang.com_24
+      - dongtaiwang.com_25
+      - dongtaiwang.com_26
+      - dongtaiwang.com_27
+      - dongtaiwang.com_28
+      - dongtaiwang.com_29
+      - dongtaiwang.com_30
+      - dongtaiwang.com_31
+      - dongtaiwang.com_32
+      - dongtaiwang.com_33
+      - dongtaiwang.com_34
+      - dongtaiwang.com_35
+      - dongtaiwang.com_36
+      - dongtaiwang.com_37
+      - dongtaiwang.com_38
+      - dongtaiwang.com_39
+      - dongtaiwang.com_40
+      - dongtaiwang.com_41
+      - dongtaiwang.com_42
+      - dongtaiwang.com_43
+      - dongtaiwang.com_44
+      - dongtaiwang.com_45
+      - dongtaiwang.com_46
+      - dongtaiwang.com_47
+      - dongtaiwang.com_48
+      - dongtaiwang.com_49
+      - dongtaiwang.com_50
+      - dongtaiwang.com_51
+      - dongtaiwang.com_52
+      - dongtaiwang.com_53
+      - dongtaiwang.com_54
+      - dongtaiwang.com_55
+      - dongtaiwang.com_56
+      - dongtaiwang.com_57
+      - dongtaiwang.com_58
+      - dongtaiwang.com_59
+      - dongtaiwang.com_60
+      - dongtaiwang.com_61
+      - dongtaiwang.com_62
+      - dongtaiwang.com_63
+      - dongtaiwang.com_64
+      - dongtaiwang.com_65
+      - dongtaiwang.com_66
+      - dongtaiwang.com_67
+      - dongtaiwang.com_68
+      - dongtaiwang.com_69
+      - dongtaiwang.com_70
+      - dongtaiwang.com_71
+      - dongtaiwang.com_72
+      - dongtaiwang.com_73
+      - dongtaiwang.com_74
+      - dongtaiwang.com_75
+      - dongtaiwang.com_76
+      - dongtaiwang.com_77
+      - dongtaiwang.com_78
+      - dongtaiwang.com_79
+      - dongtaiwang.com_80
+      - dongtaiwang.com_81
+      - dongtaiwang.com_82
+      - dongtaiwang.com_83
+      - dongtaiwang.com_84
+      - dongtaiwang.com_85
+      - dongtaiwang.com_86
+      - dongtaiwang.com_87
+      - dongtaiwang.com_88
+      - dongtaiwang.com_89
+      - dongtaiwang.com_90
+      - dongtaiwang.com_91
+      - dongtaiwang.com_92
+      - dongtaiwang.com_93
+      - dongtaiwang.com_94
+      - dongtaiwang.com_95
+      - dongtaiwang.com_96
+      - dongtaiwang.com_97
+      - dongtaiwang.com_98
+      - dongtaiwang.com_99
+      - dongtaiwang.com_100
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -86,5 +2291,105 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
+      - dongtaiwang.com_4
+      - dongtaiwang.com_5
+      - dongtaiwang.com_6
+      - dongtaiwang.com_7
+      - dongtaiwang.com_8
+      - dongtaiwang.com_9
+      - dongtaiwang.com_10
+      - dongtaiwang.com_11
+      - dongtaiwang.com_12
+      - dongtaiwang.com_13
+      - dongtaiwang.com_14
+      - dongtaiwang.com_15
+      - dongtaiwang.com_16
+      - dongtaiwang.com_17
+      - dongtaiwang.com_18
+      - dongtaiwang.com_19
+      - dongtaiwang.com_20
+      - dongtaiwang.com_21
+      - dongtaiwang.com_22
+      - dongtaiwang.com_23
+      - dongtaiwang.com_24
+      - dongtaiwang.com_25
+      - dongtaiwang.com_26
+      - dongtaiwang.com_27
+      - dongtaiwang.com_28
+      - dongtaiwang.com_29
+      - dongtaiwang.com_30
+      - dongtaiwang.com_31
+      - dongtaiwang.com_32
+      - dongtaiwang.com_33
+      - dongtaiwang.com_34
+      - dongtaiwang.com_35
+      - dongtaiwang.com_36
+      - dongtaiwang.com_37
+      - dongtaiwang.com_38
+      - dongtaiwang.com_39
+      - dongtaiwang.com_40
+      - dongtaiwang.com_41
+      - dongtaiwang.com_42
+      - dongtaiwang.com_43
+      - dongtaiwang.com_44
+      - dongtaiwang.com_45
+      - dongtaiwang.com_46
+      - dongtaiwang.com_47
+      - dongtaiwang.com_48
+      - dongtaiwang.com_49
+      - dongtaiwang.com_50
+      - dongtaiwang.com_51
+      - dongtaiwang.com_52
+      - dongtaiwang.com_53
+      - dongtaiwang.com_54
+      - dongtaiwang.com_55
+      - dongtaiwang.com_56
+      - dongtaiwang.com_57
+      - dongtaiwang.com_58
+      - dongtaiwang.com_59
+      - dongtaiwang.com_60
+      - dongtaiwang.com_61
+      - dongtaiwang.com_62
+      - dongtaiwang.com_63
+      - dongtaiwang.com_64
+      - dongtaiwang.com_65
+      - dongtaiwang.com_66
+      - dongtaiwang.com_67
+      - dongtaiwang.com_68
+      - dongtaiwang.com_69
+      - dongtaiwang.com_70
+      - dongtaiwang.com_71
+      - dongtaiwang.com_72
+      - dongtaiwang.com_73
+      - dongtaiwang.com_74
+      - dongtaiwang.com_75
+      - dongtaiwang.com_76
+      - dongtaiwang.com_77
+      - dongtaiwang.com_78
+      - dongtaiwang.com_79
+      - dongtaiwang.com_80
+      - dongtaiwang.com_81
+      - dongtaiwang.com_82
+      - dongtaiwang.com_83
+      - dongtaiwang.com_84
+      - dongtaiwang.com_85
+      - dongtaiwang.com_86
+      - dongtaiwang.com_87
+      - dongtaiwang.com_88
+      - dongtaiwang.com_89
+      - dongtaiwang.com_90
+      - dongtaiwang.com_91
+      - dongtaiwang.com_92
+      - dongtaiwang.com_93
+      - dongtaiwang.com_94
+      - dongtaiwang.com_95
+      - dongtaiwang.com_96
+      - dongtaiwang.com_97
+      - dongtaiwang.com_98
+      - dongtaiwang.com_99
+      - dongtaiwang.com_100
 rules:
   - MATCH,🚀 节点选择
