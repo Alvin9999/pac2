@@ -11,7 +11,7 @@
   ],
   "outbounds": [
     {
-            "server": "104.19.38.189",
+            "server": "104.21.238.201",
             "server_port": 2086,
             "tag": "dongtaiwang.com",
             "tls": {
