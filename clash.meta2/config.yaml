@@ -15,7 +15,7 @@ dns:
 proxies:
 - name: dongtaiwang.com_0                     
   type: vmess
-  server: 104.19.38.8             
+  server: 104.19.38.17           
   port: 443                                     
   uuid: 25d1b318-87e8-4c1e-a784-69783be4b30a       
   alterId: 0
