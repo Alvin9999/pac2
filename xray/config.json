@@ -26,7 +26,7 @@
     },
     {
       "tag": "http",
-      "port": 1081,
+      "port": 10809,
       "listen": "127.0.0.1",
       "protocol": "http",
       "sniffing": {
@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.143.111",
-            "port": 2082,
+            "address": "104.21.238.112",
+            "port": 443,
             "users": [
               {
-                "id": "86e926b9-d67a-4c8f-a35e-024631838a45",
+                "id": "25d1b318-87e8-4c1e-a784-69783be4b30a",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -66,10 +66,15 @@
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ip1.589643.xyz"
+        },
         "wsSettings": {
-          "path": "github.com/Alvin9999",
+          "path": "dongtaiwang.com",
           "headers": {
-            "Host": "xray2.2413762.xyz"
+            "Host": "ip1.589643.xyz"
           }
         }
       },
@@ -100,7 +105,7 @@
     },
     "servers": [
       {
-        "address": "1.1.1.1",
+        "address": "223.5.5.5",
         "domains": [
           "geosite:cn",
           "geosite:geolocation-cn"
@@ -115,8 +120,7 @@
     ]
   },
   "routing": {
-    "domainStrategy": "IPOnDemand",
-    "domainMatcher": "mph",
+    "domainStrategy": "AsIs",
     "rules": [
       {
         "type": "field",
@@ -124,6 +128,12 @@
           "api"
         ],
         "outboundTag": "api"
+      },
+      {
+        "type": "field",
+        "port": "443",
+        "network": "udp",
+        "outboundTag": "block"
       },
       {
         "type": "field",
