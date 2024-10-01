@@ -12,11 +12,11 @@
   "outbounds": [
     {
             "server": "104.21.238.201",
-            "server_port": 2086,
+            "server_port": 443,
             "tag": "dongtaiwang.com",
             "tls": {
-                "enabled": false,
-                "server_name": "singbox2.3196772.xyz",
+                "enabled": true,
+                "server_name": "ip1.589643.xyz",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -27,15 +27,16 @@
             "transport": {
                 "headers": {
                     "Host": [
-                        "singbox2.3196772.xyz"
+                        "ip1.589643.xyz"
                     ]
                 },
-                "path": "github.com/Alvin9999",
+                "path": "dongtaiwang.com",
                 "type": "ws"
             },
             "type": "vmess",
             "security": "auto",
-            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+            "uuid": "25d1b318-87e8-4c1e-a784-69783be4b30a"
+
 
         }
  ]
