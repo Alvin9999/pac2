@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.238.112",
+            "address": "104.21.238.38",
             "port": 443,
             "users": [
               {
-                "id": "25d1b318-87e8-4c1e-a784-69783be4b30a",
+                "id": "2b0ee439-844b-42fb-8a86-288b65dc20e1",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -69,12 +69,12 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "ip1.589643.xyz"
+          "serverName": "ip1.9447609.xyz"
         },
         "wsSettings": {
-          "path": "dongtaiwang.com",
+          "path": "/2b0ee439-844b-42fb-8a86-288b65dc20e1",
           "headers": {
-            "Host": "ip1.589643.xyz"
+            "Host": "ip1.9447609.xyz"
           }
         }
       },
