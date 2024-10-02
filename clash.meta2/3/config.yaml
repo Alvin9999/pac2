@@ -13,7 +13,20 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - {"name":"dongtaiwang.com_0","type":"ssr","server":"108.181.5.20","port":33221,"password":"dongtaiwang.com","cipher":"dummy","obfs":"plain","protocol":"auth_chain_a"}
+- name: dongtaiwang.com_0            
+  type: vless
+  server: 108.181.5.21                          
+  port: 56319                                
+  uuid: 25d1b318-87e8-4c1e-a784-69783be4b30a   
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.yahoo.com                 
+  reality-opts: 
+    public-key: tSLtMh9ypKHKhszEhkSGKOG0wp4de5qt65hWNBz1cW0    
+    short-id: '12a08916'                    
+  client-fingerprint: chrome
 proxy-groups:
   - name: 🚀 节点选择
     type: select
