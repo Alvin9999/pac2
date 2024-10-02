@@ -16,7 +16,7 @@
             "tag": "dongtaiwang.com",
             "tls": {
                 "enabled": true,
-                "server_name": "ip1.589643.xyz",
+                "server_name": "ip1.9447609.xyz",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -27,15 +27,15 @@
             "transport": {
                 "headers": {
                     "Host": [
-                        "ip1.589643.xyz"
+                        "ip1.9447609.xyz"
                     ]
                 },
-                "path": "dongtaiwang.com",
+                "path": "/2b0ee439-844b-42fb-8a86-288b65dc20e1",
                 "type": "ws"
             },
             "type": "vmess",
             "security": "auto",
-            "uuid": "25d1b318-87e8-4c1e-a784-69783be4b30a"
+            "uuid": "2b0ee439-844b-42fb-8a86-288b65dc20e1"
 
 
         }
