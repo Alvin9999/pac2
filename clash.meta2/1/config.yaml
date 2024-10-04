@@ -39,11 +39,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip3.6016725.xyz                    
+  servername: ip4.6016725.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip3.6016725.xyz 
+      Host: ip4.6016725.xyz 
 
 - name: dongtaiwang.com_2
   type: vmess
