@@ -11,12 +11,12 @@
   ],
   "outbounds": [
     {
-            "server": "104.21.238.201",
-            "server_port": 443,
+            "server": "104.21.238.40",
+            "server_port": 2086,
             "tag": "dongtaiwang.com",
             "tls": {
-                "enabled": true,
-                "server_name": "ip1.9447609.xyz",
+                "enabled": false,
+                "server_name": "www.bing.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -27,17 +27,15 @@
             "transport": {
                 "headers": {
                     "Host": [
-                        "ip1.9447609.xyz"
+                        "ip3.9447609.xyz"
                     ]
                 },
-                "path": "/2b0ee439-844b-42fb-8a86-288b65dc20e1",
+                "path": "github.com/Alvin9999",
                 "type": "ws"
             },
             "type": "vmess",
             "security": "auto",
-            "uuid": "2b0ee439-844b-42fb-8a86-288b65dc20e1"
-
-
+            "uuid": "ee420fda-efb7-48a8-9249-8987e36ebd9e"
         }
  ]
   }
