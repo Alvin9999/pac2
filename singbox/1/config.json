@@ -16,7 +16,7 @@
             "tag": "dongtaiwang.com",
             "tls": {
                 "enabled": false,
-                "server_name": "www.bing.com",
+                "server_name": "ip4.9447609.xyz",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -27,7 +27,7 @@
             "transport": {
                 "headers": {
                     "Host": [
-                        "ip3.9447609.xyz"
+                        "ip4.9447609.xyz"
                     ]
                 },
                 "path": "github.com/Alvin9999",
