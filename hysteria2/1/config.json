@@ -1,5 +1,5 @@
 {
-  "server": "207.90.239.157:3400,20000-30000",
+  "server": "207.90.239.157:11111",
   "auth": "dongtaiwang.com",
   "bandwidth": {
     "up": "11 mbps",
