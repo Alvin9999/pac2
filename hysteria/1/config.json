@@ -13,7 +13,7 @@
 "timeout": 300,
 "disable_udp": false
 },
-"obfs": "",
+"obfs": "dongtaiwang.com",
 "auth_str": "dongtaiwang.com",
 "alpn": "h3",
 "server_name": "bing.com",
