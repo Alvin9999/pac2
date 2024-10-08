@@ -1,5 +1,5 @@
 {
-"server": "166.1.221.169:11223",
+"server": "166.1.221.169:55555",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
@@ -13,7 +13,7 @@
 "timeout": 300,
 "disable_udp": false
 },
-"obfs": "dongtaiwang.com",
+"obfs": "",
 "auth_str": "dongtaiwang.com",
 "alpn": "h3",
 "server_name": "bing.com",
