@@ -15,7 +15,7 @@ dns:
 proxies:
 - name: dongtaiwang.com_0                     
   type: vmess
-  server: 104.21.238.36             
+  server: 104.21.238.37         
   port: 2095                                     
   uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b       
   alterId: 0
@@ -23,11 +23,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz
+      Host: ip7.8084726.xyz
 
 - name: dongtaiwang.com_1                    
   type: vmess
@@ -39,11 +39,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_2
   type: vmess
@@ -55,11 +55,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz
+      Host: ip7.8084726.xyz
 
 - name: dongtaiwang.com_3           
   type: vmess
@@ -71,11 +71,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_4           
   type: vmess
@@ -87,11 +87,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_5           
   type: vmess
@@ -103,11 +103,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_6          
   type: vmess
@@ -119,11 +119,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_7          
   type: vmess
@@ -135,11 +135,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz   
+      Host: ip7.8084726.xyz   
 
 - name: dongtaiwang.com_8         
   type: vmess
@@ -151,11 +151,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz   
+      Host: ip7.8084726.xyz   
 
 - name: dongtaiwang.com_9        
   type: vmess
@@ -167,11 +167,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz  
+      Host: ip7.8084726.xyz  
       
 - name: dongtaiwang.com_10        
   type: vmess
@@ -183,11 +183,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz  
+      Host: ip7.8084726.xyz  
       
 - name: dongtaiwang.com_11       
   type: vmess
@@ -199,11 +199,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz  
+      Host: ip7.8084726.xyz  
       
 - name: dongtaiwang.com_12      
   type: vmess
@@ -215,11 +215,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_13      
   type: vmess
@@ -231,11 +231,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_14    
   type: vmess
@@ -247,11 +247,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz  
+      Host: ip7.8084726.xyz  
 
 - name: dongtaiwang.com_15    
   type: vmess
@@ -263,11 +263,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_16   
   type: vmess
@@ -279,11 +279,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_17   
   type: vmess
@@ -295,11 +295,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_18   
   type: vmess
@@ -311,11 +311,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_19   
   type: vmess
@@ -327,11 +327,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_20   
   type: vmess
@@ -343,11 +343,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_21   
   type: vmess
@@ -359,11 +359,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_22  
   type: vmess
@@ -375,11 +375,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_23 
   type: vmess
@@ -391,11 +391,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_24 
   type: vmess
@@ -407,11 +407,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
  
 - name: dongtaiwang.com_25
   type: vmess
@@ -423,11 +423,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_26
   type: vmess
@@ -439,11 +439,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_27
   type: vmess
@@ -455,11 +455,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_28
   type: vmess
@@ -471,11 +471,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_29
   type: vmess
@@ -487,11 +487,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_30   
   type: vmess
@@ -503,11 +503,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_31                    
   type: vmess
@@ -519,11 +519,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_32
   type: vmess
@@ -535,11 +535,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz
+      Host: ip7.8084726.xyz
 
 - name: dongtaiwang.com_33           
   type: vmess
@@ -551,11 +551,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_34           
   type: vmess
@@ -567,11 +567,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_35           
   type: vmess
@@ -583,11 +583,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_36          
   type: vmess
@@ -599,11 +599,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_37          
   type: vmess
@@ -615,11 +615,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz   
+      Host: ip7.8084726.xyz   
 
 - name: dongtaiwang.com_38         
   type: vmess
@@ -631,11 +631,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz   
+      Host: ip7.8084726.xyz   
 
 - name: dongtaiwang.com_39        
   type: vmess
@@ -647,11 +647,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz  
+      Host: ip7.8084726.xyz  
       
 - name: dongtaiwang.com_40        
   type: vmess
@@ -663,11 +663,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz  
+      Host: ip7.8084726.xyz  
       
 - name: dongtaiwang.com_41       
   type: vmess
@@ -679,11 +679,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz  
+      Host: ip7.8084726.xyz  
       
 - name: dongtaiwang.com_42      
   type: vmess
@@ -695,11 +695,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_43      
   type: vmess
@@ -711,11 +711,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_44    
   type: vmess
@@ -727,11 +727,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz  
+      Host: ip7.8084726.xyz  
 
 - name: dongtaiwang.com_45    
   type: vmess
@@ -743,11 +743,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_46   
   type: vmess
@@ -759,11 +759,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_47   
   type: vmess
@@ -775,11 +775,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_48   
   type: vmess
@@ -791,11 +791,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_49   
   type: vmess
@@ -807,11 +807,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_50   
   type: vmess
@@ -823,11 +823,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_51   
   type: vmess
@@ -839,11 +839,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_52  
   type: vmess
@@ -855,11 +855,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_53 
   type: vmess
@@ -871,11 +871,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_54 
   type: vmess
@@ -887,11 +887,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
  
 - name: dongtaiwang.com_55
   type: vmess
@@ -903,11 +903,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_56
   type: vmess
@@ -919,11 +919,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_57
   type: vmess
@@ -935,11 +935,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_58
   type: vmess
@@ -951,11 +951,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_59
   type: vmess
@@ -967,11 +967,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_60   
   type: vmess
@@ -983,11 +983,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz   
+      Host: ip7.8084726.xyz   
 - name: dongtaiwang.com_61                    
   type: vmess
   server: 172.64.167.5               
@@ -998,11 +998,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_62
   type: vmess
@@ -1014,11 +1014,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz
+      Host: ip7.8084726.xyz
 
 - name: dongtaiwang.com_63           
   type: vmess
@@ -1030,11 +1030,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_64           
   type: vmess
@@ -1046,11 +1046,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_65           
   type: vmess
@@ -1062,11 +1062,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_66          
   type: vmess
@@ -1078,11 +1078,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_67          
   type: vmess
@@ -1094,11 +1094,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz   
+      Host: ip7.8084726.xyz   
 
 - name: dongtaiwang.com_68         
   type: vmess
@@ -1110,11 +1110,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz   
+      Host: ip7.8084726.xyz   
 
 - name: dongtaiwang.com_69        
   type: vmess
@@ -1126,11 +1126,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz  
+      Host: ip7.8084726.xyz  
       
 - name: dongtaiwang.com_70        
   type: vmess
@@ -1142,11 +1142,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz  
+      Host: ip7.8084726.xyz  
       
 - name: dongtaiwang.com_71       
   type: vmess
@@ -1158,11 +1158,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz  
+      Host: ip7.8084726.xyz  
       
 - name: dongtaiwang.com_72      
   type: vmess
@@ -1174,11 +1174,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_73      
   type: vmess
@@ -1190,11 +1190,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_74    
   type: vmess
@@ -1206,11 +1206,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz  
+      Host: ip7.8084726.xyz  
 
 - name: dongtaiwang.com_75    
   type: vmess
@@ -1222,11 +1222,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_76   
   type: vmess
@@ -1238,11 +1238,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_77   
   type: vmess
@@ -1254,11 +1254,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_78   
   type: vmess
@@ -1270,11 +1270,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_79   
   type: vmess
@@ -1286,11 +1286,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_80   
   type: vmess
@@ -1302,11 +1302,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_81   
   type: vmess
@@ -1318,11 +1318,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_82  
   type: vmess
@@ -1334,11 +1334,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_83 
   type: vmess
@@ -1350,11 +1350,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_84 
   type: vmess
@@ -1366,11 +1366,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
  
 - name: dongtaiwang.com_85
   type: vmess
@@ -1382,11 +1382,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_86
   type: vmess
@@ -1398,11 +1398,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_87
   type: vmess
@@ -1414,11 +1414,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_88
   type: vmess
@@ -1430,11 +1430,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_89
   type: vmess
@@ -1446,11 +1446,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_90   
   type: vmess
@@ -1462,11 +1462,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_91  
   type: vmess
@@ -1478,11 +1478,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_92 
   type: vmess
@@ -1494,11 +1494,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
  
 - name: dongtaiwang.com_93 
   type: vmess
@@ -1510,11 +1510,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_94
   type: vmess
@@ -1526,11 +1526,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 - name: dongtaiwang.com_95
   type: vmess
@@ -1542,11 +1542,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
      
 - name: dongtaiwang.com_96
   type: vmess
@@ -1558,11 +1558,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_97
   type: vmess
@@ -1574,11 +1574,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_98
   type: vmess
@@ -1590,11 +1590,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
 
 - name: dongtaiwang.com_99
   type: vmess
@@ -1606,11 +1606,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz    
+      Host: ip7.8084726.xyz    
 
 - name: dongtaiwang.com_100
   type: vmess
@@ -1622,11 +1622,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.8084726.xyz                    
+  servername: ip7.8084726.xyz                    
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip5.8084726.xyz 
+      Host: ip7.8084726.xyz 
       
 proxy-groups:
   - name: 🚀 节点选择
