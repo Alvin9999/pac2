@@ -11,32 +11,32 @@
   ],
   "outbounds": [
     {
-            "server": "104.21.238.40",
-            "server_port": 2086,
-            "tag": "dongtaiwang.com",
-            "tls": {
-                "enabled": false,
-                "server_name": "ip9.9447609.xyz",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "packet_encoding": "packetaddr",
-            "transport": {
-                "headers": {
-                    "Host": [
-                        "ip9.9447609.xyz"
-                    ]
-                },
-                "path": "github.com/Alvin9999",
-                "type": "ws"
-            },
-            "type": "vmess",
-            "security": "auto",
-            "uuid": "ee420fda-efb7-48a8-9249-8987e36ebd9e"
+      "type": "vless",
+      "tag": "dongtaiwang.com",
+      "server": "91.149.239.23", 
+      "server_port": 12345,
+      "uuid": "37c5c02a-45ca-4c5c-a5c0-e8238571d11a", 
+      "flow": "",
+      "transport": {
+        "type": "grpc",
+        "service_name": "23MKsu1m"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nijigen-works.jp", 
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "5CbVsui_i_MD3uKpQPKm7a0Ch711dN5ZHV5tZap-HF8",
+          "short_id": "d066b03b353640b8"
         }
+
+		}
+			}
+
  ]
   }
   
