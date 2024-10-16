@@ -14,16 +14,19 @@ dns:
       - 0.0.0.0/32
 proxies:
   - name: dongtaiwang.com_0                     
-    type: hysteria
+    type: vless
     server: 46.29.166.206
-    port: 100
-    auth_str: dongtaiwang.com
-    alpn:
-      - h3
-    sni: www.bing.com
-    skip-cert-verify: true
-    up: "11 Mbps"
-    down: "55 Mbps"
+    port: 400                                
+    uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2
+    network: tcp
+    udp: true
+    tls: true
+    flow: xtls-rprx-vision
+    servername: www.paypal.com
+    reality-opts: 
+      public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
+      short-id: ''                 
+    client-fingerprint: chrome
 proxy-groups:
   - name: 🚀 节点选择
     type: select
