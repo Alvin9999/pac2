@@ -16,7 +16,7 @@ proxies:
 
 - name: dongtaiwang.com_0
   type: vmess
-  server: 104.21.238.1
+  server: 104.18.114.1
   port: 2082
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   alterId: 0
@@ -33,7 +33,7 @@ proxies:
 
 - name: dongtaiwang.com_1
   type: vmess
-  server: 104.21.238.2
+  server: 104.18.114.2
   port: 2082
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   alterId: 0
