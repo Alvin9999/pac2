@@ -15,7 +15,7 @@ jobs:
 
       - name: List Files (Debugging Step)
         run: |
-          ls -al  # 列出文件，检查路径
+          ls -al clash.meta2/3/  # 确认文件存在
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -24,7 +24,7 @@ jobs:
 
       - name: Run Update Script
         run: |
-          python clash.meta2/3/update_config.py  # 执行脚本
+          python clash.meta2/3/update_config.py
 
       - name: Commit and Push Changes
         run: |
