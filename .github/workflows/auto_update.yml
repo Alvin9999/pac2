@@ -2,7 +2,7 @@ name: Auto Update Config
 
 on:
   schedule:
-    - cron: '0 9 * * *'  # 每天早上 9 点
+  - cron: '5 1 * * *'  # 每天 UTC 时间 1:05 (北京时间 9:05)
   workflow_dispatch:      # 支持手动触发
 
 jobs:
