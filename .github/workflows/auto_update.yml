@@ -2,7 +2,7 @@ name: Auto Update Config
 
 on:
   schedule:
-    - cron: '0 9 * * *'  # 每天早上 9 点自动运行
+    - cron: '0 9 * * *'  # 每天早上 9 点
   workflow_dispatch:      # 支持手动触发
 
 jobs:
@@ -13,24 +13,23 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3  # 拉取仓库代码
 
+      - name: List Files (Debugging Step)
+        run: |
+          ls -al  # 列出文件，检查路径
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'  # 设置 Python 版本
-
-      - name: Install Dependencies (if needed)
-        run: |
-          # 如果你的脚本有外部依赖，可以在这里安装
-          echo "No dependencies to install"
+          python-version: '3.x'
 
       - name: Run Update Script
         run: |
-          python update_config.py  # 运行脚本
+          python clash.meta2/3/update_config.py  # 执行脚本
 
       - name: Commit and Push Changes
         run: |
           git config --local user.name "github-actions"
           git config --local user.email "actions@github.com"
-          git add config.yaml
+          git add clash.meta2/3/config.yaml
           git commit -m "Auto-update config.yaml: Increment domains"
           git push
