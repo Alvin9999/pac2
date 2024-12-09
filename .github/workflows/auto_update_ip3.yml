@@ -12,7 +12,7 @@ jobs:
     steps:
       # 1. 检出代码仓库
       - name: Checkout Repository
-        uses: actions/checkout@v3  # 拉取仓库代码
+        uses: actions/checkout@v3
 
       # 2. 列出文件，确认路径正确
       - name: List Files (Debugging Step)
@@ -25,7 +25,7 @@ jobs:
         with:
           python-version: '3.x'
 
-      # 4. 安装 Python 依赖（如果有需要）
+      # 4. 安装 Python 依赖
       - name: Install Dependencies
         run: |
           pip install pytz  # 如有其他依赖，可以在这里添加
@@ -40,7 +40,15 @@ jobs:
         run: |
           git config --local user.name "github-actions"
           git config --local user.email "actions@github.com"
-          git pull --rebase  # 拉取远程最新更新，确保同步
+
+          # 先暂存更改，确保工作目录干净
           git add clash.meta2/13/config.yaml
+
+          # 如果有更改，先提交，再拉取并推送
           git commit -m "Auto-update config.yaml: Increment domains" || echo "No changes to commit"
+
+          # 拉取远程更新并合并
+          git pull --rebase --autostash
+
+          # 推送到远程仓库
           git push
