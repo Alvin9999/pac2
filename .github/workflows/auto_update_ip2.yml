@@ -1,0 +1,35 @@
+name: Auto Update Config
+
+on:
+  schedule:
+    - cron: '5 * * * *'  # 每小时的第5分钟自动运行（UTC时间）
+  workflow_dispatch:      # 支持手动触发
+
+jobs:
+  update-config:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3  # 拉取仓库代码
+
+      - name: List Files (Debugging Step)
+        run: |
+          ls -al clash.meta2/  # 确认文件存在
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run Update Script
+        run: |
+          python clash.meta2/update_config.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.name "github-actions"
+          git config --local user.email "actions@github.com"
+          git add clash.meta2/config.yaml
+          git commit -m "Auto-update config.yaml: Increment domains"
+          git push
