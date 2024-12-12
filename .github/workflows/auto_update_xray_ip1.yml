@@ -42,10 +42,10 @@ jobs:
           git config --local user.email "actions@github.com"
 
           # 先暂存更改，确保工作目录干净
-          git add xray/1/config.yaml
+          git add xray/1/config.json
 
           # 如果有更改，先提交，再拉取并推送
-          git commit -m "Auto-update config.yaml: Increment domains" || echo "No changes to commit"
+          git commit -m "Auto-update config.json: Increment domains" || echo "No changes to commit"
 
           # 拉取远程更新并合并
           git pull --rebase --autostash
