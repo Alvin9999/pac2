@@ -21,7 +21,7 @@ def increment_domain(match):
     return f"{base}{num}{suffix}"
 
 # 正则表达式匹配并替换域名中的数字
-updated_content = re.sub(r"(y)(\d+)(\.978480\.xyz)", increment_domain, content)
+updated_content = re.sub(r"(y)(\d+)(\.121845\.xyz)", increment_domain, content)
 
 # 将更新后的内容写回 config.json
 with open(config_file, "w", encoding="utf-8") as file:
