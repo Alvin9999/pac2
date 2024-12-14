@@ -16,8 +16,8 @@ def increment_domain(match):
     return f"{base}{num}{suffix}"
 
 # 更新 servername 和 host
-updated_content = re.sub(r"(servername:\s+m)(\d+)(\.106778\.xyz)", increment_domain, content)
-updated_content = re.sub(r"(Host:\s+m)(\d+)(\.106778\.xyz)", increment_domain, updated_content)
+updated_content = re.sub(r"(servername:\s+m)(\d+)(\.155857\.xyz)", increment_domain, content)
+updated_content = re.sub(r"(Host:\s+m)(\d+)(\.155857\.xyz)", increment_domain, updated_content)
 
 # 将更新后的内容写回文件
 with open(config_file, "w") as file:
