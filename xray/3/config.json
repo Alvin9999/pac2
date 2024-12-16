@@ -55,7 +55,7 @@
             "port": 2086,
             "users": [
               {
-                "id": "ee420fda-efb7-48a8-9249-8987e36ebd9e",
+                "id": "7d92ffc9-02e1-4087-8a46-cc4d76560917",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -69,7 +69,7 @@
         "wsSettings": {
           "path": "github.com/Alvin9999",
           "headers": {
-            "Host": "z171.570241.xyz"
+            "Host": "z171.164748.xyz"
           }
         }
       },
