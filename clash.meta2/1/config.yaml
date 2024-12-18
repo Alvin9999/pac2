@@ -14,77 +14,17 @@ dns:
       - 0.0.0.0/32
 proxies:
   - name: dongtaiwang.com_0                     
-    type: vmess
-    server: 208.87.243.123
-    port: 8443
-    uuid: b5344405-aca9-4faa-c3b7-b59914e33631
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    servername: 1.164748.xyz
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: 1.164748.xyz
-      early-data-header-name: Sec-WebSocket-Protocol
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-  - name: dongtaiwang.com_1                   
-    type: vmess
-    server: 208.87.243.123
-    port: 8443
-    uuid: b5344405-aca9-4faa-c3b7-b59914e33631
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    servername: 1.164748.xyz
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: 1.164748.xyz
-      early-data-header-name: Sec-WebSocket-Protocol
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-  - name: dongtaiwang.com_2                    
-    type: vmess
-    server: 208.87.243.123
-    port: 8443
-    uuid: b5344405-aca9-4faa-c3b7-b59914e33631
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    servername: 1.164748.xyz
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: 1.164748.xyz
-      early-data-header-name: Sec-WebSocket-Protocol
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-  - name: dongtaiwang.com_3                     
-    type: vmess
-    server: 208.87.243.123
-    port: 8443
-    uuid: b5344405-aca9-4faa-c3b7-b59914e33631
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    servername: 1.164748.xyz
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: 1.164748.xyz
-      early-data-header-name: Sec-WebSocket-Protocol
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
+    type: hysteria2
+    server: 166.1.190.83
+    port: 61677
+    ports: 10000-50000
+    password: github.com/Alvin9999
+    alpn:
+      - h3
+    sni: www.bing.com
+    skip-cert-verify: true
+    up: "5 Mbps"
+    down: "10 Mbps"
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -92,9 +32,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
-      - dongtaiwang.com_2
-      - dongtaiwang.com_3
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -102,9 +39,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
-      - dongtaiwang.com_2
-      - dongtaiwang.com_3
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -112,36 +46,24 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
-      - dongtaiwang.com_2
-      - dongtaiwang.com_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
-      - dongtaiwang.com_2
-      - dongtaiwang.com_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
-      - dongtaiwang.com_2
-      - dongtaiwang.com_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
-      - dongtaiwang.com_2
-      - dongtaiwang.com_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -165,8 +87,5 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
-      - dongtaiwang.com_2
-      - dongtaiwang.com_3
 rules:
   - MATCH,🚀 节点选择
