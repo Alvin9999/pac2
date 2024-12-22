@@ -26,7 +26,7 @@
     },
     {
       "tag": "http",
-      "port": 10809,
+      "port": 1081,
       "listen": "127.0.0.1",
       "protocol": "http",
       "sniffing": {
@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.238.36",
-            "port": 2086,
+            "address": "36.226.243.107",
+            "port": 33221,
             "users": [
               {
-                "id": "7d92ffc9-02e1-4087-8a46-cc4d76560917",
+                "id": "7c4efc45-42f7-48d8-a741-6093cd2886a7",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -68,9 +68,7 @@
         "network": "ws",
         "wsSettings": {
           "path": "github.com/Alvin9999",
-          "headers": {
-            "Host": "y333.164748.xyz"
-          }
+          "headers": {}
         }
       },
       "mux": {
