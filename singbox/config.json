@@ -13,22 +13,22 @@
     {
       "type": "vless",
       "tag": "vless-haha",
-      "server": "108.181.5.18",
-      "server_port": 61831,
-      "uuid": "04fae3bc-f139-4ae4-80c2-843b5d17d17a",
+      "server": "185.22.155.105",
+      "server_port": 34077,
+      "uuid": "2349e5ae-2f2e-41bb-a169-a0b4c9dcd3e9",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.yahoo.com",
+        "server_name": "aws.amazon.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
       "reality": {
           "enabled": true,
-          "public_key": "DreQUK_jtC1rXKOjFXPIUbiU38icZVbQPDZ1bMxLdEY",
-          "short_id": "a8395691"
+          "public_key": "XENnre8gNAN68H0IBlu_G33iCGC4IIO2nHnxV90kdE0",
+          "short_id": ""
         }
       }
     }
