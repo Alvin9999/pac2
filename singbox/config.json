@@ -11,25 +11,22 @@
   ],
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "vless-haha",
-      "server": "185.22.155.105",
-      "server_port": 34077,
-      "uuid": "2349e5ae-2f2e-41bb-a169-a0b4c9dcd3e9",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
+      "type": "hysteria",
+      "tag": "dongtaiwang.com",
+      "server": "195.154.200.178", 
+      "server_port": 10312,
+      "up_mbps": 11, 
+      "down_mbps": 55,
+      "obfs": "dongtaiwang.com",
+      "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
-        "server_name": "aws.amazon.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-      "reality": {
-          "enabled": true,
-          "public_key": "XENnre8gNAN68H0IBlu_G33iCGC4IIO2nHnxV90kdE0",
-          "short_id": ""
-        }
+        "insecure": true,
+        "server_name": "bing.com", 
+        "alpn": [
+          "h3"
+        ]
+
       }
     }
   ] 
