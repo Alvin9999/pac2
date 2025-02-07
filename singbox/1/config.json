@@ -14,7 +14,7 @@
       "type": "hysteria",
       "tag": "dongtaiwang.com",
       "server": "195.154.200.178", 
-      "server_port": 10312,
+      "server_port": 34911,
       "up_mbps": 11, 
       "down_mbps": 55,
       "obfs": "dongtaiwang.com",
@@ -22,7 +22,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "bing.com", 
+        "server_name": "apple.com", 
         "alpn": [
           "h3"
         ]
