@@ -1,5 +1,5 @@
 {
-"server": "185.22.155.71:15424,30000-40000",
+"server": "185.22.155.71:63717,40000-50000",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
@@ -16,7 +16,7 @@
 "obfs": "dongtaiwang.com",
 "auth_str": "dongtaiwang.com",
 "alpn": "h3",
-"server_name": "bing.com",
+"server_name": "apple.com",
 "insecure": true,
 "recv_window_conn": 57671680,
 "recv_window": 230686720,
