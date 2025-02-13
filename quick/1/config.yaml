@@ -16,8 +16,8 @@ proxies:
   - name: dongtaiwang.com_0                     
     type: hysteria
     server: 185.22.155.71
-    port: 15424
-    ports: 30000-40000
+    port: 63717
+    ports: 40000-50000
     auth_str: dongtaiwang.com
     obfs: dongtaiwang.com
     alpn:
