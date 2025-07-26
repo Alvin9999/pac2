@@ -1,12 +1,12 @@
 {
-  "server": "46.17.41.217:30033",
+  "server": "64.31.63.57:44462",
   "auth": "dongtaiwang.com",
   "bandwidth": {
     "up": "11 mbps",
     "down": "55 mbps"
   },
   "tls": {
-    "sni": "www.bing.com",
+    "sni": "apple.com",
     "insecure": true
   },
   "quic": {
