@@ -1,26 +1,36 @@
 {
-  "server": "104.168.10.164:63632,10000-20000",
+  "server": "104.168.10.176:35205,10000-20000",
   "auth": "dongtaiwang.com",
-  "bandwidth": {
-    "up": "11 mbps",
-    "down": "55 mbps"
+  "obfs": {
+    "type": "salamander",
+    "salamander": {
+      "password": "dongtaiwang.com"
+    }
   },
   "tls": {
     "sni": "apple.com",
     "insecure": true
   },
-  "quic": {
-    "initStreamReceiveWindow": 16777216,
-    "maxStreamReceiveWindow": 16777216,
-    "initConnReceiveWindow": 33554432,
-    "maxConnReceiveWindow": 33554432
+  "transport": {
+    "type": "udp",
+    "udp": {
+      "hopInterval": "300s"
+    }
   },
+  "quic": {
+    "initStreamReceiveWindow": 3520000,
+    "initConnReceiveWindow": 8800000,
+    "maxConnReceiveWindow": 13200000,
+    "maxStreamReceiveWindow": 5280000,
+    "keepAlivePeriod": "60s"
+  },
+  "bandwidth": {
+    "down": "22mbps",
+    "up": "1mbps"
+  },
+  "fastOpen": true,
+  "lazy": true,
   "socks5": {
     "listen": "127.0.0.1:1080"
-  },
-  "transport": {
-    "udp": {
-      "hopInterval": "30s"
-    }
   }
 }
