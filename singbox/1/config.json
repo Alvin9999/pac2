@@ -13,8 +13,8 @@
     {
       "type": "hysteria",
       "tag": "dongtaiwang.com",
-      "server": "108.181.24.77", 
-      "server_port": 11512,
+      "server": "51.159.226.1", 
+      "server_port": 49003,
       "up_mbps": 11, 
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
