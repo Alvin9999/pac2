@@ -47,28 +47,35 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "2001:bc8:32d7:302::10",
-            "port": 44579,
+            "address": "2001:bc8:32d7:302::13",
+            "port": 34324,
             "users": [
               {
-                "id": "8e34e170-13ae-4892-9d20-05962acc9f84",
+                "id": "26c462ba-a90c-4814-9d7c-a629bc0bdb5c",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "",
-          "headers": {}
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "dash.cloudflare.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M",
+          "shortId": "",
+          "spiderX": ""
         }
       },
       "mux": {
