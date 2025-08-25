@@ -16,7 +16,7 @@ proxies:
   - name: dongtaiwang.com_0                     
     type: hysteria2
     server: 2001:bc8:32d7:302::11
-    port: 33563
+    port: 20088
     password: dongtaiwang.com
     sni: apple.com
     skip-cert-verify: true
