@@ -15,13 +15,14 @@ dns:
 proxies:
   - name: dongtaiwang.com_0                     
     type: hysteria
-    server: 2604:6600:2004::18b
-    port: 38845
-    auth_str: dongtaiwang.com
+    server: 2001:bc8:32d7:312::6
+    port: 50011
+    auth-str: dongtaiwang.com
+    sni: apple.com
+    skip-cert-verify: true
     alpn:
       - h3
-    sni: www.bing.com
-    skip-cert-verify: true
+    protocol: udp
     up: "11 Mbps"
     down: "55 Mbps"
 proxy-groups:
