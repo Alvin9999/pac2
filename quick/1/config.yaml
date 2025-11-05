@@ -15,7 +15,7 @@ dns:
 proxies:
   - name: dongtaiwang.com_0                     
     type: hysteria
-    server: 62.210.127.217
+    server: 62.210.10.18
     port: 50011
     auth-str: dongtaiwang.com
     sni: apple.com
