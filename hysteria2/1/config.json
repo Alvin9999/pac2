@@ -1,5 +1,5 @@
 {
-  "server": "[2001:bc8:32d7:302::11]:20088",
+  "server": "[2001:bc8:32d7:17b::8]:22000",
   "auth": "dongtaiwang.com",
   "tls": {
     "sni": "apple.com",
