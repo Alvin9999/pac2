@@ -13,15 +13,15 @@
     {
       "type": "hysteria",
       "tag": "dongtaiwang.com",
-      "server": "51.159.226.1", 
-      "server_port": 49003,
+      "server": "62.210.127.177", 
+      "server_port": 23880,
       "up_mbps": 11, 
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "apple.com", 
+        "server_name": "bing.com", 
         "alpn": [
           "h3"
         ]
